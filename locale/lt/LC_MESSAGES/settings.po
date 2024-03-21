@@ -1,8 +1,4 @@
-# Copyright (C) Odoo S.A.
-# This file is distributed under the same license as the Odoo package.
-# Via laurea <info@vialaurea.lt>, 2024.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
@@ -19,117 +15,239 @@ msgstr ""
 
 #: ../../content/applications/settings.rst:3
 msgid "Settings"
-msgstr ""
+msgstr "Nustatymai"
 
 #: ../../content/applications/settings/users_and_features.rst:6
 msgid "Users and Features"
-msgstr ""
+msgstr "Vartotojai ir funkcijos"
 
 #: ../../content/applications/settings/users_and_features.rst:8
-msgid "As the administrator of your database, you are responsible for its usage. This includes the Apps you install as well as the number of users currently in use."
+msgid ""
+"As the administrator of your database, you are responsible for its usage. "
+"This includes the Apps you install as well as the number of users currently "
+"in use."
 msgstr ""
+"Kaip jūsų duomenų bazės administratorius, jūs atsakote už jos naudojimą. Tai "
+"apima jūsų įdiegtas programas, taip pat šiuo metu naudojamų vartotojų "
+"skaičių."
 
 #: ../../content/applications/settings/users_and_features.rst:12
-msgid "Odoo is many things (ERP, CMS, CRM application, e-Commerce backend, etc.) but it is *not* a smartphone. You should apply caution when adding/removing features (especially Apps) on your database since this may impact your subscription amount significantly (or switch you from a free account to a paying one on our online platform)."
+msgid ""
+"Odoo is many things (ERP, CMS, CRM application, e-Commerce backend, etc.) "
+"but it is *not* a smartphone. You should apply caution when adding/removing "
+"features (especially Apps) on your database since this may impact your "
+"subscription amount significantly (or switch you from a free account to a "
+"paying one on our online platform)."
 msgstr ""
+"Odoo yra daugelis dalykų (ERP, CMS, CRM programa, e-prekybos sistemos "
+"pagrindas ir t.t.), bet tai *nėra* išmanusis telefonas. Turėtumėte būti "
+"atsargūs pridedant / šalinant funkcijas (ypač programėles) savo duomenų "
+"bazeje, nes tai gali reikšmingai paveikti jūsų prenumeratos kainą (arba "
+"perjungti jus nuo nemokamos paskyros į mokamą mūsų internetinėje "
+"platformoje)."
 
 #: ../../content/applications/settings/users_and_features.rst:18
-msgid "This page contains some information as to how you can manage your Odoo instances. Before carrying any of these procedures, we **strongly** advise to test them on a duplicate of your database first. That way, if something goes wrong, your day-to-day business is not impacted."
+msgid ""
+"This page contains some information as to how you can manage your Odoo "
+"instances. Before carrying any of these procedures, we **strongly** advise "
+"to test them on a duplicate of your database first. That way, if something "
+"goes wrong, your day-to-day business is not impacted."
 msgstr ""
+"Šiame puslapyje yra informacijos, kaip galite valdyti savo Odoo instancijas. "
+"Prieš atliekant bet kurias iš šių procedūrų, mes **labai** rekomenduojame "
+"išbandyti jas pirmiausia ant savo duomenų bazės kopijos. Taip, jei kas nors "
+"nepavyks, jūsų kasdienis verslas nebus paveiktas."
 
 #: ../../content/applications/settings/users_and_features.rst:23
-msgid "You can find guides on how to duplicate your databases both for :ref:`online <duplicate_online>` and :ref:`on premise <duplicate_premise>` installations."
+msgid ""
+"You can find guides on how to duplicate your databases both for :ref:`online "
+"<duplicate_online>` and :ref:`on premise <duplicate_premise>` installations."
 msgstr ""
+"Galite rasti vadovų, kaip dubliuoti savo duomenų bazes tiek :ref:`internetu "
+"<duplicate_online>`, tiek :ref:`vietoje <duplicate_premise>` įdiegimams."
 
 #: ../../content/applications/settings/users_and_features.rst:27
-msgid "If you have questions about the content of this page or if you encounter an issue while carrying out these procedures, please contact us through our `support form <https://www.odoo.com/help>`__."
+msgid ""
+"If you have questions about the content of this page or if you encounter an "
+"issue while carrying out these procedures, please contact us through our "
+"`support form <https://www.odoo.com/help>`__."
 msgstr ""
+"Jei turite klausimų apie šio puslapio turinį arba susiduriate su problema "
+"vykdant šias procedūras, susisiekite su mumis per mūsų `pagalbos formą "
+"<https://www.odoo.com/help>`__."
 
 #: ../../content/applications/settings/users_and_features.rst:33
 msgid "Deactivating Users"
-msgstr ""
+msgstr "Išjungiant vartotojus"
 
 #: ../../content/applications/settings/users_and_features.rst:35
-msgid "Make sure you have sufficient **administrative rights** if you want to change the status of any of your users."
+msgid ""
+"Make sure you have sufficient **administrative rights** if you want to "
+"change the status of any of your users."
 msgstr ""
+"Įsitikinkite, kad turite pakankamas **administratoriaus teises**, jei norite "
+"pakeisti bet kurio iš savo vartotojų statusą."
 
 #: ../../content/applications/settings/users_and_features.rst:38
-msgid "In your Odoo instance, click on **Settings**. You will have a section showing you the active users on your database. Click on **Manage Users.**"
+msgid ""
+"In your Odoo instance, click on **Settings**. You will have a section "
+"showing you the active users on your database. Click on **Manage Users.**"
 msgstr ""
+"Savo Odoo egzemplioriuje spustelėkite **Nustatymai**. Atsidarys skyrius, "
+"kuriame matysite aktyvius duomenų bazės vartotojus. Spustelėkite **Valdyti "
+"vartotojus**."
 
 #: ../../content/applications/settings/users_and_features.rst:42
 #: ../../content/applications/settings/users_and_features.rst:79
 msgid "|settings|"
-msgstr ""
+msgstr "|nustatymai|"
 
 #: ../../content/applications/settings/users_and_features.rst:42
 msgid "|browse_users|"
-msgstr ""
+msgstr "|naršyti_vartotojus|"
 
 #: ../../content/applications/settings/users_and_features.rst:45
 msgid "You'll then see the list of your users."
-msgstr ""
+msgstr "Tada matysite savo vartotojų sąrašą."
 
 #: ../../content/applications/settings/users_and_features.rst:50
-msgid "The pre-selected filter *Internal Users* shows your paying users (different from the *Portal Users* which are free). If you remove this filter, you'll get all your users (the ones you pay for and the portal ones)"
+msgid ""
+"The pre-selected filter *Internal Users* shows your paying users (different "
+"from the *Portal Users* which are free). If you remove this filter, you'll "
+"get all your users (the ones you pay for and the portal ones)"
 msgstr ""
+"Iš anksto parinktas filtras *Vidiniai naudotojai* rodo jūsų mokamus "
+"naudotojus (skirtingai nuo *Portalų naudotojų*, kurie yra nemokami). Jei "
+"pašalinsite šį filtrą, gausite visus savo naudotojus (tie, už kuriuos "
+"mokate, ir portalo naudotojus)"
 
 #: ../../content/applications/settings/users_and_features.rst:55
-msgid "In your list of users, click on the user you want to deactivate. As soon as you are on the userform, click on the Action drop down menu, and then click on Archive."
+msgid ""
+"In your list of users, click on the user you want to deactivate. As soon as "
+"you are on the userform, click on the Action drop down menu, and then click "
+"on Archive."
 msgstr ""
+"Savo naudotojų sąraše paspauskite ant naudotojo, kurį norite deaktyvuoti. "
+"Kai tik atsidursite naudotojo formoje, paspauskite veiksmo išskleidžiamajame "
+"meniu, o tada paspauskite Archyvuoti."
 
 #: ../../content/applications/settings/users_and_features.rst:63
 msgid "The user is now deactivated."
-msgstr ""
+msgstr "Vartotojas dabar yra išjungtas."
 
 #: ../../content/applications/settings/users_and_features.rst:65
 msgid "**Never** deactivate the main user (*admin*)"
-msgstr ""
+msgstr "**Niekada** neįjunkite pagrindinio vartotojo (*admin*)"
 
 #: ../../content/applications/settings/users_and_features.rst:68
 msgid "Uninstalling Apps"
-msgstr ""
+msgstr "Programėlių šalinimas"
 
 #: ../../content/applications/settings/users_and_features.rst:70
-msgid "Make sure you first test what you are about to do on a :ref:`duplicate <duplicate_online>` of your database before making any changes (*especially* installing/uninstalling apps)."
+msgid ""
+"Make sure you first test what you are about to do on a :ref:`duplicate "
+"<duplicate_online>` of your database before making any changes (*especially* "
+"installing/uninstalling apps)."
 msgstr ""
+"Įsitikinkite, kad pirmiausia išbandysite, ką ketinate daryti su "
+":ref:`dubliuotu <duplicate_online>` savo duomenų bazei, prieš atliekant bet "
+"kokius pakeitimus (*ypač* įdiegiant/išdiegiant programas)."
 
 #: ../../content/applications/settings/users_and_features.rst:74
-msgid "In your Odoo instance click on **Settings**; in this app, you will be able to see how many applications you have installed. Click on **Browse Apps** to access the list of your installed applications."
+msgid ""
+"In your Odoo instance click on **Settings**; in this app, you will be able "
+"to see how many applications you have installed. Click on **Browse Apps** to "
+"access the list of your installed applications."
 msgstr ""
+"Savo Odoo egzemplioriuje spustelėkite **Nustatymai**; šioje programėlėje "
+"galėsite matyti, kiek programėlių esate įdiegę. Spustelėkite **Naršyti "
+"programėles**, kad patektumėte į savo įdiegtų programėlių sąrašą."
 
 #: ../../content/applications/settings/users_and_features.rst:79
 msgid "|browse_apps|"
-msgstr ""
+msgstr "|naršyti_programas|"
 
 #: ../../content/applications/settings/users_and_features.rst:82
-msgid "In your applications' dashboard, you will see all the icons of your applications. Click on the application you want to uninstall. Then, on the form of the application, click on **Uninstall**."
+msgid ""
+"In your applications' dashboard, you will see all the icons of your "
+"applications. Click on the application you want to uninstall. Then, on the "
+"form of the application, click on **Uninstall**."
 msgstr ""
+"Savo programų prietaisų skydelyje matysite visų jūsų programų piktogramas. "
+"Paspauskite ant programos, kurią norite išinstaliuoti. Tada, programos "
+"formoje, paspauskite **Išinstaliuoti**."
 
 #: ../../content/applications/settings/users_and_features.rst:89
-msgid "Some applications have dependencies, like Invoicing, eCommerce, etc. Therefore, the system will give you a warning message to advise you of what is about to be removed. If you uninstall your application, all its dependencies will be uninstalled as well (and the data in them will permanently disappear). If you are sure you still want to uninstall it, then click **Confirm**."
+msgid ""
+"Some applications have dependencies, like Invoicing, eCommerce, etc. "
+"Therefore, the system will give you a warning message to advise you of what "
+"is about to be removed. If you uninstall your application, all its "
+"dependencies will be uninstalled as well (and the data in them will "
+"permanently disappear). If you are sure you still want to uninstall it, then "
+"click **Confirm**."
 msgstr ""
+"Kai kurios programos turi priklausomybių, pavyzdžiui, Sąskaitų faktūravimas, "
+"Elektroninė prekyba ir t.t. Todėl sistema jums duos įspėjimo pranešimą, "
+"patarsiantį, kas bus pašalinta. Jei išinstaliuosite savo programą, bus "
+"išinstaliuotos ir visos jos priklausomybės (ir juose esanti informacija bus "
+"nuolat ištrinta). Jei esate tikri, kad vis tiek norite ją išinstaliuoti, "
+"tada paspauskite **Patvirtinti**."
 
 #: ../../content/applications/settings/users_and_features.rst:96
-msgid "Last, after having checked the warning message (if any), click **Confirm**."
+msgid ""
+"Last, after having checked the warning message (if any), click **Confirm**."
 msgstr ""
+"Galiausiai, patikrinę įspėjimo pranešimą (jei toks yra), spustelėkite "
+"**Patvirtinti**."
 
 #: ../../content/applications/settings/users_and_features.rst:101
 msgid "You have finished uninstalling your application."
-msgstr ""
+msgstr "Jūs baigėte išinstaliuoti savo programą."
 
 #: ../../content/applications/settings/users_and_features.rst:104
 msgid "Good to know"
-msgstr ""
+msgstr "Gerai žinoti"
 
 #: ../../content/applications/settings/users_and_features.rst:106
-msgid "**Uninstalling apps, managing users, etc. is up to you**: no one else can know if your business flow is broken better than you. If we were to uninstall applications for you, we would never be able to tell if relevant data had been removed or if one of your business flow was broken because we *do not know how you work* and therefore cannot validate these kinds of operations."
+msgid ""
+"**Uninstalling apps, managing users, etc. is up to you**: no one else can "
+"know if your business flow is broken better than you. If we were to "
+"uninstall applications for you, we would never be able to tell if relevant "
+"data had been removed or if one of your business flow was broken because we "
+"*do not know how you work* and therefore cannot validate these kinds of "
+"operations."
 msgstr ""
+"**Programų šalinimas, naudotojų valdymas ir t.t. priklauso nuo jūsų**: "
+"niekas kitas negali geriau žinoti, ar jūsų verslo procesas buvo sutrikdytas. "
+"Jei mes šalintume programas už jus, niekada negalėtume pasakyti, ar buvo "
+"pašalinta svarbi informacija, ar buvo sutrikdytas vienas iš jūsų verslo "
+"procesų, nes *mes nežinome, kaip jūs dirbate*, todėl negalime patvirtinti "
+"tokių operacijų."
 
 #: ../../content/applications/settings/users_and_features.rst:112
-msgid "**Odoo Apps have dependencies**: this means that you may need to install modules that you do not actively use to access some features of Odoo you might need. For example, the Website Builder app is needed to be able to show your customer their Quotes in a web page. Even though you might not need or use the Website itself, it is needed for the Online Quotes feature to work properly."
+msgid ""
+"**Odoo Apps have dependencies**: this means that you may need to install "
+"modules that you do not actively use to access some features of Odoo you "
+"might need. For example, the Website Builder app is needed to be able to "
+"show your customer their Quotes in a web page. Even though you might not "
+"need or use the Website itself, it is needed for the Online Quotes feature "
+"to work properly."
 msgstr ""
+"**Odoo Apps turi priklausomybių**: tai reiškia, jog gali tekti įdiegti "
+"modulius, kurių aktyviai nenaudojate, norint pasiekti kai kurias Odoo "
+"funkcijas, kurios jums gali reikėti. Pavyzdžiui, norint galėti rodyti savo "
+"klientui įvertinimus interneto puslapyje, reikia Įterptinti Web svetainės "
+"kūrimo programą. Nors pats Svetainės kūrimas jums gali būti nereikalingas ar "
+"net nenaudojamas, jis yra būtinas Online Įvertinimams tinkamai veikti."
 
 #: ../../content/applications/settings/users_and_features.rst:119
-msgid "**Always test app installation/removal on a duplicate** (or on a free trial database): that way you can know what other apps may be required, etc. This will avoid surprises when uninstalling or when receiving your invoices."
+msgid ""
+"**Always test app installation/removal on a duplicate** (or on a free trial "
+"database): that way you can know what other apps may be required, etc. This "
+"will avoid surprises when uninstalling or when receiving your invoices."
 msgstr ""
+"**Visada patikrinkite programėlių įdiegimą/šalinimą dublikate** (arba "
+"nemokamoje bandomojoje duomenų bazėje): taip galėsite sužinoti, kokios kitos "
+"programėlės gali būti reikalingos, ir pan. Tai padės išvengti nemalonių "
+"siurprizų šalinant programėles arba gavus sąskaitas-faktūras."
+
