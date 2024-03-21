@@ -230,6 +230,7 @@ versions_names = {
 languages_names = {
     'de': 'DE',
     'en': 'EN',
+    'lt': 'LT',
     'es': 'ES',
     'fr': 'FR',
     'it': 'IT',

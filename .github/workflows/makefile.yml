@@ -24,6 +24,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    env:
+      LANGUAGES: en,lt
+      IS_REMOTE_BUILD: true
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v5
@@ -31,7 +34,13 @@ jobs:
         python-version: "3.10"
     - name: Install dependencies
       run: pip install -r requirements.txt
-    - name: Make it!
+    - name: Build English version
+      env:
+        CURRENT_LANG: en
+      run: make
+    - name: Build Lithuanian version
+      env:
+        CURRENT_LANG: lt
       run: make
     - name: Setup Pages
       uses: actions/configure-pages@v4
