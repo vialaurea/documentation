@@ -1,8 +1,4 @@
-# Copyright (C) Odoo S.A.
-# This file is distributed under the same license as the Odoo package.
-# Via laurea <info@vialaurea.lt>, 2024.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
@@ -19,8 +15,10 @@ msgstr ""
 
 #: ../../content/applications.rst:9
 msgid "User Docs"
-msgstr ""
+msgstr "Naudotojo dokumentacija"
 
 #: ../../content/applications.rst:11
 msgid "Discover our user guides and configuration tutorials per application."
 msgstr ""
+"Atraskite mūsų vartotojo vadovus ir konfigūracijos pamokas pagal programą."
+
