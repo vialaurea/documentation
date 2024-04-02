@@ -3,7 +3,7 @@
 .*
 !.gitattributes
 !.github
-
+myenv
 # Sphinx build files
 _build/
 
