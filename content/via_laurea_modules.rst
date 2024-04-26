@@ -13,4 +13,5 @@ Explore our modules tailored for Via Laurea applications.
     :maxdepth: 2
 
     via_laurea_modules/account_fleet_fuel
+    via_laurea_modules/accounting
     ...
