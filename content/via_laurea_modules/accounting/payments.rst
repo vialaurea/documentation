@@ -1,10 +1,10 @@
-Accounting
-==========
+Payments
+========
 
 Overview of the full accounting processes in the system.
 
 .. toctree::
    :maxdepth: 2
 
-   accounting/accountable_persons
-   accounting/payments
+   cash
+   registration_of_advances

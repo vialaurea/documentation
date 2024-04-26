@@ -13,4 +13,5 @@ Explore our modules tailored for Via Laurea applications.
     :maxdepth: 2
 
     via_laurea_modules/accounting
+    via_laurea_modules/inventory
     ...
