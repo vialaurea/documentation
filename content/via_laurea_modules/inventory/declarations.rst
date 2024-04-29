@@ -9,6 +9,3 @@ Overview of inventory management and associated reports and declarations.
    declarations/​ivaz
    declarations/​​intrastat
    declarations/cmr
-
-
-
