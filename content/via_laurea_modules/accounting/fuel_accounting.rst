@@ -6,5 +6,5 @@ Explore the various payment mechanisms within our system, including cash handlin
 .. toctree::
    :maxdepth: 2
 
-   fuel_accouting/fuel_registration_by_car
-   fuel_accouting/fuel_report
+   fuel_accounting/fuel_registration_by_car
+   fuel_accounting/fuel_report
