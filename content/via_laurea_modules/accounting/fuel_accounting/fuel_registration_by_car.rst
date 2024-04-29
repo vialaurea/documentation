@@ -14,7 +14,7 @@ It contributes to compliance with Lithuanian accounting standards in the Odoo sy
 
 **Initial Configuration:** Before using this module, specific settings need to be configured. Go to "Vehicle Park" -> Configuration -> Settings:
 
-.. image:: number1.jpg
+.. image:: fuel_registration_by_car/number1.jpg
    :alt: Configuration settings window
 
 Open configuration fields:
@@ -30,7 +30,7 @@ Create a vehicle card and enter all necessary information:
 
 - Click "New":
 
-.. image:: number2.jpg
+.. image:: fuel_registration_by_car/number2.jpg
    :alt: Vehicle card creation interface
 
 - Select a template (vehicle make) from the provided list.
@@ -40,38 +40,38 @@ Create a vehicle card and enter all necessary information:
 - Fill in the required information in the tax information field.
 - Specify the debit/credit account for fuel accounting.
 
-.. image:: number3.jpg
+.. image:: fuel_registration_by_car/number3.jpg
    :alt: Additional vehicle information fields
 
 After filling in the tax information, proceed to input additional vehicle details:
 
-.. image:: number4.jpg
+.. image:: fuel_registration_by_car/number4.jpg
    :alt: Inputting additional vehicle details
 
 Once the vehicle card is completed and filled out, it is possible to register operations related to the specific vehicle.
 
 When registering invoices, the necessary vehicle is assigned in the lines:
 
-.. image:: number5.jpg
+.. image:: fuel_registration_by_car/number5.jpg
    :alt: Assigning vehicles in invoice registration
 
 If services related to the vehicle were purchased, the information is displayed here on the vehicle card:
 
-.. image:: number6.jpg
+.. image:: fuel_registration_by_car/number6.jpg
    :alt: Services related information display on vehicle card
 
 When purchasing fuel:
 
 - Clicking this button opens a window with the entire fuel history:
 
-.. image:: number7.jpg
+.. image:: fuel_registration_by_car/number7.jpg
    :alt: Fuel history window
 
 In the opened window, the purchased quantity, write-offs, and remaining fuel balance are displayed.
 
 Fuel write-off is performed on the vehicle card by clicking the button:
 
-.. image:: number8.jpg
+.. image:: fuel_registration_by_car/number8.jpg
    :alt: Fuel write-off interface
 
 A window opens:
@@ -81,24 +81,24 @@ A window opens:
 - Enter the amount of fuel to be written off.
 - Click "Write off".
 
-.. image:: number9.jpg
+.. image:: fuel_registration_by_car/number9.jpg
    :alt: Details of fuel write-off
 
 After forming the fuel write-off record, go to the "Fuel Journal":
 
-.. image:: number10.jpg
+.. image:: fuel_registration_by_car/number10.jpg
    :alt: Accessing the fuel journal
 
 Here, draft entries are created, which need to be registered to ensure that the data and figures are recorded in the general ledger:
 
 Before registering, by clicking on the desired line, you can check the correspondence that will register:
 
-.. image:: number11.jpg
+.. image:: fuel_registration_by_car/number11.jpg
    :alt: Checking draft entries
 
 If everything is correct, return to the Fuel Journals, mark the entry you want to register, and click Action -> Post Entries.
 
-.. image:: number12.jpg
+.. image:: fuel_registration_by_car/number12.jpg
    :alt: Finalizing entries in the fuel journal
 
 4. Reports and Documentation
@@ -108,7 +108,7 @@ How to generate reports using the module.
 
 Instructions for document management and archiving.
 
-.. image:: number13.jpg
+.. image:: fuel_registration_by_car/number13.jpg
    :alt: Document management and archiving instructions
 
 5. Integrations and Connection with Other Modules
@@ -118,7 +118,7 @@ How this module integrates with other Odoo modules or external systems.
 
 Special integration instructions if needed.
 
-.. image:: number14.jpg
+.. image:: fuel_registration_by_car/number14.jpg
    :alt: Integration with other modules
 
 6. Troubleshooting and FAQ
