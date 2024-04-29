@@ -6,6 +6,6 @@ Overview of inventory management and associated reports and declarations.
 .. toctree::
    :maxdepth: 2
 
-   inventory/inventorization_act
-   inventory/write-off_act
-   inventory/inventory_turnover_report
+   reports/inventorization_act
+   reports/write-off_act
+   reports/inventory_turnover_report
