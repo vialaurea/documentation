@@ -9,3 +9,4 @@ Overview of the full accounting processes in the system,
    declarations/​isaf
    declarations/fr0600
    declarations/fr0564
+   declarations/gpais
