@@ -45,7 +45,7 @@ Git
 
 To clone a Git repository, choose between cloning with HTTPS or SSH. In most cases, the best option
 is HTTPS. However, choose SSH to contribute to Odoo source code or when following the :doc:`Getting
-Started developer tutorial </developer/tutorials/getting_started>`.
+Started developer tutorial </developer/tutorials/server_framework_101>`.
 
 .. tabs::
 
@@ -144,7 +144,7 @@ Odoo requires **Python 3.10** or later to run.
       to download and install Python 3 if needed.
 
 .. note::
-   If Python 3 is already installed, make sure that the version is 3.7 or above, as previous
+   If Python 3 is already installed, make sure that the version is 3.10 or above, as previous
    versions are not compatible with Odoo.
 
    .. tabs::

@@ -100,6 +100,7 @@ applications/general/email_communication/email_template.rst applications/general
 applications/general/export_import_data.rst applications/essentials/export_import_data.rst                     # general/* -> essentials/*
 applications/general/geolocation.rst applications/general/integrations/geolocation.rst                         # * -> integrations/*
 applications/general/in_app_purchase.rst applications/essentials/in_app_purchase.rst                           # general/* -> essentials/*
+applications/general/iot/config/flash_sdcard.rst applications/general/iot/config/updating_iot.rst              # flash_sdcard --> updating_iot
 applications/general/payment_acquirers/adyen.rst applications/finance/payment_acquirers/adyen.rst
 applications/general/payment_acquirers/alipay.rst applications/finance/payment_acquirers/alipay.rst
 applications/general/payment_acquirers/buckaroo.rst applications/finance/payment_acquirers/buckaroo.rst
@@ -111,6 +112,10 @@ applications/general/users/manage_users.rst applications/general/users.rst      
 applications/general/users/odoo_account.rst administration/odoo_accounts.rst
 
 applications/general/product_images.rst applications/sales/sales/products_prices/products/product_images.rst  # fix a wrong target hard-coded in Odoo
+
+# applications/hr
+
+applications/hr/fleet/configuration.rst applications/hr/fleet.rst  # fleet/configuration -> fleet
 
 # applications/inventory_and_mrp
 
@@ -166,6 +171,7 @@ applications/general/voip/voip_widget.rst applications/productivity/voip/voip_wi
 # applications/sales
 
 applications/sales/crm/optimize/outlook_extension.rst applications/general/integrations/outlook.rst
+applications/sales/crm/track_leads/prospect_visits.rst applications/sales/crm/track_leads.rst                                   # track_leads/prospect_visits -> track_leads
 applications/sales/point_of_sale/overview/customer_note.rst applications/sales/point_of_sale.rst                                # point_of_sale/overview/customer_note -> point_of_sale
 applications/sales/point_of_sale/payment/worldline.rst applications/sales/point_of_sale/payment_methods/terminals/worldline.rst # point_of_sale/payment/* -> point_of_sale/payment_methods/terminals/*
 

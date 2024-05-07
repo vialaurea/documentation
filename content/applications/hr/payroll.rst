@@ -98,6 +98,8 @@ In order for an employee to be paid, they **must** have an active contract for a
 employment. Creating and viewing contract templates, and creating and viewing employment types, is
 possible from this section of the configuration header menu.
 
+.. _payroll/contract-templates:
+
 Templates
 ---------
 
@@ -106,8 +108,8 @@ The contract template forms the basis of an offer, and can be modified for speci
 employees, when necessary. If a contract template is created or modified in the *Payroll*
 application, the changes are also reflected in the *Recruitment* application.
 
-To view all the current contract templates in the database, navigate to :menuselection:`Payroll
-app --> Configuration --> Contracts: Templates`.
+To view all the current contract templates in the database, navigate to :menuselection:`Payroll app
+--> Configuration --> Contracts: Templates`.
 
 On the :guilabel:`Contract Templates` page, all current contract templates appear in a list view. To
 view the details of a contract template, click anywhere on the line to open the contract form. The
@@ -219,6 +221,8 @@ list.
    :align: center
    :alt: The employment types in the database by default, in a list view.
 
+.. _payroll/work-entries:
+
 Work entries
 ============
 
@@ -294,8 +298,8 @@ Unpaid section
 
 - :guilabel:`Unpaid in Structures Types`: if the work entry is for work that is not paid, specify
   which pay structure the unpaid work entry applies to from the drop-down menu. Some situations
-  where work would be logged on a timesheet but no compensation given would be for unpaid
-  internships, unpaid training, or volunteer work.
+  where work is logged on a timesheet, but no compensation given would be for unpaid internships,
+  unpaid training, or volunteer work.
 
 Valid for advantages section
 ****************************
@@ -417,6 +421,8 @@ paid by the hour, so the wage type is :guilabel:`Hourly Wage`.
 .. image:: payroll/structure-type.png
    :align: center
    :alt: List of all currently configured structure types available to use.
+
+.. _payroll/new-structure-type:
 
 New structure type
 ~~~~~~~~~~~~~~~~~~
@@ -651,6 +657,8 @@ field.
 .. image:: payroll/input-type-new.png
    :align: center
    :alt: A new Input Type form filled in.
+
+.. _payroll/salary-attachment-types:
 
 Salary attachment types
 -----------------------
@@ -946,15 +954,15 @@ Refer to the :doc:`../hr/recruitment/new_job` documentation for more details on 
 form.
 
 .. seealso::
-   - :doc:`payroll/reporting`
    - :doc:`payroll/contracts`
    - :doc:`payroll/payslips`
    - :doc:`payroll/work_entries`
+   - :doc:`payroll/reporting`
 
 .. toctree::
    :titlesonly:
 
-   payroll/reporting
    payroll/contracts
-   payroll/payslips
    payroll/work_entries
+   payroll/payslips
+   payroll/reporting

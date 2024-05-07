@@ -3,6 +3,26 @@
 developer/reference/backend/views.rst developer/reference/user_interface/view_records.rst
 developer/reference/user_interface/view_architecture.rst developer/reference/user_interface/view_architectures.rst
 
+# developer/tutorials
+
+developer/tutorials/getting_started.rst developer/tutorials/server_framework_101.rst
+developer/tutorials/getting_started/01_architecture.rst developer/tutorials/server_framework_101/01_architecture.rst
+developer/tutorials/getting_started/02_setup.rst developer/tutorials/setup_guide.rst
+developer/tutorials/getting_started/03_newapp.rst developer/tutorials/server_framework_101/02_newapp.rst
+developer/tutorials/getting_started/04_basicmodel.rst developer/tutorials/server_framework_101/03_basicmodel.rst
+developer/tutorials/getting_started/05_securityintro.rst developer/tutorials/server_framework_101/04_securityintro.rst
+developer/tutorials/getting_started/06_firstui.rst developer/tutorials/server_framework_101/05_firstui.rst
+developer/tutorials/getting_started/07_basicviews.rst developer/tutorials/server_framework_101/06_basicviews.rst
+developer/tutorials/getting_started/08_relations.rst developer/tutorials/server_framework_101/07_relations.rst
+developer/tutorials/getting_started/09_compute_onchange.rst developer/tutorials/server_framework_101/08_compute_onchange.rst
+developer/tutorials/getting_started/10_actions.rst developer/tutorials/server_framework_101/09_actions.rst
+developer/tutorials/getting_started/11_constraints.rst developer/tutorials/server_framework_101/10_constraints.rst
+developer/tutorials/getting_started/12_sprinkles.rst developer/tutorials/server_framework_101/11_sprinkles.rst
+developer/tutorials/getting_started/13_inheritance.rst developer/tutorials/server_framework_101/12_inheritance.rst
+developer/tutorials/getting_started/14_other_module.rst developer/tutorials/server_framework_101/13_other_module.rst
+developer/tutorials/getting_started/15_qwebintro.rst developer/tutorials/server_framework_101/14_qwebintro.rst
+developer/tutorials/getting_started/16_final_word.rst developer/tutorials/server_framework_101/15_final_word.rst
+
 # applications/inventory_and_mrp
 
 applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/closest_location.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/closest_location.rst   # advanced_operations_warehouse/* --> removal_strategies/*
@@ -11,6 +31,27 @@ applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_
 applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/least_packages.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/least_packages.rst       # advanced_operations_warehouse/* --> removal_strategies/*
 applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/lifo.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/lifo.rst                           # advanced_operations_warehouse/* --> removal_strategies/*
 applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/removal.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies.rst                             # advanced_operations_warehouse/removal --> warehouses_storage/removal_strategies
+applications/inventory_and_mrp/manufacturing/management/bill_configuration.rst applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.rst                              # management/* --> basic_setup/*
+applications/inventory_and_mrp/manufacturing/management/configure_manufacturing_product.rst applications/inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.rst    # management/* --> basic_setup/*
+applications/inventory_and_mrp/manufacturing/management/kit_shipping.rst applications/inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping.rst                               # management/* --> advanced_configuration/*
+applications/inventory_and_mrp/manufacturing/management/manufacturing_backorders.rst applications/inventory_and_mrp/manufacturing/workflows/manufacturing_backorders.rst                    # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/one_step_manufacturing.rst applications/inventory_and_mrp/manufacturing/basic_setup/one_step_manufacturing.rst                      # management/* --> basic_setup/*
+applications/inventory_and_mrp/manufacturing/management/product_variants.rst applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants.rst                       # management/* --> advanced_configuration/*
+applications/inventory_and_mrp/manufacturing/management/scrap_manufacturing.rst applications/inventory_and_mrp/manufacturing/workflows/scrap_manufacturing.rst                              # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/split_merge.rst applications/inventory_and_mrp/manufacturing/workflows/split_merge.rst                                              # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/sub_assemblies.rst applications/inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.rst                           # management/* --> advanced_configuration/*
+applications/inventory_and_mrp/manufacturing/management/subcontracting.rst applications/inventory_and_mrp/manufacturing/workflows/subcontracting.rst                                        # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/three_step_manufacturing.rst applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing.rst                  # management/* --> basic_setup/*
+applications/inventory_and_mrp/manufacturing/management/two_step_manufacturing.rst applications/inventory_and_mrp/manufacturing/basic_setup/two_step_manufacturing.rst                      # management/* --> basic_setup/*
+applications/inventory_and_mrp/manufacturing/management/unbuild_orders.rst applications/inventory_and_mrp/manufacturing/workflows/unbuild_orders.rst                                        # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/use_mps.rst applications/inventory_and_mrp/manufacturing/workflows/use_mps.rst                                                      # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/using_work_centers.rst applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.rst                   # management/* --> advanced_configuration/*
+applications/inventory_and_mrp/manufacturing/management/work_center_time_off.rst applications/inventory_and_mrp/manufacturing/workflows/work_center_time_off.rst                            # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/work_order_dependencies.rst applications/inventory_and_mrp/manufacturing/advanced_configuration/work_order_dependencies.rst         # management/* --> advanced_configuration/*
+applications/inventory_and_mrp/manufacturing/workflows/subcontracting.rst applications/inventory_and_mrp/manufacturing/subcontracting.rst                                         # workflows/* --> manufacturing/*
+applications/inventory_and_mrp/manufacturing/workflows/subcontracting_basic.rst applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.rst              # workflows/* --> subcontracting/*
+applications/inventory_and_mrp/manufacturing/workflows/subcontracting_dropship.rst applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.rst        # workflows/* --> subcontracting/*
+applications/inventory_and_mrp/manufacturing/workflows/subcontracting_resupply.rst applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply.rst        # workflows/* --> subcontracting/*
 
 # applications/marketing
 
@@ -21,3 +62,7 @@ applications/marketing/marketing_automation/getting_started/first_campaign.rst a
 applications/marketing/marketing_automation/getting_started/target_audience.rst applications/marketing/marketing_automation/target_audience.rst           # getting_started/* --> marketing_automation/*
 applications/marketing/marketing_automation/getting_started/testing_running.rst applications/marketing/marketing_automation/testing_running.rst           # getting_started/* --> marketing_automation/*
 applications/marketing/marketing_automation/getting_started/workflow_activities.rst applications/marketing/marketing_automation/workflow_activities.rst   # getting_started/* --> marketing_automation/*
+
+# applications/sales
+
+applications/sales/point_of_sale/pricing/digital_labels.rst applications/sales/point_of_sale/pricing/electronic_labels.rst                                # digital_labels --> electronic_labels

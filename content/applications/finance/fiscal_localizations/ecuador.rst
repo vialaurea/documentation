@@ -61,10 +61,27 @@ localization:
        <../accounting/customer_invoices/electronic_invoicing>`, based on the Technical
        documentation published by the SRI. The authorized documents are: Invoices, Credit Notes,
        Debit Notes, Withholdings and Purchase liquidations.
+   * - :guilabel:`Ecuadorian Accounting Reports`
+     - `l10n_ec_reports`
+     - Includes all the technical and functional requirements to generate forms 103 and 104.
+   * - :guilabel:`Ecuador - ATS Report`
+     - `l10n_ec_reports_ats`
+     - Includes all the technical and functional requirements to generate the ATS report XML file
+       ready to be uploaded to the *DIMM Formularios*.
+   * - :guilabel:`Ecuadorian Website`
+     - `l10n_ec_website_sale`
+     - Includes all the technical and functional requirements to generate automatic electronic
+       invoices from a Website sale.
+   * - :guilabel:`Ecuadorian Point of Sale`
+     - `l10n_ec_edi_pos`
+     - Includes all the technical and functional requirements to generate automatic electronic
+       invoices from a PoS sale.
 
 .. note::
    When you install a database from scratch selecting `Ecuador` as the country, Odoo automatically
    installs the base module :guilabel:`Ecuadorian - Accounting`.
+
+.. _l10n_ec/configure-your-company:
 
 Configure your company
 ----------------------
@@ -304,8 +321,8 @@ The following options have been automatically configured:
   of 103 form if it is a  income tax withholding code.
 - :guilabel:`Tax Name`:
 
-  - For IVA tax, format the name as: `IVA [percent] (104, [form code] [tax support code] [tax support
-    short name])`
+  - For IVA tax, format the name as: `IVA [percent] (104, [form code] [tax support code] [tax
+    support short name])`
   - For income tax withholding code, format the name as: `Code ATS [Percent of withhold] [withhold
     name]`
 
@@ -552,13 +569,94 @@ withholdings percentages apply.
    withholding of 70% in a new line with the same tax support, the system will allow you as long as
    the total of the bases matches the total from the :guilabel:`Vendor Bill`.
 
+eCommerce
+---------
+
+The :ref:`ATS Report module <ecuador/ats>` enables the following:
+
+- Choose the SRI Payment Method in each payment method's configuration.
+- Customers can manually input their identification type and identification number during the
+  eCommerce checkout process.
+- Automatically generate a valid electronic invoice for Ecuador at the end of the checkout process.
+
+Configuration
+~~~~~~~~~~~~~
+
+Website
+*******
+
+To generate an invoice after the checkout process, navigate to :menuselection:`Website -->
+Configuration --> Settings` and activate the :guilabel:`Automatic Invoice` option found under the
+:guilabel:`Invoicing` section.
+
+.. tip::
+   The invoice's email template can be modified from the :guilabel:`Invoice Email Template` field
+   under the :guilabel:`Automatic Invoice` option.
+
+.. important::
+   The sales journal used for invoicing is the first in the sequence of priority in the
+   :guilabel:`Journal` menu.
+
+Payment providers
+*****************
+
+To activate the payment providers that should be used to capture eCommerce payments, navigate to
+:menuselection:`Website --> Configuration --> Payment Providers` section and then click on the
+:guilabel:`View other providers` button under the :guilabel:`Activate Payments` heading. From here,
+each payment provider can be configured by selecting a provider record. Refer to the :doc:`payment
+provider <../payment_providers>` documentation for more information.
+
+Payment methods
+^^^^^^^^^^^^^^^
+
+To activate one or more payment methods for a payment provider, click :guilabel:`→ Enable Payment
+Methods` within the :guilabel:`Configuration` tab of each provider.
+
+When configuring the payment method, it is **mandatory** to set the :guilabel:`SRI Payment Method`
+for each method. This field appears after you create and save the payment method for the first
+time.
+
+.. note::
+   Adding the :guilabel:`SRI Payment Method` is necessary to generate correctly the electronic
+   invoice from an eCommerce sale. Select a **payment method** to access its configuration menu and
+   the field.
+
+.. seealso::
+   :doc:`Payment provider <../payment_providers>`
+
+.. image:: ecuador/l10n-ec-sri-payment-method.png
+   :align: center
+   :alt: l10n_ec SRI Payment Method.
+
+eCommerce workflow
+~~~~~~~~~~~~~~~~~~
+
+Type and identification number
+******************************
+
+The client who is making a purchase will have the option to indicate their identification type and
+number during the checkout process. This information is required to correctly generate the
+electronic invoice after the checkout is completed.
+
+.. image:: ecuador/website-checkout-form.png
+   :align: center
+   :alt: Website checkout form.
+
+.. note::
+   Verification is done to ensure the *Identification Number* field is completed and has the correct
+   number of digits. For RUC identification, 13 digits are required. For Cédula, 9 digits are
+   required.
+
+After finishing the checkout process, a confirmed invoice is generated, ready to be sent manually or
+asynchronously to the SRI.
+
 Financial Reports
 =================
 
-In Ecuador, there are fiscal reports that the company presents to SRI. In Odoo, we have two of the
-main financial reports used by companies. These are the reports 103 and 104.
+In Ecuador, there are fiscal reports that the company presents to SRI. Odoo supports two of the main
+financial reports used by companies: **reports 103** and **104**.
 
-To get these reports go to the :guilabel:`Accounting` app and select :menuselection:`Reporting -->
+To get these reports, go to the **Accounting** app and select :menuselection:`Reporting -->
 Statements Reports --> Tax Report` and then filter by `Tax Report 103` or `Tax Report 104`.
 
 Report 103
@@ -567,8 +665,8 @@ Report 103
 This report contains information of income tax withholdings in a given period, this can be reported
 monthly or semi-annually.
 
-You can see the information needed to report, which includes base and tax amounts, which also
-includes the tax code within the parenthesis in order to report it to the SRI.
+You can see the information needed to report, which includes base and tax amounts, but also includes
+the tax code within the parenthesis in order to report it to the SRI.
 
 .. image:: ecuador/103-form.png
    :align: center
@@ -580,9 +678,67 @@ Report 104
 This report contains information on VAT tax and VAT withholding for a given period, this can be
 monthly or semi-annually.
 
-You can see the information needed to report, which includes base and tax amounts, which also
-includes the tax code within the parenthesis in order to report it to the SRI.
+You can see the information needed to report, which includes base and tax amounts, but also includes
+the tax code within the parenthesis to report it to the SRI.
 
 .. image:: ecuador/104-form.png
    :align: center
    :alt: Report 104 form for Ecuador.
+
+.. _ecuador/ats:
+
+ATS report
+----------
+
+:ref:`Install <general/install>` the *ATS Report* (`l10n_ec_reports_ats`) module to enable
+downloading the ATS report in XML format.
+
+.. note::
+   The Ecuadorian *ATS Report* module depends on the previous installation of the *Accounting* app
+   and the *Ecuadorian EDI module*.
+
+Configuration
+~~~~~~~~~~~~~
+
+To issue electronic documents, ensure your company is configured as explained in the
+:ref:`electronic invoice <l10n_ec/configure-your-company>` section.
+
+In the :abbr:`ATS (Anexo Transaccional Simplificado)`, every document generated in Odoo (invoices,
+vendor bills, sales and purchases withholdings, credit notes, and debit notes) will be included.
+
+Vendor bills
+************
+
+When generating a vendor bill, it is necessary to register the authorization number from the
+invoice that the vendor generated for the purchase. To do so, go to :menuselection:`Accounting
+--> Vendors --> Bills` and select the bill. Then, enter the number from the vendor's invoice in the
+:guilabel:`Authorization Number` field.
+
+Credit and debit notes
+**********************
+
+When generating a credit note or debit note manually or through importation, it is necessary to link
+this note to the sales invoice that is being modified by it.
+
+.. note::
+   Remember to add all required information to the documents before downloading the :abbr:`ATS
+   (Anexo Transaccional Simplificado)` file. For example, add the *Authorization Number* and the
+   *SRI Payment Method* on documents, when needed.
+
+XML generation
+~~~~~~~~~~~~~~
+
+To generate the :abbr:`ATS (Anexo Transaccional Simplificado)` report, go to
+:menuselection:`Accounting --> Reports --> Tax Report` and choose a time period for the desired
+:abbr:`ATS (Anexo Transaccional Simplificado)` report, then click :guilabel:`ATS`.
+
+The downloaded XML file is ready to be uploaded to *DIMM Formularios*.
+
+.. image:: ecuador/ats-report.png
+   :align: center
+   :alt: ATS report download for Ecuador in Odoo Accounting.
+
+.. note::
+   When downloading the :abbr:`ATS (Anexo Transaccional Simplificado)` report, Odoo generates a
+   warning pop-up alerting the user if a document(s) has missing or incorrect data. Nevertheless,
+   the user can still download the XML file.

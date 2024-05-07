@@ -61,8 +61,8 @@ Now that the API project has been created, OAuth should be configured. To do tha
    require an approval, or for *Scopes* to be added on. However, using a *Google WorkSpace* account
    allows for **Internal** User Type to be used.
 
-   Note, as well, that while the API connection is in the *External* testing mode, then no approval is
-   necessary from Google. User limits in this testing mode is set to 100 users.
+   Note, as well, that while the API connection is in the *External* testing mode, then no approval
+   is necessary from Google. User limits in this testing mode is set to 100 users.
 
 In the second step, :guilabel:`OAuth Consent Screen`, type `Odoo` in the :guilabel:`App name` field,
 select the email address for the :guilabel:`User support email` field, and type the email address
@@ -90,10 +90,10 @@ a guide to create credentials.
 Under :menuselection:`Create OAuth Client ID`, select :guilabel:`Website application` for the
 :guilabel:`Application Type` field, and type `My Odoo Database` for the :guilabel:`Name`.
 
-- Under the :guilabel:`Authorized JavaScript Origins` section, click :guilabel:`+ Add URI` and
-  type the company's Odoo full :abbr:`URL (Uniform Resource Locator)` address.
-- Under the :guilabel:`Authorized redirect URIs` section, click :guilabel:`+ Add URI` and type
-  the company's Odoo :abbr:`URL (Uniform Resource Locator)` address followed by
+- Under the :guilabel:`Authorized JavaScript Origins` section, click :guilabel:`+ Add URI` and type
+  the company's Odoo full :abbr:`URL (Uniform Resource Locator)` address.
+- Under the :guilabel:`Authorized redirect URIs` section, click :guilabel:`+ Add URI` and type the
+  company's Odoo :abbr:`URL (Uniform Resource Locator)` address followed by
   `/google_account/authentication`. Finally, click :guilabel:`Create`.
 
 .. image:: google/uri.png
@@ -151,5 +151,109 @@ Now, Odoo Calendar is successfully synced with Google Calendar!
    - Adding a contact to an event causes Google to send an invitation to all event attendees.
    - Removing a contact from an event causes Google to send a cancellation to all event attendees.
 
-   Events can be created in Google Calendar without sending a notification by selecting
+   Events can be created in *Google Calendar* without sending a notification by selecting
    :guilabel:`Don't Send` when prompted to send invitation emails.
+
+Troubleshoot sync
+=================
+
+There may be times when the *Google Calendar* account does not sync correctly with Odoo. Sync issues
+can be seen in the database logs.
+
+In these cases, the account needs troubleshooting. A reset can be performed using the
+:guilabel:`Reset Account` button, which can be accessed by navigating to :menuselection:`Settings
+app --> Manage Users`. Then, select the user to modify the calendar, and click the
+:guilabel:`Calendar` tab.
+
+.. image:: google/google-reset.png
+   :align: center
+   :alt: Reset buttons highlighted on the calendar tab of the user.
+
+Next, click :guilabel:`Reset Account` under the correct calendar.
+
+Reset options
+-------------
+
+The following reset options are available for troubleshooting Google calendar sync with Odoo:
+
+.. image:: google/reset-calendar.png
+   :align: center
+   :alt: Google calendar reset options in Odoo.
+
+:guilabel:`User's Existing Events`:
+
+ - :guilabel:`Leave them untouched`: no changes to the events.
+ - :guilabel:`Delete from the current Google Calendar account`: delete the events from *Google
+   Calendar*.
+ - :guilabel:`Delete from Odoo`: delete the events from the Odoo calendar.
+ - :guilabel:`Delete from both`: delete the events from both *Google Calendar* and Odoo calendar.
+
+:guilabel:`Next Synchronization`:
+
+ - :guilabel:`Synchronize only new events`: sync new events on *Google Calendar* and/or Odoo
+   calendar.
+ - :guilabel:`Synchronize all existing events`: sync all events on *Google Calendar* and/or Odoo
+   calendar.
+
+Click :guilabel:`Confirm` after making the selection to modify the user's events and the calendar
+synchronization.
+
+Google OAuth FAQ
+================
+
+At times there can be misconfigurations that take place, and troubleshooting is needed to resolve
+the issue. Below are the most common errors that may occur when configuring the *Google Calendar*
+for use with Odoo.
+
+Production vs. testing publishing status
+----------------------------------------
+
+Choosing :guilabel:`Production` as the :guilabel:`Publishing Status` (instead of
+:guilabel:`Testing`) displays the following warning message:
+
+`OAuth is limited to 100 sensitive scope logins until the OAuth consent screen is verified. This may
+require a verification process that can take several days.`
+
+To correct this warning, navigate to the `Google API Platform
+<https://console.cloud.google.com/apis/credentials/consent>`_. If the :guilabel:`Publishing Status`
+is :guilabel:`In Production`, click :guilabel:`Back to Testing` to correct the issue.
+
+No test users added
+-------------------
+
+If no test users are added to the :guilabel:`OAuth consent screen`, then an :guilabel:`Error 403:
+access_denied` populates.
+
+.. image:: google/403-error.png
+   :align: center
+   :alt: 403 Access Denied Error.
+
+To correct this error, return to the :guilabel:`OAuth consent screen`, under :guilabel:`APIs &
+Services`, and add test users to the app. Add the email to be configured in Odoo.
+
+Application Type
+----------------
+
+When creating the credentials (OAuth *Client ID* and *Client Secret*), if :guilabel:`Desktop App` is
+selected for the :guilabel:`Application Type`, an :guilabel:`Authorization Error` appears
+(:guilabel:`Error 400:redirect_uri_mismatch`).
+
+.. image:: google/error-400.png
+   :align: center
+   :alt: Error 400 Redirect URI Mismatch.
+
+To correct this error, delete the existing credentials, and create new credentials, by selecting
+:guilabel:`Web Application` for the :guilabel:`Application Type`.
+
+Then, under :guilabel:`Authorized redirect URIs`, click :guilabel:`ADD URI`, and type:
+`https://yourdbname.odoo.com/google_account/authentication` in the field, being sure to replace
+*yourdbname* in the URL with the **real** Odoo database name.
+
+.. tip::
+   Ensure that the domain (used in the URI:
+   `https://yourdbname.odoo.com/google_account/authentication`) is the exact same domain as
+   configured in the `web.base.url` system parameter.
+
+   Access the `web.base.url` by activating :ref:`developer mode <developer-mode>`, and navigating to
+   :menuselection:`Settings app --> Technical header menu --> Parameters section --> System
+   Parameters`.
