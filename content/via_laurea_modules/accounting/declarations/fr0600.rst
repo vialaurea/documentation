@@ -1,6 +1,5 @@
 FR600
 =====
-
 Introduction
 ------------
 
@@ -17,12 +16,12 @@ Installation and Configuration
       :alt: Module Accounting -> Configuration -> Taxes
 
   .. image:: fr600/image02.jpg
-      :alt: Module Accounting -> Configuration -> Taxes
+      :alt: Tax settings
 
   When opening the settings of the selected tax, check (or fill in) the Tax Grids fields, according to which the FR0600 declaration will be formed:
 
   .. image:: fr600/image03.jpg
-      :alt: Check or fill in the Tax Grids fields
+      :alt: Tax Grids fields
 
   After verifying or entering the information, you can start registering VAT invoices, and after registering them, form the FR0600 declaration.
 
@@ -61,7 +60,7 @@ For verification, print out the S/F reports:
       :alt: Print out S/F reports
 
   .. image:: fr600/image07.jpg
-      :alt: Print out S/F reports
+      :alt: S/F reports
 
   * Select the date range;
   * Select the type of account;
