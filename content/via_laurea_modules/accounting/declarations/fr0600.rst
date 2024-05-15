@@ -12,15 +12,15 @@ Installation and Configuration
 - Before starting work with the Odoo system, when VAT invoices will start to be registered, it is necessary to configure the taxes:
   1. Module Accounting -> Configuration -> Taxes
 
-  .. image:: fr600/image01.jpg
+  .. image:: fr0600/image01.jpg
       :alt: Module Accounting -> Configuration -> Taxes
 
-  .. image:: fr600/image02.jpg
+  .. image:: fr0600/image02.jpg
       :alt: Tax settings
 
   When opening the settings of the selected tax, check (or fill in) the Tax Grids fields, according to which the FR0600 declaration will be formed:
 
-  .. image:: fr600/image03.jpg
+  .. image:: fr0600/image03.jpg
       :alt: Tax Grids fields
 
   After verifying or entering the information, you can start registering VAT invoices, and after registering them, form the FR0600 declaration.
@@ -35,7 +35,7 @@ Having all purchase and sales VAT invoices registered for the period for which y
 
 * Reports -> FR0600
 
-  .. image:: fr600/image04.jpg
+  .. image:: fr0600/image04.jpg
       :alt: Reports -> FR0600
 
 * In the opened window, select:
@@ -46,7 +46,7 @@ Having all purchase and sales VAT invoices registered for the period for which y
   * VAT report percentage - 100;
   * Click Generate declaration file
 
-  .. image:: fr600/image05.jpg
+  .. image:: fr0600/image05.jpg
       :alt: Generate declaration file
 
 * After generating the declaration file, it can be submitted directly to VMI.
@@ -56,10 +56,10 @@ Reports and Documentation
 
 For verification, print out the S/F reports:
 
-  .. image:: fr600/image06.jpg
+  .. image:: fr0600/image06.jpg
       :alt: Print out S/F reports
 
-  .. image:: fr600/image07.jpg
+  .. image:: fr0600/image07.jpg
       :alt: S/F reports
 
   * Select the date range;
@@ -67,7 +67,7 @@ For verification, print out the S/F reports:
   * Choose to show/not show VAT and currency;
   * Print as PDF or .xlsx
 
-  .. image:: fr600/image08.jpg
+  .. image:: fr0600/image08.jpg
       :alt: Print as PDF or .xlsx
 
 Integrations and Connections with Other Modules
