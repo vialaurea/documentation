@@ -1,4 +1,84 @@
 FR0564
 ======
 
-Overview o
+Introduction
+------------
+
+- The report FR0564 for the supply of goods and services to other European Union member states must be submitted by persons registered as VAT payers in the Republic of Lithuania.
+
+Installation and Configuration
+------------------------------
+
+- Before starting work with the Odoo system, when VAT invoices will start to be registered, it is necessary to configure the taxes:
+  1. Module Accounting -> Configuration -> Taxes
+
+  .. image:: fr0564/image01.jpg
+      :alt: Module Accounting -> Configuration -> Taxes
+
+  .. image:: fr0564/image02.jpg
+      :alt: Tax settings
+
+  When opening the settings of the selected tax, check (or fill in) the Tax Grids fields, according to which the FR0564 declaration will be formed:
+
+  .. image:: fr0564/image03.jpg
+      :alt: Tax Grids fields
+
+  After verifying or entering the information, you can start registering VAT invoices, and after registering them, form the FR0564 declaration.
+
+Main Functions
+--------------
+
+Daily Use Scenarios
+-------------------
+
+Having all purchase and sales VAT invoices registered for the period for which you want to form and submit the VAT declaration FR0564:
+
+* Reports -> FR0564
+
+  .. image:: fr0564/image04.jpg
+      :alt: Reports -> FR0564
+
+* In the opened window, select:
+
+  * Date range - for which period you want to form the declaration;
+  * Add additional sheets FR0564R and FR0564T if needed;
+  * Click Generate declaration file
+
+  .. image:: fr0564/image05.jpg
+      :alt: Generate declaration file
+
+* After generating the declaration file, it can be submitted directly to VMI.
+
+Reports and Documentation
+--------------------------
+
+For verification, print out the report:
+
+  .. image:: fr0564/image06.jpg
+      :alt: Print out the report
+
+  In the opened window, you can select the date for which you want to see the information. Print it in PDF and xlsx format.
+
+  .. image:: fr0564/image07.jpg
+      :alt: Print in PDF and xlsx format
+
+Integrations and Connections with Other Modules
+-----------------------------------------------
+
+Problem Solving and FAQs
+------------------------
+
+- The most common problems and their solutions.
+- Answers to frequently asked questions about this module.
+
+Updates and Version Control
+----------------------------
+
+- How to update the module.
+- Version control practices.
+
+Attachments
+-----------
+
+- Screenshots and visual instructions.
+- Useful links and additional resources.
