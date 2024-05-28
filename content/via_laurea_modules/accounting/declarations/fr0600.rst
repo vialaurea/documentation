@@ -54,21 +54,16 @@ Having all purchase and sales VAT invoices registered for the period for which y
 Reports and Documentation
 --------------------------
 
-For verification, print out the S/F reports:
+- The report can be printed via Reports -> Tax Report:
 
   .. image:: fr0600/image06.jpg
-      :alt: Print out S/F reports
+      :alt: Reports -> Tax Report
+
+- In the opened window, you can select the date for which you want to see the information. Print it in PDF and xlsx format.
 
   .. image:: fr0600/image07.jpg
-      :alt: S/F reports
+      :alt: Print in PDF and xlsx format
 
-  * Select the date range;
-  * Select the type of account;
-  * Choose to show/not show VAT and currency;
-  * Print as PDF or .xlsx
-
-  .. image:: fr0600/image08.jpg
-      :alt: Print as PDF or .xlsx
 
 Integrations and Connections with Other Modules
 -----------------------------------------------
