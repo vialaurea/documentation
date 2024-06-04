@@ -1,5 +1,5 @@
 Personnel Accounting
---------------------
+====================
 
 Introduction
 ------------
