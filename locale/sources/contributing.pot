@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-30 09:16+0000\n"
+"POT-Creation-Date: 2024-06-19 09:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,6 +178,8 @@ msgstr ""
 msgid "`Generate a new SSH key and register it on your GitHub account <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_."
 msgstr ""
 
+#: ../../content/contributing/create_github_account.rst:1
+#: ../../content/contributing/create_github_account.rst:1
 #: ../../content/contributing/create_github_account.rst:1
 #: ../../content/contributing/create_github_account.rst:1
 #: ../../content/contributing/create_github_account.rst:1
@@ -635,9 +637,9 @@ msgid "New primary views do not require the inherit suffix as those are new reco
 msgstr ""
 
 #: ../../content/contributing/development/coding_guidelines.rst:391
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:879
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:881
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:897
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:899
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:915
 msgid "Python"
 msgstr ""
 
@@ -1621,8 +1623,6 @@ msgstr ""
 #: ../../content/contributing/documentation/changes_approved.rst:1
 #: ../../content/contributing/documentation/changes_approved.rst:1
 #: ../../content/contributing/documentation/changes_approved.rst:1
-#: ../../content/contributing/documentation/changes_approved.rst:1
-#: ../../content/contributing/documentation/changes_approved.rst:1
 msgid "Once your changes are approved, the reviewer merges them and they appear online the next day!"
 msgstr ""
 
@@ -1931,7 +1931,7 @@ msgid "For more complex topics, you may need several pages to cover all their as
 msgstr ""
 
 #: ../../content/contributing/documentation/content_guidelines.rst:178
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:440
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:458
 msgid "Images"
 msgstr ""
 
@@ -1971,7 +1971,7 @@ msgstr ""
 msgid "If necessary, you can **edit** the screenshot to remove unnecessary fields and to narrow even more Odoo's display."
 msgstr ""
 
-#: ../../content/contributing/documentation/content_guidelines.rst:-1
+#: ../../content/contributing/documentation/content_guidelines.rst:None
 msgid "Three tips to take good screenshots for the Odoo documentation."
 msgstr ""
 
@@ -2208,198 +2208,210 @@ msgid "Run the command :command:`make clean html` to delete existing built files
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:217
+msgid "Icons"
+msgstr ""
+
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:219
+msgid "Use the `icon` markup to add a class name of an icon. The icon set used is *Font Awesome*. It is recommended to accompany an icon with a :ref:`contributing/markups/guilabel` as a descriptor, however, it is not mandatory."
+msgstr ""
+
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:226
+msgid "The graph view is represented by the :icon:`fa-bar-chart` :guilabel:`(bar chart)` icon."
+msgstr ""
+
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:235
 msgid "Lists"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:222
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:240
 msgid "Bulleted list"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:227
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:245
 msgid "This is a bulleted list."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:228
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:246
 msgid "It has two items, the second item uses two lines."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:240
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:258
 msgid "Numbered list"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:245
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:263
 msgid "This is a numbered list."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:246
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:264
 msgid "Numbering is automatic."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:256
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:274
 msgid "Use this format to start the numbering with a number other than one."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:258
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:276
 msgid "The numbering is automatic from there."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:267
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:285
 msgid "Prefer the use of autonumbered lists with `#.` for better code resilience."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:272
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:290
 msgid "Nested lists"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:277
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:295
 msgid "This is the first item of a bulleted list."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:279
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:297
 msgid "It has a nested numbered list"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:280
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:298
 msgid "with two items."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:292
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:310
 msgid "Hyperlinks"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:297
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:315
 msgid "External hyperlinks"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:299
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:317
 msgid "External hyperlinks are links to a URL with a custom label. They follow this syntax: ```label <URL>`_``"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:303
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:321
 msgid "The URL can be a relative path to a file within the documentation."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:304
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:322
 msgid "Use the :ref:`documentation pages hyperlinks <contributing/doc-pages-hyperlinks>` if you target another documentation page."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:310
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:328
 msgid "For instance, `this is an external hyperlink to Odoo's website <https://www.odoo.com>`_."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:319
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:337
 msgid "External hyperlink aliases"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:321
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:339
 msgid "External hyperlink aliases allow creating shortcuts for external hyperlinks."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:322
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:340
 msgid "The definition syntax is as follows: ``.. _target: URL``"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:323
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:341
 msgid "There are two ways to reference them, depending on the use case:"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:325
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:343
 msgid "``target_`` creates a hyperlink with the target name as label and the URL as reference. Note that the ``_`` moved after the target!"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:327
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:345
 msgid "```label <target_>`_`` does exactly what you expect: the label replaces the name of the target, and the target is replaced by the URL."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:333
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:351
 msgid "A `proof-of-concept <https://en.wikipedia.org/wiki/Proof_of_concept>`_ is a simplified version, a prototype of what is expected to agree on the main lines of expected changes. `PoC <https://en.wikipedia.org/wiki/Proof_of_concept>`_ is a common abbreviation."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:347
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:365
 msgid "Custom anchors"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:349
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:367
 msgid "Custom anchors follow the same syntax as external hyperlink aliases but without any URL. Indeed, they are internal. They allow referencing a specific part of a document by using the target as an anchor. When the user clicks on the reference, the documentation scrolls to the part of the page containing the anchor."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:354
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:372
 msgid "The definition syntax is: ``.. _target:``"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:355
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:373
 msgid "There are two ways to reference them, both using the ``ref`` markup:"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:357
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:375
 msgid "``:ref:`target``` creates a hyperlink to the anchor with the heading defined below as label."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:358
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:376
 msgid "``:ref:`label <target>``` creates a hyperlink to the anchor with the given label."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:360
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:378
 msgid "See :ref:`contributing/relative-links` to learn how to write proper relative links for internal references."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:364
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:382
 msgid "Custom anchors can be referenced from other files than the ones in which they are defined."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:365
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:383
 msgid "Notice that there is no ``_`` at the end, contrary to what is done with :ref:`external hyperlinks <contributing/external-hyperlinks>`."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:371
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:389
 msgid "This can easily be done by creating a new product, see `How to create a product? <https://example.com/product>`_ for additional help."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:374
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:392
 msgid "**How to create a product?**"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:376
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:394
 msgid "As explained at the `start of the page <https://example.com/scroll-to-start-of-page>`_, ..."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:394
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:412
 msgid "Documentation pages hyperlinks"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:397
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:415
 msgid "The ``doc`` markup allows referencing a documentation page wherever it is in the file tree through a relative file path."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:398
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:416
 msgid "As usual, there are two ways to use the markup:"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:401
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:419
 msgid "``:doc:`path_to_doc_page``` creates a hyperlink to the documentation page with the title of the page as label."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:403
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:421
 msgid "``:doc:`label <path_to_doc_page>``` creates a hyperlink to the documentation page with the given label."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:409
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:427
 msgid "Please refer to `this documentation <https://example.com/doc/accounting/invoices.html>`_ and to `Send a pro-forma invoice <https://example.com/doc/sales/proforma.html>`_."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:420
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:438
 msgid "File download hyperlinks"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:422
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:440
 msgid "The ``download`` markup allows referencing files (that are not necessarily :abbr:`RST (reStructuredText)` documents) within the source tree to be downloaded."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:428
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:446
 msgid "Download this `module structure template <https://example.com/doc/odoosh/extras/my_module.zip>`_ to start building your module in no time."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:442
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:460
 msgid "The ``image`` markup allows inserting images in a document."
 msgstr ""
 
@@ -2407,393 +2419,393 @@ msgstr ""
 msgid "Create an invoice."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:458
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:476
 msgid "Add the :code:`:class: o-no-modal` `option <https://docutils.sourceforge.io/docs/ref/rst/directives.html#common-options>`_ to an image to prevent opening it in a modal."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:465
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:483
 msgid "Alert blocks (admonitions)"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:470
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:488
 msgid "See also"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:476
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:494
 msgid "`Customer invoices <https://example.com/doc/accounting/invoices.html>`_"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:477
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:495
 msgid "`Pro-forma invoices <https://example.com/doc/sales/proforma.html#activate-the-feature>`_"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:488
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:506
 msgid "Note"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:494
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:512
 msgid "Use this alert block to grab the reader's attention about additional information."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:504
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:522
 msgid "Tip"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:510
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:528
 msgid "Use this alert block to inform the reader about a useful trick that requires an action."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:520
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:538
 #: ../../content/contributing/documentation/rst_guidelines.rst:17
 msgid "Example"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:526
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:544
 msgid "Use this alert block to show an example."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:536
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:554
 msgid "Exercise"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:542
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:560
 msgid "Use this alert block to suggest an exercise to the reader."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:552
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:570
 msgid "Important"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:558
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:576
 msgid "Use this alert block to notify the reader about important information."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:568
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:586
 msgid "Warning"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:574
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:592
 msgid "Use this alert block to require the reader to proceed with caution with what is described in the warning."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:586
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:604
 msgid "Danger"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:592
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:610
 msgid "Use this alert block to bring the reader's attention to a serious threat."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:602
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:620
 msgid "Custom"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:607
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:625
 msgid "Title"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:609
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:627
 msgid "Customize this alert block with a **Title** of your choice."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:620
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:638
 msgid "Tables"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:623
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:641
 msgid "List tables"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:625
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:643
 msgid "List tables use two-level bulleted lists to convert data into a table. The first level represents the rows and the second level represents the columns."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:635
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:653
 msgid "Name"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:636
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:654
 msgid "Country"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:637
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:655
 msgid "Favorite color"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:638
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:656
 msgid "Raúl"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:639
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:657
 msgid "Montenegro"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:640
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:672
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:658
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:690
 msgid "Purple"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:641
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:659
 msgid "Mélanie"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:642
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:660
 msgid "France"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:643
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:661
 msgid "Red"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:662
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:680
 msgid "Grid tables"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:664
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:682
 msgid "Grid tables represent the rendered table and are more visual to work with."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:670
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:688
 msgid "Shirts"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:670
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:688
 msgid "T-shirts"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:672
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:690
 msgid "**Available colours**"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:672
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:690
 msgid "Green"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:674
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:692
 msgid "Turquoise"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:674
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:692
 msgid "Orange"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:676
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:694
 msgid "**Sleeves length**"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:676
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:694
 msgid "Long sleeves"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:676
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:694
 msgid "Short sleeves"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:692
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:710
 msgid "Use `=` instead of `-` to define header rows."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:693
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:711
 msgid "Remove `-` and `|` separators to merge cells."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:694
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:712
 msgid "Make use of `this convenient table generator <https://www.tablesgenerator.com/text_tables>`_ to build your tables. Then, copy-paste the generated formatting into your document."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:700
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:718
 msgid "Code blocks"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:720
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:738
 msgid "Spoilers"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:727
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:745
 msgid "**42**"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:738
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:756
 msgid "Content tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:741
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:759
 msgid "The `tabs` markup may not work well in some situations. In particular:"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:743
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:761
 msgid "The tabs' headers cannot be translated."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:744
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:762
 msgid "A tab cannot contain :ref:`headings <contributing/headings>`."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:745
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:763
 msgid "An :ref:`alert block <contributing/alert-blocks>` cannot contain tabs."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:746
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:764
 msgid "A tab cannot contain :ref:`custom anchors <contributing/custom-anchors>`."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:751
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:769
 msgid "Basic tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:753
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:771
 msgid "Basic tabs are useful to split the content into multiple options. The `tabs` markup is used to define sequence of tabs. Each tab is then defined with the `tab` markup followed by a label."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:761
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:779
 msgid "Odoo Online"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:763
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:781
 msgid "Content dedicated to Odoo Online users."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:765
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:783
 msgid "Odoo.sh"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:767
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:785
 msgid "Alternative for Odoo.sh users."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:769
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:787
 msgid "On-premise"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:771
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:789
 msgid "Third version for On-premise users."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:792
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:810
 msgid "Nested tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:794
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:812
 msgid "Tabs can be nested inside one another."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:801
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:819
 msgid "Stars"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:805
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:823
 msgid "The Sun"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:807
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:825
 msgid "The closest star to us."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:809
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:827
 msgid "Proxima Centauri"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:811
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:829
 msgid "The second closest star to us."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:813
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:831
 msgid "Polaris"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:815
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:833
 msgid "The North Star."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:817
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:835
 msgid "Moons"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:821
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:839
 msgid "The Moon"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:823
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:841
 msgid "Orbits the Earth."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:825
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:843
 msgid "Titan"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:827
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:845
 msgid "Orbits Jupiter."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:864
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:882
 msgid "Group tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:866
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:884
 msgid "Group tabs are special tabs that synchronize based on a group label. The last selected group is remembered and automatically selected when the user returns to the page or visits another page with the tabs group. The `group-tab` markup is used to define group tabs."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:875
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:877
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:889
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:893
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:895
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:907
 msgid "C++"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:883
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:885
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:904
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:901
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:903
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:922
 msgid "Java"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:956
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:974
 msgid "Code tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:958
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:976
 msgid "Code tabs are essentially :ref:`group tabs <contributing/tabs/group>` that treat the content as a :ref:`code block <contributing/code-blocks>`. The `code-tab` markup is used to define a code tab. Just as for the `code-block` markup, the language defines the syntax highlighting of the tab. If set, the label is used instead of the language for grouping tabs."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1009
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1027
 msgid "Cards"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1057
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1075
 msgid "Document metadata"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1059
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1077
 msgid "Sphinx supports document-wide metadata markups that specify a behavior for the entire page."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1060
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1078
 msgid "They must be placed between colons (`:`) at the top of the source file."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1063
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1081
 msgid "**Metadata**"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1063
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1081
 msgid "**Purpose**"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1065
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1083
 msgid "`show-content`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1065
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1083
 msgid "Make a toctree page accessible from the navigation menu."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1067
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1085
 msgid "`show-toc`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1067
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1085
 msgid "Show the table of content on a page that has the `show-content` metadata markup."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1070
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1088
 msgid "`code-column`"
 msgstr ""
 
@@ -2805,59 +2817,59 @@ msgstr ""
 msgid "For example, see :doc:`/applications/finance/accounting/get_started/cheat_sheet`."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1075
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1093
 msgid "`hide-page-toc`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1075
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1093
 msgid "Hide the \"On this page\" sidebar and use full page width for the content."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1077
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1095
 msgid "`custom-css`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1077
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1095
 msgid "Link CSS files (comma-separated) to the document."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1079
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1097
 msgid "`custom-js`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1079
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1097
 msgid "Link JS files (comma-separated) to the document."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1081
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1099
 msgid "`classes`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1081
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1099
 msgid "Assign the specified classes to the `<main/>` element of the document."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1083
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1101
 msgid "`orphan`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1083
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1101
 msgid "Suppress the need to include the document in a toctree."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1085
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1103
 msgid "`nosearch`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1085
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1103
 msgid "Exclude the document from search results."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1091
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1109
 msgid "Formatting tips"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1096
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1114
 msgid "Break the line but not the paragraph"
 msgstr ""
 
@@ -2869,15 +2881,15 @@ msgstr ""
 msgid "A second line that follows a line break."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1114
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1132
 msgid "Escape markup symbols (Advanced)"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1116
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1134
 msgid "Markup symbols escaped with backslashes (``\\``) are rendered normally. For instance, ``this \\*\\*line of text\\*\\* with \\*markup\\* symbols`` is rendered as “this \\*\\*line of text\\*\\* with \\*markup\\* symbols”."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1120
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1138
 msgid "When it comes to backticks (`````), which are used in many cases such as :ref:`external hyperlinks <contributing/external-hyperlinks>`, using backslashes for escaping is no longer an option because the outer backticks interpret enclosed backslashes and thus prevent them from escaping inner backticks. For instance, ```\\`this formatting\\```` produces an ``[UNKNOWN NODE title_reference]`` error. Instead, `````this formatting````` should be used to produce the following result: ```this formatting```."
 msgstr ""
 

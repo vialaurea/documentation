@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-30 09:16+0000\n"
+"POT-Creation-Date: 2024-06-19 09:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,7 +60,7 @@ msgstr ""
 msgid "Next, click :guilabel:`Select a project` and select (or create) an API project to configure OAuth in, and store credentials. Click :guilabel:`New Project`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "Create a new API project to store credentials."
 msgstr ""
 
@@ -76,7 +76,7 @@ msgstr ""
 msgid "Now, click on :guilabel:`Enabled APIs and Services` in the left menu. Select :guilabel:`Enabled APIs and Services` again if the :guilabel:`Search bar` doesn't appear."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "Enable APIs and Services on the API Project."
 msgstr ""
 
@@ -84,7 +84,7 @@ msgstr ""
 msgid "After that, search for `Google Calendar API` using the search bar and select :guilabel:`Google Calendar API` from the search results. Click :guilabel:`Enable`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "Enable the Google Calendar API."
 msgstr ""
 
@@ -144,7 +144,7 @@ msgstr ""
 msgid "Under the :guilabel:`Authorized redirect URIs` section, click :guilabel:`+ Add URI` and type the company's Odoo :abbr:`URL (Uniform Resource Locator)` address followed by `/google_account/authentication`. Finally, click :guilabel:`Create`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "Add the authorized JavaScript origins and the authorized redirect URIs."
 msgstr ""
 
@@ -160,7 +160,7 @@ msgstr ""
 msgid "Once the *Client ID* and the *Client Secret* are located, open the Odoo database and go to :menuselection:`Settings --> General Settings --> Integrations --> Google Calendar`. Check the box next to :guilabel:`Google Calendar`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "The Google Calendar checkbox in General Settings."
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Finally, open the :menuselection:`Calendar` app in Odoo and click on the :guilabel:`Google` sync button to sync Google Calendar with Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "Click the Google sync button in Odoo Calendar to sync Google Calendar with Odoo."
 msgstr ""
 
@@ -184,7 +184,7 @@ msgstr ""
 msgid "When syncing Google Calendar with Odoo for the first time, the page will redirect to the Google Account. From there, select the :guilabel:`Email Account` that should have access, then select :guilabel:`Continue` (should the app be unverifed), and finally select :guilabel:`Continue` (to give permission for the transfer of data)`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "Give Odoo permission to access Google Calendar."
 msgstr ""
 
@@ -233,8 +233,8 @@ msgstr ""
 msgid "In these cases, the account needs troubleshooting. A reset can be performed using the :guilabel:`Reset Account` button, which can be accessed by navigating to :menuselection:`Settings app --> Manage Users`. Then, select the user to modify the calendar, and click the :guilabel:`Calendar` tab."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "Reset buttons highlighted on the calendar tab of the user."
 msgstr ""
 
@@ -252,7 +252,7 @@ msgstr ""
 msgid "The following reset options are available for troubleshooting Google calendar sync with Odoo:"
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "Google calendar reset options in Odoo."
 msgstr ""
 
@@ -329,7 +329,7 @@ msgstr ""
 msgid "If no test users are added to the :guilabel:`OAuth consent screen`, then an :guilabel:`Error 403: access_denied` populates."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "403 Access Denied Error."
 msgstr ""
 
@@ -345,7 +345,7 @@ msgstr ""
 msgid "When creating the credentials (OAuth *Client ID* and *Client Secret*), if :guilabel:`Desktop App` is selected for the :guilabel:`Application Type`, an :guilabel:`Authorization Error` appears (:guilabel:`Error 400:redirect_uri_mismatch`)."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/google.rst:-1
+#: ../../content/applications/productivity/calendar/google.rst:None
 msgid "Error 400 Redirect URI Mismatch."
 msgstr ""
 
@@ -409,7 +409,7 @@ msgstr ""
 msgid "To create an application, click :guilabel:`+ Add` in the top menu. From the resulting drop-down menu, select :guilabel:`App Registration`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "Microsoft Azure management page with + Add and App Registration menu highlighted."
 msgstr ""
 
@@ -437,7 +437,7 @@ msgstr ""
 msgid "Access the `web.base.url` by activating :ref:`developer mode <developer-mode>`, and navigating to :menuselection:`Settings app --> Technical header menu --> Parameters section --> System Parameters`. Then, select it from the :guilabel:`Key` list on the :guilabel:`System Parameters` page."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "The \"Supported account type\" and \"Redirect URI\" settings in the Microsoft Entra ID portal."
 msgstr ""
 
@@ -449,7 +449,7 @@ msgstr ""
 msgid "Finally, on the application registration page, click :guilabel:`Register` button to complete the application registration. The :guilabel:`Application (client) ID` is produced. Copy this value, as it is needed later, in the :ref:`outlook_calendar/odoo_setup`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "Application client ID highlighted in the essentials section of the newly created\n"
 "application."
 msgstr ""
@@ -466,7 +466,7 @@ msgstr ""
 msgid "To add a client secret, click :menuselection:`Certificates & secrets` in the left menu. Then click :guilabel:`+ New client secret` to create the client secret."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "New client secret page with certificates and secrets menu and new client secret option\n"
 "highlighted."
 msgstr ""
@@ -499,7 +499,7 @@ msgstr ""
 msgid "In the Odoo database, go to :menuselection:`Settings app --> Integrations section`, and tick the checkbox beside the :guilabel:`Outlook Calendar` setting. Remember to click :guilabel:`Save` to implement the changes."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "The \"Outlook Calendar\" setting activated in Odoo."
 msgstr ""
 
@@ -507,7 +507,7 @@ msgstr ""
 msgid "From the Microsoft *Azure* portal, under the :guilabel:`Overview` section of the application, copy the :guilabel:`Application (Client) ID`, if it has not already been copied, and paste it into the :guilabel:`Client ID` field in Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "The \"Client ID\" in the Microsoft Azure portal."
 msgstr ""
 
@@ -515,7 +515,7 @@ msgstr ""
 msgid "Copy the previously-acquired :guilabel:`Value` (Client Secret Value), and paste it into the :guilabel:`Client Secret` field in Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "The \"Client Secret\" token to be copied from Microsoft to Odoo."
 msgstr ""
 
@@ -579,7 +579,7 @@ msgstr ""
 msgid "In the Odoo database, open to the *Calendar* module, and click the :guilabel:`Outlook` sync button on the right-side of the page, beneath the monthly calendar."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "The \"Outlook\" sync button in Odoo Calendar."
 msgstr ""
 
@@ -587,7 +587,7 @@ msgstr ""
 msgid "The synchronization is a two-way process, meaning that events are reconciled in both accounts (*Outlook* and Odoo). The page redirects to a Microsoft login page, and the user is asked to log in to their account, if they are not already. Finally, grant the required permissions by clicking :guilabel:`Accept`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "Authentication process on Microsoft Outlook OAuth page."
 msgstr ""
 
@@ -615,7 +615,7 @@ msgstr ""
 msgid "The following reset options are available for troubleshooting *Microsoft Outlook Calendar* sync with Odoo:"
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:-1
+#: ../../content/applications/productivity/calendar/outlook.rst:None
 msgid "Outlook calendar reset options in Odoo."
 msgstr ""
 
@@ -651,7 +651,7 @@ msgstr ""
 msgid "Access user-specific preferences for the *Discuss* app by navigating to :menuselection:`Settings app --> Users --> User --> Preferences tab`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:-1
+#: ../../content/applications/productivity/discuss.rst:None
 msgid "View of the Preferences tab for Odoo Discuss."
 msgstr ""
 
@@ -663,7 +663,7 @@ msgstr ""
 msgid "By choosing :guilabel:`Handle in Odoo`, the above notifications are shown in the *Discuss* app's *inbox*. Messages can have the following actions taken on them: respond with an emoji by clicking :guilabel:`Add a Reaction`, or reply to the message by clicking on :guilabel:`Reply`. Additional actions may include starring the message by clicking :guilabel:`Marked as Todo`, or pinning the message by selecting :guilabel:`Pin` or even mark the message as unread by selecting :guilabel:`Marked as unread`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:-1
+#: ../../content/applications/productivity/discuss.rst:None
 msgid "View of an inbox message and its action options in Odoo Discuss."
 msgstr ""
 
@@ -671,7 +671,7 @@ msgstr ""
 msgid "Clicking :guilabel:`Mark as Todo` on a message causes it to appear on the :guilabel:`Starred` page, while clicking :guilabel:`Mark as Read` moves the message to :guilabel:`History`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:-1
+#: ../../content/applications/productivity/discuss.rst:None
 msgid "View of messages marked as todo in Odoo Discuss."
 msgstr ""
 
@@ -683,7 +683,7 @@ msgstr ""
 msgid "The first time a user logs in to their account, OdooBot sends a message asking for permission to send desktop notifications for chats. If accepted, the user will receive push notifications on their desktop for the messages they receive, regardless of where the user is in Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:-1
+#: ../../content/applications/productivity/discuss.rst:None
 msgid "View of the messages under the messaging menu emphasizing the request for push\n"
 "notifications for Odoo Discuss."
 msgstr ""
@@ -696,7 +696,7 @@ msgstr ""
 msgid "To start a chat, go to the :menuselection:`Discuss` app and click on the :guilabel:`+ (plus)` icon next to :guilabel:`Direct Messages` or :guilabel:`Channels` in the left menu of the dashboard."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:-1
+#: ../../content/applications/productivity/discuss.rst:None
 msgid "View of Discuss's panel emphasizing the titles channels and direct messages in Odoo\n"
 "Discuss."
 msgstr ""
@@ -713,7 +713,7 @@ msgstr ""
 msgid "To mention a user within a chat or the chatter, type `@user-name`; to refer to a channel, type `#channel-name`. The user mentioned will be notified in their *inbox* or through an email, depending on their communication settings."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:-1
+#: ../../content/applications/productivity/discuss.rst:None
 msgid "View of a couple of chat window messages for Odoo Discuss."
 msgstr ""
 
@@ -745,7 +745,7 @@ msgstr ""
 msgid "Airplane = out of the office"
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:-1
+#: ../../content/applications/productivity/discuss.rst:None
 msgid "View of the contacts' status for Odoo Discuss."
 msgstr ""
 
@@ -802,7 +802,7 @@ msgstr ""
 msgid "If a record was created, or edited, via an imported file, or was otherwise updated through an intervention by the system, the chatter thread creates a log note, and credits the change to OdooBot."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/chatter.rst:-1
+#: ../../content/applications/productivity/discuss/chatter.rst:None
 msgid "A close up of a chatter thread of an OdooBot created contact record."
 msgstr ""
 
@@ -914,7 +914,7 @@ msgstr ""
 msgid ":ref:`Followers <discuss/add-followers>` of a record are added as recipients of a message automatically. If a follower should **not** receive a message, they must be removed as a follower before the message is sent, or a note is logged."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/chatter.rst:-1
+#: ../../content/applications/productivity/discuss/chatter.rst:None
 msgid "A chatter composer preparing to send a message to the followers of a CRM opportunity and\n"
 "the customer listed on the opportunity record."
 msgstr ""
@@ -955,7 +955,7 @@ msgstr ""
 msgid "Click :guilabel:`📎 Attachments` to add any files to the message, then click :guilabel:`Send`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/chatter.rst:-1
+#: ../../content/applications/productivity/discuss/chatter.rst:None
 msgid "The expanded full chatter composer in the CRM application."
 msgstr ""
 
@@ -975,7 +975,7 @@ msgstr ""
 msgid "To edit a sent message, click the :guilabel:`... (ellipsis)` icon menu to the right of the message. Then, select :guilabel:`Edit`. Make any necessary adjustments to the message."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/chatter.rst:-1
+#: ../../content/applications/productivity/discuss/chatter.rst:None
 msgid "The edit message option in a chatter thread."
 msgstr ""
 
@@ -1083,7 +1083,7 @@ msgstr ""
 msgid "**Green** icons indicate an activity with a due date scheduled in the future."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/chatter.rst:-1
+#: ../../content/applications/productivity/discuss/chatter.rst:None
 msgid "A chatter thread with planned activities with varying due dates."
 msgstr ""
 
@@ -1103,7 +1103,7 @@ msgstr ""
 msgid "After the activity is marked complete, an entry with the activity type, title, and any other details that were included in the pop-up window are listed in the chatter."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/chatter.rst:-1
+#: ../../content/applications/productivity/discuss/chatter.rst:None
 msgid "A chatter thread with a completed activity, included additional details."
 msgstr ""
 
@@ -1185,7 +1185,7 @@ msgstr ""
 msgid "*WhatsApp* templates **must** be approved before they can be used. See :ref:`WhatsApp templates <productivity/whatsapp/templates>` for more information."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/chatter.rst:-1
+#: ../../content/applications/productivity/discuss/chatter.rst:None
 msgid "A send WhatsApp message pop-up window."
 msgstr ""
 
@@ -1213,7 +1213,7 @@ msgstr ""
 msgid "To translate a user's text from another language, click the :guilabel:`... (ellipsis)` icon menu to the right of the chatter. Then, select :guilabel:`Translate`. The content translates to the language set in the :doc:`user's preferences <../../general/users/language/>`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/chatter.rst:-1
+#: ../../content/applications/productivity/discuss/chatter.rst:None
 msgid "alt text"
 msgstr ""
 
@@ -1273,7 +1273,7 @@ msgstr ""
 msgid "For :guilabel:`What is your goal today?`, select :guilabel:`3rd party integrations`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/ice_servers.rst:-1
+#: ../../content/applications/productivity/discuss/ice_servers.rst:None
 msgid "The Twilio welcome page."
 msgstr ""
 
@@ -1289,7 +1289,7 @@ msgstr ""
 msgid "To locate the Account SID and Auth Token, go to the Twilio account dashboard. Then, click :guilabel:`Develop` on the sidebar. In the :guilabel:`Account Info` section, locate the :guilabel:`Account SID` and the :guilabel:`Auth Token`. Both of these are needed to connect Twilio to Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/ice_servers.rst:-1
+#: ../../content/applications/productivity/discuss/ice_servers.rst:None
 msgid "The Twilio Account SID and Auth Token can be found uner the Account Info section."
 msgstr ""
 
@@ -1301,7 +1301,7 @@ msgstr ""
 msgid "Open the Odoo database and go to :menuselection:`Settings --> General Settings --> Discuss`. Check the box next to :guilabel:`Use Twilio ICE servers` and enter the Twilio account's :guilabel:`Account SID` and :guilabel:`Auth Token`. Finally, click :guilabel:`Save` to apply these changes."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/ice_servers.rst:-1
+#: ../../content/applications/productivity/discuss/ice_servers.rst:None
 msgid "Enable the \"Use Twilio ICE servers\" option in Odoo General Settings."
 msgstr ""
 
@@ -1317,7 +1317,7 @@ msgstr ""
 msgid "In :menuselection:`Settings --> General Settings --> Discuss`, click the :guilabel:`ICE Servers` button under :guilabel:`Custom ICE server list`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/ice_servers.rst:-1
+#: ../../content/applications/productivity/discuss/ice_servers.rst:None
 msgid "The \"ICE Servers\" button in Odoo General Settings."
 msgstr ""
 
@@ -1325,7 +1325,7 @@ msgstr ""
 msgid "Odoo will redirect to the :guilabel:`ICE servers` page. Here you can define your own list of ICE servers."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/ice_servers.rst:-1
+#: ../../content/applications/productivity/discuss/ice_servers.rst:None
 msgid "The \"ICE servers\" page in Odoo."
 msgstr ""
 
@@ -1349,7 +1349,7 @@ msgstr ""
 msgid "A *Public* channel can be seen by everyone, while a *Private* one is only visible to users invited to it. To create a new channel, navigate to the :menuselection:`Discuss` app, and then click on the :guilabel:`➕ (plus)` icon next to the :guilabel:`Channels` heading in the left-side menu. After typing the name of the channel, two selectable options will appear: The first is a channel with a hashtag (`#`) to indicate that it is a public channel; the second option is a channel with a lock icon (`🔒`) next to it, to indicate that it is a private channel. Select the channel type that best fits the communication needs."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/team_communication.rst:-1
+#: ../../content/applications/productivity/discuss/team_communication.rst:None
 msgid "View of discuss's sidebar and a channel being created in Odoo Discuss."
 msgstr ""
 
@@ -1365,7 +1365,7 @@ msgstr ""
 msgid "The channel's :guilabel:`Group Name`, :guilabel:`Description`, and :guilabel:`Privacy` settings can be modified by clicking on the channel's settings, represented by a :guilabel:`⚙️ (gear)` icon in the left sidebar menu, next to the channel's name."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/team_communication.rst:-1
+#: ../../content/applications/productivity/discuss/team_communication.rst:None
 msgid "View of a channel's settings form in Odoo Discuss."
 msgstr ""
 
@@ -1385,7 +1385,7 @@ msgstr ""
 msgid "When choosing :guilabel:`Invited people only`, specify in the :guilabel:`Members` tab which members should be invited. Inviting members can also be done from the *Discuss* app's main dashboard, by selecting the channel, clicking the *add user* icon in the top-right corner of the dashboard, and finally clicking :guilabel:`Invite to Channel` once all the users have been added."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/team_communication.rst:-1
+#: ../../content/applications/productivity/discuss/team_communication.rst:None
 msgid "View of Discuss' option to invite members in Odoo Discuss."
 msgstr ""
 
@@ -1405,7 +1405,7 @@ msgstr ""
 msgid "Once at least 20 channels, direct messages, or live chat conversations (if *Live Chat* module is installed on the database) are pinned in the sidebar, a :guilabel:`Quick search…` bar is displayed. This feature is a convenient way to filter conversations and quickly find relevant communications."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/team_communication.rst:-1
+#: ../../content/applications/productivity/discuss/team_communication.rst:None
 msgid "View of the Discuss' sidebar emphasizing the quick search bar in Odoo Discuss."
 msgstr ""
 
@@ -1421,7 +1421,7 @@ msgstr ""
 msgid "There is also the ability to apply filtering criteria and save them for later use. The :guilabel:`Search...` function accepts wildcards by using the underscore character [ `_` ], and specific searches can be saved by using the :menuselection:`Favorites --> Save Current Search` drop-down menu."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/team_communication.rst:-1
+#: ../../content/applications/productivity/discuss/team_communication.rst:None
 msgid "View of a channel being searched through filters in Odoo Discuss"
 msgstr ""
 
@@ -1437,7 +1437,7 @@ msgstr ""
 msgid "Users are able to contribute to this group channel (either public or member based) by typing messages in window and pressing *enter*."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/team_communication.rst:-1
+#: ../../content/applications/productivity/discuss/team_communication.rst:None
 msgid "Channel linked in chatter with the channel open on the lower right quadrant."
 msgstr ""
 
@@ -1479,7 +1479,7 @@ msgstr ""
 msgid "By going to :menuselection:`Documents --> Configuration --> Settings`, you can enable the centralization of files attached to a specific area of your activity. For example, by ticking :guilabel:`Human Resources`, your HR documents are automatically available in the HR workspace, while documents related to Payroll are automatically available in the Payroll sub-workspace . You can change the default workspace using the dropdown menu and edit its properties by clicking the internal link button (:guilabel:`➔`)."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:-1
+#: ../../content/applications/productivity/documents.rst:None
 msgid "Enable the centralization of files attached to a specific area of your activity."
 msgstr ""
 
@@ -1492,67 +1492,83 @@ msgid "Enable the centralization of files attached to your accounting."
 msgstr ""
 
 #: ../../content/applications/productivity/documents.rst:36
-msgid "If you select a new workspace, existing documents aren't moved. Only newly created documents will be found under the new workspace."
-msgstr ""
-
-#: ../../content/applications/productivity/documents.rst:40
-msgid "Workspaces"
+msgid "If you select a new workspace, existing documents are not moved. Only newly created documents will be found under the new workspace."
 msgstr ""
 
 #: ../../content/applications/productivity/documents.rst:42
+msgid "Workspaces"
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:44
 msgid "Workspaces are hierarchical folders having their own set of tags and :ref:`actions <documents/workflow-actions>`. Default workspaces exist, but you can create your own by going to :menuselection:`Documents --> Configuration --> Workspaces` and clicking :guilabel:`New`. On the new page, fill in the following information:"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:47
+#: ../../content/applications/productivity/documents.rst:49
 msgid ":guilabel:`Name`"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:48
+#: ../../content/applications/productivity/documents.rst:50
 msgid ":guilabel:`Parent Workspace`: if you want to create a sub-workspace, select its :guilabel:`Parent Workspace`"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:52
+#: ../../content/applications/productivity/documents.rst:54
 #: ../../content/applications/productivity/sign.rst:236
 msgid "Tags"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:54
+#: ../../content/applications/productivity/documents.rst:56
 msgid "Tags are used within workspaces to add a level of differentiation between documents. They are organized per category, and filters can be used to sort them."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:57
+#: ../../content/applications/productivity/documents.rst:59
 msgid "Tags can be created from the :guilabel:`Tags` tab. Click :guilabel:`Add a line`, create the :guilabel:`Tag Category`, and :guilabel:`Name` your tags."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:61
+#: ../../content/applications/productivity/documents.rst:63
 msgid "The tags of a parent workspace apply to the child workspaces automatically;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:62
+#: ../../content/applications/productivity/documents.rst:64
 msgid "Tags can be created and modified by going to :menuselection:`Configuration --> Tags`;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:63
+#: ../../content/applications/productivity/documents.rst:65
 msgid "Tags can also be created or edited by clicking the gear icon :guilabel:`⚙` on the left menu."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:66
+#: ../../content/applications/productivity/documents.rst:67
+msgid "An **email alias** can be used to automatically send received documents to a specific workspace based on the tag assigned. To create an email alias:"
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:70
+msgid "Select the tag and the corresponding workspace where the document should be directed in the left column of your dashboard."
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:73
+msgid "Next to the :guilabel:`Upload` button, click the down arrow, and then click :guilabel:`Share`."
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:75
+msgid "In the new window, click :guilabel:`Download and Upload` and enter the email alias where documents should be sent."
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:79
 msgid "Access rights"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:68
+#: ../../content/applications/productivity/documents.rst:81
 msgid "To manage your workspace access rights, go to :menuselection:`Documents --> Configuration --> Workspaces`, open the workspace you want to edit, and go to the :guilabel:`Access Rights` tab. You can add :guilabel:`Write Groups` that can view, create, and edit the workspace's documents. You can also add :guilabel:`Read Groups` that can only view the workspace's documents."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:74
+#: ../../content/applications/productivity/documents.rst:87
 msgid "Description"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:76
+#: ../../content/applications/productivity/documents.rst:89
 msgid "You can add descriptive information to your workspace by going to :menuselection:`Documents --> Configuration --> Workspaces`, opening the workspace you want to describe and going to the :guilabel:`Description` tab."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:81
+#: ../../content/applications/productivity/documents.rst:94
 msgid "Workspaces can also be created and edited by clicking the gear icon :guilabel:`⚙` on the left menu."
 msgstr ""
 
@@ -1560,87 +1576,87 @@ msgstr ""
 msgid "Create sub-workspaces from the left menu"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:88
+#: ../../content/applications/productivity/documents.rst:101
 msgid "Documents management"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:90
-msgid "When selecting or opening a document, the right panel displays different options. On the top, additional options might be available: :guilabel:`Download`, :guilabel:`Share`, :guilabel:`Replace`, :guilabel:`Lock` or :guilabel:`Split`. It is also possible to :guilabel:`Open chatter` or :guilabel:`Archive` the document."
+#: ../../content/applications/productivity/documents.rst:103
+msgid "When selecting or opening a document, the right panel displays different options. On the top, additional options might be available: :guilabel:`Download`, :guilabel:`Share`, :guilabel:`Replace`, :guilabel:`Lock` or :guilabel:`Split`. It is also possible to :guilabel:`Open chatter` or use the :guilabel:`Move to trash` option."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:-1
+#: ../../content/applications/productivity/documents.rst:None
 msgid "right panel options"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:99
-msgid "Then, you can modify the name of your file by clicking on :guilabel:`Document`. A :guilabel:`Contact` or an :guilabel:`Owner` can be assigned. The related :guilabel:`Workspace` can be modified and it is possible to access the related :guilabel:`Journal Entry` or add :guilabel:`Tags`."
+#: ../../content/applications/productivity/documents.rst:112
+msgid "Then, you can modify the name of your file by clicking on :guilabel:`Name`. A :guilabel:`Contact` or an :guilabel:`Owner` can be assigned. The related :guilabel:`Workspace` can be modified and it is possible to access the related :guilabel:`Journal Entry` or add :guilabel:`Tags`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:105
+#: ../../content/applications/productivity/documents.rst:117
 msgid "The :guilabel:`Contact` is the person related to the document and assigned to it. He can only view the document and not modify it. I.e.: an existing supplier in your database is the contact for their bill."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:108
+#: ../../content/applications/productivity/documents.rst:120
 msgid "The person who creates a document is, by default :guilabel:`Owner` of it and has complete rights to it. It is possible to replace the owner of a document. I.e., an employee must be owner of a document to be able to see it in \"My Profile\"."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:112
+#: ../../content/applications/productivity/documents.rst:124
 msgid "Different :ref:`Actions <documents/workflow-actions>` are available at the bottom of the right panel, depending on the workspace where your document is stored."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:116
+#: ../../content/applications/productivity/documents.rst:128
 msgid "Split PDF documents"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:118
+#: ../../content/applications/productivity/documents.rst:130
 msgid "Select the PDF you want to split, and click the scissors icon. A new view displays all the pages of the document."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:121
+#: ../../content/applications/productivity/documents.rst:133
 msgid "By default, each page of the document will be split when clicking :guilabel:`Split`. To remove a split between two pages, click on the scissors icon."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:-1
+#: ../../content/applications/productivity/documents.rst:None
 msgid "split your documents"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:128
+#: ../../content/applications/productivity/documents.rst:140
 msgid "To merge documents from your dashboard, select them and click the scissors icon. Click on the scissors between the two documents and click :guilabel:`Split` to merge the documents."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:132
+#: ../../content/applications/productivity/documents.rst:144
 msgid "Additional features"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:134
+#: ../../content/applications/productivity/documents.rst:146
 msgid "Select a workspace and click the arrow next to the :guilabel:`Upload` button to access additional features:"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:138
+#: ../../content/applications/productivity/documents.rst:150
 msgid "Request"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:140
+#: ../../content/applications/productivity/documents.rst:152
 msgid "You can create \"missing documents\" and organize them as documents, to remind users to download them."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:142
+#: ../../content/applications/productivity/documents.rst:154
 msgid "Select the workspace where the file should be stored, click :guilabel:`Upload`, then :guilabel:`Request`. Add the :guilabel:`Document Name`, select the person you need it from in the :guilabel:`Request To` field, fill in the :guilabel:`Due Date In`, confirm the :guilabel:`Workspace`, the document should belong to, and add :guilabel:`Tags` and a :guilabel:`Note`, if needed. Then, click :guilabel:`Request`. A placeholder for the missing document is created in the workspace."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:149
+#: ../../content/applications/productivity/documents.rst:161
 msgid "When your document is available, click the placeholder to upload it."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:151
+#: ../../content/applications/productivity/documents.rst:163
 msgid "You can see all missing documents by going to the **Activity** view and to the :guilabel:`Requested Document` column."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:155
+#: ../../content/applications/productivity/documents.rst:167
 msgid "From the :guilabel:`Activity` view, you can send a **reminder email** to users from whom you are expecting a document. Go to the :guilabel:`Requested Document` column, click on ⋮ and :guilabel:`Document Request: Reminder`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:159
+#: ../../content/applications/productivity/documents.rst:171
 msgid "Click on a date to see the details of a specific request. You can update it by clicking on the pen icon, :guilabel:`Preview` the content of the reminder email, or :guilabel:`Send Now` to send a reminder email."
 msgstr ""
 
@@ -1648,219 +1664,219 @@ msgstr ""
 msgid "send a reminder email from the Activity view"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:167
+#: ../../content/applications/productivity/documents.rst:179
 msgid "Add a link"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:169
+#: ../../content/applications/productivity/documents.rst:181
 msgid "To add a link to your documents dashboard, click on :guilabel:`Add a Link`, enter the :guilabel:`URL`, and :guilabel:`Name` it."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:173
+#: ../../content/applications/productivity/documents.rst:185
 msgid "Share"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:175
+#: ../../content/applications/productivity/documents.rst:187
 msgid "You can create a share link to a document or all documents of a workspace. It allows anyone to download the file(s) or upload files to a workspace."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:178
+#: ../../content/applications/productivity/documents.rst:190
 msgid "To do so, select the workspace or the document and click the arrow next to the :guilabel:`Upload` button then :guilabel:`Share`. On the pop-up, the share :guilabel:`URL` is displayed. :guilabel:`Copy` it to share it with anyone. :guilabel:`Name` the share link and set a validity date for the URL by filling in the :guilabel:`Valid Until` field. Tick the :guilabel:`Include Sub Folders` box if you also want to share a workspace's sub-folders. To let users upload their own documents, select :guilabel:`Download and Upload`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:186
+#: ../../content/applications/productivity/documents.rst:198
 msgid "It is possible to only share one or more documents (without their workspace) by selecting them and clicking :guilabel:`Share`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:190
+#: ../../content/applications/productivity/documents.rst:202
 msgid "New spreadsheet"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:192
+#: ../../content/applications/productivity/documents.rst:204
 msgid "To create a new :doc:`spreadsheet <spreadsheet>`, click :guilabel:`New Spreadsheet`. You can select a :guilabel:`Blank spreadsheet` or an :doc:`existing template <spreadsheet/templates>`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:198
+#: ../../content/applications/productivity/documents.rst:210
 msgid "Workflow actions"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:200
+#: ../../content/applications/productivity/documents.rst:212
 msgid "Workflow actions help manage documents and overall business operations. These are automated actions that can be created and customized for each workspace. With a single click you can, for example, create, move, sign, and add tags to a document, and process bills."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:204
+#: ../../content/applications/productivity/documents.rst:216
 msgid "These workflow actions appear on the right panel when a document meets the set criteria."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:207
+#: ../../content/applications/productivity/documents.rst:219
 msgid "Create workflow actions"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:209
+#: ../../content/applications/productivity/documents.rst:221
 msgid "To create workflow actions, go to :menuselection:`Documents --> Configuration --> Actions` and click :guilabel:`New`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:213
+#: ../../content/applications/productivity/documents.rst:225
 msgid "An action applies to all **sub-workspaces** under the :guilabel:`Related Workspace` you selected."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:216
+#: ../../content/applications/productivity/documents.rst:228
 msgid "Set the conditions"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:218
+#: ../../content/applications/productivity/documents.rst:230
 msgid "You can :guilabel:`Create` a new :guilabel:`Action` or edit an existing one. You can define the :guilabel:`Action Name` and then set the conditions that trigger the appearance of the action button (:guilabel:`▶`) on the right-side panel when selecting a file."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:222
+#: ../../content/applications/productivity/documents.rst:234
 msgid "There are three basic types of conditions you can set:"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:224
-msgid ":guilabel:`Tags`: you can use the :guilabel:`Contains` and :guilabel:`Does not contain` conditions, meaning the files *must have* or *mustn't have* the tags set here."
-msgstr ""
-
-#: ../../content/applications/productivity/documents.rst:227
-msgid ":guilabel:`Contact`: the files must be associated with the contact set here."
-msgstr ""
-
-#: ../../content/applications/productivity/documents.rst:229
-msgid ":guilabel:`Owner`: the files must be associated with the owner set here."
-msgstr ""
-
-#: ../../content/applications/productivity/documents.rst:-1
-msgid "Example of a workflow action's basic condition in Odoo Documents"
-msgstr ""
-
-#: ../../content/applications/productivity/documents.rst:235
-msgid "If you don't set any conditions, the action button appears for all files inside the selected workspace."
+#: ../../content/applications/productivity/documents.rst:236
+msgid ":guilabel:`Tags`: you can use the :guilabel:`Contains` and :guilabel:`Does not contain` conditions, meaning the files *must have* or *must not have* the tags set here."
 msgstr ""
 
 #: ../../content/applications/productivity/documents.rst:239
+msgid ":guilabel:`Contact`: the files must be associated with the contact set here."
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:241
+msgid ":guilabel:`Owner`: the files must be associated with the owner set here."
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:None
+msgid "Example of a workflow action's basic condition in Odoo Documents"
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:247
+msgid "If you do not set any conditions, the action button appears for all files inside the selected workspace."
+msgstr ""
+
+#: ../../content/applications/productivity/documents.rst:251
 msgid "Advanced condition type: domain"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:242
+#: ../../content/applications/productivity/documents.rst:254
 msgid "It is recommended to have some knowledge of Odoo development to configure *Domain* filters properly."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:245
+#: ../../content/applications/productivity/documents.rst:257
 msgid "The :ref:`developer mode <developer-mode>` needs to be activated to access the :guilabel:`Domain` condition from the :guilabel:`Actions` tab. Once done, select the :guilabel:`Domain` condition type and click :guilabel:`Add condition`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:249
+#: ../../content/applications/productivity/documents.rst:261
 msgid "To create a rule, you typically select a :guilabel:`field`, an :guilabel:`operator`, and a :guilabel:`value`. For example, if you want to add a workflow action to all the PDF files inside a workspace, set the :guilabel:`field` to *Mime Type*, the :guilabel:`operator` to *contains*, and the pdf :guilabel:`value`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:-1
+#: ../../content/applications/productivity/documents.rst:None
 msgid "Example of a workflow action's domain condition in Odoo Documents"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:257
+#: ../../content/applications/productivity/documents.rst:269
 msgid "Click :guilabel:`Add New Rule` (plus icon) and :guilabel:`Add branch` to add conditions and sub-conditions. You can then specify if your rule should match :guilabel:`all` or :guilabel:`any` conditions. You can also edit the rule directly using the :guilabel:`Code editor`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:262
+#: ../../content/applications/productivity/documents.rst:274
 msgid "Configure the actions"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:264
+#: ../../content/applications/productivity/documents.rst:276
 msgid "Select the :guilabel:`Actions` tab to set up your action. You can simultaneously:"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:266
+#: ../../content/applications/productivity/documents.rst:278
 msgid "**Set Contact**: add a contact to the file, or replace an existing contact with a new one."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:267
+#: ../../content/applications/productivity/documents.rst:279
 msgid "**Set Owner**: add an owner to the file, or replace an existing owner with a new one."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:268
+#: ../../content/applications/productivity/documents.rst:280
 msgid "**Move to Workspace**: move the file to any workspace."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:269
+#: ../../content/applications/productivity/documents.rst:281
 msgid "**Create**: create one of the following items attached to the file in your database:"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:271
+#: ../../content/applications/productivity/documents.rst:283
 msgid "**Link to record**: link the document to a record (i.e. link to a vehicle in Fleet);"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:272
+#: ../../content/applications/productivity/documents.rst:284
 msgid "**Product template**: create a product you can edit directly;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:273
+#: ../../content/applications/productivity/documents.rst:285
 msgid "**Task**: create a Project task you can edit directly;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:274
+#: ../../content/applications/productivity/documents.rst:286
 msgid "**Signature PDF template**: create a new Sign template to send out;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:275
+#: ../../content/applications/productivity/documents.rst:287
 msgid "**PDF to sign**: create a PDF to sign;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:276
+#: ../../content/applications/productivity/documents.rst:288
 msgid "**Applicant**: create a new HR application you can edit directly;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:277
+#: ../../content/applications/productivity/documents.rst:289
 msgid "**Vendor bill**: create a vendor bill using OCR and AI to scrape information from the file content;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:279
+#: ../../content/applications/productivity/documents.rst:291
 msgid "**Customer invoice**: create a customer invoice using OCR and AI to scrape information from the file;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:281
+#: ../../content/applications/productivity/documents.rst:293
 msgid "**Vendor credit note**: create a vendor credit note using OCR and AI to scrape information from the file;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:283
+#: ../../content/applications/productivity/documents.rst:295
 msgid "**Credit note**: create a customer credit note using OCR and AI to scrape information from the file;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:285
+#: ../../content/applications/productivity/documents.rst:297
 msgid "**Miscellaneous Operations**: create a record in :guilabel:`Miscellaneous Operations` in Accounting;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:287
+#: ../../content/applications/productivity/documents.rst:299
 msgid "**Bank Statement**: create a Bank Statement in Finance;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:288
+#: ../../content/applications/productivity/documents.rst:300
 msgid "**Expense**: create an expense automatically based on a file's content."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:290
-msgid "**Set Tags**: add, remove, and replace any number of tags."
+#: ../../content/applications/productivity/documents.rst:302
+msgid "**Set Tags**: add, remove, and replace any number of tags;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:291
-msgid "**Activities - Mark all as Done**: mark all activities linked to the file as done."
+#: ../../content/applications/productivity/documents.rst:303
+msgid "**Activities - Mark all as Done**: mark all activities linked to the file as done;"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:292
+#: ../../content/applications/productivity/documents.rst:304
 msgid "**Activities - Schedule Activity**: create a new activity linked to the file as configured in the action. You can choose to set the activity on the document owner."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:-1
+#: ../../content/applications/productivity/documents.rst:None
 msgid "Example of a workflow action Odoo Documents"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:299
+#: ../../content/applications/productivity/documents.rst:311
 msgid "Digitize documents with AI and optical character recognition (OCR)"
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:301
+#: ../../content/applications/productivity/documents.rst:313
 msgid "Documents available in the Finance workspace can be digitized. Select the document to digitize, click :guilabel:`Create Bill`, :guilabel:`Create Customer Invoice`, or :guilabel:`Create credit note`, and then click :guilabel:`Send for Digitization`."
 msgstr ""
 
-#: ../../content/applications/productivity/documents.rst:306
+#: ../../content/applications/productivity/documents.rst:318
 msgid ":doc:`AI-powered document digitization <../finance/accounting/vendor_bills/invoice_digitization>`"
 msgstr ""
 
@@ -1893,7 +1909,7 @@ msgstr ""
 msgid "To start adding content, click anywhere on the page. Your cursor is automatically set to write the article's first-level header. Once you are done writing the title, press **enter** on your keyboard to move to the next line."
 msgstr ""
 
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:-1
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:None
 msgid "knowledge's user interface"
 msgstr ""
 
@@ -1949,7 +1965,7 @@ msgstr ""
 msgid "Click the **chain** icon to insert or edit an URL link."
 msgstr ""
 
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:-1
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:None
 msgid "Text editor's toolbox"
 msgstr ""
 
@@ -2362,7 +2378,7 @@ msgstr ""
 msgid "You can find most tools to manage articles by clicking the vertical ellipsis button (:guilabel:`⋮`) at the right side of the top bar. From there, you can move, lock, delete, or duplicate an article."
 msgstr ""
 
-#: ../../content/applications/productivity/knowledge/management.rst:-1
+#: ../../content/applications/productivity/knowledge/management.rst:None
 msgid "Menu with tools for the management of articles"
 msgstr ""
 
@@ -2402,7 +2418,7 @@ msgstr ""
 msgid "You can also restrict a specific user from accessing the article by selecting :guilabel:`No access` permission."
 msgstr ""
 
-#: ../../content/applications/productivity/knowledge/management.rst:-1
+#: ../../content/applications/productivity/knowledge/management.rst:None
 msgid "pop-up window to invite users to access a Knowledge article"
 msgstr ""
 
@@ -2418,7 +2434,7 @@ msgstr ""
 msgid "Additionally, the share menu displays the default permission for internal members along with all the users who have been granted specific permission."
 msgstr ""
 
-#: ../../content/applications/productivity/knowledge/management.rst:-1
+#: ../../content/applications/productivity/knowledge/management.rst:None
 msgid "Sharing menu with URL for online sharing and the list of members."
 msgstr ""
 
@@ -2474,7 +2490,7 @@ msgstr ""
 msgid ":guilabel:`Private`: Articles displayed in that category are only available to you."
 msgstr ""
 
-#: ../../content/applications/productivity/knowledge/management.rst:-1
+#: ../../content/applications/productivity/knowledge/management.rst:None
 msgid "Categories displayed in the left sidebar of Odoo Knowledge"
 msgstr ""
 
@@ -2498,7 +2514,7 @@ msgstr ""
 msgid "Hover above the first-level header to make the buttons appear. Click :menuselection:`⚙ Add Properties --> Field Type`, select the type and add a default value if needed. To make the fields appear in **kanban views**, check :guilabel:`View in Kanban` as well. To validate and close the property creation window, click anywhere."
 msgstr ""
 
-#: ../../content/applications/productivity/knowledge/properties.rst:-1
+#: ../../content/applications/productivity/knowledge/properties.rst:None
 msgid "Dropdown of property fields types"
 msgstr ""
 
@@ -2564,7 +2580,7 @@ msgstr ""
 msgid "Some **field types** need to be configured:"
 msgstr ""
 
-#: ../../content/applications/productivity/knowledge/properties.rst:-1
+#: ../../content/applications/productivity/knowledge/properties.rst:None
 msgid "property configuration form"
 msgstr ""
 
@@ -2761,7 +2777,7 @@ msgstr ""
 msgid "When ready, click :guilabel:`Send`, and fill in the required fields. Once sent, your document remains available. Go to :menuselection:`Documents --> All Documents` to see your document and the status of the signatures."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:-1
+#: ../../content/applications/productivity/sign.rst:None
 msgid "Signature status"
 msgstr ""
 
@@ -2846,7 +2862,7 @@ msgstr ""
 msgid "The person signing the document fills in the :guilabel:`Signature` field, then :guilabel:`Sign`, and clicks :guilabel:`Validate & Send Completed Document`. A :guilabel:`Final Validation` page pops up where to add their phone number. One-time codes are sent by SMS."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:-1
+#: ../../content/applications/productivity/sign.rst:None
 msgid "Add a hash to your document"
 msgstr ""
 
@@ -2874,7 +2890,7 @@ msgstr ""
 msgid "Go to the document that needs to be signed and add the :guilabel:`Signature` field. Switch to any role configured to use the feature, and click :guilabel:`Validate` and :guilabel:`Send`."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:-1
+#: ../../content/applications/productivity/sign.rst:None
 msgid "select customer identified with itsme®"
 msgstr ""
 
@@ -2894,7 +2910,7 @@ msgstr ""
 msgid "A visual security frame displaying the beginning of the hash is added to the signatures. Internal users can hide or show it by turning the :guilabel:`Frame` option on or off when signing the document."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:-1
+#: ../../content/applications/productivity/sign.rst:None
 msgid "Adding the visual security frame to a signature."
 msgstr ""
 
@@ -2998,7 +3014,7 @@ msgstr ""
 msgid "Next, write a :guilabel:`Tip`. Tips are displayed inside arrows on the left-hand side of the user's screen during the signing process to help them understand what the step entails (e.g., \"Sign here\" or “Fill in your birthdate”). You can also use a :guilabel:`Placeholder` text to be displayed inside the field before it is completed."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:-1
+#: ../../content/applications/productivity/sign.rst:None
 msgid "Tip and placeholder example in Odoo Sign"
 msgstr ""
 
@@ -3038,7 +3054,7 @@ msgstr ""
 msgid "Some of Spreadsheet's main :abbr:`UI (user interface)` elements are highlighted and defined below."
 msgstr ""
 
-#: ../../content/applications/productivity/spreadsheet.rst:-1
+#: ../../content/applications/productivity/spreadsheet.rst:None
 msgid "Spreadsheet main UI elements"
 msgstr ""
 
@@ -5740,7 +5756,7 @@ msgstr ""
 msgid "In the pop-up box, either create a new spreadsheet by selecting :guilabel:`Blank spreadsheet` or insert it in an existing one by selecting it and clicking :guilabel:`Confirm`."
 msgstr ""
 
-#: ../../content/applications/productivity/spreadsheet/insert.rst:-1
+#: ../../content/applications/productivity/spreadsheet/insert.rst:None
 msgid "Inserting a pivot in a spreadsheet"
 msgstr ""
 
@@ -5796,7 +5812,7 @@ msgstr ""
 msgid ":ref:`sales commission report <templates/sales-commission>`."
 msgstr ""
 
-#: ../../content/applications/productivity/spreadsheet/templates.rst:-1
+#: ../../content/applications/productivity/spreadsheet/templates.rst:None
 msgid "View of all the default templates"
 msgstr ""
 
@@ -5816,7 +5832,7 @@ msgstr ""
 msgid "Budget reports compare a company's actual spending with its budget over a defined period. Two templates are available: one uses quarterly intervals (:guilabel:`Budget Report (Quarterly)`), while the other uses monthly intervals (:guilabel:`Budget Report (Monthly)`)."
 msgstr ""
 
-#: ../../content/applications/productivity/spreadsheet/templates.rst:-1
+#: ../../content/applications/productivity/spreadsheet/templates.rst:None
 msgid "Extract of a budget report"
 msgstr ""
 
@@ -5848,7 +5864,7 @@ msgstr ""
 msgid "Enable :guilabel:`Recurring Revenues` by going to :menuselection:`CRM --> Configuration --> Settings`."
 msgstr ""
 
-#: ../../content/applications/productivity/spreadsheet/templates.rst:-1
+#: ../../content/applications/productivity/spreadsheet/templates.rst:None
 msgid "Extract of a pipeline revenue report"
 msgstr ""
 
@@ -5896,7 +5912,7 @@ msgstr ""
 msgid "This report presents the monthly commission earned or due to each salesperson."
 msgstr ""
 
-#: ../../content/applications/productivity/spreadsheet/templates.rst:-1
+#: ../../content/applications/productivity/spreadsheet/templates.rst:None
 msgid "Extract of a sales commission report"
 msgstr ""
 
@@ -5988,7 +6004,7 @@ msgstr ""
 msgid "Next, select the :guilabel:`Project`, :guilabel:`Assignees`, and :guilabel:`Tags`, then click :guilabel:`Convert to Task`. The to-do is now a project task and appears in the selected project."
 msgstr ""
 
-#: ../../content/applications/productivity/to_do.rst:-1
+#: ../../content/applications/productivity/to_do.rst:None
 msgid "Converting a to-do into a task"
 msgstr ""
 
@@ -6000,7 +6016,7 @@ msgstr ""
 msgid "Your assigned **to-dos** are displayed on the app dashboard. You can drag and drop a to-do to move it from one stage to another."
 msgstr ""
 
-#: ../../content/applications/productivity/to_do.rst:-1
+#: ../../content/applications/productivity/to_do.rst:None
 msgid "Example of a to-do pipeline"
 msgstr ""
 
@@ -6024,7 +6040,7 @@ msgstr ""
 msgid "To schedule an activity on a to-do, click the clock button on the app dashboard, then the :guilabel:`+ Schedule an activity` button."
 msgstr ""
 
-#: ../../content/applications/productivity/to_do.rst:-1
+#: ../../content/applications/productivity/to_do.rst:None
 msgid "Scheduling an activity from the To-do dashboard"
 msgstr ""
 
@@ -6064,7 +6080,7 @@ msgstr ""
 msgid "If you use the :doc:`Project app <../services/project>`, your to-dos also appear as private tasks under the :guilabel:`My Tasks` view."
 msgstr ""
 
-#: ../../content/applications/productivity/to_do.rst:-1
+#: ../../content/applications/productivity/to_do.rst:None
 msgid "Example of a \"My Tasks\" pipeline in the Project app"
 msgstr ""
 
@@ -6121,7 +6137,7 @@ msgstr ""
 msgid ":guilabel:`VoIP Environment`: set as :guilabel:`Production`"
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/axivox_config.rst:-1
+#: ../../content/applications/productivity/voip/axivox/axivox_config.rst:None
 msgid "Integration of Axivox as VoIP provider in an Odoo database."
 msgstr ""
 
@@ -6169,7 +6185,7 @@ msgstr ""
 msgid ":guilabel:`How to place calls on mobile`: method to make calls on a mobile device"
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/axivox_config.rst:-1
+#: ../../content/applications/productivity/voip/axivox/axivox_config.rst:None
 msgid "Integration of Axivox user in the Odoo user preference."
 msgstr ""
 
@@ -6421,7 +6437,7 @@ msgstr ""
 msgid "Connect an agent by clicking the orange button labeled, :guilabel:`Connect an agent`. Then, select the desired agent's name from the drop-down menu, and click :guilabel:`Connect`."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/call_queues.rst:-1
+#: ../../content/applications/productivity/voip/axivox/call_queues.rst:None
 msgid "Call queue with connected agents column highlighted and connect an agent and report buttons\n"
 "highlighted."
 msgstr ""
@@ -6514,7 +6530,7 @@ msgstr ""
 msgid ":guilabel:`Blind Transfer`"
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/call_queues.rst:-1
+#: ../../content/applications/productivity/voip/axivox/call_queues.rst:None
 msgid "Event types in the Axivox queue reporting feature."
 msgstr ""
 
@@ -6530,7 +6546,7 @@ msgstr ""
 msgid "To select an individual :guilabel:`Event type`, click on the desired option in the drop-down menu."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/call_queues.rst:-1
+#: ../../content/applications/productivity/voip/axivox/call_queues.rst:None
 msgid "Axivox queue report with result, event type, and period highlighted."
 msgstr ""
 
@@ -6602,8 +6618,8 @@ msgstr ""
 msgid "Next, click the green button labeled, :guilabel:`Add a conference`, and a :guilabel:`New conference` form appears."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/conference_calls.rst:-1
-#: ../../content/applications/productivity/voip/axivox/conference_calls.rst:-1
+#: ../../content/applications/productivity/voip/axivox/conference_calls.rst:None
+#: ../../content/applications/productivity/voip/axivox/conference_calls.rst:None
 msgid "New conference form on Axivox."
 msgstr ""
 
@@ -6688,7 +6704,7 @@ msgstr ""
 msgid "Anywhere in the Odoo database, open the *VoIP* widget, by clicking the :guilabel:`☎️ (phone)` icon, located in the upper-right corner. Then, dial the specific extension number for the conference, and click the :guilabel:`📞 (phone)` icon."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/conference_calls.rst:-1
+#: ../../content/applications/productivity/voip/axivox/conference_calls.rst:None
 msgid "Connecting to a conference extension using the Odoo VoIP widget."
 msgstr ""
 
@@ -6751,7 +6767,7 @@ msgstr ""
 msgid "Next, click on the :guilabel:`Visual Editor` button to the right of the desired dial plan to edit it. Finally, open the :guilabel:`New element` drop-down menu, select the element, and click :guilabel:`Add`."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:None
 msgid "Visual editor for a dial plan in Axivox, with Add and the dispatcher element highlighted."
 msgstr ""
 
@@ -6935,7 +6951,7 @@ msgstr ""
 msgid "To specify all numbers behind a certain country code, or area code, include `\\d+` after the country code, or country code + area code."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:None
 msgid "Dispatcher configuration panel, with name, regular expression and add a line highlighted."
 msgstr ""
 
@@ -6979,7 +6995,7 @@ msgstr ""
 msgid "Calls follow this route/path when their number does not match any :guilabel:`Regular Expression` set on the :guilabel:`Dispatcher` element."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:None
 msgid "Dial plan with dispatcher element highlighted."
 msgstr ""
 
@@ -7023,7 +7039,7 @@ msgstr ""
 msgid "The :guilabel:`Time Condition` element is especially useful for holidays, weekends, and to set working hours. When a caller reaches a destination where they can be helped, either with a real person or voicemail, this reduces wasted time and hangups."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:None
 msgid "Time condition element set in a dial plan on Axivox. Time condition is highlighted."
 msgstr ""
 
@@ -7055,7 +7071,7 @@ msgstr ""
 msgid "A regular expression (shortened to \"regex\" or \"regexp\"), sometimes also referred to as a \"rational expression,\" is a sequence of characters that specifies a match pattern in text."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:None
 msgid "Access list element configuration with the allow/deny fields highlighted."
 msgstr ""
 
@@ -7083,7 +7099,7 @@ msgstr ""
 msgid "Unknown calls can be routed through the regular menu flow by adding a :guilabel:`Menu` element, and connecting it to the :guilabel:`Unknown` path. :guilabel:`Refused` calls can be routed to the :guilabel:`Hang up` element. Lastly, :guilabel:`Authorized` callers can be sent to a specific extension or queue."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:None
 msgid "Access list element highlighted in an example dial plan."
 msgstr ""
 
@@ -7152,7 +7168,7 @@ msgstr ""
 msgid "Then, from the :guilabel:`New element` drop-down menu, select :guilabel:`Switch`, and then click :guilabel:`Add`. Double-click on the element to further configure the :guilabel:`Switch` element."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:None
 msgid "Switch configuration in a dial plan, with inactive and active routes highlighted."
 msgstr ""
 
@@ -7204,7 +7220,7 @@ msgstr ""
 msgid "On the :guilabel:`Dialplan Editor` pop-up window that appears, click on the :guilabel:`New element` drop-down menu, and select :guilabel:`Multi-Switch`. Then, click :guilabel:`Add`. Double-click on the element to further configure the :guilabel:`Switch` element."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:None
 msgid "Multi-switch configuration in a dial plan, with chosen route highlighted."
 msgstr ""
 
@@ -7248,7 +7264,7 @@ msgstr ""
 msgid "Axivox has no limit to the number of dial plans that can be created. These can be added, and improved upon, at any time. This allows for sandboxes to be created with many different configurations."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:None
 msgid "Dial plan dashboard with the edit features and Add a dial plan button highlighted."
 msgstr ""
 
@@ -7284,7 +7300,7 @@ msgstr ""
 msgid "This pop-up window is the primary place where the architecture, or structure, of the dial plan is configured. In this window, a :abbr:`GUI (graphical user interface)` appears, where various dial plan elements can be configured and linked together."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:None
 msgid "Visual editor for an example dial plan, with the new element, Add, and Save buttons\n"
 "highlighted."
 msgstr ""
@@ -7450,7 +7466,7 @@ msgstr ""
 msgid "The following showcases a basic dial plan scenario for call routing, where additional elements can be added to expand the setup. This basic dial plan scenario includes the following linked elements :menuselection:`Start --> Play a file --> Menu --> (Hang-up, Calls, Queues, Conferences) --> (Voicemail, Hang-up)`."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:-1
+#: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:None
 msgid "Basic dial plan configuration."
 msgstr ""
 
@@ -7724,7 +7740,7 @@ msgstr ""
 msgid "For a list of comprehensive country codes, visit: `https://countrycode.org <https://countrycode.org>`_."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/manage_users.rst:-1
+#: ../../content/applications/productivity/voip/axivox/manage_users.rst:None
 msgid "General tab layout in the Axivox management console."
 msgstr ""
 
@@ -7784,7 +7800,7 @@ msgstr ""
 msgid "Under the :guilabel:`Forwarding on busy` field, an administrator can :guilabel:`Add a destination`. When clicked, they can then set the :guilabel:`Destination` (user) and time frame. Should the original user's :abbr:`VoIP (Voice over Internet Protocol)` extension, or incoming number, be busy, the call is forwarded to the destination(s)."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/manage_users.rst:-1
+#: ../../content/applications/productivity/voip/axivox/manage_users.rst:None
 msgid "Manage forwarding calls to different users or phone numbers in the Forwardings tab."
 msgstr ""
 
@@ -7812,7 +7828,7 @@ msgstr ""
 msgid "The original user's :abbr:`VoIP (Voice over Internet Protocol)` number does **not** ring with this option selected. Ring times can also be staggered, so the call is forwarded to another user after the first user does not pick up the call."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/manage_users.rst:-1
+#: ../../content/applications/productivity/voip/axivox/manage_users.rst:None
 msgid "Ring destinations like different users or phone numbers from the Follow Me tab."
 msgstr ""
 
@@ -7865,7 +7881,7 @@ msgstr ""
 msgid ":guilabel:`Pickup`: this action allows the user to pick up an incoming call from a desk-phone."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/manage_users.rst:-1
+#: ../../content/applications/productivity/voip/axivox/manage_users.rst:None
 msgid "Manage user page with Keys tab highlighted and number 2 key drop-down menu selected (with\n"
 "highlight)"
 msgstr ""
@@ -7915,7 +7931,7 @@ msgstr ""
 msgid "The value in the :guilabel:`SIP Password` field is unique for every Axivox user. This value is used to sign into Axivox on Odoo, and for any mobile :abbr:`SIP (Session Initiation Protocol)` clients."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/manage_users.rst:-1
+#: ../../content/applications/productivity/voip/axivox/manage_users.rst:None
 msgid "Important credentials used for external configurations of Axivox VoIP."
 msgstr ""
 
@@ -8043,7 +8059,7 @@ msgstr ""
 msgid "Upon finishing the setup for a new user, an :ref:`voip/axivox/incoming_number` can be linked."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/manage_users.rst:-1
+#: ../../content/applications/productivity/voip/axivox/manage_users.rst:None
 msgid "Manage a user page, with the permissions tab highlighted, along with the first permission\n"
 "highlighted indicating a no selection."
 msgstr ""
@@ -8213,7 +8229,7 @@ msgstr ""
 msgid "If the user is busy on another call, or away from the phone, there is an option present in this tab to :guilabel:`Send to voicemail as a last resort`, located in the :guilabel:`Forwarding on no answer` and :guilabel:`Forwarding on busy` fields."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:-1
+#: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:None
 msgid "Send to voicemail as a last resort options highlighted on the Forwardings tab of the user."
 msgstr ""
 
@@ -8343,7 +8359,7 @@ msgstr ""
 msgid "To implement the changes, click :guilabel:`Apply changes` in the upper-right corner of the screen."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:-1
+#: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:None
 msgid "Convert text to message window with voice, text, generate button and save highlighted."
 msgstr ""
 
@@ -8467,7 +8483,7 @@ msgstr ""
 msgid "This step is **necessary**, whether using the mobile Odoo application or web browser."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/devices_integrations.rst:-1
+#: ../../content/applications/productivity/voip/devices_integrations.rst:None
 msgid "Allow the database to access the microphone."
 msgstr ""
 
@@ -8475,7 +8491,7 @@ msgstr ""
 msgid "Odoo then asks how to make the call. The two options are : :guilabel:`VOIP` or :guilabel:`Phone` (should the tablet be enabled for calling). Click the box next to :guilabel:`Remember ?` should this decision be the default moving forward."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/devices_integrations.rst:-1
+#: ../../content/applications/productivity/voip/devices_integrations.rst:None
 msgid "Window prompt to choose whether to use VOIP or the devices phone to make the call."
 msgstr ""
 
@@ -8483,7 +8499,7 @@ msgstr ""
 msgid "Here is the layout of what the Odoo *VoIP* app looks like on a mobile device:"
 msgstr ""
 
-#: ../../content/applications/productivity/voip/devices_integrations.rst:-1
+#: ../../content/applications/productivity/voip/devices_integrations.rst:None
 msgid "Layout of what the VoIP app looks like on the a mobile device."
 msgstr ""
 
@@ -8511,7 +8527,7 @@ msgstr ""
 msgid "If the :abbr:`VoIP (Voice over Internet Protocol)` account is already set up, then click :guilabel:`Yes`. This means an account username and password has already been produced."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/devices_integrations.rst:-1
+#: ../../content/applications/productivity/voip/devices_integrations.rst:None
 msgid "Zoiper account setup, shown in the view from a mobile device."
 msgstr ""
 
@@ -8523,7 +8539,7 @@ msgstr ""
 msgid "If the provider being configured is *Axivox*, then select :guilabel:`Belgium`. Then, choose :guilabel:`Axivox` as the provider."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/devices_integrations.rst:-1
+#: ../../content/applications/productivity/voip/devices_integrations.rst:None
 msgid "Zoiper account setup, choosing the provider."
 msgstr ""
 
@@ -8580,7 +8596,7 @@ msgstr ""
 msgid "At this point, *Zoiper* is now set up to make phone calls using the :abbr:`VoIP (Voice over Internet Protocol)` service."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/devices_integrations.rst:-1
+#: ../../content/applications/productivity/voip/devices_integrations.rst:None
 msgid "Zoiper account setup, registration successful."
 msgstr ""
 
@@ -8612,7 +8628,7 @@ msgstr ""
 msgid "At this point, *Linphone* is ready to start making calls, once there is a green button at the top of the application screen that reads, :guilabel:`Connected`."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/devices_integrations.rst:-1
+#: ../../content/applications/productivity/voip/devices_integrations.rst:None
 msgid "Linphone account setup, registration successful."
 msgstr ""
 
@@ -8664,7 +8680,7 @@ msgstr ""
 msgid "Next, activate the :guilabel:`VOIP OnSIP` module."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/onsip.rst:-1
+#: ../../content/applications/productivity/voip/onsip.rst:None
 msgid "View of OnSIP app in the app search results."
 msgstr ""
 
@@ -8688,7 +8704,7 @@ msgstr ""
 msgid ":guilabel:`VoIP Environment`: :guilabel:`Production`"
 msgstr ""
 
-#: ../../content/applications/productivity/voip/onsip.rst:-1
+#: ../../content/applications/productivity/voip/onsip.rst:None
 msgid "VoIP configuration settings in Odoo Settings app."
 msgstr ""
 
@@ -8749,7 +8765,7 @@ msgstr ""
 msgid ":guilabel:`External Device Number` = OnSIP :guilabel:`Ext.` (extension without the `x`)"
 msgstr ""
 
-#: ../../content/applications/productivity/voip/onsip.rst:-1
+#: ../../content/applications/productivity/voip/onsip.rst:None
 msgid "OnSIP user credentials with username, auth username, SIP password, and extension\n"
 "highlighted."
 msgstr ""
@@ -8782,7 +8798,7 @@ msgstr ""
 msgid "To ignore the call, click the red :guilabel:`📞 (phone)` icon."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/onsip.rst:-1
+#: ../../content/applications/productivity/voip/onsip.rst:None
 msgid "Incoming call shown in the Odoo VoIP widget."
 msgstr ""
 
@@ -8803,7 +8819,7 @@ msgstr ""
 msgid "If a *Missing Parameters* message appears in the Odoo widget, make sure to refresh the Odoo browser window (or tab), and try again."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/onsip.rst:-1
+#: ../../content/applications/productivity/voip/onsip.rst:None
 msgid "Missing parameter message in the Odoo VoIP widget."
 msgstr ""
 
@@ -8819,7 +8835,7 @@ msgstr ""
 msgid "For example, `16505555555` (where `1` is the international prefix for the United States)."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/onsip.rst:-1
+#: ../../content/applications/productivity/voip/onsip.rst:None
 msgid "Incorrect number message populated in the Odoo VoIP widget."
 msgstr ""
 
@@ -8871,8 +8887,8 @@ msgstr ""
 msgid "Additionally, one can also use the :guilabel:`Search bar` in the :guilabel:`VOIP` pop-up window to find any desired contact."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/transfer_forward.rst:-1
-#: ../../content/applications/productivity/voip/transfer_forward.rst:-1
+#: ../../content/applications/productivity/voip/transfer_forward.rst:None
+#: ../../content/applications/productivity/voip/transfer_forward.rst:None
 msgid "Using the VoIP phone widget to make calls."
 msgstr ""
 
@@ -8904,7 +8920,7 @@ msgstr ""
 msgid "Click the green :guilabel:`📞 (phone)` icon to pick up the call, or the red :guilabel:`📞 (phone)` icon to reject the call."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/transfer_forward.rst:-1
+#: ../../content/applications/productivity/voip/transfer_forward.rst:None
 msgid "Incoming call on the VoIP widget, with the call answer and call reject buttons highlighted."
 msgstr ""
 
@@ -8916,7 +8932,7 @@ msgstr ""
 msgid "All the contacts and customers that need to be called can be seen in one place with the Odoo *VoIP* phone widget, under the :guilabel:`Next activities` tab."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/transfer_forward.rst:-1
+#: ../../content/applications/productivity/voip/transfer_forward.rst:None
 msgid "VoIP widget with next activities highlighted, showing tasks below."
 msgstr ""
 
@@ -8932,7 +8948,7 @@ msgstr ""
 msgid "When navigating back to the *VoIP* phone widget, **only** the calls that are scheduled immediately for that day appear in the queue under the :guilabel:`Next Activities` tab of the *VoIP* pop-up widget."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/transfer_forward.rst:-1
+#: ../../content/applications/productivity/voip/transfer_forward.rst:None
 msgid "Adding a call to the next activities tab in the VoIP phone widget."
 msgstr ""
 
@@ -8992,7 +9008,7 @@ msgstr ""
 msgid "For more information on access rights, visit: :doc:`/applications/general/users/access_rights`."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/transfer_forward.rst:-1
+#: ../../content/applications/productivity/voip/transfer_forward.rst:None
 msgid "Transferring a call within the phone widget, with the transfer buttons highlighted."
 msgstr ""
 
@@ -9040,7 +9056,7 @@ msgstr ""
 msgid "The :abbr:`VoIP (Voice over Internet Protocol)` number is the one provided by Axivox. It can be accessed by navigating to `https://manage.axivox.com/ <https://manage.axivox.com/>`_. After logging into the portal, go to :menuselection:`Users --> Outgoing number` (column)."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/voip_widget.rst:-1
+#: ../../content/applications/productivity/voip/voip_widget.rst:None
 msgid "VoIP call in Odoo."
 msgstr ""
 
@@ -9100,7 +9116,7 @@ msgstr ""
 msgid "To call the customer related to a scheduled activity, click the :guilabel:`📞 (phone)` icon, or click the :guilabel:`⌨️ (keyboard)` icon to dial another number for the customer."
 msgstr ""
 
-#: ../../content/applications/productivity/voip/voip_widget.rst:-1
+#: ../../content/applications/productivity/voip/voip_widget.rst:None
 msgid "Activity control center on the VoIP widget."
 msgstr ""
 
@@ -9392,7 +9408,7 @@ msgstr ""
 msgid "After finishing the previous WhatsApp product wizard, and clicking :guilabel:`Continue`, the browser should have directed to the WhatsApp :guilabel:`Quickstart` page; this :guilabel:`Quickstart` page is where to begin configuring the WhatsApp API by adding a phone number and then sending an initial test message."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "Navigating to the WhatsApp quickstart wizard in Meta for Developer dashboard."
 msgstr ""
 
@@ -9605,7 +9621,7 @@ msgstr ""
 msgid "The finished :guilabel:`Webhooks` configuration will appear like this in the Meta developer console:"
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "WhatsApp webhooks set in the Meta developer console."
 msgstr ""
 
@@ -9817,7 +9833,7 @@ msgstr ""
 msgid "In order to find specific fields, multiple levels may need to be navigated in the search results box. Use the :guilabel:`> (right chevron)` and :guilabel:`⬅️ (left arrow)` icons to navigate between the menu levels."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "Searching for the phone field in the search bar."
 msgstr ""
 
@@ -9901,7 +9917,7 @@ msgstr ""
 msgid "Many companies like to customize their WhatsApp messages with a personalized piece of customer information to grab attention. This can be accomplished in Odoo by referencing a field within a model by setting a dynamic variable. For example, a customer's name can be referenced in the email from the :guilabel:`Customer` field on the :guilabel:`Sales Order` model."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "WhatsApp message with dynamic variables highlighted."
 msgstr ""
 
@@ -10073,7 +10089,7 @@ msgstr ""
 msgid "Templates must be synced on the Odoo database once they are approved by the Meta team. To do so, begin by navigating to :menuselection:`WhatsApp app --> Configuration --> WhatsApp Business Accounts` and select the configuration that should be synced. Under the section marked :menuselection:`Sending messages`, towards the bottom, click on :guilabel:`Sync Templates`. Meta will update the templates that are approved so that they can be utilized with various apps in the database."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "Syncing Meta WhatsApp templates to the Odoo database, with the 'Sync Templates'\n"
 "highlighted."
 msgstr ""
@@ -10094,7 +10110,7 @@ msgstr ""
 msgid "First, navigate to `Meta's WhatsApp template dashboard <https://business.facebook.com/wa/manage/home>`_, and then go to :menuselection:`Account tools --> Message templates`."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "Account tools highlighted in business manager with the manage templates link highlighted."
 msgstr ""
 
@@ -10110,7 +10126,7 @@ msgstr ""
 msgid "Multiple languages can be selected by typing the language name(s) and selecting the other languages as needed."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "Template configuration options listed, with Marketing, Utility, Name and Language\n"
 "highlighted."
 msgstr ""
@@ -10119,7 +10135,7 @@ msgstr ""
 msgid "After making the appropriate selections, click on :guilabel:`Continue` in the upper-right corner. The page redirects to the :guilabel:`Edit template` page. Here the :guilabel:`Header`, :guilabel:`Body`, :guilabel:`Footer` and :guilabel:`Buttons` are configured. To the right of the template is a preview of what the template will look like in production."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "Edit the template using a header, body, footer and buttons."
 msgstr ""
 
@@ -10155,7 +10171,7 @@ msgstr ""
 msgid "Users can be added to a WhatsApp chat by expanding the WhatsApp pop-up window. WhatsApp conversations are located in the *Discuss* app. Click on the :guilabel:`👤+ (add user)` icon next to it, and a window appears to invite users to the conversation."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "Adding users to a WhatsApp conversation, with the add user icon highlighted."
 msgstr ""
 
@@ -10191,7 +10207,7 @@ msgstr ""
 msgid "When syncing the templates there may be an instance when there are multiple templates with the same name on Meta's business manager and in Odoo. This causes a duplicate validation error. To correct this issue, rename the duplicate template name on Odoo and sync the templates once again by following the steps here: :ref:`productivity/whatsapp/sync`."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "User error populated in Odoo when a duplicate template exists."
 msgstr ""
 
@@ -10207,7 +10223,7 @@ msgstr ""
 msgid "Should the temporary token not be replaced with a permanent token a user error will populate in Odoo when testing the connection after sending fails. To correct this issues see :ref:`productivity/whatsapp/token`."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "User error populated in Odoo when token expires."
 msgstr ""
 
@@ -10223,6 +10239,6 @@ msgstr ""
 msgid "To correct this error, create an :guilabel:`Admin` system user, following the process outlined here: :ref:`productivity/whatsapp/token`."
 msgstr ""
 
-#: ../../content/applications/productivity/whatsapp.rst:-1
+#: ../../content/applications/productivity/whatsapp.rst:None
 msgid "User error populated in Odoo when an employee token is generated instead of a Admin user."
 msgstr ""

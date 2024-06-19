@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-30 09:16+0000\n"
+"POT-Creation-Date: 2024-06-19 09:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,7 +88,7 @@ msgstr ""
 msgid "The :guilabel:`Appraisals` section of the settings menu determines the frequency that appraisals are performed, and if it is possible to request additional feedback."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The appraisals sections with the timeline filled in and 360 feedback enabled."
 msgstr ""
 
@@ -157,7 +157,7 @@ msgstr ""
 msgid "To rearrange the order of the ratings, click the :guilabel:`(six small gray boxes)` icon to the left of a rating, and drag the rating to the desired position on the list."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The evaluation scale, with the new button and click and drag icons highlighted."
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 msgid "The :guilabel:`360 Feedback` section displays information for all the surveys currently configured in the *Appraisals* application. To view the surveys, and their statistics, navigate to :menuselection:`Appraisals application --> Configuration --> 360 Feedback`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "A list view of all available surveys in the Appraisals application."
 msgstr ""
 
@@ -321,7 +321,7 @@ msgstr ""
 msgid "To view the details of any appraisal, click on the card to open the appraisal form."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The Appraisals dashboard with each appraisal in its own box."
 msgstr ""
 
@@ -409,7 +409,7 @@ msgstr ""
 msgid "When the email is ready to send, click :guilabel:`Send.`"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The email pop-up when requesting feedback from other employees."
 msgstr ""
 
@@ -437,7 +437,7 @@ msgstr ""
 msgid "When completed, click the :guilabel:`Not Visible to Manager` toggle (the default setting once an appraisal is confirmed). When clicked, the toggle changes to :guilabel:`Visible to Manager`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The feedback section for the employee with the toggle button highlighted."
 msgstr ""
 
@@ -457,7 +457,7 @@ msgstr ""
 msgid "When the feedback section is completed, click the :guilabel:`Not Visible to Employee` toggle (the default setting once an appraisal is confirmed). When clicked, the toggle changes to :guilabel:`Visible to Employee`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The feedback section for both employees and managers. The toggle buttons are highlighted."
 msgstr ""
 
@@ -489,7 +489,7 @@ msgstr ""
 msgid "After an appraisal is completed, and the skills have been updated, the next time an appraisal is confirmed, the updated skills populate the :guilabel:`Skills` tab."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The skills tab of an appraisal form, all filled out."
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "The meeting now appears on the calendar, and the invited parties are informed, via email."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The meeting form with all information entered for Ronnie Hart's annual appraisal."
 msgstr ""
 
@@ -638,7 +638,7 @@ msgstr ""
 msgid "If a goal is completed, a :guilabel:`Done` banner appears in the top-right corner of the goal card."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "The goals Kanban view, with nine goal cards."
 msgstr ""
 
@@ -666,7 +666,7 @@ msgstr ""
 msgid "Make any necessary changes to the form, and add any notes that might be useful to clarify the goal in the :guilabel:`Description` tab."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "A goal form filled out for a Python skill, set to 50% proficiency."
 msgstr ""
 
@@ -698,7 +698,7 @@ msgstr ""
 #: ../../content/applications/hr/attendances.rst:526
 #: ../../content/applications/hr/frontdesk.rst:351
 #: ../../content/applications/hr/payroll/reporting.rst:3
-#: ../../content/applications/hr/referrals.rst:753
+#: ../../content/applications/hr/referrals.rst:605
 #: ../../content/applications/hr/time_off.rst:893
 msgid "Reporting"
 msgstr ""
@@ -735,7 +735,7 @@ msgstr ""
 msgid "The report can have other filters and groupings set in the :guilabel:`Search...` bar at the top."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "A report showing all the appraisals for the Appraisal Analysis report."
 msgstr ""
 
@@ -787,7 +787,7 @@ msgstr ""
 msgid ":guilabel:`Justification`: any notes entered on the skill explaining the progress."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals.rst:-1
+#: ../../content/applications/hr/appraisals.rst:None
 msgid "A report showing all the skills grouped by employee."
 msgstr ""
 
@@ -939,8 +939,8 @@ msgstr ""
 msgid "A user can check in and out on the main database dashboard, as well as in any application. In the upper right corner of the top main menu, which is always visible regardless of what application the user is in, a :guilabel:`🔴 (red circle)` or :guilabel:`🟢 (green circle)` is visible. Click on the colored circle to reveal the attendance widget, enabling the user to check in and/or out."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
+#: ../../content/applications/hr/attendances.rst:None
 msgid "Top right main menu with check in button highlighted."
 msgstr ""
 
@@ -996,7 +996,7 @@ msgstr ""
 msgid "When the user checks out from the database, the *Attendances* app logs the location details for the user. This information is **only** logged if the user allows their computer to access this information."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The pop-up that appears when an employee checks in inside the database."
 msgstr ""
 
@@ -1036,7 +1036,7 @@ msgstr ""
 msgid "Navigate to the :menuselection:`Attendances application --> Configuration`. In the :guilabel:`Kiosk Settings` section, click :guilabel:`Copy` next to the link beneath the :guilabel:`Attendance Kiosk Url` field. Paste this URL into a web browser on the kiosk device and navigate to it."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The Attendances Kiosk URL field in the settings section of the Attendances application."
 msgstr ""
 
@@ -1052,7 +1052,7 @@ msgstr ""
 msgid "To check in or out using a badge, tap the :guilabel:`📷 (camera) Tap to scan` image in the center of the kiosk. Then, scan the barcode on the badge using the method configured in the :ref:`kiosk settings <attendances/kiosk-settings>` section of the configuration menu. Options are a dedicated barcode scanning device, or the kiosk's front or back camera. Once the barcode is scanned, the employee is checked in or out, and a :ref:`confirmation message <attendances/confirmation>` appears with all the check in or check out information."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The Attendances Kiosk view displaying the scan badge image."
 msgstr ""
 
@@ -1100,7 +1100,7 @@ msgstr ""
 msgid "Tap in the PIN using the number pad, then tap :guilabel:`OK` when done. The employee is then checked in or out, and a :ref:`confirmation message <attendances/confirmation>` appears."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The pop-up that appears when prompted to enter a pin."
 msgstr ""
 
@@ -1116,7 +1116,7 @@ msgstr ""
 msgid "When checking out, the screen displays a goodbye message, with the date and time of check out, and the total hours logged for the day. Beneath the message is a :guilabel:`Goodbye` button. To exit the screen before the preset time, tap the :guilabel:`Goodbye` button."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The goodbye message with all the employee's check out information."
 msgstr ""
 
@@ -1145,7 +1145,7 @@ msgstr ""
 msgid "In the :guilabel:`Day` view, the column for the current hour is highlighted in yellow. If the :guilabel:`Week` or :guilabel:`Month` view is selected, the column for the current day is highlighted. If the :guilabel:`Year` view is selected, the current month is highlighted."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The overview dashboard presenting the information for the week, with the current day\n"
 "highlighted."
 msgstr ""
@@ -1295,7 +1295,7 @@ msgstr ""
 msgid ":guilabel:`GPS Coordinates`: the specific coordinates when the user logged in or out. To view the specific coordinates on a map, click the :guilabel:`→ View on Maps` button beneath the :guilabel:`GPS Coordinates`. This opens a map in a new browser tab, with the specific location pointed out."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The detailed information for an attendance entry."
 msgstr ""
 
@@ -1316,7 +1316,7 @@ msgstr ""
 msgid "To fix the error, the attendance entry must be modified or deleted. Click on the entry to reveal a pop-up containing the details for that particular entry. To modify the :guilabel:`Check In` and/or :guilabel:`Check Out` information, click on the :guilabel:`Check In` or :guilabel:`Check Out` field and a calendar selector appears. Click on the desired date, then use the time selector beneath the calendar to select the specific time for the entry. When the information is correct, click :guilabel:`Apply.`"
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The pop-up that allows for modifications to an attendance entry with an error. The calendar\n"
 "selector is shown, and the time selector is highlighted."
 msgstr ""
@@ -1353,7 +1353,7 @@ msgstr ""
 msgid "The report can also be inserted into a spreadsheet. Click the :guilabel:`Insert in Spreadsheet` button and a pop-up appears. Select the desired spreadsheet, and click :guilabel:`Confirm`."
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:-1
+#: ../../content/applications/hr/attendances.rst:None
 msgid "The default report view, with all the optional view buttons highlighted."
 msgstr ""
 
@@ -1401,7 +1401,7 @@ msgstr ""
 msgid "Employees can scan personal RFID key fobs with an RFID reader to manage check-ins and check-outs quickly and easily."
 msgstr ""
 
-#: ../../content/applications/hr/attendances/hardware.rst:-1
+#: ../../content/applications/hr/attendances/hardware.rst:None
 msgid "An RFID key fob is placed on an RFID reader"
 msgstr ""
 
@@ -1450,7 +1450,7 @@ msgstr ""
 msgid "Proceed to fill out the required information, along with any additional details."
 msgstr ""
 
-#: ../../content/applications/hr/employees/new_employee.rst:-1
+#: ../../content/applications/hr/employees/new_employee.rst:None
 msgid "Create a new employee form with all fields filled out."
 msgstr ""
 
@@ -1480,7 +1480,7 @@ msgstr ""
 msgid ":guilabel:`Company`: from the drop-down menu in this field, select the company the new employee was hired by, or create a new company by typing the name in the field, and clicking :guilabel:`Create` or :guilabel:`Create and edit...` from the mini drop-down menu that appears."
 msgstr ""
 
-#: ../../content/applications/hr/employees/new_employee.rst:-1
+#: ../../content/applications/hr/employees/new_employee.rst:None
 msgid "A new employee form with the required fields highlighted."
 msgstr ""
 
@@ -1566,7 +1566,7 @@ msgstr ""
 msgid "Next, enter the employee's work history in the :guilabel:`Resumé` tab. Each resumé line must be entered individually. When creating an entry for the first time, click :guilabel:`Create a new entry`, and the :guilabel:`Create Resumé lines` form appears. After an entry is added, the :guilabel:`Create a new entry` button is replaced with an :guilabel:`Add` button. Enter the following information for each entry."
 msgstr ""
 
-#: ../../content/applications/hr/employees/new_employee.rst:-1
+#: ../../content/applications/hr/employees/new_employee.rst:None
 msgid "A resumé entry form with all the information populated."
 msgstr ""
 
@@ -1618,7 +1618,7 @@ msgstr ""
 msgid "If the skill types are configured, a :guilabel:`Pick a skill from the list` button appears instead. Click the :guilabel:`Pick a skill from the list` button, and select the following information for each skill."
 msgstr ""
 
-#: ../../content/applications/hr/employees/new_employee.rst:-1
+#: ../../content/applications/hr/employees/new_employee.rst:None
 msgid "A skill form with the information filled out."
 msgstr ""
 
@@ -2005,7 +2005,7 @@ msgstr ""
 msgid "Manufacturing costs are added to the costs for producing a product, if the value of the manufactured product is **not** a fixed amount. This cost does **not** affect the *Payroll* application."
 msgstr ""
 
-#: ../../content/applications/hr/employees/new_employee.rst:-1
+#: ../../content/applications/hr/employees/new_employee.rst:None
 msgid "Enter any information prompted in the HR Settings tab for the employee."
 msgstr ""
 
@@ -2021,7 +2021,7 @@ msgstr ""
 msgid "Refer to :doc:`documentation <../../productivity/documents>` on the *Documents* app for more information."
 msgstr ""
 
-#: ../../content/applications/hr/employees/new_employee.rst:-1
+#: ../../content/applications/hr/employees/new_employee.rst:None
 msgid "All uploaded documents associated with the employee appear in the documents smart-button."
 msgstr ""
 
@@ -2037,7 +2037,7 @@ msgstr ""
 msgid "To access the settings menu, go to :menuselection:`Fleet application --> Configuration --> Settings`. There are only two settings that need configuration, the vehicle contract end date alert delay, and a new vehicle request limit."
 msgstr ""
 
-#: ../../content/applications/hr/fleet.rst:-1
+#: ../../content/applications/hr/fleet.rst:None
 msgid "Settings available for the Fleet application."
 msgstr ""
 
@@ -2085,7 +2085,7 @@ msgstr ""
 msgid "The manufacturers appear in a list view in alphabetical order. Each manufacturer's card lists how many specific models are configured for each particular manufacturer. Odoo comes with forty six pre-configured :ref:`models <fleet/models>` from four major auto manufacturers and one major bicycle manufacturer: Audi, BMW, Mercedes, Opel (cars), and Eddy Merckx (bicycle)."
 msgstr ""
 
-#: ../../content/applications/hr/fleet.rst:-1
+#: ../../content/applications/hr/fleet.rst:None
 msgid "Manufacturer card with the amount of models listed."
 msgstr ""
 
@@ -2459,7 +2459,7 @@ msgstr ""
 msgid "If a vendor is not in the database, add a vendor by clicking :guilabel:`Create`. A vendor form will load. Enter the information in the vendor tab, then click :guilabel:`Save & Close` to add the vendor and close the window, or :guilabel:`Save & New` to add the current vendor and create another new vendor."
 msgstr ""
 
-#: ../../content/applications/hr/fleet.rst:-1
+#: ../../content/applications/hr/fleet.rst:None
 msgid "Vendor form to fill out when adding a new vendor."
 msgstr ""
 
@@ -2487,7 +2487,7 @@ msgstr ""
 msgid "To reorganize how the categories appear in the list, click on the up and down arrows to the left of the category to be moved, and drag the line to the desired position. The order of the list does not affect the database in any way. However, it may be preferable to view the vehicle categories in a specific order, for example, by size, or the numbers of passengers the vehicle can carry."
 msgstr ""
 
-#: ../../content/applications/hr/fleet.rst:-1
+#: ../../content/applications/hr/fleet.rst:None
 msgid "List view of the models in the fleet."
 msgstr ""
 
@@ -2539,7 +2539,7 @@ msgstr ""
 msgid ":guilabel:`Tags`: select any tags from the drop-down menu, or type in a new tag. There is no limit on the amount of tags that can be selected."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/new_vehicle.rst:-1
+#: ../../content/applications/hr/fleet/new_vehicle.rst:None
 msgid "The new vehicle form, showing the model section."
 msgstr ""
 
@@ -2693,7 +2693,7 @@ msgstr ""
 msgid "There is no limit to the number of tags that can be selected."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/new_vehicle.rst:-1
+#: ../../content/applications/hr/fleet/new_vehicle.rst:None
 msgid "The top portion of the create driver form."
 msgstr ""
 
@@ -2735,9 +2735,9 @@ msgstr ""
 msgid ":guilabel:`Other Address`: select this option to add any other necessary addresses for the company or driver."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/new_vehicle.rst:-1
+#: ../../content/applications/hr/fleet/new_vehicle.rst:None
 #: ../../content/applications/hr/fleet/new_vehicle.rst:0
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 #: ../../content/applications/hr/fleet/service.rst:0
 msgid "The create contact form with all parts filled in."
 msgstr ""
@@ -2864,9 +2864,9 @@ msgstr ""
 msgid ":guilabel:`Location`: type in the specific location where the vehicle is typically located in this field. The entry should clearly explain where the vehicle can be found, such as `Main Garage` or `Building 2 Parking Lot`."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/new_vehicle.rst:-1
-#: ../../content/applications/hr/fleet/new_vehicle.rst:-1
-#: ../../content/applications/hr/fleet/new_vehicle.rst:-1
+#: ../../content/applications/hr/fleet/new_vehicle.rst:None
+#: ../../content/applications/hr/fleet/new_vehicle.rst:None
+#: ../../content/applications/hr/fleet/new_vehicle.rst:None
 msgid "The new vehicle form, showing the vehicle tax section."
 msgstr ""
 
@@ -3010,7 +3010,7 @@ msgstr ""
 msgid ":guilabel:`Notes`: enter any notes for the repair at the bottom of the service form."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "Enter the information for a new service. The required fields are Service Type and Vehicle."
 msgstr ""
 
@@ -3128,7 +3128,7 @@ msgstr ""
 msgid ":guilabel:`Image`: a photo of either the main contact person, or the company logo, can be added to the form. Hover over the :guilabel:`📷 (camera)` box, in the top-right of the form, to reveal a :guilabel:`✏️ (pencil)` icon, and click it. A file explorer window appears. Navigate to the desired file, then click :guilabel:`Open` to select it."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "The top portion of the create vendor form."
 msgstr ""
 
@@ -3256,7 +3256,7 @@ msgstr ""
 msgid "At the bottom of the :guilabel:`Cost` column, the total cost of all services and repairs are listed."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "The full list of services in the Odoo database."
 msgstr ""
 
@@ -3268,7 +3268,7 @@ msgstr ""
 msgid "It is recommended to view the list of services in one of several pre-configured ways to better view the information presented. In the top-right corner of the list, there are several icons that when clicked, sort the data in different ways."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "The icons in the top right corner than can be clicked to present the information in\n"
 "different ways."
 msgstr ""
@@ -3335,7 +3335,7 @@ msgstr ""
 msgid "The length of the color bar is proportionate to the number of corresponding activities with that specific status in that particular stage. Hover over a color section to reveal the number of service records in that specific grouping."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "The service records presented in a Kanban view."
 msgstr ""
 
@@ -3343,7 +3343,7 @@ msgstr ""
 msgid "To view **only** the records with a specific status, click the desired color bar section. The background color for the column changes to a pale hue of the same color (either green, yellow, red, or gray), and the color bar appears striped instead of solid. **Only** repairs and services with the selected status appear in the column."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "The oil change service records showing only repairs with past-due activities."
 msgstr ""
 
@@ -3424,7 +3424,7 @@ msgstr ""
 msgid "The graph can change to either a :guilabel:`Line Chart` or a :guilabel:`Pie Chart` by clicking the corresponding button above the graph. Additionally, the graph can display the data in either :guilabel:`Stacked`, :guilabel:`Descending`, or :guilabel:`Ascending` order, by clicking the corresponding buttons."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "A bar chart view of the services and repairs, with the various option buttons highlighted."
 msgstr ""
 
@@ -3440,7 +3440,7 @@ msgstr ""
 msgid "The default way the data is presented shows the total cost of each type of service. The horizontal rows represent the various types of service, with a different service type in its own line. The vertical columns represent the total costs for each specific type of service, further divided by the type of service."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "The default pivot table view of the services."
 msgstr ""
 
@@ -3512,7 +3512,7 @@ msgstr ""
 msgid "The number of activities for each activity type is written on the right side of the color-coded bar beneath the column name."
 msgstr ""
 
-#: ../../content/applications/hr/fleet/service.rst:-1
+#: ../../content/applications/hr/fleet/service.rst:None
 msgid "The activity view, with the columns called out, and an activity box highlighted."
 msgstr ""
 
@@ -3683,7 +3683,7 @@ msgstr ""
 msgid "An example of how that might appear in a *Discuss* message is: `Main Lobby Check-In: John Doe (123-555-1234) (Odoo, Inc.) to meet Marc Demo.`"
 msgstr ""
 
-#: ../../content/applications/hr/frontdesk.rst:-1
+#: ../../content/applications/hr/frontdesk.rst:None
 msgid "Frontdesk station form with all the information filled out."
 msgstr ""
 
@@ -3733,7 +3733,7 @@ msgstr ""
 msgid "The image selected now appears in the picture field, and is set as the image for the drink."
 msgstr ""
 
-#: ../../content/applications/hr/frontdesk.rst:-1
+#: ../../content/applications/hr/frontdesk.rst:None
 msgid "Drink form with the information filled out for an espresso."
 msgstr ""
 
@@ -3821,7 +3821,7 @@ msgstr ""
 msgid "When their drink has been served, click the :guilabel:`Drink Served` button to indicate the drink has been delivered to the guest. Once clicked, that button disappears."
 msgstr ""
 
-#: ../../content/applications/hr/frontdesk.rst:-1
+#: ../../content/applications/hr/frontdesk.rst:None
 msgid "The full list of currently checked in visitors, with the drinks to be served highlighted."
 msgstr ""
 
@@ -4082,7 +4082,7 @@ msgstr ""
 msgid ":guilabel:`Company`: if this vendor is only available to a specific company, select the company from the drop-down menu. If this field is left blank, the vendor's items are available to **all** companies."
 msgstr ""
 
-#: ../../content/applications/hr/lunch.rst:-1
+#: ../../content/applications/hr/lunch.rst:None
 msgid "The top portion of the vendor form filled out."
 msgstr ""
 
@@ -4098,7 +4098,7 @@ msgstr ""
 msgid "By default, Monday through Friday have checkmarks."
 msgstr ""
 
-#: ../../content/applications/hr/lunch.rst:-1
+#: ../../content/applications/hr/lunch.rst:None
 msgid "The default view of the availability section, with Mon-Fri enabled."
 msgstr ""
 
@@ -4127,7 +4127,7 @@ msgstr ""
 msgid ":guilabel:`Order Time`: this field appears if :guilabel:`Email` is selected for :guilabel:`Send Order By`. Enter the time that an order must be emailed for the order to be accepted. Enter the time in a `HH:MM` format, then select either :guilabel:`AM` or :guilabel:`PM` from the drop-down next to the time field."
 msgstr ""
 
-#: ../../content/applications/hr/lunch.rst:-1
+#: ../../content/applications/hr/lunch.rst:None
 msgid "The orders section of a vendor form, with all fields filled out."
 msgstr ""
 
@@ -4227,7 +4227,7 @@ msgstr ""
 msgid "Repeat this for all locations that need to be added."
 msgstr ""
 
-#: ../../content/applications/hr/lunch.rst:-1
+#: ../../content/applications/hr/lunch.rst:None
 msgid "A list view of the locations with the new button highlighted."
 msgstr ""
 
@@ -4279,7 +4279,7 @@ msgstr ""
 msgid "(*) indicates required field."
 msgstr ""
 
-#: ../../content/applications/hr/lunch.rst:-1
+#: ../../content/applications/hr/lunch.rst:None
 msgid "A product form filled out for a nine inch pizza."
 msgstr ""
 
@@ -4303,12 +4303,12 @@ msgstr ""
 msgid "If desired, add a photo for the category. Hover over the image box in the top-right, and click the :guilabel:`✏️ (pencil)` edit icon that appears. A file explorer pop-up window appears. Navigate to the image, then click :guilabel:`Open`."
 msgstr ""
 
-#: ../../content/applications/hr/lunch.rst:-1
+#: ../../content/applications/hr/lunch.rst:None
 msgid "The category form, with the fields filled out for a Soup category."
 msgstr ""
 
 #: ../../content/applications/hr/lunch.rst:280
-#: ../../content/applications/hr/referrals.rst:701
+#: ../../content/applications/hr/referrals.rst:553
 msgid "Alerts"
 msgstr ""
 
@@ -4356,7 +4356,7 @@ msgstr ""
 msgid "If :guilabel:`Chat notification` was selected for the :guilabel:`Display` option, a :guilabel:`Time` field also appears. Enter the time the chat message should be sent. Next, select if the time is either :guilabel:`AM` or :guilabel:`PM` using the drop-down menu to the right of the :guilabel:`Time` field."
 msgstr ""
 
-#: ../../content/applications/hr/lunch.rst:-1
+#: ../../content/applications/hr/lunch.rst:None
 msgid "An alert form with all of the information filled out for a chat alert sent at 10:30 AM,\n"
 "asking employees to submit orders by 11:30 AM."
 msgstr ""
@@ -4460,7 +4460,7 @@ msgstr ""
 msgid ":guilabel:`Company`: the company under which the order was placed. This only appears in a multi-company database."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/management.rst:-1
+#: ../../content/applications/hr/lunch/management.rst:None
 msgid "The list that appears in the Today's Orders dashboard, with the filters and top column\n"
 "names highlighted."
 msgstr ""
@@ -4485,7 +4485,7 @@ msgstr ""
 msgid "Only products with a red :guilabel:`Status` tag of :guilabel:`Ordered` can be canceled."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/management.rst:-1
+#: ../../content/applications/hr/lunch/management.rst:None
 msgid "Order lines with the cancel button highlighted."
 msgstr ""
 
@@ -4509,7 +4509,7 @@ msgstr ""
 msgid "Once sent, the :guilabel:`Send Orders` button changes to a :guilabel:`Confirm Orders` button, and the :guilabel:`Status` column is updated from red :guilabel:`Ordered` tags to blue :guilabel:`Sent` tags, indicating the order has been sent to the vendor. Users who have placed orders in the *Lunch* app rely on the :guilabel:`Status` tags to track their orders."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/management.rst:-1
+#: ../../content/applications/hr/lunch/management.rst:None
 msgid "A vendor's order with the X Cancel and Send Orders buttons highlighted."
 msgstr ""
 
@@ -4537,7 +4537,7 @@ msgstr ""
 msgid "If needed, instead of confirming all of the individual products from a vendor, individual products can be confirmed one at a time. To confirm an individual product, click the :guilabel:`✔️ Confirm` button at the end of the individual product line. When confirming individual products with this method, the :guilabel:`Confirm Orders` button remains on the vendor line."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/management.rst:-1
+#: ../../content/applications/hr/lunch/management.rst:None
 msgid "The Today's Orders dashboard, with the two different ways to confirm an order highlighted."
 msgstr ""
 
@@ -4585,7 +4585,7 @@ msgstr ""
 msgid "Orders can be :ref:`canceled <lunch/cancel>`, :ref:`sent to the vendor <lunch/send-orders>`, :ref:`confirmed <lunch/confirm-orders>` upon arrival, and :ref:`employees can be notified <lunch/notify>` using the same method as on the :ref:`Today's Orders <lunch/todays-orders>` dashboard."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/management.rst:-1
+#: ../../content/applications/hr/lunch/management.rst:None
 msgid "A list view of all the orders as seen in the Control Vendors dashboard."
 msgstr ""
 
@@ -4641,7 +4641,7 @@ msgstr ""
 msgid "The main section, beneath the user's information, displays all the products in a default Kanban view. Each product card displays the name, cost, vendor, photo, and description of the product. If the product is configured as new, it also displays a :guilabel:`New` tag."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/orders.rst:-1
+#: ../../content/applications/hr/lunch/orders.rst:None
 msgid "The *Lunch* app dashboard with all areas highlighted."
 msgstr ""
 
@@ -4685,7 +4685,7 @@ msgstr ""
 msgid "When all selections for the product have been made, click the :guilabel:`Add To Cart` button in the lower-left of the pop-up window. To cancel the order, click the :guilabel:`Discard` button."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/orders.rst:-1
+#: ../../content/applications/hr/lunch/orders.rst:None
 msgid "The pop-up window for a personal pizza, with all the extras highlighted and selected."
 msgstr ""
 
@@ -4754,7 +4754,7 @@ msgstr ""
 msgid "The right side of the :guilabel:`Your Order` summary displays the purchasing information. The :guilabel:`Total` amount for the entire day's lunch order is displayed. The :guilabel:`Already Paid` field indicates how much has been paid that day towards the :guilabel:`Total` amount. The :guilabel:`To Pay` field displays how much of the remaining :guilabel:`Total` amount must be paid, in order to place the currently configured   order."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/orders.rst:-1
+#: ../../content/applications/hr/lunch/orders.rst:None
 msgid "The Your Orders section of the dashboard, with the purchasing information highlighted."
 msgstr ""
 
@@ -4822,7 +4822,7 @@ msgstr ""
 msgid "At the end of each product line with a status of :guilabel:`Received`, a :guilabel:`Re-order` button appears. Click :guilabel:`Re-order` to instantly reorder that same product, with the same extras, if applicable. The new order appears in the list, under the current date, and the product is paid for, with money deducted from the user's account."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/orders.rst:-1
+#: ../../content/applications/hr/lunch/orders.rst:None
 msgid "The list view that appears when navigating to the My Orders dashboard."
 msgstr ""
 
@@ -4846,7 +4846,7 @@ msgstr ""
 msgid "Entries with a positive balance either represent funds added to the user's lunch account, or canceled orders that were eventually refunded to the user. These appear in a `$XX.XX` format."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/orders.rst:-1
+#: ../../content/applications/hr/lunch/orders.rst:None
 msgid "The My Account dashboard with the entry for adding funds to the user's lunch account\n"
 "highlighted."
 msgstr ""
@@ -4903,7 +4903,7 @@ msgstr ""
 msgid "On the :guilabel:`Cash Moves` dashboard, all cash moves are presented in a default list view, displaying each record's :guilabel:`Date`, :guilabel:`User`, :guilabel:`Description`, and :guilabel:`Amount`. The total of all the cash moves is displayed at the bottom of the :guilabel:`Amount` column."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/user-accounts.rst:-1
+#: ../../content/applications/hr/lunch/user-accounts.rst:None
 msgid "The list view of all cash moves."
 msgstr ""
 
@@ -4935,7 +4935,7 @@ msgstr ""
 msgid ":guilabel:`Description`: enter a brief description of the transaction."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/user-accounts.rst:-1
+#: ../../content/applications/hr/lunch/user-accounts.rst:None
 msgid "The cash move form filled out for a transaction of $40.00."
 msgstr ""
 
@@ -4959,7 +4959,7 @@ msgstr ""
 msgid "Each record includes the :guilabel:`Date`, :guilabel:`User`, :guilabel:`Description`, and :guilabel:`Amount`."
 msgstr ""
 
-#: ../../content/applications/hr/lunch/user-accounts.rst:-1
+#: ../../content/applications/hr/lunch/user-accounts.rst:None
 msgid "The Control Accounts dashboard with two employee's transactions expanded."
 msgstr ""
 
@@ -5162,7 +5162,7 @@ msgstr ""
 msgid ":guilabel:`Contract Update Document Template`: select a default document that a current employee has to sign to update their contract."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "A new contract template form, with the fields filled in."
 msgstr ""
 
@@ -5195,7 +5195,7 @@ msgstr ""
 msgid "The :guilabel:`Schedule Pay`, :guilabel:`Wage`, and :guilabel:`Yearly Cost (Real)` fields are all linked. If any of these fields are updated, the other two fields automatically update to reflect the change. It is best practice to check these three fields if any modifications have been made, to ensure they are accurate."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "The salary information tab, with the fields filled in."
 msgstr ""
 
@@ -5243,7 +5243,7 @@ msgstr ""
 msgid "To rearrange the order of the employment types, click the :guilabel:`six small gray boxes` icon to the left of the employment type :guilabel:`Name`, and drag the line to the desired position on the list."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "The employment types in the database by default, in a list view."
 msgstr ""
 
@@ -5276,7 +5276,7 @@ msgstr ""
 msgid "Each work entry type has a code to aid in the creation of payslips, and to ensure all taxes and fees are correctly entered."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "List of all work entry types currently available for use, with the payroll code and color."
 msgstr ""
 
@@ -5394,7 +5394,7 @@ msgstr ""
 msgid ":guilabel:`Unforeseen Absence`: if the work entry should be visible on the unforeseen absences report, check this box."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "New work entry type form with all fields to be filled in."
 msgstr ""
 
@@ -5418,7 +5418,7 @@ msgstr ""
 msgid "A database with five companies that all use a standard 40-hour work week needs to have five separate 40-hour working schedules configured."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "All working schedules available to use currently set up in the database for the company."
 msgstr ""
 
@@ -5446,7 +5446,7 @@ msgstr ""
 msgid "If the working time should be in a two-week configuration, click the :guilabel:`Switch to 2 weeks calendar` button in the top left. This creates entries for an :guilabel:`Even week` and an :guilabel:`Odd week`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "New working schedule form."
 msgstr ""
 
@@ -5470,7 +5470,7 @@ msgstr ""
 msgid "There are two default structure types configured in Odoo: :guilabel:`Employee` and :guilabel:`Worker`. Typically, :guilabel:`Employee` is used for salaried employees, which is why the wage type is :guilabel:`Monthly Fixed Wage`, and :guilabel:`Worker` is typically used for employees paid by the hour, so the wage type is :guilabel:`Hourly Wage`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "List of all currently configured structure types available to use."
 msgstr ""
 
@@ -5530,7 +5530,7 @@ msgstr ""
 msgid "Depending on the localization settings, this list may contain more options in addition to the default options."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "New structure type form to fill out when creating a new structure type."
 msgstr ""
 
@@ -5606,7 +5606,7 @@ msgstr ""
 msgid "Each :ref:`structure type <payroll/structure-types>` lists the various structures associated with it. Each structure contains a set of rules that define it."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "All available salary structures."
 msgstr ""
 
@@ -5614,7 +5614,7 @@ msgstr ""
 msgid "Click on a structure to view its :guilabel:`Salary Rules`. These rules are what calculate the payslip for the employee."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "Salary structure details for Regular Pay, listing all the specific Salary Rules."
 msgstr ""
 
@@ -5675,7 +5675,7 @@ msgstr ""
 msgid ":guilabel:`View on Payroll Reporting`: tick the checkbox to have the rule appear on payroll reports."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "Enter the information for the new rule on the new rule form."
 msgstr ""
 
@@ -5748,7 +5748,7 @@ msgstr ""
 msgid "When creating payslips, it is sometimes necessary to add other entries for specific circumstances, like expenses, reimbursements, or deductions. These other inputs can be configured by navigating to :menuselection:`Payroll app --> Configuration --> Salary --> Other Input Types`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "A list of other input types for payroll that can be selected when creating a new entry for\n"
 "a payslip."
 msgstr ""
@@ -5761,7 +5761,7 @@ msgstr ""
 msgid "The :guilabel:`Code` is used in the salary rules to compute payslips. If the :guilabel:`Availability in Structure` field is left blank, it indicates that the new input type is available for all payslips and is not exclusive to a specific structure."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "A new Input Type form filled in."
 msgstr ""
 
@@ -5781,7 +5781,7 @@ msgstr ""
 msgid "To make a new type of salary attachment, click the :guilabel:`New` button. Then, enter the :guilabel:`Name`, the :guilabel:`Code` (used in the salary rules to compute payslips), and decide if it should have :guilabel:`No End Date`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "A new salary attachment form filled in."
 msgstr ""
 
@@ -5809,7 +5809,7 @@ msgstr ""
 msgid "To view the benefits, go to :menuselection:`Payroll app --> Configuration --> Salary Package Configurator: Benefits`. Benefits are grouped by :guilabel:`Structure type`, and the benefit listed for a particular structure type is only available for that specific structure."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "A list view of all the benefits available for each structure type."
 msgstr ""
 
@@ -5877,7 +5877,7 @@ msgstr ""
 msgid ":guilabel:`Unit of Measure`: select the metric that the benefit is granted, using the drop-down menu. The options are :guilabel:`Days`, :guilabel:`Percent`, or :guilabel:`Currency`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "A new benefit form filled out for an internet subscription."
 msgstr ""
 
@@ -5978,7 +5978,7 @@ msgstr ""
 msgid "The :guilabel:`Personal Info` section lists all of the fields that are available to enter on the employee's card. To access this section, go to :menuselection:`Payroll app --> Configuration --> Salary Package Configurator: Personal Info`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "A list of all the personal information that appears on the employee card to enter."
 msgstr ""
 
@@ -6010,7 +6010,7 @@ msgstr ""
 msgid "Checking the :guilabel:`Is Required` box makes the field mandatory on the employee's card. The :guilabel:`Display Type` drop-down menu allows for the information to be entered in a variety of ways, like a :guilabel:`Text` box, to a customizable :guilabel:`Radio` button, a :guilabel:`Checkbox`, a :guilabel:`Document`, and more."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "New personal information entry."
 msgstr ""
 
@@ -6082,7 +6082,7 @@ msgstr ""
 msgid ":guilabel:`Code`: select the code this rule applies to from the drop-down menu."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "The net wage rule form filled out, with all the information for net pay."
 msgstr ""
 
@@ -6111,7 +6111,7 @@ msgstr ""
 msgid "A list of all the job positions appear, along with the corresponding department, on the :guilabel:`Job Position` page."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:-1
+#: ../../content/applications/hr/payroll.rst:None
 msgid "A list of all the job positions and corresponding departments."
 msgstr ""
 
@@ -6159,7 +6159,7 @@ msgstr ""
 msgid "The default view has all categories collapsed. The number of contracts in each category is displayed next to the category name (example: `Running (20)`). To view the list of contracts under any category, click on the category, and the list expands downward, showing all contracts beneath it."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/contracts.rst:-1
+#: ../../content/applications/hr/payroll/contracts.rst:None
 msgid "Contracts dashboard view showing running contracts and contracts with issues."
 msgstr ""
 
@@ -6352,7 +6352,7 @@ msgstr ""
 msgid ":guilabel:`Notes`: a text field where any notes for the employee contract are entered for future reference."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/contracts.rst:-1
+#: ../../content/applications/hr/payroll/contracts.rst:None
 msgid "Contract details in optional tabs for a new contract."
 msgstr ""
 
@@ -6400,7 +6400,7 @@ msgstr ""
 msgid "Currently running salary attachments have a :guilabel:`Status` of :guilabel:`Running`, and appear in green. Salary attachments that have been paid in-full, and are no longer active, have a :guilabel:`Status` of :guilabel:`Completed`, and appear in blue. Cancelled salary attachments have a :guilabel:`Status` of :guilabel:`Cancelled`, and appear in red."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/contracts.rst:-1
+#: ../../content/applications/hr/payroll/contracts.rst:None
 msgid "A list view of all the salary attachments with their status displayed."
 msgstr ""
 
@@ -6461,7 +6461,7 @@ msgstr ""
 msgid ":guilabel:`Total Amount`: enter the total amount to be paid in this field. If :guilabel:`Child Support` is selected for the :guilabel:`Type`, this field does **not** appear."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/contracts.rst:-1
+#: ../../content/applications/hr/payroll/contracts.rst:None
 msgid "Enter a new line for each type of garnishment."
 msgstr ""
 
@@ -6485,7 +6485,7 @@ msgstr ""
 msgid "Open an individual contract by navigating to :menuselection:`Payroll app --> Contracts -> Contracts`, and click on a contract to open the contract form. Click on the :guilabel:`Generate Offer` button at the top of the page, and a :guilabel:`Generate Simulation Link` pop-up form appears."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/contracts.rst:-1
+#: ../../content/applications/hr/payroll/contracts.rst:None
 msgid "Send the contract to the employee via one of the buttons."
 msgstr ""
 
@@ -6501,7 +6501,7 @@ msgstr ""
 msgid "Click the :guilabel:`Send By Email` button, and a :guilabel:`Send Offer Email` template pop-up window appears. Make any modifications to the email, and attach any additional documents needed, then click :guilabel:`Send` to send the offer."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/contracts.rst:-1
+#: ../../content/applications/hr/payroll/contracts.rst:None
 msgid "The email template pop-up to send an offer."
 msgstr ""
 
@@ -6529,7 +6529,7 @@ msgstr ""
 msgid "After the document is signed by the (potential) employee, management signs the contract next. The manager's signature is completed directly in the *Sign* application."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/contracts.rst:-1
+#: ../../content/applications/hr/payroll/contracts.rst:None
 msgid "The contract offer, ready to sign with the Click to Start button highlighted."
 msgstr ""
 
@@ -6549,7 +6549,7 @@ msgstr ""
 msgid "To view the offers with a specific status, click on the status to expand the list. If a specific status has no offers, the status is not visible in the list."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/contracts.rst:-1
+#: ../../content/applications/hr/payroll/contracts.rst:None
 msgid "The offers in a list view, grouped by status."
 msgstr ""
 
@@ -6569,7 +6569,7 @@ msgstr ""
 msgid "These three sections provide all the tools needed to create payslips for employees, including individual payslips, a batch of payslips, or commission payslips."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "Payslips menu selection in Payroll."
 msgstr ""
 
@@ -6581,7 +6581,7 @@ msgstr ""
 msgid "Click on :menuselection:`Payroll app --> Payslips --> To Pay` to see the payslips that need to be paid. On this page, Odoo displays the payslips that have not been generated yet, and can be created from this dashboard."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "View all payslips that need to be paid on the Payslips To Pay page."
 msgstr ""
 
@@ -6657,7 +6657,7 @@ msgstr ""
 msgid "If no employee and/or no contract is selected yet, all available :guilabel:`Structures` appear in the list. Once an employee and/or contract is selected, any unavailable :guilabel:`Structures` set for that employee and/or contract do not appear. This field is **required**."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "The top fields for a new payslip all filled out for a February payslip."
 msgstr ""
 
@@ -6689,7 +6689,7 @@ msgstr ""
 msgid "Using the drop-down menu in the :guilabel:`Type` column, select a :guilabel:`Type` for the input. Next, enter a :guilabel:`Description`, if desired. Lastly, enter the amount in the :guilabel:`Count` field."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "The fields filled out in the worked days and inputs tab."
 msgstr ""
 
@@ -6705,7 +6705,7 @@ msgstr ""
 msgid ":guilabel:`Has Negative Net To Report`: click the checkbox if the employee has a negative net amount for this payslip. This **only** appears if the employee's payslip has a negative balance."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "The fields filled out in the salary computation tab."
 msgstr ""
 
@@ -6749,7 +6749,7 @@ msgstr ""
 msgid ":guilabel:`Add an Internal Note...`: any note or reference message for the new entry can be typed in this field."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "The fields filled out in the other info tab."
 msgstr ""
 
@@ -6785,7 +6785,7 @@ msgstr ""
 msgid "To print the payslip, click the :guilabel:`Print` button. To cancel the payslip, click the :guilabel:`Cancel` button."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "The new payslip is emailed to the employee and the email appears in the chatter."
 msgstr ""
 
@@ -6865,7 +6865,7 @@ msgstr ""
 msgid ":guilabel:`Paid`: the employee has been paid."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "View all payslips organized by batches. Click on the arrow to expand each batch."
 msgstr ""
 
@@ -6885,7 +6885,7 @@ msgstr ""
 msgid "Payslips can also be exported to an Excel spreadsheet. To export **all** payslips, click on the :guilabel:`⚙️ (gear)` icon at the end of the words :guilabel:`Employee Payslips` in the top-left corner. This reveals a drop-down menu. Click :guilabel:`Export All` to export all payslips to a spreadsheet."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "Click on the Export All smart button to export all payslips to an Excel payslip."
 msgstr ""
 
@@ -6893,7 +6893,7 @@ msgstr ""
 msgid "To export only select payslips, first select the payslips to be exported from the list. Then, click the checkbox to the left of each individual payslip to select it. As payslips are selected, a smart button appears in the top-center of the page, indicating the number of selected payslips. Then, click the :guilabel:`⚙️ (gear) Actions` icon in the top-center of the page, and click :guilabel:`Export`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "The individual list of employee ayslips with three selected to be exported."
 msgstr ""
 
@@ -6913,7 +6913,7 @@ msgstr ""
 msgid "Each batch displays the :guilabel:`Name`, :guilabel:`Date From` and :guilabel:`Date To` dates, its :guilabel:`Status`, the number of payslips in the batch (:guilabel:`Payslips Count`), and the :guilabel:`Company`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "View displaying all batches created."
 msgstr ""
 
@@ -6937,7 +6937,7 @@ msgstr ""
 msgid "The current company populates the :guilabel:`Company` field. If operating in a multi-company environment, it is **not** possible to modify the :guilabel:`Company` from the form. The batch **must** be created while in the database for the desired company."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "Enter the details for the new batch."
 msgstr ""
 
@@ -7054,7 +7054,7 @@ msgstr ""
 msgid "Doing so reveals a :guilabel:`Generate Warrant Payslips` pop-up window, in which the necessary information **must** be filled out."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/payslips.rst:-1
+#: ../../content/applications/hr/payroll/payslips.rst:None
 msgid "Enter the commission details."
 msgstr ""
 
@@ -7106,7 +7106,7 @@ msgstr ""
 msgid "To view all the available reports for the database, including all the localization-specific ones, navigate to :menuselection:`Payroll app --> Reporting` to view the available reports in a drop-down menu. Click on a specific report to view it."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "Report dashboard view showing extra reports for Belgium databases."
 msgstr ""
 
@@ -7122,7 +7122,7 @@ msgstr ""
 msgid "Click on :menuselection:`Payroll app --> Reporting --> Payroll` to display the :guilabel:`Payroll Analysis` report. This report shows all the payslips generated in the last 365 days, due to the default :ref:`filter <payroll/filters>`: `Last 365 Days Payslip`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "Payroll overview report showing payroll for the last 365 days."
 msgstr ""
 
@@ -7186,7 +7186,7 @@ msgstr ""
 msgid ":guilabel:`Net Wage` is the default metric for the :guilabel:`Payroll` report."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "The various measures available to display for the Payroll Analysis report."
 msgstr ""
 
@@ -7222,7 +7222,7 @@ msgstr ""
 msgid "These options can be combined to create a variety of views."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "Menu buttons with the line chart called out, along with the other option buttons."
 msgstr ""
 
@@ -7242,7 +7242,7 @@ msgstr ""
 msgid "An option to display the columns in :ref:`Descending <payroll/descending>` or :ref:`Ascending <payroll/ascending>` order appears at the end of the options."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "Menu buttons with the bar chart called out, along with the other option buttons."
 msgstr ""
 
@@ -7258,7 +7258,7 @@ msgstr ""
 msgid "To display the data in a pie chart, click on the :guilabel:`Pie Chart` button (represented by a :guilabel:`(pie chart)` icon) in the menu bar. There are no additional options available in this view."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "Menu buttons with the pie chart called out."
 msgstr ""
 
@@ -7278,7 +7278,7 @@ msgstr ""
 msgid "To display more information on the report, click the :guilabel:`Measures` button to reveal a drop-down menu. Then, click on any other metric to display it on the pivot table."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "Pivot table view with the various metrics called out."
 msgstr ""
 
@@ -7291,7 +7291,7 @@ msgstr ""
 msgid "To export the data in an XLSX format, click the :guilabel:`Download xlsx` button, represented by a :guilabel:`⬇️ (down arrow above a horizontal bar)` icon, located at the far-right of the available icons. The information is then downloaded into a spreadsheet."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "The menu options with the download button highlighted."
 msgstr ""
 
@@ -7299,7 +7299,7 @@ msgstr ""
 msgid "Any report can be inserted into a spreadsheet by clicking the :guilabel:`Insert in Spreadsheet` button. A :guilabel:`Select a spreadsheet to insert your (type of report)` pop-up window appears, asking which spreadsheet to place the information in. Select an existing spreadsheet or dashboard, or select a new :guilabel:`Blank spreadsheet`. Click the :guilabel:`Confirm` button to move to a spreadsheet view with the report added to it."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "The view of data sent to a spreadsheet."
 msgstr ""
 
@@ -7347,7 +7347,7 @@ msgstr ""
 msgid "In the section titled :guilabel:`Comparison`, click on either :guilabel:`Current Month: Previous Period` or :guilabel:`Current Month: Previous Year`. The report updates and displays the previous time period values, as well as the :guilabel:`Variation` between the two."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "A pivot table comparing the work entries of the current month and the previous month."
 msgstr ""
 
@@ -7367,7 +7367,7 @@ msgstr ""
 msgid "The :guilabel:`Salary Attachment Report` shows all deductions or allocations per employee, such as child support payments and wage garnishments. To view this report, navigate to :menuselection:`Payroll app --> Reporting --> Salary Attachment Report`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "View the Attachment of Salary report that shows all salary garnishments."
 msgstr ""
 
@@ -7383,7 +7383,7 @@ msgstr ""
 msgid "Click the :guilabel:`Measures` button to reveal the options of what data can be displayed. :guilabel:`Assignment of salary`, :guilabel:`Attachment of salary`, :guilabel:`Child support`, and :guilabel:`Count` can all be selected or deselected by clicking on the item. If an item has a checkmark next to it, that information is displayed."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "Select the options to be displayed in the Salary Attachment Report."
 msgstr ""
 
@@ -7407,7 +7407,7 @@ msgstr ""
 msgid "The :guilabel:`Work Entries Analysis` report has two default filters, the `Current month:(Month) (Year)` filter, and the `Validated` filter."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:-1
+#: ../../content/applications/hr/payroll/reporting.rst:None
 msgid "Filters enabled for the Work Entries Analysis report."
 msgstr ""
 
@@ -7467,7 +7467,7 @@ msgstr ""
 msgid "To remove the filter from the :guilabel:`Search...` bar to view all work entries, click the :guilabel:`✖️ (remove)` icon on the :guilabel:`Conflicting` filter in the :guilabel:`Search...` bar, and all work entries appear in the list."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "Conflicts dashboard view showing all employee's conflicts in work entries."
 msgstr ""
 
@@ -7535,7 +7535,7 @@ msgstr ""
 msgid "Once the desired information is entered, click :guilabel:`Save & Close` to save the entry, and close the pop-up form."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "Filling in the work entry Create form in Odoo."
 msgstr ""
 
@@ -7555,7 +7555,7 @@ msgstr ""
 msgid "Conflicts are indicated with an orange triangle in the top-left corner of each individual work entry. Click on an individual work entry to see the date and time for the specific work entry, then click :guilabel:`Edit` to view the conflict details in a pop-up window."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "A row of conflicts, with one entry showing details for the conflict."
 msgstr ""
 
@@ -7571,7 +7571,7 @@ msgstr ""
 msgid "If the conflict is due to a time off request that has not been approved yet, a :guilabel:`Time Off` field appears on the left side, with the type of time off requested in the description."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "The detailed conflict pop-up window that appears when Edit is clicked."
 msgstr ""
 
@@ -7615,7 +7615,7 @@ msgstr ""
 msgid "Click the :guilabel:`Approve` button to approve the request, then click the :guilabel:`Save & Close` button to save the changes, and go back to the work entry conflict pop-up window."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "The detailed time off request form."
 msgstr ""
 
@@ -7663,7 +7663,7 @@ msgstr ""
 msgid "Click the :guilabel:`Regenerate Work Entries` button, and the work entries are recreated. Once finished, the pop-up window closes."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "Regenerate a work entry for a particular employee."
 msgstr ""
 
@@ -7711,7 +7711,7 @@ msgstr ""
 msgid "Click the :guilabel:`Payslips` smart button at the top of the page to view all the payslips for the batch."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "Information that appears when generating payslips."
 msgstr ""
 
@@ -7731,7 +7731,7 @@ msgstr ""
 msgid "Click the :guilabel:`Print` button, and a PDF file is created with all the specified payslips."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "Print button for printing the payslips."
 msgstr ""
 
@@ -7767,7 +7767,7 @@ msgstr ""
 msgid "All time off requests that need to be applied to the following pay period appear with a :guilabel:`Payslip State` of :guilabel:`To defer to next payslip`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "A list of all time off requests that were not approved before payslips were generated."
 msgstr ""
 
@@ -7787,7 +7787,7 @@ msgstr ""
 msgid "When all the desired work entries are selected, click the :guilabel:`Actions` button, and a menu appears with several choices. Click :guilabel:`Defer to Next Month` in the list, and all selected entries are deferred to the following month."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "The actions button and # Selected buttons that appear after any selections are made."
 msgstr ""
 
@@ -7815,7 +7815,7 @@ msgstr ""
 msgid "To go back to the :guilabel:`Time Off to Report` list, click on :guilabel:`Time Off` in the breadcrumb menu."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/work_entries.rst:-1
+#: ../../content/applications/hr/payroll/work_entries.rst:None
 msgid "The time off details for an individual request that needs to be deferred."
 msgstr ""
 
@@ -7851,7 +7851,7 @@ msgstr ""
 msgid "To access the kanban view for a job position, navigate to the main :menuselection:`Recruitment app` dashboard, which is the default view when opening the application. All job positions appear on the main dashboard. Click the :guilabel:`New Applications` smart button on a job position card to navigate to the kanban view for all the applicants for that particular job position."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Main dashboard view of job position card, showing new applications button."
 msgstr ""
 
@@ -7883,7 +7883,7 @@ msgstr ""
 msgid "The last column, :guilabel:`Contract Signed`, is folded by default, meaning that the column appears in gray and the applicants in it are hidden from view. To expand the folded stage and view the applicant cards for that column, click anywhere on the thin gray column that says the stage name and the column expands, revealing the applicants."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Expand a folded column by clicking on it in the kanban view."
 msgstr ""
 
@@ -7923,7 +7923,7 @@ msgstr ""
 msgid "To create a new stage, click on :guilabel:`+ Add a Column` and a new column appears. Enter the title for the new stage in the :guilabel:`Column title` field, then click :guilabel:`Add`. The new column appears, and another new stage is available to create. If no new stages are needed, click anywhere on the screen to exit the new column creation."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "The plus sign to click in order to add a new column to the kanban stages."
 msgstr ""
 
@@ -7935,7 +7935,7 @@ msgstr ""
 msgid "To modify the settings of a stage, hover over the name of the stage, and a :guilabel:`⚙️ (gear)` icon appears in the upper right hand side of the stage. Click on the :guilabel:`⚙️ (gear)` icon and a menu appears. Then click on the :guilabel:`Edit Stage` option. An :guilabel:`Edit Column` form appears. Make any modifications to the form, then click :guilabel:`Save` when done."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "The gear icon that appears when a column name is moused over, and the drop-down menu it\n"
 "displays when clicked."
 msgstr ""
@@ -8032,7 +8032,7 @@ msgstr ""
 msgid "To manually send an email click :guilabel:`Send message` in the chatter. A text box appears, as well as the applicant's email address. Click the :guilabel:`⤢ (double arrow)` full composer icon in the bottom right corner of the :guilabel:`Send Message` tab in the chatter."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Send an email from the chatter."
 msgstr ""
 
@@ -8064,7 +8064,7 @@ msgstr ""
 msgid "To change the stage on the applicant's card, click on the applicant's card in the kanban view to go to a detailed view of the card. The current stage for the card is highlighted in purple at the top, above the card. Simply click the desired stage for the card, and the stage changes. A log note indicating the stage change appears in the chatter. Navigate back to the kanban view by clicking on :guilabel:`Applications` in the breadcrumb menu in the top left, and the applicant's card now appears in the new stage."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Change the stage of an applicant by clicking on the desired stage at the top of the\n"
 "applicant's card."
 msgstr ""
@@ -8129,7 +8129,7 @@ msgstr ""
 msgid "To send the email with the interview link to the applicant, click :guilabel:`Send` at the bottom of the email pop-up."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Send a custom survey, also referred to as an interview form, to an applicant using a\n"
 "pre-configured template."
 msgstr ""
@@ -8158,7 +8158,7 @@ msgstr ""
 msgid "To send the refusal email to the applicant, click :guilabel:`Send`. The refusal email is sent to the applicant, and a :guilabel:`Refused` banner appears on the applicant's card."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "An applicant's card with the refused banner appearing in the top right corner in red."
 msgstr ""
 
@@ -8182,7 +8182,7 @@ msgstr ""
 msgid "Quickly add a new applicant using the :guilabel:`Quick add` icon. If not already in the job position kanban view, navigate to the main recruitment dashboard, and click the :guilabel:`New Applicants` button on the job position card that the applicant should be added to. Then, click on the small :guilabel:`+ (plus sign) Quick add` icon in the top right of the :guilabel:`Initial Qualification` stage to quickly add a new applicant."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "All the fields for a new applicant form entered when using the Quick Add option."
 msgstr ""
 
@@ -8324,7 +8324,7 @@ msgstr ""
 msgid "Any additional details or notes that should be added to the applicant's card can be typed into this field."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "All the fields for a new applicant form entered."
 msgstr ""
 
@@ -8336,7 +8336,7 @@ msgstr ""
 msgid "After an applicant has passed the :guilabel:`Initial Qualification` stage, they can be moved to the :guilabel:`First Interview` stage in the job position kanban view. To move the applicant to the next stage, drag and drop the applicant's card to the :guilabel:`First Interview` stage, or click on the :guilabel:`First Interview` stage button at the top of the individual applicant's card."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "An applicant's card moves from one stage t another by using the click and drag method."
 msgstr ""
 
@@ -8364,7 +8364,7 @@ msgstr ""
 msgid "The default view is the week view. To change the calendar view, click on a button to present the calendar in a different view, either :guilabel:`Day`, :guilabel:`Month`, or :guilabel:`Year`. To change the displayed date range for the calendar, either use the :guilabel:`⬅️ (Left)`, :guilabel:`➡️ (Right)`, or :guilabel:`Today` buttons above the calendar, or click on a date in the calendar on the right side of the displayed calendar."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "The calendar view, highlighting how to change the displayed meetings."
 msgstr ""
 
@@ -8448,7 +8448,7 @@ msgstr ""
 msgid ":guilabel:`Show as`: select from the drop-down whether the meeting time should appear as :guilabel:`Busy` or :guilabel:`Available` in the attendees' schedules. Setting this field to :guilabel:`Available` allows other meetings to be scheduled for the same time. It is recommended to set this field to :guilabel:`Busy`, so no other meetings can be scheduled for the attendees at the same time."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "A new meeting card with all the details populated, and ready to save."
 msgstr ""
 
@@ -8464,7 +8464,7 @@ msgstr ""
 msgid "To send the meeting via email, click the :guilabel:`Email` button next to the list of attendees. A :guilabel:`Contact Attendees` email configurator pop-up appears. A pre-formatted email using the default :guilabel:`Calendar: Event Update` email template populates the email body field. The followers of the document (job application), as well as the user who created the meeting are added as :guilabel:`Recipients` by default. Add the applicant's email address to the list to send the email to the applicant as well. Make any other desired changes to the email. If an attachment is needed, click the :guilabel:`Attach A File` button, navigate to the file, then click :guilabel:`Open`. Once the email is ready to be sent, click :guilabel:`Send`."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Enter the information to send the event via email."
 msgstr ""
 
@@ -8480,7 +8480,7 @@ msgstr ""
 msgid "When the message reads :guilabel:`0 are invalid`, type in the message to be sent in the :guilabel:`Message` field. Beneath the message field, the number of characters, as well as the amount of text messages required to send the message (according to GSM7 criteria) appears. Click :guilabel:`Put In Queue` to have the text sent later, after any other messages are scheduled, or click :guilabel:`Send Now` to send the message immediately."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Send a text message to the attendees of the meeting."
 msgstr ""
 
@@ -8576,7 +8576,7 @@ msgstr ""
 msgid ":guilabel:`Contract Type`: using the drop-down menu, select the type of contract that is being offered."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Format the offer to send to the applicant. Make any modifications before sending."
 msgstr ""
 
@@ -8596,7 +8596,7 @@ msgstr ""
 msgid "To send an offer, ensure the *Sign* application is installed. This is necessary so the offer can be sent to the applicant by the recruiter. The applicant does not need any software installed."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Send an email to the applicant with a link to the offered salary."
 msgstr ""
 
@@ -8616,7 +8616,7 @@ msgstr ""
 msgid "Once the applicant's card moves to the :guilabel:`Contract Signed` stage, a green :guilabel:`Hired` banner appears in the top right of the applicant's card."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment.rst:-1
+#: ../../content/applications/hr/recruitment.rst:None
 msgid "Hired banner in the top right corner of applicant card."
 msgstr ""
 
@@ -8644,7 +8644,7 @@ msgstr ""
 msgid "View submitted applications by clicking anywhere on a job position card."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment/new_job.rst:-1
+#: ../../content/applications/hr/recruitment/new_job.rst:None
 msgid "Main dashboard view of Recruitment app showing all job positions."
 msgstr ""
 
@@ -8668,7 +8668,7 @@ msgstr ""
 msgid "When complete, click the :guilabel:`Create` button to save the entry, or the :guilabel:`Discard` button to delete it."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment/new_job.rst:-1
+#: ../../content/applications/hr/recruitment/new_job.rst:None
 msgid "Create a new job position."
 msgstr ""
 
@@ -8684,7 +8684,7 @@ msgstr ""
 msgid "After the job position is created, it's time to enter the details for the position. Click on the :guilabel:`⋮ (three dots)` icon in the upper-right corner of the relevant card to reveal several options, and then click :guilabel:`Configuration` to edit the details."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment/new_job.rst:-1
+#: ../../content/applications/hr/recruitment/new_job.rst:None
 msgid "Edit the job position card."
 msgstr ""
 
@@ -8772,7 +8772,7 @@ msgstr ""
 msgid "Finally, enter the job description in the :guilabel:`Job Summary` tab."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment/new_job.rst:-1
+#: ../../content/applications/hr/recruitment/new_job.rst:None
 msgid "Enter job information details in the recruitment tab."
 msgstr ""
 
@@ -8792,7 +8792,7 @@ msgstr ""
 msgid "Since there are no pre-configured forms in Odoo, all interview forms must be created. To create an interview form, start from the :guilabel:`Recruitment` tab of the :guilabel:`Job Position` form. In the :guilabel:`Interview Form` field, enter a name for the new interview form. As the name is typed, several options populate beneath the entry: :guilabel:`Create (interview form name)`, :guilabel:`Search More...`, and :guilabel:`Create and edit...`. Click :guilabel:`Create and edit...` and a :guilabel:`Create Interview Form` modal appears."
 msgstr ""
 
-#: ../../content/applications/hr/recruitment/new_job.rst:-1
+#: ../../content/applications/hr/recruitment/new_job.rst:None
 msgid "The blank interview form modal."
 msgstr ""
 
@@ -8809,765 +8809,652 @@ msgid "Referrals"
 msgstr ""
 
 #: ../../content/applications/hr/referrals.rst:5
-msgid "Odoo's *Referrals* application is a centralized place where all information regarding referrals is housed, from points earned, coworkers hired, and rewards selected. Users can recommend people they know for job positions, then earn referral points as those people progress through the recruitment pipeline. Once enough referral points are earned, they can be exchanged for prizes. The Referrals application integrates with the *Employees*, *Recruitment*, and *Website* applications, all of which must be installed in order for the *Referrals* application to function."
+msgid "Odoo's *Referrals* application is a centralized place where all information regarding referrals is housed - from points earned, coworkers hired, and rewards selected. Users can recommend people they know for job positions, and then earn referral points as those people progress through the recruitment pipeline. Once enough referral points are earned, they can be exchanged for prizes. The *Referrals* application integrates with the *Employees*, *Recruitment*, and *Website* applications, all of which must be installed in order for the *Referrals* application to function."
 msgstr ""
 
 #: ../../content/applications/hr/referrals.rst:12
-msgid "The only configuration needed for the Referrals application after it is installed are the :ref:`rewards <referrals/rewards>`; everything else is pre-configured when Odoo Referrals is installed."
+msgid "The only configurations needed for the *Referrals* application *after* installation are related to the :ref:`rewards <referrals/rewards>`; everything else is pre-configured when Odoo *Referrals* is installed."
 msgstr ""
 
 #: ../../content/applications/hr/referrals.rst:16
-msgid "Any user with either :guilabel:`Referral User`, :guilabel:`Officer`, or :guilabel:`Administrator` rights for the Recruitment application has access to the Referrals application. Only user's with :guilabel:`Administrator` rights for the Recruitment application have access to the :ref:`reporting <referrals/reporting>` and configurations menus. For more information on users and access rights, refer to these documents: :doc:`../general/users` and :doc:`../general/users/access_rights`."
+msgid "Users with either :guilabel:`Referral User`, :guilabel:`Officer`, or :guilabel:`Administrator` access rights for the *Recruitment* application have access to the *Referrals* application. Only users with :guilabel:`Administrator` access rights for the *Recruitment* application have access to the :ref:`reporting <referrals/reporting>` and configurations menus. For more information on users and access rights, refer to these documents: :doc:`../general/users` and :doc:`../general/users/access_rights`."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:23
+#: ../../content/applications/hr/referrals.rst:24
 msgid "Onboarding"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:25
-msgid "When opening the *Referrals* application for the first time, a pre-configured onboarding script appears. This is in the form of four slides, each explaining the different parts of the Referrals application. At the top of the dashboard, the following message is displayed throughout all the onboarding slides: :guilabel:`GATHER YOUR TEAM! Job Referral Program`. Behind this main message is an image, and beneath it some more explanatory text."
+#: ../../content/applications/hr/referrals.rst:26
+msgid "When opening the *Referrals* application for the first time, a pre-configured onboarding script appears. This is in the form of four slides, each explaining the different parts of the *Referrals* application. At the top of the dashboard, the following message is displayed throughout all the onboarding slides: :guilabel:`GATHER YOUR TEAM! Job Referral Program`. Behind this main message is an image, and beneath it some more explanatory text."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:31
+#: ../../content/applications/hr/referrals.rst:32
 msgid "Each of the onboarding slides has a corresponding image and message that is displayed. After reading each message, click the :guilabel:`Next` button to advance to the next slide."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:34
+#: ../../content/applications/hr/referrals.rst:35
 msgid "The text that appears on each slide is as follows:"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:36
+#: ../../content/applications/hr/referrals.rst:37
 msgid ":guilabel:`Oh no! Villains are lurking the city! Help us recruit a team of superheroes to save the day!`"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:38
+#: ../../content/applications/hr/referrals.rst:39
 msgid ":guilabel:`Browse through open job positions, promote them on social media, or refer friends.`"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:39
+#: ../../content/applications/hr/referrals.rst:40
 msgid ":guilabel:`Collect points and exchange them for awesome gifts in the shop.`"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:40
+#: ../../content/applications/hr/referrals.rst:41
 msgid ":guilabel:`Compete against your colleagues to build the best justice league!`"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:43
-msgid "The onboarding slides will appear every time the Referrals application is opened, until all the slides have been viewed and the :guilabel:`Start Now` button has been clicked. If the onboarding is exited at any point, or if the :guilabel:`Start Now` button has *not* been clicked, the onboarding slides will begin again when the Referrals application is opened. Once the :guilabel:`Start Now` button has been clicked, the onboarding slides will not be seen again, and the main dashboard will load when the Referrals application is opened from that point on."
+#: ../../content/applications/hr/referrals.rst:44
+msgid "The onboarding slides will appear every time the *Referrals* application is opened, until all the slides have been viewed and the :guilabel:`Start Now` button has been clicked. If the onboarding is exited at any point, or if the :guilabel:`Start Now` button has *not* been clicked, the onboarding slides will begin again when the *Referrals* application is opened. Once the :guilabel:`Start Now` button has been clicked, the onboarding slides will not be seen again, and the main dashboard will load when the *Referrals* application is opened from that point on."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:50
-msgid "At any point during onboarding, the :guilabel:`Skip` button may be clicked. This exits the onboarding, and the main Referrals dashboard loads. If :guilabel:`Skip` is clicked, onboarding slides will not load anymore when opening the Referrals application."
+#: ../../content/applications/hr/referrals.rst:51
+msgid "At any point during onboarding, the :guilabel:`Skip` button may be clicked. This exits the onboarding, and the main *Referrals* dashboard loads. If :guilabel:`Skip` is clicked, onboarding slides will not load anymore when opening the *Referrals* application."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "An onboarding slide with the skip and next buttons visible at the bottom."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:59
+#: ../../content/applications/hr/referrals.rst:60
 msgid "If there are any candidates hired that the user had referred prior to opening the Referrals app (meaning the onboarding slides have not appeared before), when :guilabel:`Start Now` is clicked at the end of onboarding, instead of going to the main dashboard, a :ref:`hired <referrals/hired>` screen appears instead."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:65
+#: ../../content/applications/hr/referrals.rst:66
 msgid "Modifying onboarding slides"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:67
-msgid "Onboarding slides can be modified if desired. Only users with :guilabel:`Administrator` rights for the Recruitment application can modify onboarding slides. To edit a slide, navigate to :menuselection:`Referrals app --> Configuration --> Onboarding.` Each line displays the text for the individual onboarding slide. To edit an onboarding slide, click on an individual slide line to open the slide's onboarding form, then click :guilabel:`Edit`."
+#: ../../content/applications/hr/referrals.rst:68
+msgid "Onboarding slides can be modified if desired. Only users with :guilabel:`Administrator` rights for the *Recruitment* application can modify onboarding slides. To edit a slide, navigate to :menuselection:`Referrals app --> Configuration --> Onboarding.` Each line displays the text for the individual onboarding slide. To edit an onboarding slide, click on an individual slide line to open the slide's onboarding form."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:73
-msgid "Make any changes to the message in the :guilabel:`Text` box. To change the order the slide appear in the onboarding, the :guilabel:`Sequence` can be modified. Type in the corresponding number to indicate the order in which the slides should be displayed. A :guilabel:`Company` may be selected, however, if this field is populated, that slide will only be displayed for that particular company."
+#: ../../content/applications/hr/referrals.rst:74
+msgid "Make any changes to the message in the :guilabel:`Text` field. A :guilabel:`Company` may be selected, as well. However, if this field is populated, that slide is *only* displayed for that particular company."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:78
-msgid "The image can be modified as well. Hover over the image thumbnail in the top right corner of the form. A :guilabel:`✏️ (pencil)` icon and :guilabel:`🗑️ (garbage can)` icon appear. Click the :guilabel:`✏️ (pencil)` icon to change the image. A file navigator window loads. Navigate to the desired image, select it, then click :guilabel:`Open`. The new image appears in the thumbnail. To delete an image, click the :guilabel:`🗑️ (garbage can)` icon, then select a new image using the :guilabel:`✏️ (pencil)` icon."
+#: ../../content/applications/hr/referrals.rst:79
+msgid "The :guilabel:`Company` field only appears when in a multi-company database."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:85
-msgid "To save any changes, click :guilabel:`Save`, or click :guilabel:`Discard` to delete any changes and revert to the original content."
+#: ../../content/applications/hr/referrals.rst:81
+msgid "The image can be modified, as well. Hover over the image thumbnail in the top-right corner of the form. A :guilabel:`✏️ (pencil)` icon and :guilabel:`🗑️ (garbage can)` icon appear. Click the :guilabel:`✏️ (pencil)` icon to change the image. A file navigator window loads. Navigate to the desired image, select it, then click :guilabel:`Open`. The new image appears in the thumbnail. To delete an image, click the :guilabel:`🗑️ (garbage can)` icon, then select a new image using the :guilabel:`✏️ (pencil)` icon."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "An onboarding slide in edit mode, with the main fields highlighted."
 msgstr ""
 
 #: ../../content/applications/hr/referrals.rst:92
-msgid "The order of the slides can also be changed directly in the Onboarding dashboard, without having to edit an individual onboarding slide. Click the up and down arrow symbol that appears after the checkbox and before the slide text, and drag the slide to the desired position. The :guilabel:`Sequence` automatically changes on all the slide's onboarding forms, reflecting the new sequence."
+msgid "The sequence in which the slides appear can be changed from the *Onboarding* dashboard. Click the :guilabel:`(six small gray boxes)` icon to the left of the the slide text, and drag the slide to the desired position."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "The onboarding slides in a list, with the drag and drop arrows highlighted."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:103
+#: ../../content/applications/hr/referrals.rst:101
 msgid "Share job positions"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:105
-msgid "In order to earn referral points, a user must first share a job position so the applicant can apply for the position. There are several ways to share job positions within the Referrals application, through the :ref:`View Jobs <referrals/view-jobs>` button and the :ref:`Email A Friend <referrals/email-jobs>` button."
+#: ../../content/applications/hr/referrals.rst:103
+msgid "In order to earn referral points, a user must first share a job position, so the applicant can apply for the position. Job positions can be shared in several ways within the *Referrals* application, through the :ref:`View Jobs <referrals/view-jobs>` button and the :ref:`Email A Friend <referrals/email-jobs>` button, located at the bottom of the *Referrals* app dashboard."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:113
+#: ../../content/applications/hr/referrals.rst:109
+msgid "Sharing jobs can **only** occur after onboarding slides have been viewed or skipped."
+msgstr ""
+
+#: ../../content/applications/hr/referrals.rst:114
 msgid "View Jobs"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:115
+#: ../../content/applications/hr/referrals.rst:116
 msgid "To see all job positions that are actively recruiting candidates, click the :guilabel:`View Jobs` button on the main Referrals dashboard. This presents all job positions, with each individual job presented in its own card."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "The 'View Jobs' screen, displaying all current open job positions. All information is\n"
 "displayed on the card."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:124
+#: ../../content/applications/hr/referrals.rst:125
 msgid "Each job position card contains the following information:"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:126
+#: ../../content/applications/hr/referrals.rst:127
 msgid "The title of the job position. This information is taken from the :guilabel:`Job Position` field of the job form."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:128
+#: ../../content/applications/hr/referrals.rst:129
 msgid "The number of positions being recruited. This information is taken from the :guilabel:`Expected New Employees` field of the :guilabel:`Recruitment` tab of the job form."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:130
+#: ../../content/applications/hr/referrals.rst:131
 msgid "The points a user will earn when an applicant applies for the position."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:131
+#: ../../content/applications/hr/referrals.rst:132
 msgid "The job description detailing the job position. This information is taken from the :guilabel:`Job Position` tab of the job form."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:134
+#: ../../content/applications/hr/referrals.rst:135
 msgid "To see all the details for a job position, click the :guilabel:`More Info` button on the specific card. This opens the job position webpage in a new browser tab. This is what an applicant sees before applying for a position."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:139
+#: ../../content/applications/hr/referrals.rst:140
 msgid "Only published job positions will be visible in the Referrals app. To check which job positions are published or not, refer to the :doc:`recruitment/new_job` documentation."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:143
+#: ../../content/applications/hr/referrals.rst:144
 msgid "Refer friends"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:145
+#: ../../content/applications/hr/referrals.rst:146
 msgid "To share a job position with someone, click the :guilabel:`Refer Friend` button on the specific job position card. A pre-configured :guilabel:`Send Job Offer by Mail` email pop-up window appears. Enter the recipient's email address in the :guilabel:`Email` field."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:149
+#: ../../content/applications/hr/referrals.rst:150
 msgid "The subject and body are populated using a default template. The subject `Job for you` appears, and can be modified if desired."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:152
-msgid "The specific title of the job position will populate the :guilabel:`Job Position` placeholder in the email body. The `See Job Offer` text in the email body is an individualized tracking link to the specific job position listed on the website. When the prospective employee receives the email, the link will send them to the job position page, where they can apply for the position, and the person who referred them is tracked in the Referrals application."
+#: ../../content/applications/hr/referrals.rst:153
+msgid "The specific title of the job position will populate the :guilabel:`Job Position` placeholder in the email body. The `See Job Offer` text in the email body is an individualized tracking link to the specific job position listed on the website. When the prospective employee receives the email, the link will send them to the job position page, where they can apply for the position, and the person who referred them is tracked in the *Referrals* application."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:158
+#: ../../content/applications/hr/referrals.rst:159
 msgid "If desired, add any text or closing salutation to the email body. When all edits have been made, click :guilabel:`Send Email` to send the email, or click :guilabel:`Cancel` to close the email pop-up window."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "Referral email pop-up window with the email message inside it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:167
+#: ../../content/applications/hr/referrals.rst:168
 msgid "Share a job"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:169
-msgid "There are several other ways to share a job position aside from sending an email, via social media platforms and tracking links to the job position. At the bottom of each job position card are four icons and corresponding tracking links that can be used to share the job position, keeping track of applicants in the Referrals application."
+#: ../../content/applications/hr/referrals.rst:170
+msgid "Other than sending an email, job positions can be shared, via social media platforms, and tracking links to the job position. At the bottom of each job position card are four icons, and corresponding tracking links, that can be used to share the job position, keeping track of applicants in the *Referrals* application."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "The various sharing icons that appear for each job."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:179
+#: ../../content/applications/hr/referrals.rst:180
 msgid "Link"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:181
-msgid "To share the job position with a customized tracking link, click the :guilabel:`Share Now` button with the :guilabel:`🔗 (chain)` icon inside it. A :guilabel:`Link to Share` pop-up window appears with the tracking link. Click :guilabel:`Copy` to copy the link. After the link is copied, click the :guilabel:`Close` button to close the pop-up. Next, share the link with the prospective employee however desired."
+#: ../../content/applications/hr/referrals.rst:182
+msgid "To share the job position with a customized tracking link, click the :guilabel:`Share Now` button with the :guilabel:`🔗 (chain)` icon inside it. A :guilabel:`Link to Share` pop-up window appears with the tracking link. Click :guilabel:`Copy` to copy the link. After the link is copied, click the :guilabel:`Close` button to close the pop-up window. Next, share the link with the prospective employee."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:188
+#: ../../content/applications/hr/referrals.rst:189
 msgid "Facebook"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:190
-msgid "To share the job position using Facebook, click the :guilabel:`Share Now` button with the :guilabel:`f (Facebook icon)` inside it. If the user is already logged into Facebook, when the :guilabel:`f (Facebook icon)` is clicked, a :guilabel:`Share on Facebook` page loads in a new tab, with the link populated in the main body of the new post. If the user is *not* already logged in, a log-in screen loads instead, prompting the user to log-in to Facebook first."
+#: ../../content/applications/hr/referrals.rst:191
+msgid "To share the job position using Facebook, click the :guilabel:`Share Now` button with the :guilabel:`f (Facebook)` icon inside it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:196
-msgid "Type in any additional information to add to the post, in the space directly below your name. If desired, :guilabel:`tag` users, :guilabel:`check-in` at a location, or add a :guilabel:`status` to the post. To tag a user, click the :guilabel:`Tag Friends` icon and select the people to tag to the post. To add a check-in location, click the :guilabel:`Check in` icon, and select the location from the pop-up of predetermined locations based on your current location. To add a :guilabel:`status`, click the :guilabel:`Feeling/Activity` icon, then select either the feeling or the activity type, and lastly, if an activity type was selected, select the specific activity."
+#: ../../content/applications/hr/referrals.rst:194
+msgid "If the user is already logged into Facebook, when the :guilabel:`f (Facebook)` icon is clicked, a :guilabel:`Share on Facebook` page loads in a new tab, with the link populated in the main body of the new post in a pop-up window. If the user is *not* already logged in, a log-in screen loads, instead, prompting the user to log-in to Facebook first."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:204
-msgid "There are five methods to share the job position, :guilabel:`Your Story`, :guilabel:`Share on a Friend's Timeline`, :guilabel:`Share in a Group`, :guilabel:`Share in an Event`, and :guilabel:`Share in a Private Message`. To select the sharing method, click the drop-down menu located at the top of the page, directly beneath the :guilabel:`Share on Facebook` banner."
+#: ../../content/applications/hr/referrals.rst:199
+msgid "Type in any additional information to add to the post, then share the job position using the available options in Facebook."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
-msgid "The view on Facebook when sharing a job description. All the various ways to share are\n"
-"highlighted, as are all the required settings."
+#: ../../content/applications/hr/referrals.rst:203
+msgid "X (formerly Twitter)"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:216
-msgid "Share to news feed or story"
+#: ../../content/applications/hr/referrals.rst:205
+msgid "A job position can also be shared on X (formerly Twitter). Click the :guilabel:`Share Now` button with the :guilabel:`X` icon inside it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:218
-msgid "The default sharing method is through the :guilabel:`News Feed`, :guilabel:`Story`, or both. At the lower portion of the form are radio buttons next to the two options, :guilabel:`Feed` (for the News Feed) and :guilabel:`Your Story` for stories. When :guilabel:`Share to News Feed or Story` is selected, these buttons are active, if another option is selected, these radio buttons are greyed out. Activate the radio button(s) to indicate how the job position should be shared, either in the news feed, the story, or both."
+#: ../../content/applications/hr/referrals.rst:208
+msgid "If the user is already signed in to X (formerly Twitter), when the :guilabel:`Share Now` icon is clicked, an X (formerly Twitter) page loads in a new tab with a pre-populated message ready to post, in a draft pop-up window. If the user is *not* already signed in, a sign-in screen loads instead, prompting the user to sign in to X (formerly Twitter)."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:225
-msgid "The :guilabel:`Share to news feed or story` option allows for specific privacy settings to be selected. In the lower right corner of the screen, there are two drop-down menu options, one for the :guilabel:`Feed` option, the other for the :guilabel:`Your story` option. Select the posting parameters from the drop-down menus. The :guilabel:`Feed` ad :guilabel:`Your story` options appear different from user to user, depending on what privacy settings have been created in Facebook. :guilabel:`Public` and :guilabel:`Friends` are default options, but other options that the user may have configured will appear as well, such as custom groups."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:233
-msgid "When the post and/or story is ready to be shared, click the blue :guilabel:`Post to Facebook` button at the bottom of the screen."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:236
-msgid "Share on a friend's timeline"
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:238
-msgid "Instead of making a public post on the user's on Facebook page, the job position can be shared directly on a friend's timeline. Click the :guilabel:`Share to News Feed or Story` drop-down menu near the top of the page, and select :guilabel:`Share on a Fried's Timeline`."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:242
-msgid "When selected, a :guilabel:`Friend` field appears below the selection. Begin to type in the friend's name. As the name is typed, a list appears, populated with names that match what is entered. Select the friend from the list. **Only** one friend can be selected."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:246
-#: ../../content/applications/hr/referrals.rst:261
-#: ../../content/applications/hr/referrals.rst:275
-msgid "When the post is ready to be shared, click the blue :guilabel:`Post to Facebook` button at the bottom of the screen."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:249
-msgid "Share in a group"
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:251
-msgid "To reach a specific audience and not share the job position publicly with everyone, a job can be shared in a group. Click the :guilabel:`Share to News Feed or Story` drop-down menu near the top of the page, and select :guilabel:`Share in a Group`."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:255
-msgid "When selected, a :guilabel:`Group` field appears below the selection. The available groups that can be posted to are groups the user is currently a member of. Job positions cannot be shared with groups the user has not joined. Begin to type in the name of the group. As the group name is typed, a list appears, populated with the group names that match what is entered. Select the group from the list. Only one group can be selected."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:264
-msgid "Share in an event"
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:266
-msgid "A job position can also be shared on an event page. Click the :guilabel:`Share to News Feed or Story` drop-down menu near the top of the page, and select :guilabel:`Share in an Event`."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:269
-msgid "When selected, an :guilabel:`Event` field appears below the selection. The available events that can be posted to are events the user is invited to. This includes events that the user has not responded to yet, and events that have occurred in the past. Begin to type in the name of the event. As the event name is typed, a list appears, populated with the events that match what is entered. Select the event from the list. Only one event can be selected."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:278
-msgid "Share in a private message"
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:280
-msgid "The last option is to share a job position privately instead of publicly, in a Facebook message. Click the :guilabel:`Share to News Feed or Story` drop-down menu near the top of the page, and select :guilabel:`Share in an Private Message`."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:284
-msgid "When selected, a :guilabel:`To` field appears below the selection. Begin to type in the friend's name. As the name is typed, a list appears, populated with names that match what is entered. Select the friend from the list. Multiple friends can be selected and added to a single message. Repeat this process for each friend to be added."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:289
-msgid "When the message is ready to be sent, click the blue :guilabel:`Send message` button at the bottom of the screen."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:293
-msgid "X/Twitter"
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:295
-msgid "A job position can also be shared on X/Twitter. Click the :guilabel:`Share Now` button with the bird icon inside it. If the user is already signed in to X/Twitter, when the :guilabel:`Share Now` icon is clicked, an X/Twitter page loads in a new tab with a pre-populated message ready to post, in a draft pop-up. If the user is *not* already signed in, a sign-in screen loads instead, prompting the user to sign in to X/Twitter."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:301
+#: ../../content/applications/hr/referrals.rst:213
 msgid "The default message is:"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:303
+#: ../../content/applications/hr/referrals.rst:215
 msgid ":guilabel:`Amazing job offer for (Job Position)! Check it live: (link to Job Position)`"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:305
-msgid "Type in any additional information or make any edits to the message. If desired, click the :guilabel:`X` in the top left corner of the thumbnail preview of the webpage to remove it. To adjust the audience for the message, click the drop-down button labeled :guilabel:`Everyone`. Select the preferred audience from the drop-down menu. The default option is :guilabel:`Everyone`, and the other options is :guilabel:`Circle`. The :guilabel:`Circle` is a group of people that the user has selected in X/Twitter."
+#: ../../content/applications/hr/referrals.rst:217
+msgid "Type in any additional information, or make any edits to the message, then share using the available options in X (formerly Twitter)."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:312
-msgid "The default setting is :guilabel:`🌎 (globe) Everyone can reply`, an allows everyone on X/Twitter to reply to the message. To change this, click the :guilabel:`🌎 (globe) Everyone can reply` button in the lower left section of the message. There are four options presented: :guilabel:`Everyone`, :guilabel:`Accounts you follow`, :guilabel:`Verified accounts`, and :guilabel:`Only accounts you mention`. Selecting one of the other options restricts who can reply to the message."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:318
-msgid "There are various other items that can be added to the message. Media (photos, videos, etc), GIF's, polls, emojis, and a location may all be added. Click the corresponding icon in the bottom left of the message and follow the prompts to add the desired additional elements."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:322
-msgid "To have the message posted at a future date and time, click the :guilabel:`Schedule` icon in the lower left of the message window. It is the fifth icon from the left. Enter the date and time that the message should be posted using the date and time selector presented. Click :guilabel:`Confirm` to add the scheduled time to the message."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:327
-msgid "To post the message, click :guilabel:`Post`. The message will be immediately posted, or, if it was scheduled, will be posted at the scheduled date and time."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:-1
-msgid "The X/Twitter pop-up when sharing a job description. All the other items than can be added\n"
-"to the message are highlighted, as is the visibility setting and the post button."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:336
+#: ../../content/applications/hr/referrals.rst:221
 msgid "LinkedIn"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:338
-msgid "To share a job position on LinkedIn, click the :guilabel:`Share Now` button with the :guilabel:`in (LinkedIn logo)` inside it. If the user is already logged into LinkedIn, when the :guilabel:`Share Now` button is clicked, a new tab loads in LinkedIn, with a link to the job position at the top. If the user is *not* already logged in, a log-in screen loads instead, prompting the user to log-in to LinkedIn first."
+#: ../../content/applications/hr/referrals.rst:223
+msgid "To share a job position on LinkedIn, click the :guilabel:`Share Now` button with the :guilabel:`in (LinkedIn logo)` inside it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:344
-msgid "The job position can be shared either in a public post, or in a private message to an individual or group of individuals."
+#: ../../content/applications/hr/referrals.rst:226
+msgid "If the user is already logged into LinkedIn, when the :guilabel:`Share Now` button is clicked, a new tab loads in LinkedIn, with a link to the job position at the top. If the user is *not* already logged in, a log-in screen loads instead, prompting the user to log-in to LinkedIn first."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:348
-msgid "Share in a post"
+#: ../../content/applications/hr/referrals.rst:230
+msgid "The job position can be shared either in a public post, or in a private message to an individual (or group of individuals)."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:350
-msgid "To share the job position in a public post, click the :guilabel:`✏️ (pencil) Share in a post` button in the lower-left corner of the screen. A :guilabel:`Create a post` window loads, with the job position link populated. Enter any other information to the post in the field."
+#: ../../content/applications/hr/referrals.rst:233
+msgid "Type in any additional information, or make any edits to the message or post, then share using the available options in LinkedIn."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:354
-msgid "To change the audience that will see the post, click the :guilabel:`🌎 (globe) Anyone` drop-down, located directly beneath the account name. Click on the desired selection, then click the :guilabel:`Save` button on the far right side of the screen, beneath the last listed option."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:358
-msgid ":guilabel:`Anyone` allows anyone on LinkedIn to see the post. :guilabel:`Connections only` will only share the post with people who are connected with the user, and will be hidden from everyone else. :guilabel:`Group` shares the post with a specific group the user is a member of. The post can only be shared with one group; posting to multiple groups at once is not available. If :guilabel:`Group` is selected, a page loads with a list of all the groups the user is currently a member of. Click on a group to select it, then click the :guilabel:`Save` button in the lower right corner."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:366
-msgid "Next, select who can comment on the post. To change this setting, click on the :guilabel:`💬 (speech bubble) Anyone` button located beneath the body of the post. A page loads with the various options. Click on one of the three options to select it. The three options are :guilabel:`Anyone`, :guilabel:`Connections only`, and :guilabel:`No one`. The default option is :guilabel:`Anyone`, which allows anyone with a LinkedIn account to comment on the post. :guilabel:`Connections only` will only allow people who are connected with the user to comment on the post. :guilabel:`No one` turns off commenting. After making a selection, click the :guilabel:`Save` button in the far lower right corner."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:375
-msgid "Finally, once the post is edited and the settings have been selected, click :guilabel:`Post` to share the job position."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:-1
-msgid "A linkedIn post to share a job. The job position is highlighted as is the post button."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:383
-msgid "Send as private message"
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:385
-msgid "Instead of making a public post, the post can be sent to a connection in a private message. To do so, click the :guilabel:`Send as private message` button in the lower left corner. A message window loads with the link to the job description in the bottom of the window. First, select the recipient(s) for the message. Type the name in the :guilabel:`Search for message recipients` field. As the name is typed in, any matching connections appear. Click on a connection to add them. Repeat this for all the recipients to send the message to. There is no limit on the number of connections that can be messaged. Next, enter any additional text in the message body. Click :guilabel:`Send` in the lower right corner to send the message. A :guilabel:`Message successfully sent!` screen loads. Two options are presented, :guilabel:`View Message` and :guilabel:`Continue to LinkedIn`. Click on the desired selection to navigate to that choice, or close the browser tab to exit."
-msgstr ""
-
-#: ../../content/applications/hr/referrals.rst:399
+#: ../../content/applications/hr/referrals.rst:239
 msgid "Email a friend"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:401
+#: ../../content/applications/hr/referrals.rst:241
 msgid "Another way to share job opportunities is to share the entire current list of open job positions instead of one job position at a time. To do this, navigate to the main *Referrals* app dashboard. Click the :guilabel:`Email a friend` button at the bottom of the screen. A :guilabel:`Send Job Offer by Mail` pop-up window appears."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:406
-msgid "Enter the email address(es) in the :guilabel:`Email` line. The email can be sent to multiple recipients, simply enter a comma followed by a single space after each email address. The :guilabel:`Subject` is pre-configured with `Job for you`, but can be edited."
+#: ../../content/applications/hr/referrals.rst:246
+msgid "Enter the email address in the :guilabel:`Email` line. The email can be sent to multiple recipients, simply enter a comma followed by a single space after each email address. The :guilabel:`Subject` is pre-configured with `Job for you`, but can be edited."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:410
+#: ../../content/applications/hr/referrals.rst:250
 msgid "The email body is also populated with pre-configured text. The text that appears is:"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:412
+#: ../../content/applications/hr/referrals.rst:252
 msgid "`Hello,`"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:414
-msgid "`There are some amazing job offers in my company! Have a look, they can be interesting for you`"
+#: ../../content/applications/hr/referrals.rst:254
+msgid "`There are some amazing job offers in my company! Have a look, they can be interesting for you\\:`"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:416
+#: ../../content/applications/hr/referrals.rst:256
 msgid "`See Job Offers`"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:418
-msgid "The `See Job Offers` text is a tracking link to a complete list of all job positions currently being recruited for, that are live on the company's website (published). Add any additional text and/or make any edits to the message body, then click :guilabel:`Send Mail` to send the email. The message will be sent and the window will close."
+#: ../../content/applications/hr/referrals.rst:258
+msgid "The :guilabel:`See Job Offers` text is a tracking link to a complete list of all job positions currently being recruited for. Add any additional text and make any edits to the message body, if necessary. Then, click :guilabel:`Send Mail` to send the email. This sends the message, and closes the window."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:426
+#: ../../content/applications/hr/referrals.rst:266
 msgid "Hired referrals"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:428
+#: ../../content/applications/hr/referrals.rst:268
 msgid "When a candidate that has been referred by a user is hired, the user \"grows their superhero team\" and adds superhero avatars to their Referrals dashboard."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:431
+#: ../../content/applications/hr/referrals.rst:271
 msgid "After a referral has been hired, when the user next opens the Referrals app, instead of the main dashboard, a hired page loads. The text :guilabel:`(Referral Name) has been hired! Choose an avatar for your new friend!` appears."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:435
-msgid "Below this message are five avatar thumbnails to choose from. If an avatar has already been assigned to a referral, the thumbnail is greyed out, and the name the avatar has been chosen for appears beneath the avatar. Click on an available avatar to select it."
+#: ../../content/applications/hr/referrals.rst:275
+msgid "Below this message are five avatar thumbnails to choose from. If an avatar has already been assigned to a referral, the thumbnail is grayed out, and the name that the avatar has been chosen for appears beneath the avatar. Click on an available avatar to select it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:439
-msgid "If more than one referral was hired since opening the Referrals application, after selecting the first avatar, the user is prompted to select another avatar for the subsequent hired referral. Once all avatars have been selected, the dashboard loads and all the avatars are now visible. Mouse over each avatar and their name is displayed above them."
+#: ../../content/applications/hr/referrals.rst:279
+msgid "If more than one referral was hired since opening the *Referrals* application, after selecting the first avatar, the user is prompted to select another avatar for the subsequent hired referral. Once all avatars have been selected, the dashboard loads and all the avatars are now visible. Mouse over each avatar and their name is displayed above them."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "The hired screen. A selection of avatars are presented to chose from, with any already\n"
 "chosen are greyed out."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:450
+#: ../../content/applications/hr/referrals.rst:290
 msgid "Modify friends"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:452
-msgid "Friend avatars are able to be modified in the same manner that :ref:`levels <referrals/levels>` are modified. Only users with :guilabel:`Administrator` rights for the Recruitment application can make modifications to friends. The pre-configured friends can be seen and modified by navigating to :menuselection:`Referrals app --> Configuration --> Friends`. Each friend avatar appears in the :guilabel:`Dashboard Image` column, and the corresponding name appears in the :guilabel:`Friend Name` column. The default images are a motley group of hero characters, ranging from robots to dogs."
+#: ../../content/applications/hr/referrals.rst:292
+msgid "Friend avatars are able to be modified in the same manner that :ref:`levels <referrals/levels>` are modified. Only users with :guilabel:`Administrator` rights for the *Recruitment* application can make modifications to friends. The pre-configured friends can be seen and modified by navigating to :menuselection:`Referrals app --> Configuration --> Friends`. Each friend avatar appears in the :guilabel:`Dashboard Image` column, and the corresponding name appears in the :guilabel:`Friend Name` column. The default images are a motley group of hero characters, ranging from robots to dogs."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:459
-msgid "To modify a friend's dashboard image, thumbnail, name, or position, click on an individual friend to open the referral friend form. Click :guilabel:`Edit` to make modifications. Type the name in the :guilabel:`Friend Name` field. The name is solely to differentiate the friends in the configuration menu; the friend's name is not visible anywhere else in the Referrals application."
+#: ../../content/applications/hr/referrals.rst:299
+msgid "To modify a friend's dashboard image, thumbnail, name, or position, click on an individual friend to open the referral friend form. Click :guilabel:`Edit` to make modifications. Type the name in the :guilabel:`Friend Name` field. The name is solely to differentiate the friends in the configuration menu; the friend's name is not visible anywhere else in the *Referrals* application."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:464
+#: ../../content/applications/hr/referrals.rst:304
 msgid "The :guilabel:`Position` can be set to either :guilabel:`Front` or :guilabel:`Back`. This determines the position of the friend in relation to the user's super hero avatar. Click the radio button next to the desired selection, and the friend will appear either in front of or behind the user's avatar when activated."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:469
-msgid "If desired, both the thumbnail :guilabel:`Image` and the :guilabel:`Dashboard Image` can be modified. Hover over the image being replaced to reveal a :guilabel:`✏️ (pencil)` icon and :guilabel:`🗑️ (garbage can)` icon. Click the :guilabel:`✏️ (pencil)` icon and a file explorer window appears. Navigate to the desired image file then click :guilabel:`Open` to select it."
+#: ../../content/applications/hr/referrals.rst:309
+msgid "If desired, both the thumbnail :guilabel:`Image` and the :guilabel:`Dashboard Image` can be modified. Hover over the image being replaced to reveal a :guilabel:`✏️ (pencil)` icon and :guilabel:`🗑️ (garbage can)` icon. Click the :guilabel:`✏️ (pencil)` icon, and a file explorer window appears. Navigate to the desired image file, then click :guilabel:`Open` to select it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:474
-#: ../../content/applications/hr/referrals.rst:659
-msgid "Once all changes have been made, click the :guilabel:`Save` button to save the changes, or click the :guilabel:`Discard` button to revert to the original information."
+#: ../../content/applications/hr/referrals.rst:314
+msgid "The referral friend form automatically saves, but can be saved manually at any time by clicking the *Save manually* option, represented by a :guilabel:`(cloud upload)` icon, located in the top-left corner. To cancel any changes made, click the :guilabel:`✖️ (Discard all changes)` icon to delete any changes, and revert to the original content."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "A friend form in edit mode."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:482
-#: ../../content/applications/hr/referrals.rst:667
-msgid "It is not advised to edit the images. An image file must have a transparent background in order for it to render properly. Only users with knowledge about transparent images should attempt adjusting any images in the Referrals application."
+#: ../../content/applications/hr/referrals.rst:324
+#: ../../content/applications/hr/referrals.rst:519
+msgid "It is not advised to edit the images. An image file must have a transparent background in order for it to render properly. Only users with knowledge about transparent images should attempt adjusting any images in the *Referrals* application."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:486
-msgid "Once an image is changed and the friend is saved, it is **not possible** to revert to the original image. To revert to the original image, the Referrals application must be *uninstalled then reinstalled.*"
+#: ../../content/applications/hr/referrals.rst:328
+msgid "Once an image is changed and the friend is saved, it is **not possible** to revert to the original image. To revert to the original image, the *Referrals* application must be *uninstalled then reinstalled.*"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:491
+#: ../../content/applications/hr/referrals.rst:333
 msgid "Referral points"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:493
-msgid "The referral program is based on earning points that are then exchanged for rewards. On the main Referrals application dashboard, the top displays a summary of the user's current points. The left side of the summary displays the total points earned, and the right side displays the points that are available to spend."
+#: ../../content/applications/hr/referrals.rst:335
+msgid "The referral program is based on earning points that are then exchanged for rewards. On the main *Referrals* application dashboard, the top displays a summary of the user's current points. The left side of the summary displays the total points earned, and the right side displays the points that are available to spend."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:498
+#: ../../content/applications/hr/referrals.rst:340
 msgid "To see the various referrals and the points earned for each, click on one of the buttons directly beneath the avatars. The options are :guilabel:`Referrals`, :guilabel:`Ongoing`, and :guilabel:`Successful`."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:502
+#: ../../content/applications/hr/referrals.rst:344
 msgid "The current number of referrals who are still active in the recruitment pipeline, and have not yet been hired or refused, appear above the :guilabel:`Ongoing` button. The number of referrals who have been hired appear above the :guilabel:`Successful` button. The total number of referrals (both the ongoing and successful referrals combined) appear above the :guilabel:`Referrals` button."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:508
+#: ../../content/applications/hr/referrals.rst:350
 msgid "To view the referrals associated with each of the categories, :guilabel:`Referrals`, :guilabel:`Ongoing`, and :guilabel:`Successful`, click on the corresponding button. All the referrals for that specific category are displayed."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:513
+#: ../../content/applications/hr/referrals.rst:355
 msgid "My referrals"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:515
+#: ../../content/applications/hr/referrals.rst:357
 msgid "To see all the referrals (both ongoing and successful) click the :guilabel:`Referrals` button. A :guilabel:`My Referral` window loads. This screen displays all the referrals, with each referral in its own referral card."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:519
-msgid "A successful referral has a green line down the left side of the card, and displays a :guilabel:`✓ Hired` image in the top right corner of the card. Referrals that are in process display an :guilabel:`In Progress` image in the top right corner."
+#: ../../content/applications/hr/referrals.rst:361
+msgid "A successful referral displays a green :guilabel:`Hired` banner in the top-right corner of the card. Referrals that are in process display a purple :guilabel:`In Progress` banner in the top-right corner."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:523
-msgid "Each referral card lists the name of the applicant, the department the job position is in, the name of the job position, the person responsible for filling the role (recruiter), and the points earned."
+#: ../../content/applications/hr/referrals.rst:365
+msgid "Each referral card lists the name of the applicant, the subject/application title (as it appears on the applicant card in the *Recruitment* app), the name of the job position, the person responsible for filling the role (recruiter), and the points earned. For referrals that have been hired, the selected avatar also appears on the card."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:527
+#: ../../content/applications/hr/referrals.rst:None
+msgid "Two referral cards, one hired and one in-progress."
+msgstr ""
+
+#: ../../content/applications/hr/referrals.rst:375
 msgid "Points"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:529
+#: ../../content/applications/hr/referrals.rst:377
 msgid "The points that can be earned for a referral are the same across all job positions. Each stage of the recruitment process has corresponding points assigned to it. The stages listed correspond to the stages configured in the *Recruitment* application."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:533
+#: ../../content/applications/hr/referrals.rst:381
 msgid "On each individual referral card, beneath the points earned is a bar chart that displays how many points have been earned out of the total possible points that can be earned if the applicant is hired."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:537
+#: ../../content/applications/hr/referrals.rst:385
 msgid "Beneath the bar chart is a list of the various recruitment stages and the points earned when the referral moves to that stage. If a stage has been achieved and the points have been earned, a green check mark appears next to the stage."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:542
+#: ../../content/applications/hr/referrals.rst:390
 msgid "The pre-configured point structure for referrals is as follows:"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:544
+#: ../../content/applications/hr/referrals.rst:392
 msgid ":guilabel:`Initial Qualification`: 1 point"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:545
+#: ../../content/applications/hr/referrals.rst:393
 msgid ":guilabel:`First Interview`: 20 points"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:546
+#: ../../content/applications/hr/referrals.rst:394
 msgid ":guilabel:`Second Interview`: 9 points"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:547
+#: ../../content/applications/hr/referrals.rst:395
 msgid ":guilabel:`Contract Proposal`: 5 points"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:548
+#: ../../content/applications/hr/referrals.rst:396
 msgid ":guilabel:`Contract Signed`: 50 points"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:550
-msgid "The total points earned for a referral that is hired is 85 points. Modifications of the points earned for each stage is done in the Recruitment application. Refer to the :ref:`Recruitment <recruitment/modify-stages>` documentation to modify the points for each stage."
+#: ../../content/applications/hr/referrals.rst:398
+msgid "The total points earned for a referral that is hired is 85 points. Modifications of the points earned for each stage are done in the *Recruitment* application. Refer to the :ref:`Recruitment <recruitment/modify-stages>` documentation to modify the points for each stage."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:557
+#: ../../content/applications/hr/referrals.rst:405
 msgid "Rewards"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:560
+#: ../../content/applications/hr/referrals.rst:408
 msgid "Create rewards"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:562
-msgid "The rewards are the only configurations needed when setting up the Referrals application. Only users with :guilabel:`Administrator` rights for the Recruitment application can create or modify rewards. To add rewards, navigate to :menuselection:`Referrals app --> Configuration --> Rewards`. Click :guilabel:`Create` and a reward form loads. Enter the following information on the form:"
+#: ../../content/applications/hr/referrals.rst:410
+msgid "The rewards are the only configurations needed when setting up the *Referrals* application. Only users with :guilabel:`Administrator` rights for the *Recruitment* application can create or modify rewards. To add rewards, navigate to :menuselection:`Referrals app --> Configuration --> Rewards`. Click :guilabel:`New`, and a reward form loads. Enter the following information on the form:"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:567
-msgid ":guilabel:`Product Name`: Enter the name as it should appear for the reward."
+#: ../../content/applications/hr/referrals.rst:415
+msgid ":guilabel:`Product Name`: enter the name as it should appear for the reward."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:568
-msgid ":guilabel:`Cost`: Enter the amount of points required to redeem the reward."
+#: ../../content/applications/hr/referrals.rst:416
+msgid ":guilabel:`Cost`: enter the amount of points required to redeem the reward."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:569
-msgid ":guilabel:`Company`: Using the drop-down menu, select the company the reward will appear for. If a reward is to be used for several companies, each company needs to have a record of the reward, with the company listed on the form."
+#: ../../content/applications/hr/referrals.rst:417
+msgid ":guilabel:`Company`: using the drop-down menu, select the company the reward appears for. If a reward is to be used for several companies, each company needs to have a record of the reward, with the company listed on the form. This field only appears if in a multi-company environment."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:572
-msgid ":guilabel:`Gift Responsible`: Select the person who will be responsible for procuring and delivering the reward to the recipient, using the drop-down menu. This person is alerted when the reward is purchased, so they know when to deliver the reward to the recipient."
+#: ../../content/applications/hr/referrals.rst:420
+msgid ":guilabel:`Gift Responsible`: select the person who will be responsible for procuring and delivering the reward to the recipient, using the drop-down menu. This person is alerted when the reward is bought in the *Referrals* application, so they know when to deliver the reward to the recipient."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:575
-msgid ":guilabel:`Description`: Type in the description for the reward. This will be visible on the reward card, beneath the title."
+#: ../../content/applications/hr/referrals.rst:424
+msgid ":guilabel:`Description`: type in the description for the reward. This will be visible on the reward card, beneath the title."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:577
-msgid ":guilabel:`Photo`: Add a photo of the reward, which appears on the rewards page. Hover over the image square, and two icons appear, a :guilabel:`✏️ (pencil)` and a :guilabel:`🗑️ (garbage can)`. Click the :guilabel:`✏️ (pencil)` icon and a file explorer appears. Navigate to the photo file, then click :guilabel:`Open` to select it."
+#: ../../content/applications/hr/referrals.rst:426
+msgid ":guilabel:`Photo`: add a photo of the reward, which appears on the rewards page. Hover over the image square, and two icons appear, a :guilabel:`✏️ (pencil)` and a :guilabel:`🗑️ (garbage can)`. Click the :guilabel:`✏️ (pencil)` icon, and a file explorer appears. Navigate to the photo file, then click :guilabel:`Open` to select it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:582
-msgid "The only required fields are the :guilabel:`Product Name`, :guilabel:`Company`, and :guilabel:`Description`."
+#: ../../content/applications/hr/referrals.rst:431
+msgid "The only required fields are the :guilabel:`Product Name`, :guilabel:`Company` (if applicable), and :guilabel:`Description`."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "A filled out reward form with all details entered."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:590
+#: ../../content/applications/hr/referrals.rst:439
 msgid "It is advised to enter a :guilabel:`Cost` and add a :guilabel:`Photo`. If a cost is not entered, the default cost will be listed as zero, which would list the reward as free in the reward shop. If a photo is not selected, a placeholder icon will be displayed on the rewards page."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:595
+#: ../../content/applications/hr/referrals.rst:444
 msgid "Redeem rewards"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:597
-msgid "To redeem points for a reward, click the :guilabel:`Rewards` button on the main Referrals dashboard. All the configured rewards are listed in individual reward cards. The points required to purchase the reward is listed in the top right corner of the card. If the user has enough points to purchase a reward, a :guilabel:`🧺 (basket) Buy` button appears at the bottom of the reward card. If they do not have enough points for a reward, the reward card displays :guilabel:`You need another (x) points to buy this` instead of a buy button."
+#: ../../content/applications/hr/referrals.rst:446
+msgid "To redeem points for a reward, click the :guilabel:`Rewards` button on the main Referrals dashboard. All the configured rewards are listed in individual reward cards. The points required to purchase the reward is listed in the top-right corner of the card. If the user has enough points to purchase a reward, a :guilabel:`🧺 (basket) Buy` button appears at the bottom of the reward card. If they do not have enough points for a reward, the reward card displays :guilabel:`You need another (x) points to buy this` instead of a buy button."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:604
-msgid "Click the :guilabel:`🧺 (basket) Buy` button on a reward to purchase it. A confirmation pop-up appears, asking if the user is sure they want to purchase the reward. Click :guilabel:`OK` to purchase the item, or :guilabel:`Cancel` to close the window and cancel the purchase."
+#: ../../content/applications/hr/referrals.rst:453
+msgid "Click the :guilabel:`🧺 (basket) Buy` button on a reward to purchase it. A :guilabel:`Confirmation` pop-up window appears, asking if the user is sure they want to purchase the reward. Click :guilabel:`OK` to purchase the item, or :guilabel:`Cancel` to close the window and cancel the purchase."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:608
+#: ../../content/applications/hr/referrals.rst:458
 msgid "After :guilabel:`OK` is clicked, the pop-up window closes, and the points used to purchase the reward are subtracted from the user's available points. The rewards presented are now updated to reflect the user's current available points."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "Buy button appears below a mug and backpack reward, while the bicycle reward states how\n"
 "many more reward points are needed to redeem."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:620
+#: ../../content/applications/hr/referrals.rst:470
 msgid "Levels"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:622
-msgid "The referrals application has pre-configured levels that are reflected in the user's avatar on the Referrals dashboard. As a user refers potential employees and earns points, they can *level up*, much like in a video game."
+#: ../../content/applications/hr/referrals.rst:472
+msgid "The *Referrals* application has pre-configured levels that are reflected in the user's avatar on the Referrals dashboard. As a user refers potential employees and earns points, they can *level up*, much like in a video game."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:626
+#: ../../content/applications/hr/referrals.rst:476
 msgid "Levels have no functional impact on the performance of the application. They are solely used for the purpose of adding achievement tiers for participants to aim for, gamifying referrals for the user."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:629
-msgid "The user's current level is displayed at the top of the main Referrals application dashboard, directly beneath their photo, in a :guilabel:`Level: X` format. In addition, a colored ring appears around the user's photo, indicating how many points the user currently has, and how many additional points they need to level up. The cyan colored portion of the ring represents points earned, while the white colored portion represents the points still needed before they can level up."
+#: ../../content/applications/hr/referrals.rst:479
+msgid "The user's current level is displayed at the top of the main *Referrals* application dashboard, directly beneath their photo, in a :guilabel:`Level: X` format. In addition, a colored ring appears around the user's photo, indicating how many points the user currently has, and how many additional points they need to level up. The cyan colored portion of the ring represents points earned, while the white colored portion represents the points still needed before they can level up."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:636
+#: ../../content/applications/hr/referrals.rst:486
 msgid "Modify levels"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:638
-msgid "Only users with :guilabel:`Administrator` rights for the Recruitment application can modify levels. The pre-configured levels can be seen and modified by navigating to :menuselection:`Referrals app --> Configuration --> Levels`. Each avatar appears in the :guilabel:`Image` column, and the corresponding level number appears in the :guilabel:`Level Name` column. The default images are of Odoo superheroes, and each level adds an additional element to their avatar, such as capes and shields."
+#: ../../content/applications/hr/referrals.rst:488
+msgid "Only users with :guilabel:`Administrator` rights for the *Recruitment* application can modify levels. The pre-configured levels can be seen and modified by navigating to :menuselection:`Referrals app --> Configuration --> Levels`. Each avatar appears in the :guilabel:`Image` column, and the corresponding level number appears in the :guilabel:`Level Name` column. The default images are of Odoo superheroes, and each level adds an additional element to their avatar, such as capes and shields."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:645
-msgid "To modify a level's image, name, or points required to reach the level, click on an individual level in the list to open the level form. Click :guilabel:`Edit` to make modifications."
+#: ../../content/applications/hr/referrals.rst:495
+msgid "To modify a level's image, name, or points required to reach the level, click on an individual level in the list to open the level form, then make modifications."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:648
-msgid "Type in the name or number of the level in the :guilabel:`Level Name` field. What is entered is displayed beneath the user's photo on the main dashboard when they reach that level. Enter the number of referral points needed to reach that level in the :guilabel:`Requirements` field. The points needed to level up are the total accumulated points earned over the lifetime of the employee, not additional points from the previous level that must be earned."
+#: ../../content/applications/hr/referrals.rst:498
+msgid "Type in the name (or number) of the level in the :guilabel:`Level Name` field. What is entered is displayed beneath the user's photo on the main dashboard when they reach that level. Enter the number of referral points needed to reach that level in the :guilabel:`Requirements` field. The points needed to level up are the total accumulated points earned over the lifetime of the employee, not additional points from the previous level that must be earned."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:654
-msgid "If desired, the :guilabel:`Image` can also be modified. Hover over the image to reveal a :guilabel:`✏️ (pencil)` icon and :guilabel:`🗑️ (garbage can)` icon. Click the :guilabel:`✏️ (pencil)` icon and a file explorer window appears. Navigate to the desired image file then click :guilabel:`Open` to select it."
+#: ../../content/applications/hr/referrals.rst:504
+msgid "If desired, the :guilabel:`Image` can also be modified. Hover over the image to reveal a :guilabel:`✏️ (pencil)` icon and :guilabel:`🗑️ (garbage can)` icon. Click the :guilabel:`✏️ (pencil)` icon, and a file explorer window appears. Navigate to the desired image file, then click :guilabel:`Open` to select it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:509
+msgid "The level form saves automatically, but can be saved manually at any time by clicking the *save manually* option, represented by a :guilabel:`(cloud upload)` icon, located in the top-left corner. To cancel any changes made, click the :guilabel:`✖️ (Discard all changes)` icon to delete any changes, and revert to the original content."
+msgstr ""
+
+#: ../../content/applications/hr/referrals.rst:None
 msgid "A level form in edit mode."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:671
-msgid "Once an image is changed and the level is saved, it is **not possible** to revert to the original image. To revert to the original image, the Referrals application must be *uninstalled then reinstalled.*"
+#: ../../content/applications/hr/referrals.rst:523
+msgid "Once an image is changed and the level is saved, it is **not possible** to revert to the original image. To revert to the original image, the *Referrals* application must be *uninstalled then reinstalled.*"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:676
+#: ../../content/applications/hr/referrals.rst:528
 msgid "Level up"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:678
+#: ../../content/applications/hr/referrals.rst:530
 msgid "Once enough points have been accumulated to level up, the circle around the user's photo is completely filled in with a cyan color, a large image stating :guilabel:`Level up!` appears above the photo, and the phrase :guilabel:`Click to level up!` appears beneath the user's photo and current level."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:683
+#: ../../content/applications/hr/referrals.rst:535
 msgid "Click on either the :guilabel:`LEVEL UP!` graphic, the user's photo, or the text :guilabel:`Click to level up!` beneath the user's photo to level up the user. The user's avatar changes to the current level, and the ring around the photo is updated to indicate the current amount of points."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:687
+#: ../../content/applications/hr/referrals.rst:539
 msgid "Leveling up does not cost the user any points, the user simply needs to earn the specified amount of points required."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "A 'Click to level up!' appears beneath the user's image, and a large 'Level up!' appears\n"
 "above their image."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:696
+#: ../../content/applications/hr/referrals.rst:548
 msgid "Once a user has reached the highest configured level, they will continue to accrue points that can be redeemed for rewards, but they are no longer able to level up. The ring around their photo remains solid cyan."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:703
-msgid "In the Referrals application, it is possible to post a message, also referred to as an *alert*, at the top of the dashboard to share important information with users. These alerts appear as a thin semi-transparent banner, with the word :guilabel:`New!` appearing on the far left. The text for the alert is in the center of the banner, and on the far right side is an :guilabel:`X`."
+#: ../../content/applications/hr/referrals.rst:555
+msgid "In the *Referrals* application, it is possible to post a message, also referred to as an *alert*, at the top of the dashboard to share important information with users. These alerts appear as a thin semi-transparent banner, with the word :guilabel:`New!` appearing on the far left. The text for the alert is in the center of the banner, and on the far right side is an :guilabel:`X`."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:708
-msgid "Alerts appear on the main dashboard for the specified time configured on the individual alert. If a user does not wish to see a specific alert again, click the :guilabel:`X` in the far right side of the alert. This removes the alert from the dashboard and will not appear again, even when opening the Referrals application for the first time in a new session."
+#: ../../content/applications/hr/referrals.rst:560
+msgid "Alerts appear on the main dashboard for the specified time configured on the individual alert. If a user does not wish to see a specific alert again, click the :guilabel:`X` in the far right side of the alert. This removes the alert from the dashboard and will not appear again, even when opening the *Referrals* application for the first time in a new session."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "Two alert banners appear above the user's photo."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:718
+#: ../../content/applications/hr/referrals.rst:570
 msgid "Create an alert"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:720
-msgid "Only users with :guilabel:`Administrator` rights for the Recruitment application can create alerts. To add a new alert, navigate to the :menuselection:`Referrals application --> Configuration --> Alerts`."
+#: ../../content/applications/hr/referrals.rst:572
+msgid "Only users with :guilabel:`Administrator` rights for the *Recruitment* application can create alerts. To add a new alert, navigate to the :menuselection:`Referrals application --> Configuration --> Alerts`."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:724
+#: ../../content/applications/hr/referrals.rst:576
 msgid "Click :guilabel:`Create` and a blank alert form loads. Enter the following information on the form:"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:726
-msgid ":guilabel:`Date From`: The date the alert starts. On this date, the alert will be visible on the dashboard."
+#: ../../content/applications/hr/referrals.rst:578
+msgid ":guilabel:`Date From`: the date the alert starts. On this date, the alert will be visible on the dashboard."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:728
-msgid ":guilabel:`Date To`: The date the alert ends. After this date, the alert will be hidden from view."
+#: ../../content/applications/hr/referrals.rst:580
+msgid ":guilabel:`Date To`: the date the alert ends. After this date, the alert will be hidden from view."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:729
-msgid ":guilabel:`Company`: The current company populates this field by default. To modify the company the alert should be displayed for, select the company from the drop-down menu. If this field remains blank, the alert is visible to everyone with access to the Referrals application. If a company is specified, only user's within that company (who also have access to the Referrals application) will see the alert."
+#: ../../content/applications/hr/referrals.rst:581
+msgid ":guilabel:`Company`: the current company populates this field by default. To modify the company the alert should be displayed for, select the company from the drop-down menu. If this field remains blank, the alert is visible to everyone with access to the *Referrals* application. If a company is specified, only user's within that company (who also have access to the *Referrals* application) will see the alert. This field only appears when in a multi-company database."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:734
-msgid ":guilabel:`Alert`: Enter the text for the alert. This message appears inside the alert banner on the main dashboard."
+#: ../../content/applications/hr/referrals.rst:586
+msgid ":guilabel:`Alert`: enter the text for the alert. This message appears inside the alert banner on the main dashboard."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:736
-msgid ":guilabel:`On Click`: There are three options for the alert. Click the radio button next to the desired selection. The options are:"
+#: ../../content/applications/hr/referrals.rst:588
+msgid ":guilabel:`On Click`: there are three options for the alert. Click the radio button next to the desired selection. The options are:"
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:739
-msgid ":guilabel:`Not Clickable`: The alert only displays text, there is no link to click."
+#: ../../content/applications/hr/referrals.rst:591
+msgid ":guilabel:`Not Clickable`: the alert only displays text, there is no link to click."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:740
-msgid ":guilabel:`Go to All Jobs`: The alert contains a link that when clicked, navigates to the website with all the currently posted job positions."
+#: ../../content/applications/hr/referrals.rst:592
+msgid ":guilabel:`Go to All Jobs`: the alert contains a link that when clicked, navigates to the website with all the currently posted job positions."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:742
-msgid ":guilabel:`Specify URL`: The alert contains a link to a specific URL, that when clicked, navigates to that URL. When selected, a :guilabel:`URL` field appears below the :guilabel:`On Click` section. Enter the URL in the field."
+#: ../../content/applications/hr/referrals.rst:594
+msgid ":guilabel:`Specify URL`: the alert contains a link to a specific URL, that when clicked, navigates to that URL. When selected, a :guilabel:`URL` field appears below the :guilabel:`On Click` section. Enter the URL in the field."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:-1
+#: ../../content/applications/hr/referrals.rst:None
 msgid "An alert form completely filled in with all selections entered."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:755
-msgid "Only users with :guilabel:`Administrator` rights for the Recruitment application have access to the Reporting feature in Referrals. To access the reports, click :menuselection:`Referrals application --> Reporting`. The main view is the Reporting Dashboard view, which contains three sections."
+#: ../../content/applications/hr/referrals.rst:607
+msgid "Only users with :guilabel:`Administrator` rights for the *Recruitment* application have access to the Reporting feature in *Referrals*. To access the reports, click :menuselection:`Referrals application --> Reporting`. The main view is the Reporting Dashboard view, which contains three sections."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:759
+#: ../../content/applications/hr/referrals.rst:612
 msgid "In the top portion of the window, the report displays a bar chart of how many referred candidates are hired, and how many are still in the hiring pipeline. The candidates are further divided by channel, showing specifically where the referral came from, such as a direct referral, Facebook, etc. If a channel does not appear on the report, that indicates there are no referrals from that particular channel."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:765
+#: ../../content/applications/hr/referrals.rst:618
 msgid "The middle third provides all the specific data that has been tracked. This includes how many total points have been earned across all referrals, how many applicants were referred, hired, or refused, how many applicants the current logged-in user referred, how many total points were earned, and how many points were given for refused applicants."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:770
+#: ../../content/applications/hr/referrals.rst:623
 msgid "The bottom third displays a pivot table. This table can be inserted into a new or existing spreadsheet. To do so, click the :guilabel:`Insert in Spreadsheet` button right above the chart. A pop-up appears, asking which spreadsheet to insert the pivot chart into. Select the desired spreadsheet from the drop-down menu, or select :guilabel:`New Spreadsheet`. Click :guilabel:`Confirm` and the selected spreadsheet loads, with the new table in it."
 msgstr ""
 
-#: ../../content/applications/hr/referrals.rst:777
-msgid "The spreadsheet is stored in the *Documents* application. This application needs to be installed in order to use the :guilabel:`Insert in Spreadsheet` option."
+#: ../../content/applications/hr/referrals.rst:630
+msgid "The spreadsheet is stored in the *Documents* application. This application needs to be installed to use the :guilabel:`Insert in Spreadsheet` option."
 msgstr ""
 
 #: ../../content/applications/hr/time_off.rst:3
@@ -9758,7 +9645,7 @@ msgstr ""
 msgid "These settings allow Sara to submit a request for five days of the `Vacation` time off type. If approved, her `Vacation` time off balance will be negative two (-2) days."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "The top half of the time off type form, with all the information filled out for sick time\n"
 "off."
 msgstr ""
@@ -9803,7 +9690,7 @@ msgstr ""
 msgid ":guilabel:`Cover Image`: select an icon to be used in the *Time Off* application dashboard."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "The lower half of the time off type form, with all the information filled out for sick time\n"
 "off."
 msgstr ""
@@ -9868,7 +9755,7 @@ msgstr ""
 msgid ":guilabel:`Company`: using the drop-down menu, select the company the accrual plan applies to. If left blank, the accrual plan can be used for all companies. This field only appears in a multi-company database."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "An accrual plan form with all the entries filled out."
 msgstr ""
 
@@ -9944,7 +9831,7 @@ msgstr ""
 msgid "Once the form is completed, click :guilabel:`Save & Close` to save the form and close the modal, or click :guilabel:`Save & New` to save the form and create another milestone. Add as many milestones as desired."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "A milestone form with all the entries filled out."
 msgstr ""
 
@@ -10029,7 +9916,7 @@ msgstr ""
 msgid ":guilabel:`Work Entry Type`: if using the *Payroll* application, this field defines how the :ref:`work entries <payroll/work-entries>` for the holiday appear. Select the work entry type from the drop-down menu."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "The list of public holidays in the configuration menu."
 msgstr ""
 
@@ -10089,7 +9976,7 @@ msgstr ""
 msgid ":guilabel:`Color`: if desired, select a color from the available presented options. If no color is desired, select the `No color` option, represented by a white box with a red line diagonally across it. The selected color appears on the main *Time Off* application dashboard, in both the calendar and in the legend."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "The Mandatory Days section with three configured days."
 msgstr ""
 
@@ -10173,7 +10060,7 @@ msgstr ""
 msgid ":guilabel:`Add a reason...`: if any description or note is necessary to explain the time off allocation, enter it in this field at the bottom of the form."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "A new allocation form with all the fields filled out for the annual two week vacation\n"
 "granted to all employees."
 msgstr ""
@@ -10259,7 +10146,7 @@ msgstr ""
 msgid "If the form was completed from the :guilabel:`My Time Off` list view, the information is automatically saved as it is entered. However, the form can be saved manually at any time by clicking the *save manually* button, represented by a :guilabel:`(cloud upload)` icon."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "A time off request form filled out for an employee home sick for two days with the flu."
 msgstr ""
 
@@ -10311,7 +10198,7 @@ msgstr ""
 msgid "If the form was completed from the :guilabel:`My Allocations` list view, the information is automatically saved as it is entered. However, the form can be saved manually at any time by clicking the *save manually* button, represented by a :guilabel:`(cloud upload)` icon."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "An allocation request form filled out for an employee requesting an additional week of\n"
 "sick time."
 msgstr ""
@@ -10365,7 +10252,7 @@ msgstr ""
 msgid "To approve a time off request, click the :guilabel:`👍 Approve` button at the end of the line. To validate a time off request that has already been approved, and is waiting on a second approval, click the :guilabel:`✔️ Validate` button at the end of the line. To refuse a request, click the :guilabel:`✖️ Refuse` button at the far end of the line."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "Time off requests with the filter, groupings, and status sections highlighted."
 msgstr ""
 
@@ -10429,7 +10316,7 @@ msgstr ""
 msgid "To approve an allocation request, click the :guilabel:`✔ Validate` button at the end of the line. To refuse a request, click the :guilabel:`✖️ Refuse` button."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "Allocations with the filter, groupings, and status sections highlighted."
 msgstr ""
 
@@ -10489,7 +10376,7 @@ msgstr ""
 msgid "Click on a time off entry to view the details for the specific time off entry. The total number of hours or days are listed, along with the start and end time of the time off. To view the details of the time off request in a modal, click the :guilabel:`View` button."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "Overview of the user's team, with time off requests shown."
 msgstr ""
 
@@ -10537,7 +10424,7 @@ msgstr ""
 msgid "To view the full details of a time off balance, click the :guilabel:`? (question mark)` icon at the end of the :guilabel:`(DAYS/HOURS) AVAILABLE` on the time off summary. The complete details are presented in a popover window, including the :guilabel:`Allocated` time, future :guilabel:`Accrual` time, :guilabel:`Approved` time off scheduled, :guilabel:`Planned` time off, and the currently :guilabel:`Available` time off."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "A view of the complete time off balance details in the popover window."
 msgstr ""
 
@@ -10565,7 +10452,7 @@ msgstr ""
 msgid "New allocation requests can also be made from the dashboard. Click the :guilabel:`New Allocation Request` button at the top of the dashboard to request more time off, and a :ref:`New Allocation <time_off/request-allocation>` modal appears."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "Time off dashboard view with the legend, time off summaries, and view buttons highlighted."
 msgstr ""
 
@@ -10629,7 +10516,7 @@ msgstr ""
 msgid "The information shown in the list includes: the :guilabel:`Employee` name, :guilabel:`Number of Days` off requested, the :guilabel:`Start Date`, :guilabel:`End Date`, :guilabel:`Status`, and :guilabel:`Description`."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "Report of time off, shown by each employee in a list view."
 msgstr ""
 
@@ -10637,7 +10524,7 @@ msgstr ""
 msgid "The report can be displayed in other ways, as well. Click the corresponding button option in the top-right corner of the page to view the data in that specific way. The various options are a :guilabel:`List` (the default view), :guilabel:`Graph`, :guilabel:`Pivot` table, or :guilabel:`Calendar` view."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "The various other views highlighted, for the employee time off report."
 msgstr ""
 
@@ -10658,7 +10545,7 @@ msgstr ""
 msgid "Hover over a bar to view the :guilabel:`Duration (Days)` of that specific time off type."
 msgstr ""
 
-#: ../../content/applications/hr/time_off.rst:-1
+#: ../../content/applications/hr/time_off.rst:None
 msgid "The various time off types, and how many days requested, in a bar chart. Details are\n"
 "highlighted in a red box."
 msgstr ""

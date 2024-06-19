@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-30 09:16+0000\n"
+"POT-Creation-Date: 2024-06-19 09:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,261 +32,261 @@ msgstr ""
 msgid "`Odoo Tutorial: Email Marketing <https://www.odoo.com/slides/slide/email-marketing-essentials-989?fullscreen=1>`_"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:35
+#: ../../content/applications/marketing/email_marketing.rst:38
 msgid "Email marketing dashboard"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:37
+#: ../../content/applications/marketing/email_marketing.rst:40
 msgid "After installing the application, click the :menuselection:`Email Marketing` app icon from the main Odoo dashboard. Doing so reveals the main :guilabel:`Mailings` dashboard in the default list view."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the main dashboard of the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:44
+#: ../../content/applications/marketing/email_marketing.rst:47
 msgid "In the search bar, the default filter of :guilabel:`My Mailings` is present to show all the mailings related to the current user. To remove that filter, click the :guilabel:`✖️ (remove)` icon next to the filter in the search bar. Doing so reveals all the mailings in the database."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:48
+#: ../../content/applications/marketing/email_marketing.rst:51
 msgid "The information on the :guilabel:`Mailings` dashboard has four different view options, located in the upper-right corner as individual icons."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:51
+#: ../../content/applications/marketing/email_marketing.rst:54
 msgid "The view options, from left-to-right, are:"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:53
+#: ../../content/applications/marketing/email_marketing.rst:56
 msgid ":ref:`List <email_marketing/list-view>` (default view)"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:54
+#: ../../content/applications/marketing/email_marketing.rst:57
 msgid ":ref:`Kanban <email_marketing/kanban-view>`"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:55
+#: ../../content/applications/marketing/email_marketing.rst:58
 msgid ":ref:`Calendar <email_marketing/calendar-view>`"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:56
+#: ../../content/applications/marketing/email_marketing.rst:59
 msgid ":ref:`Graph <email_marketing/graph-view>`"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:61
-#: ../../content/applications/marketing/email_marketing.rst:733
+#: ../../content/applications/marketing/email_marketing.rst:64
+#: ../../content/applications/marketing/email_marketing.rst:736
 #: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:420
 #: ../../content/applications/marketing/surveys.rst:145
 msgid "List view"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:63
+#: ../../content/applications/marketing/email_marketing.rst:66
 msgid "The list view, represented by the :guilabel:`☰ (horizontal lines)` icon in the upper-right corner, is the default view of the :guilabel:`Mailings` dashboard in the :guilabel:`Email Marketing` app."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:66
+#: ../../content/applications/marketing/email_marketing.rst:69
 msgid "While in list view, there are columns dedicated to different aspects of information related to the listed emails. Those columns are as follows:"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:69
+#: ../../content/applications/marketing/email_marketing.rst:72
 msgid ":guilabel:`Date`: the date the email was sent."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:70
+#: ../../content/applications/marketing/email_marketing.rst:73
 msgid ":guilabel:`Subject`: the subject of the email."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:71
+#: ../../content/applications/marketing/email_marketing.rst:74
 msgid ":guilabel:`Responsible`: the user who created the email, or the user who has been assigned to the email."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:73
+#: ../../content/applications/marketing/email_marketing.rst:76
 msgid ":guilabel:`Sent`: how many times the email has been sent."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:74
+#: ../../content/applications/marketing/email_marketing.rst:77
 msgid ":guilabel:`Delivered (%)`: percentage of sent emails that have been successfully delivered."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:75
+#: ../../content/applications/marketing/email_marketing.rst:78
 msgid ":guilabel:`Opened (%)`: percentage of sent emails that have been opened by the recipients."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:76
+#: ../../content/applications/marketing/email_marketing.rst:79
 msgid ":guilabel:`Clicked (%)`: percentage of sent emails that have been clicked by the recipients."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:77
+#: ../../content/applications/marketing/email_marketing.rst:80
 msgid ":guilabel:`Replied (%)`: percentage of sent emails that have been replied to by the recipients."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:78
+#: ../../content/applications/marketing/email_marketing.rst:81
 msgid ":guilabel:`Status`: the status of the email (:guilabel:`Draft`, :guilabel:`In Queue`, or :guilabel:`Sent`)."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:81
+#: ../../content/applications/marketing/email_marketing.rst:84
 msgid "To add or remove columns, click the :guilabel:`Additional Options (two horizontal lines with dots)` icon, located to the far-right of the column titles in list view. Doing so reveals a drop-down menu of additional column options."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:88
-#: ../../content/applications/marketing/email_marketing.rst:706
+#: ../../content/applications/marketing/email_marketing.rst:91
+#: ../../content/applications/marketing/email_marketing.rst:709
 #: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:391
 msgid "Kanban view"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:90
+#: ../../content/applications/marketing/email_marketing.rst:93
 msgid "The Kanban view, represented by the :guilabel:`(inverted bar graph)` icon, can be accessed in the upper-right corner of the :guilabel:`Mailings` dashboard in the :guilabel:`Email Marketing` app."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "Kanban view of the main dashboard of the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:97
+#: ../../content/applications/marketing/email_marketing.rst:100
 msgid "While in Kanban view, the email information is displayed in the various stages."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:99
+#: ../../content/applications/marketing/email_marketing.rst:102
 msgid "The stages are: :guilabel:`Draft`, :guilabel:`In Queue`, :guilabel:`Sending`, and :guilabel:`Sent`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:101
+#: ../../content/applications/marketing/email_marketing.rst:104
 msgid ":guilabel:`Draft`: the email is still being written/created."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:102
+#: ../../content/applications/marketing/email_marketing.rst:105
 msgid ":guilabel:`In Queue`: the email is scheduled to be sent at a later date."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:103
+#: ../../content/applications/marketing/email_marketing.rst:106
 msgid ":guilabel:`Sending`: the email is currently being sent to its recipients."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:104
+#: ../../content/applications/marketing/email_marketing.rst:107
 msgid ":guilabel:`Sent`: the email has already been sent to its recipients."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:106
+#: ../../content/applications/marketing/email_marketing.rst:109
 msgid "In each stage, there are drag-and-drop cards representing the emails that have been created/sent, and the stage they are in represents the current status of that mailing."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:109
+#: ../../content/applications/marketing/email_marketing.rst:112
 msgid "Each card on the :guilabel:`Mailings` dashboard provides key information related to that specific email."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:112
+#: ../../content/applications/marketing/email_marketing.rst:115
 msgid "When the cursor hovers over the upper-right corner of an email campaign card, a :guilabel:`⋮ (three vertical dots)` icon appears. When clicked, a mini drop-down menu reveals the option to color-code the email, :guilabel:`Delete` the email, or :guilabel:`Archive` the message for potential future use."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the three-dot drop-down menu on the Odoo Email Marketing dashboard."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:124
+#: ../../content/applications/marketing/email_marketing.rst:127
 #: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:404
 msgid "Calendar view"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:126
+#: ../../content/applications/marketing/email_marketing.rst:129
 msgid "The calendar view, represented by a :guilabel:`📆 (calendar)` icon, can be accessed in the upper-right corner of the :guilabel:`Mailings` dashboard in the :guilabel:`Email Marketing` app."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:129
+#: ../../content/applications/marketing/email_marketing.rst:132
 msgid "While in calendar view, a monthly calendar (by default), shows when the mailings have been sent or are scheduled to be sent."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "Calendar view of the mailings dashboard in the Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:136
+#: ../../content/applications/marketing/email_marketing.rst:139
 msgid "The current date is represented by a :guilabel:`🔴 (red circle)` icon over the date on the calendar."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:138
+#: ../../content/applications/marketing/email_marketing.rst:141
 msgid "To the right of the calendar, the options to filter the results by :guilabel:`Responsible` and/or :guilabel:`Status` are available, via checkboxes."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:142
+#: ../../content/applications/marketing/email_marketing.rst:145
 msgid "To hide the right sidebar, click the :guilabel:`(panel-right)` icon, located above the sidebar."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:144
+#: ../../content/applications/marketing/email_marketing.rst:147
 msgid "In the top-left corner, above the calendar, the option to change the time period being displayed is available via a drop-down menu, which shows :guilabel:`Month`, by default. When clicked, the drop-down menu that appears reveals the options: :guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month` (default), :guilabel:`Year`, and :guilabel:`Show weekends` (selected by default)."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:149
+#: ../../content/applications/marketing/email_marketing.rst:152
 msgid "Clicking any of those options changes the calendar display to reflect that desired amount of time."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:151
+#: ../../content/applications/marketing/email_marketing.rst:154
 msgid "Clicking either :guilabel:`⬅️ (left arrow)` icon or :guilabel:`➡️ (right arrow)` icon changes the calendar to a previous or future time, depending on what is clicked, based on the chosen amount of time being represented."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:155
+#: ../../content/applications/marketing/email_marketing.rst:158
 msgid "To jump back to the current date, click the :guilabel:`Today` button."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:160
+#: ../../content/applications/marketing/email_marketing.rst:163
 msgid "Graph view"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:162
+#: ../../content/applications/marketing/email_marketing.rst:165
 msgid "The graph view, represented by a :guilabel:`(line graph)` icon, can be accessed in the upper-right corner of the :guilabel:`Mailings` dashboard in the :guilabel:`Email Marketing` app."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:165
+#: ../../content/applications/marketing/email_marketing.rst:168
 msgid "While in graph view, the status of the emails on the :guilabel:`Mailings` page is represented in a bar graph, but other graph view options can be implemented, if needed."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "How the Graph view appears in the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:172
+#: ../../content/applications/marketing/email_marketing.rst:175
 msgid "In the upper-left corner, above the graph, there is a :guilabel:`Measures` drop-down menu. When clicked, different filter options become available to further customize the graph views."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:175
+#: ../../content/applications/marketing/email_marketing.rst:178
 msgid "Those :guilabel:`Measures` options are: :guilabel:`A/B Testing percentage` and :guilabel:`Count` (default)."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:178
+#: ../../content/applications/marketing/email_marketing.rst:181
 msgid "To the right of the :guilabel:`Measures` drop-down menu is an :guilabel:`Insert in Spreadsheet` button, if the *Documents* application is installed. When clicked, a pop-up window appears, in which the ability to add the graph to a spreadsheet or dashboard becomes available."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:182
+#: ../../content/applications/marketing/email_marketing.rst:185
 msgid "Beside the :guilabel:`Measures` drop-down menu and :guilabel:`Insert in Spreadsheet` button are different graph view options. From left-to-right, those graph view options are: :guilabel:`(bar chart)` (default), :guilabel:`(line chart)`, and :guilabel:`(pie chart)`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:187
+#: ../../content/applications/marketing/email_marketing.rst:190
 msgid "Each graph view option provides its own series of additional view options, which appear to the right of the selected graph view option."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:191
+#: ../../content/applications/marketing/email_marketing.rst:194
 msgid "Search options"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:193
+#: ../../content/applications/marketing/email_marketing.rst:196
 msgid "Regardless of the view chosen for the :guilabel:`Mailings` dashboard in the :guilabel:`Email Marketing` app, the :guilabel:`Filters`, :guilabel:`Group by`, and :guilabel:`Favorites` options are always available to further customize the information being displayed."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:197
+#: ../../content/applications/marketing/email_marketing.rst:200
 msgid "To access those options, click the :guilabel:`(downward arrow)` icon, located to the right of the search bar. Doing so reveals a drop-down mega menu featuring those filtering and grouping options."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "The drop-down mega menu of search options the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:204
+#: ../../content/applications/marketing/email_marketing.rst:207
 msgid "These options provide various ways to specify and organize the information seen on the :guilabel:`Mailings` dashboard."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:209
+#: ../../content/applications/marketing/email_marketing.rst:212
 msgid "Filters"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:211
+#: ../../content/applications/marketing/email_marketing.rst:214
 msgid "This section of the drop-down mega menu provides different ways to filter email results being shown on the :guilabel:`Mailings` dashboard in the :guilabel:`Email Marketing` app."
 msgstr ""
 
@@ -294,11 +294,11 @@ msgstr ""
 msgid "View of filters drop-down menu options on the Odoo Email Marketing dashboard."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:218
+#: ../../content/applications/marketing/email_marketing.rst:221
 msgid "The options are: :guilabel:`My Mailings`, :guilabel:`Sent Date`, :guilabel:`A/B Tests`, :guilabel:`A/B Tests to review`, :guilabel:`Archived`, and :guilabel:`Add Custom Filter`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:221
+#: ../../content/applications/marketing/email_marketing.rst:224
 msgid "If :guilabel:`Add Custom Filter` is selected, Odoo reveals a pop-up window, with three customizable fields to fill in, in order to create custom filter rules for Odoo to use to retrieve results that fit more specific criteria."
 msgstr ""
 
@@ -306,11 +306,11 @@ msgstr ""
 msgid "Add custom filter pop-up window that appears in Odoo Email Marketing app."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:229
+#: ../../content/applications/marketing/email_marketing.rst:232
 msgid "Group By"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:231
+#: ../../content/applications/marketing/email_marketing.rst:234
 msgid "This section of the drop-down mega menu provides different ways to group email results being shown on the :guilabel:`Mailings` dashboard in the :guilabel:`Email Marketing` app."
 msgstr ""
 
@@ -318,23 +318,23 @@ msgstr ""
 msgid "View of the Group By drop-down menu on the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:238
+#: ../../content/applications/marketing/email_marketing.rst:241
 msgid "Using this section, the data can be grouped by the messages' :guilabel:`Status`, or who it was :guilabel:`Sent By`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:241
+#: ../../content/applications/marketing/email_marketing.rst:244
 msgid "There is also the option to group the data by :guilabel:`Sent Period`, which has its own sub-menu of options to choose from. The :guilabel:`Sent Period` options are :guilabel:`Year`, :guilabel:`Quarter`, :guilabel:`Month`, :guilabel:`Week`, and :guilabel:`Day`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:245
+#: ../../content/applications/marketing/email_marketing.rst:248
 msgid "If none of the above :guilabel:`Group By` options deliver the desired results, click :guilabel:`Add Custom Group` at the bottom of the :guilabel:`Group By` section. Doing so reveals a drop-down menu, wherein custom criteria can be selected and applied, thus delivering any grouping of data that may be desired."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:250
+#: ../../content/applications/marketing/email_marketing.rst:253
 msgid "Favorites"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:252
+#: ../../content/applications/marketing/email_marketing.rst:255
 msgid "This section provides the opportunity to save custom filters and/or groupings for future use. To utilize this section, click the :guilabel:`Save current search` field, which reveals additional fields."
 msgstr ""
 
@@ -342,250 +342,250 @@ msgstr ""
 msgid "View of the Favorites drop-down menu on the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:260
+#: ../../content/applications/marketing/email_marketing.rst:263
 msgid "Give the favorited filter/grouping a title on the blank line above the checkboxes for :guilabel:`Default filter` and :guilabel:`Shared`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:263
+#: ../../content/applications/marketing/email_marketing.rst:266
 msgid "Ticking the box for :guilabel:`Default filter` makes this favorited filter/grouping the default option. Ticking the box for :guilabel:`Shared` allows other users to see and use this favorited filter/grouping."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:267
+#: ../../content/applications/marketing/email_marketing.rst:270
 msgid "When all desired options are configured, click :guilabel:`Save` to save the filter/grouping in the :guilabel:`Favorites` section of the mega drop-down menu."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:271
+#: ../../content/applications/marketing/email_marketing.rst:274
 msgid "Settings"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:273
+#: ../../content/applications/marketing/email_marketing.rst:276
 msgid "To view and modify the *Email Marketing* settings, navigate to :menuselection:`Email Marketing app --> Configuration --> Settings`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the Configuration menu with Settings page in the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:280
+#: ../../content/applications/marketing/email_marketing.rst:283
 msgid "On the :guilabel:`Settings` page, there are four features available."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the Settings page in the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:286
+#: ../../content/applications/marketing/email_marketing.rst:289
 msgid "The features are:"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:288
+#: ../../content/applications/marketing/email_marketing.rst:291
 msgid ":guilabel:`Mailing Campaigns`: enables the option to manage mass mailing campaigns."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:289
+#: ../../content/applications/marketing/email_marketing.rst:292
 msgid ":guilabel:`Blacklist Option when Unsubscribing`: allows recipients to blacklist themselves from future mailings during the unsubscribing process."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:291
+#: ../../content/applications/marketing/email_marketing.rst:294
 msgid ":guilabel:`Dedicated Server`: provides the option to utilize a separate, dedicated server for mailings. When enabled, Odoo reveals a new field (and link), in which the specific server configurations must be entered, in order for it to connect properly to Odoo."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:294
+#: ../../content/applications/marketing/email_marketing.rst:297
 msgid ":guilabel:`24H Stat Mailing Reports`: allows users to check how well mailings have performed a day after it has been sent."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:300
+#: ../../content/applications/marketing/email_marketing.rst:303
 msgid "Create an email"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:302
+#: ../../content/applications/marketing/email_marketing.rst:305
 msgid "To create an email, open the :menuselection:`Email Marketing` application, and click the :guilabel:`New` button in the upper-left corner of the :guilabel:`Mailings` dashboard page."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:305
+#: ../../content/applications/marketing/email_marketing.rst:308
 msgid "Clicking :guilabel:`New` reveals a blank email form."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of a blank email detail form in Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:311
+#: ../../content/applications/marketing/email_marketing.rst:314
 msgid "On the email form, there are fields for the :ref:`Subject <email_marketing/subject>` and :ref:`Recipients <email_marketing/recipients>` of the email."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:314
+#: ../../content/applications/marketing/email_marketing.rst:317
 msgid "Beneath that, there are three tabs: :ref:`Mail Body <email_marketing/mail_body>`, :ref:`A/B Tests <email_marketing/ab_tests>`, and :ref:`Settings <email_marketing/settings_tab>`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:320
+#: ../../content/applications/marketing/email_marketing.rst:323
 msgid "Subject"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:322
+#: ../../content/applications/marketing/email_marketing.rst:325
 msgid "First, enter a :guilabel:`Subject` to the email. The :guilabel:`Subject` is visible in the recipients' inbox, allowing them to quickly see what the message is about."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:326
+#: ../../content/applications/marketing/email_marketing.rst:329
 msgid "The :guilabel:`Subject` field is mandatory. An email can **not** be sent without a :guilabel:`Subject`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:329
+#: ../../content/applications/marketing/email_marketing.rst:332
 msgid "The :guilabel:`(smiley face with a plus sign)` icon at the end of the :guilabel:`Subject` field represents emojis that can be added to the :guilabel:`Subject` field. Clicking that icon reveals a pop-up menu of emojis that can be used."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:333
+#: ../../content/applications/marketing/email_marketing.rst:336
 msgid "Beside the :guilabel:`(smiley face with a plus sign)` icon at the end of the :guilabel:`Subject` field is an empty :guilabel:`(star)` icon. When clicked, the :guilabel:`(star)` icon turns gold, and the email is saved as a template in the :guilabel:`Mail Body` tab, which can be used again in the future."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:341
+#: ../../content/applications/marketing/email_marketing.rst:344
 msgid "Recipients"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:343
+#: ../../content/applications/marketing/email_marketing.rst:346
 msgid "Beneath the :guilabel:`Subject` field on the email form is the :guilabel:`Recipients` field. In this field, select the recipients of the email. By default, the :guilabel:`Mailing List` option is selected, but clicking the field reveals a drop-down menu of other recipient options."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:347
+#: ../../content/applications/marketing/email_marketing.rst:350
 msgid "With the default :guilabel:`Mailing List` option selected, a specific mailing list **must** be chosen from the adjacent :guilabel:`Select mailing lists` field drop-down menu."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:351
+#: ../../content/applications/marketing/email_marketing.rst:354
 msgid "More than one mailing list can be chosen from the :guilabel:`Select mailing lists` field."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:353
+#: ../../content/applications/marketing/email_marketing.rst:356
 msgid "Odoo then sends the email to contacts on that specific mailing list(s)."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:356
-#: ../../content/applications/marketing/email_marketing.rst:822
+#: ../../content/applications/marketing/email_marketing.rst:359
+#: ../../content/applications/marketing/email_marketing.rst:825
 msgid ":doc:`email_marketing/mailing_lists`"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:358
+#: ../../content/applications/marketing/email_marketing.rst:361
 msgid "When the :guilabel:`Recipients` field is clicked, a drop-down menu of other options is revealed. Each option provides different ways Odoo can create a target audience for the email."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of recipients drop-down menu in the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:365
+#: ../../content/applications/marketing/email_marketing.rst:368
 msgid "Those options (excluding the default :guilabel:`Mailing List`) provide the option to create a more specified recipient filter, in an equation-like format, which appears beneath the :guilabel:`Recipients` field."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:369
+#: ../../content/applications/marketing/email_marketing.rst:372
 msgid "The :guilabel:`Recipients` field options, other than the default :guilabel:`Mailing List` option, are as follows:"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:372
+#: ../../content/applications/marketing/email_marketing.rst:375
 msgid ":guilabel:`Contact`: ties specifically to the *Contacts* app, and includes all the contacts entered in the database."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:374
+#: ../../content/applications/marketing/email_marketing.rst:377
 msgid ":guilabel:`Event Registration`: ties specifically to the *Events* app, and provides opportunities to interact with event registrants, in order to communicate important information about the event(s), or nurture other valuable actions, such as post-event surveys, purchases, etc."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:377
+#: ../../content/applications/marketing/email_marketing.rst:380
 msgid ":guilabel:`Lead/Opportunity`: ties specifically to records in the *CRM* application, which opens up a number of opportunities to influence sales or purchase decisions."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:379
+#: ../../content/applications/marketing/email_marketing.rst:382
 msgid ":guilabel:`Mailing Contact`: ties specifically to the *Email Marketing* app, and focuses on specific mailing contacts that have been entered in that specific application, and are related to a specific mailing list. These contacts are also unique because they do *not* have their own contact card in the *Contacts* application. This list can be accessed by navigating to :menuselection:`Email Marketing app --> Mailing Lists --> Mailing List Contacts`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:384
+#: ../../content/applications/marketing/email_marketing.rst:387
 msgid ":guilabel:`Sales Order`: ties specifically to the *Sales* app, and focuses on a specific sales orders in the database."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:388
+#: ../../content/applications/marketing/email_marketing.rst:391
 msgid "Add recipient filter"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:390
+#: ../../content/applications/marketing/email_marketing.rst:393
 msgid "To add a more specific recipient filter to any :guilabel:`Recipient` option, select any recipient option (other than :guilabel:`Mailing List`), and click the :guilabel:`Modify filter (right-facing arrow)` icon beneath the :guilabel:`Recipient` field to reveal three subsequent filter rule fields, formatted like an equation."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:395
+#: ../../content/applications/marketing/email_marketing.rst:398
 msgid "It is highly recommended that users implement detailed targeting criteria for the :guilabel:`Recipients` field. Typically, a single line of targeting logic is not sufficient enough for an email campaign."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:399
+#: ../../content/applications/marketing/email_marketing.rst:402
 msgid "While the :guilabel:`Mailing List` option is adequate for the :guilabel:`Recipients` field, the :guilabel:`Lead/Opportunity` and :guilabel:`Event Registration` options provide far more detailed targeting criteria, which can be added on top of those seed sources."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:404
+#: ../../content/applications/marketing/email_marketing.rst:407
 msgid "For example, with the :guilabel:`Lead/Opportunity` option chosen in the :guilabel:`Recipients` field, users can add various custom criteria related to :guilabel:`Created on` dates, :guilabel:`Stages`, :guilabel:`Tags`, :guilabel:`Lost Reasons`, :guilabel:`Sales Teams`, :guilabel:`Active` statuses, :guilabel:`Country`, and so much more."
 msgstr ""
 
 #: ../../content/applications/marketing/email_marketing.rst:0
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of how recipient filters can be customized in Odoo Email Marketing."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:413
+#: ../../content/applications/marketing/email_marketing.rst:416
 msgid "To reveal the sub-menu options within the filter rule fields, click each field, and make the desired selections, until the preferred configuration has been achieved."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:416
+#: ../../content/applications/marketing/email_marketing.rst:419
 msgid "The number of :guilabel:`records` in the database that match the configured rule(s) are indicated beneath the configured filter rule(s), in green."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:424
+#: ../../content/applications/marketing/email_marketing.rst:427
 #: ../../content/applications/marketing/events/event_essentials.rst:191
 msgid "Some sub-menu options in the first rule field allow for a second choice to provide even more specificity."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:427
+#: ../../content/applications/marketing/email_marketing.rst:430
 msgid "To the right of each rule, there are three additional options, represented by :guilabel:`➕ (plus sign)`, :guilabel:`(sitemap)`, and :guilabel:`🗑️ (trash)` icons."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:430
+#: ../../content/applications/marketing/email_marketing.rst:433
 msgid "The :guilabel:`➕ (plus sign)` icon adds a new node (line) to the overall targeting logic."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:431
+#: ../../content/applications/marketing/email_marketing.rst:434
 msgid "The :guilabel:`(sitemap)` icon adds a branch to the node. A branch contains two additional, indented sub-nodes that are related to that specific rule, providing even more specificity to the parent line above it."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:434
+#: ../../content/applications/marketing/email_marketing.rst:437
 msgid "The :guilabel:`🗑️ (trash)` icon deletes a specific node (line) in the array of logic."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:439
+#: ../../content/applications/marketing/email_marketing.rst:442
 msgid "Mail Body tab"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:441
+#: ../../content/applications/marketing/email_marketing.rst:444
 msgid "In the :guilabel:`Mail Body` tab, there are a number of pre-configured message templates to choose from."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the templates in the Mail Body tab in Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:448
+#: ../../content/applications/marketing/email_marketing.rst:451
 msgid "Select the desired template, and proceed to modify every element of its design details with Odoo's drag-and-drop building blocks, which appear on the right sidebar when a template is chosen."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the building blocks in the Mail Body tab in Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:455
+#: ../../content/applications/marketing/email_marketing.rst:458
 msgid "The features on the sidebar used to create and customize emails are separated into three sections: :guilabel:`Blocks`, :guilabel:`Customize`, and :guilabel:`Design`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:458
+#: ../../content/applications/marketing/email_marketing.rst:461
 msgid "Each building block provides unique features and professional design elements. To use a building block, drag-and-drop the desired block element onto the body of the email being built. Once dropped, various aspects of the building block can be customized."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:463
+#: ../../content/applications/marketing/email_marketing.rst:466
 msgid "To build an email from the ground up, without any building block elements, select the :guilabel:`Plain Text` template. When selected, Odoo provides a completely blank email canvas, which can be customized in a number of way using the front-end rich text editor that accepts forward slash `/` commands."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:468
+#: ../../content/applications/marketing/email_marketing.rst:471
 msgid "When `/` is typed into the blank body of the email, while using a :guilabel:`Plain Text` template, a drop-down menu of various design elements appears, which can be used to create the desired email design."
 msgstr ""
 
@@ -593,409 +593,549 @@ msgstr ""
 msgid "View of the rich text editor drop-down in the Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:479
+#: ../../content/applications/marketing/email_marketing.rst:482
 msgid "A/B Tests tab"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:481
+#: ../../content/applications/marketing/email_marketing.rst:484
 msgid "Initially, when the :guilabel:`A/B Tests` tab is opened on an email form, the only option available is :guilabel:`Allow A/B Testing`. This is **not** a required option."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:484
+#: ../../content/applications/marketing/email_marketing.rst:487
 msgid "If this option is enabled, recipients are only mailed *once* for the entirety of the campaign."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:486
+#: ../../content/applications/marketing/email_marketing.rst:489
 msgid "This allows the user to send different versions of the same mailing to randomly selected recipients to gauge the effectiveness of various designs, formats, layouts, content, and so on -- without any duplicate messages being sent."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:490
+#: ../../content/applications/marketing/email_marketing.rst:493
 msgid "When the checkbox beside :guilabel:`Allow A/B Testing` is ticked, an :guilabel:`on (%)` field appears, in which the user determines the percentage of the pre-configured recipients that are going to be sent this current version of the mailing as part of the test."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:495
+#: ../../content/applications/marketing/email_marketing.rst:498
 msgid "The default figure in the :guilabel:`on (%)` field is `10`, but that figure can be changed at any time."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:498
+#: ../../content/applications/marketing/email_marketing.rst:501
 msgid "Beneath that, two additional fields appear:"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:500
+#: ../../content/applications/marketing/email_marketing.rst:503
 msgid "The :guilabel:`Winner Selection` field provides a drop-down menu of options, wherein the user decides what criteria should be used to determine the \"winning\" version of the email tests that are sent."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:504
+#: ../../content/applications/marketing/email_marketing.rst:507
 msgid "The options in the :guilabel:`Winner Selection` field are as follows:"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:506
+#: ../../content/applications/marketing/email_marketing.rst:509
 msgid ":guilabel:`Manual`: allows the user to determine the \"winning\" version of the mailing. This option removes the :guilabel:`Send Final On` field."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:508
+#: ../../content/applications/marketing/email_marketing.rst:511
 msgid ":guilabel:`Highest Open Rate` (default): the mailing with the highest open rate is determined to be the \"winning\" version."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:510
+#: ../../content/applications/marketing/email_marketing.rst:513
 msgid ":guilabel:`Highest Click Rate`: the mailing with the highest click rate is determined to be the \"winning\" version."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:512
+#: ../../content/applications/marketing/email_marketing.rst:515
 msgid ":guilabel:`Highest Reply Rate`: the mailing with the highest reply rate is determined to be the \"winning\" version."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:514
+#: ../../content/applications/marketing/email_marketing.rst:517
 msgid ":guilabel:`Leads`: the mailing with the most leads generated is determined to be the \"winning\" version."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:516
+#: ../../content/applications/marketing/email_marketing.rst:519
 msgid ":guilabel:`Quotations`: the mailing with the most quotations generated is determined to be the \"winning\" version."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:518
+#: ../../content/applications/marketing/email_marketing.rst:521
 msgid ":guilabel:`Revenues`: the mailing with the most revenue generated is determined to be the \"winning\" version."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:521
+#: ../../content/applications/marketing/email_marketing.rst:524
 msgid "The :guilabel:`Send Final On` field allows users to choose a date that is used to know *when* Odoo should determine the \"winning\" email, and subsequently, send that version of the email to the remaining recipients."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the A/B Tests tab in Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:529
+#: ../../content/applications/marketing/email_marketing.rst:532
 msgid "To the right of those fields is a :guilabel:`Create an Alternative Version` button. When clicked, Odoo presents a new :guilabel:`Mail Body` tab for the user to create an alternate version of the email to test."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:536
+#: ../../content/applications/marketing/email_marketing.rst:539
 msgid "Settings tab"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:538
+#: ../../content/applications/marketing/email_marketing.rst:541
 msgid "The options present in the :guilabel:`Settings` tab of the mail form are divided into two sections: :guilabel:`Email Content` and :guilabel:`Tracking`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:542
+#: ../../content/applications/marketing/email_marketing.rst:545
 msgid "The options available in the :guilabel:`Settings` tab vary depending on if the *Mailing Campaigns* feature is activated in :menuselection:`Email Marketing --> Configuration --> Settings`. See :ref:`email_marketing/mailing-campaigns` for more information."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:546
+#: ../../content/applications/marketing/email_marketing.rst:549
 msgid "Without the *Mailing Campaigns* feature activated, the :guilabel:`Settings` tab on the email form only contains the :guilabel:`Preview Text`, :guilabel:`Send From`, :guilabel:`Reply To`, :guilabel:`Attachments`, and :guilabel:`Responsible` fields."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of settings tab in Odoo Email Marketing app, without campaign setting activated."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:555
+#: ../../content/applications/marketing/email_marketing.rst:558
 msgid "Email content"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:557
+#: ../../content/applications/marketing/email_marketing.rst:560
 msgid ":guilabel:`Preview Text`: allows the user to enter a preview sentence to encourage recipients to open the email. In most inboxes, this is displayed next to the subject. If left empty, the first characters of the email content appear, instead. The ability to add an emoji in this field is available, as well, via the :guilabel:`(smiley face with a plus sign)` icon."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:561
+#: ../../content/applications/marketing/email_marketing.rst:564
 msgid ":guilabel:`Send From`: designate an email alias that displays as the sender of this particular email."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:563
+#: ../../content/applications/marketing/email_marketing.rst:566
 msgid ":guilabel:`Reply To`: designate an email alias to whom all the replies of this particular email are sent."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:565
+#: ../../content/applications/marketing/email_marketing.rst:568
 msgid ":guilabel:`Attach a file`: if any specific files are required (or helpful) for this email, click the :guilabel:`Attachments` button, and upload the desired file(s) to the email."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:569
+#: ../../content/applications/marketing/email_marketing.rst:572
 msgid "Tracking"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:571
+#: ../../content/applications/marketing/email_marketing.rst:574
 msgid ":guilabel:`Responsible`: designate a user in the database to be responsible for this particular email."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:575
+#: ../../content/applications/marketing/email_marketing.rst:578
 msgid "If the *Mailing Campaign* feature *is* activated, an additional :guilabel:`Campaign` field appears in the :guilabel:`Tracking` section of the :guilabel:`Settings` tab."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of settings tab in Odoo Email Marketing when campaign setting is activated."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:582
+#: ../../content/applications/marketing/email_marketing.rst:585
 msgid "The additional :guilabel:`Campaign` field allows users to attach this particular email to a mailing campaign, if desired."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:585
+#: ../../content/applications/marketing/email_marketing.rst:588
 msgid "If the desired campaign is not available in the initial drop-down menu, select :guilabel:`Search More` to reveal a complete list of all mailing campaigns in the database."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:588
+#: ../../content/applications/marketing/email_marketing.rst:591
 msgid "Or, type the name of the desired mailing campaign in the :guilabel:`Campaign` field, until Odoo reveals the desired campaign in the drop-down menu. Then, select the desired campaign."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:592
+#: ../../content/applications/marketing/email_marketing.rst:595
 msgid "Send, schedule, test"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:594
+#: ../../content/applications/marketing/email_marketing.rst:597
 msgid "Once the mailing is finalized, the following options can be utilized, via buttons located in the upper-left corner of the email form: :ref:`Send <email_marketing/send>`, :ref:`Schedule <email_marketing/schedule>`, and :ref:`Test <email_marketing/test>`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:601
+#: ../../content/applications/marketing/email_marketing.rst:604
 msgid "Send"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:603
+#: ../../content/applications/marketing/email_marketing.rst:606
 msgid "The :guilabel:`Send` button reveals a :guilabel:`Ready to unleash emails?` pop-up window."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of pop-up window that appears when the send button on an email form is clicked."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:609
+#: ../../content/applications/marketing/email_marketing.rst:612
 msgid "When the :guilabel:`Send to all` button is clicked, Odoo sends the email to the desired recipients. Once Odoo has sent the mailing, the status changes to :guilabel:`Sent`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:615
+#: ../../content/applications/marketing/email_marketing.rst:618
 msgid "Schedule"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:617
+#: ../../content/applications/marketing/email_marketing.rst:620
 msgid "The :guilabel:`Schedule` button reveals a :guilabel:`When do you want to send your mailing?` pop-up window."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of pop-up window that appears when the schedule button on an email form is clicked."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:624
+#: ../../content/applications/marketing/email_marketing.rst:627
 msgid "In this pop-up window, click the :guilabel:`Send on` field to reveal a calendar pop-up window."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:630
+#: ../../content/applications/marketing/email_marketing.rst:633
 msgid "From the calendar pop-up window, select the future date and time for Odoo to send this email. Then, click :guilabel:`✔️ Apply`. When a date and time are chosen, click the :guilabel:`Schedule` button, and the status of the mailing changes to :guilabel:`In Queue`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:637
+#: ../../content/applications/marketing/email_marketing.rst:640
 msgid "Test"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:639
+#: ../../content/applications/marketing/email_marketing.rst:642
 msgid "The :guilabel:`Test` button reveals a :guilabel:`Test Mailing` pop-up window."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of pop-up window that appears when the test button on an email form is clicked."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:645
+#: ../../content/applications/marketing/email_marketing.rst:648
 msgid "From this pop-up window, enter the email addresses of the contacts to whom Odoo should send this test email in the :guilabel:`Recipients` field. Multiple contacts can be added in this field, if desired."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:649
+#: ../../content/applications/marketing/email_marketing.rst:652
 msgid "Once all the desired email addresses have been entered in the :guilabel:`Recipients` field, click the :guilabel:`Send Test` button."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:653
+#: ../../content/applications/marketing/email_marketing.rst:656
 msgid "By default, there's a daily limit applied for **all emails** sent throughout **all applications**. So, if there are remaining emails to be sent after a limit has been reached, those mailings are **not** sent automatically the next day. The sending needs to be forced, by opening the email and clicking :guilabel:`Retry`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:661
+#: ../../content/applications/marketing/email_marketing.rst:664
 msgid "Mailing campaigns"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:663
+#: ../../content/applications/marketing/email_marketing.rst:666
 msgid "The *Email Marketing* application provides users with the ability to build mailing campaigns."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:665
+#: ../../content/applications/marketing/email_marketing.rst:668
 msgid "In order to create and customize mailing campaigns, the *Mailing Campaigns* feature **must** be activated in the *Settings* page of the *Email Marketing* application. To do that, navigate to :menuselection:`Email Marketing app --> Configuration --> Settings`, tick the box beside :guilabel:`Mailing Campaigns`, and click the :guilabel:`Save` button."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the campaign feature setting in Odoo Email Marketing."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:674
+#: ../../content/applications/marketing/email_marketing.rst:677
 msgid "Once the :guilabel:`Mailing Campaigns` feature is activated, a new :guilabel:`Campaigns` menu option appears in the header."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:677
+#: ../../content/applications/marketing/email_marketing.rst:680
 msgid "When that is clicked, Odoo reveals a separate :guilabel:`Campaigns` page, displaying all the mailing campaigns in the database, and the current stage they are in, showcased in a default Kanban view."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the campaign page in Odoo Email Marketing."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:685
+#: ../../content/applications/marketing/email_marketing.rst:688
 msgid "This information can also be viewed in a list, by clicking the :guilabel:`☰ (horizontal lines)` icon in the upper-right corner."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:688
+#: ../../content/applications/marketing/email_marketing.rst:691
 msgid "Clicking any campaign from the :guilabel:`Campaigns` page reveals that campaign's form."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:690
+#: ../../content/applications/marketing/email_marketing.rst:693
 msgid "There are two different ways to create and customize campaigns in the *Email Marketing* application, either directly from the :ref:`Campaigns page <email_marketing/campaign-page>` or through the :ref:`Settings tab <email_marketing/campaign-settings>` on an email form."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:697
+#: ../../content/applications/marketing/email_marketing.rst:700
 msgid "Create mailing campaign (from campaigns page)"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:699
+#: ../../content/applications/marketing/email_marketing.rst:702
 msgid "When the *Mailing Campaigns* feature is activated, a new *Campaigns* option appears in the header of the *Email Marketing* application. Campaigns can be created directly on the *Campaigns* page in the *Email Marketing* app."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:703
+#: ../../content/applications/marketing/email_marketing.rst:706
 msgid "To do that, navigate to :menuselection:`Email Marketing app --> Campaigns --> New`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:708
+#: ../../content/applications/marketing/email_marketing.rst:711
 msgid "When the :guilabel:`New` button is clicked in the default Kanban view on the :guilabel:`Campaigns` page, a Kanban card appears in the :guilabel:`New` stage."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the campaign pop-up kanban in Odoo Email Marketing."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:715
+#: ../../content/applications/marketing/email_marketing.rst:718
 msgid "New campaign cards can also be made by clicking the :guilabel:`➕ (plus sign)` at the top of any Kanban stage on the :guilabel:`Campaigns` page."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:718
+#: ../../content/applications/marketing/email_marketing.rst:721
 msgid "When the new campaign Kanban card appears, the options to enter a :guilabel:`Campaign Name`, a :guilabel:`Responsible`, and :guilabel:`Tags` become readily available."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:721
+#: ../../content/applications/marketing/email_marketing.rst:724
 msgid "To add the campaign to the Kanban stage, click the :guilabel:`Add` button."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:723
+#: ../../content/applications/marketing/email_marketing.rst:726
 msgid "To delete the campaign, click the :guilabel:`🗑️ (trash can)` icon."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:725
+#: ../../content/applications/marketing/email_marketing.rst:728
 msgid "To further customize the campaign, click the :guilabel:`Edit` button, which reveals the campaign form for additional modifications."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:729
+#: ../../content/applications/marketing/email_marketing.rst:732
 msgid "A :guilabel:`Campaign Name` **must** be entered in the Kanban card, in order for the :guilabel:`Edit` button to reveal the campaign form for further modifications."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:735
+#: ../../content/applications/marketing/email_marketing.rst:738
 msgid "To enter the list view on the :guilabel:`Campaigns` page, click the :guilabel:`☰ (horizontal lines)` icon in the upper-right corner. Doing so reveals all campaign information in a list format."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the campaign page in list view in Odoo Email Marketing."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:742
+#: ../../content/applications/marketing/email_marketing.rst:745
 msgid "To create a campaign from the :guilabel:`Campaigns` page while in list view, click the :guilabel:`New` button. Doing so reveals a blank campaign form."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the blank campaign form in Odoo Email Marketing."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:749
+#: ../../content/applications/marketing/email_marketing.rst:752
 msgid "From this campaign form, a :guilabel:`Campaign Name`, a :guilabel:`Responsible`, and :guilabel:`Tags` can be added."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:752
+#: ../../content/applications/marketing/email_marketing.rst:755
 msgid "At the top of the form, various metric-related smart buttons can be seen that showcase specific analytics related to the campaign. Those smart buttons are: :guilabel:`Revenues`, :guilabel:`Quotations`, :guilabel:`Opportunities`, and :guilabel:`Clicks`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:757
+#: ../../content/applications/marketing/email_marketing.rst:760
 msgid "Once a :guilabel:`Campaign Name` is entered and saved, additional buttons appear at the top of the campaign form."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:760
+#: ../../content/applications/marketing/email_marketing.rst:763
 msgid "Those additional buttons are: :guilabel:`Send Mailing` and :guilabel:`Send SMS`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:763
+#: ../../content/applications/marketing/email_marketing.rst:766
 msgid "Campaign form"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:765
+#: ../../content/applications/marketing/email_marketing.rst:768
 msgid "On the campaign form (after clicking :guilabel:`Edit` from the Kanban card, or selecting an existing campaign from the :guilabel:`Campaigns` page) there are additional options and metrics available."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the campaign form in Odoo Email Marketing."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:772
+#: ../../content/applications/marketing/email_marketing.rst:775
 msgid "At the top of the form, various smart buttons can be seen that showcase specific analytics related to the campaign. Those smart buttons are: :guilabel:`Revenues`, :guilabel:`Quotations`, :guilabel:`Opportunities`, and :guilabel:`Clicks`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:776
+#: ../../content/applications/marketing/email_marketing.rst:779
 msgid "There are also buttons to :guilabel:`Send Mailing`, :guilabel:`Send SMS`, :guilabel:`Add Post`, and :guilabel:`Add Push` (push notification)."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:780
+#: ../../content/applications/marketing/email_marketing.rst:783
 msgid "If the :guilabel:`Send Mailing` and :guilabel:`Send SMS` buttons are not readily available, enter a :guilabel:`Campaign Name`, then save (either manually or automatically). Doing so reveals those buttons."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:784
+#: ../../content/applications/marketing/email_marketing.rst:787
 msgid "The status of the campaign can be viewed in the upper-right corner of the campaign form, as well."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:789
+#: ../../content/applications/marketing/email_marketing.rst:792
 msgid "Create mailing campaign (from settings tab)"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:791
+#: ../../content/applications/marketing/email_marketing.rst:794
 msgid "To create a new campaign from the :guilabel:`Settings` tab of a mailing form, click the :guilabel:`Campaign` field, and start typing the name of the new campaign. Then, select either :guilabel:`Create \"[Campaign Name]\"` or :guilabel:`Create and edit...` from the drop-down menu that appears."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the mailing campaign creation in the Settings tab of an email form."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:800
+#: ../../content/applications/marketing/email_marketing.rst:803
 msgid "Select :guilabel:`Create` to add this new mailing campaign to the database, and modify its settings in the future."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:803
+#: ../../content/applications/marketing/email_marketing.rst:806
 msgid "Select :guilabel:`Create and Edit...` to add this new mailing campaign to the database, and reveal a :guilabel:`Create Campaign` pop-up window."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:-1
+#: ../../content/applications/marketing/email_marketing.rst:None
 msgid "View of the email mailing campaign pop-up window in Odoo Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:810
+#: ../../content/applications/marketing/email_marketing.rst:813
 msgid "Here, the new mailing campaign can be further customized. Users can adjust the :guilabel:`Campaign Name`, assign a :guilabel:`Responsible`, and add :guilabel:`Tags`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:813
+#: ../../content/applications/marketing/email_marketing.rst:816
 msgid "Buttons to :guilabel:`Add Post` or :guilabel:`Send Push` (push notifications) are also available."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:815
+#: ../../content/applications/marketing/email_marketing.rst:818
 msgid "There is also a status located in the upper-right corner of the :guilabel:`Create Campaign` pop-up window."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:818
+#: ../../content/applications/marketing/email_marketing.rst:821
 msgid "When all modifications are ready to be finalized, click :guilabel:`Save & Close`. To delete the entire campaign, click :guilabel:`Discard`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:823
+#: ../../content/applications/marketing/email_marketing.rst:826
 msgid ":doc:`email_marketing/unsubscriptions`"
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing.rst:824
+#: ../../content/applications/marketing/email_marketing.rst:827
 msgid ":doc:`email_marketing/lost_leads_email`"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing.rst:828
+msgid ":doc:`email_marketing/analyze_metrics`"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:3
+msgid "Analyze metrics"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:7
+msgid "In order to properly understand the success or failure of an email marketing campaign, it is necessary to monitor several key metrics. The insights gained from these metrics can then be used to optimize future campaigns. Odoo's *Email Marketing* application tracks several :ref:`key metrics <email-marketing/key-metrics>`, that can be interpreted to improve future campaigns."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:13
+msgid "View metrics"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:15
+msgid "After a mass mail has been sent, the results for that particular mailing are displayed in multiple locations."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:18
+msgid "To access the metrics for an individual mailing, navigate to :menuselection:`Email Marketing app --> Mailings`. Locate the specific mailing in the list view, and use the column headings to view the results for that mailing. Click on one of the mailings in the list to open the record. At the top of the record, detailed metrics are displayed as smart buttons."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:None
+msgid "The smart buttons on a mass mailing, displaying the results of the message."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:28
+msgid "Click on the smart buttons to see the recipient records for each metric."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:33
+msgid "Opened rate"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:35
+msgid "The *Opened* rate measures the percentage of emails opened by recipients against the total number of sent emails."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:38
+msgid "A high open rate may indicate that the subject line was timely, compelling, and successfully prompted the recipients to view the message."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:41
+msgid "A low open rate may indicate the subject line failed to capture the recipients' interest. It could also indicate the email ended up in a spam or junk folder due to having a poor sender reputation or failing to :doc:`configure the proper DNS records <../../general/email_communication/email_domain>`."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:46
+msgid "Replied rate"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:48
+msgid "The *Replied* rate measures the percentage of recipients who responded to the email directly against the total number of sent emails."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:51
+msgid "A high replied rate may indicate the email resonated with recipients, prompting them to take action or provide feedback."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:54
+msgid "A low replied rate may suggest that the message lacked relevance or did not contain a clear call to action."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:58
+msgid "Clicked rate"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:60
+msgid "The *Clicked* through rate (CTR), measures the percentage of recipients who clicked on a link within the email against the total number of sent emails."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:63
+msgid "A high |CTR| may indicate the email content was relevant and appropriately targeted. Recipients were motivated to click the links provided, and likely found the content engaging."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:66
+msgid "A low |CTR| may indicate issues with either the targeting, or the content itself. Recipients may have been unmotivated by the calls to action, if there were any, or the message itself may have been directed toward the wrong audience."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:71
+msgid "Received rate"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:73
+msgid "The *Received* rate measures the percentage of emails that were successfully delivered against the total number of sent emails."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:76
+msgid "A high received rate can indicate that the mailing list used is up to date and the sender authentication is trusted by email providers."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:79
+msgid "A low received rate may indicate issues either with the mailing list used for the mailing or with the sender authentication. View the :ref:`email-marketing/deliverability-issues` section for more information."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:84
+msgid "Bounced rate"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:86
+msgid "The *Bounced* rate measures the percentage of emails that were unsuccessfully delivered, against the total number of sent emails."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:89
+msgid "A high bounce rate could indicate issues either with the mailing list used for the mailing or with the sender authentication."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:92
+msgid "A low bounce rate may indicate that the mailing list used is up to date and the sender authentication is trusted by email providers. View the :ref:`email-marketing/deliverability-issues` section for more information."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:99
+msgid "Deliverability issues"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:101
+msgid "The following define possible reasons for a high bounce rate or low received rate:"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:103
+msgid "Using a mailing list that contains outdated contact information, or malformed email addresses are likely to result in a high bounce rate and/or a low received rate."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:105
+msgid "Mailings sent using a *From* email address that differs from the sender's domain are likely to bounce with certain email providers due to failing :ref:`DMARC authentication <email_communication/DMARC_compliant>`."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:108
+msgid "Failing to :doc:`configure the proper DNS records <../../general/email_communication/email_domain>` can also result in a high bounce rate."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:112
+msgid ":ref:`Mailing campaigns <email_marketing/mailing-campaigns>`"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
+msgid ":doc:`Manage unsubscriptions <unsubscriptions>`"
 msgstr ""
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:3
@@ -1126,7 +1266,7 @@ msgstr ""
 msgid "In the third field, use the calendar popover window to select dates, and click :guilabel:`Apply` to lock in the time range."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:-1
+#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:None
 msgid "A custom filter rule setting the time period to be anything before today's date."
 msgstr ""
 
@@ -1158,7 +1298,7 @@ msgstr ""
 msgid "When the rule is added in this way, the logic in the third field renders as :code:`OR` (`|`) statements."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:-1
+#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:None
 msgid "Include multiple Stages in the filtering rule, using the \"is in\" operator."
 msgstr ""
 
@@ -1190,7 +1330,7 @@ msgstr ""
 msgid "For more information, refer to the section below outlining how to :ref:`select appropriate lost reasons <email_marketing/select_lost_reasons>`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:-1
+#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:None
 msgid "A list of filter rules that exclude all lost reasons other than the desired reason."
 msgstr ""
 
@@ -1214,7 +1354,7 @@ msgstr ""
 msgid "For the first field of the bottom rule of the branch, select :guilabel:`Active` from the drop-down menu again. However, this time, select :guilabel:`is not` from the operator drop-down menu in the second field. The rule should then read: :guilabel:`Active` *is not* `set`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:-1
+#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:None
 msgid "A pair of Match Any Of filter rules that include both active and inactive leads."
 msgstr ""
 
@@ -1326,7 +1466,7 @@ msgstr ""
 msgid "Clicking on any of the smart buttons opens a list of records matching that button's specific criteria."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:-1
+#: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:None
 msgid "The Mailing page of a sent email showing the smart buttons along the top of the page."
 msgstr ""
 
@@ -1478,7 +1618,7 @@ msgstr ""
 msgid "Clicking :guilabel:`New` reveals a blank mailing list form."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "View of the mailing list form in the Odoo Email Marketing application."
 msgstr ""
 
@@ -1566,7 +1706,7 @@ msgstr ""
 msgid "Contacts can also be directly imported to a specific mailing list from the :guilabel:`Mailing Lists` page, by clicking :guilabel:`Import Contacts` to the far-right of the desired mailing list."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "The import contacts button of a mailing list line in Odoo Email Marketing."
 msgstr ""
 
@@ -1574,7 +1714,7 @@ msgstr ""
 msgid "Doing so reveals an :guilabel:`Import Mailing Contacts` pop-up form."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "The import mailing contacts pop-up form that appears in Odoo Email Marketing."
 msgstr ""
 
@@ -1594,7 +1734,7 @@ msgstr ""
 msgid "To add contacts to a specific mailing list from a master list of all mailing list contacts in the database, navigate to :menuselection:`Email Marketing app --> Mailing Lists --> Mailing List Contacts`. Doing so reveals the :guilabel:`Mailing List Contacts` page, featuring a list of all contacts associated with every mailing list."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "The Mailing List page in the Odoo Email Marketing application."
 msgstr ""
 
@@ -1614,7 +1754,7 @@ msgstr ""
 msgid "At the bottom of their contact form, click :guilabel:`Add a line` under the :guilabel:`Mailing List` column, locate the desired mailing list from the drop-down menu, and select it."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "The Add a line for mailing lists on a standard contact form in Odoo Email Marketing."
 msgstr ""
 
@@ -1670,7 +1810,7 @@ msgstr ""
 msgid "Next, in the search bar of the right-sidebar, search for `Newsletter`. The :guilabel:`Newsletter` selection of building blocks is used to add subscription fields for any mailing list onto the website."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "View of how to quickly search for Newsletter blocks in the Odoo Website application."
 msgstr ""
 
@@ -1682,8 +1822,8 @@ msgstr ""
 msgid "The :guilabel:`Newsletter Block` option places a customizable block onto the body of the website where a visitor to enter their email and click a button to subscribe to a designated mailing list."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "Sample of how a newsletter block appears on an Odoo Website."
 msgstr ""
 
@@ -1691,7 +1831,7 @@ msgstr ""
 msgid "The :guilabel:`Newsletter Popup` option reveals a customizable pop-up window that appears when a visitor scrolls to the specific section of the webpage on which the building block is placed. When the visitor reaches the designated section, a pop-up window appears, in which a visitor can enter their email address, click a button, and subscribe to that predetermined mailing list."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "Sample of how a newsletter popup block appears on an Odoo Website."
 msgstr ""
 
@@ -1711,7 +1851,7 @@ msgstr ""
 msgid "From there, open the :guilabel:`Newsletter` drop-down menu, and select the specific mailing list that should be applied to the block."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:-1
+#: ../../content/applications/marketing/email_marketing/mailing_lists.rst:None
 msgid "The newsletter drop-down menu in the customize sidebar that appears in Odoo Website."
 msgstr ""
 
@@ -1747,7 +1887,7 @@ msgstr ""
 msgid "Navigate to :menuselection:`Email Marketing app --> Configuration --> Settings`, and tick the checkbox next to the :guilabel:`Blacklist Option when Unsubscribing` feature. Then, click :guilabel:`Save` in the upper-left corner of the :guilabel:`Settings` page."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:-1
+#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid "View of the blacklist feature in the Settings page of the Odoo Email Marketing app."
 msgstr ""
 
@@ -1767,7 +1907,7 @@ msgstr ""
 msgid "If a recipient clicks the *Unsubscribe* link in a mailing, Odoo instantly unsubscribes them from the mailing list, presents them with a :guilabel:`Mailing Subscriptions` page where they can directly manage their subscriptions, and informs them that they've been :guilabel:`Successfully Unsubscribed`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:-1
+#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid "The Mailng Subscriptions page that appears when 'Unsubscribe' link in mailing is clicked."
 msgstr ""
 
@@ -1796,7 +1936,7 @@ msgstr ""
 msgid "Upon clicking :guilabel:`Exclude Me`, Odoo informs the recipient they have been successfully blacklisted, with a message reading: :guilabel:`✔️ Email added to our blocklist`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:-1
+#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid "The blocklist question on the Mailing Subscriptions page that recipients see."
 msgstr ""
 
@@ -1816,7 +1956,7 @@ msgstr ""
 msgid "To view a complete list of all blacklisted email addresses, navigate to :menuselection:`Email Marketing app --> Configuration --> Blacklisted Email Addresses`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:-1
+#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid "View of the blacklisted email addresses page in Odoo Email Marketing."
 msgstr ""
 
@@ -1824,7 +1964,7 @@ msgstr ""
 msgid "When a blacklisted record is selected from this list, Odoo reveals a separate page with the recipient's contact information, along with the provided :guilabel:`Reason` why they chose to blacklist themselves."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:-1
+#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid "View of a blacklisted contact detail form in Odoo Email Marketing."
 msgstr ""
 
@@ -1852,7 +1992,7 @@ msgstr ""
 msgid "In this pop-up window, the email address of the selected blacklisted record is shown, and there's a :guilabel:`Reason` field, in which a reason can be entered, explaining why this particular contact was removed from the blacklist."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:-1
+#: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:None
 msgid "View of the unblacklist pop-up window in the Odoo Email Marketing application."
 msgstr ""
 
@@ -1904,7 +2044,7 @@ msgstr ""
 msgid "When clicked, a drop-down menu of settings will appear."
 msgstr ""
 
-#: ../../content/applications/marketing/events/event_essentials.rst:-1
+#: ../../content/applications/marketing/events/event_essentials.rst:None
 msgid "Overview of events setting with the kanban view in Odoo Events."
 msgstr ""
 
@@ -1980,7 +2120,7 @@ msgstr ""
 msgid "If selling tickets isn't necessary for the event, a simple :guilabel:`Registration` button will be displayed on the event's page by default."
 msgstr ""
 
-#: ../../content/applications/marketing/events/event_essentials.rst:-1
+#: ../../content/applications/marketing/events/event_essentials.rst:None
 msgid "View of the ticket tab in Odoo Events."
 msgstr ""
 
@@ -2000,7 +2140,7 @@ msgstr ""
 msgid "In the last column, determine the :guilabel:`Trigger` which controls how and when the communication is sent. For this action, choose between: :guilabel:`Before the event`, :guilabel:`After each registration`, or :guilabel:`After the event`."
 msgstr ""
 
-#: ../../content/applications/marketing/events/event_essentials.rst:-1
+#: ../../content/applications/marketing/events/event_essentials.rst:None
 msgid "View of the communication tab in Odoo Events."
 msgstr ""
 
@@ -2028,7 +2168,7 @@ msgstr ""
 msgid "There are two :guilabel:`Question Types` to choose from: :guilabel:`Selection` and :guilabel:`Text Input`. The :guilabel:`Selection` type, allows attendees to select an answer from pre-configured options, which are entered in the :guilabel:`Answers` tab below. The :guilabel:`Text Input` type allows attendees to write in their own answer to the question in a text box."
 msgstr ""
 
-#: ../../content/applications/marketing/events/event_essentials.rst:-1
+#: ../../content/applications/marketing/events/event_essentials.rst:None
 msgid "View of an event form, open the questions tab, and add a question."
 msgstr ""
 
@@ -2048,7 +2188,7 @@ msgstr ""
 msgid "Type `/` in either text field (:guilabel:`Note` or :guilabel:`Ticket instructions`) to reveal a sub-menu of :guilabel:`Structure` options. These options provide various formatting options to ensure vital internal information is organized for event staff to review."
 msgstr ""
 
-#: ../../content/applications/marketing/events/event_essentials.rst:-1
+#: ../../content/applications/marketing/events/event_essentials.rst:None
 msgid "View of the Notes tab in Odoo Events."
 msgstr ""
 
@@ -2084,7 +2224,7 @@ msgstr ""
 msgid "Once an option from this menu is selected (e.g. :guilabel:`Applicant`, :guilabel:`Contact`, :guilabel:`Event Registration`, :guilabel:`Lead/Opportunity`, etc.), Odoo will send the invitation to all recipients who match that initial rule. Additional rules can be added to narrow down the target recipients, by clicking :guilabel:`Add Filter`."
 msgstr ""
 
-#: ../../content/applications/marketing/events/event_essentials.rst:-1
+#: ../../content/applications/marketing/events/event_essentials.rst:None
 msgid "View of the add filter button beneath the recipients field in Odoo Events."
 msgstr ""
 
@@ -2104,7 +2244,7 @@ msgstr ""
 msgid "In the :guilabel:`Mail Body` tab, there are a number of pre-configured message templates to choose from. Select the desired template, and modify every element of its design details with Odoo's drag-and-drop web builder, located on the right sidebar."
 msgstr ""
 
-#: ../../content/applications/marketing/events/event_essentials.rst:-1
+#: ../../content/applications/marketing/events/event_essentials.rst:None
 msgid "View of the drag and drop building blocks used to customize event invite emails."
 msgstr ""
 
@@ -2176,7 +2316,7 @@ msgstr ""
 msgid "No matter the route, an event page can only be published from the frontend. In the upper right corner of the event page on the website, toggle the switch from the red :guilabel:`Unpublished` status to the green :guilabel:`Published` status. Doing so instantly makes the event page accessible to the public on the website."
 msgstr ""
 
-#: ../../content/applications/marketing/events/event_essentials.rst:-1
+#: ../../content/applications/marketing/events/event_essentials.rst:None
 msgid "View of a website page and the option to publish the event in Odoo Events."
 msgstr ""
 
@@ -2210,7 +2350,7 @@ msgstr ""
 msgid "If these options are *not* enabled, a default :guilabel:`Register` button will be available for free registrations."
 msgstr ""
 
-#: ../../content/applications/marketing/events/sell_tickets.rst:-1
+#: ../../content/applications/marketing/events/sell_tickets.rst:None
 msgid "View of the settings page for Odoo Events."
 msgstr ""
 
@@ -2222,7 +2362,7 @@ msgstr ""
 msgid "In the :guilabel:`Sales` application, choose a previously-created Event Registration (as if it were a product), and add it as a product line. Upon adding the registration, a pop-up appears, which allows for the selection of a specific event (and ticket tier). That specific event ticket is then attached to the sales order."
 msgstr ""
 
-#: ../../content/applications/marketing/events/sell_tickets.rst:-1
+#: ../../content/applications/marketing/events/sell_tickets.rst:None
 msgid "View of a sales order and option to choose the specific event in Odoo Events."
 msgstr ""
 
@@ -2234,11 +2374,11 @@ msgstr ""
 msgid "Clicking the :guilabel:`Sales Smart Button` reveals a page with all the sales orders related to that event."
 msgstr ""
 
-#: ../../content/applications/marketing/events/sell_tickets.rst:-1
+#: ../../content/applications/marketing/events/sell_tickets.rst:None
 msgid "View of an event's form and the sales smart button in Odoo Events."
 msgstr ""
 
-#: ../../content/applications/marketing/events/sell_tickets.rst:-1
+#: ../../content/applications/marketing/events/sell_tickets.rst:None
 msgid "View of an event form highlighting the column product under the tickets tab in Odoo\n"
 "Events."
 msgstr ""
@@ -2255,7 +2395,7 @@ msgstr ""
 msgid "The completed purchase is automatically produced in a :guilabel:`Sales Order`, which can be easily accessed in the back end of the database."
 msgstr ""
 
-#: ../../content/applications/marketing/events/sell_tickets.rst:-1
+#: ../../content/applications/marketing/events/sell_tickets.rst:None
 msgid "View of website transaction for Odoo Events."
 msgstr ""
 
@@ -2307,7 +2447,7 @@ msgstr ""
 msgid "The :guilabel:`Agenda` link takes the attendee to a page with all the talks for the event, but in a calendar/time-slot format."
 msgstr ""
 
-#: ../../content/applications/marketing/events/track_manage_talks.rst:-1
+#: ../../content/applications/marketing/events/track_manage_talks.rst:None
 msgid "View of the published website and the talks, talk proposals, and agenda in Odoo Events"
 msgstr ""
 
@@ -2323,7 +2463,7 @@ msgstr ""
 msgid "All talks (Proposals, Confirmed, Announced, etc.) are accessible via the :guilabel:`Tracks` smart button on the event form."
 msgstr ""
 
-#: ../../content/applications/marketing/events/track_manage_talks.rst:-1
+#: ../../content/applications/marketing/events/track_manage_talks.rst:None
 msgid "View of the talks' proposals page emphasizing the column proposal in Odoo Events."
 msgstr ""
 
@@ -2339,7 +2479,7 @@ msgstr ""
 msgid "Without publishing a talk, attendees will never be able to access it."
 msgstr ""
 
-#: ../../content/applications/marketing/events/track_manage_talks.rst:-1
+#: ../../content/applications/marketing/events/track_manage_talks.rst:None
 msgid "View of the website page to publish a proposed talk for Odoo Events."
 msgstr ""
 
@@ -2355,7 +2495,7 @@ msgstr ""
 msgid "When an attendee arrives at the event, they will be marked as attending (:guilabel:`Confirmed Attendance`), and the status of that attendee will change to :guilabel:`Attended.`"
 msgstr ""
 
-#: ../../content/applications/marketing/events/track_manage_talks.rst:-1
+#: ../../content/applications/marketing/events/track_manage_talks.rst:None
 msgid "Overview of events with the kanban view in Odoo Events."
 msgstr ""
 
@@ -2363,7 +2503,7 @@ msgstr ""
 msgid "When analyzing an :guilabel:`Attendees list`, Odoo provides different ways to view the information. Each view option presents the same information, but in a slightly different layout. To change the view, click on the icons in the upper right hand of the screen."
 msgstr ""
 
-#: ../../content/applications/marketing/events/track_manage_talks.rst:-1
+#: ../../content/applications/marketing/events/track_manage_talks.rst:None
 msgid "Various view options on the attendees list page."
 msgstr ""
 
@@ -2403,7 +2543,7 @@ msgstr ""
 msgid "From here, event badges can be sent manually, by selecting :guilabel:`Send By Email`. The :guilabel:`Attendee` can also be marked as :guilabel:`Attended`, or the registration can be canceled altogether via the :guilabel:`Cancel Registration` button."
 msgstr ""
 
-#: ../../content/applications/marketing/events/track_manage_talks.rst:-1
+#: ../../content/applications/marketing/events/track_manage_talks.rst:None
 msgid "View of an attendee form emphasizing the send by email and cancel registration in Odoo\n"
 "Events."
 msgstr ""
@@ -2424,7 +2564,7 @@ msgstr ""
 msgid "On the :guilabel:`Lead Generation Rule` page, every configured :guilabel:`Lead Generation Rule` can be found, along with pertinent data related to those rules."
 msgstr ""
 
-#: ../../content/applications/marketing/events/track_manage_talks.rst:-1
+#: ../../content/applications/marketing/events/track_manage_talks.rst:None
 msgid "How the Lead Generation Rule page looks in Odoo Events."
 msgstr ""
 
@@ -2432,7 +2572,7 @@ msgstr ""
 msgid "To create a new :guilabel:`Lead Generation Rule`, click :guilabel:`Create`, and fill out the :guilabel:`Lead Generation Rule` form."
 msgstr ""
 
-#: ../../content/applications/marketing/events/track_manage_talks.rst:-1
+#: ../../content/applications/marketing/events/track_manage_talks.rst:None
 msgid "How the Lead Generation Rule template looks in Odoo Events."
 msgstr ""
 
@@ -2567,7 +2707,7 @@ msgstr ""
 msgid ":guilabel:`Send an email to new leads and assign them a high priority if they open it.`"
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation.rst:-1
+#: ../../content/applications/marketing/marketing_automation.rst:None
 msgid "Six campaign template cards on the Campaigns dashboard of the Marketing Automation app."
 msgstr ""
 
@@ -2760,7 +2900,7 @@ msgstr ""
 msgid "To refine the :guilabel:`Filter` rules of a campaign, click the :guilabel:`➕ Add condition` button to reveal a new row with configurable rule parameters. See the :ref:`Search, filter, and group records <search/custom-filters>` documentation for more information on how to create filter rules."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/target_audience.rst:-1
+#: ../../content/applications/marketing/marketing_automation/target_audience.rst:None
 msgid "A new filter rule row on the campaign form Filters."
 msgstr ""
 
@@ -2864,7 +3004,7 @@ msgstr ""
 msgid "To start a test, click the :guilabel:`Launch a Test` button at the top of the campaign form, to the right of the :guilabel:`Start` button."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "Launch a test button on a campaign detail form in Odoo Marketing Automation."
 msgstr ""
 
@@ -2872,7 +3012,7 @@ msgstr ""
 msgid "When clicked, a :guilabel:`Launch a test` pop-up window appears."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "Launch a test pop-up window that appears in Odoo Markting Automation."
 msgstr ""
 
@@ -2888,7 +3028,7 @@ msgstr ""
 msgid "To create a new contact directly from the :guilabel:`Launch a test` pop-up window, start typing the name of the new contact in the blank field, and click :guilabel:`Create and edit...`."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "Typing in a new contact directly from the launch a test pop-up window in Odoo."
 msgstr ""
 
@@ -2896,7 +3036,7 @@ msgstr ""
 msgid "Doing so reveals a blank :guilabel:`Create Record` pop-up form, in which the necessary contact information (:guilabel:`Email`, :guilabel:`Mobile`, etc.) *must* be entered, in order for the test to work. When the necessary information is entered, click :guilabel:`Save & Close`."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "A blank contact form from a launch test pop-up window in Odoo Marketing Automation."
 msgstr ""
 
@@ -2908,7 +3048,7 @@ msgstr ""
 msgid "Once a contact is selected, click :guilabel:`Launch` to reveal the campaign test page."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "Test screen in Odoo Marketing Automation."
 msgstr ""
 
@@ -2924,7 +3064,7 @@ msgstr ""
 msgid "If a child activity is scheduled beneath a parent activity, that child activity will be revealed slightly indented in the workflow, once that parent activity has been run, via the :guilabel:`▶️ (play button)` icon."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "Workflow test progress in Odoo Marketing Automation."
 msgstr ""
 
@@ -2952,7 +3092,7 @@ msgstr ""
 msgid "Clicking :guilabel:`Start` launches the campaign, and the status bar of the campaign switches to :guilabel:`Running`, which is located in the upper-right corner of the campaign detail form."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "The status of a marketing campaign changing to running in the upper-right corner."
 msgstr ""
 
@@ -2960,7 +3100,7 @@ msgstr ""
 msgid "If some participants are already running on a campaign, and was stopped for any reason, clicking the :guilabel:`Start` button again prompts a pop-up warning. This warning advises the user to click an :guilabel:`Update` button to apply any modifications made to the campaign."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "The workflow has been modified warning pop-up window of a marketing campaign form."
 msgstr ""
 
@@ -2976,7 +3116,7 @@ msgstr ""
 msgid "These analytical smart buttons will *also* populate with real-time data as the campaign progresses: :guilabel:`Templates`, :guilabel:`Clicks`, :guilabel:`Tests`, :guilabel:`Participants`."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "The row of smart buttons that appear in a currently running marketing campaign in Odoo."
 msgstr ""
 
@@ -2988,7 +3128,7 @@ msgstr ""
 msgid "To stop a campaign that's currently running, navigate to the :menuselection:`Marketing Automation app`, and select the desired campaign to stop. On the campaign detail form, click the :guilabel:`Stop` button in the upper-left corner."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "The stop button on a typical campaign detail form in Odoo Marketing Automation application."
 msgstr ""
 
@@ -2996,7 +3136,7 @@ msgstr ""
 msgid "When clicked, the campaign is officially stopped, and the status changes to :guilabel:`Stopped` in the upper-right corner of the campaign detail form."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/testing_running.rst:-1
+#: ../../content/applications/marketing/marketing_automation/testing_running.rst:None
 msgid "Marketing campaign's stopped status on a campaign detail form in Odoo Marketing Automation."
 msgstr ""
 
@@ -3025,7 +3165,7 @@ msgstr ""
 msgid "In the :guilabel:`Workflow` section of a campaign detail form in the *Marketing Automation* app, where the various campaign activities are located, a collection of useful data can be found on every individual activity block, like number of communications :guilabel:`Sent`, percentage of messages that have been :guilabel:`Clicked`, and more."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:-1
+#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:None
 msgid "An activity block in the workflow section with useful analytical data in Odoo."
 msgstr ""
 
@@ -3093,8 +3233,8 @@ msgstr ""
 msgid "Next to the :guilabel:`Graph` tab on the activity block, there's the option to open a :guilabel:`Filter` tab (represented by a :guilabel:`filter/funnel` icon)."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:-1
-#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:-1
+#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:None
+#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:None
 msgid "What a campaign activity filter tab looks like in Odoo Marketing Automation."
 msgstr ""
 
@@ -3140,7 +3280,7 @@ msgstr ""
 msgid "Odoo tracks all activities used in every marketing campaign. The data related to these activities can be accessed and analyzed in the :guilabel:`Traces` page, which can be found by navigating to :menuselection:`Marketing Automation app --> Reporting --> Traces`."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:-1
+#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:None
 msgid "The Traces page in the Odoo Marketing Automation application."
 msgstr ""
 
@@ -3164,7 +3304,7 @@ msgstr ""
 msgid "Odoo tracks all participants related to every marketing campaign. The data related to these participants can be accessed and analyzed in the :guilabel:`Participants` page, which can be found by navigating to :menuselection:`Marketing Automation app --> Reporting --> Participants`."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:-1
+#: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:None
 msgid "The Participants page in the Odoo Marketing Automation application."
 msgstr ""
 
@@ -3216,7 +3356,7 @@ msgstr ""
 msgid "Once the activity is fully configured, click :guilabel:`Save & Close` to add it to the campaign's workflow, or click :guilabel:`Save & New` to add the activity to the workflow and open a new :guilabel:`Create Activities` pop-up window to add another activity. Clicking :guilabel:`Discard` closes the pop-up window without saving the activity."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:-1
+#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:None
 msgid "The create activities pop-up window."
 msgstr ""
 
@@ -3241,8 +3381,8 @@ msgstr ""
 msgid "To create a new template directly from the :guilabel:`Mail Template` field, start typing the title of the new template, then select :guilabel:`Create and edit...` to reveal a :guilabel:`Create Marketing Template` pop-up window. Proceed to create and configure the new email template."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:-1
-#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:-1
+#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:None
+#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:None
 msgid "The create and edit email drop-down option on create activities pop-up window."
 msgstr ""
 
@@ -3266,7 +3406,7 @@ msgstr ""
 msgid "If :guilabel:`Server Action` is selected as the :guilabel:`Activity Type`, the option to :guilabel:`Pick a Server Action` in the :guilabel:`Server Action` field is available. This field is a drop-down menu containing all the pre-configured server actions for the campaign's :guilabel:`Target` model. Optionally, :ref:`create a new server action <marketing_automation/create-sa>`."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:-1
+#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:None
 msgid "The Server Action drop-down menu on create activities pop-up window."
 msgstr ""
 
@@ -3286,7 +3426,7 @@ msgstr ""
 msgid "The option to create a new server action is also available. To do so, type in the :guilabel:`Server Action` field a title for the new action, then click :guilabel:`Create and edit...`. Doing so reveals a blank :guilabel:`Create Server Action` pop-up window, wherein a custom server action can be created and configured."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:-1
+#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:None
 msgid "The Create Server Action pop-up window."
 msgstr ""
 
@@ -3367,7 +3507,7 @@ msgstr ""
 msgid "Once an :ref:`activity type <marketing_automation/activity-types>` is configured, the next step in the :guilabel:`Create Activities` pop-up window is to define when the activity should be executed. This is done in the :guilabel:`Trigger` field group."
 msgstr ""
 
-#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:-1
+#: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:None
 msgid "The trigger field group on Create Activities pop-up window."
 msgstr ""
 
@@ -3611,7 +3751,7 @@ msgstr ""
 msgid "Click :menuselection:`Mailing Lists --> Mailing Lists` to see an overview of all mailing lists in the database."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:None
 msgid "View of the main SMS mailing list page on the Odoo SMS Marketing application."
 msgstr ""
 
@@ -3623,7 +3763,7 @@ msgstr ""
 msgid "To create a new mailing list, click :guilabel:`Create` in the upper left corner of the :guilabel:`Mailing Lists` page. Doing so, will reveal a blank mailing list template form."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:None
 msgid "View of the mailing list pop-up window in Odoo SMS Marketing."
 msgstr ""
 
@@ -3655,7 +3795,7 @@ msgstr ""
 msgid "To make changes to the mailing list itself, click the :guilabel:`Edit` button in the upper-left corner of the mailing list detail form."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:None
 msgid "View of the mailing list template form in Odoo SMS Marketing."
 msgstr ""
 
@@ -3671,7 +3811,7 @@ msgstr ""
 msgid "Access contacts information from one or more mailing lists navigate to :menuselection:`Mailing Lists --> Mailing List Contacts` to reveal a dashboard with with all the contacts associated with one or more of the configured mailing lists in the database."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:None
 msgid "View of the mailing lists contact page in the Odoo SMS Marketing application."
 msgstr ""
 
@@ -3695,7 +3835,7 @@ msgstr ""
 msgid "For example, sales representatives can use the chatter to quickly find out which :abbr:`SMS (Short Message Service)` mailing promotions a certain customer has received (or not received)."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:None
 msgid "View of what the chatter looks like in the Odoo Contacts app."
 msgstr ""
 
@@ -3711,8 +3851,8 @@ msgstr ""
 msgid "To see a complete collection of blacklisted numbers, navigate to the :menuselection:`SMS Marketing app --> Configuration --> Blacklisted Phone Numbers` to reveal a dashboard containing every blacklisted phone number in the database."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:-1
-#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:None
+#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:None
 msgid "SMS Blacklist menu in the application."
 msgstr ""
 
@@ -3736,7 +3876,7 @@ msgstr ""
 msgid "To do that, navigate to :menuselection:`SMS Marketing app --> Configuration --> Blacklisted Phone Numbers`, and then select the :guilabel:`Favorites` drop-down menu (beneath the search bar), and click :guilabel:`Import records`."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst:None
 msgid "View of how to import a blacklist in Odoo SMS Marketing."
 msgstr ""
 
@@ -3760,7 +3900,7 @@ msgstr ""
 msgid "To enable :abbr:`SMS (Short Message Service)` campaigns in Odoo, make sure the *Mailing Campaigns* feature is activated by going to :menuselection:`Email Marketing --> Configuration --> Settings`, and then enable :guilabel:`Mailing Campaigns` and :guilabel:`Save` the changes."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:None
 msgid "View of the mailing campaigns setting in Odoo."
 msgstr ""
 
@@ -3788,7 +3928,7 @@ msgstr ""
 msgid "When clicked, a series of other options appear."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:None
 msgid "The A/B Test tab is located on an Odoo SMS Marketing app campaign form."
 msgstr ""
 
@@ -3825,7 +3965,7 @@ msgstr ""
 msgid "To create, edit, or analyze any campaign, click :menuselection:`Campaigns` in the header menu of the :guilabel:`SMS Marketing` app. On the :guilabel:`Campaigns` page, each campaign displays various information related to the mailings associated with that campaign (e.g. number of emails, social posts, SMSs, and push notifications)."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:None
 msgid "Dasbhoard view of different Campaigns in the Odoo SMS Marketing app, separated by stage."
 msgstr ""
 
@@ -3833,7 +3973,7 @@ msgstr ""
 msgid "Click :guilabel:`Create` to create a new campaign, and Odoo reveals a blank campaign template form to fill out. Alternatively, select any previously-made campaign in order to duplicate, review, or edit its campaign template form."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:None
 msgid "View of an SMS campaign template in Odoo SMS marketing."
 msgstr ""
 
@@ -3865,7 +4005,7 @@ msgstr ""
 msgid "In order to send an :abbr:`SMS (Short Message Service)` in this fashion, navigate to the :menuselection:`Contacts` app, select the desired contact in the database, and click on the :guilabel:`SMS` icon on the contact form (next to the :guilabel:`Phone Number` field)."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:None
 msgid "The SMS icon is located on an individual's contact form in Odoo Contacts."
 msgstr ""
 
@@ -3873,7 +4013,7 @@ msgstr ""
 msgid "To send a message to multiple contacts at once, navigate to the main :menuselection:`Contacts` app main dashboard, choose the :guilabel:`List View`, and select all the desired contacts to whom the message should be sent. Then, under :guilabel:`Action`, select :guilabel:`Send SMS`."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:None
 msgid "Select a number of contacts, click action, and select send multiple SMSs."
 msgstr ""
 
@@ -3893,7 +4033,7 @@ msgstr ""
 msgid "Next return to the :menuselection:`Settings app` and, in the now-visible header menus at the top, choose :menuselection:`Technical --> SMS Templates` to begin setting up :abbr:`SMS (Short Message Service)` templates for future marketing campaigns."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:None
 msgid "Select the SMS Template option in the Technical dropdown on the Settings app."
 msgstr ""
 
@@ -3905,7 +4045,7 @@ msgstr ""
 msgid "On this page, :abbr:`SMS (Short Message Service)` templates can be edited or created from scratch."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst:None
 msgid "The SMS Templates page in Odoo is available after enabling developer mode in the General\n"
 "Settings"
 msgstr ""
@@ -3962,7 +4102,7 @@ msgstr ""
 msgid "To start, click :guilabel:`Create` on the main :guilabel:`SMS Marketing` dashboard, and Odoo reveals a blank SMS template form, which can be configured in a number of different ways."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:None
 msgid "Creating an SMS marketing template."
 msgstr ""
 
@@ -3982,7 +4122,7 @@ msgstr ""
 msgid "To learn more about mailing lists and contacts, check out :doc:`mailing_lists_blacklists`."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:None
 msgid "View of the mailing list page in the SMS marketing application."
 msgstr ""
 
@@ -4026,7 +4166,7 @@ msgstr ""
 msgid "To check the price of sending an :abbr:`SMS (Short Message Service)` for a country, click on the :guilabel:`Information` icon."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:None
 msgid "SMS price check icon."
 msgstr ""
 
@@ -4046,7 +4186,7 @@ msgstr ""
 msgid "When links are used in :abbr:`SMS (Short Message Service)` messages, Odoo automatically generates link trackers to gather analytical data and metrics related to those specific links, which can be found by going to :menuselection:`Configuration --> Link Tracker`."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:None
 msgid "SMS Link Tracker page."
 msgstr ""
 
@@ -4062,7 +4202,7 @@ msgstr ""
 msgid "An employee can be designated as the :guilabel:`Responsible` in the :guilabel:`Tracking` section of the :guilabel:`Settings` tab, as well."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:None
 msgid "SMS Settings tab."
 msgstr ""
 
@@ -4102,7 +4242,7 @@ msgstr ""
 msgid "For example, while in the default :guilabel:`Graph` view, :abbr:`SMS (Short Message Service)` data is visualized as different graphs and charts, which can be sorted and grouped in various ways (e.g. :guilabel:`Measures` drop down menu)."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:None
 msgid "Reporting page in SMS Marketing."
 msgstr ""
 
@@ -4222,7 +4362,7 @@ msgstr ""
 msgid "Next, set the :guilabel:`SMS Template` and choose whether the SMS message should be logged as a note, by making a selection in the drop-down menu: :guilabel:`Send SMS as`. Click :guilabel:`Save and Close` to save the changes to this new action."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:-1
+#: ../../content/applications/marketing/sms_marketing/essentials/sms_essentials.rst:None
 msgid "Automation rule template with rule to do, SMS template and log as note highlighted."
 msgstr ""
 
@@ -4270,7 +4410,7 @@ msgstr ""
 msgid "**GSM7** is the standard format, with a limit of 160 characters per message, that includes the following characters:"
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:-1
+#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:None
 msgid "GSM7 characters available in Odoo SMS Marketing."
 msgstr ""
 
@@ -4294,7 +4434,7 @@ msgstr ""
 msgid "The number of SMSs a message represents will always be available in the database."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:-1
+#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:None
 msgid "Number of GSM7 characters that fit in an SMS message in Odoo SMS Marketing."
 msgstr ""
 
@@ -4306,7 +4446,7 @@ msgstr ""
 msgid "Go to :menuselection:`Settings --> Buy Credits`."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:-1
+#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:None
 msgid "Buying credits for SMS Marketing in Odoo settings."
 msgstr ""
 
@@ -4314,7 +4454,7 @@ msgstr ""
 msgid "Or go to :menuselection:`Settings --> View my Services`."
 msgstr ""
 
-#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:-1
+#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:None
 msgid "Using Odoo IAP to recharge credits for SMS Marketing in Odoo settings."
 msgstr ""
 
@@ -4446,8 +4586,8 @@ msgstr ""
 msgid "To access a complete overview of all social marketing campaigns, open the :menuselection:`Social Marketing` application, and click :menuselection:`Campaigns` from the header menu. Doing so reveals a separate page with every campaign in a default kanban view."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_campaigns.rst:-1
-#: ../../content/applications/marketing/social_marketing/essentials/social_campaigns.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_campaigns.rst:None
+#: ../../content/applications/marketing/social_marketing/essentials/social_campaigns.rst:None
 msgid "View of the campaigns page in the Odoo Social Marketing application."
 msgstr ""
 
@@ -4495,7 +4635,7 @@ msgstr ""
 msgid "Both options reveal a new campaign detail window directly on the :guilabel:`Campaigns` dashboard when clicked."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_campaigns.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_campaigns.rst:None
 msgid "View of the quick add option for campaigns in Odoo Social Marketing."
 msgstr ""
 
@@ -4535,7 +4675,7 @@ msgstr ""
 msgid "On a *Campaign Template* page, numerous elements can be customized/modified, and various forms of communications can be created, modified, and sent or scheduled. Below is a sample of a completed campaign template."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_campaigns.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_campaigns.rst:None
 msgid "View of a sample campaign template page in Odoo Social Marketing."
 msgstr ""
 
@@ -4639,7 +4779,7 @@ msgstr ""
 msgid "To add a social media business account as a stream, navigate to :menuselection:`Social Marketing app` and select the :guilabel:`Add A Stream` button located in the upper-left corner. Doing so reveals an :guilabel:`Add a Stream` pop-up window."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "View of the pop-up window that appears when Add a Stream is selected in Odoo."
 msgstr ""
 
@@ -4651,7 +4791,7 @@ msgstr ""
 msgid "After clicking the desired social media outlet from the :guilabel:`Add a Stream` pop-up window, Odoo navigates directly to that specific social media outlet's authorization page, where permission must be granted, in order for Odoo to add that particular social media account as a stream to the *Social Marketing* application."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Sample of a populated social marketing dashboard with social media streams and content."
 msgstr ""
 
@@ -4675,7 +4815,7 @@ msgstr ""
 msgid "Clicking on a post from a social media stream reveals a pop-up window, showcasing the content of that specific post, along with all the engagement data related to it (e.g. likes, comments, etc.)."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Sample of a social media post's pop-up window in Odoo Social Marketing application."
 msgstr ""
 
@@ -4699,7 +4839,7 @@ msgstr ""
 msgid "Doing so reveals a drop-down menu with the option: :guilabel:`Create Lead`."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "The drop-down menu beside a comment revealing the option to create a lead."
 msgstr ""
 
@@ -4707,7 +4847,7 @@ msgstr ""
 msgid "Upon clicking :guilabel:`Create Lead` from the comment's drop-down menu, a :guilabel:`Conver Post to Lead` pop-up window appears."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "The convert post to lead pop-up window that appears in Odoo Social Marketing."
 msgstr ""
 
@@ -4723,7 +4863,7 @@ msgstr ""
 msgid "Once the desired selection has been made, click the :guilabel:`Convert` button at the bottom of the :guilabel:`Convert Post to Lead` pop-up window. Doing so reveals a fresh lead detail form, where the necessary information can be entered and processed."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "New lead detail form generated from a social media comment in Odoo Social Marketing."
 msgstr ""
 
@@ -4739,7 +4879,7 @@ msgstr ""
 msgid "To get redirected to the statistics and metrics related to any social media account's KPIs, click on the :guilabel:`Insights` link, located at the top of each stream."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Visual of how the Insights link appears on the dashboard of the Social Marketing app."
 msgstr ""
 
@@ -4767,7 +4907,7 @@ msgstr ""
 msgid "To create content for social media accounts, navigated to the :menuselection:`Social Marketing app`, and click :guilabel:`New Post` located in the upper-right corner of the *Social Marketing* dashboard."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "New Post button on the main dashboard of the Odoo Social Marketing application."
 msgstr ""
 
@@ -4775,7 +4915,7 @@ msgstr ""
 msgid "Or, navigate to :menuselection:`Social Marketing app --> Posts` and click the :guilabel:`New` button."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "New button on the Social Posts page in the Odoo Social Marketing application."
 msgstr ""
 
@@ -4783,7 +4923,7 @@ msgstr ""
 msgid "Either route reveals a blank social media post detail form that can be customized and configured in a number of different ways."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Blank social media post detail page in Odoo Social Marketing."
 msgstr ""
 
@@ -4839,7 +4979,7 @@ msgstr ""
 msgid "In the :guilabel:`Message` field, type in the desired message for the social post. After typing, click away from the :guilabel:`Message` field to reveal visual samples of how the post will look on all the previously selected social media accounts (and/or websites, as push notifications)."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Sample social media post with visual samples of how it will appear on social media outlets."
 msgstr ""
 
@@ -4863,7 +5003,7 @@ msgstr ""
 msgid "After successfully uploading and attaching the desired image, Odoo reveals a new preview of the social media post, complete with the newly-added image, on the right side of the detail form."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Visualized samples of post with newly-attached images in Odoo Social Marketing."
 msgstr ""
 
@@ -4883,7 +5023,7 @@ msgstr ""
 msgid "To create a new campaign directly from the social media post detail form, start typing the name of the new campaign in the blank :guilabel:`Campaign` field, and select either :guilabel:`Create` or :guilabel:`Create and edit...`."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Drop-down menu options of Create or Create and edit in the Campaign field."
 msgstr ""
 
@@ -4895,7 +5035,7 @@ msgstr ""
 msgid "Clicking :guilabel:`Create and edit...` creates the campaign, and reveals a :guilabel:`Create Campaign` pop-up form, wherein the :guilabel:`Campaign Identifier`, :guilabel:`Responsible`, and :guilabel:`Tags` can be instantly configured."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Create campaign pop-up window that appears on a social media post detail form."
 msgstr ""
 
@@ -4915,7 +5055,7 @@ msgstr ""
 msgid "If :guilabel:`Schedule later` is selected, a new :guilabel:`Scheduled Date` field appears. Clicking the empty field reveals a pop-up calendar, in which a future date and time can be designated."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Schedule date pop-up window that appears on social media post detail form in Odoo."
 msgstr ""
 
@@ -4939,7 +5079,7 @@ msgstr ""
 msgid "If one (or multiple) :guilabel:`[Push Notification]` options are chosen in the :guilabel:`Post on` field, a specific :guilabel:`Push Notification Options` section appears at the bottom of the social media post detail form."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Push notification options section on a social media post detail form."
 msgstr ""
 
@@ -4987,7 +5127,7 @@ msgstr ""
 msgid "In this equation-like rule field, specifiy the specific criteria Odoo should take into account when sending this post to a particular target audience."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "Push notification conditions set up to match a specific amount of records in the database."
 msgstr ""
 
@@ -5119,7 +5259,7 @@ msgstr ""
 msgid "To see a complete overview of all the people who have visited the website(s) connected to the database, navigate to :menuselection:`Social Marketing app --> Visitors`."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "View of the Visitors page in the Odoo Social Marketing application."
 msgstr ""
 
@@ -5143,7 +5283,7 @@ msgstr ""
 msgid "On the :guilabel:`Social Media` page there is a collection of all social media options, each complete with a :guilabel:`Link account` button: :guilabel:`Facebook`, :guilabel:`Instagram`, :guilabel:`LinkedIn`, :guilabel:`Twitter`, :guilabel:`YouTube`, and :guilabel:`Push Notifications`."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "View of the social media page in the Odoo Social Marketing application."
 msgstr ""
 
@@ -5155,8 +5295,8 @@ msgstr ""
 msgid "To see a list of all social accounts and websites linked to the database, go to :menuselection:`Social Marketing app --> Configuration --> Social Accounts`. This :guilabel:`Social Accounts` display the :guilabel:`Name`, the :guilabel:`Handle/Short Name`, the :guilabel:`Social Media` platform, who it was :guilabel:`Created by`, and the :guilabel:`Company` to which it is associated."
 msgstr ""
 
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
-#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:-1
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
+#: ../../content/applications/marketing/social_marketing/essentials/social_essentials.rst:None
 msgid "View of the social accounts page in the Odoo Social Marketing application."
 msgstr ""
 
@@ -5208,7 +5348,7 @@ msgstr ""
 msgid "Upon opening the *Surveys* application, Odoo presents the main dashboard of the *Surveys* application, otherwise known as the :guilabel:`Surveys` page."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:-1
+#: ../../content/applications/marketing/surveys.rst:None
 msgid "The Odoo Surveys application dashboard in the default Kanban view."
 msgstr ""
 
@@ -5298,7 +5438,7 @@ msgid "Once modifications are complete, click :guilabel:`Send` to send that emai
 msgstr ""
 
 #: ../../content/applications/marketing/surveys.rst:0
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "The 'Share a Survey' pop-up window in Odoo Surveys with the Send by Email toggled on."
 msgstr ""
 
@@ -5358,7 +5498,7 @@ msgstr ""
 msgid ":guilabel:`Color`: users can opt to choose a color to add to the survey line on the dashboard for added organizational purposes, if needed."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:-1
+#: ../../content/applications/marketing/surveys.rst:None
 msgid "The three-dot drop-down menu of options that appears on the Odoo Surveys dashboard."
 msgstr ""
 
@@ -5366,7 +5506,7 @@ msgstr ""
 msgid "Beneath the buttons that are located to the far-right of the survey lines, there is an *Activities* button, represented by a :guilabel:`🕘 (clock)` icon. When clicked, a mini pop-up window appears, from which activities related to that particular survey can be scheduled and customized."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:-1
+#: ../../content/applications/marketing/surveys.rst:None
 msgid "The Schedule Activities drop-down menu that appears on the Odoo Surveys dashboard."
 msgstr ""
 
@@ -5378,7 +5518,7 @@ msgstr ""
 msgid "When the :guilabel:`≣ (bars)` icon is clicked, the survey related data is displayed in a list view."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:-1
+#: ../../content/applications/marketing/surveys.rst:None
 msgid "The list view option located on the Odoo Surveys application dashboard."
 msgstr ""
 
@@ -5422,7 +5562,7 @@ msgstr ""
 msgid "To have the *Surveys* application dashboard display nothing but the activities associated to the surveys in the database, click the :guilabel:`🕘 (clock)` icon to the far-right of the other view options, located in the upper-right corner."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:-1
+#: ../../content/applications/marketing/surveys.rst:None
 msgid "The activities view option located on the Odoo Surveys dashboard."
 msgstr ""
 
@@ -5470,7 +5610,7 @@ msgstr ""
 msgid "On the :guilabel:`Surveys` dashboard, to the far-right of each survey line displayed in the default list view, there is a :guilabel:`See results` button."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The 'See Results' button present on the main dashboard of the Odoo Surveys application."
 msgstr ""
 
@@ -5478,7 +5618,7 @@ msgstr ""
 msgid "When the :guilabel:`See results` button is clicked, a new browser tab opens, revealing a separate page filled with all of that particular survey's results and responses, with an informative :guilabel:`Results Overview` and some filtering drop-down menus at the top."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "Typical survey results page when 'See results' is clicked from the Odoo Surveys dashboard."
 msgstr ""
 
@@ -5502,7 +5642,7 @@ msgstr ""
 msgid "When that drop-down menu is clicked open, another option, :guilabel:`Completed surveys`, appears."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The 'All surveys' drop-down menu opened on the 'See results' page of the Odoo Surveys app."
 msgstr ""
 
@@ -5526,7 +5666,7 @@ msgstr ""
 msgid "When that second drop-down menu of filter options is clicked open, two additional options appear: :guilabel:`Passed only` and :guilabel:`Failed only`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The 'Passed and Failed' drop-down menu on the 'See results' page of the Odoo Surveys app."
 msgstr ""
 
@@ -5542,7 +5682,7 @@ msgstr ""
 msgid "The :guilabel:`Results Overview` section is below the survey title, filter option drop-down menus, and :guilabel:`Print` button."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The 'Results Overview' section on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5574,7 +5714,7 @@ msgstr ""
 msgid "To the far-right of the question, there are indicators to see how many participants :guilabel:`Responded` and how many :guilabel:`Skipped` the question."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The Responded and Skipped indicators on the 'See results' page in Odoo Surveys."
 msgstr ""
 
@@ -5582,7 +5722,7 @@ msgstr ""
 msgid "If the question required the participant to enter in their own answer, without any options to choose from, like entering a specific number or date, for example, there is also an indicator to showcase how many users answered the question :guilabel:`Correct`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "Sample of a 'correct' indicator on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5598,7 +5738,7 @@ msgstr ""
 msgid "If there is only one correct response to a multiple choice question, those results and responses are represented by a :guilabel:`Pie Graph`. The correct answer is indicated by a :guilabel:`✔️ (checkmark)` icon next to the correct answer option, in the legend above the graph."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "Typical pie graph results on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5606,7 +5746,7 @@ msgstr ""
 msgid "If there are multiple correct answer options (or no correct answers at all) for a multiple choice question, those results and responses are represented by a :guilabel:`Bar Graph`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "Typical bar graph results on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5618,7 +5758,7 @@ msgstr ""
 msgid "The :guilabel:`Data` tab shows all the provided :guilabel:`Answer` options for the question. The :guilabel:`User Choice` (with percentages and votes) along with the :guilabel:`Score` of each option."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "Typical 'Data' tab on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5630,7 +5770,7 @@ msgstr ""
 msgid "The :guilabel:`Most Common` tab shows the :guilabel:`User Responses`, the :guilabel:`Occurrence`, and the :guilabel:`Score` (if applicable)."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "Typical 'Most Common' tab on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5638,7 +5778,7 @@ msgstr ""
 msgid "The :guilabel:`All Data` tab shows a list of all the submitted responses to that particular question."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "Typical 'All Data' tab on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5646,7 +5786,7 @@ msgstr ""
 msgid "If a question is looking for participants to enter a numerical value as a response, :guilabel:`Maximum`, :guilabel:`Minimum`, and :guilabel:`Average` indicators appear to the far-right of the results tabs."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The Maximum, Minimum, and Average indicators on the 'See results' page in Odoo Surveys."
 msgstr ""
 
@@ -5654,7 +5794,7 @@ msgstr ""
 msgid "A :guilabel:`filter` icon is also present either to the right of the :guilabel:`User Choice` column in a :guilabel:`Data` tab, or to the far-right of a :guilabel:`User Response` line in an :guilabel:`All Data` tab."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "Typical 'Filter' icon on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5662,7 +5802,7 @@ msgstr ""
 msgid "When that :guilabel:`filter` icon is clicked, Odoo returns the user to the top of the results page, with that chosen filter applied, showing the results of each question for participants who submitted that particular answer for that specific question."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The applied filter on the 'See results' page in the Odoo Surveys application."
 msgstr ""
 
@@ -5678,7 +5818,7 @@ msgstr ""
 msgid "To view a consolidated list of participation results for a specific survey, navigate to :menuselection:`Surveys app`, select the desired survey from the list, and click the :guilabel:`Participations` smart button at the top of the survey form."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The Participations smart button at the top of a survey form in Odoo Surveys."
 msgstr ""
 
@@ -5686,7 +5826,7 @@ msgstr ""
 msgid "Doing so reveals a separate :guilabel:`Participations` page, showcasing the participants for that specific survey, along with a collection of pertinent information related to each one."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The Participations page for a singular survey in the Odoo Surveys application."
 msgstr ""
 
@@ -5694,7 +5834,7 @@ msgstr ""
 msgid "Here, users can view information related to individual participants who took that specific survey. If they desire to see a more detailed breakdown of their various answers and responses, they can click on any participant, and Odoo reveals a separate page showing that participant's survey details, along with their submitted answers."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "An individual participant's detail form in the Odoo Surveys application."
 msgstr ""
 
@@ -5702,7 +5842,7 @@ msgstr ""
 msgid "To view a consolidated list of all participants of every survey in the database, navigate to :menuselection:`Surveys app --> Participations`. Here, every survey in the database is shown in a default nested list. Beside each survey title has the number of participants in parenthesis."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The Participations page for all surveys in the Odoo Surveys application."
 msgstr ""
 
@@ -5714,7 +5854,7 @@ msgstr ""
 msgid "The :guilabel:`Participations` page can also be viewed in a Kanban layout, as well."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/analysis.rst:-1
+#: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid "The Participations page in the Kanban view in the Odoo Surveys application."
 msgstr ""
 
@@ -5745,7 +5885,7 @@ msgstr ""
 msgid "Survey form"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "How a blank survey form looks in the Odoo Surveys application."
 msgstr ""
 
@@ -5816,7 +5956,7 @@ msgstr ""
 msgid "Indicate whether questions require a mandatory answer by clicking the :guilabel:`(optional columns)` icon to the far-right of the column titles. Then, select :guilabel:`Mandatory Answer` from the drop-down menu to reveal the :guilabel:`Mandatory Answer` column in the :guilabel:`Questions` tab."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "The slider drop-down menu with the Mandatory Answer option selected in Odoo Surveys."
 msgstr ""
 
@@ -5888,7 +6028,7 @@ msgstr ""
 msgid "Questions section"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "The Questions section of the Options tab on a survey form in Odoo Surveys."
 msgstr ""
 
@@ -5933,7 +6073,7 @@ msgstr ""
 msgid "Time & Scoring section"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "The Time and Scoring section of the Options tab on a survey form in Odoo Surveys."
 msgstr ""
 
@@ -5978,7 +6118,7 @@ msgstr ""
 msgid "Participants section"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "The Participants section of the Options tab on a survey form in Odoo Surveys."
 msgstr ""
 
@@ -5999,7 +6139,7 @@ msgstr ""
 msgid "Live Session section"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "The Live Session section of the Options tab on a survey form in Odoo Surveys."
 msgstr ""
 
@@ -6060,7 +6200,7 @@ msgstr ""
 msgid "Once the survey has been configured properly, and questions have been added, the user can utilize any of the available buttons in the upper-left corner of the survey form."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "The various buttons on a survey form in Odoo Surveys."
 msgstr ""
 
@@ -6072,7 +6212,7 @@ msgstr ""
 msgid ":guilabel:`Share`: click to reveal a :guilabel:`Share a Survey` pop-up form that can be used to invite potential participants to the survey — complete with a :guilabel:`Survey Link` that can be copied and sent to potential participants, and a :guilabel:`Send by Email` toggle switch."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/create.rst:-1
+#: ../../content/applications/marketing/surveys/create.rst:None
 msgid "The 'Share a Survey' pop-up window that appears in the Odoo Surveys application."
 msgstr ""
 
@@ -6142,7 +6282,7 @@ msgstr ""
 msgid "Then, the audience of participants submit their answer, either via their computer or mobile device, and once the responses have been gathered, the host reveals all the participant's responses, in real time, with each answer's results displayed as a bar graph."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/live_session.rst:-1
+#: ../../content/applications/marketing/surveys/live_session.rst:None
 msgid "Rendered concept of how a Live Session question and answer result appears in Odoo Surveys."
 msgstr ""
 
@@ -6178,7 +6318,7 @@ msgstr ""
 msgid "When the :guilabel:`Question Time Limit` option is enabled, a new field appears beside it, wherein the user **must** enter the desired amount of time (in seconds) the participant gets to answer the question."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/live_session.rst:-1
+#: ../../content/applications/marketing/surveys/live_session.rst:None
 msgid "The Live Session question time limit option for questions in the Odoo Surveys application."
 msgstr ""
 
@@ -6366,7 +6506,7 @@ msgstr ""
 msgid "In the :guilabel:`Candidates` section, participants can be required to log in to take the survey. If the :guilabel:`Login Required` setting is enabled, two new options appear: the :guilabel:`Attempts Limit` checkbox, which limits the number of times a participant can attempt the survey, and the option to :guilabel:`Give Badge`, located beneath the :guilabel:`Certification` options in the :guilabel:`Scoring` section."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/scoring.rst:-1
+#: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Setting the Required Score (percentage), login required, and certification template."
 msgstr ""
 
@@ -6374,7 +6514,7 @@ msgstr ""
 msgid "Badges are displayed on the eLearning portion of a given user's portal, and are a way to set milestones and reward participants for passing surveys or gaining points. Besides the awardee, website visitors who access the :guilabel:`Courses` page will also be able to see the granted badges."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/scoring.rst:-1
+#: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr ""
 
@@ -6407,7 +6547,7 @@ msgstr ""
 msgid "To reveal the :guilabel:`Mandatory Answer` column on the :guilabel:`Questions` tab, which indicates if questions require a mandatory answer or not, click the :guilabel:`(optional columns)` icon located to the far-right of the column titles."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The slider drop-down menu showing the Mandatory Answer option in Odoo Surveys."
 msgstr ""
 
@@ -6439,7 +6579,7 @@ msgstr ""
 msgid "Create Sections and Questions pop-up window"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The Create Sections and Questions pop-up form in Odoo Surveys."
 msgstr ""
 
@@ -6519,7 +6659,7 @@ msgstr ""
 msgid "If the :guilabel:`Single Line Text Box` is selected as the :guilabel:`Question Type`, the :guilabel:`Answers` tab remains, although it only provides two checkbox options: :guilabel:`Input must be an email` and :guilabel:`Save as user nickname`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The Single Line Text box question type answers tab in Odoo Surveys."
 msgstr ""
 
@@ -6535,7 +6675,7 @@ msgstr ""
 msgid "For all other applicable :guilabel:`Question Type` options that provide answer options to the participant, the :guilabel:`Answers` tab appears the same."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The answer tab with a multiple choice answer option selected in Odoo Surveys."
 msgstr ""
 
@@ -6571,7 +6711,7 @@ msgstr ""
 msgid "An exception to that is if the :guilabel:`Matrix` option is selected as the :guilabel:`Question Type`. If that's chosen, the :guilabel:`Answers` tab remains, but below the typical :guilabel:`Choices` section, there is a :guilabel:`Rows` section. That's because the :guilabel:`Matrix` option provides an answer table for participants to fill out."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The answer tab with a matrix question type selected in Odoo Surveys."
 msgstr ""
 
@@ -6607,7 +6747,7 @@ msgstr ""
 msgid "When enabled, two additional fields appear: :guilabel:`Comment Message` and :guilabel:`Comment is an answer`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The answers section of the options tab when a multiple choice question type is selected."
 msgstr ""
 
@@ -6627,7 +6767,7 @@ msgstr ""
 msgid "If the selected :guilabel:`Question Type` is :guilabel:`Multiple Lines Text Box`, a :guilabel:`Placeholder` field appears in the :guilabel:`Answers` section of the :guilabel:`Options` tab."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The placeholder field when a multiple lines text box option is chosen in Odoo Surveys."
 msgstr ""
 
@@ -6648,7 +6788,7 @@ msgstr ""
 msgid "If the :guilabel:`Validate Entry` option is enabled, two additional fields appear beneath: :guilabel:`Min/Max Limits` and :guilabel:`Validation Error`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The answers section of the option tab when a single line text box question type is chosen."
 msgstr ""
 
@@ -6668,7 +6808,7 @@ msgstr ""
 msgid "The :guilabel:`Constraints` section in the :guilabel:`Options` tab is the same, regardless of the selected :guilabel:`Question Type`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The Constraints section in the options tab in Odoo Surveys."
 msgstr ""
 
@@ -6700,7 +6840,7 @@ msgstr ""
 msgid "There is only one field in the :guilabel:`Conditional Display` section: :guilabel:`Triggering Answers`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The Conditional Display section of the options tab in the Odoo Surveys application."
 msgstr ""
 
@@ -6720,7 +6860,7 @@ msgstr ""
 msgid "There is only one option available in the :guilabel:`Live Sessions` section: :guilabel:`Question Time Limit`."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/time_random.rst:-1
+#: ../../content/applications/marketing/surveys/time_random.rst:None
 msgid "The Live Sessions section of the Option tab in the Odoo Surveys application."
 msgstr ""
 

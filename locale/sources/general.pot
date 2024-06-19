@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-30 09:16+0000\n"
+"POT-Creation-Date: 2024-06-19 09:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "By default, an *Apps* filter is applied. If you want to search for modules, click on *Filters* and select *Extra*."
 msgstr ""
 
-#: ../../content/applications/general/apps_modules.rst:-1
+#: ../../content/applications/general/apps_modules.rst:None
 msgid "Add \"Extra\" filter in Odoo Apps"
 msgstr ""
 
@@ -172,7 +172,7 @@ msgstr ""
 msgid "Go to :menuselection:`Settings app --> Companies section --> Manage Companies`. Then, either click :guilabel:`New`, and fill in the form with the company's information, or select a pre-existing company to edit it."
 msgstr ""
 
-#: ../../content/applications/general/companies.rst:-1
+#: ../../content/applications/general/companies.rst:None
 msgid "Overview of a new company's form in Odoo."
 msgstr ""
 
@@ -217,7 +217,7 @@ msgstr ""
 msgid "*Adding a company*: the record is visible to users logged in to that specific company."
 msgstr ""
 
-#: ../../content/applications/general/companies.rst:-1
+#: ../../content/applications/general/companies.rst:None
 msgid "View of a product's form emphasizing the company field in Odoo Sales."
 msgstr ""
 
@@ -233,7 +233,7 @@ msgstr ""
 msgid "Branches are available to add to a company. Branches can be added by navigating to :menuselection:`Settings app --> Companies section --> Manage Companies`. Then, select the desired company from the list. From the company detail form, open the :guilabel:`Branches` tab. To add a branch, click :guilabel:`Add a line`, and fill out the :guilabel:`Create Branches` pop-up form that appears."
 msgstr ""
 
-#: ../../content/applications/general/companies.rst:-1
+#: ../../content/applications/general/companies.rst:None
 msgid "Add a branch to a company with branches and add a line highlighted."
 msgstr ""
 
@@ -269,7 +269,7 @@ msgstr ""
 msgid "Multiple companies can be set for :guilabel:`Allowed Companies`, and *only one* can be set as the :guilabel:`Default Company`."
 msgstr ""
 
-#: ../../content/applications/general/companies.rst:-1
+#: ../../content/applications/general/companies.rst:None
 msgid "View of an user form emphasizing the multi companies field under the access rights tabs\n"
 "in Odoo."
 msgstr ""
@@ -311,7 +311,7 @@ msgstr ""
 msgid "To set document formats according to each company, *activate* and *select* the respective company, and, under the :menuselection:`Settings app --> Companies section`, click on :guilabel:`Configure Document Layout` and edit the information as needed."
 msgstr ""
 
-#: ../../content/applications/general/companies.rst:-1
+#: ../../content/applications/general/companies.rst:None
 msgid "View of the settings page emphasizing the document layout field in Odoo."
 msgstr ""
 
@@ -383,7 +383,7 @@ msgstr ""
 msgid "\\* The given option needs to be selected, so :guilabel:`Automatic Validation` appears in the configuration."
 msgstr ""
 
-#: ../../content/applications/general/companies.rst:-1
+#: ../../content/applications/general/companies.rst:None
 msgid "View of the settings page emphasizing the inter company transaction field in Odoo."
 msgstr ""
 
@@ -423,7 +423,7 @@ msgstr ""
 msgid "To start sending digest emails, begin by navigating to :menuselection:`Settings app --> Statistics section`, activate the :guilabel:`Digest Emails` feature, and click :guilabel:`Save`."
 msgstr ""
 
-#: ../../content/applications/general/companies/digest_emails.rst:-1
+#: ../../content/applications/general/companies/digest_emails.rst:None
 msgid "Digest Emails section inside General Settings."
 msgstr ""
 
@@ -504,7 +504,7 @@ msgstr ""
 msgid "The :abbr:`KPIs (key performance indicators)` can be customized using Odoo *Studio*. Additional costs to the database subscription are incurred should *Studio* need to be installed. See this section on :ref:`digest-emails/custom-kpi`."
 msgstr ""
 
-#: ../../content/applications/general/companies/digest_emails.rst:-1
+#: ../../content/applications/general/companies/digest_emails.rst:None
 msgid "Customize default Digest Email settings and custom KPIs."
 msgstr ""
 
@@ -552,7 +552,7 @@ msgstr ""
 msgid "The following :abbr:`KPIs (key performance indicators)` are available in the :guilabel:`KPIs` tab on a digest email template form out-of-box in Odoo:"
 msgstr ""
 
-#: ../../content/applications/general/companies/digest_emails.rst:-1
+#: ../../content/applications/general/companies/digest_emails.rst:None
 msgid "KPIs listed in the out-of-box digest email."
 msgstr ""
 
@@ -1064,7 +1064,7 @@ msgstr ""
 msgid "To access the XML/HTML editor for an email template, first enter :ref:`developer mode <developer-mode>`. Then, click the :guilabel:`</>` icon in the upper-right corner of the template, and proceed to edit the XML/HTML. To return to the standard text editor, click the :guilabel:`</>` icon again."
 msgstr ""
 
-#: ../../content/applications/general/companies/email_template.rst:-1
+#: ../../content/applications/general/companies/email_template.rst:None
 msgid "HTML editor in the email template."
 msgstr ""
 
@@ -1092,7 +1092,7 @@ msgstr ""
 msgid "To use the dynamic placeholders in the :guilabel:`Body` of an email open the **powerbox** feature by typing in `/` into the body of the email template under the :guilabel:`Content` tab. Scroll to the bottom of the options list, to :guilabel:`Marketing Tools`. Next, select :guilabel:`Dynamic Placeholder`. Then select the dynamic placeholder from a list of available options and follow the prompts to configure it with the desired corresponding Odoo field. Each dynamic placeholder will vary in configuration."
 msgstr ""
 
-#: ../../content/applications/general/companies/email_template.rst:-1
+#: ../../content/applications/general/companies/email_template.rst:None
 msgid "Using dynamic placeholders in an email template."
 msgstr ""
 
@@ -1116,7 +1116,7 @@ msgstr ""
 msgid "A rich text editor toolbar can be accessed by highlighting text in the email template. This can be used to change the heading, font size/style, color, add a list type, or a link."
 msgstr ""
 
-#: ../../content/applications/general/companies/email_template.rst:-1
+#: ../../content/applications/general/companies/email_template.rst:None
 msgid "Rich text editor in the email template."
 msgstr ""
 
@@ -1128,7 +1128,7 @@ msgstr ""
 msgid "Should the email template not work because the code has been altered it can be reset to restore it back to the out-of-box default template. Simply click on the :guilabel:`Reset Template` button in the upper left-hand of the screen and the template will be reset."
 msgstr ""
 
-#: ../../content/applications/general/companies/email_template.rst:-1
+#: ../../content/applications/general/companies/email_template.rst:None
 msgid "Resetting the email template."
 msgstr ""
 
@@ -1144,7 +1144,7 @@ msgstr ""
 msgid "Add multiple email addresses by adding a comma `,` between the addresses or dynamic placeholders."
 msgstr ""
 
-#: ../../content/applications/general/companies/email_template.rst:-1
+#: ../../content/applications/general/companies/email_template.rst:None
 msgid "Reply-to field on template."
 msgstr ""
 
@@ -1160,7 +1160,7 @@ msgstr ""
 msgid "If it is possible to send an email, a mail composer pop-up window appears, with values that can be defined and customized. This option will be available on the :guilabel:`Action` button on pages where emails can be sent in bulk---for example, on the :guilabel:`Customers` page of the CRM app. This action occurs throughout the Odoo database."
 msgstr ""
 
-#: ../../content/applications/general/companies/email_template.rst:-1
+#: ../../content/applications/general/companies/email_template.rst:None
 msgid "Email composer in mass mailing mode with reply-to highlighted."
 msgstr ""
 
@@ -1220,7 +1220,7 @@ msgstr ""
 msgid "In order to edit translations, first enter :ref:`developer mode <developer-mode>`. Then, on the email template, click on the :guilabel:`Edit` button, and then click on the language button, represented by the initials of the language currently being used (e.g. :guilabel:`EN` for English)."
 msgstr ""
 
-#: ../../content/applications/general/companies/email_template.rst:-1
+#: ../../content/applications/general/companies/email_template.rst:None
 msgid "Edit the language of a template."
 msgstr ""
 
@@ -1232,7 +1232,7 @@ msgstr ""
 msgid "A pop-up window with the different languages installed on the database appears. From this pop-up, editing of translations is possible. When the desired changes have been made, click the :guilabel:`Save` button to save the changes."
 msgstr ""
 
-#: ../../content/applications/general/companies/email_template.rst:-1
+#: ../../content/applications/general/companies/email_template.rst:None
 msgid "Translation of the body of the Appointment Booked template."
 msgstr ""
 
@@ -1256,7 +1256,7 @@ msgstr ""
 msgid "The debug mode can be activated in the Odoo database settings. Go to :menuselection:`Settings --> General Settings --> Developer Tools` and click on :guilabel:`Activate the developer mode`. At least one application needs to be installed for the :guilabel:`Developer Tools` section to appear in the :guilabel:`Settings` module."
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:-1
+#: ../../content/applications/general/developer_mode.rst:None
 msgid "Overview of the debug options under settings in Odoo."
 msgstr ""
 
@@ -1280,7 +1280,7 @@ msgstr ""
 msgid "For the *Odoo Debug* extension, a single click enables a normal version of the mode, while a double click enables it with assets. To deactivate it, use a single click."
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:-1
+#: ../../content/applications/general/developer_mode.rst:None
 msgid "View of Odoo's debug icon in a Google Chrome toolbar."
 msgstr ""
 
@@ -1292,7 +1292,7 @@ msgstr ""
 msgid "In Odoo, the command palette tool has a command to activate the debug mode. First, open the command palette tool with the keyboard shortcut `ctrl+k` and then type `debug`. A command will show up to activate the debug mode."
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:-1
+#: ../../content/applications/general/developer_mode.rst:None
 msgid "Command palette with debug command."
 msgstr ""
 
@@ -1304,7 +1304,7 @@ msgstr ""
 msgid "The debug mode can also be activated by adding an extra query string to the database's URL. In the URL, add `?debug=1` or `?debug=true` after `/web`. To deactivate the debug mode, change the value to `?debug=0` instead."
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:-1
+#: ../../content/applications/general/developer_mode.rst:None
 msgid "Overview of a URL with the debug mode command added."
 msgstr ""
 
@@ -1320,7 +1320,7 @@ msgstr ""
 msgid "Once developer mode is activated, the developer mode tools can be accessed from the :guilabel:`Open Developer Tools` button, the bug icon located in the header of the Odoo database."
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:-1
+#: ../../content/applications/general/developer_mode.rst:None
 msgid "Overview of a console page and the debug icon being shown in Odoo."
 msgstr ""
 
@@ -1421,7 +1421,7 @@ msgstr ""
 msgid "The :guilabel:`User.Read` permission will be added by default."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/azure_oauth.rst:-1
+#: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "API permissions needed for Odoo integration are listed under the Microsoft Graph."
 msgstr ""
 
@@ -1437,7 +1437,7 @@ msgstr ""
 msgid "Now, add users to this application. Under the :guilabel:`Essentials` overview table, click on the link labeled :guilabel:`Managed Application in Local Directory`, or the last option on the bottom right-hand side of the table."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/azure_oauth.rst:-1
+#: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Add users/groups by clicking the Managed application in local directory link for the\n"
 "created application."
 msgstr ""
@@ -1459,7 +1459,7 @@ msgstr ""
 msgid "Now that the Microsoft Azure app is set up, credentials need to be created for the Odoo setup. These include the :guilabel:`Client ID` and :guilabel:`Client Secret`. To start, the :guilabel:`Client ID` can be copied from the :guilabel:`Overview` page of the app. The :guilabel:`Client ID` or :guilabel:`Application ID` is located under the :guilabel:`Display Name` in the :guilabel:`Essentials` overview of the app."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/azure_oauth.rst:-1
+#: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Application/Client ID located in the Overview of the app."
 msgstr ""
 
@@ -1479,7 +1479,7 @@ msgstr ""
 msgid "Next, click on :guilabel:`Add` when these two values are entered. A :guilabel:`Client Secret Value` and :guilabel:`Secret ID` will be created. It is important to copy the :guilabel:`Value` or :guilabel:`Client Secret Value` into a notepad as it will become encrypted after leaving this page. The :guilabel:`Secret ID` is not needed."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/azure_oauth.rst:-1
+#: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Client Secret Value or Value in the app's credentials."
 msgstr ""
 
@@ -1524,7 +1524,7 @@ msgstr ""
 msgid "Then, copy and paste the :guilabel:`Client ID` (Application ID) and :guilabel:`Client Secret (Client Secret Value)` into the respective fields and :guilabel:`Save` the settings."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/azure_oauth.rst:-1
+#: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Outlook Credentials in Odoo General Settings."
 msgstr ""
 
@@ -1553,7 +1553,7 @@ msgstr ""
 msgid "A new window from Microsoft opens to complete the :guilabel:`authorization process`. Select the appropriate email address that is being configured in Odoo."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/azure_oauth.rst:-1
+#: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Permission page to grant access between newly created app and Odoo."
 msgstr ""
 
@@ -1561,7 +1561,7 @@ msgstr ""
 msgid "Then, allow Odoo to access the Microsoft account by clicking on :guilabel:`Yes`. After this, the page will navigate back to the newly configured :guilabel:`Outgoing Mail Server` in Odoo. The configuration automatically loads the :guilabel:`token` in Odoo, and a tag stating :guilabel:`Outlook Token Valid` appears in green."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/azure_oauth.rst:-1
+#: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Valid Outlook Token indicator."
 msgstr ""
 
@@ -1595,7 +1595,7 @@ msgstr ""
 msgid "When using this configuration, every email that is sent from the database will use the address of the configured `notification` mailbox. However it should be noted that the name of the sender will appear but their email address will change:"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/azure_oauth.rst:-1
+#: ../../content/applications/general/email_communication/azure_oauth.rst:None
 msgid "Name from real sender with static email."
 msgstr ""
 
@@ -1803,220 +1803,220 @@ msgstr ""
 msgid "Check if the :abbr:`DKIM (DomainKeys Identified Mail)` record is valid with a free tool like `DKIM Core <https://dkimcore.org/tools/>`_. If a selector is asked, enter `odoo`."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:100
+#: ../../content/applications/general/email_communication/email_domain.rst:102
 msgid "Check the DMARC policy"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:102
+#: ../../content/applications/general/email_communication/email_domain.rst:104
 msgid "The Domain-based Message Authentication, Reporting, & Conformance (DMARC) record is a protocol that unifies :abbr:`SPF (Sender Policy Framework)` and :abbr:`DKIM (DomainKeys Identified Mail)`. The instructions contained in the :abbr:`DMARC (Domain-based Message Authentication, Reporting, & Conformance)` record of a domain name tell the destination server what to do with an incoming email that fails the :abbr:`SPF (Sender Policy Framework)` and/or :abbr:`DKIM (DomainKeys Identified Mail)` check."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:110
+#: ../../content/applications/general/email_communication/email_domain.rst:112
 msgid "DMARC: TXT record"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:112
+#: ../../content/applications/general/email_communication/email_domain.rst:114
 msgid "`v=DMARC1; p=none;`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:114
+#: ../../content/applications/general/email_communication/email_domain.rst:116
 msgid "There are three :abbr:`DMARC (Domain-based Message Authentication, Reporting, & Conformance)` policies:"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:117
+#: ../../content/applications/general/email_communication/email_domain.rst:119
 msgid "`p=none`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:118
-#: ../../content/applications/general/email_communication/email_domain.rst:171
+#: ../../content/applications/general/email_communication/email_domain.rst:120
+#: ../../content/applications/general/email_communication/email_domain.rst:173
 msgid "`p=quarantine`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:119
+#: ../../content/applications/general/email_communication/email_domain.rst:121
 msgid "`p=reject`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:121
+#: ../../content/applications/general/email_communication/email_domain.rst:123
 msgid "`p=quarantine` and `p=reject` instruct the server that receives an email to quarantine that email or ignore it if the :abbr:`SPF (Sender Policy Framework)` and/or :abbr:`DKIM (DomainKeys Identified Mail)` check fails."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:125
+#: ../../content/applications/general/email_communication/email_domain.rst:127
 msgid "If the domain name uses :abbr:`DMARC (Domain-based Message Authentication, Reporting, & Conformance)` and has defined one of these policies, the domain must be :abbr:`SPF (Sender Policy Framework)` compliant or enable :abbr:`DKIM (DomainKeys Identified Mail)`."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:130
+#: ../../content/applications/general/email_communication/email_domain.rst:132
 msgid "Yahoo or AOL are examples of email providers with a :abbr:`DMARC (Domain-based Message Authentication, Reporting, & Conformance)` policy set to `p=reject`. Odoo strongly advises against using an *@yahoo.com* or *@aol.com* address for the database users. These emails will never reach their recipient."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:135
+#: ../../content/applications/general/email_communication/email_domain.rst:137
 msgid "`p=none` is used for the domain owner to receive reports about entities using their domain. It should not impact the deliverability if the :abbr:`DMARC (Domain-based Message Authentication, Reporting, & Conformance)` check fails."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:139
+#: ../../content/applications/general/email_communication/email_domain.rst:141
 msgid ":abbr:`DMARC (Domain-based Message Authentication, Reporting, & Conformance)` records are comprised of tags in the form of :abbr:`DNS (Domain Name System)` records. These tags/parameters allow for reporting, such as :abbr:`RUA (Reporting URI of aggregate reports)` and :abbr:`RUF (Reporting URI for forensic reports)`, along with more precise specification like :abbr:`PCT (Percentage of messages subjected to filtering)`, :abbr:`P (Policy for organizational domain)`, :abbr:`SP (Policy for subdomains of the OD)` :abbr:`ADKIM (Alignment mode for DKIM)` & :abbr:`ASPF (Alignment mode for SPF)`. For best practice, the the :abbr:`DMARC (Domain-based Message Authentication, Reporting, & Conformance)` policy should not start out being too restrictive."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:148
+#: ../../content/applications/general/email_communication/email_domain.rst:150
 msgid "The following chart displays available tags:"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:154
+#: ../../content/applications/general/email_communication/email_domain.rst:156
 msgid "Tag Name"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:155
+#: ../../content/applications/general/email_communication/email_domain.rst:157
 msgid "Purpose"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:156
+#: ../../content/applications/general/email_communication/email_domain.rst:158
 msgid "Example"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:157
+#: ../../content/applications/general/email_communication/email_domain.rst:159
 msgid "v"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:158
+#: ../../content/applications/general/email_communication/email_domain.rst:160
 msgid "Protocol version"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:159
+#: ../../content/applications/general/email_communication/email_domain.rst:161
 msgid "`v=DMARC1`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:160
+#: ../../content/applications/general/email_communication/email_domain.rst:162
 msgid "pct"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:161
+#: ../../content/applications/general/email_communication/email_domain.rst:163
 msgid "Percentage of messages subjected to filtering"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:162
+#: ../../content/applications/general/email_communication/email_domain.rst:164
 msgid "`pct=20`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:163
+#: ../../content/applications/general/email_communication/email_domain.rst:165
 msgid "ruf"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:164
+#: ../../content/applications/general/email_communication/email_domain.rst:166
 msgid "Reporting URI for forensic reports"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:165
+#: ../../content/applications/general/email_communication/email_domain.rst:167
 msgid "`ruf=mailto:authfail@example.com`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:166
+#: ../../content/applications/general/email_communication/email_domain.rst:168
 msgid "rua"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:167
+#: ../../content/applications/general/email_communication/email_domain.rst:169
 msgid "Reporting URI of aggregate reports"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:168
+#: ../../content/applications/general/email_communication/email_domain.rst:170
 msgid "`rua=mailto:aggrep@example.com`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:169
+#: ../../content/applications/general/email_communication/email_domain.rst:171
 msgid "p"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:170
+#: ../../content/applications/general/email_communication/email_domain.rst:172
 msgid "Policy for organizational domain"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:172
+#: ../../content/applications/general/email_communication/email_domain.rst:174
 msgid "sp"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:173
+#: ../../content/applications/general/email_communication/email_domain.rst:175
 msgid "Policy for subdomains of the OD"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:174
+#: ../../content/applications/general/email_communication/email_domain.rst:176
 msgid "`sp=reject`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:175
+#: ../../content/applications/general/email_communication/email_domain.rst:177
 msgid "adkim"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:176
+#: ../../content/applications/general/email_communication/email_domain.rst:178
 msgid "Alignment mode for DKIM"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:177
+#: ../../content/applications/general/email_communication/email_domain.rst:179
 msgid "`adkim=s`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:178
+#: ../../content/applications/general/email_communication/email_domain.rst:180
 msgid "aspf"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:179
+#: ../../content/applications/general/email_communication/email_domain.rst:181
 msgid "Alignment mode for SPF"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:180
+#: ../../content/applications/general/email_communication/email_domain.rst:182
 msgid "`aspf=r`"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:182
+#: ../../content/applications/general/email_communication/email_domain.rst:184
 msgid "Check the :abbr:`DMARC (Domain-based Message Authentication, Reporting, & Conformance)` record of a domain name with a tool like `MXToolbox DMARC <https://mxtoolbox.com/DMARC.aspx>`_."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:186
+#: ../../content/applications/general/email_communication/email_domain.rst:188
 msgid "`DMARC.org is another great resource to learn about DMARC records. <https://dmarc.org/overview/>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:192
+#: ../../content/applications/general/email_communication/email_domain.rst:194
 msgid "SPF, DKIM & DMARC documentation of common providers"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:194
+#: ../../content/applications/general/email_communication/email_domain.rst:196
 msgid "`OVH DNS <https://docs.ovh.com/us/en/domains/web_hosting_how_to_edit_my_dns_zone/>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:195
+#: ../../content/applications/general/email_communication/email_domain.rst:197
 msgid "`OVH SPF <https://docs.ovh.com/us/en/domains/web_hosting_the_spf_record/>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:196
+#: ../../content/applications/general/email_communication/email_domain.rst:198
 msgid "`GoDaddy TXT record <https://www.godaddy.com/help/add-a-txt-record-19232>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:197
+#: ../../content/applications/general/email_communication/email_domain.rst:199
 msgid "`GoDaddy SPF <https://www.godaddy.com/help/add-an-spf-record-19218>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:198
+#: ../../content/applications/general/email_communication/email_domain.rst:200
 msgid "`GoDaddy DKIM <https://www.godaddy.com/help/add-a-cname-record-19236>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:199
+#: ../../content/applications/general/email_communication/email_domain.rst:201
 msgid "`NameCheap <https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-do-i-add- txtspfdkimdmarc-records-for-my-domain/>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:201
+#: ../../content/applications/general/email_communication/email_domain.rst:203
 msgid "`CloudFlare DNS <https://support.cloudflare.com/hc/en-us/articles/360019093151>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:202
+#: ../../content/applications/general/email_communication/email_domain.rst:204
 msgid "`Google Domains <https://support.google.com/domains/answer/3290350?hl=en>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:203
+#: ../../content/applications/general/email_communication/email_domain.rst:205
 msgid "`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-portal>`_"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:205
+#: ../../content/applications/general/email_communication/email_domain.rst:207
 msgid "To fully test the configuration, use the `Mail-Tester <https://www.mail-tester.com/>`_ tool, which gives a full overview of the content and configuration in one sent email. Mail-Tester can also be used to configure records for other, lesser-known providers."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_domain.rst:210
+#: ../../content/applications/general/email_communication/email_domain.rst:212
 msgid "`Using Mail-Tester to set SPF Records for specific carriers <https://www.mail-tester.com/spf/>`_"
 msgstr ""
 
@@ -2160,7 +2160,7 @@ msgstr ""
 msgid "The :guilabel:`FROM Filtering` field allows for the use of a specific outgoing email server depending on the :guilabel:`From` email address or domain that Odoo is sending on behalf of. This setting can be used to improve the deliverability or sending success rate of emails sent from the database. Setting the :guilabel:`FROM Filtering` field can also be used to send from different domains in a multi-company environment. Access this field in Odoo by navigating to :menuselection:`Settings --> Discuss --> Custom Mail Servers --> Outgoing Mail Servers --> New`."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers.rst:-1
+#: ../../content/applications/general/email_communication/email_servers.rst:None
 msgid "Outgoing email server settings and the FROM filter settings."
 msgstr ""
 
@@ -2356,7 +2356,7 @@ msgstr ""
 msgid "Next, for the :guilabel:`Value` field, add the domain(s) separated by comma(s) (if plural domains). Manually :guilabel:`Save`, and the system parameter takes immediate effect."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers.rst:-1
+#: ../../content/applications/general/email_communication/email_servers.rst:None
 msgid "mail.catchall.domain.allowed system parameter set with key and value highlighted."
 msgstr ""
 
@@ -2380,7 +2380,7 @@ msgstr ""
 msgid "The first indicator showing that an email has not been sent is the presence of a red :guilabel:`✉️ (envelope)` icon, next to the date and time of the message, located in the chatter."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/faq.rst:-1
+#: ../../content/applications/general/email_communication/faq.rst:None
 msgid "Red envelope icon displayed in chatter."
 msgstr ""
 
@@ -2396,7 +2396,7 @@ msgstr ""
 msgid "Daily limit reached"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/faq.rst:-1
+#: ../../content/applications/general/email_communication/faq.rst:None
 msgid "Warning in Odoo upon email limit reached."
 msgstr ""
 
@@ -2480,7 +2480,7 @@ msgstr ""
 msgid "Other information includes to whom the message was sent, and whether Odoo received a bounce-back message from an email server."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/faq.rst:-1
+#: ../../content/applications/general/email_communication/faq.rst:None
 msgid "Manage messages menu option on the debug menu."
 msgstr ""
 
@@ -2512,7 +2512,7 @@ msgstr ""
 msgid "Email campaigns send at a scheduled time, using a delay pre-programed in the database. Odoo uses a delayed task to send emails that are considered \"not urgent\" (newsletter formats, such as: mass mailing, marketing automation, and events). The system utility **cron** can be used to schedule programs to run automatically at predetermined intervals. Odoo uses that policy in order to avoid cluttering the mail servers and, instead, prioritizes individual communication. This **cron** is called :guilabel:`Mail: Email Queue Manager`, and can be accessed in :ref:`developer mode <developer-mode>` by going to :menuselection:`Settings app --> Technical menu --> Automation --> Scheduled Actions`."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/faq.rst:-1
+#: ../../content/applications/general/email_communication/faq.rst:None
 msgid "Email scheduled to be sent later."
 msgstr ""
 
@@ -2674,8 +2674,8 @@ msgstr ""
 msgid "On the :menuselection:`New Project` screen, rename the :guilabel:`Project name` to `Odoo` and browse for the :guilabel:`Location`. Set the :guilabel:`Location` as the *Google Workspace organization*. If you are using a personal Gmail account, then leave the :guilabel:`Location` as :guilabel:`No Organization`."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/google_oauth.rst:-1
-#: ../../content/applications/general/integrations/google_translate.rst:-1
+#: ../../content/applications/general/email_communication/google_oauth.rst:None
+#: ../../content/applications/general/integrations/google_translate.rst:None
 msgid "Project Name and Location for Google OAuth."
 msgstr ""
 
@@ -2767,7 +2767,7 @@ msgstr ""
 msgid "Next, click on :guilabel:`Create` to generate an OAuth :guilabel:`Client ID` and :guilabel:`Client Secret`. Finally, copy each generated value for later use when configuring in Odoo, and then navigate to the Odoo database."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/google_oauth.rst:-1
+#: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "Client ID and Client Secret for Google OAuth."
 msgstr ""
 
@@ -2787,8 +2787,8 @@ msgstr ""
 msgid "To configure the external Gmail account, return to the top of the :guilabel:`Custom Email Servers` setting and then click the :guilabel:`Outgoing Email Servers` link."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/google_oauth.rst:-1
-#: ../../content/applications/general/email_communication/google_oauth.rst:-1
+#: ../../content/applications/general/email_communication/google_oauth.rst:None
+#: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "Configure Outgoing Email Servers in Odoo."
 msgstr ""
 
@@ -2828,7 +2828,7 @@ msgstr ""
 msgid "Choosing :guilabel:`Production` as the :guilabel:`Publishing Status` (instead of :guilabel:`Testing`) will display the following warning message:"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/google_oauth.rst:-1
+#: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "OAuth is Limited to 100 Sensitive Scope Logins."
 msgstr ""
 
@@ -2844,7 +2844,7 @@ msgstr ""
 msgid "If no test users are added to the OAuth consent screen, then a 403 access denied error will populate."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/google_oauth.rst:-1
+#: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "403 Access Denied Error."
 msgstr ""
 
@@ -2860,7 +2860,7 @@ msgstr ""
 msgid "If the *Google Gmail* module in Odoo has not been updated to the latest version, then a :guilabel:`Forbidden` error message populates."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/google_oauth.rst:-1
+#: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "Forbidden you don't have the permission to access the requested resource."
 msgstr ""
 
@@ -2876,7 +2876,7 @@ msgstr ""
 msgid "When creating the credentials (OAuth *Client ID* and *Client Secret*), if :guilabel:`Desktop App` is selected for the :guilabel:`Application Type`, an :guilabel:`Authorization Error` appears."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/google_oauth.rst:-1
+#: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "Error 400 Redirect URI Mismatch."
 msgstr ""
 
@@ -2904,7 +2904,7 @@ msgstr ""
 msgid "To get started, sign in to the `Mailjet Account Information <https://app.mailjet.com/account>`_ page. Next, navigate to the :guilabel:`Senders & Domains` section and click on :guilabel:`SMTP and SEND API Settings`."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/mailjet_api.rst:-1
+#: ../../content/applications/general/email_communication/mailjet_api.rst:None
 msgid "SMTP and Send API Settings link in the Senders & Domains section of Mailjet."
 msgstr ""
 
@@ -2920,7 +2920,7 @@ msgstr ""
 msgid "Odoo blocks `port 25` on Odoo Online and Odoo.sh databases. :ref:`See reference here <email_servers/restriction>`."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/mailjet_api.rst:-1
+#: ../../content/applications/general/email_communication/mailjet_api.rst:None
 msgid "SMTP configuration from Mailjet."
 msgstr ""
 
@@ -2940,7 +2940,7 @@ msgstr ""
 msgid "The next step is to add a sender address or a domain to the Mailjet account settings so that the email address or domain is approved to send emails using Mailjet's servers. First, navigate to the `Mailjet Account Information <https://app.mailjet.com/account>`_ page. Next, click on the :guilabel:`Add a Sender Domain or Address` link under the :guilabel:`Senders & Domains` section."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/mailjet_api.rst:-1
+#: ../../content/applications/general/email_communication/mailjet_api.rst:None
 msgid "Add a sender domain or address in the Mailjet interface."
 msgstr ""
 
@@ -3013,7 +3013,7 @@ msgstr ""
 msgid "After adding the domain, a validation page will populate. Unless the Odoo database is on-premise (in which case, choose :guilabel:`Option 1`), choose :guilabel:`Option 2: Create a DNS Record`. Copy the TXT record information to a notepad and then navigate to the domain's :abbr:`DNS (Domain Name System)` provider to complete validation."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/mailjet_api.rst:-1
+#: ../../content/applications/general/email_communication/mailjet_api.rst:None
 msgid "The TXT record information to input on the domain's DNS."
 msgstr ""
 
@@ -3041,7 +3041,7 @@ msgstr ""
 msgid "Next, click :guilabel:`Check Now` to validate the TXT record that was added on the domain. A success screen will appear if the domain is configured correctly."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/mailjet_api.rst:-1
+#: ../../content/applications/general/email_communication/mailjet_api.rst:None
 msgid "Check DNS record in Mailjet."
 msgstr ""
 
@@ -3049,7 +3049,7 @@ msgstr ""
 msgid "After successfully setting up the domain, there is an option to :guilabel:`Authenticate this domain (SPF/DKIM)`. This button populates :abbr:`SPF (Sender Policy Framework)` & :abbr:`DKIM (DomainKeys Identified Mail) records to input into the :abbr:`DNS (Domain Name System)` provider."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/mailjet_api.rst:-1
+#: ../../content/applications/general/email_communication/mailjet_api.rst:None
 msgid "Authenticate the domain with SPF/DKIM records in Mailjet."
 msgstr ""
 
@@ -3073,7 +3073,7 @@ msgstr ""
 msgid "Then, if the Mailjet server is used for mass emailing, set the :guilabel:`Priority` value higher than that of any transactional email server(s). Finally, save the settings and :guilabel:`Test the Connection`."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/mailjet_api.rst:-1
+#: ../../content/applications/general/email_communication/mailjet_api.rst:None
 msgid "Odoo outgoing email server settings."
 msgstr ""
 
@@ -3117,7 +3117,7 @@ msgstr ""
 msgid "You can locate contacts or places and generate routes on a map in Odoo."
 msgstr ""
 
-#: ../../content/applications/general/integrations/geolocation.rst:-1
+#: ../../content/applications/general/integrations/geolocation.rst:None
 msgid "Map displaying a contact's location."
 msgstr ""
 
@@ -3153,7 +3153,7 @@ msgstr ""
 msgid "To use it, select :guilabel:`Google Place Map` and enter your :ref:`API Key <address_autocomplete/generate_api_key>`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/geolocation.rst:-1
+#: ../../content/applications/general/integrations/geolocation.rst:None
 msgid "Google Places API key"
 msgstr ""
 
@@ -3229,7 +3229,7 @@ msgstr ""
 msgid "Then, click :guilabel:`Create Credentials` in the top menu, and select :guilabel:`API key` from the drop-down menu."
 msgstr ""
 
-#: ../../content/applications/general/integrations/google_translate.rst:-1
+#: ../../content/applications/general/integrations/google_translate.rst:None
 msgid "Create an API key in the Google API console."
 msgstr ""
 
@@ -3273,7 +3273,7 @@ msgstr ""
 msgid "To access the integration in Odoo, navigate to the :menuselection:`Settings app --> Discuss section`. Enter the API key into the field labeled :guilabel:`Message Translation`. Then, :guilabel:`Save` the settings, and *Google Translate* can be used in any chatter throughout the database."
 msgstr ""
 
-#: ../../content/applications/general/integrations/google_translate.rst:-1
+#: ../../content/applications/general/integrations/google_translate.rst:None
 msgid "Odoo configuration of the API key from the *Google API Console*."
 msgstr ""
 
@@ -3285,7 +3285,7 @@ msgstr ""
 msgid "To translate a user's text from another language, click the :guilabel:`... (three dot)` icon menu to the right of the chatter. Then, select :guilabel:`Translate`. The content translates to the *language* set on the user's preferences."
 msgstr ""
 
-#: ../../content/applications/general/integrations/google_translate.rst:-1
+#: ../../content/applications/general/integrations/google_translate.rst:None
 msgid "Google Translate present in an Odoo database's chatter."
 msgstr ""
 
@@ -3394,7 +3394,7 @@ msgstr ""
 msgid "From the Gmail inbox, click the plus sign icon on the right side panel to get add-ons. If the side panel is not visible, click on the arrow icon at the bottom right corner of the inbox to reveal it."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:None
 msgid "Plus sign icon on the Gmail inbox side panel."
 msgstr ""
 
@@ -3402,7 +3402,7 @@ msgstr ""
 msgid "Then, use the search bar to search for `Odoo` and locate the :guilabel:`Odoo Inbox Addin`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:None
 msgid "Odoo Inbox Addin on Google Workspace Marketplace."
 msgstr ""
 
@@ -3428,8 +3428,8 @@ msgstr ""
 msgid "The :guilabel:`Mail Plugin` feature must be enabled in the Odoo database in order to use the Gmail Plugin. To enable the feature, go to :menuselection:`Settings --> General Settings`. Under the :guilabel:`Integrations` section, activate :guilabel:`Mail Plugin`, and then click :guilabel:`Save`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:-1
-#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:None
+#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:None
 msgid "The Mail Plugin feature in the Settings."
 msgstr ""
 
@@ -3443,8 +3443,8 @@ msgstr ""
 msgid "In the Gmail inbox, a purple Odoo icon is now visible on the right side panel. Click on the Odoo icon to open up the Odoo plugin window. Then, click on any email in the inbox. Click :guilabel:`Authorize Access` in the plugin window to grant Odoo access to the Gmail inbox."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:-1
-#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:None
+#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:None
 msgid "The Authorize Access button in the right sidebar of the Odoo plugin panel."
 msgstr ""
 
@@ -3483,7 +3483,7 @@ msgstr ""
 msgid "First, access the `GitHub repository <https://github.com/odoo/mail-client-extensions>`_ for the Odoo Mail Plugins. Next, click on the green :guilabel:`Code` button. Then, click :guilabel:`Download ZIP` to download the Mail Plugin files onto the user's computer."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/gmail.rst:None
 msgid "Download the ZIP file from the Odoo GitHub repository for Mail Plugins."
 msgstr ""
 
@@ -3554,7 +3554,7 @@ msgstr ""
 msgid "Next, open the Outlook mailbox, and select any email. After completing this, click on the :guilabel:`More actions` button in the upper right-side and select :guilabel:`Get Add-ins`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "More actions button in Outlook"
 msgstr ""
 
@@ -3566,7 +3566,7 @@ msgstr ""
 msgid "Following this step, select the :guilabel:`My add-ins` tab on the left-side."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "My add-ins in Outlook"
 msgstr ""
 
@@ -3574,7 +3574,7 @@ msgstr ""
 msgid "Under :guilabel:`Custom add-ins` towards the bottom, click on :guilabel:`+ Add a custom add-in`, and then on :guilabel:`Add from file...`"
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "Custom add-ins in Outlook"
 msgstr ""
 
@@ -3582,7 +3582,7 @@ msgstr ""
 msgid "For the next step, attach the `manifest.xml` file downloaded above, and press :guilabel:`OK`. Next, read the warning and click on :guilabel:`Install`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "Custom add-in installation warning in Outlook"
 msgstr ""
 
@@ -3594,7 +3594,7 @@ msgstr ""
 msgid "Now, Outlook will be connected to the Odoo database. First, open any email in the Outlook mailbox, click on the :guilabel:`More actions` button in the upper right-side, and select :guilabel:`Odoo for Outlook`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "Odoo for Outlook add-in button"
 msgstr ""
 
@@ -3602,7 +3602,7 @@ msgstr ""
 msgid "The right-side panel can now display **Company Insights**. At the bottom, click on :guilabel:`Login`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "Logging in the Odoo database"
 msgstr ""
 
@@ -3630,7 +3630,7 @@ msgstr ""
 msgid "Now, enter the Odoo database URL and click on :guilabel:`Login`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "Entering the Odoo database URL"
 msgstr ""
 
@@ -3638,7 +3638,7 @@ msgstr ""
 msgid "Next, click on :guilabel:`Allow` to open the pop-up window."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "New window pop-up warning"
 msgstr ""
 
@@ -3646,7 +3646,7 @@ msgstr ""
 msgid "If the user isn't logged into the database, enter the credentials. Click on :guilabel:`Allow` to let the Outlook Plugin connect to the database."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "Allowing the Outlook Plugin to connect to a database"
 msgstr ""
 
@@ -3662,7 +3662,7 @@ msgstr ""
 msgid "In the Outlook mailbox, click on :guilabel:`Settings`, then on :guilabel:`View all Outlook settings`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "Viewing all Outlook settings"
 msgstr ""
 
@@ -3670,8 +3670,8 @@ msgstr ""
 msgid "Now, select :guilabel:`Customize actions` under :guilabel:`Mail`, click on :guilabel:`Odoo for Outlook`, and then :guilabel:`Save`."
 msgstr ""
 
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
-#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:-1
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
+#: ../../content/applications/general/integrations/mail_plugins/outlook.rst:None
 msgid "Odoo for Outlook customized action"
 msgstr ""
 
@@ -3751,7 +3751,7 @@ msgstr ""
 msgid "Begin the :abbr:`IoT (Internet of Things)` configuration process by :ref:`installing the IoT app <general/install>` on the Odoo database through the :menuselection:`Apps` application."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/connect.rst:-1
+#: ../../content/applications/general/iot/config/connect.rst:None
 msgid "The Internet of Things (IoT) app on the Odoo database."
 msgstr ""
 
@@ -3759,7 +3759,7 @@ msgstr ""
 msgid "Next, after the *IoT app* is installed, navigate to :menuselection:`IoT app --> IoT Boxes`, and then click on the :guilabel:`Connect` button located in the upper-left corner of the :menuselection:`IoT Boxes` dashboard."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/connect.rst:-1
+#: ../../content/applications/general/iot/config/connect.rst:None
 msgid "Connecting an IoT box to the Odoo database."
 msgstr ""
 
@@ -3767,7 +3767,7 @@ msgstr ""
 msgid "There are two recommended ways to connect the :abbr:`IoT (Internet of Things)` box to the database once the *IoT app* is installed. Follow the steps in either of the next two sections to connect the :abbr:`IoT (Internet of Things)` box via :ref:`wired ethernet connection <iot_connect/ethernet>` or via :ref:`WiFi <iot_connect/wifi>`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/connect.rst:-1
+#: ../../content/applications/general/iot/config/connect.rst:None
 msgid "Connection steps for a wired connection or WiFi connection."
 msgstr ""
 
@@ -3823,7 +3823,7 @@ msgstr ""
 msgid "Back on the computer, navigate to the available WiFi networks and connect to the :abbr:`IoT (Internet of Things)` box WiFi network. The WiFi network dispersed by the :abbr:`IoT (Internet of Things)` box  will start with `IoTBox-xxxxxxxxxx`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/connect.rst:-1
+#: ../../content/applications/general/iot/config/connect.rst:None
 msgid "WiFi networks available on the computer."
 msgstr ""
 
@@ -3831,7 +3831,7 @@ msgstr ""
 msgid "Upon connecting to the :abbr:`IoT (Internet of Things)` box WiFi, a browser will automatically redirect to the :menuselection:`Configure Iot Box` wizard. Name the :abbr:`IoT (Internet of Things)` box, then paste the previously copied *token* into the :guilabel:`Server Token` field, and then click on :guilabel:`Next`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/connect.rst:-1
+#: ../../content/applications/general/iot/config/connect.rst:None
 msgid "Enter the server token into the IoT box."
 msgstr ""
 
@@ -3843,7 +3843,7 @@ msgstr ""
 msgid "Now, choose the WiFi network that the :abbr:`IoT (Internet of Things)` box will connect with (enter the password if there is one) and click on :guilabel:`Connect`. Wait a few seconds and the browser will redirect to the :abbr:`IoT (Internet of Things)` box homepage. The computer may need to be manually re-connected back to the original WiFi connection, if this does not happen automatically."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/connect.rst:-1
+#: ../../content/applications/general/iot/config/connect.rst:None
 msgid "Configuring the WiFi for the IoT box."
 msgstr ""
 
@@ -3851,7 +3851,7 @@ msgstr ""
 msgid "After completing each step, the :abbr:`IoT (Internet of Things)` box should appear when navigating to :menuselection:`IoT app --> IoT Boxes` on the Odoo database."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/connect.rst:-1
+#: ../../content/applications/general/iot/config/connect.rst:None
 msgid "The IoT box has been successfully configured on the Odoo database."
 msgstr ""
 
@@ -4122,7 +4122,7 @@ msgstr ""
 msgid "If the certificate has been applied successfully, a new :abbr:`HTTPS (Hypertext Transfer Protocol Secure)` :abbr:`URL (Uniform Resource Locator)` for the :abbr:`IoT (Internet of Things)` box ending with `.odoo-iot.com` will appear on the Odoo database, inside of the :menuselection:`IoT` application on that specific device's form."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/https_certificate_iot.rst:-1
+#: ../../content/applications/general/iot/config/https_certificate_iot.rst:None
 msgid "Odoo IoT app IoT box with .odoo-iot.com domain."
 msgstr ""
 
@@ -4142,7 +4142,7 @@ msgstr ""
 msgid "The IoT-box homepage will now display an `OK` status next to `HTTPS certificate`. The drop-down menu icon, when clicked, will reveal information regarding the certificate."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/https_certificate_iot.rst:-1
+#: ../../content/applications/general/iot/config/https_certificate_iot.rst:None
 msgid "IoT box homepage with HTTPS certificate OK status."
 msgstr ""
 
@@ -4317,7 +4317,7 @@ msgstr ""
 msgid "Once this is completed, connect the :abbr:`IoT (Internet of Things)` box to the :menuselection:`PoS` application. To do this, go to :menuselection:`Point of Sale --> Configuration --> PoS`, tick the :guilabel:`IoT Box` option, and select the devices to be used in this :abbr:`PoS (Point of Sale)`. :guilabel:`Save` the the changes."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/pos.rst:-1
+#: ../../content/applications/general/iot/config/pos.rst:None
 msgid "Configuring the connected devices in the POS application."
 msgstr ""
 
@@ -4410,7 +4410,7 @@ msgstr ""
 msgid "If a printer does not appear in the devices list, go to the :abbr:`IoT (Internet of Things)` box homepage and make sure that it is listed under :guilabel:`Printers`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "The IoT box Home Page landing page."
 msgstr ""
 
@@ -4430,7 +4430,7 @@ msgstr ""
 msgid "The solution is to manually select the corresponding driver. On the :abbr:`IoT (Internet of Things)` box homepage, click on :guilabel:`Printers Server`, go to the :guilabel:`Printers` tab and select the printer in the list. In the :guilabel:`Administration` drop-down menu, click on :guilabel:`Modify Printer`. Follow the steps and select the *make* and *model* corresponding to the printer."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Edit the printer connected to the IoT box."
 msgstr ""
 
@@ -4818,7 +4818,7 @@ msgstr ""
 msgid "First, open the OpenPrinting CUPS console by clicking :menuselection:`Printers server` at the bottom of the :abbr:`IoT (Internet of Things)` box homepage. Next, click on :menuselection:`Printers` in the top menu. Click into the printer in question, and select :guilabel:`Maintenance` in the first drop-down menu. Then, select :guilabel:`Modify Printer` in the second drop-down menu."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Modify the make and model of the DYMO LabelWriter. Maintenance and Modify drop-down menus\n"
 "highlighted."
 msgstr ""
@@ -4827,7 +4827,7 @@ msgstr ""
 msgid "Next, select the specific network connection/printer that the modification should be made on. Click :guilabel:`Continue`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Printer selection screen with Continue highlighted."
 msgstr ""
 
@@ -4835,7 +4835,7 @@ msgstr ""
 msgid "On the next page, click :guilabel:`Continue` to proceed to set the :guilabel:`Make` of the printer."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Printer modification screen with Continue highlighted."
 msgstr ""
 
@@ -4843,7 +4843,7 @@ msgstr ""
 msgid "Under :guilabel:`Make` select :guilabel:`DYMO` from the menu. Click on :guilabel:`Continue` to set the :guilabel:`Model`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Setting the make page, with DYMO and continue highlighted."
 msgstr ""
 
@@ -4851,7 +4851,7 @@ msgstr ""
 msgid "On the following page, set the :guilabel:`Model` to :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO printer model is being used). Click on :guilabel:`Modify Printer` to complete setting the new driver, a confirmation page will appear."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Setting the printer model page with DYMO LabelWriter 450 DUO Label (en) highlighted."
 msgstr ""
 
@@ -4867,8 +4867,8 @@ msgstr ""
 msgid "To print a test label, click on the :guilabel:`Maintenance` drop-down menu to the left of the :guilabel:`Administration` drop-down menu, and select :guilabel:`Print Test Page`. The test label will print out with a ten-second delay if the driver update was successful."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Printing a test page from the administration drop-down menu in the OpenPrinting CUPs\n"
 "server."
 msgstr ""
@@ -4889,7 +4889,7 @@ msgstr ""
 msgid "If the DYMO LabelWriter 450 DUO printer is not printing at all, or is not recognizable (has a RAW driver type), then update the drivers on the device. See :ref:`troubleshooting/dymo/update_drivers`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Add a printer button highlighted on the Printer CUPS management page."
 msgstr ""
 
@@ -4897,7 +4897,7 @@ msgstr ""
 msgid "On the next screen, in the :guilabel:`Local Printers` section, select the :guilabel:`DYMO LabelWriter 450 DUO Label (DYMO LabelWriter 450 DUO Label)` (or whichever DYMO printer model is being used) pre-installed printer. Click :guilabel:`Continue`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Add a printer screen on OpenPrinting CUPS with DYMO LabelWriter 450 DUO Label highlighted."
 msgstr ""
 
@@ -4905,7 +4905,7 @@ msgstr ""
 msgid "On the following screen, modify the :guilabel:`Name` to something recognizable, as the original printer will still be present. Click :guilabel:`Continue` to be taken to the next screen."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Rename printer page in the 'Add a Printer' flow, with the name field highlighted."
 msgstr ""
 
@@ -4913,7 +4913,7 @@ msgstr ""
 msgid "Next, choose the :guilabel:`Model`. Select :guilabel:`DYMO LabelWriter 450 DUO Label (en)` (or whichever DYMO printer model is being used), and finally, click :guilabel:`Add Printer` to complete the installation."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Choose model screen on the OpenPrinting CUPS console with model and add a printer\n"
 "highlighted."
 msgstr ""
@@ -4926,7 +4926,7 @@ msgstr ""
 msgid "All the printers installed on the OpenPrinting CUPS server appear, including the newly installed: :guilabel:`DYMO LabelWriter 450 DUO Label` (or whichever DYMO printer model is being used). Click into the printer that was just installed."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Printer page with newly installed printer highlighted."
 msgstr ""
 
@@ -4974,7 +4974,7 @@ msgstr ""
 msgid "The device type can be manually changed by going to its form view (:menuselection:`IoT App --> Devices --> Barcode Device`) and activating the :guilabel:`Is scanner` option."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Modifying the form view of the barcode scanner."
 msgstr ""
 
@@ -4990,7 +4990,7 @@ msgstr ""
 msgid "Access the barcode scanner form page by navigating to :menuselection:`IoT App --> Devices --> Barcode Scanner`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Barcode scanner form page, with keyboard layout option highlighted."
 msgstr ""
 
@@ -5034,7 +5034,7 @@ msgstr ""
 msgid "The Mettler part number is 72256236 - :abbr:`USB (Universal Serial Bus)`-to-:abbr:`POS (Point of Sale)` cable. Contact Mettler, or a partner, to purchase an authentic cable. Note that **no other** cable outside of this Mettler cable works for this configuration. Using a serial-only cable attached to a serial-to-:abbr:`USB (Universal Serial Bus)` adapter is **not** effective."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/troubleshooting.rst:-1
+#: ../../content/applications/general/iot/config/troubleshooting.rst:None
 msgid "Authentic Mettler USB to POS cable, part number 72256236."
 msgstr ""
 
@@ -5138,7 +5138,7 @@ msgstr ""
 msgid "Lastly, click :guilabel:`Flash`, and wait for the process to finish."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/updating_iot.rst:-1
+#: ../../content/applications/general/iot/config/updating_iot.rst:None
 msgid "Balena's Etcher software dashboard."
 msgstr ""
 
@@ -5293,7 +5293,7 @@ msgstr ""
 msgid "This process can take more than 30 minutes. Do **not** turn off, or unplug, the :abbr:`IoT (Internet of Things)` box, as it would leave it in an inconsistent state. This means the :abbr:`IoT (Internet of Things)` box needs to be :ref:`re-flashed <iot/config/flash>` with a new image."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/updating_iot.rst:-1
+#: ../../content/applications/general/iot/config/updating_iot.rst:None
 msgid "IoT box software upgrade in the IoT Box Home Page."
 msgstr ""
 
@@ -5317,7 +5317,7 @@ msgstr ""
 msgid "Next, click :guilabel:`Handlers list`, and then select :guilabel:`Load Handlers` at the bottom of the page."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/updating_iot.rst:-1
+#: ../../content/applications/general/iot/config/updating_iot.rst:None
 msgid "Handlers list on an IoT box with the load handlers button highlighted."
 msgstr ""
 
@@ -5386,7 +5386,7 @@ msgid "Download and initial installation"
 msgstr ""
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:41
-msgid "To begin the installation, navigate to the Odoo 16 or higher installation package for Enterprise or Community - Windows edition at `Odoo's download page <https://odoo.com/download>`_. Next, install and setup the Odoo :file:`.exe` file. After the instructions screen, click :guilabel:`Next` to start the installation and agree to the :abbr:`TOS (Terms of Service)`."
+msgid "To begin the installation, navigate to the Odoo 16 or higher installation package for Community - Windows edition at `Odoo's download page <https://odoo.com/download>`_. Next, install and setup the Odoo :file:`.exe` file. After the instructions screen, click :guilabel:`Next` to start the installation and agree to the :abbr:`TOS (Terms of Service)`."
 msgstr ""
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:46
@@ -5593,7 +5593,7 @@ msgstr ""
 msgid "Next, click :guilabel:`Advanced settings` in the left menu."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/windows_iot.rst:-1
+#: ../../content/applications/general/iot/config/windows_iot.rst:None
 msgid "Advanced settings option highlighted in the left pane of the Windows Defender Firewall app."
 msgstr ""
 
@@ -5601,7 +5601,7 @@ msgstr ""
 msgid "In the left menu, choose :guilabel:`Inbound Rules`."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/windows_iot.rst:-1
+#: ../../content/applications/general/iot/config/windows_iot.rst:None
 msgid "Windows Defender left window pane with inbound rules menu item highlighted."
 msgstr ""
 
@@ -5609,7 +5609,7 @@ msgstr ""
 msgid "After selecting :guilabel:`Inbound Rules`, select :guilabel:`New Rule` in the far right menu."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/windows_iot.rst:-1
+#: ../../content/applications/general/iot/config/windows_iot.rst:None
 msgid "New rule dropdown shown with new rule option highlighted."
 msgstr ""
 
@@ -5617,7 +5617,7 @@ msgstr ""
 msgid "Then, for the :guilabel:`Rule Type`, select the radio button for :guilabel:`Port`. Click :guilabel:`Next` to continue to the rest of the configuration."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/windows_iot.rst:-1
+#: ../../content/applications/general/iot/config/windows_iot.rst:None
 msgid "Rule Type window open, with the radio button next to port highlighted."
 msgstr ""
 
@@ -5629,7 +5629,7 @@ msgstr ""
 msgid "Next, under :guilabel:`Does this rule apply to all local ports or specific ports?`, select the radio button for :guilabel:`Specific local ports`. Then, enter `9050`, and click :guilabel:`Next` to continue."
 msgstr ""
 
-#: ../../content/applications/general/iot/config/windows_iot.rst:-1
+#: ../../content/applications/general/iot/config/windows_iot.rst:None
 msgid "Protocol/port configuration window with TCP, specific port (9050) and Next highlighted."
 msgstr ""
 
@@ -5793,7 +5793,7 @@ msgstr ""
 msgid "If the camera is `supported <https://www.odoo.com/page/iot-hardware>`_, there is no need to set up anything, as it'll be detected as soon as it's connected."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/camera.rst:-1
+#: ../../content/applications/general/iot/devices/camera.rst:None
 msgid "Camera recognized on the IoT box."
 msgstr ""
 
@@ -5809,7 +5809,7 @@ msgstr ""
 msgid "On the control point form, edit the control point by selecting the :guilabel:`Type` field, and clicking on :guilabel:`Take a Picture` from the drop-down menu. Doing so reveals a field called :guilabel:`Device`, wherein the attached *device* can be selected. :guilabel:`Save` the changes, if required."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/camera.rst:-1
+#: ../../content/applications/general/iot/devices/camera.rst:None
 msgid "Setting up the device on the quality control point."
 msgstr ""
 
@@ -5817,7 +5817,7 @@ msgstr ""
 msgid "The camera is now useable with the selected quality control point. When the quality control point is reached during the manufacturing process, the database prompts the operator to take a picture."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/camera.rst:-1
+#: ../../content/applications/general/iot/devices/camera.rst:None
 msgid "Graphic user interface of the device on the quality control point."
 msgstr ""
 
@@ -5886,7 +5886,7 @@ msgstr ""
 msgid "If the footswitch is a `supported device <https://www.odoo.com/page/iot-hardware>`_, there is no need to take further action, since it'll be automatically detected when connected."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/footswitch.rst:-1
+#: ../../content/applications/general/iot/devices/footswitch.rst:None
 msgid "Footswitch recognized on the IoT box."
 msgstr ""
 
@@ -5898,7 +5898,7 @@ msgstr ""
 msgid "To link a footswitch to an action, it first needs to be configured on a work center. Navigate to :menuselection:`Manufacturing app --> Configuration --> Work Centers`. From here, go to the desired :guilabel:`Work Center` in which the footswitch will be used, and add the device in the :guilabel:`IoT Triggers` tab, under the :guilabel:`Device` column, by selecting :guilabel:`Add a Line`. Doing so means the footswitch can be linked to an option in the :guilabel:`Action` column drop-down, and optionally, a key can be added to trigger it. An example of an :guilabel:`Action` in the *Manufacturing app* could be the :guilabel:`Validate` or :guilabel:`Mark as Done` buttons on a manufacturing work order."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/footswitch.rst:-1
+#: ../../content/applications/general/iot/devices/footswitch.rst:None
 msgid "Footswitch trigger setup on the Odoo database."
 msgstr ""
 
@@ -5930,7 +5930,7 @@ msgstr ""
 msgid "To add a device connected by :abbr:`USB (Universal Serial Bus)`, plug the :abbr:`USB (Universal Serial Bus)` cable into the :abbr:`IoT (Internet of Things)` box, and the device appears in the Odoo database."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/measurement_tool.rst:-1
+#: ../../content/applications/general/iot/devices/measurement_tool.rst:None
 msgid "Measurement tool recognized on the IoT box."
 msgstr ""
 
@@ -5942,7 +5942,7 @@ msgstr ""
 msgid "Activate the Bluetooth functionality on the device (see the device manual for further explanation), and the :abbr:`IoT (Internet of Things)` box automatically connects to the device."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/measurement_tool.rst:-1
+#: ../../content/applications/general/iot/devices/measurement_tool.rst:None
 msgid "Bluetooth indicator on measurement tool."
 msgstr ""
 
@@ -5966,7 +5966,7 @@ msgstr ""
 msgid "At this point, the measurement tool is linked to the chosen quality control point. The value, which usually needs to be changed manually, is automatically updated while the tool is being used."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/measurement_tool.rst:-1
+#: ../../content/applications/general/iot/devices/measurement_tool.rst:None
 msgid "Measurement tool input in the Odoo database."
 msgstr ""
 
@@ -6019,7 +6019,7 @@ msgstr ""
 msgid "The :abbr:`IoT (Internet of Things)` box supports printers connected through :abbr:`USB (Universal Serial Bus)`, network connection, or Bluetooth. `Supported printers <https://www.odoo.com/page/iot-hardware>`__ are detected automatically, and appear in the :guilabel:`Devices` list of the *IoT app*."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/printer.rst:-1
+#: ../../content/applications/general/iot/devices/printer.rst:None
 msgid "The printer as it would appear in the IoT app devices list."
 msgstr ""
 
@@ -6051,7 +6051,7 @@ msgstr ""
 msgid "From here, edit the control point, by selecting the :guilabel:`Type` field, and selecting :guilabel:`Print Label` from the drop-down menu of options. Doing so reveals a field called :guilabel:`Device`, where the attached *device* can be selected. :guilabel:`Save` the changes, if required."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/printer.rst:-1
+#: ../../content/applications/general/iot/devices/printer.rst:None
 msgid "This is the quality control point setup."
 msgstr ""
 
@@ -6095,7 +6095,7 @@ msgstr ""
 msgid "From here, click :guilabel:`Edit`, go to the :guilabel:`Printer Reports` tab, and select :guilabel:`Add a line`. In the window that appears, check all the types of :guilabel:`Reports` that should be linked to this printer."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/printer.rst:-1
+#: ../../content/applications/general/iot/devices/printer.rst:None
 msgid "The printer devices listed in the IoT Devices menu."
 msgstr ""
 
@@ -6147,7 +6147,7 @@ msgstr ""
 msgid "If the scale is `compatible with Odoo IoT Box <https://www.odoo.com/page/iot-hardware>`_, there is no need to set up anything because it will be automatically detected as soon as it is connected."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/scale.rst:-1
+#: ../../content/applications/general/iot/devices/scale.rst:None
 msgid "IOT box auto detection."
 msgstr ""
 
@@ -6155,7 +6155,7 @@ msgstr ""
 msgid "The :abbr:`IoT (Internet of Things)` box may need to be restarted and the scale's drivers may need to be downloaded to the box in some cases. To update the drivers, go to the :abbr:`IoT (Internet of Things)` box homepage and click on :guilabel:`Drivers List`. Then, click on :guilabel:`Load Drivers`."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/scale.rst:-1
+#: ../../content/applications/general/iot/devices/scale.rst:None
 msgid "View of the IoT box settings and driver list."
 msgstr ""
 
@@ -6175,7 +6175,7 @@ msgstr ""
 msgid "Select the scale from the :guilabel:`Electronic Scale` drop-down menu. Then click :guilabel:`Save` to save the changes, if required."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/scale.rst:-1
+#: ../../content/applications/general/iot/devices/scale.rst:None
 msgid "List of the external tools that can be used with PoS and the IoT box."
 msgstr ""
 
@@ -6183,7 +6183,7 @@ msgstr ""
 msgid "The scale is now available in all the :abbr:`PoS (Point of Sale)` sessions. Now, if a product has a price per weight set, clicking on it on the :guilabel:`PoS` screen opens the scale screen, where the cashier can weigh the product and add the correct price to the cart."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/scale.rst:-1
+#: ../../content/applications/general/iot/devices/scale.rst:None
 msgid "Electronic Scale dashboard view when no items are being weighed."
 msgstr ""
 
@@ -6239,7 +6239,7 @@ msgstr ""
 msgid "If the connection was successful, the screen should display the :guilabel:`POS Client display` screen."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/screen.rst:-1
+#: ../../content/applications/general/iot/devices/screen.rst:None
 msgid "The default \"POS Client Display\" screen that appears when a screen display is successfully\n"
 "connected to an IoT box."
 msgstr ""
@@ -6248,7 +6248,7 @@ msgstr ""
 msgid "The screen should also appear in the list of :guilabel:`Displays` on the :abbr:`IoT (Internet of Things)` box homepage. Alternatively, the display can be seen by accessing :menuselection:`IoT app --> Devices`."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/screen.rst:-1
+#: ../../content/applications/general/iot/devices/screen.rst:None
 msgid "An example of a screen display name shown on the IoT Box Home Page."
 msgstr ""
 
@@ -6276,7 +6276,7 @@ msgstr ""
 msgid "Next, select the screen from the :guilabel:`Customer Display` drop-down menu. Then click :guilabel:`Save`, if required."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/screen.rst:-1
+#: ../../content/applications/general/iot/devices/screen.rst:None
 msgid "Connect the screen display to the Point of Sale app."
 msgstr ""
 
@@ -6284,7 +6284,7 @@ msgstr ""
 msgid "The screen is now available for :abbr:`PoS (Point of Sale)` sessions. A screen icon will appear in the menu at the top of the screen to indicate the screen's connection status."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/screen.rst:-1
+#: ../../content/applications/general/iot/devices/screen.rst:None
 msgid "The \"screen\" icon on the Point of Sale display shows the connection status with the\n"
 "screen."
 msgstr ""
@@ -6293,7 +6293,7 @@ msgstr ""
 msgid "The screen will automatically show the :abbr:`PoS (Point of Sale)` orders and update when changes are made to the order."
 msgstr ""
 
-#: ../../content/applications/general/iot/devices/screen.rst:-1
+#: ../../content/applications/general/iot/devices/screen.rst:None
 msgid "An example of a PoS order on a screen display."
 msgstr ""
 
@@ -6338,7 +6338,7 @@ msgstr ""
 msgid "To add new users, navigate to :menuselection:`Settings app --> Users section --> Manage Users`, and click on :guilabel:`New`."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "View of the settings page emphasizing the manage users field in Odoo."
 msgstr ""
 
@@ -6350,7 +6350,7 @@ msgstr ""
 msgid "The list of applications shown is based on the applications installed on the database."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "View of a user's form emphasizing the access rights tab in Odoo."
 msgstr ""
 
@@ -6358,7 +6358,7 @@ msgstr ""
 msgid "After filling out all the necessary fields on the page, manually :guilabel:`Save`. An invitation email is automatically sent to the user, using the email in the :guilabel:`Email Address` field. The user must click on the link included in the email to accept the invitation, and to create a database login."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "View of a user's form with a notification that the invitation email has been sent in Odoo."
 msgstr ""
 
@@ -6378,7 +6378,7 @@ msgstr ""
 msgid "There are three types of users: :guilabel:`Internal User`, :guilabel:`Portal`, and :guilabel:`Public`."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "View of a user's form in developer mode emphasizing the user type field in Odoo."
 msgstr ""
 
@@ -6418,7 +6418,7 @@ msgstr ""
 msgid "If there are more users in an Odoo database than provisioned in the Odoo Enterprise subscription, the following message is displayed."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "Too many users on a database error message."
 msgstr ""
 
@@ -6458,7 +6458,7 @@ msgstr ""
 msgid "Odoo has a setting to specify the length needed for a password. This setting can be accessed by navigating to :menuselection:`Settings app --> Permissions` section, and entering the desired password length in the :guilabel:`Minimum Password Length` field. By default the value is `8`."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "Minimum Password Length highlighted in the Permissions section of General Settings."
 msgstr ""
 
@@ -6482,7 +6482,7 @@ msgstr ""
 msgid "To change this setting, go to :menuselection:`Settings app --> Permissions` section, activate :guilabel:`Password Reset`, and then click :guilabel:`Save`."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "Enabling Password Reset in Odoo Settings"
 msgstr ""
 
@@ -6490,7 +6490,7 @@ msgstr ""
 msgid "On the login page, click :guilabel:`Reset Password` to initiate the password reset process, and have a reset-token sent to the email on file."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "Login screen on Odoo.com with the password reset option highlighted."
 msgstr ""
 
@@ -6510,7 +6510,7 @@ msgstr ""
 msgid "This email contains all the instructions needed to reset the password, along with a link redirecting the user to an Odoo login page."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "Example of an email with a password reset link for an Odoo account."
 msgstr ""
 
@@ -6522,7 +6522,7 @@ msgstr ""
 msgid "Go to :menuselection:`Settings app --> Users & Companies --> Users`, and select a user to access its form. Click on the :guilabel:`⚙️ Actions` icon, and select :guilabel:`Change Password` from, the resulting drop-down menu. Enter a new password in the :guilabel:`New Password` column of the :guilabel:`Change Password` pop-up window that appears, and confirm the change by clicking :guilabel:`Change Password`."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "Change a user's password on Odoo."
 msgstr ""
 
@@ -6558,7 +6558,7 @@ msgstr ""
 msgid "If multi-company access is not configured correctly, it could lead to inconsistent multi-company behaviors. Because of this, only experienced Odoo users should make access rights changes to users for databases with a multi-company configuration. For technical explanations, refer to the developer documentation on :doc:`../../../developer/howtos/company`."
 msgstr ""
 
-#: ../../content/applications/general/users.rst:-1
+#: ../../content/applications/general/users.rst:None
 msgid "View of a user's form emphasizing the multi companies field in Odoo."
 msgstr ""
 
@@ -6706,7 +6706,7 @@ msgstr ""
 msgid "To make changes to a user's rights, click on the desired user to edit their profile."
 msgstr ""
 
-#: ../../content/applications/general/users/access_rights.rst:-1
+#: ../../content/applications/general/users/access_rights.rst:None
 msgid "Users menu in the Users & Companies section of the Settings app of Odoo."
 msgstr ""
 
@@ -6722,7 +6722,7 @@ msgstr ""
 msgid "The :guilabel:`Administration` field in the :guilabel:`Access Rights` tab has the following options: :guilabel:`Settings` or :guilabel:`Access Rights`."
 msgstr ""
 
-#: ../../content/applications/general/users/access_rights.rst:-1
+#: ../../content/applications/general/users/access_rights.rst:None
 msgid "The Sales apps drop-down menu to set the user's level of permissions."
 msgstr ""
 
@@ -6738,7 +6738,7 @@ msgstr ""
 msgid "To access groups, first activate Odoo's :ref:`developer mode <developer-mode>`, then go to :menuselection:`Settings app --> Users & Companies --> Groups`."
 msgstr ""
 
-#: ../../content/applications/general/users/access_rights.rst:-1
+#: ../../content/applications/general/users/access_rights.rst:None
 msgid "Groups menu in the Users & Companies section of the Settings app of Odoo."
 msgstr ""
 
@@ -6762,7 +6762,7 @@ msgstr ""
 msgid "The group form contains multiple tabs for managing all elements of the group. In each tab, click :guilabel:`Add a line` to add a new row for users or rules, and click the :guilabel:`❌ (remove)` icon to remove a row."
 msgstr ""
 
-#: ../../content/applications/general/users/access_rights.rst:-1
+#: ../../content/applications/general/users/access_rights.rst:None
 msgid "Tabs in the Groups form to modify the settings of the group."
 msgstr ""
 
@@ -6815,7 +6815,7 @@ msgid "The model technical name can also be accessed in :ref:`developer mode <de
 msgstr ""
 
 #: ../../content/applications/general/users/access_rights.rst:126
-msgid "On a form, navigate to any field, and hover over the field name. A box of backend information reveals itself with the specific Odoo :guilabel:`Object` name in the backend. This is the technical name of the model that should be added."
+msgid "On a form, navigate to any field, and hover over the field name. A box of backend information reveals itself with the specific Odoo :guilabel:`Model` name in the backend. This is the technical name of the model that should be added."
 msgstr ""
 
 #: ../../content/applications/general/users/access_rights.rst:0
@@ -6982,7 +6982,7 @@ msgstr ""
 msgid "Next, the type of *tokens* needed for the OAuth authentication will be chosen. These are not currency tokens but rather authentication tokens that are passed between Microsoft and Odoo. Therefore, there is no cost for these tokens; they are used merely for authentication purposes between two :abbr:`APIs (application programming interfaces)`. Select the tokens that should be issued by the authorization endpoint by scrolling down the screen and check the boxes labeled: :guilabel:`Access tokens (used for implicit flows)` and :guilabel:`ID tokens (used for implicit and hybrid flows)`."
 msgstr ""
 
-#: ../../content/applications/general/users/azure.rst:-1
+#: ../../content/applications/general/users/azure.rst:None
 msgid "Authentication settings and endpoint tokens."
 msgstr ""
 
@@ -7002,7 +7002,7 @@ msgstr ""
 msgid "After finishing this step, click on :guilabel:`Endpoints` on the top menu and click the *copy icon* next to :guilabel:`OAuth 2.0 authorization endpoint (v2)` field. Paste this value in the clipboard / notepad."
 msgstr ""
 
-#: ../../content/applications/general/users/azure.rst:-1
+#: ../../content/applications/general/users/azure.rst:None
 msgid "Application ID and OAuth 2.0 authorization endpoint (v2) credentials."
 msgstr ""
 
@@ -7034,7 +7034,7 @@ msgstr ""
 msgid "Check the box next to the :guilabel:`Allowed` field to enable the OAuth provider. Finally, add `Microsoft Azure` to the :guilabel:`Login button label` field. This text will appear next to the Windows logo on the login page."
 msgstr ""
 
-#: ../../content/applications/general/users/azure.rst:-1
+#: ../../content/applications/general/users/azure.rst:None
 msgid "Odoo provider setup in the Settings application."
 msgstr ""
 
@@ -7058,7 +7058,7 @@ msgstr ""
 msgid "To sign in to Odoo for the first time using the Microsoft Azure OAuth provider, navigate to the :menuselection:`Odoo password reset page` (using the new user invitation link). A password reset page should appear. Then, click on the option labeled :guilabel:`Microsoft Azure`. The page will redirect to the Microsoft login page."
 msgstr ""
 
-#: ../../content/applications/general/users/azure.rst:-1
+#: ../../content/applications/general/users/azure.rst:None
 msgid "Microsoft Outlook login page."
 msgstr ""
 
@@ -7066,7 +7066,7 @@ msgstr ""
 msgid "Enter the :guilabel:`Microsoft Email Address` and click :guilabel:`Next`. Follow the process to sign in to the account. Should :abbr:`2FA (Two Factor Authentication)` be turned on, then an extra step may be required."
 msgstr ""
 
-#: ../../content/applications/general/users/azure.rst:-1
+#: ../../content/applications/general/users/azure.rst:None
 msgid "Enter Microsoft login credentials."
 msgstr ""
 
@@ -7074,7 +7074,7 @@ msgstr ""
 msgid "Finally, after logging in to the account, the page will redirect to a permissions page where the user will be prompted to :guilabel:`Accept` the conditions that the Odoo application will access their Microsoft information."
 msgstr ""
 
-#: ../../content/applications/general/users/azure.rst:-1
+#: ../../content/applications/general/users/azure.rst:None
 msgid "Accept Microsoft conditions for permission access to your account information."
 msgstr ""
 
@@ -7198,7 +7198,7 @@ msgstr ""
 msgid "Once the previous steps are complete, two keys are generated on the Google API Dashboard: :guilabel:`Client ID` and :guilabel:`Client Secret`. Copy the :guilabel:`Client ID`."
 msgstr ""
 
-#: ../../content/applications/general/users/google.rst:-1
+#: ../../content/applications/general/users/google.rst:None
 msgid "Google OAuth Client ID generated."
 msgstr ""
 
@@ -7314,11 +7314,11 @@ msgstr ""
 msgid "Click on **Create** in Setup the :abbr:`LDAP (Lightweight Directory Access Protocol)` Server."
 msgstr ""
 
-#: ../../content/applications/general/users/ldap.rst:-1
+#: ../../content/applications/general/users/ldap.rst:None
 msgid "LDAP Authentication checkbox highlighted in the integrations settings on Odoo."
 msgstr ""
 
-#: ../../content/applications/general/users/ldap.rst:-1
+#: ../../content/applications/general/users/ldap.rst:None
 msgid "Create highlighted in the LDAP server settings."
 msgstr ""
 
@@ -7326,7 +7326,7 @@ msgstr ""
 msgid "Choose the company using the LDAP."
 msgstr ""
 
-#: ../../content/applications/general/users/ldap.rst:-1
+#: ../../content/applications/general/users/ldap.rst:None
 msgid "Select the company drop-down menu highlighted in LDAP setup."
 msgstr ""
 
@@ -7338,7 +7338,7 @@ msgstr ""
 msgid "Tick **Use TLS** if the server is compatible."
 msgstr ""
 
-#: ../../content/applications/general/users/ldap.rst:-1
+#: ../../content/applications/general/users/ldap.rst:None
 msgid "LDAP server settings highlighted in LDAP server setup on Odoo."
 msgstr ""
 
@@ -7346,7 +7346,7 @@ msgstr ""
 msgid "In **Login Information**, enter ID and password of the account used to query the server. If left empty, the server queries anonymously."
 msgstr ""
 
-#: ../../content/applications/general/users/ldap.rst:-1
+#: ../../content/applications/general/users/ldap.rst:None
 msgid "Login information highlighted in LDAP server setup on Odoo."
 msgstr ""
 
@@ -7358,7 +7358,7 @@ msgstr ""
 msgid "In **LDAP filter**, enter ``uid=%s``"
 msgstr ""
 
-#: ../../content/applications/general/users/ldap.rst:-1
+#: ../../content/applications/general/users/ldap.rst:None
 msgid "Process parameter highlighted in LDAP server setup on Odoo."
 msgstr ""
 
@@ -7370,7 +7370,7 @@ msgstr ""
 msgid "In **Template User**, indicate a template for the new profiles created. If left blanked, the admin profile will be used as template."
 msgstr ""
 
-#: ../../content/applications/general/users/ldap.rst:-1
+#: ../../content/applications/general/users/ldap.rst:None
 msgid "User information highlighted on LDAP server setup on Odoo."
 msgstr ""
 
@@ -7438,7 +7438,7 @@ msgstr ""
 msgid "From the main Odoo dashboard, select the :guilabel:`Contacts` application. If the contact is not yet created in the database, click on the :guilabel:`Create` button, enter the details of the contact, and then click :guilabel:`Save`. Otherwise, choose an existing contact, and then click on the :guilabel:`Action` drop-down menu located at the top-center of the interface."
 msgstr ""
 
-#: ../../content/applications/general/users/portal.rst:-1
+#: ../../content/applications/general/users/portal.rst:None
 msgid "Use the Contacts application to give portal access to users."
 msgstr ""
 
@@ -7462,7 +7462,7 @@ msgstr ""
 msgid "To grant portal access, first enter the contact's :guilabel:`Email` they will use to log into the portal. Then, check the box under the :guilabel:`In Portal` column. Optionally, add text to the invitation message the contact will receive. Then click :guilabel:`Apply` to finish."
 msgstr ""
 
-#: ../../content/applications/general/users/portal.rst:-1
+#: ../../content/applications/general/users/portal.rst:None
 msgid "An email address and corresponding checkbox for the contact need to be filled in before\n"
 "sending a portal invitation."
 msgstr ""
