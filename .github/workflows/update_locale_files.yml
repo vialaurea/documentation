@@ -1,0 +1,30 @@
+name: Update locale files
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      LANGUAGES: en,lt
+      IS_REMOTE_BUILD: true
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Generate POT/PO files
+      run: |
+        make gettext
+        sphinx-intl update -p ./locale/sources/ -d ./locale/ -l lt
+    - name: Upload locale files
+      run: |
+        git config --local user.email "gailius.kaz@vialaurea.lt"
+        git config --local user.name "Gailius AI"
+        git add locale/
+        git commit -m "Update locale files"
+        git push
