@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-19 09:09+0000\n"
+"POT-Creation-Date: 2024-06-27 07:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -358,6 +358,11 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:5
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:5
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:8
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:7
+#: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:5
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:5
+#: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:5
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:5
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:5
 msgid "Introduction"
@@ -374,6 +379,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:9
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:10
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:20
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:12
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:13
 msgid "Installation and Configuration"
 msgstr ""
@@ -410,6 +416,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:29
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:29
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:25
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:17
 msgid "Main Functions"
 msgstr ""
 
@@ -418,6 +425,11 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:13
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:18
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:32
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:23
+#: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:13
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:13
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:13
+#: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:13
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:21
 msgid "Daily Use Scenarios"
 msgstr ""
@@ -467,6 +479,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:53
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:55
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:30
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:39
 msgid "Reports and Documentation"
 msgstr ""
 
@@ -494,56 +507,66 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:69
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:85
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:45
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:45
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:59
 msgid "Integrations and Connections with Other Modules"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:69
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:72
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:50
 msgid "Problem Solving and FAQs"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:71
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:74
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:52
 msgid "The most common problems and their solutions."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:72
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:75
 #: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:129
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:53
 msgid "Answers to frequently asked questions about this module."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:75
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:78
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:56
 msgid "Updates and Version Control"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:77
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:80
 #: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:134
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:58
 msgid "How to update the module."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:78
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:81
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:59
 msgid "Version control practices."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:81
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:84
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:62
 msgid "Attachments"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:83
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:86
 #: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:141
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:64
 msgid "Screenshots and visual instructions."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:84
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:87
 #: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:143
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:65
 msgid "Useful links and additional resources."
 msgstr ""
 
@@ -1170,7 +1193,6 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:4
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:4
 #: ../../content/via_laurea_modules/accounting/payments/cash.rst:4
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:4
 msgid "data"
 msgstr ""
 
@@ -1380,10 +1402,12 @@ msgid "4. Reports and Documentation"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:107
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:41
 msgid "How to generate reports using the module."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:109
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:42
 msgid "Instructions for document management and archiving."
 msgstr ""
 
@@ -1514,7 +1538,57 @@ msgid "Cash"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:2
-msgid "Registration of advances"
+msgid "Advance Payment Reports"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:4
+msgid "l10n_lt_adv_pay_report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:9
+msgid ""
+"This function allows generating and printing advance payment reports by "
+"employees and date."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:14
+msgid "No additional installation or configuration is required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:19
+msgid "A detailed description of each important function."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:20
+msgid "Step-by-step instructions on how to use these functions."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:25
+msgid "Go to Accounting -> Reports -> Advance Payment Report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:26
+msgid ""
+"Set the report generation parameters: - Date range - select the period "
+"for which you want to print the advance payment report; - Employee - "
+"select the accountable person; - Number - enter the advance payment "
+"report number;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:30
+msgid "Click \"Print\"."
+msgstr ""
+
+msgid "Advance Payment Report parameters"
+msgstr ""
+
+msgid "Generated Advance Payment Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:47
+msgid ""
+"Information for this report is obtained from transactions related to "
+"Accountable Persons."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports.rst:2
@@ -1527,8 +1601,6 @@ msgid "Accounting note"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:4
-#: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:4
-#: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:4
 msgid "Overview"
 msgstr ""
 
@@ -1536,17 +1608,113 @@ msgstr ""
 msgid "Bank Report"
 msgstr ""
 
+#: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:7
+msgid ""
+"You can find the bank report in the Accounting module under the Reports "
+"section:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:15
+msgid ""
+"In the opened window, select the period for which you want to print the "
+"bank report. - Journal: select which bank's report you want to print. - "
+"The report is printed only in PDF format."
+msgstr ""
+
+msgid "Select report period and journal"
+msgstr ""
+
+msgid "Print report in PDF format"
+msgstr ""
+
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:2
 msgid "Chart of Accounts Report"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:4
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:4
 msgid "Overview of"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:2
 msgid "Mutual Reconciliation Act"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:7
+msgid ""
+"Mutual debt reconciliation acts (EUR) can be generated in detailed form -"
+" with all transactions, or in summary form - including only the overall "
+"result of the specified period. To generate a reconciliation act for a "
+"specific partner/client, you can find this report in the Accounting "
+"module by selecting Reports/Partner Ledger."
+msgstr ""
+
+msgid "Reports/Partner Ledger"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:15
+msgid "### Printing a Detailed Mutual Debt Reconciliation Act:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:17
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:30
+msgid "In the partner ledger list, click the \"Debt Reconciliation Act\" button."
+msgstr ""
+
+msgid "Debt Reconciliation Act button"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:22
+msgid ""
+"In the opened window, select the partner, the start and end dates of the "
+"period. Check the \"Expand lines\" box. Click the \"Print PDF\" button. "
+"This will generate a file in PDF format."
+msgstr ""
+
+msgid "Expand lines and Print PDF"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:28
+msgid "### Printing a Summary Mutual Debt Reconciliation Act:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:35
+msgid ""
+"In the opened window, select the partner, the start and end dates of the "
+"period. Do not check the \"Expand lines\" box. Click the \"Print PDF\" "
+"button. This will generate a file in PDF format."
+msgstr ""
+
+msgid "Summary Print PDF"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:41
+msgid "### Printing Reconciliation Acts for Multiple Partners in a Batch:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:43
+msgid ""
+"This method is used when you need to print reconciliation acts for "
+"several partners at once. In this case, repeat all the steps described "
+"above according to your needs. In the partner field, select several "
+"required partners from the list. A single PDF file with the "
+"reconciliation acts for all your selected partners will be generated "
+"sequentially."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:45
+msgid ""
+"Note: You can also access the partner ledger directly from the Contacts "
+"module. In the Contacts module, select the required partner, go to their "
+"card, and select the \"More\" button \"Partner Ledger.\""
+msgstr ""
+
+msgid "Partner Ledger from Contacts module"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:50
+msgid ""
+"In the opened form, you can choose the \"Debt Reconciliation Act\" button"
+" and follow the previously described instructions for the printing form."
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory.rst:2
@@ -1568,7 +1736,6 @@ msgstr ""
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:4
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:4
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:4
-#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:4
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:4
 msgid "test"
 msgstr ""
@@ -1585,8 +1752,99 @@ msgstr ""
 msgid "Inventorization Act"
 msgstr ""
 
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:7
+msgid ""
+"You can find the Inventory Inventory Act in the Inventory module under "
+"the Reports section:"
+msgstr ""
+
+msgid "Inventory module reports section"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:15
+msgid ""
+"In the opened window, specify when the inventory starts and ends. - "
+"Locations: specify from which warehouse \"location\" the items are "
+"inventoried. - Filling Form: this is the inventory form adapted for "
+"manual entry of actual quantities. - Choose whether to display items "
+"whose quantities have changed at the top of the table. Choose whether to "
+"combine locations and serial numbers. By default, a vertical sheet is "
+"printed, but there is an option to print a horizontal sheet. - Fill in "
+"the inventory accounting date. Select inventory adjustment, enter the "
+"basis for preparation, date, chairman of the commission, members, "
+"materially responsible persons, and accountant."
+msgstr ""
+
+msgid "Inventory start and end dates"
+msgstr ""
+
+msgid "Inventory location and details"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:27
+msgid "When \"Filling Form\" is selected:"
+msgstr ""
+
+msgid "Filling Form selected"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:32
+msgid "When \"Filling Form\" is not selected:"
+msgstr ""
+
+msgid "Filling Form not selected"
+msgstr ""
+
+msgid "Inventory adjustment details"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:41
+msgid "Note"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:43
+msgid ""
+"Shortage/Surplus is calculated by subtracting the Accounting Quantity "
+"from the Actual Balance. At the bottom of the act, the Shortage value is "
+"shown with a minus sign, and the Surplus with a plus sign."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:44
+msgid ""
+"It is very important to note that the inventory act itself does not take "
+"data from what happened on the Inventory Day with transfers (IN, OUT, "
+"Internal, Write-offs). However, if this was done, it distorts the act "
+"with values. For example, if you conducted an inventory on 2023-12-28 and"
+" an OUT operation occurred on that day, the product is no longer in the "
+"warehouse, but the inventory was already started, and in this case, it is"
+" recorded that the quantity remained as it was unless a quantity "
+"adjustment was made during the inventory. This is a very important point:"
+" no transfers can be made during the inventory, except for the inventory "
+"adjustments themselves."
+msgstr ""
+
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:2
 msgid "Inventory Turnover Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:7
+msgid ""
+"You can find the Inventory Turnover Report in the Inventory module under "
+"the Reports section:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:15
+msgid ""
+"In the opened window, select the period for which you want to print the "
+"Inventory Turnover Report. You can print the report by product categories"
+" or specific products. The report can be viewed in the Odoo system, or "
+"printed in PDF or Excel format."
+msgstr ""
+
+msgid "Select report period"
+msgstr ""
+
+msgid "Report format options"
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:2
@@ -2024,4 +2282,7 @@ msgid ""
 "This Odoo module is connected with the \"Employees\" and \"Payroll\" "
 "modules."
 msgstr ""
+
+#~ msgid "Registration of advances"
+#~ msgstr ""
 
