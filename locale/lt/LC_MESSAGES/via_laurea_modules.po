@@ -379,7 +379,7 @@ msgstr "Apžvalga apie visas buhalterijos procesus sistemoje."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:2
 msgid "FR0564"
-msgstr "Aš suprantu. Prašau duok man tekstą."
+msgstr "FR0564"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:5
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:4
@@ -682,7 +682,7 @@ msgstr "Ataskaitos -> Mokesčių ataskaita"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:2
 msgid "GPAIS"
-msgstr "Aš suprantu. Prašau duokite man tekstą."
+msgstr "GPAIS"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:5
 msgid "1. Module Purpose and Operation"
@@ -990,7 +990,7 @@ msgstr "Patikrinti importuotus duomenis GPAIS sistemoje"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:2
 msgid "​iSAF"
-msgstr "iSuprantu. Prašau duokite man tekstą."
+msgstr "iSAF"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:7
 msgid ""
@@ -1995,8 +1995,7 @@ msgstr "Apskaitos valdymo ir susijusių ataskaitų bei deklaracijų apžvalga."
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:2
 msgid "CMR"
 msgstr ""
-"CMR - Tarptautinis krovininių automobilių vežimų sutartis dėl krovinio "
-"pervežimo keliu."
+"CMR"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:4
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:4
@@ -2011,7 +2010,7 @@ msgstr "Intrastat"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:2
 msgid "​iVAZ"
-msgstr "Aš suprantu. Prašau duoti tekstą."
+msgstr "​iVAZ"
 
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:2
 msgid "Inventorization Act"
