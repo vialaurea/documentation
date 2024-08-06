@@ -1,4 +1,4 @@
-Payroll Calculation Instructions
+Payroll Calculation
 ===============================
 
 1. Introduction
