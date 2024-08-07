@@ -1,65 +1,36 @@
-Advance Payment Reports
-=======================
+Registration of advances
+========================
 
-l10n_lt_adv_pay_report
+1. Introduction
+---------------
 
-Introduction
-------------
+Instructions on how to correctly register received/paid advances in the Odoo system and reconcile them with received or issued invoices.
 
-- This function allows generating and printing advance payment reports by employees and date.
+2. Installation and Configuration
+---------------------------------
 
-Installation and Configuration
-------------------------------
+To properly use the Advances module, you must first configure it by creating the "Advances" journal and specifying accounts from the chart of accounts. To do this, in Accounting, go to Configuration, and in the Settings section, select the accounts and the created journal.
 
-- No additional installation or configuration is required.
+.. image:: registration_of_advances/Image01.jpg
 
-Main Functions
---------------
+3. Daily Use Scenarios
+----------------------
 
-- A detailed description of each important function.
-- Step-by-step instructions on how to use these functions.
+When receiving or paying an advance, select the appropriate accounts from the chart of accounts when registering it in accounting.
 
-Daily Use Scenarios
--------------------
+.. image:: registration_of_advances/Image02.jpg
 
-- Go to Accounting -> Reports -> Advance Payment Report.
-- Set the report generation parameters:
-  - Date range - select the period for which you want to print the advance payment report;
-  - Employee - select the accountable person;
-  - Number - enter the advance payment report number;
-- Click "Print".
+After issuing an invoice and registering it in accounting, you will see the mentioned advance at the bottom of the document:
 
-.. image:: registration_of_advances/img01.jpg
-    :alt: Advance Payment Report parameters
+.. image:: registration_of_advances/Image03.jpg
 
-.. image:: registration_of_advances/img02.jpg
-    :alt: Generated Advance Payment Report
+By clicking the "Add" button, an automatic entry will be created, which will transfer the amount from the advance payment account 4420 to the account where the buyer's debt is registered (in our case, 2410) on the invoice date.
 
-Reports and Documentation
---------------------------
+.. image:: registration_of_advances/Image04.jpg
 
-- How to generate reports using the module.
-- Instructions for document management and archiving.
+If you click on the "Reconciled items" field, as shown by the arrow, the related general ledger entries for this automatic operation will open:
 
-Integrations and Connections with Other Modules
------------------------------------------------
+.. image:: registration_of_advances/Image05.jpg
 
-- Information for this report is obtained from transactions related to Accountable Persons.
-
-Problem Solving and FAQs
-------------------------
-
-- The most common problems and their solutions.
-- Answers to frequently asked questions about this module.
-
-Updates and Version Control
-----------------------------
-
-- How to update the module.
-- Version control practices.
-
-Attachments
------------
-
-- Screenshots and visual instructions.
-- Useful links and additional resources.
+Based on these entries, you can see how the invoice amount is transferred from the advance and reconciled with the receivable amount.
+Similarly, by selecting the appropriate accounts, you can also reconcile paid advances with payable amounts.
