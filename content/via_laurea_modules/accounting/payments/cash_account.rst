@@ -6,7 +6,7 @@ Account Cash
 
 You can print the cash_account book through Reports -> Cash Journal.
 
-.. image:: cash_account/Image01.jpg
+.. image:: cash_account/image01.jpg
 
 2. Daily Use Scenarios
 ----------------------
@@ -17,19 +17,19 @@ In the opened window, select the period for which you want to print the cash_acc
 - **Employee**: Select the employee responsible for cash_account operations.
 - The report is printed only in PDF.
 
-.. image:: cash_account/Image02.jpg
+.. image:: cash_account/image02.jpg
 
 Monthly:
 --------
 
-.. image:: cash_account/Image03.jpg
+.. image:: cash_account/image03.jpg
 
 One report per page:
 ---------------------
 
-.. image:: cash_account/Image04.jpg
+.. image:: cash_account/image04.jpg
 
 Two reports on one page:
 -------------------------
 
-.. image:: cash_account/Image05.jpg
+.. image:: cash_account/image05.jpg
