@@ -6,5 +6,5 @@ Explore the various payment mechanisms within our system, including cash handlin
 .. toctree::
    :maxdepth: 2
 
-   payments/cash
+   payments/cash_account
    payments/registration_of_advances
