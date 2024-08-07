@@ -2,14 +2,14 @@ Account Cash
 ============
 
 1. Introduction
-================
+---------------
 
 You can print the cash_account book through Reports -> Cash Journal.
 
 .. image:: cash_account/Image01.jpg
 
 2. Daily Use Scenarios
-======================
+----------------------
 
 In the opened window, select the period for which you want to print the cash_account book.
 - **Journal**: Select the cash_account journal.
