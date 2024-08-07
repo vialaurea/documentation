@@ -10,3 +10,4 @@ Overview of the full accounting processes in the system, including detailed insi
    reports/bank_report
    reports/mutual_reconciliation_act
    reports/chart_of_accounts_report
+   reports/invoice_registry
