@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting.rst:2
 msgid "Accounting"
-msgstr "Apmokestinimas"
+msgstr "Apskaita"
 
 #: ../../content/via_laurea_modules/accounting.rst:4
 #: ../../content/via_laurea_modules/accounting/reports.rst:4
