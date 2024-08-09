@@ -4473,7 +4473,7 @@ msgstr ""
 
 #: ../../content/applications/hr/fleet.rst:5
 msgid "Fleet"
-msgstr "Laivynas"
+msgstr "Automobilių parkas"
 
 #: ../../content/applications/hr/fleet.rst:7
 msgid ""
