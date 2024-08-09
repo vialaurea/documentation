@@ -16,7 +16,7 @@ CMR
 -----------------
 - Detailed feature description: Inventory -> Operations -> Transfers. Select the required delivery (Out) document. The document must be in the "Ready" or "Done" status, then Print -> CMR.
 
-  .. image:: cmr/Image01.jpg
+  .. image:: cmr/image01.jpg
 
   Before generating the report, it is necessary to correctly enter the product details: the product weight, Intrastat CN code (see more in the Intrastat declaration documentation), and country of origin must be entered.
 
@@ -24,7 +24,7 @@ CMR
 -----------------------------
 - Some lines of the report are filled in automatically, some need to be filled in manually.
 
-  .. image:: cmr/Image02.jpg
+  .. image:: cmr/image02.jpg
 
 5. Integrations and Connectivity with Other Modules
 ----------------------------------------------------
