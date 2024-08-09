@@ -6,5 +6,7 @@ Explore the various payment mechanisms within our system, including cash handlin
 .. toctree::
    :maxdepth: 2
 
+   payments/KIO-KPO_numeration
    payments/cash_account
    payments/registration_of_advances
+   
