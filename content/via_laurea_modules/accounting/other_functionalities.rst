@@ -9,3 +9,4 @@ Explore the various payment mechanisms within our system, including cash handlin
    other_functionalities/customer_invoices_by_departments
    other_functionalities/reverse_charges
    other_functionalities/mass_accounting_records_management
+   other_functionalities/company_executives
