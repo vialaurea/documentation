@@ -377,7 +377,7 @@ msgstr "Apskaitos procesų sistemos apžvalga."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:2
 msgid "FR0564"
-msgstr "Aš suprantu. Prašau duoti man tekstą."
+msgstr "FR0564"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:5
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:4
@@ -612,7 +612,7 @@ msgstr "Naudingos nuorodos ir papildomi ištekliai."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:2
 msgid "FR0600"
-msgstr "Aš suprantu. Prašau duokite man tekstą."
+msgstr "FR0600"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:6
 msgid ""
@@ -680,7 +680,7 @@ msgstr "Ataskaitos -> Mokesčių ataskaita"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:2
 msgid "GPAIS"
-msgstr "Supaprastintos gaminių apskaitos informacinė sistema"
+msgstr "GPAIS"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:5
 msgid "1. Module Purpose and Operation"
