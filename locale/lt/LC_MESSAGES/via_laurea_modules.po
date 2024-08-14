@@ -2320,7 +2320,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:2
 #, fuzzy
 msgid "Account Cash"
-msgstr "Apskaita"
+msgstr "Grynūjų Apskaita"
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:7
 msgid "You can print the cash_account book through Reports -> Cash Journal."
