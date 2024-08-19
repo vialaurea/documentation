@@ -2164,9 +2164,8 @@ msgid "Payments"
 msgstr "Mokėjimai"
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:2
-#, fuzzy
 msgid "KIO-KPO Numeration"
-msgstr "i.SAF generavimas"
+msgstr "KIO-KPO Numeracija"
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:7
 msgid ""
