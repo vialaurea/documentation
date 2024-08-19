@@ -1310,9 +1310,8 @@ msgstr ""
 "pakeitimus."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:24
-#, fuzzy
 msgid "Additional Asset Information"
-msgstr "Papildomi transporto priemonės informacijos laukai"
+msgstr "Papildoma ilgalaikio turto informacija"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:27
 msgid ""
