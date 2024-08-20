@@ -3213,16 +3213,16 @@ msgid "i.VAZ can be filled in the Accounting and Inventory modules."
 msgstr "i.VAZ galima užpildyti Apskaitos ir Inventorizacijos moduliuose."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:8
-#, fuzzy
 msgid ""
-"You can find the filling option in the Accounting module under the i.MAS "
+"You can find the filling option in the Accounting module under the i.VAS "
 "section."
-msgstr "Banko ataskaitą galite rasti Apskaitos modulyje, Ataskaitų skyriuje:"
+msgstr ""
+"Banko ataskaitą galite rasti Apskaitos modulyje, i.VAZ Ataskaitų:"
+"skyriuje"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:12
-#, fuzzy
 msgid "Or in the Inventory module under the i.VAZ section."
-msgstr "Inventoriaus modulio ataskaitų skyrius"
+msgstr "Inventoriaus modulio i.VAZ skyriuje"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:19
 msgid ""
@@ -3258,7 +3258,6 @@ msgstr ""
 "pašalinti dokumentus“."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:33
-#, fuzzy
 msgid "In the next window, click the \"Add line\" link."
 msgstr "Atidarytame lange spustelėkite „Sukurti“."
 
@@ -3502,9 +3501,8 @@ msgstr ""
 "Odoo inventoriaus moduliu (techninis pavadinimas `stock`)."
 
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:14
-#, fuzzy
 msgid "**Initial Configuration**: No additional configuration is required."
-msgstr "Papildomas diegimas ar konfigūravimas nereikalingas."
+msgstr "**Pradiniai nustatymai**: Papildomas diegimas ar konfigūravimas nereikalingas."
 
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:19
 msgid ""
@@ -3558,7 +3556,6 @@ msgid "Maintenance related instructions can be found here."
 msgstr "Techninės priežiūros instrukcijas galima rasti čia."
 
 #: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:2
-#, fuzzy
 msgid "Inventorisation act"
 msgstr "Inventorizacijos aktas"
 
@@ -3571,7 +3568,6 @@ msgstr ""
 "vertės turto inventoriaus ataskaitą galima rasti skiltyje „Priežiūra“."
 
 #: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:15
-#, fuzzy
 msgid ""
 "After selecting the print option for the report, a window will open where "
 "you should enter the inventory and accounting dates, manually enter the "
@@ -3994,7 +3990,6 @@ msgid "Employment Contract History Details"
 msgstr "Užimtumo Sutarties Istorijos Detalės"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:2
-#, fuzzy
 msgid "Payroll Calculation"
 msgstr "Atlyginimo skaičiavimas"
 
@@ -4030,9 +4025,8 @@ msgstr ""
 "naudojami visiems darbuotojams, tai turėtų būti nurodyta Darbo užmokesčio "
 "modulyje, Konfigūracijos skiltyje, skyrelyje \"Taisyklės\"."
 
-#, fuzzy
 msgid "Payroll Rules Configuration"
-msgstr "Mokesčių grupės sukonfigūravimas"
+msgstr "Mokesčių grupės konfigūravimas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:18
 msgid ""
@@ -4053,9 +4047,8 @@ msgid ""
 "\"Accounting\" tab."
 msgstr "Galite priskirti sąskaitą įvesdami konkrečią eilutę skirtuke „Apskaita“."
 
-#, fuzzy
 msgid "Accounting Tab"
-msgstr "Apskaita"
+msgstr "Apskaitos skirtukas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:28
 msgid ""
@@ -4069,9 +4062,8 @@ msgstr ""
 "apskaitos sąskaitas skirtingiems darbuotojams pagal jų skyrius, pažymėkite "
 "langelį „Naudoti skyrių sąskaitas“."
 
-#, fuzzy
 msgid "Use Department Accounts"
-msgstr "Departamento konfigūracija"
+msgstr "Naudokite skyriaus apskaita"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:34
 msgid ""
@@ -4122,9 +4114,8 @@ msgstr ""
 "pirmuosius skaičiavimus. Tai atliekama Modulyje Atlyginimai, Konfigūracija, "
 "Kumuliacinio Darbo Laiko skyriuje."
 
-#, fuzzy
 msgid "Cumulative Working Time"
-msgstr "Kaupiamoji darbo laiko apskaita"
+msgstr "Suminė darbo laiko apskaita"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:53
 msgid ""
@@ -4179,7 +4170,6 @@ msgid "Vacation Accrual Accounts"
 msgstr "Atostogų kaupimo sąskaitos"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:75
-#, fuzzy
 msgid "3. Main Functions"
 msgstr "Pagrindinės funkcijos"
 
@@ -4250,9 +4240,8 @@ msgstr ""
 "funkciją, kuri ignoruoja šventines dienas, ir darbo laiko proporciją, "
 "palyginti su pilno etato laiku - sukonfigūruokite pagal savo poreikius:"
 
-#, fuzzy
 msgid "Work Schedule Configuration"
-msgstr "Darbo grafiko šablonai"
+msgstr "Darbo grafiko nustatymai"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:97
 msgid ""
@@ -4274,9 +4263,8 @@ msgstr ""
 "nukreipti į grafiko kūrimo langą, kaip ir aprašant grafikus atlyginimų "
 "skaičiavimo modulyje."
 
-#, fuzzy
 msgid "Create and Edit Work Schedule"
-msgstr "Pamainų darbo grafikas"
+msgstr "Pamainų darbo grafiko kūrimas ir keitimas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:104
 msgid "3.3. Assigning Sodra Ceilings to the Employee"
@@ -4333,9 +4321,8 @@ msgstr ""
 "registracijos instrukcijose."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:120
-#, fuzzy
 msgid "4.2. Checking for Duplicate Entries"
-msgstr "Tikrinami juodraščiai įrašai"
+msgstr "Tikrinami besidubluojantys juodraščių įrašai"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:121
 msgid ""
@@ -4434,7 +4421,6 @@ msgstr ""
 "Nebuvimų modulio ir tvarkaraščio bus iš naujo įkelta."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:154
-#, fuzzy
 msgid "4.4. Payroll Calculation"
 msgstr "Atlyginimo skaičiavimas"
 
@@ -4463,9 +4449,8 @@ msgstr ""
 "Skyriuje \"Darbo užmokesčiai\" pasirinkite \"Visi darbo užmokesčiai\" ir "
 "spustelėkite \"Naujas\"."
 
-#, fuzzy
 msgid "Create New Payroll"
-msgstr "Sukurti naują skyrių"
+msgstr "Sukurti naują darbo užmokestį"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:166
 msgid ""
@@ -4479,9 +4464,8 @@ msgstr ""
 "atostoginius, ligos pašalpas ir kt., jei tokių bus, bei papildomus "
 "apmokėjimus už naktines valandas, viršvalandžius ir kt."
 
-#, fuzzy
 msgid "Payroll Details"
-msgstr "Atsiskaitymas"
+msgstr "Darbo užmokesčio detalės"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:171
 msgid ""
@@ -4493,9 +4477,8 @@ msgstr ""
 "juodraščio skirtuką „Atlyginimo skaičiavimas“ ir peržiūrėti visas pajamas, "
 "atskaitymus ir sumą, kurią reikia sumokėti."
 
-#, fuzzy
 msgid "Salary Calculation Tab"
-msgstr "Atlyginimo skaičiavimas"
+msgstr "Atlyginimo skaičiavimo skirtukas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:177
 msgid ""
@@ -4536,9 +4519,8 @@ msgstr ""
 "kortelėje yra sukonfigūruoti vykdymo įsakymai ar atskaitymai, kaip aprašyta "
 "aukščiau."
 
-#, fuzzy
 msgid "Executive Orders Section"
-msgstr "Inventoriaus modulio ataskaitų skyrius"
+msgstr "Vykdomųjų įsakymų skyrius"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:189
 msgid ""
@@ -4567,9 +4549,8 @@ msgstr ""
 "Perskaičiavus atlyginimų sąrašą, spustelėkite mygtuką „Sukurti apskaitos "
 "įrašą“."
 
-#, fuzzy
 msgid "Create Accounting Entry"
-msgstr "Buhalterinė pažyma"
+msgstr "Sukurktie buhalterinį įraša"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:201
 msgid ""
@@ -4587,15 +4568,12 @@ msgstr ""
 "patvirtinkite. Apskaitos modulyje bus sukurtas pridedamas failas mokėjimams "
 "į banką siųsti."
 
-#, fuzzy
 msgid "Create Payment Report"
-msgstr "Išankstinio Mokėjimo Ataskaitos"
+msgstr "Sukurkite mokėjimo ataskaita"
 
-#, fuzzy
 msgid "Payment Report Details"
-msgstr "Mokėjimo duomenų įvedimas"
+msgstr "Mokėjimo ataskaitos duomenys"
 
-#, fuzzy
 msgid "Bank Payment Entry"
 msgstr "Mokėjimo duomenų įvedimas"
 
@@ -4627,13 +4605,11 @@ msgid "Action Menu"
 msgstr "Veiksmų Meniu"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:221
-#, fuzzy
 msgid "Enter the date of the payment and confirm."
-msgstr "Įveskite darbuotojo duomenis atidarytoje kortelėje:"
+msgstr "Įveskite mokėjimo data ir patvirtinkite:"
 
-#, fuzzy
 msgid "Payment Date"
-msgstr "Mokėjimai"
+msgstr "Mokėjimo data"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:226
 msgid ""
@@ -4644,9 +4620,8 @@ msgstr ""
 "mokėjimas\" ir rankiniu būdu įveskite sumokėtą sumą atidarytoje lentelėje, "
 "tada patvirtinkite."
 
-#, fuzzy
 msgid "Partial Payment"
-msgstr "Mokėjimai"
+msgstr "Daliniai mokėjimai"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:231
 msgid ""
@@ -4656,9 +4631,8 @@ msgstr ""
 "Atlikus šiuos veiksmus, priklausomai nuo to, ar atlyginimas buvo pilnai ar "
 "iš dalies išmokėtas, jo statusas darbo užmokesčio sąraše pasikeis."
 
-#, fuzzy
 msgid "Payroll Status"
-msgstr "Atsiskaitymas"
+msgstr "Darbo užmokesčio būsena"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:236
 msgid ""
@@ -4682,9 +4656,8 @@ msgstr ""
 "juodraštį\" ir grįšite prie atlyginimo skaičiavimo, kur galėsite koreguoti "
 "informaciją."
 
-#, fuzzy
 msgid "Cancel Payroll"
-msgstr "Atsiskaitymas"
+msgstr "Atšaukti darbo užmokestį"
 
 msgid "Set to Draft"
 msgstr "Paruošta juodraščiui"
@@ -4702,9 +4675,8 @@ msgstr ""
 "bus išsiųsti atitinkamiems darbuotojams jų kortelėse nurodytais el. pašto "
 "adresais."
 
-#, fuzzy
 msgid "Send Payroll"
-msgstr "Atsiskaitymas"
+msgstr "Siūsti darbo užmokestį"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:250
 msgid ""
@@ -4839,18 +4811,16 @@ msgstr ""
 "asmenį, sukūrusį DLAŽ, ir atsakingą asmenį. Spustelėkite mygtuką „Spausdinti "
 "PDF“."
 
-#, fuzzy
 msgid "Print PDF"
-msgstr "Santrauka Spausdinti PDF"
+msgstr "Spausdinti PDF"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:300
 msgid "A .pdf file will be downloaded and saved to your computer for printing."
 msgstr ""
 ".pdf failas bus atsisiųstas ir išsaugotas jūsų kompiuteryje spausdinimui."
 
-#, fuzzy
 msgid "Downloaded PDF"
-msgstr "Atsisiųsti ataskaitą"
+msgstr "Atsisiųsti PDF"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:305
 msgid ""
@@ -4860,9 +4830,8 @@ msgstr ""
 "Norėdami atspausdinti darbo užmokesčio knygą: darbo užmokesčio modulyje, "
 "Ataskaitos, pasirinkite \"Darbo užmokesčio knyga\"."
 
-#, fuzzy
 msgid "Payroll Ledger"
-msgstr "Atsiskaitymas"
+msgstr "Darbo užmokesčio žurnalas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:311
 msgid ""
@@ -4889,9 +4858,8 @@ msgid "You can also choose the ledger in .xls format."
 msgstr "Taip pat galite pasirinkti apskaitos knygą .xls formatu."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:321
-#, fuzzy
 msgid "4.10. Formation and Printing of Payroll Certificates"
-msgstr "Žurnalo įrašų formavimas ir eksportavimas"
+msgstr "Darbo užmokesčio pažymų formavimas ir spausdinimas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:322
 msgid ""
@@ -4951,14 +4919,12 @@ msgid "Saved VDU Certificate"
 msgstr "Išsaugotas VDU sertifikatas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:347
-#, fuzzy
 msgid "4.12. VSDFV Reports:"
-msgstr "1-SD Ataskaita"
+msgstr "4.12. VSDFV Ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:350
-#, fuzzy
 msgid "4.12.1. 1-SD Report"
-msgstr "1-SD Ataskaita"
+msgstr "4.12.1. 1-SD Ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:351
 msgid ""
@@ -4979,9 +4945,8 @@ msgstr ""
 "Atidarytoje lentelėje pasirinkite darbuotojo, kuriam kuriama 1-SD "
 "pranešimas, darbo sutarties numerį. Spauskite „Generuoti deklaracijos failą“."
 
-#, fuzzy
 msgid "Generate 1-SD File"
-msgstr "Sukurti deklaracijos failą"
+msgstr "Sukurti 1-SD deklaracijos failą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:361
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:375
@@ -4994,9 +4959,8 @@ msgstr ""
 "kompiuteryje."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:364
-#, fuzzy
 msgid "4.12.2. 2-SD Report"
-msgstr "1-SD Ataskaita"
+msgstr "4.12.2. 2-SD Ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:365
 msgid ""
@@ -5008,9 +4972,8 @@ msgstr ""
 "„Darbuotojų“ modulyje ir sukūrus atleidimo įrašą, eikite į „Apskaita“ "
 "modulį, Ataskaitos, Sodra, 2-SD ataskaita."
 
-#, fuzzy
 msgid "2-SD Report"
-msgstr "1-SD Ataskaita"
+msgstr "2-SD Ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:370
 msgid ""
@@ -5022,9 +4985,8 @@ msgstr ""
 "pranešimas, darbo sutarties numerį. Spustelėkite „Generuoti deklaracijos "
 "failą“."
 
-#, fuzzy
 msgid "Generate 2-SD File"
-msgstr "Sukurti deklaracijos failą"
+msgstr "Sukurti 2-SD deklaracijos failą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:378
 msgid "4.12.3. NP-SD Report and Calculation of Sick Pay by the Company"
@@ -5067,9 +5029,8 @@ msgstr ""
 "priklausomai nuo darbo grafiko per pirmas 2 darbo dienas, jei jos sutapo su "
 "darbuotojo darbo grafiku. Šią sumą įrašykite į \"Sodra\" NP-SD pranešimą."
 
-#, fuzzy
 msgid "Enter Sick Pay Amount"
-msgstr "Įveskite sumokėtą sumą"
+msgstr "Įveskite ligos išmokos sumą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:394
 msgid ""
@@ -5097,9 +5058,8 @@ msgstr ""
 "darbo užmokesčius, Darbo užmokesčio modulyje pasirinkite Ataskaitos, Sodra, "
 "SAM ataskaita."
 
-#, fuzzy
 msgid "SAM Report"
-msgstr "Siųsti ataskaitą"
+msgstr "SAM ataskaitą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:403
 msgid ""
@@ -5109,9 +5069,8 @@ msgstr ""
 "Atidarytoje lentelėje pasirinkite metus ir mėnesį, kuriems generuojama "
 "ataskaita. Spustelėkite „Generuoti deklaracijos failą“."
 
-#, fuzzy
 msgid "Generate SAM File"
-msgstr "Sukurti deklaracijos failą"
+msgstr "Sukurti SAM deklaracijos failą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:411
 msgid "4.13. VMI Reports:"
@@ -5129,9 +5088,8 @@ msgstr ""
 "Mėnesinę GPM deklaraciją galima rasti darbo užmokesčio modulyje, ataskaitų "
 "skyriuje, EDS dalyje, GPM313 deklaracijoje."
 
-#, fuzzy
 msgid "GPM 313 Declaration"
-msgstr "Deklaracijos"
+msgstr "GPM 313 Deklaracijos"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:420
 msgid ""
@@ -5141,9 +5099,8 @@ msgstr ""
 "Pasirinkę metus ir mėnesį, spauskite mygtuką \"Generuoti deklaracijos "
 "failą\"."
 
-#, fuzzy
 msgid "Generate GPM 313 File"
-msgstr "Sukurti deklaracijos failą"
+msgstr "Sukurti GPM 313 deklaracijos failą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:425
 msgid ""
@@ -5168,9 +5125,8 @@ msgstr ""
 "Metinė GPM deklaracija yra darbo užmokesčio modulyje, Ataskaitose, EDS "
 "skyriuje, GPM312 deklaracija."
 
-#, fuzzy
 msgid "GPM 312 Declaration"
-msgstr "Deklaracijos"
+msgstr "GPM 312 Deklaracijos"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:434
 msgid ""
@@ -5180,9 +5136,8 @@ msgstr ""
 "Pasirinkę, nurodykite metus ir spustelėkite mygtuką \"Generuoti deklaracijos "
 "failą\"."
 
-#, fuzzy
 msgid "Generate GPM 312 File"
-msgstr "Sukurti deklaracijos failą"
+msgstr "Sukurti GPM 312 deklaracijos failą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:439
 msgid ""
@@ -5206,9 +5161,8 @@ msgstr ""
 "tinkamą punktą kaip licencijos tipą (asmens kodas, IDV numeris ir kt.) ir "
 "įveskite konkretų numerį kaip IDV numerį."
 
-#, fuzzy
 msgid "Enter IDV Number"
-msgstr "Įveskite registracijos numerį."
+msgstr "Įveskite IDV numerį."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:445
 msgid ""
@@ -5417,9 +5371,8 @@ msgstr ""
 "perduota į darbo užmokesčio modulį."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:512
-#, fuzzy
 msgid "5.4. Reports and Vacation Accruals"
-msgstr "5. Ataskaitos ir dokumentacija"
+msgstr "5.4. Ataskaitos ir atostogų kaupimas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:513
 msgid ""
@@ -5434,9 +5387,8 @@ msgstr ""
 "Odoo absences modulio aprašyme. Be to, galite matyti atostogų kaupimo "
 "ataskaitą, kurią galite sugeneruoti PDF formatu nurodytai datai."
 
-#, fuzzy
 msgid "Vacation Accrual Report"
-msgstr "Sąskaitų plano ataskaita"
+msgstr "Atostogų kaupimo ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:519
 msgid ""
@@ -5448,22 +5400,19 @@ msgstr ""
 "modulyje, spustelėjus mygtuką „Sukurti įrašą“ ataskaitos formavimo lange bus "
 "sukurtas kaupimo įrašas apskaitos modulyje."
 
-#, fuzzy
 msgid "Create Accrual Entry"
-msgstr "Sukurti sutartį"
+msgstr "Sukurti kaupimo įrašą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:525
-#, fuzzy
 msgid "6. Integrations and Connections with Other Modules"
 msgstr "6. Integracijos ir ryšys su kitais moduliais"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:526
-#, fuzzy
 msgid ""
 "This module interacts with the Accounting, Employees, Absences, and Planning "
 "modules."
 msgstr ""
-"Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atlyginimai“."
+"Šis modulis sąveikauja su apskaita, darbuotojais, nebuvimais ir planavimu."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:2
 msgid "Shift work scheduling"
