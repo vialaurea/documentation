@@ -1262,7 +1262,6 @@ msgid "Generated document with additional pages"
 msgstr "Sugeneruotas dokumentas su papildomais puslapiais"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:2
-#, fuzzy
 msgid "Long-term Asset Report Instruction"
 msgstr "Ilgalaikio turto ataskaitų pasirinkimas"
 
@@ -1334,9 +1333,8 @@ msgstr ""
 "kada turtas buvo priimtas eksploatacijai."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:36
-#, fuzzy
 msgid "Main Features"
-msgstr "3. Pagrindinės savybės"
+msgstr "Pagrindinės savybės"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:38
 msgid ""
@@ -1355,17 +1353,15 @@ msgid "Reports"
 msgstr "Ataskaitos"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:43
-#, fuzzy
 msgid ""
 "Via laurea has developed special long-term asset reports for the Lithuanian "
 "market, which can be found in the Accounting module under Accounting >> "
 "Reports >> Via laurea long-term asset reports."
 msgstr ""
 "UAB Via Laurea sukūrė specialias ilgalaikio turto ataskaitas Lietuvos "
-"rinkai, kurios gali būti rastos ataskaitų skyriuje Apskaitos modulyje:"
-
+"rinkai, kurios gali būti rastos ataskaitų skyriuje Apskaitos modulyje >>"
+"Ataskaitos >> Via laurea ilgalaikio turto ataskaita."
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:44
-#, fuzzy
 msgid ""
 "In the report window, you can choose from three different reports: Asset "
 "Card, Commissioning Act, and Write-off Act."
@@ -1375,12 +1371,10 @@ msgstr ""
 "aktą."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:52
-#, fuzzy
 msgid "Asset Card"
-msgstr "### Turto Kortelė"
+msgstr "Turto Kortelė"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:54
-#, fuzzy
 msgid ""
 "To print an asset card, select the appropriate report, choose the specific "
 "asset from the list, and set the date for which the card will be generated."
@@ -1390,7 +1384,6 @@ msgstr ""
 "kortelė bus sugeneruota."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:58
-#, fuzzy
 msgid ""
 "Choose the format in which you want to generate the card. The system will "
 "generate an asset card with all the data related to the selected asset."
@@ -1399,7 +1392,6 @@ msgstr ""
 "turto kortelė su visais su pasirinktu turtu susijusiais duomenimis."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:62
-#, fuzzy
 msgid ""
 "**Important**: You can select multiple assets, and the system will generate "
 "a combined file with asset cards for all selected items."
@@ -1408,12 +1400,10 @@ msgstr ""
 "sugeneruotas vienas failas su visų pasirinktų turtų kortelėmis iš karto."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:65
-#, fuzzy
 msgid "Commissioning Act"
-msgstr "### Komisijos išdavimas"
+msgstr "Eksploatavimo perdavimo aktas"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:67
-#, fuzzy
 msgid ""
 "The Commissioning Act is created when an asset starts being used in the "
 "company's operations. To print it, enter the act number, select the specific "
@@ -1428,7 +1418,6 @@ msgstr ""
 "komisijos pirmininką ir komisijos narius iš sąrašo."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:71
-#, fuzzy
 msgid ""
 "After filling in all the fields, choose the document format you want to "
 "generate. The data related to the asset will be pulled into the printable "
@@ -1439,7 +1428,6 @@ msgstr ""
 "dokumentą iš turto kortelės."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:75
-#, fuzzy
 msgid ""
 "**Important**: Similar to the previous form, if you select multiple assets, "
 "commissioning acts will be generated for all selected items at once."
@@ -1454,7 +1442,6 @@ msgid "Write-off Act"
 msgstr "Nurašymo aktas"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:80
-#, fuzzy
 msgid ""
 "The Write-off Act is used to generate a document for writing off an asset. "
 "Select the appropriate asset report from the list, enter the act number, "
@@ -1470,12 +1457,10 @@ msgstr ""
 "kuris bus rodomas dokumente. Sugeneruokite dokumentą reikiamu formatu."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:84
-#, fuzzy
 msgid "The appropriate document is generated:"
 msgstr "Atitinkamas dokumentas sukurtas:"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:89
-#, fuzzy
 msgid ""
 "**Important**: If you select multiple assets in this form, a single document "
 "will be generated, and all the written-off items will be listed in the table "
@@ -1891,9 +1876,8 @@ msgstr ""
 "faktūrų numeraciją pagal įmonės vidines procedūras."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:14
-#, fuzzy
 msgid "Install the module `customer_invoices_by_departments`."
-msgstr "Klientų sąskaitos pagal skyrius"
+msgstr "Įdiekite `customer_invoices_by_departments` modulį"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:15
 msgid ""
@@ -1995,9 +1979,8 @@ msgstr ""
 "būdu pasirinkti reikiamą žurnalą."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst
-#, fuzzy
 msgid "Manual sales team and journal selection"
-msgstr "Turto kortelės formato pasirinkimas"
+msgstr "Rankinis pardavimo komandos ir žurnalo pasirinkimas"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:52
 msgid ""
@@ -2316,7 +2299,6 @@ msgstr ""
 "knygos dokumentacijoje)."
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:2
-#, fuzzy
 msgid "Account Cash"
 msgstr "Grynūjų Apskaita"
 
@@ -2327,9 +2309,8 @@ msgstr ""
 "žurnalas."
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:12
-#, fuzzy
 msgid "2. Daily Use Scenarios"
-msgstr "Kasdieniai naudojimo scenarijai"
+msgstr "2. Kasdieniai naudojimo scenarijai"
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:14
 msgid ""
@@ -2351,18 +2332,16 @@ msgid "Monthly:"
 msgstr "Mėnesinis:"
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:28
-#, fuzzy
 msgid "One report per page:"
-msgstr "Pasirinkite ataskaitinį laikotarpį"
+msgstr "Viena ataskaite puslapyje"
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:33
 msgid "Two reports on one page:"
 msgstr "Dvi ataskaitos viename puslapyje:"
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:2
-#, fuzzy
 msgid "Registration of advances"
-msgstr "Automobilio Kuro Registracija"
+msgstr "Avansu registravimas"
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:7
 msgid ""
@@ -2386,7 +2365,6 @@ msgstr ""
 "nustatymų skiltyje pasirinkite sąskaitas ir sukurtą žurnalą."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:17
-#, fuzzy
 msgid "3. Daily Use Scenarios"
 msgstr "3. Kasdieniai naudojimo scenarijai"
 
@@ -2513,9 +2491,8 @@ msgstr ""
 "spausdinti. Jei norite spausdinti visą sąskaitų planą, pasirinkite sąskaitų "
 "klasę = Visos."
 
-#, fuzzy
 msgid "Select account class"
-msgstr "Pasirinkite dokumento formatą"
+msgstr "Pasirinkite paskyros klase"
 
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:21
 msgid ""
@@ -2525,9 +2502,8 @@ msgstr ""
 "Paspauskite mygtuką SPAUSDINTI, kad sugeneruotumėte .pdf dokumentą su įmonės "
 "sąskaitų planu."
 
-#, fuzzy
 msgid "Print Chart of Accounts"
-msgstr "Sąskaitų plano ataskaita"
+msgstr "Spausdinti sąskaitų plano ataskaita"
 
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:26
 msgid ""
@@ -2589,9 +2565,8 @@ msgstr ""
 "pavadinimas l10n_lt_groups)."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:2
-#, fuzzy
 msgid "Invoice Registry"
-msgstr "Sąskaitos apmokėjimo registracija"
+msgstr "Sąskaitų registras"
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:7
 msgid ""
@@ -2644,7 +2619,6 @@ msgid "Install the modules `l10n_lt_invoice_registry` and `l10n_lt_tax_code`."
 msgstr "Įdiekite modulius `l10n_lt_invoice_registry` ir `l10n_lt_tax_code`."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:19
-#, fuzzy
 msgid ""
 "For configuration, you need to set the VAT classifier codes approved by the "
 "State Tax Inspectorate (VMI). Select the main menu - Accounting -> "
@@ -2655,11 +2629,12 @@ msgstr ""
 "Apskaita -> Konfigūracija -> Mokesčiai"
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:23
-#, fuzzy
 msgid ""
 "In the tax environment, the tax code field is mandatory and must be filled "
 "in for all VAT taxes in the database."
-msgstr "Mokesčių aplinkoje Mokesčių kodeksas yra privalomas."
+msgstr ""
+"Mokesčių aplinkoje mokesčių kodo laukas yra privalomas"
+"ir turi buti užpildyti visi PVM mokesčiams duomenų bazėje."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:28
 msgid ""
@@ -2873,9 +2848,8 @@ msgstr ""
 "nereikalinga papildoma konfigūracija."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:13
-#, fuzzy
 msgid "Initial configuration: no settings are necessary."
-msgstr "Konfigūracijos nustatymų langas"
+msgstr "Pradiniai nustatymai: nustatymai nėra privalomi"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:17
 msgid ""
@@ -2906,7 +2880,6 @@ msgstr ""
 "užpildyti rankiniu būdu."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:30
-#, fuzzy
 msgid "5. Integrations and Connectivity with Other Modules"
 msgstr "5. Integracijos ir ryšys su kitais moduliais"
 
@@ -2919,7 +2892,6 @@ msgstr ""
 "rasite Intrastat deklaracijos dokumentacijoje)."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:35
-#, fuzzy
 msgid "6. Updates and Version Control"
 msgstr "Atnaujinimai ir versijų valdymas"
 
@@ -2928,26 +2900,24 @@ msgid "Intrastat"
 msgstr "Intrastatas"
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:7
-#, fuzzy
 msgid "Install the modules ``account_intrastat`` and ``l10n_lt_intrastat``."
-msgstr "Įdiekite modulį (techninis pavadinimas) - l10n_lt_isaf"
+msgstr "Įdiekite modulį ``account_intrastat`` ir  ``l10n_lt_intrastat``."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:9
-#, fuzzy
 msgid ""
 "After installing the modules, two additional menus appear in the Accounting "
 "module:"
-msgstr "Modulis veikia tik su apskaitos moduliu."
+msgstr ""
+"Po modulio įdiegimo, atsiras du papildomi meniu punktai Apskaitos"
+"modulyje"
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:11
-#, fuzzy
 msgid "**Accounting >> Reports >> Intrastat Report**"
-msgstr "Eikite į Apskaita -> Ataskaitos -> Avanso Ataskaita."
+msgstr "Apskaita -> Ataskaitos -> Intrastat Ataskaita."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:12
-#, fuzzy
 msgid "**Accounting >> Configuration >> Intrastat Code**"
-msgstr "Modulis Apskaita -> Konfigūracija -> Mokesčiai"
+msgstr "Apskaita -> Konfigūracija -> Intrastat kodas"
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:16
 msgid ""
@@ -3235,9 +3205,8 @@ msgstr ""
 "sugeneruosite kitoje versijoje."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:2
-#, fuzzy
 msgid "i.VAZ"
-msgstr "iVAZ"
+msgstr "i.VAZ"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:7
 msgid "i.VAZ can be filled in the Accounting and Inventory modules."
