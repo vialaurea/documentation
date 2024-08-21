@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 05:57+0000\n"
+"POT-Creation-Date: 2024-08-21 09:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgid "Accountable Persons"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:7
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:5
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:5
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:5
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:5
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:5
@@ -54,7 +54,7 @@ msgid "This instruction explains how to correctly register transactions related 
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:11
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:11
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:11
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:10
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:11
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:13
@@ -331,8 +331,10 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:5
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:5
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:5
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:5
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:8
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:5
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
@@ -356,8 +358,10 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:10
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:11
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:12
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:11
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:20
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:10
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:10
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:7
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:16
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:5
@@ -399,7 +403,9 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:25
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:27
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:32
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:17
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:33
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:16
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:13
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:26
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:38
@@ -411,6 +417,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:13
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:49
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:40
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:27
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:32
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:55
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:13
@@ -515,7 +522,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:72
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:75
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:129
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:129
 msgid "Answers to frequently asked questions about this module."
 msgstr ""
 
@@ -523,7 +530,9 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:78
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:92
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:45
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:34
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:65
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:35
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:52
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:120
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:45
@@ -532,7 +541,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:77
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:80
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:134
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:134
 msgid "How to update the module."
 msgstr ""
 
@@ -548,13 +557,13 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:83
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:86
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:141
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:141
 msgid "Screenshots and visual instructions."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:84
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:87
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:143
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:143
 msgid "Useful links and additional resources."
 msgstr ""
 
@@ -900,7 +909,7 @@ msgid "Report sent"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:87
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:117
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:117
 msgid "How this module integrates with other Odoo modules or external systems."
 msgstr ""
 
@@ -914,7 +923,6 @@ msgid "Fixed Assets"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets.rst:4
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:4
 #: ../../content/via_laurea_modules/accounting/other_functionalities.rst:4
 #: ../../content/via_laurea_modules/accounting/payments.rst:4
 msgid "Explore the various payment mechanisms within our system, including cash handling, advance registrations, and electronic payment processing. This section details procedures and guidelines for managing and recording all types of payments."
@@ -1082,251 +1090,238 @@ msgid "The module is updated with each new version of Odoo."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:2
-msgid "Fuel Accounting"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:2
 msgid "Fuel Registration by Car"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:7
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:7
 msgid "This module is designed to manage vehicle fleets, conduct fuel accounting, and monitor and analyze other expenses related to vehicles. It contributes to compliance with Lithuanian accounting standards in the Odoo system."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:13
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:13
 msgid "**Installation Instructions:** Necessary steps for installing the module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:15
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:15
 msgid "**Initial Configuration:** Before using this module, specific settings need to be configured. Go to \"Vehicle Park\" -> Configuration -> Settings:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Configuration settings window"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:20
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:20
 msgid "Open configuration fields:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:22
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:22
 msgid "Specify the debit/credit fuel account."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:23
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:23
 msgid "Choose the fuel products."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:24
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:24
 msgid "Fuel journal: Either use the standard \"various operations\" or create a specialized one specifically for fuel accounting (for how to create a journal, see the \"Starting with Odoo\" instructions)."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:27
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:27
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
 msgid "3. Main Features"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:29
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:29
 msgid "Create a vehicle card and enter all necessary information:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:31
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:31
 msgid "Click \"New\":"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Vehicle card creation interface"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:36
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:36
 msgid "Select a template (vehicle make) from the provided list."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:37
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:37
 msgid "Enter the registration number."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:38
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:38
 msgid "If needed, input information about the driver."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:39
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:39
 msgid "Fill in the relevant fields about the vehicle."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:40
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:40
 msgid "Fill in the required information in the tax information field."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:41
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:41
 msgid "Specify the debit/credit account for fuel accounting."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Additional vehicle information fields"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:46
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:46
 msgid "After filling in the tax information, proceed to input additional vehicle details:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Inputting additional vehicle details"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:51
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:51
 msgid "Once the vehicle card is completed and filled out, it is possible to register operations related to the specific vehicle."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:53
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:53
 msgid "When registering invoices, the necessary vehicle is assigned in the lines:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Assigning vehicles in invoice registration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:58
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:58
 msgid "If services related to the vehicle were purchased, the information is displayed here on the vehicle card:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Services related information display on vehicle card"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:63
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:63
 msgid "When purchasing fuel:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:65
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:65
 msgid "Clicking this button opens a window with the entire fuel history:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Fuel history window"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:70
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:70
 msgid "In the opened window, the purchased quantity, write-offs, and remaining fuel balance are displayed."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:72
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:72
 msgid "Fuel write-off is performed on the vehicle card by clicking the button:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Fuel write-off interface"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:77
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:77
 msgid "A window opens:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:79
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:79
 msgid "Select a vehicle."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:80
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:80
 msgid "Specify the date for the fuel write-off."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:81
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:81
 msgid "Enter the amount of fuel to be written off."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:82
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:82
 msgid "Click \"Write off\"."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Details of fuel write-off"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:87
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:87
 msgid "After forming the fuel write-off record, go to the \"Fuel Journal\":"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Accessing the fuel journal"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:92
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:92
 msgid "Here, draft entries are created, which need to be registered to ensure that the data and figures are recorded in the general ledger:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:94
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:94
 msgid "Before registering, by clicking on the desired line, you can check the correspondence that will register:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Checking draft entries"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:99
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:99
 msgid "If everything is correct, return to the Fuel Journals, mark the entry you want to register, and click Action -> Post Entries."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Finalizing entries in the fuel journal"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:105
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:105
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
 msgid "4. Reports and Documentation"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:107
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:107
 msgid "How to generate reports using the module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:109
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:109
 msgid "Instructions for document management and archiving."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Document management and archiving instructions"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:115
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:115
 msgid "5. Integrations and Connection with Other Modules"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:119
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:119
 msgid "Special integration instructions if needed."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Integration with other modules"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:125
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:125
 msgid "6. Troubleshooting and FAQ"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:127
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:127
 msgid "Frequent problems and their solutions."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:132
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:132
 msgid "7. Updates and Version Management"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:136
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:136
 msgid "Version management practices."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:139
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:139
 msgid "8. Appendices"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_report.rst:2
-msgid "Fuel Report"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_report.rst:4
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:4
-msgid "data"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities.rst:2
@@ -1475,6 +1470,46 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:2
 msgid "Mass accounting records management"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:7
+msgid "The technical name of the module is `mass_accounting_records_management`. The module is associated with the Accounting module but is not related to the LT localization. It can operate in any localization."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:8
+msgid "The module is intended for consultants or highly experienced Odoo users when there is a need to manage GL entries in bulk."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:13
+msgid "**Module Installation**: Install the `mass_accounting_records_management` module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:14
+msgid "**Configuration**: No additional configuration is required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:19
+msgid "The module adds 2 additional Action buttons in Accounting >> Accounting >> GL Entries: **Cancel** and **Reset to Draft**."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:20
+msgid "The Action buttons **Confirm** and **Delete** are part of the standard Accounting module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:24
+msgid "Step-by-step instructions on how to use these functions."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:29
+msgid "The module is useful, for example, when managing fixed asset entries where many GL entries are created for past periods upon asset confirmation, and later, they need to be removed or corrected due to errors."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:36
+msgid "**Warning**: In version 16, the module violates an Odoo rule where it is prohibited to cancel GL entries for certain invoices. With this module, it is possible to cancel invoices."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:37
+msgid "The module can be freely used in version 15."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:2
@@ -1673,8 +1708,40 @@ msgstr ""
 msgid "Accounting note"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:4
-msgid "Overview"
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:7
+msgid "This report is designed to justify a financial operation, explaining why a General Ledger (GL) entry was created manually."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:12
+msgid "**Module Installation**: The module `accounting_note` must be installed."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:13
+msgid "**Configuration**: The installed module does not require additional configuration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:18
+msgid "The accounting certificate is created within GL entries: - Navigate to the main menu: Accounting -> Accounting -> GL Entries. - Select the required entry, then Print -> Accounting Certificate."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:24
+msgid "The printed Accounting Certificate will appear as follows:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:28
+msgid "If you want to add a note or reason for creating the Accounting Certificate, you can enter it in the \"Notes\" field located in the second tab \"Other Information\" of the GL entry."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:32
+msgid "If needed, the certificate can also be printed from the list view in the standard way."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:37
+msgid "**Module Updates**: Information on how to update the module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:38
+msgid "**Version Control Practices**: Information on version control practices."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:2
