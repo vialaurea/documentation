@@ -86,7 +86,6 @@ msgid "Schedule activities"
 msgstr "Tvarkaraščio veiklos"
 
 #: ../../content/applications/essentials/activities.rst:23
-#, fuzzy
 msgid ""
 "Activities can be scheduled on any page of the database that contains a "
 ":ref:`chatter <activities/chatter>` thread, :ref:`Kanban view "
@@ -107,7 +106,6 @@ msgid "Activities can be created from the chatter on any record."
 msgstr "Veiklos gali būti sukurtos iš bet kokio įrašo diskusijų."
 
 #: ../../content/applications/essentials/activities.rst:34
-#, fuzzy
 msgid ""
 "To schedule a new activity, click the :guilabel:`Activities` button, located "
 "at the top of the chatter. In the :guilabel:`Schedule Activity` pop-up "
@@ -127,7 +125,6 @@ msgid "Kanban view"
 msgstr "Kanban vaizdas"
 
 #: ../../content/applications/essentials/activities.rst:47
-#, fuzzy
 msgid ""
 "Another way that activities are created is from the Kanban view in an "
 "application."
@@ -171,7 +168,6 @@ msgid "List view"
 msgstr "Sąrašo vaizdas"
 
 #: ../../content/applications/essentials/activities.rst:72
-#, fuzzy
 msgid "Activities can also be created from a list view."
 msgstr "Veiklą taip pat galima sukurti iš Sąrašo rodinio."
 
@@ -280,7 +276,6 @@ msgid "Activity view of the CRM pipeline and the option to schedule an activity.
 msgstr "Veiklos peržiūra CRM veiklos etape ir galimybė suplanuoti veiklą."
 
 #: ../../content/applications/essentials/activities.rst:131
-#, fuzzy
 msgid "Schedule Activity form"
 msgstr "Veiklos planavimo forma"
 
@@ -409,7 +404,6 @@ msgstr ""
 ":guilabel:`Susitikimas`."
 
 #: ../../content/applications/essentials/activities.rst:172
-#, fuzzy
 msgid ""
 ":guilabel:`Schedule`: schedules the activity, and adds the activity to the "
 "chatter under :guilabel:`Planned Activities`."
@@ -418,7 +412,6 @@ msgstr ""
  :guilabel:`Planuojamos veiklos`."
 
 #: ../../content/applications/essentials/activities.rst:174
-#, fuzzy
 msgid ""
 ":guilabel:`Schedule & Mark as Done`: adds the details of the activity to the "
 "chatter under :guilabel:`Today`. The activity is not scheduled, and is "
@@ -429,7 +422,6 @@ msgstr ""
 "automatiškai pažymima kaip atlikta."
 
 #: ../../content/applications/essentials/activities.rst:176
-#, fuzzy
 msgid ""
 ":guilabel:`Done & Schedule Next`: adds the details of the activity to the "
 "chatter under :guilabel:`Today`. The activity is not scheduled, is "
@@ -442,7 +434,6 @@ msgstr ""
 "langas."
 
 #: ../../content/applications/essentials/activities.rst:179
-#, fuzzy
 msgid ""
 ":guilabel:`Cancel`: discards any changes made on the :guilabel:`Schedule "
 "Activity` pop-up window."
@@ -454,12 +445,10 @@ msgid "View of CRM leads and the option to schedule an activity."
 msgstr "CRM potencialių klientų ir veiklos planavimo parinktis."
 
 #: ../../content/applications/essentials/activities.rst:188
-#, fuzzy
 msgid "All scheduled activities"
 msgstr "Visos suplanuotos veiklos"
 
 #: ../../content/applications/essentials/activities.rst:190
-#, fuzzy
 msgid ""
 "To view a consolidated list of activities, organized by application, click "
 "the :guilabel:`🕘 (clock)` icon in the header menu, located in the top-right."
@@ -588,7 +577,6 @@ msgstr ""
 "šiame lauke."
 
 #: ../../content/applications/essentials/activities.rst:235
-#, fuzzy
 msgid ""
 "When all the fields are completed, click :guilabel:`Request` to send the "
 "document request."
@@ -603,12 +591,10 @@ msgstr ""
 "užsakyti."
 
 #: ../../content/applications/essentials/activities.rst:244
-#, fuzzy
 msgid "Activity types"
 msgstr "Veiklų tipai"
 
 #: ../../content/applications/essentials/activities.rst:246
-#, fuzzy
 msgid ""
 "To view the currently configured types of activities in the database, "
 "navigate to :menuselection:`Settings app --> Discuss section --> Activities "
@@ -634,7 +620,6 @@ msgid "The list of activity types already configured and available."
 msgstr "Veiklos tipų sąrašas jau sukonfigūruotas ir prieinamas."
 
 #: ../../content/applications/essentials/activities.rst:260
-#, fuzzy
 msgid "Edit activity types"
 msgstr "Redaguoti veiklų tipus"
 
@@ -660,7 +645,6 @@ msgstr ""
 "kairiajame kampe."
 
 #: ../../content/applications/essentials/activities.rst:270
-#, fuzzy
 msgid "Create new activity types"
 msgstr "Kurti naujus veiklos tipus"
 
@@ -683,12 +667,10 @@ msgstr ""
 "tuomet užpildykite formą su šia informacija."
 
 #: ../../content/applications/essentials/activities.rst:279
-#, fuzzy
 msgid "Activity Settings section"
 msgstr "Veiklos nustatymų skiltis"
 
 #: ../../content/applications/essentials/activities.rst:281
-#, fuzzy
 msgid ""
 ":guilabel:`Action`: using the drop-down menu, select an action associated "
 "with this new activity type. Some actions trigger specific behaviors after "
@@ -699,7 +681,6 @@ msgstr ""
 "specifinius veiksmus po to, kai veikla yra suplanuota, pvz.:"
 
 #: ../../content/applications/essentials/activities.rst:284
-#, fuzzy
 msgid ""
 ":guilabel:`Upload Document`: if selected, a link to upload a document is "
 "automatically added to the planned activity in the chatter."
@@ -708,7 +689,6 @@ msgstr ""
 "automatiškai pridedama prie suplanuotos veiklos pokalbių lango."
 
 #: ../../content/applications/essentials/activities.rst:286
-#, fuzzy
 msgid ""
 ":guilabel:`Call` or :guilabel:`Meeting`: if selected, users have the option "
 "to open their calendar to select a date and time for the activity."
@@ -718,7 +698,6 @@ msgstr ""
 "laiką."
 
 #: ../../content/applications/essentials/activities.rst:288
-#, fuzzy
 msgid ""
 ":guilabel:`Request Signature`: if selected, a link to open a signature "
 "request pop-up window is automatically added to the planned activity in the "
@@ -729,7 +708,6 @@ msgstr ""
 "Tam turi būti įdiegtas Odoo *Pasirašymo* modulis."
 
 #: ../../content/applications/essentials/activities.rst:293
-#, fuzzy
 msgid ""
 "Available activity types vary based on the installed applications in the "
 "database."
@@ -756,7 +734,6 @@ msgstr ""
 "kuriame dokumentas yra išsaugotas."
 
 #: ../../content/applications/essentials/activities.rst:301
-#, fuzzy
 msgid ""
 ":guilabel:`Default User`: select a user from the drop-down menu to "
 "automatically assign this activity to the selected user when this activity "
@@ -802,7 +779,6 @@ msgstr ""
 "būti rodomos kartu su veikla."
 
 #: ../../content/applications/essentials/activities.rst:316
-#, fuzzy
 msgid "Next Activity section"
 msgstr "Kitos veiklos skiltis"
 
@@ -835,7 +811,6 @@ msgstr ""
 "Laukas :guilabel:`Grandinės tipas` **neatsiranda**, jei :guilabel:`Įkelti dokumentą` yra pasirinkta šiam :guilabel:`Veiksmui`."
 
 #: ../../content/applications/essentials/activities.rst:329
-#, fuzzy
 msgid ""
 ":guilabel:`Suggest/Trigger`: depending on what is selected for the "
 ":guilabel:`Chaining Type`, this field either displays :guilabel:`Suggest` or "
@@ -890,12 +865,10 @@ msgid "A new Activity form with all the fields filled out."
 msgstr "Nauja veiklos forma su visais užpildytais laukeliais."
 
 #: ../../content/applications/essentials/activities.rst:348
-#, fuzzy
 msgid ":doc:`../productivity/discuss`"
 msgstr ":doc:`../produktyvumas/diskutuoti`"
 
 #: ../../content/applications/essentials/activities.rst:349
-#, fuzzy
 msgid ":doc:`../productivity/discuss/team_communication`"
 msgstr ":doc:`../produktyvumas/diskutuoti/komandos_komunikacija`"
 
@@ -931,7 +904,6 @@ msgid "Export data from Odoo"
 msgstr "Eksportuoti duomenis iš Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:18
-#, fuzzy
 msgid ""
 "When working with a database, it is sometimes necessary to export data in a "
 "distinct file. Doing so can aid in reporting on activities, although, Odoo "
@@ -958,14 +930,12 @@ msgstr ""
 "Galiausiai, paspauskite ant :guilabel:`⚙️ Veiksmas`, ir tada "
 ":guilabel:`Eksportuoti`."
 
-#, fuzzy
 msgid "View of the different things to enable/click to export data."
 msgstr ""
 "Peržiūrėkite įvairius dalykus, kad įgalintumėte/spustelėtumėte duomenų "
 "eksportavimą."
 
 #: ../../content/applications/essentials/export_import_data.rst:31
-#, fuzzy
 msgid ""
 "When clicking on :guilabel:`Export`, an :guilabel:`Export Data` pop-over "
 "window appears, with several options for the data to export:"
@@ -974,13 +944,11 @@ msgstr ""
 ":guilabel:`Eksportuoti duomenis`, kuriame yra keletas parinkčių duomenims "
 "eksportuoti:"
 
-#, fuzzy
 msgid "Overview of options to consider when exporting data in Odoo.."
 msgstr ""
 "Apžvalga galimybių, kurias reikia apsvarstyti eksportuojant duomenis Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:38
-#, fuzzy
 msgid ""
 "With the :guilabel:`I want to update data (import-compatable export)` option "
 "ticked, the system only shows the fields that can be imported. This is "
@@ -995,7 +963,6 @@ msgstr ""
 "parinkčių, nes rodomi visi laukai, o ne tik tie, kuriuos galima importuoti."
 
 #: ../../content/applications/essentials/export_import_data.rst:42
-#, fuzzy
 msgid ""
 "When exporting, there is the option to export in two formats: `.csv` and "
 "`.xls`. With `.csv`, items are separated by a comma, while `.xls` holds "
@@ -1008,7 +975,6 @@ msgstr ""
 "turinį, tiek formatavimą."
 
 #: ../../content/applications/essentials/export_import_data.rst:45
-#, fuzzy
 msgid ""
 "These are the items that can be exported. Use the :guilabel:`> (right "
 "arrow)` icon to display more sub-field options. Use the :guilabel:`Search` "
@@ -1024,7 +990,6 @@ msgstr ""
 "parodyti visi laukai."
 
 #: ../../content/applications/essentials/export_import_data.rst:49
-#, fuzzy
 msgid ""
 "The :guilabel:`+ (plus sign)` icon button is present to add fields to the "
 ":guilabel:`Fields to export` list."
@@ -1033,7 +998,6 @@ msgstr ""
 "į :guilabel:`Laukai eksportavimui` sąrašą."
 
 #: ../../content/applications/essentials/export_import_data.rst:51
-#, fuzzy
 msgid ""
 "The :guilabel:`↕️ (up-down arrow)` to the left of the selected fields can be "
 "used to move the fields up and down, to change the order in which they are "
@@ -1055,7 +1019,6 @@ msgstr ""
 "lauką."
 
 #: ../../content/applications/essentials/export_import_data.rst:56
-#, fuzzy
 msgid ""
 "For recurring reports, it is helpful to save export presets. Select all the "
 "needed fields, and click on the template drop-down menu. Once there, click "
@@ -1073,7 +1036,6 @@ msgstr ""
 "šabloną."
 
 #: ../../content/applications/essentials/export_import_data.rst:63
-#, fuzzy
 msgid ""
 "It is helpful to know the field's external identifier. For example, "
 ":guilabel:`Related Company` in the export user interface is equal to "
