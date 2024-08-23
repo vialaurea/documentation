@@ -1,172 +1,173 @@
-# Copyright (C) Odoo S.A.
-# This file is distributed under the same license as the Odoo package.
-# Via laurea <info@vialaurea.lt>, 2024.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-19 09:09+0000\n"
 "PO-Revision-Date: 2024-03-22 00:37+0000\n"
 "Last-Translator: Via laurea <info@vialaurea.lt>\n"
-"Language: lt\n"
 "Language-Team: Via laurea <info@vialaurea.lt>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../../extensions/odoo_theme/layout_templates/footer.html:3
 msgid "Get Help"
-msgstr ""
+msgstr "Gaukite pagalbos"
 
 #: ../../extensions/odoo_theme/layout_templates/footer.html:5
 msgid "Contact Support"
-msgstr ""
+msgstr "Susisiekite su palaikymo tarnyba"
 
 #: ../../extensions/odoo_theme/layout_templates/footer.html:6
 msgid "Ask the Odoo Community"
-msgstr ""
+msgstr "Paklauskite Odoo bendruomenės"
 
 #: ../../extensions/odoo_theme/layout_templates/header.html:10
 msgid "Try Odoo for FREE"
-msgstr ""
+msgstr "Išbandykite Odoo NEMOKAMAI"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:3
 msgid "Odoo Documentation"
-msgstr ""
+msgstr "Odoo dokumentacija"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:8
 msgid "User Docs"
-msgstr ""
+msgstr "Naudotojo dokumentai"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:9
 msgid ""
 "Discover our guide to help you use and configure the platform, by "
 "applications."
 msgstr ""
+"Sužinokite mūsų vadove, kaip naudotis ir konfigūruoti platformą pagal "
+"programas."
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:10
 msgid "Top Apps"
-msgstr ""
+msgstr "Geriausios programėlės"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:14
 msgid "Accounting"
-msgstr ""
+msgstr "Buhalterija"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:19
 msgid "Inventory"
-msgstr ""
+msgstr "Inventorius"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:24
 msgid "Manufacturing"
-msgstr ""
+msgstr "Gamyba"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:29
 msgid "Point of Sale"
-msgstr ""
+msgstr "Atsiskaitymo vieta"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:35
 msgid "Install and Maintain"
-msgstr ""
+msgstr "Įdiekite ir prižiūrėkite"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:36
 msgid "Learn how to install, deploy and upgrade Odoo on premise or on Odoo.sh."
 msgstr ""
+"Išmokite įdiegti, diegti ir atnaujinti Odoo vietoje arba Odoo.sh platformoje."
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:37
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:66
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:93
 msgid "Top Links"
-msgstr ""
+msgstr "Viršutinės nuorodos"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:41
 msgid "Installing Odoo"
-msgstr ""
+msgstr "Įdiegti Odoo"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:46
 msgid "Bugfix updates"
-msgstr ""
+msgstr "Klaidų taisymų atnaujinimai"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:51
 msgid "Upgrading Odoo"
-msgstr ""
+msgstr "Atnaujinimas Odoo"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:56
 msgid "Odoo.sh: The Odoo Cloud Platform"
-msgstr ""
+msgstr "Odoo.sh: Odoo Debesų Platforma"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:64
 msgid "Developer"
-msgstr ""
+msgstr "Kūrėjas"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:65
 msgid ""
 "Learn to develop in Odoo with the developer tutorials and framework "
 "references."
 msgstr ""
+"Išmokite kurti Odoo naudodamiesi kūrėjo vadovėliais ir pagrindinių struktūrų "
+"nuorodomis."
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:70
 msgid "Tutorials"
-msgstr ""
+msgstr "Pamokos"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:75
 msgid "How-to guides"
-msgstr ""
+msgstr "Kaip daryti vadovai"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:80
 msgid "Reference"
-msgstr ""
+msgstr "Nuoroda"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:85
 msgid "External API"
-msgstr ""
+msgstr "Išorinė API"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:91
 msgid "Contributing"
-msgstr ""
+msgstr "Prisideda"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:92
 msgid ""
-"You want to contribute to Odoo but don't know where to start? The "
-"tutorials and guidelines are there to help you make Odoo even better."
+"You want to contribute to Odoo but don't know where to start? The tutorials "
+"and guidelines are there to help you make Odoo even better."
 msgstr ""
+"Norite prisidėti prie Odoo, bet nežinote, nuo ko pradėti? Pamokos ir gairės "
+"yra tam, kad padėtų jums padaryti Odoo dar geresniu."
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:97
 msgid "Coding guidelines"
-msgstr ""
+msgstr "Kodo rašymo gairės"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:102
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacija"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:107
 msgid "Content guidelines"
-msgstr ""
+msgstr "Turinio gairės"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:4
 msgid "Legal"
-msgstr ""
+msgstr "Teisinis"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:10
 #: ../../extensions/odoo_theme/layout_templates/legal.html:17
 msgid "Licenses"
-msgstr ""
+msgstr "Licencijos"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:25
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Taisyklės ir sąlygos"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:34
 msgid "Odoo Enterprise Agreement"
-msgstr ""
+msgstr "Odoo Įmonės Susitarimas"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:36
 msgid "Applies to self-hosting, Odoo.SH and Odoo Cloud."
-msgstr ""
+msgstr "Taikoma patiems talpinantiems, Odoo.SH ir Odoo Cloud."
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:40
 #: ../../extensions/odoo_theme/layout_templates/legal.html:42
@@ -175,81 +176,66 @@ msgstr ""
 #: ../../extensions/odoo_theme/layout_templates/legal.html:78
 #: ../../extensions/odoo_theme/layout_templates/legal.html:80
 msgid "Read"
-msgstr ""
+msgstr "Skaityti"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:43
 #: ../../extensions/odoo_theme/layout_templates/legal.html:62
 #: ../../extensions/odoo_theme/layout_templates/legal.html:81
 msgid "English"
-msgstr ""
+msgstr "Anglų"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:54
 msgid "Odoo Partnership Agreement"
-msgstr ""
+msgstr "Odoo partnerystės sutartis"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:73
 msgid "Terms Of Sale"
-msgstr ""
+msgstr "Pardavimo Sąlygos"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:90
 msgid "See also"
-msgstr ""
+msgstr "Taip pat žiūrėkite"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:93
 msgid "Archive of older agreements"
-msgstr ""
+msgstr "Sutarčių archyvas"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:99
 msgid "Other legal references"
-msgstr ""
+msgstr "Kiti teisiniai šaltiniai"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:105
 msgid "Odoo Cloud Service Level Agreement (SLA)"
-msgstr ""
+msgstr "Odoo debesijos paslaugų lygio sutartis (SLA)"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:110
 msgid "Odoo Cloud Acceptable Use Policy"
-msgstr ""
+msgstr "Odoo Cloud Priimtino Naudojimo Politika"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:115
 msgid "Odoo SA’s Privacy Policy"
-msgstr ""
+msgstr "Odoo SA privatumo politika"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:120
 msgid "Odoo SA’s GDPR Compliance Guide"
-msgstr ""
+msgstr "„Odoo SA“ BDAR laikymosi vadovas"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:126
 msgid "Contributor License Agreement"
-msgstr ""
+msgstr "Bendradarbio Licencijos Sutartis"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:133
 msgid "German Tax Accounting Standards: Odoo’s guide to GoBD Compliance"
 msgstr ""
+"Vokietijos mokesčių apskaitos standartai: Odoo vadovas dėl GoBD atitikties"
 
 #: ../../extensions/odoo_theme/layout_templates/page_toc.html:2
 msgid "On this page"
-msgstr ""
+msgstr "Šiame puslapyje"
 
 #: ../../extensions/odoo_theme/search.html:10
 msgid "Please activate JavaScript to enable the search functionality."
 msgstr ""
-
-#~ msgid ""
-#~ "Learn to develop in Odoo by "
-#~ "reading the framework references and "
-#~ "programmer tutorials."
-#~ msgstr ""
-
-#~ msgid "Tutorial: Getting started"
-#~ msgstr ""
-
-#~ msgid "ORM"
-#~ msgstr ""
-
-#~ msgid "Regular Views"
-#~ msgstr ""
-
-#~ msgid "QWeb Views"
-#~ msgstr ""
+"Prašome įjungti „JavaScript“, kad būtų galima naudotis paieškos "
+"funkcionalumu."
 

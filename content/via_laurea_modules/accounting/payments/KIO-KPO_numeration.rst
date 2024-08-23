@@ -13,11 +13,11 @@ Installation and Configuration
 
 - Go to **Accounting >> Configuration >> Journals** and select the cash journal(s). The KIO and KPO sequence can only be set in a journal where the type is set to Cash. You can set separate sequences for KIO and KPO.
 
-  .. image:: l10n_lt_kio_kpo_receipt/image01.jpg
+  .. image:: KIO-KPO_numeration/image01.jpg
 
 - In the **KIO Sequence** field, select a sequence from the list or create a new one.
 
-  .. image:: l10n_lt_kio_kpo_receipt/image02.jpg
+  .. image:: KIO-KPO_numeration/image02.jpg
 
   Fill in the required fields:
   
@@ -36,19 +36,19 @@ Main Functions
 
 - When creating a payment where the type is set to "send" and the journal is Cash, upon confirmation, a KIO number is automatically assigned according to the defined sequence.
 
-  .. image:: l10n_lt_kio_kpo_receipt/image03.jpg
+  .. image:: KIO-KPO_numeration/image03.jpg
 
 - You can print such a document by clicking the **PRINT** button in the record and selecting the KIO/KPO print format.
 
-  .. image:: l10n_lt_kio_kpo_receipt/image04.jpg
+  .. image:: KIO-KPO_numeration/image04.jpg
 
 - When creating a payment where the type is set to "receive" and the journal is Cash, upon confirmation, a KPO number is automatically assigned according to the defined sequence.
 
-  .. image:: l10n_lt_kio_kpo_receipt/image05.jpg
+  .. image:: KIO-KPO_numeration/image05.jpg
 
 - You can print such a document by clicking the **PRINT** button and selecting the KIO/KPO print format.
 
-  .. image:: l10n_lt_kio_kpo_receipt/image06.jpg
+  .. image:: KIO-KPO_numeration/image06.jpg
 
 
 Daily Use Scenarios

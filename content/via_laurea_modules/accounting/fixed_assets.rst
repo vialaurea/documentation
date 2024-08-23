@@ -8,4 +8,3 @@ Explore the various payment mechanisms within our system, including cash handlin
 
    fixed_assets/fixed_assets_reports
    fixed_assets/fixed_assets_inventory_act
-   fixed_assets/low-value_asset_act

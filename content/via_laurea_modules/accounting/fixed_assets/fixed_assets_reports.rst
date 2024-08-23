@@ -1,63 +1,94 @@
-Fixed assets reports
-====================
+Long-term Asset Report Instruction
+==================================
 
 Introduction
 ------------
 
-UAB Via Laurea has developed special fixed asset reports for the Lithuanian market, which can be found in the reports section of the Accounting module:
+- The module enhances Odoo's long-term asset functionality, allowing you to assign asset objects to employees, enter additional asset information, and print various reports.
 
-.. image:: fixed_assets_reports/img01.jpg
-    :alt: Accounting module reports section
+Installation and Configuration
+------------------------------
 
-By selecting this section and Via Laurea fixed asset reports, you can choose the Asset Card, Commissioning Act, and Write-off Act in the opened window:
+- Install the modules ``l10n_lt_account_asset`` and ``account_asset_enterprise_extended``.
 
-.. image:: fixed_assets_reports/img02.jpg
-    :alt: Fixed asset reports selection
+Asset Assignment to an Employee
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Go to the Long-term Assets module.
+- Select the asset you want to assign and open it for editing. The status of the asset (active, draft, or closed) does not matter.
+- In the "Assigned to Employee" field, select the employee from the list. Save the changes.
+
+  .. image:: fixed_assets_reports/image01.jpg
+
+Additional Asset Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Go to the Long-term Assets module.
+- Select the asset and open it for editing. The status of the asset (active, draft, or closed) does not matter.
+- Enter the following additional information:
+  - **Inventory Number**: Enter the inventory number of the asset.
+  - **Supplier Invoice Reference**: Enter the reference to the related supplier invoice.
+  - **Commissioning Date**: Select the date when the asset was commissioned.
+
+  .. image:: fixed_assets_reports/image02.jpg
+
+Main Features
+-------------
+
+- If an employee to whom the asset is assigned leaves the company or is assigned another asset, you should update the long-term asset record by removing or changing the "Assigned to Employee" field.
+
+Reports
+-------
+
+- Via laurea has developed special long-term asset reports for the Lithuanian market, which can be found in the Accounting module under Accounting >> Reports >> Via laurea long-term asset reports.
+- In the report window, you can choose from three different reports: Asset Card, Commissioning Act, and Write-off Act.
+
+  .. image:: fixed_assets_reports/image03.jpg
 
 Daily Use Scenarios
 -------------------
 
-### Asset Card
+Asset Card
+~~~~~~~~~~
 
-To print the asset card, select the required report, choose the specific asset from the asset list, and set the date for which the card will be generated.
+- To print an asset card, select the appropriate report, choose the specific asset from the list, and set the date for which the card will be generated.
 
-.. image:: fixed_assets_reports/img03.jpg
-    :alt: Select asset and set date
+  .. image:: fixed_assets_reports/image04.jpg
 
-Choose the format in which you want to generate the card. An asset card with all data related to the selected asset will be generated for you.
+- Choose the format in which you want to generate the card. The system will generate an asset card with all the data related to the selected asset.
 
-.. image:: fixed_assets_reports/img04.jpg
-    :alt: Asset card format selection
+  .. image:: fixed_assets_reports/image05.jpg
 
-Important: You can select not just one asset but several. In this case, a single file with cards for all selected assets will be generated at once.
+- **Important**: You can select multiple assets, and the system will generate a combined file with asset cards for all selected items.
 
-### Commissioning Act
+Commissioning Act
+~~~~~~~~~~~~~~~~~
 
-The commissioning act is prepared when the asset starts being used in the company's activities. To print it, enter the act number in the opened window, select the specific asset from the list, set the date, and enter the order number. Assign the materially responsible person. Choose the chairman of the commission and commission members from the list.
+- The Commissioning Act is created when an asset starts being used in the company's operations. To print it, enter the act number, select the specific asset from the list, date, and order number in the opened window. Assign the materially responsible person. Select the commission chairman and members from the list.
 
-.. image:: fixed_assets_reports/img05.jpg
-    :alt: Commissioning Act details
+  .. image:: fixed_assets_reports/image06.jpg
 
-After filling in all fields, choose the document format in which you want to generate the report. Data about the asset itself is uploaded to the printed document from the asset card.
+- After filling in all the fields, choose the document format you want to generate. The data related to the asset will be pulled into the printable document from the asset card.
 
-.. image:: fixed_assets_reports/img06.jpg
-    :alt: Select document format
+  .. image:: fixed_assets_reports/image07.jpg
 
-Important: As with the previous forms, if you select several assets at once, commissioning acts will be generated for the selected units at once.
+- **Important**: Similar to the previous form, if you select multiple assets, commissioning acts will be generated for all selected items at once.
 
-### Write-off Act
+Write-off Act
+~~~~~~~~~~~~~
 
-The write-off act is used to generate a document for writing off an asset. Select the appropriate asset report from the list, enter the act number, document and decommissioning dates, choose the chairman and members of the commission. In the decommissioning and commission proposal sections, you can enter the necessary text to be displayed in the document. Generate the document in the required format.
+- The Write-off Act is used to generate a document for writing off an asset. Select the appropriate asset report from the list, enter the act number, document and decommissioning dates, and select the commission chairman and members. In the decommissioning and commission proposal fields, you can enter the necessary text that will be displayed in the document. Generate the document in the required format.
 
-.. image:: fixed_assets_reports/img07.jpg
-    :alt: Write-off Act details
+  .. image:: fixed_assets_reports/image08.jpg
 
-The corresponding document is generated:
+- The appropriate document is generated:
 
-.. image:: fixed_assets_reports/img08.jpg
-    :alt: Generated document
+  .. image:: fixed_assets_reports/image09.jpg
+  .. image:: fixed_assets_reports/image10.jpg
 
-.. image:: fixed_assets_reports/img09.jpg
-    :alt: Generated document details
+- **Important**: If you select multiple assets in this form, a single document will be generated, and all the written-off items will be listed in the table in the appendix.
 
-Important: If you select several assets in this printing form, separate documents will not be generated for each, but a single document will be formed, listing all the written-off units in an attached table.
+Updates and Version Control
+----------------------------
+
+- The module is updated with each new version of Odoo.

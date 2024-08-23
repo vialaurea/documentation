@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-27 07:01+0000\n"
+"POT-Creation-Date: 2024-08-21 09:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,12 @@ msgid "Accountable Persons"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:7
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:5
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:5
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:5
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:5
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:5
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:9
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:5
 msgid "1. Introduction"
 msgstr ""
 
@@ -50,8 +54,11 @@ msgid "This instruction explains how to correctly register transactions related 
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:11
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:11
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:11
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:10
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:11
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:13
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:9
 msgid "2. Installation and Configuration"
 msgstr ""
 
@@ -322,12 +329,20 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:5
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:5
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:5
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:5
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:5
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:5
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:8
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:7
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:5
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:5
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:5
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:5
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:5
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:5
+#: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:5
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:5
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:5
 msgid "Introduction"
@@ -340,8 +355,17 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:10
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:9
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:10
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:10
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:11
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:12
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:11
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:20
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:12
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:10
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:10
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:7
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:16
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:5
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:11
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:13
 msgid "Installation and Configuration"
 msgstr ""
@@ -377,20 +401,35 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:29
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:29
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:25
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:17
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:27
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:32
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:17
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:33
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:16
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:13
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:26
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:38
 msgid "Main Functions"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:32
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:32
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:13
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:18
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:49
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:40
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:27
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:32
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:23
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:55
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:13
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:30
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:47
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:13
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:86
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:17
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:13
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:13
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:17
+#: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:13
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:21
 msgid "Daily Use Scenarios"
 msgstr ""
@@ -436,7 +475,8 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:53
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:55
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:30
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:39
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:58
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:24
 msgid "Reports and Documentation"
 msgstr ""
 
@@ -461,67 +501,69 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:66
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:69
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:85
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:39
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:68
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:45
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:45
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:59
 msgid "Integrations and Connections with Other Modules"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:69
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:72
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:50
 msgid "Problem Solving and FAQs"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:71
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:74
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:52
 msgid "The most common problems and their solutions."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:72
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:75
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:129
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:53
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:129
 msgid "Answers to frequently asked questions about this module."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:75
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:78
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:56
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:92
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:45
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:34
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:65
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:35
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:52
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:120
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:45
 msgid "Updates and Version Control"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:77
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:80
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:134
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:58
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:134
 msgid "How to update the module."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:78
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:81
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:59
 msgid "Version control practices."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:81
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:84
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:62
 msgid "Attachments"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:83
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:86
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:141
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:64
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:141
 msgid "Screenshots and visual instructions."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:84
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:87
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:143
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:65
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:143
 msgid "Useful links and additional resources."
 msgstr ""
 
@@ -867,11 +909,12 @@ msgid "Report sent"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:87
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:117
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:117
 msgid "How this module integrates with other Odoo modules or external systems."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:88
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:32
 msgid "Special integration instructions, if needed."
 msgstr ""
 
@@ -880,7 +923,6 @@ msgid "Fixed Assets"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets.rst:4
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:4
 #: ../../content/via_laurea_modules/accounting/other_functionalities.rst:4
 #: ../../content/via_laurea_modules/accounting/payments.rst:4
 msgid "Explore the various payment mechanisms within our system, including cash handling, advance registrations, and electronic payment processing. This section details procedures and guidelines for managing and recording all types of payments."
@@ -895,7 +937,6 @@ msgid "You can find the fixed asset inventory act in the reports section of the 
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:None
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:None
 msgid "Accounting module reports section"
 msgstr ""
@@ -929,362 +970,546 @@ msgid "Generated document with additional pages"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:2
-msgid "Fixed assets reports"
+msgid "Long-term Asset Report Instruction"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:7
-msgid "UAB Via Laurea has developed special fixed asset reports for the Lithuanian market, which can be found in the reports section of the Accounting module:"
+msgid "The module enhances Odoo's long-term asset functionality, allowing you to assign asset objects to employees, enter additional asset information, and print various reports."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:12
-msgid "By selecting this section and Via Laurea fixed asset reports, you can choose the Asset Card, Commissioning Act, and Write-off Act in the opened window:"
+msgid "Install the modules ``l10n_lt_account_asset`` and ``account_asset_enterprise_extended``."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
-msgid "Fixed asset reports selection"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:15
+msgid "Asset Assignment to an Employee"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:20
-msgid "### Asset Card"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:17
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:26
+msgid "Go to the Long-term Assets module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:22
-msgid "To print the asset card, select the required report, choose the specific asset from the asset list, and set the date for which the card will be generated."
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:18
+msgid "Select the asset you want to assign and open it for editing. The status of the asset (active, draft, or closed) does not matter."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
-msgid "Select asset and set date"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:19
+msgid "In the \"Assigned to Employee\" field, select the employee from the list. Save the changes."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:24
+msgid "Additional Asset Information"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:27
-msgid "Choose the format in which you want to generate the card. An asset card with all data related to the selected asset will be generated for you."
+msgid "Select the asset and open it for editing. The status of the asset (active, draft, or closed) does not matter."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
-msgid "Asset card format selection"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:32
-msgid "Important: You can select not just one asset but several. In this case, a single file with cards for all selected assets will be generated at once."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:34
-msgid "### Commissioning Act"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:28
+msgid "Enter the following additional information: - **Inventory Number**: Enter the inventory number of the asset. - **Supplier Invoice Reference**: Enter the reference to the related supplier invoice. - **Commissioning Date**: Select the date when the asset was commissioned."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:36
-msgid "The commissioning act is prepared when the asset starts being used in the company's activities. To print it, enter the act number in the opened window, select the specific asset from the list, set the date, and enter the order number. Assign the materially responsible person. Choose the chairman of the commission and commission members from the list."
+msgid "Main Features"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
-msgid "Commissioning Act details"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:38
+msgid "If an employee to whom the asset is assigned leaves the company or is assigned another asset, you should update the long-term asset record by removing or changing the \"Assigned to Employee\" field."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:41
-msgid "After filling in all fields, choose the document format in which you want to generate the report. Data about the asset itself is uploaded to the printed document from the asset card."
+#: ../../content/via_laurea_modules/accounting/reports.rst:2
+#: ../../content/via_laurea_modules/inventory/reports.rst:2
+msgid "Reports"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
-msgid "Select document format"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:43
+msgid "Via laurea has developed special long-term asset reports for the Lithuanian market, which can be found in the Accounting module under Accounting >> Reports >> Via laurea long-term asset reports."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:46
-msgid "Important: As with the previous forms, if you select several assets at once, commissioning acts will be generated for the selected units at once."
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:44
+msgid "In the report window, you can choose from three different reports: Asset Card, Commissioning Act, and Write-off Act."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:48
-msgid "### Write-off Act"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:52
+msgid "Asset Card"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:50
-msgid "The write-off act is used to generate a document for writing off an asset. Select the appropriate asset report from the list, enter the act number, document and decommissioning dates, choose the chairman and members of the commission. In the decommissioning and commission proposal sections, you can enter the necessary text to be displayed in the document. Generate the document in the required format."
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:54
+msgid "To print an asset card, select the appropriate report, choose the specific asset from the list, and set the date for which the card will be generated."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
-msgid "Write-off Act details"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:58
+msgid "Choose the format in which you want to generate the card. The system will generate an asset card with all the data related to the selected asset."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:55
-msgid "The corresponding document is generated:"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:62
+msgid "**Important**: You can select multiple assets, and the system will generate a combined file with asset cards for all selected items."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
-msgid "Generated document"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:65
+msgid "Commissioning Act"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:None
-msgid "Generated document details"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:67
+msgid "The Commissioning Act is created when an asset starts being used in the company's operations. To print it, enter the act number, select the specific asset from the list, date, and order number in the opened window. Assign the materially responsible person. Select the commission chairman and members from the list."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:63
-msgid "Important: If you select several assets in this printing form, separate documents will not be generated for each, but a single document will be formed, listing all the written-off units in an attached table."
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:71
+msgid "After filling in all the fields, choose the document format you want to generate. The data related to the asset will be pulled into the printable document from the asset card."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/low-value_asset_act.rst:2
-msgid "Low-value asset act"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:75
+msgid "**Important**: Similar to the previous form, if you select multiple assets, commissioning acts will be generated for all selected items at once."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/low-value_asset_act.rst:4
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_report.rst:4
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:4
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:4
-#: ../../content/via_laurea_modules/accounting/payments/cash.rst:4
-msgid "data"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:78
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:2
+msgid "Write-off Act"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:80
+msgid "The Write-off Act is used to generate a document for writing off an asset. Select the appropriate asset report from the list, enter the act number, document and decommissioning dates, and select the commission chairman and members. In the decommissioning and commission proposal fields, you can enter the necessary text that will be displayed in the document. Generate the document in the required format."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:84
+msgid "The appropriate document is generated:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:89
+msgid "**Important**: If you select multiple assets in this form, a single document will be generated, and all the written-off items will be listed in the table in the appendix."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:94
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:47
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:67
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:36
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:47
+msgid "The module is updated with each new version of Odoo."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:2
-msgid "Fuel Accounting"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:2
 msgid "Fuel Registration by Car"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:7
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:7
 msgid "This module is designed to manage vehicle fleets, conduct fuel accounting, and monitor and analyze other expenses related to vehicles. It contributes to compliance with Lithuanian accounting standards in the Odoo system."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:13
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:13
 msgid "**Installation Instructions:** Necessary steps for installing the module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:15
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:15
 msgid "**Initial Configuration:** Before using this module, specific settings need to be configured. Go to \"Vehicle Park\" -> Configuration -> Settings:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Configuration settings window"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:20
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:20
 msgid "Open configuration fields:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:22
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:22
 msgid "Specify the debit/credit fuel account."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:23
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:23
 msgid "Choose the fuel products."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:24
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:24
 msgid "Fuel journal: Either use the standard \"various operations\" or create a specialized one specifically for fuel accounting (for how to create a journal, see the \"Starting with Odoo\" instructions)."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:27
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:27
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
 msgid "3. Main Features"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:29
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:29
 msgid "Create a vehicle card and enter all necessary information:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:31
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:31
 msgid "Click \"New\":"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Vehicle card creation interface"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:36
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:36
 msgid "Select a template (vehicle make) from the provided list."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:37
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:37
 msgid "Enter the registration number."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:38
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:38
 msgid "If needed, input information about the driver."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:39
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:39
 msgid "Fill in the relevant fields about the vehicle."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:40
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:40
 msgid "Fill in the required information in the tax information field."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:41
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:41
 msgid "Specify the debit/credit account for fuel accounting."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Additional vehicle information fields"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:46
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:46
 msgid "After filling in the tax information, proceed to input additional vehicle details:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Inputting additional vehicle details"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:51
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:51
 msgid "Once the vehicle card is completed and filled out, it is possible to register operations related to the specific vehicle."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:53
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:53
 msgid "When registering invoices, the necessary vehicle is assigned in the lines:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Assigning vehicles in invoice registration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:58
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:58
 msgid "If services related to the vehicle were purchased, the information is displayed here on the vehicle card:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Services related information display on vehicle card"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:63
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:63
 msgid "When purchasing fuel:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:65
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:65
 msgid "Clicking this button opens a window with the entire fuel history:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Fuel history window"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:70
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:70
 msgid "In the opened window, the purchased quantity, write-offs, and remaining fuel balance are displayed."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:72
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:72
 msgid "Fuel write-off is performed on the vehicle card by clicking the button:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Fuel write-off interface"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:77
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:77
 msgid "A window opens:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:79
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:79
 msgid "Select a vehicle."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:80
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:80
 msgid "Specify the date for the fuel write-off."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:81
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:81
 msgid "Enter the amount of fuel to be written off."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:82
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:82
 msgid "Click \"Write off\"."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Details of fuel write-off"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:87
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:87
 msgid "After forming the fuel write-off record, go to the \"Fuel Journal\":"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Accessing the fuel journal"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:92
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:92
 msgid "Here, draft entries are created, which need to be registered to ensure that the data and figures are recorded in the general ledger:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:94
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:94
 msgid "Before registering, by clicking on the desired line, you can check the correspondence that will register:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Checking draft entries"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:99
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:99
 msgid "If everything is correct, return to the Fuel Journals, mark the entry you want to register, and click Action -> Post Entries."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Finalizing entries in the fuel journal"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:105
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:105
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
 msgid "4. Reports and Documentation"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:107
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:41
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:107
 msgid "How to generate reports using the module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:109
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:42
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:109
 msgid "Instructions for document management and archiving."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Document management and archiving instructions"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:115
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:115
 msgid "5. Integrations and Connection with Other Modules"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:119
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:119
 msgid "Special integration instructions if needed."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:None
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
 msgid "Integration with other modules"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:125
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:125
 msgid "6. Troubleshooting and FAQ"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:127
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:127
 msgid "Frequent problems and their solutions."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:132
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:132
 msgid "7. Updates and Version Management"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:136
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:136
 msgid "Version management practices."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_registration_by_car.rst:139
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:139
 msgid "8. Appendices"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting/fuel_report.rst:2
-msgid "Fuel Report"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities.rst:2
 msgid "Other functionalities"
 msgstr ""
 
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:2
+msgid "Company Executives"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:7
+msgid "The module allows you to enter the company's director and chief accountant in a special parameter, and continuously use this information when printing certain financial documents."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:8
+msgid "The module is not mandatory, but it provides convenience for work."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:13
+msgid "Install the module ``company_executives``."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:15
+msgid "Go to **Settings >> Users & Companies >> Companies** and open the **Company Government** form."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:17
+msgid "In the **Executive History** section, select the director from the contact list. The job title must be specified in the contact's form."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:21
+msgid "In the **Accountants' History** section, select the accountant from the contact list. The job title must be specified in the contact's form, in the job title field."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:29
+msgid "The information entered in the module is used when printing various accounting reports, such as a reconciliation statement."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:33
+msgid "It is also used for KIO and KPO orders."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:41
+msgid "The module is linked to the Cash Report (see more in the Cash Book documentation) and to cash orders (see more in KIO-KPO numbering)."
+msgstr ""
+
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:2
 msgid "Customer invoices by departments"
 msgstr ""
 
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:7
+msgid "Odoo standard allows creating multiple sales journals and numbering sales invoices differently. However, the journal in the sales invoice can only be selected manually by default."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:8
+msgid "This module enables automatic numbering of sales invoices by the company's physical division. For example, if the company's activity is registered in Kaunas but also has branches in Vilnius, Klaipėda, and Šiauliai, it is possible to number sales invoices separately by branch, i.e., by sales team."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:9
+msgid "The module allows different numbering of sales invoices following the STATE TAX INSPECTORATE UNDER THE MINISTRY OF FINANCE OF THE REPUBLIC OF LITHUANIA ORDER ON THE MANAGEMENT OF VAT INVOICE REGISTERS, allowing the numbering of invoices according to the company's internal procedures."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:14
+msgid "Install the module `customer_invoices_by_departments`."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:15
+msgid "To configure the module: 1. In the Accounting module, create separate journals, e.g., Kaunas division sales, Klaipėda sales division, etc. The journal type must be Sales, and the short code must be unique, as it will be used for invoice numbering."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Create separate journals"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:21
+msgid "In the Sales module >> Configuration >> Sales Teams or in the CRM module >> Configuration >> Sales Teams, create separate teams according to the company's physical divisions, e.g., Vilnius branch, Šiauliai branch, Alytus branch, etc."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Create sales teams"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:26
+msgid "Assign each sales team an appropriate sales journal and employees working in that division. It is RECOMMENDED to assign all employees (not just salespeople) to the appropriate sales teams."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Assign sales journal and employees"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:34
+msgid "The sales employee, logged into their account, creates new sales orders through the sales module. By default, when creating an SO, the sales team is filled in according to the employee's team assignment. When creating a new invoice from the SO, the sales journal assigned to the sales team is automatically selected in the invoice."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Sales team and journal assignment"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:42
+msgid "If the employee is not assigned to any sales team (division), when creating an SO and issuing (creating) an invoice, the first journal in order will be suggested by default, according to Odoo standard. The employee can select the required journal manually."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Default journal selection"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:47
+msgid "When issuing (creating) an invoice through Accounting >> Customers >> Invoices, the first journal in order will be suggested by default (according to Odoo standard), regardless of whether the employee is assigned to a sales team or not. When the sales team is selected manually in the invoice, the sales journal will be selected according to the sales team automatically. The employee can also select the required journal manually."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Manual sales team and journal selection"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:52
+msgid "If the employee is not assigned to any sales team (division), creating a new sales order will not automatically fill in the sales team. But if the employee selects the sales team manually, when issuing (creating) the sales invoice, the journal will be suggested according to the sales team from the sales order."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Manual sales team selection"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:57
+msgid "If the employee is assigned to one sales team (division) and manually selects another sales team when creating a new sales order, the sales journal will be assigned according to the sales team from the sales order (not according to the employee) when issuing (creating) the sales invoice."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Sales team selection based on sales order"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:62
+msgid "The same sales journal can be assigned to multiple sales teams, e.g., Klaipėda and Palanga sales teams issue invoices in the Klaipėda sales journal."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
+msgid "Assigning the same journal to multiple teams"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
+msgid "Regardless of how invoices are numbered, all will be included in a single iSAF report (see more in the iSAF declaration submission documentation). It is not possible to submit a declaration for separate divisions."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:71
+msgid "It is not possible to print the S/F register (see more in the S/F register documentation) by different divisions in the report. A single consolidated invoice register report for all divisions will be printed."
+msgstr ""
+
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:2
 msgid "Mass accounting records management"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:7
+msgid "The technical name of the module is `mass_accounting_records_management`. The module is associated with the Accounting module but is not related to the LT localization. It can operate in any localization."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:8
+msgid "The module is intended for consultants or highly experienced Odoo users when there is a need to manage GL entries in bulk."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:13
+msgid "**Module Installation**: Install the `mass_accounting_records_management` module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:14
+msgid "**Configuration**: No additional configuration is required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:19
+msgid "The module adds 2 additional Action buttons in Accounting >> Accounting >> GL Entries: **Cancel** and **Reset to Draft**."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:20
+msgid "The Action buttons **Confirm** and **Delete** are part of the standard Accounting module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:24
+msgid "Step-by-step instructions on how to use these functions."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:29
+msgid "The module is useful, for example, when managing fixed asset entries where many GL entries are created for past periods upon asset confirmation, and later, they need to be removed or corrected due to errors."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:36
+msgid "**Warning**: In version 16, the module violates an Odoo rule where it is prohibited to cancel GL entries for certain invoices. With this module, it is possible to cancel invoices."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:37
+msgid "The module can be freely used in version 15."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:2
@@ -1339,69 +1564,184 @@ msgstr ""
 msgid "Payments"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash.rst:2
-msgid "Cash"
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:2
+msgid "KIO-KPO Numeration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:7
+msgid "A cash order (KIO and KPO) is an accounting document used to record cash being deposited into or withdrawn from the cash register. When depositing cash, the fact of cash receipt must be documented using a Cash Receipt Order (KPO). When performing the opposite financial operation - withdrawing cash from the register, a Cash Expense Order (KIO) is issued."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:12
+msgid "Install the module ``l10n_lt_kio_kpo_receipt``."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:14
+msgid "Go to **Accounting >> Configuration >> Journals** and select the cash journal(s). The KIO and KPO sequence can only be set in a journal where the type is set to Cash. You can set separate sequences for KIO and KPO."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:18
+msgid "In the **KIO Sequence** field, select a sequence from the list or create a new one."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:22
+msgid "Fill in the required fields:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:24
+msgid "**Name**: The name of the sequence. This name is internal and is only displayed when selecting the sequence from the list."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:25
+msgid "**Prefix**: The prefix of the number, usually \"KIO\" or \"KPO\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:26
+msgid "**Sequence Size**: The length of the number, i.e., how many digits must be printed after the prefix."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:27
+msgid "**Step**: The frequency at which the numbers change, usually set to 1."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:28
+msgid "**Next Number**: The next number in the sequence, based on the company’s existing numbering system. If there is no previous sequence, enter 1."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:30
+msgid "For example, in the image, the next document will be numbered KIO0054."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:35
+msgid "When creating a new payment in the Cash Journal, depending on the payment type - send or receive - a KIO or KPO number is automatically assigned when the payment record is confirmed."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:37
+msgid "When creating a payment where the type is set to \"send\" and the journal is Cash, upon confirmation, a KIO number is automatically assigned according to the defined sequence."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:41
+msgid "You can print such a document by clicking the **PRINT** button in the record and selecting the KIO/KPO print format."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:45
+msgid "When creating a payment where the type is set to \"receive\" and the journal is Cash, upon confirmation, a KPO number is automatically assigned according to the defined sequence."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:49
+msgid "You can print such a document by clicking the **PRINT** button and selecting the KIO/KPO print format."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:57
+msgid "After a payment is confirmed and a KIO or KPO number is assigned, it is no longer possible to change the payment type (even if the payment is restored as a draft) because the assigned KIO or KPO number does not update. If a mistake was made, the KIO or KPO number will be used and cannot be reused in the future. In such a case, the payment should be canceled, and a new, correct payment should be created."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:62
+msgid "The module is linked to the Cash Report (see more in the Cash Book documentation)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:2
+msgid "Account Cash"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:7
+msgid "You can print the cash_account book through Reports -> Cash Journal."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:12
+msgid "2. Daily Use Scenarios"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:14
+msgid "In the opened window, select the period for which you want to print the cash_account book. - **Journal**: Select the cash_account journal. - **Cash Journal Print Type**: Choose how you want to display the cash_account book. - **Employee**: Select the employee responsible for cash_account operations. - The report is printed only in PDF."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:23
+msgid "Monthly:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:28
+msgid "One report per page:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:33
+msgid "Two reports on one page:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:2
-msgid "Advance Payment Reports"
+msgid "Registration of advances"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:4
-msgid "l10n_lt_adv_pay_report"
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:7
+msgid "Instructions on how to correctly register received/paid advances in the Odoo system and reconcile them with received or issued invoices."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:9
-msgid "This function allows generating and printing advance payment reports by employees and date."
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:12
+msgid "To properly use the Advances module, you must first configure it by creating the \"Advances\" journal and specifying accounts from the chart of accounts. To do this, in Accounting, go to Configuration, and in the Settings section, select the accounts and the created journal."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:14
-msgid "No additional installation or configuration is required."
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:17
+msgid "3. Daily Use Scenarios"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:19
-msgid "A detailed description of each important function."
+msgid "When receiving or paying an advance, select the appropriate accounts from the chart of accounts when registering it in accounting."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:20
-msgid "Step-by-step instructions on how to use these functions."
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:23
+msgid "After issuing an invoice and registering it in accounting, you will see the mentioned advance at the bottom of the document:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:25
-msgid "Go to Accounting -> Reports -> Advance Payment Report."
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:27
+msgid "By clicking the \"Add\" button, an automatic entry will be created, which will transfer the amount from the advance payment account 4420 to the account where the buyer's debt is registered (in our case, 2410) on the invoice date."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:26
-msgid "Set the report generation parameters: - Date range - select the period for which you want to print the advance payment report; - Employee - select the accountable person; - Number - enter the advance payment report number;"
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:31
+msgid "If you click on the \"Reconciled items\" field, as shown by the arrow, the related general ledger entries for this automatic operation will open:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:30
-msgid "Click \"Print\"."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:None
-msgid "Advance Payment Report parameters"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:None
-msgid "Generated Advance Payment Report"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:47
-msgid "Information for this report is obtained from transactions related to Accountable Persons."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/reports.rst:2
-#: ../../content/via_laurea_modules/inventory/reports.rst:2
-msgid "Reports"
+#: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:35
+msgid "Based on these entries, you can see how the invoice amount is transferred from the advance and reconciled with the receivable amount. Similarly, by selecting the appropriate accounts, you can also reconcile paid advances with payable amounts."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:2
 msgid "Accounting note"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:4
-msgid "Overview"
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:7
+msgid "This report is designed to justify a financial operation, explaining why a General Ledger (GL) entry was created manually."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:12
+msgid "**Module Installation**: The module `accounting_note` must be installed."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:13
+msgid "**Configuration**: The installed module does not require additional configuration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:18
+msgid "The accounting certificate is created within GL entries: - Navigate to the main menu: Accounting -> Accounting -> GL Entries. - Select the required entry, then Print -> Accounting Certificate."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:24
+msgid "The printed Accounting Certificate will appear as follows:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:28
+msgid "If you want to add a note or reason for creating the Accounting Certificate, you can enter it in the \"Notes\" field located in the second tab \"Other Information\" of the GL entry."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:32
+msgid "If needed, the certificate can also be printed from the list view in the standard way."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:37
+msgid "**Module Updates**: Information on how to update the module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:38
+msgid "**Version Control Practices**: Information on version control practices."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:2
@@ -1429,7 +1769,135 @@ msgid "Chart of Accounts Report"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:4
-msgid "Overview of"
+msgid "This report is intended to print the current company's chart of accounts."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:9
+msgid "Install the module `account_coa_report`."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:10
+msgid "The report is based on account groups, so you can enter account groups in the parameter Accounting >> Configuration >> Account Groups (visible in debug mode). It is not mandatory to fill in this parameter; the report will work even if the parameter is not filled."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:15
+msgid "To print the report, select Menu: Accounting >> Reports >> Chart of Accounts Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:16
+msgid "In the only parameter, you can choose which account class you want to print. If you want to print the entire chart of accounts, select account class = All"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:None
+msgid "Select account class"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:21
+msgid "Press the PRINT button to generate a .pdf document with the company's chart of accounts."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:None
+msgid "Print Chart of Accounts"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:26
+msgid "If the parameter Accounting >> Configuration >> Account Groups is filled, the report can be printed hierarchically, i.e., the chart of accounts is arranged according to parent values, for example: Assets >> Fixed Assets >> Tangible Assets, etc."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:27
+msgid "If the parameter Accounting >> Configuration >> Account Groups is not filled, the report will be printed without account class names, i.e., only the list of accounts."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:32
+msgid "In the report parameter, you can choose which account class you want to print."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:33
+msgid "If you want to print the entire chart of accounts, select account class = All."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:34
+msgid "If you want to print only one account class, for example, class 2, select only one class in the parameter and press PRINT."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:None
+msgid "Select account class and print"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:42
+msgid "The module is related to the Lithuanian localization module Lithuania - Accounting (technical name l10n_lt) and the module Lithuanian CoA Groups (technical name l10n_lt_groups)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:2
+msgid "Invoice Registry"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:7
+msgid "Until October 1, 2016, VAT payers had to submit forms FR0671, FR0672 approved by VMI."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:8
+msgid "From October 1, 2016, taxable persons are required to use i.MAS to submit data on issued and received VAT invoices (see iSAF declaration submission instructions for more details)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:9
+msgid "From October 1, 2016, VAT invoice registers (received and issued) are in a free-form report format."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:10
+msgid "Documents in the received VAT invoice register are registered by their receipt date."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:11
+msgid "All VAT invoices for the supply of goods and/or services and advance receipt VAT invoices issued by the VAT payer during the tax period must be registered in the issued VAT invoice register, except for VAT invoices for non-taxable financial services."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:18
+msgid "Install the modules `l10n_lt_invoice_registry` and `l10n_lt_tax_code`."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:19
+msgid "For configuration, you need to set the VAT classifier codes approved by the State Tax Inspectorate (VMI). Select the main menu - Accounting -> Configuration -> Taxes."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:23
+msgid "In the tax environment, the tax code field is mandatory and must be filled in for all VAT taxes in the database."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:28
+msgid "To print the report, select Accounting >> Reports >> Invoice Registers. The launch parameter window will open:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:32
+msgid "In the launch parameters, you need to select:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:34
+msgid "**Date Range** - select the period for which you want to generate the report; specify the dates from and to. Mandatory to fill in."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:35
+msgid "**Invoice Type** - specify whether you will generate a report for received (purchase) or issued (sales) invoices. Mandatory to fill in."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:39
+msgid "**Show Currency** - you can check the box, this field is optional. If selected, the report will display invoice amounts in both EUR and foreign currency."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:40
+msgid "**Show VAT** - you can check the box, this field is optional. If selected, the report will display total amounts broken down by each VAT code at the bottom of the report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:44
+msgid "The report can be generated into a .pdf document and a .xlsx document."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:49
+msgid "It is recommended to generate the report before submitting the iSAF declaration (see iSAF declaration submission instructions for more details) and the VAT declaration FR0600 (see FR0600 instructions for more details)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:54
+msgid "The module is updated with each new Odoo version."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:2
@@ -1507,7 +1975,6 @@ msgstr ""
 #: ../../content/via_laurea_modules/inventory/declarations.rst:4
 #: ../../content/via_laurea_modules/inventory/reports.rst:4
 #: ../../content/via_laurea_modules/payroll.rst:4
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:4
 msgid "Overview of inventory management and associated reports and declarations."
 msgstr ""
 
@@ -1515,19 +1982,260 @@ msgstr ""
 msgid "CMR"
 msgstr ""
 
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:4
-#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:4
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:4
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:4
-msgid "test"
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:6
+msgid "The Convention on the Contract for the International Carriage of Goods by Road (CMR) is designed for the transportation of goods by road."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:7
+msgid "This module contributes to the compliance with the international transportation system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:8
+msgid "Ensures the ability to print international consignment notes."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:12
+msgid "CMR is a component of the Inventory module. Installation instructions: no additional configuration is required for module installation."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:13
+msgid "Initial configuration: no settings are necessary."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:17
+msgid "Detailed feature description: Inventory -> Operations -> Transfers. Select the required delivery (Out) document. The document must be in the \"Ready\" or \"Done\" status, then Print -> CMR."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:21
+msgid "Before generating the report, it is necessary to correctly enter the product details: the product weight, Intrastat CN code (see more in the Intrastat declaration documentation), and country of origin must be entered."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
+msgid "Some lines of the report are filled in automatically, some need to be filled in manually."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:30
+msgid "5. Integrations and Connectivity with Other Modules"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:31
+msgid "The module is linked to the standard Intrastat module (see more in the Intrastat declaration documentation)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:35
+msgid "6. Updates and Version Control"
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:2
 msgid "Intrastat"
 msgstr ""
 
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:7
+msgid "Install the modules ``account_intrastat`` and ``l10n_lt_intrastat``."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:9
+msgid "After installing the modules, two additional menus appear in the Accounting module:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:11
+msgid "**Accounting >> Reports >> Intrastat Report**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:12
+msgid "**Accounting >> Configuration >> Intrastat Code**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:16
+msgid "The Intrastat Code parameter includes all the primary classifiers from the Lithuanian Customs: transaction codes, delivery condition codes, Lithuanian counties classifier, and Combined Nomenclature (KN)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:18
+msgid "In the Combined Nomenclature parameter, you must add Lithuanian translations only for those KN codes that your company uses for sales/purchases within the EU. Other codes can be left blank."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:22
+msgid "If required by the Lithuanian Customs Combined Nomenclature (KN) classifier, you must also fill in the unit of measure field."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:24
+msgid "The **Accounting >> Configuration >> Incoterm** contains standard Incoterm conditions. These are linked to the accounting module and are installed even without the Intrastat module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:28
+msgid "In the main settings of the Accounting module (**Accounting >> Configuration >> Settings**), you can set the default Incoterm conditions and transaction types."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:32
+msgid "In this parameter, you can also set the Intrastat-required county code of the company if the entire company is in one location, within one Lithuanian county. If part of the company (e.g., a warehouse) is in another Lithuanian county or the company has multiple branches (Vilnius, Kaunas, Klaipėda, Šiauliai...) with separate warehouses, the county code is set for each warehouse separately under **Inventory >> Configuration >> Warehouses**."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:40
+msgid "In the product form, the Combined Nomenclature (KN) code must be set, selected from the Intrastat code classifier, along with the country of origin, chosen from the standard Odoo country classifier. If there is an additional unit of measure, you need to enter the product unit equivalent with the units used in the declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:44
+msgid "The standard weight field must also be filled in on the product form."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:46
+msgid "When entering a Customer or Vendor invoice, you must fill in the transport type in each invoice, selecting it from the Intrastat code classifier."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:50
+msgid "The Intrastat country is filled in automatically if set in the Contact form. The Incoterm conditions are also filled in automatically if set in parameter 5, but they can be manually adjusted even if the invoice is not canceled."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:52
+msgid "In the invoice lines (if not visible, it can be enabled through the \"curtain\" icon), you can enter the transaction type if it does not match the default setting in parameter 5, and the country of origin if it does not match the product form or is not specified in the product form."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:60
+msgid "Go to **Accounting >> Reports >> Intrastat Report**. By default, the report is always generated with data from the previous period, but there is a filter where you can select the current period, the previous period, or a custom date range."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:64
+msgid "In the report, you can choose to include only export or import documents if the Lithuanian Customs, based on the previous calendar year's trade data with the EU, has instructed the company to submit only one type of report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:68
+msgid "If needed, for example, when there are many lines, the report data can be exported to `.xls` or printed in `.pdf`."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:70
+msgid "Once the report is fully completed and reviewed, you can click the button to generate an XML document for the Lithuanian Customs declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:74
+msgid "In the launch parameters, you need to select the year, month (by default, it always offers the previous period), the type of Intrastat, i.e., whether the declaration is for exported goods or imported goods, and the action - primary, corrected, or zero."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:78
+msgid "It is mandatory to select the responsible company employee in the **Contact Person** field from the contact list, as this data is required for the Lithuanian Customs report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:82
+msgid "The contact must have a phone number and job title filled in, as these details are included in the report's XML document, so that Lithuanian Customs officials can contact the responsible employee if necessary."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:88
+msgid "If the report is not fully completed, a yellow informational message will appear, indicating potential discrepancies: missing product weights, missing KN codes, missing transaction codes, etc."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:92
+msgid "To correct errors, simply click on the highlighted text in the yellow line. For example, if the message indicates that some products do not have KN codes, a list of those products will open, allowing you to immediately enter the missing data from the list."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:96
+msgid "Similarly, if the message indicates that \"Transaction codes are missing in some lines,\" a different type of window will open, showing which invoice lines have missing transaction codes, and allowing you to fill them in immediately."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:100
+msgid "It is also possible to correct product weights or additional units of measure used for the declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:102
+msgid "After entering the data, it is recommended to regenerate the report or reload it."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:106
+msgid "The transport types must be checked manually. In the invoice list, you can use a filter or group by transport type."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:110
+msgid "If you ignore the errors and attempt to generate the XML document for the Lithuanian Customs declaration, the system will also check whether all the required information is filled in during the document generation process and will not allow the document to be created until the errors are corrected. A message will be displayed indicating which errors need to be corrected and where."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:114
+msgid "If the error message is large and difficult to remember, you can copy it."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:116
+msgid "Only after correcting the errors will it allow you to generate the XML document, which can then be uploaded to the Lithuanian Customs electronic declaration system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:122
+msgid "This guide is intended for Intrastat reports for Odoo Enterprise versions 16 and 17."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:123
+msgid "Some parameters and functionality may not be available if you generate a report in another version."
+msgstr ""
+
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:2
-msgid "​iVAZ"
+msgid "i.VAZ"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:7
+msgid "i.VAZ can be filled in the Accounting and Inventory modules."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:8
+msgid "You can find the filling option in the Accounting module under the i.MAS section."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:12
+msgid "Or in the Inventory module under the i.VAZ section."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:19
+msgid "In both modules, the file is generated differently. An important condition is that i.VAZ can only be filled after confirming a sales order in the Sales module. The sales order must be marked \"Done\":"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:23
+msgid "i.VAZ is generated identically in both the Inventory and Accounting modules:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:25
+msgid "In the i.VAZ section, select \"i.VAZ batch documents\" and click the \"New\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:29
+msgid "In the window that opens, enter the carrier, vehicle registration number, make, driver's name, and surname. Click \"Add or remove documents\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:33
+msgid "In the next window, click the \"Add line\" link."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:37
+msgid "In the next window, you can create a new waybill. In the transfer, select the confirmed sales order waybill number, fill in the recipient, sender, transportation dates and times, and check the detailed information for dispatch and receipt locations at the bottom (these are automatically taken from the client's card). Correct addresses if necessary."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:41
+msgid "After filling in, save the document. You will see the entered document in the list of added waybills. If necessary, you can add more waybill lines. After loading all the required waybills from the sales orders, confirm the document."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:43
+msgid "In the i.VAZ document window, you will see all the uploaded waybills in the waybill lines. After checking, confirm the document."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:47
+msgid "Once confirmed, a \"Download\" field will appear. Click on the link to download an xml file to your computer, which you can upload to the VMI system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:51
+msgid "After sending, click the \"Document sent\" button. In the i.VAZ section, select \"i.VAZ documents\" to check the dispatch information of a specific waybill:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:55
+msgid "And, if necessary, download the file for submission in xml format again:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:59
+msgid "If you are transferring your goods from one place to another, select the \"Transfers\" tab, click \"Add line\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:63
+msgid "Check the appropriate Transfer waybills and click \"Select\" or create a new one where you manually enter the data."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:67
+msgid "You will see the added waybills in the list:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:71
+msgid "Fill in all the i.VAZ fields according to the above description. Similarly, confirm, generate the xml file, and attach it in the VMI system."
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:2
@@ -1607,8 +2315,60 @@ msgstr ""
 msgid "Report format options"
 msgstr ""
 
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:2
-msgid "Write-off Act"
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:7
+msgid "Extension of the standard Odoo functionality for scrapping: the ability to print a scrap report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:8
+msgid "This module contributes to compliance with Lithuanian accounting standards in the Odoo system, if applicable."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:13
+msgid "**Installation Instructions**: The module `Inventory scrap report` (technical name `inventory_scrap_report`) must be installed along with the standard Odoo Inventory module (technical name `stock`)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:14
+msgid "**Initial Configuration**: No additional configuration is required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:19
+msgid "Using the standard Odoo functionality, navigate to Inventory -> Operations -> Scrap. Enter one or more product scraps from the warehouse."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:26
+msgid "After entering the document, it is possible to print the scrap report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:30
+msgid "In the window that opens, the following fields need to be filled in: - **Scrap Report Date**: Select the date. - **Scrap Report Number**: Manually enter the number (there is no automatic numbering). - **Scrap Basis, Commission Established, Commission Suggests**: Texts that will appear in the report; not mandatory to fill in. - **Commission Chairman, Commission Members, Materially Responsible Person, and Accounting Staff**: Select from the list of employees."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:38
+msgid "Press \"Print\" to generate the following document:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:42
+msgid "If needed, the scrap report can also be printed from the list view in the standard way."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance.rst:2
+msgid "Maintenance"
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance.rst:4
+msgid "Maintenance related instructions can be found here."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:2
+msgid "Inventorisation act"
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:7
+msgid "Low-value assets are registered in the \"Maintenance\" module. The low-value asset inventory report can be found under Maintenance."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:15
+msgid "After selecting the print option for the report, a window will open where you should enter the inventory and accounting dates, manually enter the reason for the inventory, select the creation date, the chairman of the commission, commission members, the materially responsible person, and the accountant. Click the \"Print\" button to generate the document with the corresponding additional pages (\"covers\")."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll.rst:2
@@ -1749,6 +2509,7 @@ msgid "In the Employees module, company departments are entered in the configura
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:None
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Department Configuration"
 msgstr ""
 
@@ -1829,6 +2590,7 @@ msgid "If the 1-SD report will be generated from the Odoo program, specify the c
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:None
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "1-SD Report"
 msgstr ""
 
@@ -1845,7 +2607,834 @@ msgid "Employment Contract History Details"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:2
-msgid "Salary calculation"
+msgid "Payroll Calculation"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:6
+msgid "Payroll calculation includes employee contacts, input of employment contract information (module \"Employees\"), creation of work schedules, absence tracking (modules \"Planning\" and \"Absences\"), work time accounting, payroll calculation, and various forms for Sodra and VMI related to payroll (module \"Payroll\")."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:12
+msgid "2.1. Configuration of Accounting Entries"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:13
+msgid "When using payroll calculation in Odoo, it is important to set up the accounting entries, based on which information will be sent to the Accounting module upon confirmation of calculations. If the same accounting entries will be used for all employees, it should be specified in the Payroll module, in the Configuration section, under \"Rules\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Payroll Rules Configuration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:18
+msgid "Select \"Monthly Payroll\" and review all the lines in the opened list, assigning the appropriate accounting accounts where needed based on your company's chart of accounts."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Assign Accounts"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:23
+msgid "You can assign the account by entering a specific line, in the \"Accounting\" tab."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Accounting Tab"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:28
+msgid "You can also choose whether to show this line in the payroll form and, if needed, select an analytical account. If you want to use different accounting accounts for different employees based on their departments, check the box \"Use department accounts\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Use Department Accounts"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:34
+msgid "In this case, the accounting entries settings are done in the departments, which can be found in the Employees module, Configuration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:39
+msgid "Create a department card and specify the payroll debit and credit accounts in it. Standard entries, such as GPM deductions from employees, remain common for all company employees."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Department Payroll Accounts"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:44
+msgid "**IMPORTANT:** If you use department accounting entries, the employee must be assigned to one of the existing departments in the employee card."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:47
+msgid "2.2. Entry of Monthly Working Hours, if Cumulative Working Time Accounting is Applied"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:48
+msgid "If at least one employee is subject to cumulative working time accounting, it is necessary to enter the number of working hours for the corresponding months before performing the first calculations. This is done in the Payroll module, Configuration, Cumulative Working Time section."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Cumulative Working Time"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:53
+msgid "In the opened window, create new years and within them, by adding a line, enter the corresponding number of working hours for each month according to the calendar."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Add Working Hours"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Working Hours for the Month"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:61
+msgid "2.3. Configuration, if Advances are Paid to Employees"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:62
+msgid "If the company pays advances to employees, the accounting accounts used for them are set in the Payroll module, Configuration, Settings section, by entering the corresponding accounting accounts. For advance payments, an interim account should be used, e.g., 273 (money in transit)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Interim Account for Advances"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:68
+msgid "2.4. Configuration of Vacation Accruals"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:69
+msgid "The settings for accrual accounts are entered in the Payroll module, Configuration, Settings section, specifying the appropriate accounting accounts according to your chart of accounts:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Vacation Accrual Accounts"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:75
+msgid "3. Main Functions"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:78
+msgid "3.1. Assignment of Executive Orders"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:79
+msgid "If it is necessary to make deductions from the employee's salary according to executive orders, enter the data in the specific employee's card, in the \"Executive Orders\" section. Click \"Add line\" and enter the data. The recipient of the deduction should be described as a partner - in this case, there will be an option to directly form a payment to the bank. Select the deduction percentages. If there are several executive orders for the same employee, enter them all, distributing the percentages accordingly. The date defines from which date the employee's money will be deducted. In the debt section, enter the amount of debt according to the executive order."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Executive Orders"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:85
+msgid "3.2. Creation of Standard Work Schedules"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:86
+msgid "When creating an employment contract, the employee is assigned one of the two sources of work records - either a Work Schedule or the Planning module. Information about the creation of schedules in the Planning module can be found in the Shift Work Time Accounting Instructions. Standard, regular work schedules are described in the Payroll module, Configuration, in the \"Work Times\" section."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Work Times"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:91
+msgid "In this section, after describing the specific work schedule and assigning it in the employee card, by default, the working time data will be taken from the schedule (considering absences) when calculating payroll. **IMPORTANT:** In the schedule, pay attention to the function of shortening the pre-holiday day, the function of ignoring holidays, and the working time proportion compared to full time - configure it according to your needs:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Work Schedule Configuration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:97
+msgid "In the schedule, specify the exact start and end times of work and the lunch break, as shown in the example. Odoo typically divides the working day into two parts: morning and afternoon. **NOTE:** If, when creating a new employment contract, it turns out that there is no suitable work schedule - you can create it directly from the employee card, entering the name of the new schedule in the work schedule line and clicking the \"Create and edit\" link - you will be taken to the schedule creation window, just as when describing schedules in the Payroll module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Create and Edit Work Schedule"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:104
+msgid "3.3. Assigning Sodra Ceilings to the Employee"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:105
+msgid "Upon receiving a notice from Sodra that a specific employee's salary has reached the Sodra ceiling level and, in the current year, a lower VSDFV contribution rate must be applied, this is indicated in the employee card, in the \"Personnel Settings\" section, by checking the box for \"Reached Sodra Ceiling.\""
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Sodra Ceilings"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:110
+msgid "**NOTE:** After the end of the year and the calculation of the previous year's December salary, before calculating the first salary of the current year, it is necessary to remove this check mark in the card to restore the standard Sodra contribution rates for the employee."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:113
+msgid "4. Daily Scenarios and Calculation Process"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:116
+msgid "4.1. Entering Absences"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:117
+msgid "Before performing payroll calculations, check if the absence data for the specific calculation month have been entered and approved by the manager in the Absences module: vacations, parental leave, sickness, etc. More information on how to do this can be found in the Absence Registration Instructions."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:120
+msgid "4.2. Checking for Duplicate Entries"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:121
+msgid "Before calculating payroll, check for overlapping work entries, for example, if the employee has entered vacations and sickness for the same dates. Do this in the Payroll module, in Work Entries, selecting the \"Conflicts\" section and setting the appropriate month. If there are conflicts/inconsistencies, adjust the entries in the respective module accordingly."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Check for Conflicts"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:127
+msgid "4.3. Review and Corrections of the Work Time Ledger"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:128
+msgid "Before calculating salaries, review the work entries for the corresponding month. Data in this table come from work schedules, the Absences module, and the Planning module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Work Time Ledger"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:133
+msgid "Note that if the salary has already been calculated and approved for a specific employee, you will see a black corner in the work entries."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Black Corner Indicator"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:138
+msgid "If it is necessary to enter deviations from the work schedule for a specific employee, such as night hours, overtime work, etc., this can be done on the specific day and the specific employee's work entry. If you are adding additional time, click \"+\" and enter the information in the opened window."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Add Additional Time"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Additional Time Entry"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:145
+msgid "Select the type of entry and the time from when to when this mark is relevant. Save and confirm the information. An additional line or cell for additional entries will appear in the specific employee's work schedule. If it is necessary not to add an additional entry but to change the existing one (e.g., to a business trip), go to the existing cell and inside it, change the type of entry and save the change."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Change Existing Entry"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:151
+msgid "**NOTE:** If, after making changes, you click the \"Recreate Work Entries\" button and select the employee or several employees affected by these manual changes - the changes will be canceled, and the initial information from the Absences module and the schedule will be reloaded."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:154
+msgid "4.4. Payroll Calculation"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:155
+msgid "After checking the work entries and entering all additional hours, perform the payroll calculation. You can do this from the work entries window by clicking the \"Generate Payrolls\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Generate Payrolls"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:160
+msgid "In this case, payrolls for the respective month will be formed for the entire group of employees. It is also possible to create a payroll for a specific employee. In the Payrolls section, select \"All Payrolls\" and click \"New\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Create New Payroll"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:166
+msgid "In any of the mentioned cases, draft payrolls for each employee will be created. In the payroll, you will see the gross salary, as well as vacation pay, sickness benefits, etc., if any, and additional payments for night hours, overtime, etc."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Payroll Details"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:171
+msgid "To check all earnings and deductions, you can open the \"Salary Calculation\" tab in this draft and see all earnings and deductions and the amount to be paid."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Salary Calculation Tab"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:177
+msgid "4.5. Entering Additional Bonuses, Such as Per Diems, Bonuses, In-Kind Income, etc."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:178
+msgid "If it is necessary to enter bonuses or additional amounts payable to the employee, this can be done in the payroll calculation draft for the specific employee, in the \"Other Earnings\" section."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Other Earnings"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:183
+msgid "As the type, select the appropriate earning from the list. Based on this type, calculations and tax deductions will be performed, so it is important to choose the correct one. In the \"Calculate\" column, enter the required amount. Below the other earnings section, you will also see the \"Executive Order\" section, where data will be automatically entered if executive orders or deductions are configured in the employee's card, as described above."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Executive Orders Section"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:189
+msgid "After entering all additional bonuses, to recalculate the payroll including them, click the \"Calculate Sheet\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Calculate Sheet"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:195
+msgid "4.6. Approval of Payroll, Sending by Email, Forming Payments, Marking Payment, Controlling Overpayments"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:196
+msgid "After recalculating the payroll, click the \"Create Accounting Entry\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Create Accounting Entry"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:201
+msgid "By clicking this button, you will send the payroll data to the Accounting module's general ledger. After creating the accounting entry, form an entry in the bank for payment. Click \"Create Payment Report\", select the bank set in your accounting module where you will make the payment, and confirm. An attached file for sending payments to the bank will be created in the Accounting module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Create Payment Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Payment Report Details"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Bank Payment Entry"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:211
+msgid "After making the payment, it needs to be recorded for the specific payroll. As long as the payroll is not marked as paid, its status is \"Done\". To mark the payment, open the list of payrolls and mark the payrolls you want to change the status to \"Paid\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Mark Payrolls as Paid"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:216
+msgid "After marking the desired payroll (or several), click \"Action\" and select \"Mark as Paid\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Action Menu"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:221
+msgid "Enter the date of the payment and confirm."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Payment Date"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:226
+msgid "If a partial payment was made, check the box \"Is Partial Payment\" and manually enter the paid amount in the opened table, then confirm."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Partial Payment"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:231
+msgid "After performing these actions, depending on whether the payroll was fully or partially paid, its status will change in the payroll list."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Payroll Status"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:236
+msgid "In the case of partial payments, or if there is an overpayment for the employee, you will see them when forming payments for the next month. In this case, when forming payments for the next month, you will be offered to adjust the payable amount by the amount of overpayment/underpayment. **NOTE:** Data for GPM declarations are loaded based on payment dates, so it is important to perform this action and specify the correct payment date. **NOTE:** If you notice an error, in the specific employee's payroll, click the \"Cancel\" button, then \"Set to Draft\" and you will be returned to the payroll calculation where you can adjust the information."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Cancel Payroll"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Set to Draft"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:245
+msgid "To send payrolls (salary slips) to employees, open the payroll list, mark which payrolls you want to send, select \"Action\" and choose \"Send Payroll\" - the selected payrolls will be sent to the respective employees to the email addresses specified in their cards."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Send Payroll"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:250
+msgid "**NOTE:** Changing the status of payrolls and recalculating them can be done not only one by one but also for all selected at once. For this purpose, in the Employee Payrolls list, mark the relevant entries, choose \"Action\" and click on the required function. Payroll can be calculated not only for a specific person but also for a group of employees. In this case, the calculation is performed from the \"Work Entries\" window. After entering all the necessary changes in the employees' working time, click the \"Generate Payrolls\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Generate Payrolls for Group"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:256
+msgid "In Payrolls/All Payrolls, you will find an entry where a group of payrolls for all employees has been created. In parentheses, you will see how many payrolls have been created."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Group of Payrolls"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:261
+msgid "To review the created payrolls and enter additional earnings, open the group and expand the list of all payrolls. You can make changes by entering the specific employee's payroll and clicking \"Calculate Sheet\" after making changes."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Expand List of Payrolls"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Calculate Individual Payroll"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:268
+msgid "When you have made all the necessary changes, in the opened list in a specific group, mark all the payrolls in it and select \"Create Accounting Entry\" in the Action menu. Similarly, perform the actions \"Send Payroll\" and \"Mark as Paid\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Create Accounting Entry for Group"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:273
+msgid "**IMPORTANT:** Despite being able to perform these actions by entering the payroll itself, for the entries to be created, it is necessary to do this in the group by marking all entries together and selecting the corresponding action in the \"Action\" button, not individually."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:276
+msgid "4.8. Entering Advances"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:277
+msgid "When paying an advance to an employee, the entry is made in the Payroll module, Payrolls, Advances."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Advances"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:282
+msgid "Create \"New\", select the employee, the bank where you will create the file, the dates, and the advance amount. Click \"Create SEPA File\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Create SEPA File"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:288
+msgid "4.9. Printing the Work Time Ledger, Payroll Ledger"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:289
+msgid "After calculating the payroll, print the Work Time Ledger: In the Payroll module, Reports, Work Time Ledger (DLAŽ)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:295
+msgid "In the opened table, select the year, month, if you want to print separately for a specific employee or department - select them as well. If not selected, it will be printed for all employees. Also, select the person who created the DLAŽ and the responsible person. Click the \"Print PDF\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Print PDF"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:300
+msgid "A .pdf file will be downloaded and saved to your computer for printing."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Downloaded PDF"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:305
+msgid "To print the Payroll Ledger: In the Payroll module, Reports, select \"Payroll Ledger\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Payroll Ledger"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:311
+msgid "In the opened table, fill in the dates. If you want to print a separate payroll ledger for the department, select the department. If you do not use departments or want to form a ledger for all employees - leave this field empty. Click the \"Print PDF\" button, and the ledger will be saved to your computer."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Payroll Ledger Dates"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Saved PDF Ledger"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:318
+msgid "You can also choose the ledger in .xls format."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:321
+msgid "4.10. Formation and Printing of Payroll Certificates"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:322
+msgid "To form a payroll certificate, in the Payroll module, Reports, select the \"Payroll Certificate\" section."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Payroll Certificate"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:327
+msgid "In the opened card, select the specific employee and dates for which the certificate is needed. Click \"Print PDF\", and a standard certificate will be sent to your computer."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Print Payroll Certificate"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:333
+msgid "4.11. Formation and Printing of Average Salary Certificates"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:334
+msgid "To print an average salary (VDU) certificate for an employee, in the Payroll module, Reports, select the VDU certificate, in the opened table, specify the employee, the date for which the certificate is needed, and the preparer of the certificate, click \"Print PDF\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "VDU Certificate"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Fill VDU Certificate"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:341
+msgid "A .pdf file with the data for the last 3 months up to the specified date will be created and automatically saved on your computer."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Saved VDU Certificate"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:347
+msgid "4.12. VSDFV Reports:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:350
+msgid "4.12.1. 1-SD Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:351
+msgid "This form is created when hiring an employee. After entering the employee's data in the \"Employees\" module and creating an employment contract, go to the \"Payroll\" module, Reports, Sodra, 1-SD report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:356
+msgid "In the opened table, select the employment contract number of the employee for whom the 1-SD notification is created. Click \"Generate Declaration File\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Generate 1-SD File"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:361
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:375
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:408
+msgid "A file that can be uploaded to the Sodra system will be automatically saved on your computer."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:364
+msgid "4.12.2. 2-SD Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:365
+msgid "This form is created when dismissing an employee. After entering the employee's data in the \"Employees\" module and creating a dismissal entry, go to the \"Payroll\" module, Reports, Sodra, 2-SD report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "2-SD Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:370
+msgid "In the opened table, select the employment contract number of the employee for whom the 2-SD notification is created. Click \"Generate Declaration File\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Generate 2-SD File"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:378
+msgid "4.12.3. NP-SD Report and Calculation of Sick Pay by the Company"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:379
+msgid "We suggest filling out this declaration directly in the Sodra system by entering the sick pay amount calculated by the employer in the program. In the Absences module, create a sick leave entry by selecting the appropriate type of absence and dates, and approve it."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Sick Leave Entry"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:384
+msgid "After confirming the sick leave entry, select \"VDU Certificate\" in the printing link."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "VDU Certificate for Sick Leave"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:389
+msgid "A special VDU certificate will be formed, showing the sick pay amount depending on the work schedule for the first 2 working days if they coincided with the employee's work schedule. Enter this amount in the Sodra NP-SD notification."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Enter Sick Pay Amount"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:394
+msgid "You can also generate the NP-SD notification directly from Odoo, but this is not very convenient because the sick leave certificate numbers will not be included, and you will have to enter them manually from the Sodra system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:397
+msgid "4.12.4. Monthly SAM Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:398
+msgid "This form is used to declare monthly information about employee income and contributions paid to Sodra. After performing the monthly calculations and confirming the payrolls, in the Payroll module, select Reports, Sodra, SAM report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "SAM Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:403
+msgid "In the opened table, select the year and month for which the report is being generated. Click \"Generate Declaration File\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Generate SAM File"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:411
+msgid "4.13. VMI Reports:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:414
+msgid "4.13.1. GPM 313 Declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:415
+msgid "The monthly GPM declaration can be found in the Payroll module, Reports, in the EDS section, GPM313 declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "GPM 313 Declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:420
+msgid "After selecting it, specify the year and month and click the \"Generate Declaration File\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Generate GPM 313 File"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:425
+msgid "A file will be created and automatically saved on your computer for upload to the VMI EDS system in ffdata format. To review the data before uploading the file to the system, use ABBYY eFormFiller software."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:428
+msgid "4.13.2. GPM 312 Declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:429
+msgid "The annual GPM declaration can be found in the Payroll module, Reports, in the EDS section, GPM312 declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "GPM 312 Declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:434
+msgid "After selecting it, specify the year and click the \"Generate Declaration File\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Generate GPM 312 File"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:439
+msgid "A file will be created and automatically saved on your computer for upload to the VMI EDS system in ffdata format. To review the data before uploading the file to the system, use ABBYY eFormFiller software. **NOTE:** When using the Via Laurea Payroll Calculation module, there is an option to include amounts paid to individuals when forming the annual GPM312 declaration. To use this option, when describing an individual contact in the Contacts module, mark it as an individual supplier, select the appropriate point as the license type (Personal Code, IDV number, etc.), and enter the specific number as the IDV number."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Enter IDV Number"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:445
+msgid "When entering this supplier's invoice, in the L5 note for GPM312, select the appropriate activity code from the list."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Select Activity Code"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:450
+msgid "After performing these actions, when forming the GPM312 declaration for the respective period, the amounts paid to individuals will be included in the declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:453
+msgid "5. Use of the Absences Module for Lithuanian Accounting"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:454
+msgid "The Absences module is closely related to the Payroll module. When information is entered into the Absences module, it affects payroll calculations. The standard Odoo Absences module instruction can be found on our website. Due to the specifics of payroll calculation in Lithuania, we have supplemented the Absences module with certain functions."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:457
+msgid "5.1.1. Configuration of the Absences Module"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:458
+msgid "In the Absences, Configuration section, \"Time off types\", you will find a list of all possible absences and markings:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Time Off Types"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:463
+msgid "If necessary, you can adjust the list, but note that this is related to payroll formulas. In the \"Approval\" column, you can see which types of absence require manager approval. To mark a specific type of absence as requiring approval, go to the line entry and check the box for requiring approval."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Approval for Absence"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:468
+msgid "**NOTE:** After entering the absence information and, if necessary, approving it by the responsible person, the absence information along with the absence type marking symbols will be automatically uploaded to the work entries for the specific period."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:471
+msgid "5.1.2. Entering Vacation Norms"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:472
+msgid "In the Absences, Configuration section, \"Vacation Norms\", enter the vacation day norms used in your company (20 working days per year by default, 25 working days for single parents raising a child up to 12 years old, etc., according to the laws)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Vacation Norms"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:478
+msgid "5.1.3. Entering Holidays"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:479
+msgid "In the Absences, Configuration section, \"Holidays\", enter the holidays for the current year."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Holidays"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:485
+msgid "5.2. Assigning Vacations to the Employee"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:486
+msgid "When hiring an employee, a set annual vacation norm must be assigned to them. Odoo has the ability to calculate vacations only from the next day. For this reason, when hiring an employee, it is necessary to make 2 entries. The first one is for \"accrued vacations\" for the first working day, and the second is for standard vacation accrual from the next day. Enter vacation assignments in the Absences, Approvals, Assignments section."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Vacation Assignments"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:492
+msgid "When hiring an employee, create a new assignment:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "New Assignment"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:497
+msgid "In it, select the type as \"Regular Assignment\", specify the specific employee in the Employee field, and in the \"Duration\" field, enter the amount of vacation entitled for the first working day. Approve the entry. The second assignment is for vacation accrual:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Vacation Accrual"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:503
+msgid "Fill in the assignment similarly, only select \"Accrued Assignment\" as the type and select the applicable vacation norm for that employee from the list in the Vacation Norms field. After doing this, approve the entry. If already working employees are uploaded to the Odoo system with already accrued vacations (e.g., previously using other software for payroll), it is also necessary to make 2 entries, as in the hiring case. In this case, in the first entry, enter the already accrued vacations up to this day, following the description of the first working day entry. In the second entry, assign the accrual based on the applicable vacation norm for the employee. **NOTE:** If you forgot to enter vacation accrual entries when hiring an employee, calculate how many vacations the employee has accrued until this day, and enter the obtained number when entering the regular vacation assignment for the first working day."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:508
+msgid "5.3. Entering Absences"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:509
+msgid "When entering employee absences, follow the standard Odoo Absences module instruction - in the Absences, Approvals, Absences section, create a new entry, select the appropriate employee, type of absence, fill in the dates, and approve the entry. After doing this, the information will be automatically transferred to the Payroll module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:512
+msgid "5.4. Reports and Vacation Accruals"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:513
+msgid "In the Absences module, in Reports, you can find standard reports by employee and type of absence, the formation of which is described in the standard Odoo Absences module description. Additionally, you can see the Vacation Accrual report, which you can generate in pdf format for the specified date."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Vacation Accrual Report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:519
+msgid "If the accounting entries described above are configured in the Payroll module, clicking the \"Create Entry\" button in the report formation window will create an accrual entry in the Accounting module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
+msgid "Create Accrual Entry"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:525
+msgid "6. Integrations and Connections with Other Modules"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:526
+msgid "This module interacts with the Accounting, Employees, Absences, and Planning modules."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:2

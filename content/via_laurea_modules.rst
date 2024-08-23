@@ -15,3 +15,4 @@ Explore our modules tailored for Via Laurea applications, designed to enhance ef
     via_laurea_modules/accounting
     via_laurea_modules/inventory
     via_laurea_modules/payroll
+    via_laurea_modules/maintenance
