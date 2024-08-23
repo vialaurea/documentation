@@ -38,32 +38,31 @@ msgid ""
 ":guilabel:`🕘 (clock)`: the default icon, which appears if nothing is "
 "scheduled."
 msgstr ""
-":guilabel:`🕘 (laikrodis)`: numatytasis piktograma, kuri pasirodo, jei nieko "
+":guilabel:`🕘 (laikrodis)`: numatyta piktograma, kuri pasirodo, jei nieko "
 "nėra suplanuota."
 
 #: ../../content/applications/essentials/activities.rst:12
 msgid ":guilabel:`📞 (phone)`: this icon appears if a phone call is scheduled."
 msgstr ""
-":guilabel:`📞 (telefonas)`: šis piktograma pasirodo, jei suplanuotas "
+":guilabel:`📞 (telefonas)`: ši piktograma pasirodo, jei suplanuotas "
 "skambutis telefonu."
 
 #: ../../content/applications/essentials/activities.rst:13
 msgid ":guilabel:`✉️ (envelope)`: this icon appears if an email is scheduled."
 msgstr ""
-":guilabel:`✉️ (vokas)`: šis piktograma rodoma, jei el. laiškai yra "
-"suplanuoti."
+":guilabel:`✉️ (vokas)`: ši piktograma rodoma, jei yra suplanuotas el. laiškas."
 
 #: ../../content/applications/essentials/activities.rst:14
 msgid ":guilabel:`✔️ (checkmark)`: this icon appears if a to-do is scheduled."
 msgstr ""
-":guilabel:`✔️ (varnelė)`: šis piktograma pasirodo, jei užduotis yra "
+":guilabel:`✔️ (varnelė)`: ši piktograma pasirodo, jei užduotis yra "
 "suplanuota."
 
 #: ../../content/applications/essentials/activities.rst:15
 msgid ""
 ":guilabel:`(group of people)`: this icon appears if a meeting is scheduled."
 msgstr ""
-":guilabel:`(žmonių grupė)`: šis piktograma pasirodo, jei suplanuotas "
+":guilabel:`(žmonių grupė)`: ši piktograma pasirodo, jei suplanuotas "
 "susitikimas."
 
 #: ../../content/applications/essentials/activities.rst:16
@@ -71,7 +70,7 @@ msgid ""
 ":guilabel:`(arrow pointing up above a line)`: this icon appears if a "
 "document is scheduled to be uploaded."
 msgstr ""
-":guilabel:`(rodyklė, nukreipta aukštyn virš linijos)`: šis piktograma "
+":guilabel:`(rodyklė, nukreipta aukštyn virš linijos)`: ši piktograma "
 "rodoma, kai dokumentas yra numatytas įkelti."
 
 #: ../../content/applications/essentials/activities.rst:18
@@ -79,7 +78,7 @@ msgid ""
 ":guilabel:`(pencil in a box)`: this icon appears if a signature request is "
 "scheduled."
 msgstr ""
-":guilabel:`(pieštukas dėžutėje)`: šis piktograma pasirodo, jei suplanuotas "
+":guilabel:`(pieštukas dėžutėje)`: ši piktograma pasirodo, jei suplanuotas "
 "parašo prašymas."
 
 #: ../../content/applications/essentials/activities.rst:21
@@ -94,10 +93,10 @@ msgid ""
 "<activities/kanban>`, :ref:`list view <activities/list>`, or "
 ":ref:`activities view <activities/activity>` of an application."
 msgstr ""
-"Veiklos gali būti suplanuotos bet kuriame duomenų bazės puslapyje, kuriame "
+"Veiklos gali būti suplanuotos bet kuriame programos puslapyje, kuriame "
 "yra :ref:`diskusijų <activities/chatter>` gija, :ref:`Kanban vaizdas "
 "<activities/kanban>`, :ref:`sąrašo vaizdas <activities/list>`, arba "
-":ref:`veiklų vaizdas <activities/activity>` programoje."
+":ref:`veiklų vaizdas <activities/activity>`."
 
 #: ../../content/applications/essentials/activities.rst:30
 msgid "Chatter"
@@ -116,7 +115,7 @@ msgid ""
 "<activities/form>`."
 msgstr ""
 "Norėdami suplanuoti naują veiklą, paspauskite mygtuką :guilabel:`Veiklos`, "
-"esantį viršuje pokalbio lange. Atsidariusame iššokančiame lange "
+"esantį viršuje, pokalbio lange. Atsidariusame iššokančiame lange "
 ":guilabel:`Suplanuoti veiklą`, :ref:`užpildykite veiklos planavimo formą "
 "<activities/form>`."
 
@@ -132,7 +131,7 @@ msgstr "Kanban vaizdas"
 msgid ""
 "Another way that activities are created is from the Kanban view in an "
 "application."
-msgstr "Kitas būdas sukurti veiklas yra iš Kanban vaizdo programėleje."
+msgstr "Kitas būdas sukurti veiklas yra iš programoje esančio Kanban vaizdo."
 
 msgid "The Kanban icon in the top menu, highlighted."
 msgstr "Kanban piktograma viršutiniame meniu, paryškinta."
@@ -151,7 +150,7 @@ msgid ""
 "Schedule Activity form <activities/form>`."
 msgstr ""
 "Spustelėkite :guilabel:`+ Suplanuoti veiklą`, tada pereikite prie "
-":ref:`užpildykite veiklos planavimo formą <activities/form>`."
+":ref:`veiklos planavimo formos užpildymo <activities/form>`."
 
 msgid "Kanban view of the CRM pipeline and the option to schedule an activity."
 msgstr "Kanban vaizdas CRM pipeline ir galimybė suplanuoti veiklą."
@@ -174,7 +173,7 @@ msgstr "Sąrašo vaizdas"
 #: ../../content/applications/essentials/activities.rst:72
 #, fuzzy
 msgid "Activities can also be created from a list view."
-msgstr "Veiklą taip pat galima sukurti iš sąrašo rodinio."
+msgstr "Veiklą taip pat galima sukurti iš Sąrašo rodinio."
 
 #: ../../content/applications/essentials/activities.rst:74
 msgid ""
@@ -183,7 +182,7 @@ msgid ""
 "row, represented by two horizontal lines with two dots."
 msgstr ""
 "Jei stulpelis :guilabel:`Veiklos` yra paslėptas, atskleiskite jį naudodami "
-"piktogramą :guilabel:`(papildomos parinktys perjungimas)` viršutinėje "
+"piktogramą :guilabel:`(papildomos parinktys)` viršutinėje "
 "dešinėje eilutės pusėje, kurią žymi dvi horizontalios linijos su dviem "
 "taškais."
 
@@ -194,8 +193,8 @@ msgid ""
 ":ref:`fill out the Schedule Activity form <activities/form>` that appears."
 msgstr ""
 "Tada spustelėkite :guilabel:`🕘 (laikrodžio)` piktogramą, kad pridėtumėte "
-"veiklą, tada spustelėkite :guilabel:`+ Tvarkaraščio veiklą`. Toliau "
-"užpildykite pasirodžiusį :ref:`Tvarkaraščio veiklos formą <activities/form>`."
+"veiklą, tada spustelėkite :guilabel:`+ suplanuoti veiklą`. Toliau "
+"užpildykite pasirodžiusią :ref:`Veiklos planavimo formą <activities/form>`."
 
 msgid "List view of the CRM pipeline and the option to schedule an activity."
 msgstr "CRM proceso sąrašo vaizdas ir veiklos planavimo galimybė."
@@ -211,7 +210,7 @@ msgid ""
 "menu bar."
 msgstr ""
 "Dauguma „Odoo“ programų turi galimą *Veiklos* rodinį. Jei jis yra, "
-"pagrindinio meniu juostos viršutiniame dešiniajame kampe matomas "
+"pagrindinio meniu juostos viršutiniame dešiniajame kampe matoma "
 ":guilabel:`🕘 (laikrodžio)` veiklos piktograma."
 
 #: ../../content/applications/essentials/activities.rst:98
@@ -283,7 +282,7 @@ msgstr "Veiklos peržiūra CRM veiklos etape ir galimybė suplanuoti veiklą."
 #: ../../content/applications/essentials/activities.rst:131
 #, fuzzy
 msgid "Schedule Activity form"
-msgstr "Tvarkaraščio veiklos forma"
+msgstr "Veiklos planavimo forma"
 
 #: ../../content/applications/essentials/activities.rst:133
 msgid ""
@@ -295,9 +294,9 @@ msgid ""
 msgstr ""
 "Veiklos gali būti planuojamos iš daugelio skirtingų vietų, pavyzdžiui, iš "
 ":ref:`chatter <activities/chatter>` įrašo, arba iš vieno iš kelių vaizdų "
-"programoje, kai jie yra prieinami: :ref:`Kanban vaizdas "
-"<activities/kanban>`, :ref:`sąrašo vaizdas <activities/list>`, arba "
-":ref:`veiklos vaizdas <activities/activity>`."
+"programoje, kai jie yra prieinami: :ref:`Kanban vaizde "
+"<activities/kanban>`, :ref:`sąrašo vaizde <activities/list>`, arba "
+":ref:`veiklų vaizde <activities/activity>`."
 
 #: ../../content/applications/essentials/activities.rst:138
 #: ../../content/applications/essentials/activities.rst:220
@@ -385,8 +384,8 @@ msgid ""
 "pop-up window populates the :guilabel:`Title` field."
 msgstr ""
 "Spustelėkite norimą veiklos datą ir laiką, ir pasirodys iššokantis langas "
-":guilabel:`Naujas įvykis`. Suvestinė iš *Planuoti veiklą* iššokančio lango "
-"užpildo lauką :guilabel:`Pavadinimas`."
+":guilabel:`Naujas įvykis`. Santrauka iš *Planuoti veiklą* iššokančio lango "
+"automatiškai užpildys lauką :guilabel:`Pavadinimas`."
 
 #: ../../content/applications/essentials/activities.rst:164
 msgid ""
@@ -394,8 +393,8 @@ msgid ""
 ":guilabel:`Save & Close` to schedule it. Once scheduled, the activity is "
 "added to the chatter under the :guilabel:`Planned Activities` section."
 msgstr ""
-"Įveskite informaciją į :guilabel:`Naujas įvykis` iškylančiame lange, tada "
-"spustelėkite :guilabel:`Išsaugoti ir Uždaryti`, kad suplanuotumėte jį. Kai "
+"Įveskite informaciją :guilabel:`Naujas įvykis` iškylančiame lange, tada "
+"spustelėkite :guilabel:`Išsaugoti ir Uždaryti`, kad jį suplanuotumėte. Kai "
 "įvykis bus suplanuotas, veikla bus pridėta prie pokalbių skiltyje "
 ":guilabel:`Planuojamos veiklos`."
 
@@ -415,8 +414,8 @@ msgid ""
 ":guilabel:`Schedule`: schedules the activity, and adds the activity to the "
 "chatter under :guilabel:`Planned Activities`."
 msgstr ""
-":guilabel:`Tvarkaraštis`: suplanuoja veiklą ir prideda veiklą prie pokalbių "
-"skiltyje :guilabel:`Planuojamos veiklos`."
+":guilabel:`Suplanuoti`: suplanuoja veiklą ir prideda veiklą prie skilties "
+ :guilabel:`Planuojamos veiklos`."
 
 #: ../../content/applications/essentials/activities.rst:174
 #, fuzzy
@@ -425,8 +424,8 @@ msgid ""
 "chatter under :guilabel:`Today`. The activity is not scheduled, and is "
 "automatically marked as done."
 msgstr ""
-":guilabel:`Tvarkaraštis ir Pažymėti kaip Atlikta`: prideda veiklos detales "
-"prie pokalbių skiltyje :guilabel:`Šiandien`. Veikla nėra suplanuota ir "
+":guilabel:`Planuoti ir Pažymėti kaip Atlikta`: prideda veiklos detales "
+"prie pokalbių skilties :guilabel:`Šiandien`. Veikla nėra suplanuota ir yra "
 "automatiškai pažymima kaip atlikta."
 
 #: ../../content/applications/essentials/activities.rst:176
@@ -437,7 +436,7 @@ msgid ""
 "automatically marked as done, and a new :guilabel:`Schedule Activity` pop-up "
 "window appears."
 msgstr ""
-":guilabel:`Atlikta ir suplanuoti kitą`: prideda veiklos detales į pokalbių "
+":guilabel:`Baigti ir suplanuoti kitą`: prideda veiklos detales į pokalbių "
 "langą po :guilabel:`Šiandien`. Veikla nėra suplanuota, automatiškai pažymima "
 "kaip atlikta, ir atsiranda naujas :guilabel:`Suplanuoti veiklą` iššokantis "
 "langas."
@@ -448,8 +447,8 @@ msgid ""
 ":guilabel:`Cancel`: discards any changes made on the :guilabel:`Schedule "
 "Activity` pop-up window."
 msgstr ""
-":guilabel:`Atšaukti`: išmeta visus pakeitimus, atliktus :guilabel:`Planuoti "
-"veiklą` iškylančiajame lange."
+":guilabel:`Atšaukti`: Atšaukia visus pakeitimus, atliktus :guilabel:`Planuoti "
+"veiklą` iškilusiame lange."
 
 msgid "View of CRM leads and the option to schedule an activity."
 msgstr "CRM potencialių klientų ir veiklos planavimo parinktis."
@@ -465,7 +464,7 @@ msgid ""
 "To view a consolidated list of activities, organized by application, click "
 "the :guilabel:`🕘 (clock)` icon in the header menu, located in the top-right."
 msgstr ""
-"Jei norite peržiūrėti suvestinį veiklų sąrašą, suskirstytą pagal programą, "
+"Jei norite peržiūrėti suvestinį veiklų sąrašą, suskirstytą pagal programėles, "
 "spustelėkite piktogramą :guilabel:`🕘 (laikrodis)` antraštės meniu, esančiame "
 "viršutiniame dešiniajame kampe."
 
@@ -497,9 +496,8 @@ msgid ""
 "*All Time Off* requests dashboard, and six activities are scheduled to be "
 "done in the *Allocations* dashboard."
 msgstr ""
-"„Time Off“ programėlėje viena veikla numatyta atlikti skiltyje „All Time "
-"Off“ užklausos skydeliuose, o šeši veiksmai numatyti atlikti skiltyje "
-"„Allocations“ skydeliuose."
+"„Neatvykimai“ programėlėje viena veikla numatyta atlikti skilties „Visi Neatvykimai“ užklausos skydelyje, o šeši veiksmai numatyti atlikti skilties "
+"„Paskirstymas“ skydelyje."
 
 #: ../../content/applications/essentials/activities.rst:205
 msgid ""
@@ -521,7 +519,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/activities.rst:214
 msgid "Request a document"
-msgstr "Prašau dokumento"
+msgstr "Prašyti dokumento"
 
 #: ../../content/applications/essentials/activities.rst:216
 msgid ""
@@ -531,8 +529,8 @@ msgid ""
 "Document`, and a :guilabel:`Request a file` pop-up window appears."
 msgstr ""
 "Galimybė :guilabel:`Prašyti dokumento` yra sąrašo apačioje, po :ref:`visomis "
-"suplanuotomis veiklomis <activities/all>`, pasirodo galimybė "
-":guilabel:`Prašyti dokumento`. Spustelkite :guilabel:`Prašyti dokumento`, ir "
+"suplanuotomis veiklomis <activities/all>`, atsiranda "
+":guilabel:`Prašyti dokumento pasirinkimas`. Spustelkite :guilabel:`Prašyti dokumento` ir "
 "pasirodys iškylantysis langas :guilabel:`Prašyti failo`."
 
 #: ../../content/applications/essentials/activities.rst:222
@@ -545,7 +543,7 @@ msgid ""
 ":guilabel:`Request To`: select the user the document is being requested from "
 "using the drop-down menu."
 msgstr ""
-":guilabel:`Prašymas Kam`: pasirinkite vartotoją, iš kurio prašomas "
+":guilabel:`Prašymo gavėjas`: pasirinkite vartotoją, iš kurio prašomas "
 "dokumentas, naudodami išskleidžiamąjį meniu."
 
 #: ../../content/applications/essentials/activities.rst:225
@@ -558,8 +556,7 @@ msgid ""
 msgstr ""
 ":guilabel:`Dokumento pateikimo terminas`: įveskite skaitinę reikšmę, "
 "nurodančią, kada dokumentas turi būti pateiktas. Šalia šio lauko matomas "
-"laukas :guilabel:`Dienos`. Spustelėkite :guilabel:`Dienos`, kuri yra "
-"numatytoji parinktis, kad atidarytumėte iššokantįjį meniu. Pasirinkite "
+"laukas :guilabel:`Dienos`. Spustelėkite :guilabel:`Dienos`, numatytąją parinktį, kad atidarytumėte iššokantįjį meniu. Pasirinkite "
 "norimą laiko intervalo parinktį iš sąrašo. Galimos parinktys yra "
 ":guilabel:`Dienos`, :guilabel:`Savaitės` arba :guilabel:`Mėnesiai`."
 
@@ -579,8 +576,8 @@ msgid ""
 ":guilabel:`Workspace`."
 msgstr ""
 ":guilabel:`Žymos`: pasirinkite bet kokias norimas žymas iš išskleidžiamojo "
-"meniu. Rodymos žymos yra pagrįstos pagal pasirinktam :guilabel:`Darbo vieta` "
-"sukonfigūruotomis žymomis."
+"meniu. Rodomos žymos yra pagrįstos pagal pasirinktos :guilabel:`Darbo erdvės` "
+"sukonfigūruotas žymas."
 
 #: ../../content/applications/essentials/activities.rst:233
 msgid ""
@@ -596,7 +593,7 @@ msgid ""
 "When all the fields are completed, click :guilabel:`Request` to send the "
 "document request."
 msgstr ""
-"Kai visi laukai bus užpildyti, spustelėkite :guilabel:`Prašymas`, kad "
+"Kai visi laukai bus užpildyti, spustelėkite :guilabel:`Pateikti`, kad "
 "išsiųstumėte dokumento prašymą."
 
 msgid ""
@@ -608,7 +605,7 @@ msgstr ""
 #: ../../content/applications/essentials/activities.rst:244
 #, fuzzy
 msgid "Activity types"
-msgstr "Veiklos tipai"
+msgstr "Veiklų tipai"
 
 #: ../../content/applications/essentials/activities.rst:246
 #, fuzzy
@@ -618,8 +615,8 @@ msgid ""
 "setting --> Activity Types`."
 msgstr ""
 "Norėdami peržiūrėti šiuo metu sukonfigūruotus veiklos tipus duomenų bazėje, "
-"eikite į :menuselection:`Nustatymų programa --> Diskusijų skiltis --> "
-"Veiklos nustatymas --> Veiklos tipai`."
+"eikite į :menuselection:`Nustatymų programa --> Diskusijas --> "
+"Veiklos --> Veiklos tipai`."
 
 msgid ""
 "Activity Types button in the Settings application under the Discuss section."
@@ -639,7 +636,7 @@ msgstr "Veiklos tipų sąrašas jau sukonfigūruotas ir prieinamas."
 #: ../../content/applications/essentials/activities.rst:260
 #, fuzzy
 msgid "Edit activity types"
-msgstr "Redaguoti veiklos tipus"
+msgstr "Redaguoti veiklų tipus"
 
 #: ../../content/applications/essentials/activities.rst:262
 msgid ""
@@ -647,7 +644,7 @@ msgid ""
 "activity type, and the activity type form loads."
 msgstr ""
 "Norėdami redaguoti esamą :ref:`veiklos tipą <activities/types>`, "
-"spustelėkite veiklos tipą, ir bus įkeltas veiklos tipo formos langas."
+"spustelėkite norimą veiklos tipą ir atsidarys langas su veiklos tipo forma."
 
 #: ../../content/applications/essentials/activities.rst:265
 msgid ""
@@ -656,8 +653,8 @@ msgid ""
 ":guilabel:`Save Manually` option, represented by a :guilabel:`(cloud "
 "upload)` icon, located in the top-left corner of the page."
 msgstr ""
-"Padarykite norimus pakeitimus veiklos tipo formoje. Forma automatiškai "
-"išsaugoma, bet bet kuriuo metu ją galima išsaugoti rankiniu būdu, "
+"Padarykite norimus pakeitimus veiklos tipo formoje. Forma yra automatiškai "
+"išsaugoma, tačiau bet kuriuo metu ją galima išsaugoti rankiniu būdu, "
 "spustelėjus :guilabel:`Išsaugoti rankiniu būdu` parinktį, kurią žymi "
 ":guilabel:`(debesis su įkėlimo ikona)`, esanti puslapio viršutiniame "
 "kairiajame kampe."
@@ -674,21 +671,21 @@ msgid ""
 "activity type form loads."
 msgstr ""
 "Norėdami sukurti naują :ref:`veiklos tipą <activities/types>`, spustelėkite "
-":guilabel:`Naujas` iš :guilabel:`Veiklos tipų` puslapio, ir bus įkeltas "
-"tuščias veiklos tipo formos laukelis."
+":guilabel:`Naujas` iš :guilabel:`Veiklos tipų` puslapio ir atsidarys "
+"tuščias veiklos tipo formos laukas."
 
 #: ../../content/applications/essentials/activities.rst:275
 msgid ""
 "Enter a :guilabel:`Name` for the activity type at the top of the form, then "
 "enter the following information on the form."
 msgstr ""
-"Viršuje esančioje formoje įveskite :guilabel:`Pavadinimas` veiklos tipui, "
-"tuomet užpildykite formą šią informaciją."
+"Viršuje esančioje formoje įveskite :guilabel:`Pavadinimą` veiklos tipui, "
+"tuomet užpildykite formą su šia informacija."
 
 #: ../../content/applications/essentials/activities.rst:279
 #, fuzzy
 msgid "Activity Settings section"
-msgstr "Veiklos nustatymų skyrius"
+msgstr "Veiklos nustatymų skiltis"
 
 #: ../../content/applications/essentials/activities.rst:281
 #, fuzzy
@@ -699,7 +696,7 @@ msgid ""
 msgstr ""
 ":guilabel:`Veiksmas`: naudodamiesi išskleidžiamuoju meniu, pasirinkite "
 "veiksmą, susijusį su šiuo nauju veiklos tipu. Kai kurie veiksmai sukelia "
-"specifinį elgesį po to, kai veikla yra suplanuota, pvz.:"
+"specifinius veiksmus po to, kai veikla yra suplanuota, pvz.:"
 
 #: ../../content/applications/essentials/activities.rst:284
 #, fuzzy
@@ -707,8 +704,8 @@ msgid ""
 ":guilabel:`Upload Document`: if selected, a link to upload a document is "
 "automatically added to the planned activity in the chatter."
 msgstr ""
-":guilabel:`Įkelti dokumentą`: jei pasirinkta, nuoroda įkelti dokumentą "
-"automatiškai pridedama prie suplanuotos veiklos pokalbių lange."
+":guilabel:`Įkelti dokumentą`: jei pasirinkta ši veikla, nuoroda dokumentui įkelti "
+"automatiškai pridedama prie suplanuotos veiklos pokalbių lango."
 
 #: ../../content/applications/essentials/activities.rst:286
 #, fuzzy
@@ -716,7 +713,7 @@ msgid ""
 ":guilabel:`Call` or :guilabel:`Meeting`: if selected, users have the option "
 "to open their calendar to select a date and time for the activity."
 msgstr ""
-":guilabel:`Skambutis` arba :guilabel:`Susitikimas`: pasirinkus, naudotojai "
+":guilabel:`Skambutis` arba :guilabel:`Susitikimas`: pasirinkus šią veiklą, naudotojai "
 "turi galimybę atidaryti savo kalendorių, kad pasirinktų veiklos datą ir "
 "laiką."
 
@@ -727,16 +724,16 @@ msgid ""
 "request pop-up window is automatically added to the planned activity in the "
 "chatter. This requires the Odoo *Sign* application to be installed."
 msgstr ""
-":guilabel:`Prašyti parašo`: jei pažymėta, suplanuotoje veikloje pokalbiuose "
+":guilabel:`Prašyti parašo`: jei pažymėta ši veikla, suplanuotoje veikloje pokalbių skiltyje "
 "automatiškai pridedama nuoroda, atverianti parašo prašymo iššokantį langą. "
-"Tam reikalinga, kad būtų įdiegta Odoo *Sign* programa."
+"Tam turi būti įdiegtas Odoo *Pasirašymo* modulis."
 
 #: ../../content/applications/essentials/activities.rst:293
 #, fuzzy
 msgid ""
 "Available activity types vary based on the installed applications in the "
 "database."
-msgstr "Galimų veiklų tipai priklauso nuo duomenų bazėje įdiegtų programų."
+msgstr "Galimų veiklų tipai priklauso nuo sistemoje įdiegtų programų ir modulių."
 
 #: ../../content/applications/essentials/activities.rst:295
 msgid ""
@@ -745,7 +742,7 @@ msgid ""
 "appears if :guilabel:`Upload Document` is selected for the "
 ":guilabel:`Action`."
 msgstr ""
-":guilabel:`Aplankas`: pasirinkite konkretų :ref:`darbo srities "
+":guilabel:`Aplankas`: pasirinkite konkretų :ref:`darbo erdvės "
 "<documents/workspaces>` aplanką dokumentui išsaugoti. Šis laukas "
 "**atsiranda** tik tada, kai pasirenkamas :guilabel:`Įkelti dokumentą` "
 "veiksmas :guilabel:`Veiksmo` laukelyje."
@@ -767,7 +764,7 @@ msgid ""
 "the user who creates the activity."
 msgstr ""
 ":guilabel:`Numatytasis Vartotojas`: pasirinkite vartotoją iš išskleidžiamojo "
-"meniu, kad šiai veiklai būtų automatiškai priskirtas pasirinktas vartotojas, "
+"meniu, kuris bus automatiškai priskirtas šiai veiklai, "
 "kai yra suplanuojamas šis veiklos tipas. Jei šis laukas paliekamas tuščias, "
 "veikla yra priskiriama vartotojui, kuris sukuria veiklą."
 
@@ -776,7 +773,7 @@ msgid ""
 ":guilabel:`Default Summary`: enter a note to include whenever this activity "
 "type is created."
 msgstr ""
-":guilabel:`Numatytasis Santrauka`: įveskite pastabą, kurią norėtumėte "
+":guilabel:`Numatytas aprašymas`: įveskite aprašymą, kurį norėtumėte visada "
 "įtraukti kuriant šio tipo veiklą."
 
 #: ../../content/applications/essentials/activities.rst:307
@@ -786,7 +783,7 @@ msgid ""
 "be altered before the activity is scheduled or saved."
 msgstr ""
 "Informacija esanti :guilabel:`Numatytasis vartotojas` ir "
-":guilabel:`Numatytasis aprašymas` laukeliuose įtraukiama, kai sukuriama "
+":guilabel:`Numatytas aprašymas` laukeliuose įtraukiama kas kartą, kai sukuriama šio tipo "
 "veikla. Tačiau ji gali būti pakeista prieš veiklą planuojant ar išsaugant."
 
 #: ../../content/applications/essentials/activities.rst:311
@@ -807,7 +804,7 @@ msgstr ""
 #: ../../content/applications/essentials/activities.rst:316
 #, fuzzy
 msgid "Next Activity section"
-msgstr "Kita veiklos dalis"
+msgstr "Kitos veiklos skiltis"
 
 #: ../../content/applications/essentials/activities.rst:318
 msgid ""
@@ -825,18 +822,17 @@ msgid ""
 "the selected option, either the :guilabel:`Suggest` or :guilabel:`Trigger` "
 "field is displayed."
 msgstr ""
-":guilabel:`Grandinės tipas`: pasirinkite arba :guilabel:`Pasiūlyti kitą "
-"veiklą`, arba :guilabel:`Sukelti kitą veiklą` iš išskleidžiamojo meniu. "
+":guilabel:`Grandinės tipas`: pasirinkite :guilabel:`Pasiūlyti kitą "
+"veiklą` arba :guilabel:`Suaktyvinti kitą veiklą` iš išskleidžiamojo meniu. "
 "Priklausomai nuo pasirinktos parinkties, bus parodytas arba "
-":guilabel:`Pasiūlyti`, arba :guilabel:`Sukelti` laukas."
+":guilabel:`Pasiūlyti`, arba :guilabel:`Suaktyvinti` laukas."
 
 #: ../../content/applications/essentials/activities.rst:326
 msgid ""
 "The :guilabel:`Chaining Type` field does **not** appear if :guilabel:`Upload "
 "Document` is selected for the :guilabel:`Action`."
 msgstr ""
-"Laukas :guilabel:`Chaining Type` **neatsiranda**, jei :guilabel:`Upload "
-"Document` yra pasirinkta :guilabel:`Action`."
+"Laukas :guilabel:`Grandinės tipas` **neatsiranda**, jei :guilabel:`Įkelti dokumentą` yra pasirinkta šiam :guilabel:`Veiksmui`."
 
 #: ../../content/applications/essentials/activities.rst:329
 #, fuzzy
@@ -846,9 +842,9 @@ msgid ""
 ":guilabel:`Trigger`. Using the drop-down menu, select the activity to "
 "recommend or schedule as a follow-up task to the activity type."
 msgstr ""
-":guilabel:`Siūlyti/Sukelti`: priklausomai nuo to, kas pasirinkta "
-":guilabel:`Surakinimo Tipas`, šis laukas rodo arba :guilabel:`Siūlyti`, arba "
-":guilabel:`Sukelti`. Naudojant išskleidžiamąjį meniu, pasirinkite veiklą, "
+":guilabel:`Siūlyti/suaktyvinti`: priklausomai nuo to, kas pasirinkta "
+":guilabel:`Grandinės tipui`, šis laukas rodo arba :guilabel:`Siūlyti`, arba "
+":guilabel:`suaktyvinti`. Naudojant išskleidžiamąjį meniu, pasirinkite veiklą, "
 "kurią norite rekomenduoti ar suplanuoti kaip tolimesnę užduotį veiklos tipui."
 
 #: ../../content/applications/essentials/activities.rst:332
@@ -875,7 +871,7 @@ msgid ""
 ":guilabel:`Weeks`, or :guilabel:`Months`."
 msgstr ""
 "Šalia šio lauko matomas laukelis :guilabel:`Dienos`. Spustelėkite "
-":guilabel:`Dienos`, tai numatytoji parinktis, kad atvertumėte "
+":guilabel:`Dienos`, numatomąją parinktį, kad atvertumėte "
 "išskleidžiamąjį meniu. Iš sąrašo pasirinkite norimą laikotarpio parinktį. "
 "Parinktys yra :guilabel:`Dienos`, :guilabel:`Savaitės` arba "
 ":guilabel:`Mėnesiai`."
