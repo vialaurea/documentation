@@ -2,7 +2,7 @@
 
 from docutils import nodes
 from docutils.parsers.rst.directives import admonitions
-from sphinx.locale import admonitionlabels, _
+from sphinx.locale import admonitionlabels
 from sphinx.util.docutils import SphinxRole
 
 
@@ -65,11 +65,11 @@ def setup(app):
     app.add_role('dfn', Dfn(), override=True)
     app.add_node(DfnSpan, html=(DfnSpan.visit, DfnSpan.depart))
 
-    # Add translations for the admonition labels
-    admonitionlabels['example'] = _('Example')
-    admonitionlabels['exercise'] = _('Exercise')
-
     return {
         'parallel_read_safe': True,
         'parallel_write_safe': True
     }
+
+
+admonitionlabels['example'] = 'Example'
+admonitionlabels['exercise'] = 'Exercise'
