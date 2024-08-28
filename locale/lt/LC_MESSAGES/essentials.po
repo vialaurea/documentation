@@ -2614,8 +2614,8 @@ msgid ""
 "You can find several reports under the :guilabel:`Reporting` menu of most "
 "apps that let you analyze and visualize the data of your records."
 msgstr ""
-"Daugelyje programėlių galite rasti keletą ataskaitų po "
-":guilabel:`Ataskaitos` meniu, leidžiančiu analizuoti ir vizualizuoti jūsų "
+"Daugelyje programėlių galite rasti keletą ataskaitų meniu "
+":guilabel:`Ataskaitos`, leidžiančių analizuoti ir vizualizuoti jūsų "
 "įrašų duomenis."
 
 #: ../../content/applications/essentials/reporting.rst:11
@@ -2629,14 +2629,14 @@ msgid ""
 "several views are available for others. However, two generic views are "
 "dedicated to reporting: the graph and pivot views."
 msgstr ""
-"Priklausomai nuo ataskaitos, Odoo gali rodyti duomenis įvairiais būdais. "
+"Priklausomai nuo ataskaitos tipo, Odoo gali rodyti duomenis įvairiais būdais. "
 "Kartais yra galimas unikalus, pilnai ataskaitai pritaikytas vaizdas, o "
 "kitais atvejais yra kelios galimos peržiūros. Tačiau yra dvi bendros "
-"peržiūros, skirtos ataskaitoms: grafikas ir išklotinės (pivot) peržiūros."
+"peržiūros, skirtos ataskaitoms: grafiko ir suvestinės (pivot) peržiūros."
 
 #: ../../content/applications/essentials/reporting.rst:20
 msgid "Graph view"
-msgstr "Diagramos vaizdas"
+msgstr "Grafiko vaizdas"
 
 #: ../../content/applications/essentials/reporting.rst:22
 msgid ""
@@ -2646,18 +2646,18 @@ msgid ""
 "elsewhere. Click the **graph view button** located at the top right to "
 "access it."
 msgstr ""
-":ref:`Grafo vaizdas <reporting/using-graph>` naudojamas jūsų įrašų duomenims "
-"vizualizuoti, padedant jums nustatyti dėsningumus ir tendencijas. Šis "
+":ref:`Grafiko vaizdas <reporting/using-graph>` yra naudojamas jūsų įrašų duomenims "
+"vizualizuoti, padedant jums pamatyti dėsningumus ir tendencijas. Šis "
 "vaizdas dažnai randamas po :guilabel:`Ataskaitų` meniu programėlėse, bet "
-"gali būti randamas ir kitur. Paspauskite **grafo vaizdo mygtuką**, esantį "
-"viršuje dešinėje, kad jį pasiektumėte."
+"gali būti randamas ir kitur. Paspauskite **grafiko vaizdo mygtuką**, esantį "
+"viršuje dešinėje, kad jį pajungtumėte."
 
 msgid "Selecting the graph view"
 msgstr "Pasirinkti grafiko rodinį"
 
 #: ../../content/applications/essentials/reporting.rst:33
 msgid "Pivot view"
-msgstr "Pivoto peržiūra"
+msgstr "Suvestinė peržiūra"
 
 #: ../../content/applications/essentials/reporting.rst:35
 msgid ""
@@ -2666,18 +2666,18 @@ msgid ""
 "the :guilabel:`Reporting` menu of apps but can be found elsewhere. Click the "
 "**pivot view button** located at the top right to access it."
 msgstr ""
-"Pivotinė peržiūra naudojama jūsų įrašų duomenims agreguoti ir suskirstyti "
+"Suvestinė peržiūra yra naudojama jūsų įrašų duomenims agreguoti ir suskirstyti "
 "analizei. Ši peržiūra dažnai randama po :guilabel:`Ataskaitų` meniu "
 "programėlėse, bet gali būti randama ir kitur. Norėdami ją pasiekti, "
-"spustelėkite mygtuką **pivotinė peržiūra**, esantį viršutiniame dešiniajame "
+"spustelėkite mygtuką **suvestinis**, esantį viršutiniame dešiniajame "
 "kampe."
 
 msgid "Selecting the pivot view"
-msgstr "Pivotinio vaizdo pasirinkimas"
+msgstr "Suvestinio vaizdo pasirinkimas"
 
 #: ../../content/applications/essentials/reporting.rst:45
 msgid "Choosing measures"
-msgstr "Pasirinkti priemones"
+msgstr "Matmenų pasirinkimas"
 
 #: ../../content/applications/essentials/reporting.rst:47
 msgid ""
@@ -2686,11 +2686,11 @@ msgid ""
 "default, a measure is always selected. If you wish to edit it, click "
 ":guilabel:`Measures` and choose one or, only for pivots, multiple measures."
 msgstr ""
-"Pasirinkę vaizdą, turėtumėte užtikrinti, kad būtų filtruojami tik atitinkami "
-"įrašai: :doc:`filtered <search>`. Tuomet, turėtumėte pasirinkti, kas bus "
-"matuojama. Pagal numatytuosius nustatymus visada pasirenkamas matas. Jei "
-"norite jį redaguoti, spustelėkite :guilabel:`Measures` ir pasirinkite vieną "
-"arba, tik užvažiavimais, kelis matmenis."
+"Pasirinkę vaizdą, turėtumėte užtikrinti, kad būtų filtruojami tik aktualūs "
+"įrašai: :doc:`filtravimas <search>`. Tuomet, turėtumėte pasirinkti, kas bus "
+"matuojama. Matavimo būdai visada parenkami pagal numatytuosius nustatymus. Tačiau, jei "
+"norite jį redaguoti, spustelėkite :guilabel:`Matavimai` ir pasirinkite vieną "
+"arba, suvestinės vaizdams, kelis matmenis."
 
 #: ../../content/applications/essentials/reporting.rst:52
 msgid ""
@@ -2702,12 +2702,12 @@ msgid ""
 ":guilabel:`Count` option is used to count the total number of filtered "
 "records."
 msgstr ""
-"Kai pasirinkate matą, Odoo agreguoja vertes, užregistruotas tame lauke, "
+"Kai pasirinkate matavimo būdą, Odoo agreguoja vertes, užregistruotas tame lauke, "
 "filtruojamiems įrašams. Matavimui gali būti naudojami tik skaičiaus laukai "
-"(:ref:`integer <studio/fields/simple-fields/integer>`, :ref:`decimal "
-"<studio/fields/simple-fields/decimal>`, :ref:`monetary "
-"<studio/fields/simple-fields/monetary>`). Be to, :guilabel:`Count` parinktis "
-"naudojama skaičiuoti bendrą filtruotų įrašų skaičių."
+"(:ref:`Sveikasis skaičius <studio/fields/simple-fields/integer>`, :ref:`dešimtainis "
+"<studio/fields/simple-fields/decimal>`, :ref:`piniginis "
+"<studio/fields/simple-fields/monetary>`). Be to, :guilabel:`Skaičiuoti` parinktis "
+"yra naudojama suskaičiuoti bendrą filtruotų įrašų skaičių."
 
 #: ../../content/applications/essentials/reporting.rst:58
 msgid ""
@@ -2719,7 +2719,7 @@ msgstr ""
 "Pasirinkę, ką norite matuoti, galite apibrėžti, kaip duomenys turėtų būti "
 ":ref:`grupuojami <search/group>` priklausomai nuo dimensijos, kurią norite "
 "analizuoti. Pagal numatytuosius nustatymus duomenys dažnai grupuojami pagal "
-"*Data > Mėnuo*, kas naudojama mato kitimo analizei per mėnesius."
+"*Data > Mėnuo*, kas leidžia analizuoti mato raidą per mėnesius."
 
 #: ../../content/applications/essentials/reporting.rst:63
 msgid ""
@@ -2742,9 +2742,9 @@ msgid ""
 ":guilabel:`Count` measures to the Sales Analysis report. By default, the "
 ":guilabel:`Untaxed Amount` measure is selected."
 msgstr ""
-"Tarp kitų priemonių, galite pridėti :guilabel:`Marža` ir :guilabel:`Kiekis` "
+"Tarp kitų matmenų, galite pridėti :guilabel:`Marža` ir :guilabel:`Kiekis` "
 "priemones prie Pardavimų analizės ataskaitos. Pagal numatytuosius "
-"nustatymus, pasirenkama :guilabel:`Neapmokestinta suma` priemonė."
+"nustatymus, pasirenkamas :guilabel:`Neapmokestintos sumos` matmuo."
 
 #: ../../content/applications/essentials/reporting.rst
 msgid "Selecting different measures on the Sales Analysis report"
@@ -2759,7 +2759,7 @@ msgid ""
 "You could group the measures by :guilabel:`Product Category` at the level of "
 "rows on the previous Sales Analysis report example."
 msgstr ""
-"Galite suskirstyti priemones pagal :guilabel:`Produkto Kategoriją` eilučių "
+"Galite suskirstyti matmenis pagal :guilabel:`Produkto Kategoriją` eilučių "
 "lygiu ankstesniame Pardavimų Analizės ataskaitos pavyzdyje."
 
 #: ../../content/applications/essentials/reporting.rst
@@ -2768,7 +2768,7 @@ msgstr "Pridedama grupė prie Pardavimų analizės ataskaitos"
 
 #: ../../content/applications/essentials/reporting.rst:92
 msgid "Using the pivot view"
-msgstr "Naudojant sukamąjį vaizdą"
+msgstr "Suvestinio vaizdo naudojimas"
 
 #: ../../content/applications/essentials/reporting.rst:94
 msgid ""
@@ -2780,12 +2780,12 @@ msgid ""
 "one of the **preconfigured groups**. To remove one, click the minus button "
 "(:guilabel:`➖`)."
 msgstr ""
-"Grupuoti duomenis yra esminė pivot peržiūros funkcija. Tai suteikia galimybę "
-"detaliau analizuoti duomenis. Nors galite naudoti :guilabel:`Group By` "
+"Duomenų grupavimas yra esminė suvestinės peržiūros funkcija. Tai suteikia galimybę "
+"detaliau analizuoti duomenis. Nors galite naudoti :guilabel:`Grupuoti pagal` "
 "parinktį, kad greitai pridėtumėte grupę eilutės lygmenyje, kaip parodyta "
 "aukščiau esančiame pavyzdyje, taip pat galite spustelėti pliuso mygtuką "
-"(:guilabel:`➕`) šalia :guilabel:`Total` antraštės eilutės *ir* stulpelio "
-"lygmenyje, ir tada pasirinkti vieną iš **iš anksto sukonfigūruotų grupių**. "
+"(:guilabel:`➕`) šalia :guilabel:`Suma` antraštės eilutės *ir* stulpelio "
+"lygmenyje, o tuomet pasirinkti vieną iš **iš anksto sukonfigūruotų grupių**. "
 "Norėdami pašalinti vieną, spustelėkite minuso mygtuką (:guilabel:`➖`)."
 
 #: ../../content/applications/essentials/reporting.rst:100
@@ -2793,8 +2793,8 @@ msgid ""
 "Once you have added a group, you can add new ones on the opposite axis or "
 "the newly created subgroups."
 msgstr ""
-"Kai pridėsite grupę, galėsite pridėti naujųjų kitame ašyje arba naujai "
-"sukurtus pogrupius."
+"Kai pridėsite grupę, galėsite pridėti naujas ir kitoje ašyje arba naujai "
+"sukurtuose pogrupiuose."
 
 #: ../../content/applications/essentials/reporting.rst:104
 msgid ""
@@ -2817,7 +2817,7 @@ msgid ""
 "Switch the rows and columns' groups by clicking the flip axis button "
 "(:guilabel:`⇄`)."
 msgstr ""
-"Keiskite eilučių ir stulpelių grupes, spustelėdami mygtuką „Ašies keitimas“ "
+"Keiskite eilučių ir stulpelių grupes, spustelėdami mygtuką „Sukeisti Ašis“ "
 "(:guilabel:`⇄`)."
 
 #: ../../content/applications/essentials/reporting.rst:113
@@ -2825,7 +2825,7 @@ msgid ""
 "Click on a measure's label to sort the values by ascending (⏶) or descending "
 "(⏷) order."
 msgstr ""
-"Spustelėkite mato etiketę, kad surūšiuotumėte reikšmes didėjimo (⏶) arba "
+"Spustelėkite mato žymą, kad surūšiuotumėte reikšmes didėjimo (⏶) arba "
 "mažėjimo (⏷) tvarka."
 
 #: ../../content/applications/essentials/reporting.rst:114
@@ -2833,16 +2833,16 @@ msgid ""
 "Download a `.xlsx` version of the pivot by clicking the download button "
 "(:guilabel:`⭳`)."
 msgstr ""
-"Atsisiųskite `.xlsx` formato pivotinę lentelę, spustelėdami atsisiuntimo "
+"Atsisiųskite `.xlsx` formato suvestinę lentelę, spustelėdami atsisiuntimo "
 "mygtuką (:guilabel:`⭳`)."
 
 #: ../../content/applications/essentials/reporting.rst:119
 msgid "Using the graph view"
-msgstr "Naudojant grafiko vaizdą"
+msgstr "Grafiko vaizdo naudojimas"
 
 #: ../../content/applications/essentials/reporting.rst:121
 msgid "Three graphs are available: the bar, line, and pie charts."
-msgstr "Yra trys grafikai: stulpelinis, linijinis ir skritulinis diagramos."
+msgstr "Yra trys grafikai: juostinės, linijinės ir skritulinės diagramos."
 
 #: ../../content/applications/essentials/reporting.rst:123
 msgid ""
@@ -2850,27 +2850,26 @@ msgid ""
 "categories. They are especially useful as they can deal with larger data "
 "sets."
 msgstr ""
-"Stulpelinės diagramos naudojamos parodyti kelių kategorijų pasiskirstymą ar "
-"palyginimą. Jos ypač naudingos, nes gali tvarkyti didesnes duomenų aibes."
+"**Juostinės diagramos** yra naudojamos parodyti kelių kategorijų pasiskirstymą ar "
+"palyginimą. Jos ypač naudingos, kadangi leidžia analizuoti didelius duomenų kiekius."
 
 #: ../../content/applications/essentials/reporting.rst:126
 msgid ""
 "**Line charts** are useful to show changing time series and trends over time."
 msgstr ""
-"**Linijos diagramos** yra naudingos norint parodyti kintančias laiko eilutes "
-"ir tendencijas bėgant laikui."
+"**Linijinės diagramos** yra naudingos norint parodyti, kaip tendencijos keičiasi bėgant laikui."
 
 #: ../../content/applications/essentials/reporting.rst:128
 msgid ""
 "**Pie charts** are used to show the distribution or a comparison of a small "
 "number of categories when they form a meaningful whole."
 msgstr ""
-"**Skritulinės diagramos** naudojamos parodyti paskirstymą arba palyginimą "
-"nedidelio skaičiaus kategorijų, kai jos sudaro prasmingą visumą."
+"**Skritulinės diagramos** naudojamos norint parodyti paskirstymą arba palyginimą "
+"nedidelio skaičiaus kategorijų, kurios kartu sudaro prasmingą visumą."
 
 #: ../../content/applications/essentials/reporting.rst:133
 msgid "Bar chart"
-msgstr "Stulpelinė diagrama"
+msgstr "Juostinė diagrama"
 
 #: ../../content/applications/essentials/reporting.rst
 msgid "Viewing the Sales Analysis report as a bar chart"
@@ -2898,32 +2897,32 @@ msgid ""
 "have at least two groups, which then appear on top of each other instead of "
 "next to each other."
 msgstr ""
-"Barų ir linijų diagramoms galite naudoti sudėtinę parinktį, kai turite bent "
-"dvi grupes, kurios tada rodoma viena ant kitos, o ne šalia viena kitos."
+"Juostinėms ir linijinėms diagramoms galite naudoti sudėtinę parinktį, kai turite bent "
+"dvi grupes, kurios tada rodomos viena ant kitos, o ne šalia viena kitos."
 
 #: ../../content/applications/essentials/reporting.rst:154
 msgid "Stacked bar chart"
-msgstr "Sugretintų stulpelių diagrama"
+msgstr "Sudėtinė juostinė diagrama"
 
 #: ../../content/applications/essentials/reporting.rst
 msgid "Stacked bar chart example"
-msgstr "Sluoksniuotos diagramos pavyzdys"
+msgstr "Sudėtinės diagramos pavyzdys"
 
 #: ../../content/applications/essentials/reporting.rst:159
 msgid "Regular bar chart"
-msgstr "Įprasta stulpelinė diagrama"
+msgstr "Įprasta juostinė diagrama"
 
 #: ../../content/applications/essentials/reporting.rst
 msgid "Non-stacked bar chart example"
-msgstr "Nesudėtinės stulpelinės diagramos pavyzdys"
+msgstr "Nesudėtinės juostinės diagramos pavyzdys"
 
 #: ../../content/applications/essentials/reporting.rst:164
 msgid "Stacked line chart"
-msgstr "Sluoksniuota linijinė diagrama"
+msgstr "Sudėtinė linijinė diagrama"
 
 #: ../../content/applications/essentials/reporting.rst
 msgid "Stacked line chart example"
-msgstr "Sluoksninės linijinės diagramos pavyzdys"
+msgstr "Sudėtinės linijinės diagramos pavyzdys"
 
 #: ../../content/applications/essentials/reporting.rst:169
 #: ../../content/applications/essentials/reporting.rst:184
@@ -2932,7 +2931,7 @@ msgstr "Įprasta linijinė diagrama"
 
 #: ../../content/applications/essentials/reporting.rst
 msgid "Non-stacked line chart example"
-msgstr "Neuždengtos linijinės diagramos pavyzdys"
+msgstr "Įprastos linijinės diagramos pavyzdys"
 
 #: ../../content/applications/essentials/reporting.rst:174
 msgid ""
@@ -2952,7 +2951,7 @@ msgstr "Kaupiamosios linijos diagramos pavyzdys"
 
 #: ../../content/applications/essentials/reporting.rst
 msgid "Regular line chart example"
-msgstr "Įprasto linijinės diagramos pavyzdys"
+msgstr "Įprastos linijinės diagramos pavyzdys"
 
 #: ../../content/applications/essentials/search.rst:3
 #, fuzzy
