@@ -29,7 +29,7 @@ msgstr "Paklauskite Odoo bendruomenės"
 
 #: ../../extensions/odoo_theme/layout_templates/header.html:10
 msgid "Schedule Odoo Presentation"
-msgstr ""
+msgstr "Registruokitės Odoo prezentacijai"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:3
 msgid "Odoo Documentation"
