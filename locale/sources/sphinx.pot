@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 08:14+0000\n"
+"POT-Creation-Date: 2024-09-13 11:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Contact Support"
 msgstr ""
 
 #: ../../extensions/odoo_theme/layout_templates/footer.html:6
-msgid "Ask the Odoo Community"
+msgid "Schedule Consultation"
 msgstr ""
 
 #: ../../extensions/odoo_theme/layout_templates/header.html:10

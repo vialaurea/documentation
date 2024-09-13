@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-13 08:14+0000\n"
+"POT-Creation-Date: 2024-09-13 11:20+0000\n"
 "PO-Revision-Date: 2024-03-22 00:37+0000\n"
 "Last-Translator: Via laurea <info@vialaurea.lt>\n"
 "Language: lt\n"
@@ -24,8 +24,9 @@ msgid "Contact Support"
 msgstr "Susisiekite su palaikymo tarnyba"
 
 #: ../../extensions/odoo_theme/layout_templates/footer.html:6
-msgid "Ask the Odoo Community"
-msgstr "Paklauskite Odoo bendruomenės"
+#, fuzzy
+msgid "Schedule Consultation"
+msgstr "Registruokitės Odoo prezentacijai"
 
 #: ../../extensions/odoo_theme/layout_templates/header.html:10
 msgid "Schedule Odoo Presentation"
@@ -243,4 +244,7 @@ msgstr ""
 
 #~ msgid "Try Odoo for FREE"
 #~ msgstr "Išbandykite Odoo NEMOKAMAI"
+
+#~ msgid "Ask the Odoo Community"
+#~ msgstr "Paklauskite Odoo bendruomenės"
 
