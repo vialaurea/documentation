@@ -2,16 +2,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
-"POT-Creation-Date: 2024-06-19 09:09+0000\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-09-13 08:14+0000\n"
 "PO-Revision-Date: 2024-03-22 00:37+0000\n"
 "Last-Translator: Via laurea <info@vialaurea.lt>\n"
+"Language: lt\n"
 "Language-Team: Via laurea <info@vialaurea.lt>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../extensions/odoo_theme/layout_templates/footer.html:3
 msgid "Get Help"
@@ -26,8 +28,8 @@ msgid "Ask the Odoo Community"
 msgstr "Paklauskite Odoo bendruomenės"
 
 #: ../../extensions/odoo_theme/layout_templates/header.html:10
-msgid "Try Odoo for FREE"
-msgstr "Išbandykite Odoo NEMOKAMAI"
+msgid "Schedule Odoo Presentation"
+msgstr ""
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:3
 msgid "Odoo Documentation"
@@ -72,7 +74,8 @@ msgstr "Įdiekite ir prižiūrėkite"
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:36
 msgid "Learn how to install, deploy and upgrade Odoo on premise or on Odoo.sh."
 msgstr ""
-"Išmokite įdiegti, diegti ir atnaujinti Odoo vietoje arba Odoo.sh platformoje."
+"Išmokite įdiegti, diegti ir atnaujinti Odoo vietoje arba Odoo.sh "
+"platformoje."
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:37
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:66
@@ -105,8 +108,8 @@ msgid ""
 "Learn to develop in Odoo with the developer tutorials and framework "
 "references."
 msgstr ""
-"Išmokite kurti Odoo naudodamiesi kūrėjo vadovėliais ir pagrindinių struktūrų "
-"nuorodomis."
+"Išmokite kurti Odoo naudodamiesi kūrėjo vadovėliais ir pagrindinių "
+"struktūrų nuorodomis."
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:70
 msgid "Tutorials"
@@ -130,11 +133,11 @@ msgstr "Prisideda"
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:92
 msgid ""
-"You want to contribute to Odoo but don't know where to start? The tutorials "
-"and guidelines are there to help you make Odoo even better."
+"You want to contribute to Odoo but don't know where to start? The "
+"tutorials and guidelines are there to help you make Odoo even better."
 msgstr ""
-"Norite prisidėti prie Odoo, bet nežinote, nuo ko pradėti? Pamokos ir gairės "
-"yra tam, kad padėtų jums padaryti Odoo dar geresniu."
+"Norite prisidėti prie Odoo, bet nežinote, nuo ko pradėti? Pamokos ir "
+"gairės yra tam, kad padėtų jums padaryti Odoo dar geresniu."
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:97
 msgid "Coding guidelines"
@@ -226,8 +229,7 @@ msgstr "Bendradarbio Licencijos Sutartis"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:133
 msgid "German Tax Accounting Standards: Odoo’s guide to GoBD Compliance"
-msgstr ""
-"Vokietijos mokesčių apskaitos standartai: Odoo vadovas dėl GoBD atitikties"
+msgstr "Vokietijos mokesčių apskaitos standartai: Odoo vadovas dėl GoBD atitikties"
 
 #: ../../extensions/odoo_theme/layout_templates/page_toc.html:2
 msgid "On this page"
@@ -238,4 +240,7 @@ msgid "Please activate JavaScript to enable the search functionality."
 msgstr ""
 "Prašome įjungti „JavaScript“, kad būtų galima naudotis paieškos "
 "funkcionalumu."
+
+#~ msgid "Try Odoo for FREE"
+#~ msgstr "Išbandykite Odoo NEMOKAMAI"
 
