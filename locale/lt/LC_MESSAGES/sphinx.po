@@ -24,9 +24,8 @@ msgid "Contact Support"
 msgstr "Susisiekite su palaikymo tarnyba"
 
 #: ../../extensions/odoo_theme/layout_templates/footer.html:6
-#, fuzzy
 msgid "Schedule Consultation"
-msgstr "Registruokitės Odoo prezentacijai"
+msgstr "Registruotis konsultacijai"
 
 #: ../../extensions/odoo_theme/layout_templates/header.html:10
 msgid "Schedule Odoo Presentation"
