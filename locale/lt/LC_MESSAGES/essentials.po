@@ -874,7 +874,7 @@ msgstr ":doc:`../produktyvumas/diskutuoti/komandos_komunikacija`"
 
 #: ../../content/applications/essentials/export_import_data.rst:3
 msgid "Export and import data"
-msgstr "Eksporto ir importo duomenys"
+msgstr "Eksportuokite ir importuokite duomenis"
 
 #: ../../content/applications/essentials/export_import_data.rst:5
 msgid ""
@@ -995,7 +995,7 @@ msgid ""
 ":guilabel:`Fields to export` list."
 msgstr ""
 "Mygtuko piktograma :guilabel:`+ (pliuso ženklas)` yra skirta pridėti laukus "
-"į :guilabel:`Laukai eksportavimui` sąrašą."
+"į :guilabel:`Eksportuoti laukus` sąrašą."
 
 #: ../../content/applications/essentials/export_import_data.rst:51
 msgid ""
@@ -1032,7 +1032,7 @@ msgstr ""
 "meniu. Tada paspauskite :guilabel:`Naujas šablonas` ir suteikite ką tik "
 "sukurtam eksportui unikalų pavadinimą. Spustelėkite :guilabel:`💾 (diskelio)` "
 "piktogramą, kad išsaugotumėte konfigūraciją. Kai kitą kartą reikės "
-"eksportuoti tą pačią sąrašą, iš išskleidžiamojo meniu pasirinkite išsaugotą "
+"eksportuoti tą patį sąrašą, iš išskleidžiamojo meniu pasirinkite išsaugotą "
 "šabloną."
 
 #: ../../content/applications/essentials/export_import_data.rst:63
@@ -1068,7 +1068,7 @@ msgid ""
 "created by the import."
 msgstr ""
 "Importai yra nuolatiniai ir **negali** būti atšaukti. Tačiau, galima naudoti "
-"filtrus („sukurta“ arba „paskutinį kartą modifikuota“) norint nustatyti "
+"filtrus („sukurta (data)“ arba „paskutinį kartą modifikuota“) norint nustatyti "
 "įrašus, kuriuos pakeitė arba sukūrė importas."
 
 #: ../../content/applications/essentials/export_import_data.rst:80
@@ -1103,16 +1103,16 @@ msgid ""
 ":guilabel:`Odoo Field` while importing."
 msgstr ""
 "Jei bus pasirinkta parinktis :guilabel:`Leisti atitikimą su sublaukiais`, "
-"tada visi laukai bus naudojami atitikimui pagal :guilabel:`Odoo laukas` "
+"tada visi laukai bus naudojami atitikimui pagal :guilabel:`Odoo Lauką` "
 "importavimo metu."
 
 #: ../../content/applications/essentials/export_import_data.rst:95
-#, fuzzy
+#,
 msgid "Get started"
 msgstr "Pradėkite"
 
 #: ../../content/applications/essentials/export_import_data.rst:97
-#, fuzzy
+#, 
 msgid ""
 "Data can be imported on any Odoo business object using either Excel "
 "(`.xlsx`) or :abbr:`CSV (Comma-separated Values)` (`.csv`) formats. This "
@@ -1124,7 +1124,7 @@ msgstr ""
 "užsakymus."
 
 #: ../../content/applications/essentials/export_import_data.rst:101
-#, fuzzy
+#,
 msgid ""
 "Open the view of the object to which the data should be imported/populated, "
 "and click on :menuselection:`⚙️ (Action) --> Import records`."
@@ -1169,18 +1169,18 @@ msgid ""
 "columns in the :guilabel:`Odoo field` and :guilabel:`File Column` are free "
 "of errors. Finally, click :guilabel:`Import` to import the data."
 msgstr ""
-"Atlikite reikiamus koregavimus parinktyse *Formatting* ir įsitikinkite, kad "
-"visuose stulpeliuose :guilabel:`Odoo laukas` ir :guilabel:`Failo stulpelis` "
+"Atlikite reikiamus koregavimus parinktyse *Formatavimas* ir įsitikinkite, kad "
+"visuose stulpeliuose :guilabel:`Odoo lauke` ir :guilabel:`Failo stulpeliuose` "
 "nėra klaidų. Galiausiai, spustelėkite :guilabel:`Importuoti`, norėdami "
 "importuoti duomenis."
 
 #: ../../content/applications/essentials/export_import_data.rst:127
-#, fuzzy
+#, 
 msgid "Adapt a template"
 msgstr "Pritaikyti šabloną"
 
 #: ../../content/applications/essentials/export_import_data.rst:129
-#, fuzzy
+#, 
 msgid ""
 "Import templates are provided in the import tool of the most common data to "
 "import (contacts, products, bank statements, etc.). Open them with any "
@@ -1197,23 +1197,23 @@ msgid "Once the template is downloaded, proceed to follow these steps:"
 msgstr "Kai šablonas atsisiunčiamas, vykdykite šiuos veiksmus:"
 
 #: ../../content/applications/essentials/export_import_data.rst:135
-#, fuzzy
+#, 
 msgid "Add, remove, and sort columns to best fit the data structure."
 msgstr ""
 "Pridėkite, pašalinkite ir surūšiuokite stulpelius, kad geriausiai atitiktų "
 "duomenų struktūrą."
 
 #: ../../content/applications/essentials/export_import_data.rst:136
-#, fuzzy
+#,
 msgid ""
 "It is strongly advised to **not** remove the :guilabel:`External ID` (ID) "
 "column (see why in the next section)."
 msgstr ""
-"Primygtinai rekomenduojama **ne** šalinti :guilabel:`Išorinio ID` (ID) "
+"Primygtinai rekomenduojama **nešalinti** :guilabel:`Išorinio ID` (ID) "
 "stulpelio (sužinokite kodėl kitame skyriuje)."
 
 #: ../../content/applications/essentials/export_import_data.rst:138
-#, fuzzy
+#,
 msgid ""
 "Set a unique ID to every record by dragging down the ID sequencing in the "
 ":guilabel:`External ID` (ID) column."
@@ -1229,16 +1229,16 @@ msgstr ""
 "priskiriamas unikalus ID."
 
 #: ../../content/applications/essentials/export_import_data.rst:146
-#, fuzzy
+#, 
 msgid ""
 "When a new column is added, Odoo may not be able to map it automatically, if "
 "its label does not fit any field within Odoo. However, new columns can be "
 "mapped manually when the import is tested. Search the drop-down menu for the "
 "corresponding field."
 msgstr ""
-"Kai pridedama nauja stulpelis, Odoo gali automatiškai jo nesusieti, jei jo "
+"Kai pridedamas nauja stulpelis, Odoo gali automatiškai jo nesusieti, jei jo "
 "etiketė neatitinka jokio lauko Odoo sistemoje. Tačiau naujus stulpelius "
-"galima susieti rankiniu būdu, kai bandomas importavimas. Paieškokite "
+"galima susieti rankiniu būdu, kai vykdomas importavimas. Paieškokite "
 "atitinkamo lauko išskleidžiamajame meniu."
 
 msgid "Drop-down menu expanded in the initial import screen on Odoo."
@@ -1252,7 +1252,7 @@ msgid ""
 "successful."
 msgstr ""
 "Tuomet naudokite šio lauko etiketę importavimo faile, kad užtikrintumėte "
-"sėkmingus būsimus importus."
+"sėkmingus importus ateityje."
 
 #: ../../content/applications/essentials/export_import_data.rst:157
 msgid ""
@@ -1262,44 +1262,44 @@ msgid ""
 msgstr ""
 "Kitas naudingas būdas norint sužinoti tinkamus stulpelių pavadinimus "
 "importavimui yra eksportuoti pavyzdinį failą naudojant laukus, kurie turėtų "
-"būti importuojami. Tokiu būdu, jei nėra pavyzdinės importavimo šablono, "
+"būti importuojami. Tokiu būdu, jei nėra pavyzdinio importavimo šablono, "
 "pavadinimai bus tikslūs."
 
 #: ../../content/applications/essentials/export_import_data.rst:162
-#, fuzzy
+#, 
 msgid "Import from another application"
 msgstr "Importuoti iš kitos programos"
 
 #: ../../content/applications/essentials/export_import_data.rst:164
-#, fuzzy
+#, 
 msgid ""
 "The :guilabel:`External ID` (ID) is a unique identifier for the line item. "
 "Feel free to use one from previous software to facilitate the transition to "
 "Odoo."
 msgstr ""
 ":guilabel:`External ID` (ID) yra unikalus eilutės elemento identifikatorius. "
-"Galite naudoti vieną iš ankstesnės programinės įrangos, kad palengvintumėte "
-"perėjimą prie Odoo."
+"Galite naudoti ID iš ankstesnės programinės įrangos, kad palengvintumėte "
+"perėjimą prie Odoo sistemos."
 
 #: ../../content/applications/essentials/export_import_data.rst:167
-#, fuzzy
+#,
 msgid ""
 "Setting an ID is not mandatory when importing, but it helps in many cases:"
 msgstr ""
 "Nustatyti ID nėra privaloma importuojant, bet tai padeda daugeliu atvejų:"
 
 #: ../../content/applications/essentials/export_import_data.rst:169
-#, fuzzy
+#, 
 msgid ""
 "Update imports: import the same file several times without creating "
 "duplicates."
 msgstr ""
-"Atnaujinkite importus: importuokite tą patį failą kelis kartus, nesukurdami "
+"Atnaujinant importus: importuokite tą patį failą kelis kartus, nesukurdami "
 "dublikatų."
 
 #: ../../content/applications/essentials/export_import_data.rst:170
 msgid ":ref:`Import relation fields <export_import_data/relation-fields>`."
-msgstr ":ref:`Importuoti santykio laukus <export_import_data/relation-fields>`."
+msgstr ":ref:`Importuojant santykio laukus <export_import_data/relation-fields>`."
 
 #: ../../content/applications/essentials/export_import_data.rst:172
 msgid ""
@@ -1308,7 +1308,7 @@ msgid ""
 ":guilabel:`External ID` (ID) column in Odoo."
 msgstr ""
 "Norint atkurti ryšius tarp skirtingų įrašų, iš originalios programos reikia "
-"naudoti unikalų identifikatorių, kad jį susieti su :guilabel:`External ID` "
+"naudoti unikalų identifikatorių, kad jį susieti su :guilabel:`Išorinis ID` "
 "(ID) stulpeliu Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:175
@@ -1326,11 +1326,11 @@ msgid ""
 "It should be noted that there will be a conflict if two or more records have "
 "the same name."
 msgstr ""
-"Reikia pažymėti, kad bus konfliktas, jei du ar daugiau įrašų turės tą patį "
-"pavadinimą."
+"Svarbu paminėti, kad jeigu du ar daugiau įrašų turės tą patį pavadinimą, "
+"įvyks konfliktas."
 
 #: ../../content/applications/essentials/export_import_data.rst:181
-#, fuzzy
+#,
 msgid ""
 "The :guilabel:`External ID` (ID) can also be used to update the original "
 "import, if modified data needs to be re-imported later, therefore, it is a "
@@ -1371,13 +1371,13 @@ msgstr ""
 "pagal numatytuosius nustatymus nėra siūlomas."
 
 #: ../../content/applications/essentials/export_import_data.rst:196
-#, fuzzy
+#,
 msgid ""
 "If this happens, check the :guilabel:`Show fields of relation fields "
 "(advanced) option`, then a complete list of fields becomes available for "
 "each column."
 msgstr ""
-"Jei taip nutinka, pažymėkite :guilabel:`Rodyti ryšių laukų laukus "
+"Jei taip nutinka, pažymėkite :guilabel:`Rodyti ryšio laukų laukus "
 "(išplėstinė parinktis)`, tada kiekvienam stulpeliui tampa prieinamas išsamus "
 "laukų sąrašas."
 
@@ -1385,12 +1385,12 @@ msgid "Searching for the field to match the tax column."
 msgstr "Ieškoma lauko, kuris atitiktų mokesčių stulpelį."
 
 #: ../../content/applications/essentials/export_import_data.rst:204
-#, fuzzy
+#, 
 msgid "Change data import format"
 msgstr "Pakeisti duomenų importo formatą"
 
 #: ../../content/applications/essentials/export_import_data.rst:207
-#, fuzzy
+#, 
 msgid ""
 "Odoo can automatically detect if a column is a date, and tries to guess the "
 "date format from a set of most commonly used date formats. While this "
@@ -1415,7 +1415,7 @@ msgstr ""
 ":guilabel:`Formatavimo` parinktis."
 
 #: ../../content/applications/essentials/export_import_data.rst:216
-#, fuzzy
+#, 
 msgid ""
 "To view which date format Odoo has found from the file, check the "
 ":guilabel:`Date Format` that is shown when clicking on options under the "
@@ -1434,7 +1434,7 @@ msgid ""
 "date format should be `YYYY-MM-DD`. So, in the case of July 24th 1981, it "
 "should be written as `1981-07-24`."
 msgstr ""
-"*ISO 8601* yra tarptautinis standartas, apimantis visame pasaulyje vykdomą "
+"*ISO 8601* yra tarptautinis standartas, apimantis visame pasaulyje vykdomus "
 "datos ir laiko duomenų mainus ir komunikaciją. Pavyzdžiui, datos formatas "
 "turėtų būti `YYYY-MM-DD`. Taigi, kai kalbame apie 1981 m. liepos 24 d., tai "
 "turėtų būti rašoma kaip `1981-07-24`."
@@ -1451,16 +1451,16 @@ msgstr ""
 "*datų langelius* datų saugojimui. Tai išlaiko vietinius datų formatus "
 "rodymui, neatsižvelgiant į tai, kaip data yra suformatuota Odoo. Kai "
 "importuojate :abbr:`CSV` (Kableliais atskirtas reikšmes) failą, naudokite "
-"Odoo :guilabel:`Formatavimo` skyrių norint pasirinkti datos formato "
+"Odoo :guilabel:`Formatavimo` sekciją norint pasirinkti datos formato "
 "stulpelius importavimui."
 
 #: ../../content/applications/essentials/export_import_data.rst:232
-#, fuzzy
+#, 
 msgid "Import numbers with currency signs"
 msgstr "Importuokite skaičius su valiutos ženklais"
 
 #: ../../content/applications/essentials/export_import_data.rst:234
-#, fuzzy
+#, 
 msgid ""
 "Odoo fully supports numbers with parenthesis to represent negative signs, as "
 "well as numbers with currency signs attached to them. Odoo also "
@@ -1468,11 +1468,11 @@ msgid ""
 "currency symbol unknown to Odoo is used, it might not be recognized as a "
 "number, and the import crashes."
 msgstr ""
-"Odoo visiškai palaiko skaičius su skliaustais, kad būtų galima žymėti "
+"Odoo pilnai palaiko skaičius su skliaustais, kad būtų galima žymėti "
 "neigiamus ženklus, taip pat skaičius su pridedamais valiutos ženklais. Odoo "
 "taip pat automatiškai aptinka, kuris tūkstančio/decimalinis skirtukas yra "
 "naudojamas. Jei naudojamas valiutos simbolis, kurio Odoo nepažįsta, jis gali "
-"nebūti atpažintas kaip skaičius ir importavimas nepavyksta."
+"nebūti atpažintas kaip skaičius ir importavimas gali nepavykti."
 
 #: ../../content/applications/essentials/export_import_data.rst:240
 msgid ""
@@ -1485,7 +1485,7 @@ msgstr ""
 "pakeisti \"Tūkstančių skyriklį\"."
 
 #: ../../content/applications/essentials/export_import_data.rst:244
-#, fuzzy
+#,
 msgid ""
 "Examples of supported numbers (using 'thirty-two thousand' as the figure):"
 msgstr ""
@@ -1510,7 +1510,7 @@ msgstr "-32000,00"
 
 #: ../../content/applications/essentials/export_import_data.rst:250
 msgid "(32000.00)"
-msgstr "Aš suprantu. Prašau pateikti man tekstą."
+msgstr "(32000.00)"
 
 #: ../../content/applications/essentials/export_import_data.rst:251
 msgid "$ 32.000,00"
@@ -1543,12 +1543,12 @@ msgstr ""
 "Odoo atpažintų jį kaip neigiamą valiutos vertę."
 
 #: ../../content/applications/essentials/export_import_data.rst:265
-#, fuzzy
+#,
 msgid "Import preview table not displayed correctly"
 msgstr "Importavimo peržiūros lentelė rodoma netinkamai."
 
 #: ../../content/applications/essentials/export_import_data.rst:267
-#, fuzzy
+#,
 msgid ""
 "By default, the import preview is set on commas as field separators, and "
 "quotation marks as text delimiters. If the :abbr:`CSV (Comma-separated "
@@ -1557,33 +1557,33 @@ msgid ""
 ":abbr:`CSV (Comma-separated Values)` file bar after selecting the :abbr:`CSV "
 "(Comma-separated Values)` file)."
 msgstr ""
-"Pagal numatytuosius nustatymus importo peržiūra nustatyta su kableliais kaip "
-"laukų skirtukais ir kabutėmis kaip teksto ribotuvais. Jei :abbr:`CSV "
+"Pagal numatytuosius nustatymus importo peržiūra yra nustatyta naudoti kablelius kaip "
+"laukų skirtukus ir kabutes kaip teksto skirtukus. Jei :abbr:`CSV "
 "(Comma-separated Values)` failas neturi šių nustatymų, pakeiskite "
 ":guilabel:`Formatavimo` parinktis (parodytas po :guilabel:`Importuoti` "
 ":abbr:`CSV (Comma-separated Values)` failo juosta pasirinkus :abbr:`CSV "
 "(Comma-separated Values)` failą)."
 
 #: ../../content/applications/essentials/export_import_data.rst:273
-#, fuzzy
+#, 
 msgid ""
 "If the :abbr:`CSV (Comma-separated Values)` file has a tabulation as a "
 "separator, Odoo does **not** detect the separations. The file format options "
 "need to be modified in the spreadsheet application. See the following "
 ":ref:`Change CSV file format <export_import_data/change-csv>` section."
 msgstr ""
-"Jei :abbr:`CSV (Comma-separated Values)` faile skirtukai naudojami kaip "
-"skyrikliai, Odoo **neaptinka** šių skyrimų. Failo formato nustatymai turi "
+"Jei :abbr:`CSV (Comma-separated Values)` faile lentelės yra naudojamos kaip "
+"skirtukai, Odoo **neaptinka** šių skyrimų. Failo formato nustatymai turi "
 "būti pakeisti skaičiuoklių programoje. Žr. šią :ref:`Keisti CSV failo "
 "formatą <export_import_data/change-csv>` dalį."
 
 #: ../../content/applications/essentials/export_import_data.rst:281
-#, fuzzy
+#,
 msgid "Change CSV file format in spreadsheet application"
-msgstr "Pakeisti CSV failo formatą skaičiuoklės programoje"
+msgstr "Keisti CSV failo formatą skaičiuoklės programoje"
 
 #: ../../content/applications/essentials/export_import_data.rst:283
-#, fuzzy
+#,
 msgid ""
 "When editing and saving :abbr:`CSV (Comma-separated Values)` files in "
 "spreadsheet applications, the computer's regional settings are applied for "
@@ -1596,11 +1596,11 @@ msgstr ""
 "skaičiuoklių programose, kompiuterio regioniniai nustatymai taikomi "
 "skirtukui ir skyrikliui. Odoo siūlo naudoti *OpenOffice* arba *LibreOffice*, "
 "nes abi programos leidžia keisti visus tris nustatymus (iš *LibreOffice* "
-"programos eikite į :menuselection:`'Save As' dialogo langą --> Pažymėkite "
+"programos eikite į :menuselection:`'Išsaugoti kaip' dialogo langą --> Pažymėkite "
 "laukelį 'Redaguoti filtro nustatymus' --> Išsaugoti`)."
 
 #: ../../content/applications/essentials/export_import_data.rst:289
-#, fuzzy
+#,
 msgid ""
 "Microsoft Excel can modify the encoding when saving (:menuselection:`'Save "
 "As' dialog box --> 'Tools' drop-down menu --> Encoding tab`)."
@@ -1610,12 +1610,12 @@ msgstr ""
 "išskleidžiamasis meniu --> Koduotės skirtukas`)."
 
 #: ../../content/applications/essentials/export_import_data.rst:293
-#, fuzzy
+#,
 msgid "Difference between Database ID and External ID"
 msgstr "Skirtumas tarp duomenų bazės ID ir išorinio ID"
 
 #: ../../content/applications/essentials/export_import_data.rst:295
-#, fuzzy
+#,
 msgid ""
 "Some fields define a relationship with another object. For example, the "
 "country of a contact is a link to a record of the 'Country' object. When "
@@ -1634,7 +1634,7 @@ msgstr ""
 "mechanizmas."
 
 #: ../../content/applications/essentials/export_import_data.rst:302
-#, fuzzy
+#,
 msgid ""
 "For example, to reference the country of a contact, Odoo proposes three "
 "different fields to import:"
@@ -1643,21 +1643,21 @@ msgstr ""
 "importavimui:"
 
 #: ../../content/applications/essentials/export_import_data.rst:304
-#, fuzzy
+#,
 msgid ":guilabel:`Country`: the name or code of the country"
 msgstr ":guilabel:`Šalis`: šalies pavadinimas arba kodas"
 
 #: ../../content/applications/essentials/export_import_data.rst:305
-#, fuzzy
+#,
 msgid ""
 ":guilabel:`Country/Database ID`: the unique Odoo ID for a record, defined by "
 "the ID PostgreSQL column"
 msgstr ""
 ":guilabel:`Šalis/DB ID`: unikalus Odoo ID konkrečiam įrašui, nustatytas "
-"pagal PostgreSQL stulpelį ID"
+"pagal PostgreSQL ID stulpelį"
 
 #: ../../content/applications/essentials/export_import_data.rst:307
-#, fuzzy
+#,
 msgid ""
 ":guilabel:`Country/External ID`: the ID of this record referenced in another "
 "application (or the `.XML` file that imported it)"
@@ -1666,7 +1666,7 @@ msgstr ""
 "(arba `.XML` faile, kuris jį importavo)"
 
 #: ../../content/applications/essentials/export_import_data.rst:310
-#, fuzzy
+#,
 msgid ""
 "For the country of Belgium, for example, use one of these three ways to "
 "import:"
@@ -1674,65 +1674,65 @@ msgstr ""
 "Belgijos šaliai, pavyzdžiui, naudokite vieną iš šių trijų būdų importuoti:"
 
 #: ../../content/applications/essentials/export_import_data.rst:312
-#, fuzzy
+#,
 msgid ":guilabel:`Country`: `Belgium`"
 msgstr ":guilabel:`Šalis`: `Belgija`"
 
 #: ../../content/applications/essentials/export_import_data.rst:313
-#, fuzzy
+#,
 msgid ":guilabel:`Country/Database ID`: `21`"
 msgstr ":guilabel:`Šalis/Duomenų bazės ID`: `21`"
 
 #: ../../content/applications/essentials/export_import_data.rst:314
-#, fuzzy
+#,
 msgid ":guilabel:`Country/External ID`: `base.be`"
 msgstr ":guilabel:`Šalis/Išorinis ID`: `base.be`"
 
 #: ../../content/applications/essentials/export_import_data.rst:316
-#, fuzzy
+#,
 msgid ""
 "According to the company's need, use one of these three ways to reference "
 "records in relations. Here is an example when one or the other should be "
 "used, according to the need:"
 msgstr ""
-"Pagal įmonės poreikį naudokite vieną iš trijų būdų nuorodoms įrašams "
+"Pagal įmonės poreikį naudokite vieną iš trijų būdų, kaip nurodyti įrašus "
 "santykiuose. Štai pavyzdys, kada vienas ar kitas būdas turėtų būti "
 "naudojamas, atsižvelgiant į poreikį:"
 
 #: ../../content/applications/essentials/export_import_data.rst:319
-#, fuzzy
+#,
 msgid ""
 "Use :guilabel:`Country`: this is the easiest way when data comes from "
 ":abbr:`CSV (Comma-separated Values)` files that have been created manually."
 msgstr ""
-"Naudokite :guilabel:`Country`: tai yra lengviausias būdas, kai duomenys "
+"Naudokite :guilabel:`Šalis`: tai yra lengviausias būdas, kai duomenys "
 "gaunami iš :abbr:`CSV (Kableliais atskirtos reikšmės)` failų, kurie buvo "
 "sukurti rankiniu būdu."
 
 #: ../../content/applications/essentials/export_import_data.rst:321
-#, fuzzy
+#, 
 msgid ""
 "Use :guilabel:`Country/Database ID`: this should rarely be used. It is "
 "mostly used by developers as the main advantage is to never have conflicts "
 "(there may be several records with the same name, but they always have a "
 "unique Database ID)"
 msgstr ""
-"Naudokite :guilabel:`Šalis/Duomenų bazės ID`: tai turėtų būti naudojama "
+"Naudokite :guilabel:`Šalies/Duomenų bazės ID`: tai turėtų būti naudojama "
 "retai. Tai dažniausiai naudoja kūrėjai, nes pagrindinis pranašumas yra tai, "
 "kad niekada nebūna konfliktų (gali būti keli įrašai tuo pačiu vardu, tačiau "
 "jie visada turi unikalų duomenų bazės ID)."
 
 #: ../../content/applications/essentials/export_import_data.rst:324
-#, fuzzy
+#,
 msgid ""
 "Use :guilabel:`Country/External ID`: use *External ID* when importing data "
 "from a third-party application."
 msgstr ""
-"Naudokite :guilabel:`Šalies/Išorinis ID`: naudokite *Išorinį ID* "
+"Naudokite :guilabel:`Šalies/Išorinį ID`: naudokite *Išorinį ID* "
 "importuodami duomenis iš trečiosios šalies taikomosios programos."
 
 #: ../../content/applications/essentials/export_import_data.rst:327
-#, fuzzy
+#,
 msgid ""
 "When *External IDs* are used, import :abbr:`CSV (Comma-separated Values)` "
 "files with the :guilabel:`External ID` (ID) column defining the *External "
@@ -1744,35 +1744,35 @@ msgstr ""
 "Kai naudojami *Išoriniai ID*, importuokite :abbr:`CSV (Comma-separated "
 "Values)` failus su skiltimi :guilabel:`Išorinis ID` (ID), apibrėžiančia "
 "kiekvieno importuoto įrašo *Išorinį ID*. Tada galima atlikti nuorodą į tą "
-"įrašą su skiltimis, kaip antai `Laukas/Išorinis ID`. Toliau pateikiami du "
+"įrašą su skiltimis, kaip `Laukas/Išorinis ID`. Toliau pateikiami du "
 ":abbr:`CSV (Comma-separated Values)` failai, kurie yra produktų ir jų "
 "kategorijų pavyzdžiai."
 
 #: ../../content/applications/essentials/export_import_data.rst:332
-#, fuzzy
+#,
 msgid ""
 ":download:`CSV file for categories "
 "<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
 msgstr ""
-":parsisiųsti:`CSV failą su kategorijomis "
+":parsisiųsti:`CSV failą kategorijoms "
 "<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:334
-#, fuzzy
+#,
 msgid ""
 ":download:`CSV file for Products "
 "<export_import_data/External_id_3rd_party_application_products.csv>`"
 msgstr ""
-":parsisiųsti:`CSV failas produktams "
+":parsisiųsti:`CSV failą produktams "
 "<export_import_data/External_id_3rd_party_application_products.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:340
-#, fuzzy
+#,
 msgid "Import relation fields"
 msgstr "Importuokite ryšių laukus"
 
 #: ../../content/applications/essentials/export_import_data.rst:342
-#, fuzzy
+#,
 msgid ""
 "An Odoo object is always related to many other objects (e.g. a product is "
 "linked to product categories, attributes, vendors, etc.). To import those "
@@ -1785,7 +1785,7 @@ msgstr ""
 "objekto įrašai iš jų nuosavo sąrašo meniu."
 
 #: ../../content/applications/essentials/export_import_data.rst:346
-#, fuzzy
+#,
 msgid ""
 "This can be achieved by using either the name of the related record, or its "
 "ID, depending on the circumstances. The ID is expected when two records have "
@@ -1798,12 +1798,12 @@ msgstr ""
 "\"/ ID\" (pvz., produktų savybėms: \"Produkto Savybės / Savybė / ID\")."
 
 #: ../../content/applications/essentials/export_import_data.rst:351
-#, fuzzy
+#,
 msgid "Options for multiple matches on fields"
 msgstr "Pasirinkimai keliems atitikmenims pagal laukus"
 
 #: ../../content/applications/essentials/export_import_data.rst:353
-#, fuzzy
+#,
 msgid ""
 "If, for example, there are two product categories with the child name "
 "`Sellable` (e.g. `Misc. Products/Sellable` & `Other Products/Sellable`), the "
@@ -1813,7 +1813,7 @@ msgid ""
 "Products/Sellable`). Odoo, instead, recommends modifying one of the "
 "duplicate's values, or the product category hierarchy."
 msgstr ""
-"Pavyzdžiui, jei yra dvi produktų kategorijos su vaiko pavadinimu `Sellable` "
+"Pavyzdžiui, jei yra dvi produktų kategorijos su vaikiniu pavadinimu `Sellable` "
 "(pvz., `Misc. Products/Sellable` ir `Other Products/Sellable`), tikrinimas "
 "sustabdomas, tačiau duomenys vis tiek gali būti importuoti. Vis dėlto, Odoo "
 "rekomenduoja neimportuoti duomenų, nes visi jie bus susieti su pirmąja "
@@ -1822,7 +1822,7 @@ msgstr ""
 "pasikartojančių reikšmių arba produktų kategorijų hierarchiją."
 
 #: ../../content/applications/essentials/export_import_data.rst:360
-#, fuzzy
+#,
 msgid ""
 "However, if the company does not wish to change the configuration of product "
 "categories, Odoo recommends making use of the *External ID* for this field, "
@@ -1832,12 +1832,12 @@ msgstr ""
 "rekomenduoja naudoti šio lauko *Išorinį ID*, 'Kategorija'."
 
 #: ../../content/applications/essentials/export_import_data.rst:364
-#, fuzzy
+#,
 msgid "Import many2many relationship fields"
 msgstr "Importuokite many2many santykių laukus"
 
 #: ../../content/applications/essentials/export_import_data.rst:366
-#, fuzzy
+#,
 msgid ""
 "The tags should be separated by a comma, without any spacing. For example, "
 "if a customer needs to be linked to both tags: `Manufacturer` and `Retailer` "
@@ -1846,7 +1846,7 @@ msgid ""
 msgstr ""
 "Žymos turėtų būti atskirtos kableliu, be tarpų. Pavyzdžiui, jei klientas "
 "turi būti susietas su abiem žymomis: `Gamintojas` ir `Mažmenininkas`, tada "
-"'Gamintojas,Mažmenininkas' turi būti užkoduotas toje pačioje stulpelyje "
+"'Gamintojas,Mažmenininkas' turi būti užkoduotas tame pačiame stulpelyje "
 ":abbr:`CSV (Kableliais atskirtos reikšmės)` faile."
 
 #: ../../content/applications/essentials/export_import_data.rst:370
@@ -1859,10 +1859,10 @@ msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:373
 msgid "Import one2many relationships"
-msgstr "Importuoti vienas-daug santykius"
+msgstr "Importuoti one2many santykius"
 
 #: ../../content/applications/essentials/export_import_data.rst:375
-#, fuzzy
+#,
 msgid ""
 "If a company wants to import a sales order with several order lines, a "
 "specific row **must** be reserved in the :abbr:`CSV (Comma-separated "
@@ -1871,11 +1871,11 @@ msgid ""
 "additional row that does not have any information in the fields relative to "
 "the order."
 msgstr ""
-"Jei įmonė nori importuoti pardavimo užsakymą su keliomis užsakymo eilutėmis, "
+"Jei įmonė nori importuoti pardavimo užsakymą su keliais užsakymo įrašais, "
 "**privalo** būti skirta konkreti eilutė :abbr:`CSV (Comma-separated Values)` "
-"faile kiekvienai užsakymo eilutei. Pirma užsakymo eilutė importuojama toje "
-"pačioje eilutėje kaip ir su užsakymu susijusi informacija. Bet kokios "
-"papildomos eilutės reikalauja papildomos eilutės, kurioje nėra jokios "
+"faile kiekvienam užsakymo įrašui. Pirmas užsakymo įrašas importuojamas toje "
+"pačioje eilutėje kaip ir kita su užsakymu susijusi informacija. Bet kokie "
+"papildomi rašai reikalauja papildomos eilutės, kurioje nėra jokios "
 "informacijos užsakymui skirtuose laukuose."
 
 #: ../../content/applications/essentials/export_import_data.rst:380
@@ -1888,16 +1888,16 @@ msgstr ""
 "duomenimis:"
 
 #: ../../content/applications/essentials/export_import_data.rst:383
-#, fuzzy
+#,
 msgid ""
 ":download:`File for some Quotations "
 "<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`"
 msgstr ""
-":download:`Failas kai kurių Citatos "
+":download:`Failas kai kurioms Citatoms "
 "<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:386
-#, fuzzy
+#,
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "purchase orders with their respective purchase order lines:"
@@ -1906,16 +1906,16 @@ msgstr ""
 "pirkimo užsakymus su atitinkamomis pirkimo užsakymo eilutėmis:"
 
 #: ../../content/applications/essentials/export_import_data.rst:389
-#, fuzzy
+#,
 msgid ""
 ":download:`Purchase orders with their respective purchase order lines "
 "<export_import_data/o2m_purchase_order_lines.csv>`"
 msgstr ""
-":parsisiųsti:`Užsakymo užskaitos su atitinkamomis užsakymo eilutėmis "
+":parsisiųsti:`Užsakymai su atitinkamomis užsakymo eilutėmis "
 "<export_import_data/o2m_purchase_order_lines.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:392
-#, fuzzy
+#,
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "customers and their respective contacts:"
@@ -1924,7 +1924,7 @@ msgstr ""
 "importuoti klientus ir jų atitinkamus kontaktus:"
 
 #: ../../content/applications/essentials/export_import_data.rst:395
-#, fuzzy
+#,
 msgid ""
 ":download:`Customers and their respective contacts "
 "<export_import_data/o2m_customers_contacts.csv>`"
@@ -1937,7 +1937,7 @@ msgid "Import records several times"
 msgstr "Importuokite įrašus kelis kartus"
 
 #: ../../content/applications/essentials/export_import_data.rst:401
-#, fuzzy
+#,
 msgid ""
 "If an imported file contains one of the columns: :guilabel:`External ID` or "
 ":guilabel:`Database ID`, records that have already been imported are "
@@ -1957,11 +1957,11 @@ msgid ""
 "Odoo takes care of creating or modifying each record, depending if it is new "
 "or not."
 msgstr ""
-"Odoo pasirūpina kiekvieno įrašo kūrimu arba keitimu, atsižvelgdamas į tai, "
+"Odoo pasirūpina kiekvieno įrašo kūrimu arba keitimu, atsižvelgdama į tai, "
 "ar jis yra naujas, ar ne."
 
 #: ../../content/applications/essentials/export_import_data.rst:408
-#, fuzzy
+#,
 msgid ""
 "This feature allows a company to use the *Import/Export tool* in Odoo to "
 "modify a batch of records in a spreadsheet application."
@@ -1970,12 +1970,12 @@ msgstr ""
 "tam, kad būtų galima modifikuoti keletą įrašų skaičiuoklės programoje."
 
 #: ../../content/applications/essentials/export_import_data.rst:412
-#, fuzzy
+#,
 msgid "Value not provided for a specific field"
 msgstr "Vertė nenurodyta konkrečiam laukui"
 
 #: ../../content/applications/essentials/export_import_data.rst:414
-#, fuzzy
+#,
 msgid ""
 "If all fields are not set in the CSV file, Odoo assigns the default value "
 "for every non-defined field. But, if fields are set with empty values in the "
@@ -1988,14 +1988,14 @@ msgstr ""
 "vertę laukelyje, vietoj numatytosios vertės priskyrimo."
 
 #: ../../content/applications/essentials/export_import_data.rst:419
-#, fuzzy
+#,
 msgid "Export/import different tables from an SQL application to Odoo"
 msgstr ""
-"Eksportuoti/importuoti skirtingas lenteles iš SQL taikomosios programos į "
+"Eksportuoti/importuoti skirtingas lenteles iš SQL programos į "
 "Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:421
-#, fuzzy
+#,
 msgid ""
 "If data needs to be imported from different tables, relations need to be "
 "recreated between records belonging to different tables. For instance, if "
@@ -2008,7 +2008,7 @@ msgstr ""
 "ir įmonės, kurioje jis dirba."
 
 #: ../../content/applications/essentials/export_import_data.rst:425
-#, fuzzy
+#,
 msgid ""
 "To manage relations between tables, use the `External ID` facilities of "
 "Odoo. The `External ID` of a record is the unique identifier of this record "
@@ -2017,14 +2017,14 @@ msgid ""
 "name of the application or table. (like, 'company_1', 'person_1' - instead "
 "of '1')"
 msgstr ""
-"Norint valdyti lentelių santykius, naudokite `External ID` funkcijas Odoo. "
-"Įrašo `External ID` yra unikalus šio įrašo identifikatorius kitoje "
-"programoje. `External ID` turi būti unikalus visiems visų objektų įrašams. "
-"Geras įprotis yra prieš šį `External ID` pridėti programos arba lentelės "
-"pavadinimą (pvz., 'company_1', 'person_1' vietoje '1')."
+"Norint valdyti lentelių santykius, naudokite `Išorinio ID` funkcijas Odoo. "
+"Įrašo `Išorinis ID` yra unikalus šio įrašo identifikatorius kitoje "
+"programoje. `Išorinis ID` turi būti unikalus visiems visų objektų įrašams. "
+"Geras įprotis yra prieš šį `Išrotinį ID` pridėti programos arba lentelės "
+"pavadinimą (pvz., 'įmonė_1', 'žmogus_1' vietoje '1')."
 
 #: ../../content/applications/essentials/export_import_data.rst:430
-#, fuzzy
+#,
 msgid ""
 "As an example, suppose there is an SQL database with two tables that are to "
 "be imported: companies and people. Each person belongs to one company, so "
@@ -2044,7 +2044,7 @@ msgstr ""
 "<export_import_data/database_import_test.sql>`."
 
 #: ../../content/applications/essentials/export_import_data.rst:437
-#, fuzzy
+#,
 msgid ""
 "First, export all companies and their *External ID*. In PSQL, write the "
 "following command:"
@@ -2053,7 +2053,7 @@ msgstr ""
 "šią komandą:"
 
 #: ../../content/applications/essentials/export_import_data.rst:443
-#, fuzzy
+#,
 msgid ""
 "This SQL command creates the following :abbr:`CSV (Comma-separated Values)` "
 "file:"
@@ -2061,7 +2061,7 @@ msgstr ""
 "Ši SQL komanda sukuria šį :abbr:`CSV (kableliais atskirtų reikšmių)` failą:"
 
 #: ../../content/applications/essentials/export_import_data.rst:452
-#, fuzzy
+#,
 msgid ""
 "To create the :abbr:`CSV (Comma-separated Values)` file for people linked to "
 "companies, use the following SQL command in PSQL:"
@@ -2070,12 +2070,12 @@ msgstr ""
 "susietiems su įmonėmis, naudokite šią SQL komandą PSQL:"
 
 #: ../../content/applications/essentials/export_import_data.rst:459
-#, fuzzy
+#,
 msgid "It produces the following :abbr:`CSV (Comma-separated Values)` file:"
 msgstr "Jis sugeneruoja :abbr:`CSV (Comma-separated Values)` failą:"
 
 #: ../../content/applications/essentials/export_import_data.rst:469
-#, fuzzy
+#,
 msgid ""
 "In this file, Fabien and Laurence are working for the Bigees company "
 "(`company_1`), and Eric is working for the Organi company. The relation "
@@ -2088,10 +2088,10 @@ msgstr ""
 "dirba Organi įmonėje. Ryšys tarp žmonių ir įmonių vykdomas naudojant įmonių "
 "*Išorinį ID*. *Išorinis ID* yra pateikiamas su lentelės pavadinimu, kad būtų "
 "išvengta ID konflikto tarp žmonių ir įmonių (`person_1` ir `company_1`, "
-"kurie dalinosi tą patį ID 1 originalioje duomenų bazėje)."
+"kurie dalinosi tuo pačiu ID 1 originalioje duomenų bazėje)."
 
 #: ../../content/applications/essentials/export_import_data.rst:475
-#, fuzzy
+#,
 msgid ""
 "The two files produced are ready to be imported in Odoo without any "
 "modifications. After having imported these two :abbr:`CSV (Comma-separated "
@@ -2100,15 +2100,15 @@ msgid ""
 "companies, and then the people."
 msgstr ""
 "Abu gauti failai yra paruošti importuoti į Odoo be jokių pakeitimų. Po šių "
-"dviejų CSV (kableliais atskirtos vertės) failų įkėlimo, sistemoje bus keturi "
+"dviejų CSV failų įkėlimo, sistemoje bus keturi "
 "kontaktai ir trys įmonės (pirmieji du kontaktai bus susieti su pirmąja "
 "įmone). Atminkite, kad pirmiausia reikia importuoti įmones, o tik tada "
 "žmones."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:3
-#, fuzzy
+#,
 msgid "In-app purchases (IAP)"
-msgstr "Pirkimai programėlėje (IAP)"
+msgstr "Pirkimai programėlėje (In-app purchases)"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:7
 msgid ""
