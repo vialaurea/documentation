@@ -2108,7 +2108,7 @@ msgstr ""
 #: ../../content/applications/essentials/in_app_purchase.rst:3
 #,
 msgid "In-app purchases (IAP)"
-msgstr "Pirkimai programėlėje (In-app purchases)"
+msgstr "Pirkimai programėlėje (IAP)"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:7
 msgid ""
@@ -2117,8 +2117,8 @@ msgid ""
 "list of services is available on the `Odoo IAP Catalog "
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
-"Programėlės viduje atliekami pirkimai (IAP) yra pasirenkamos paslaugos, "
-"kurios pagerina Odoo duomenų bazes. Kiekviena paslauga suteikia savo "
+"Pirkimai programėlėje (in-app purchases arba IAP) yra pasirenkamos paslaugos, "
+"kurios pagerina Odoo duomenų bazę. Kiekviena paslauga suteikia savo "
 "specifines funkcijas ir galimybes. Visą paslaugų sąrašą galite rasti `Odoo "
 "IAP kataloge <https://iap.odoo.com/iap/all-in-app-services>`_."
 
@@ -2133,7 +2133,7 @@ msgid ""
 "recognition (OCR) and artificial intelligence (AI)."
 msgstr ""
 "Paslauga :guilabel:`SMS` siunčia trumpąsias žinutes kontaktams tiesiai iš "
-"duomenų bazės, o paslauga :guilabel:`Skaitmeninimas` skaitmenina nuskaitytas "
+"duomenų bazės, o paslauga :guilabel:`Dokumentų Skaitmeninimas` skaitmenina nuskaitytas "
 "arba PDF formato tiekėjų sąskaitas, išlaidas ir gyvenimo aprašymus, "
 "naudodama optinį simbolių atpažinimą (OCR) ir dirbtinį intelektą (DI)."
 
@@ -2144,7 +2144,7 @@ msgid ""
 "each service requires its own prepaid credits, and when they run out, users "
 "**must** :ref:`buy more <iap/buying_credits>` in order to keep using it."
 msgstr ""
-"| IAP | paslaugos **nereikia** konfigūruoti ar nustatyti prieš naudojimą. "
+"| IAP | paslaugų **nereikia** konfigūruoti ar nustatyti prieš naudojimą. "
 "Odoo vartotojai gali paprasčiausiai spustelėti paslaugą programėlėje, kad ją "
 "suaktyvintų. Tačiau kiekvienai paslaugai reikalingi jos pačios išankstiniai "
 "kreditai, ir kai jie išsenka, vartotojai **turi** :ref:`įsigyti daugiau "
@@ -2157,10 +2157,10 @@ msgid ""
 "includes demo/training databases, educational databases, and one-app-free "
 "databases."
 msgstr ""
-"Įmonės „Odoo“ naudotojai, turintys galiojančią prenumeratą, gauna nemokamus "
+"Odoo Enterprise naudotojai, turintys galiojančią prenumeratą, gauna nemokamus "
 "kreditus IAP funkcijų išbandymui prieš nusprendžiant pirkti daugiau kreditų "
-"duomenų bazei. Tai apima demonstracines/mokymo duomenų bazes, mokymo duomenų "
-"bazes ir vienos programėlės nemokamas duomenų bazes."
+"duomenų bazei. Tai apima demonstracines/mokymų duomenų bazes, edukacines duomenų "
+"bazes ir vienos nemokamos programėlės duomenų bazes."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:32
 msgid "IAP services"
@@ -2171,13 +2171,13 @@ msgid ""
 "|IAP| services are provided by Odoo, as well as third-parties, and have a "
 "wide range of uses."
 msgstr ""
-"IAP paslaugas teikia Odoo ir trečiosios šalys, jos turi platų naudojimo "
+"IAP paslaugas teikia Odoo ir trečiosios šalys. Jos turi platų naudojimo "
 "spektrą."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:36
-#, fuzzy
+#,
 msgid "The following |IAP| services are offered by Odoo:"
-msgstr "Toliau pateiktas Odoo siūlomas |IAP| paslaugas:"
+msgstr "Toliau pateiktos Odoo siūlomas |IAP| paslaugos:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:38
 msgid ""
@@ -2185,7 +2185,7 @@ msgid ""
 "expenses, and resumes with OCR and AI."
 msgstr ""
 ":guilabel:`Dokumentų skaitmeninimas`: skaitmenina nuskenuotus arba PDF "
-"formatų tiekėjų sąskaitas, išlaidas ir gyvenimo aprašymus naudodamas OCR ir "
+"formatų tiekėjų sąskaitas, išlaidas ir gyvenimo aprašymus (CV) naudodamas OCR ir "
 "dirbtinį intelektą."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:40
@@ -2208,9 +2208,9 @@ msgid ""
 ":guilabel:`Lead Generation`: generates leads based on a set of criteria, and "
 "converts web visitors into quality leads and opportunities."
 msgstr ""
-":guilabel:`Potencialių klientų generavimas`: generuoja potencialius klientus "
-"pagal nustatytus kriterijus ir paverčia tinklalapio lankytojus kokybiškais "
-"klientais ir galimybėmis."
+":guilabel:`Iniciatyvų generavimas`: generuoja potencialius klientus "
+"pagal nustatytus kriterijus ir paverčia tinklalapio lankytojus kokybiškomis "
+"iniciatyvomis ir galimybėmis."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:44
 msgid ""
@@ -2226,12 +2226,12 @@ msgid ""
 "Odoo *Sign* to provide their identity using the *itsme®* identity platform, "
 "which is available in Belgium and the Netherlands."
 msgstr ""
-":guilabel:`Pasirašytojo identifikacija naudojant itsme®️`: paprašykite "
-"dokumentų pasirašytojų Odoo *Sign* pateikti savo tapatybę naudojant *itsme®* "
+":guilabel:`Pasirašančiojo asmens identifikacija naudojant itsme®️`: paprašykite "
+"asmens, pasirašančiojo dokumentą, Odoo *Sign* pateikti savo tapatybę naudojant *itsme®* "
 "tapatybės platformą, kuri yra prieinama Belgijoje ir Nyderlanduose."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:49
-#, fuzzy
+#,
 msgid ""
 "For more information on every service currently available (offered from "
 "developers other than Odoo), visit the `Odoo IAP Catalog "
@@ -2252,7 +2252,7 @@ msgid ""
 "with it wherever it appears in the database."
 msgstr ""
 "|IAP| paslaugos automatiškai integruojamos su Odoo ir **nereikalauja** "
-"naudotojų nustatyti bet kokių nustatymų. Norėdami naudotis paslauga, tiesiog "
+"naudotojų nustatyti jokių nustatymų. Norėdami naudotis paslauga, tiesiog "
 "sąveikaukite su ja, kur tik ji pasirodo duomenų bazėje."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:59
@@ -2260,11 +2260,11 @@ msgid ""
 "The following flow focuses on the *SMS* |IAP| service being used from a "
 "contact's record."
 msgstr ""
-"Tolesnis srautas sutelkiamas į *SMS* |IAP| paslaugos naudojimą iš kontakto "
+"Šis pavyzdys parodys *SMS* |IAP| paslaugos naudojimą iš kontakto "
 "įrašo."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:61
-#, fuzzy
+#,
 msgid ""
 "This can be done by clicking the :guilabel:`📱 SMS` icon within the database."
 msgstr ""
@@ -2286,7 +2286,7 @@ msgstr ""
 "šiuose žingsniuose:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:69
-#, fuzzy
+#,
 msgid ""
 "First, navigate to the :menuselection:`Contacts application`, and click on a "
 "contact with a mobile phone number entered in either the :guilabel:`Phone` "
@@ -2298,7 +2298,7 @@ msgstr ""
 "kontaktinėje formoje."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:73
-#, fuzzy
+#,
 msgid ""
 "Next, find the :guilabel:`📱 SMS` icon that appears to the right of the "
 ":guilabel:`Phone` or :guilabel:`Mobile` fields. Click the :guilabel:`📱 SMS` "
@@ -2310,7 +2310,7 @@ msgstr ""
 "SMS žinutę`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:77
-#, fuzzy
+#,
 msgid ""
 "Type a message in the :guilabel:`Message` field of the pop-up window. Then, "
 "click the :guilabel:`Send SMS` button. Odoo then sends the message, via SMS, "
@@ -2344,12 +2344,12 @@ msgstr ""
 "Odoo, peržiūrėkite toliau pateiktą dokumentaciją:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:89
-#, fuzzy
+#,
 msgid ":doc:`Lead mining <../sales/crm/acquire_leads/lead_mining>`"
-msgstr ":doc:`Švino gavyba <../sales/crm/acquire_leads/lead_mining>`"
+msgstr ":doc:`Iniciatyvų kūrimas <../sales/crm/acquire_leads/lead_mining>`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:90
-#, fuzzy
+#,
 msgid ""
 ":doc:`Enrich your contacts base with Partner Autocomplete "
 "<../sales/crm/optimize/partner_autocomplete>`"
@@ -2358,7 +2358,7 @@ msgstr ""
 "užbaigimo funkcija <../sales/crm/optimize/partner_autocomplete>`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:92
-#, fuzzy
+#,
 msgid ""
 ":doc:`SMS essentials <../marketing/sms_marketing/essentials/sms_essentials>`"
 msgstr ""
@@ -2386,7 +2386,7 @@ msgid ""
 "<https://iap.odoo.com/iap/all-in-app-services>`_, and pricing is specific to "
 "each service."
 msgstr ""
-"Kreditai perkami *Pakuotėmis* iš `Odoo IAP katalogo "
+"Kreditai perkami *Paketais* iš `Odoo IAP katalogo "
 "<https://iap.odoo.com/iap/all-in-app-services>`, o kainos priklauso nuo "
 "konkrečios paslaugos."
 
@@ -2395,8 +2395,8 @@ msgid ""
 "The `SMS service <https://iap.odoo.com/iap/in-app-services/1>`_ has four "
 "packs available, in denominations of:"
 msgstr ""
-"`SMS paslauga <https://iap.odoo.com/iap/in-app-services/1>`_ turi keturias "
-"siuntas, denominacijomis:"
+"`SMS paslauga <https://iap.odoo.com/iap/in-app-services/1>`_ turi keturis galimus "
+"paketus:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:110
 msgid ":guilabel:`Starter Pack`: 10 credits"
@@ -2408,7 +2408,7 @@ msgstr ":guilabel:`Standartinis paketas`: 100 kreditų"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:112
 msgid ":guilabel:`Advanced Pack`: 500 credits"
-msgstr ":guilabel:`Pažangi Pakuotė`: 500 kreditų"
+msgstr ":guilabel:`Pažangus Paketas`: 500 kreditų"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:113
 msgid ":guilabel:`Expert Pack`: 1,000 credits"
@@ -2425,7 +2425,7 @@ msgstr ""
 "Kreditų kiekis priklauso nuo SMS ilgio ir šalies, į kurią siunčiama žinutė."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:121
-#, fuzzy
+#,
 msgid ""
 "For more information, refer to the :doc:`SMS Pricing and FAQ "
 "<../marketing/sms_marketing/pricing/pricing_and_faq>` documentation."
@@ -2446,20 +2446,20 @@ msgstr ""
 "įsigyti daugiau kreditų."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:132
-#, fuzzy
+#,
 msgid ""
 "Users can check the current balance of credits for each service, and "
 "manually purchase more credits, by navigating to the "
 ":menuselection:`Settings app --> Contacts section`, and beneath the "
 ":guilabel:`Odoo IAP` setting, click :guilabel:`View My Services`."
 msgstr ""
-"Vartotojai gali patikrinti dabartinį kredito balansą kiekvienai paslaugai ir "
+"Vartotojai gali patikrinti dabartinį kreditų balansą kiekvienai paslaugai ir "
 "rankiniu būdu įsigyti daugiau kreditų, naviguodami į "
 ":menuselection:`Nustatymai --> Kontaktai`, o po :guilabel:`Odoo IAP` "
 "nustatymu, spustelėkite :guilabel:`Peržiūrėti mano paslaugas`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:136
-#, fuzzy
+#,
 msgid ""
 "Doing so reveals an :guilabel:`IAP Service` page, listing the various |IAP| "
 "services in the database. From here, click an |IAP| service to open its "
@@ -2507,13 +2507,13 @@ msgid ""
 ":guilabel:`Account Information` page, where additional credits can be "
 "purchased."
 msgstr ""
-"Tai atskleidžia :guilabel:`IAP Account` puslapį, kuriame pateikiamos "
+"Tai atskleidžia :guilabel:`IAP Paskyra` puslapį, kuriame pateikiamos "
 "įvairios |IAP| paslaugos duomenų bazėje. Iš čia spustelėkite ant |IAP| "
-"paslaugos, kad atidarytumėte jos :guilabel:`Account Information` puslapį, "
+"paslaugos, kad atidarytumėte jos :guilabel:`Paskyros Informacijos` puslapį, "
 "kur galima įsigyti papildomų kreditų."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:158
-#, fuzzy
+#,
 msgid ""
 "On the :guilabel:`Account Information` page, click the :guilabel:`Buy "
 "Credit` button. Doing so loads a :guilabel:`Buy Credits for (IAP Account)` "
@@ -2521,9 +2521,9 @@ msgid ""
 "credits. Then, follow the prompts to enter payment details, and confirm the "
 "order."
 msgstr ""
-":mechanismo:`Account Information` puslapyje spustelėkite :mechanismo:`Buy "
-"Credit` mygtuką. Tai atvers :mechanismo:`Buy Credits for (IAP Account)` "
-"puslapį naujame skirtuke. Iš čia spustelėkite :mechanismo:`Buy` prie norimo "
+":guilabel:`Paskyros Informacijos` puslapyje spustelėkite :guilabel:`Pirkti "
+"Kreditus` mygtuką. Tai atvers :guilabel:`Pirkti Kreditus (IAP Paskyrai)` "
+"puslapį naujame skirtuke. Iš čia spustelėkite :guilabel:`Pirkti` prie norimo "
 "kreditų paketo. Tada sekite nurodymus įvedant mokėjimo duomenis ir "
 "patvirtinkite užsakymą."
 
@@ -2543,7 +2543,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/in_app_purchase.rst:172
 msgid "Low-credit notification"
-msgstr "Pranešimas apie žemą kreditą"
+msgstr "Pranešimas apie žemą kreditų kiekį"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:174
 msgid ""
@@ -2570,30 +2570,30 @@ msgid ""
 "Account` page. From here, click on the desired |IAP| account to view that "
 "service's :guilabel:`Account Information` page."
 msgstr ""
-"Galimi |IAP| paskyrų sąrašai rodomi sąrašo vaizde :guilabel:`IAP Account` "
+"Galimi |IAP| paskyrų sąrašai rodomi sąrašo vaizde :guilabel:`IAP Paskyros` "
 "puslapyje. Čia spustelėkite norimą |IAP| paskyrą, kad peržiūrėtumėte tos "
-"paslaugos :guilabel:`Account Information` puslapį."
+"paslaugos :guilabel:`Paskyros Informacija` puslapį."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:184
-#, fuzzy
+#,
 msgid ""
 "On the :guilabel:`Account Information` page, tick the :guilabel:`Warn Me` "
 "checkbox. Doing so reveals two fields on the form: :guilabel:`Threshold` and "
 ":guilabel:`Warning Email`."
 msgstr ""
-"Puslapyje :guilabel:`Paskyros informacija` pažymėkite langelį "
-":guilabel:`Įspėti mane`. Tai atskleis dvi laukus formoje: "
-":guilabel:`Slenkstis` ir :guilabel:`Įspėjimo el. paštas`."
+"Puslapyje :guilabel:`Paskyros Informacija` pažymėkite langelį "
+":guilabel:`Įspėti mane`. Tai atskleis du laukus formoje: "
+":guilabel:`Riba` ir :guilabel:`Įspėjimo el. paštas`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:187
-#, fuzzy
+#, 
 msgid ""
 "In the :guilabel:`Threshold` field, enter an amount of credits Odoo should "
 "use as the minimum threshold for this service. In the :guilabel:`Warning "
 "Email` field, enter the email address that receives the notification."
 msgstr ""
-"Lauke :guilabel:`Slenkstis` įveskite kreditų kiekį, kurį Odoo turėtų naudoti "
-"kaip minimalų šios paslaugos slenkstį. Lauke :guilabel:`Įspėjimo el. paštas` "
+"Lauke :guilabel:`Riba` įveskite kreditų kiekį, kurį Odoo turėtų naudoti "
+"kaip minimalų šios paslaugos kreditų skaičių. Lauke :guilabel:`Įspėjimo el. paštas` "
 "įveskite el. pašto adresą, kuris gaus pranešimą."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:191
@@ -2602,7 +2602,7 @@ msgid ""
 "balance of credits falls below the amount listed as the "
 ":guilabel:`Threshold`."
 msgstr ""
-"Kai kreditų likutis nukrenta žemiau nurodyto :guilabel:`Ribinės vertės`, "
+"Kai kreditų likutis nukrenta žemiau nurodytos :guilabel:`Ribinės vertės`, "
 "Odoo siunčia mažo kredito įspėjimą į :guilabel:`Įspėjimo el. laišką`."
 
 #: ../../content/applications/essentials/reporting.rst:3
