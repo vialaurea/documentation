@@ -5835,15 +5835,15 @@ msgstr "**DDP**: Pristatytas su muitu sumokėtu"
 
 #: ../../content/applications/finance/accounting/customer_invoices/incoterms.rst:28
 msgid ":doc:`../reporting/intrastat`"
-msgstr ":dok:`../pranešimai/intrastatas`"
+msgstr ":doc:`../reporting/intrastat`"
 
 #: ../../content/applications/finance/accounting/customer_invoices/incoterms.rst:29
 msgid ":doc:`../customer_invoices`"
-msgstr ":doc:`../klientų_sąskaitos_faktūros`"
+msgstr ":doc:`../customer_invoices`"
 
 #: ../../content/applications/finance/accounting/customer_invoices/incoterms.rst:30
 msgid ":doc:`../vendor_bills`"
-msgstr ":dok:`../vendor_bills`"
+msgstr ":doc:`../vendor_bills`"
 
 #: ../../content/applications/finance/accounting/customer_invoices/incoterms.rst:35
 msgid "Define an Incoterm"
@@ -6018,8 +6018,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/customer_invoices/overview.rst:61
 msgid ":doc:`/applications/sales/sales/invoicing/invoicing_policy`"
-msgstr ""
-":dok:`/paraiškos/pardavimai/pardavimai/sąskaitų_rašymas/sąskaitų_rašymo_politika`"
+msgstr ":doc:`/applications/sales/sales/invoicing/invoicing_policy`"
 
 #: ../../content/applications/finance/accounting/customer_invoices/overview.rst:64
 msgid "eCommerce Order ‣ Invoice"
