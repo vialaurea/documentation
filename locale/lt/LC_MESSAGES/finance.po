@@ -78,7 +78,7 @@ msgstr ":doc:`Sąskaitų Vedinės Špargalka <accounting/get_started/cheat_sheet
 
 #: ../../content/applications/finance/accounting.rst:70
 msgid "Accrual and cash basis"
-msgstr "Kaupimo ir pinigų pagrindas"
+msgstr "Kaupimo ir grynųjų pinigų pagrindimas"
 
 #: ../../content/applications/finance/accounting.rst:72
 msgid ""
@@ -88,7 +88,7 @@ msgid ""
 msgstr ""
 "Odoo palaiko tiek kaupimo, tiek pinigų apskaitos metodus. Tai leidžia "
 "pranešti apie pajamas ir išlaidas arba tada, kai įvyksta sandoris (kaupimo "
-"metodas), arba tada, kai mokėjimas yra atliktas arba gautas (pinigų metodas)."
+"metodas), arba tada, kai mokėjimas yra atliktas arba gautas (grynieji)."
 
 #: ../../content/applications/finance/accounting.rst:77
 msgid ":doc:`Cash basis <accounting/taxes/cash_basis>`"
