@@ -1968,7 +1968,7 @@ msgstr ":doc:`email_marketing/analizuoti_dydžius`"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:3
 msgid "Analyze metrics"
-msgstr "Analizuoti metrikas"
+msgstr "Analizuokite metrikas"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:7
 msgid ""
@@ -1980,8 +1980,8 @@ msgid ""
 "campaigns."
 msgstr ""
 "Norint tinkamai suprasti el. pašto rinkodaros kampanijos sėkmę ar nesėkmę, "
-"būtina stebėti kelis pagrindinius rodiklius. Gauta įžvalga iš šių rodiklių "
-"gali būti naudojama būsimiems kampanijoms optimizuoti. Odoo *El. pašto "
+"būtina stebėti kelis pagrindinius rodiklius. Gautos įžvalgos iš šių rodiklių "
+"gali būti naudojamos būsimoms kampanijoms optimizuoti. Odoo *El. pašto "
 "rinkodaros* programa seka kelis :ref:`pagrindinius rodiklius "
 "<email-marketing/key-metrics>`, kuriuos galima interpretuoti, siekiant "
 "patobulinti būsimas kampanijas."
@@ -2006,7 +2006,7 @@ msgid ""
 "buttons."
 msgstr ""
 "Norėdami pasiekti individualaus laiško rodiklius, eikite į "
-":menuselection:`El. pašto rinkodaros programa --> Laiškai`. Sąrašo vaizde "
+":menuselection:`El. pašto rinkodaros programą --> Laiškų siuntimai`. Sąrašo vaizde "
 "raskite konkretų laišką ir naudokite stulpelių antraštes, kad peržiūrėtumėte "
 "to laiško rezultatus. Paspauskite vieną iš sąraše esančių laiškų, kad "
 "atidarytumėte įrašą. Įrašo viršuje rodomi išsamūs rodikliai, kaip išmanieji "
@@ -2024,14 +2024,14 @@ msgstr ""
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:33
 msgid "Opened rate"
-msgstr "Atidarymo rodiklis"
+msgstr "Atidarymų rodiklis"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:35
 msgid ""
 "The *Opened* rate measures the percentage of emails opened by recipients "
 "against the total number of sent emails."
 msgstr ""
-"*Atidarytų* rodiklis matuoja procentą el. laiškų, kuriuos gavėjai atidarė, "
+"*Atidarytų laiškų* rodiklis matuoja procentą el. laiškų, kuriuos gavėjai atidarė, "
 "palyginus su bendru išsiųstų el. laiškų skaičiumi."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:38
@@ -2039,8 +2039,8 @@ msgid ""
 "A high open rate may indicate that the subject line was timely, compelling, "
 "and successfully prompted the recipients to view the message."
 msgstr ""
-"Didelis atidarymo rodiklis gali reikšti, kad temos eilutė buvo laiku, "
-"patraukli ir sėkmingai paskatino gavėjus peržiūrėti žinutę."
+"Didelis atidarymo rodiklis gali reikšti, kad temos eilutė buvo laiku išsiųsta, "
+"patraukli ir sėkmingai paskatino gavėjus peržiūrėti Jūsų žinutę."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:41
 msgid ""
@@ -2057,14 +2057,14 @@ msgstr ""
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:46
 msgid "Replied rate"
-msgstr "Atsakymo dažnis"
+msgstr "Atsakymų rodiklis"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:48
 msgid ""
 "The *Replied* rate measures the percentage of recipients who responded to "
 "the email directly against the total number of sent emails."
 msgstr ""
-"Atsakymo rodiklis matuoja procentinę dalį gavėjų, atsakiusių į el. laišką "
+"Atsakymų rodiklis matuoja procentinę dalį gavėjų, atsakiusių į el. laišką "
 "tiesiogiai, palyginti su visų išsiųstų el. laiškų skaičiumi."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:51
@@ -2080,12 +2080,12 @@ msgid ""
 "A low replied rate may suggest that the message lacked relevance or did not "
 "contain a clear call to action."
 msgstr ""
-"Mažas atsakymų rodiklis gali reikšti, kad žinutė buvo nesusijusi arba "
+"Mažas atsakymų rodiklis gali reikšti, kad žinutė gavėjui buvo neaktuali arba "
 "neturėjo aiškaus kvietimo veikti."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:58
 msgid "Clicked rate"
-msgstr "Paspaudimo rodiklis"
+msgstr "Paspaudimų rodiklis"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:60
 msgid ""
@@ -2101,9 +2101,9 @@ msgid ""
 "targeted. Recipients were motivated to click the links provided, and likely "
 "found the content engaging."
 msgstr ""
-"Aukštas |CTR| gali reikšti, kad el. pašto turinys buvo tinkamas ir tinkamai "
-"nukreiptas. Gavėjai buvo motyvuoti paspausti nuorodas, ir tikriausiai rado "
-"turinį įdomų."
+"Aukštas |CTR| gali reikšti, kad el. pašto turinys buvo aktualus ir tinkamai "
+"nukreiptas į susidomėjusius asmenis. Gavėjai buvo motyvuoti paspausti nuorodas ir, tikriausiai, "
+"laiško turinys jiems pasirodė įdomus."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:66
 msgid ""
@@ -2112,20 +2112,20 @@ msgid ""
 "there were any, or the message itself may have been directed toward the "
 "wrong audience."
 msgstr ""
-"Žemas |CTR| gali reikšti kylančias problemas tiek dėl taikymo, tiek dėl "
-"pačios turinio kokybės. Gavėjai gali būti nesužavėti raginimais veikti, jei "
-"tokių buvo, arba pati žinutė gali būti nukreipta į netinkamą auditoriją."
+"Žemas |CTR| gali reikšti kylančias problemas tiek dėl gavėjų pasirinkimo, tiek dėl "
+"pačios turinio kokybės. Gavėjai galėjo būti nesužavėti raginimais veikti, jei "
+"tokių buvo, arba pati žinutė galbūt buvo nukreipta į netinkamą auditoriją."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:71
 msgid "Received rate"
-msgstr "Gauta norma"
+msgstr "Gautų laiškų rodiklis"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:73
 msgid ""
 "The *Received* rate measures the percentage of emails that were successfully "
 "delivered against the total number of sent emails."
 msgstr ""
-"*Gauta* norma matuoja el. laiškų, kurie buvo sėkmingai pristatyti, "
+"*Gautų laiškų* rodiklis matuoja sėkmingai pristatytų el. laiškų "
 "procentinę dalį nuo viso išsiųstų el. laiškų skaičiaus."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:76
@@ -2133,8 +2133,8 @@ msgid ""
 "A high received rate can indicate that the mailing list used is up to date "
 "and the sender authentication is trusted by email providers."
 msgstr ""
-"Didelis pristatymo rodiklis gali rodyti, kad naudojamas pašto sąrašas yra "
-"atnaujintas, o siuntėjo autentifikavimui pasitiki el. pašto teikėjai."
+"Didelis pristatymų rodiklis gali rodyti, kad naudojamas pašto sąrašas yra "
+"atnaujintas, bei el. pašto tiekėjai pasitiki siuntėjo autentifikavimu."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:79
 msgid ""
@@ -2142,20 +2142,20 @@ msgid ""
 "for the mailing or with the sender authentication. View the "
 ":ref:`email-marketing/deliverability-issues` section for more information."
 msgstr ""
-"Mažas gautų laiškų rodiklis gali rodyti problemas arba su naudotu pašto "
+"Mažas gautų laiškų rodiklis gali reiškti problemas arba su naudotu pašto "
 "sąrašu, arba su siuntėjo autentifikavimu. Daugiau informacijos rasite "
 "skyriuje :ref:`email-marketing/deliverability-issues`."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:84
 msgid "Bounced rate"
-msgstr "Atsisakymo rodiklis"
+msgstr "Atsisakymų rodiklis (bounce rate)"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:86
 msgid ""
 "The *Bounced* rate measures the percentage of emails that were "
 "unsuccessfully delivered, against the total number of sent emails."
 msgstr ""
-"\"Atsisakymo\" rodiklis matuoja nesėkmingai pristatytų el. laiškų procentinę "
+"\"atsisakymų\" rodiklis matuoja nesėkmingai pristatytų el. laiškų procentinę "
 "dalį, palyginti su bendra išsiųstų el. laiškų suma."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:89
@@ -2172,14 +2172,14 @@ msgid ""
 "the sender authentication is trusted by email providers. View the "
 ":ref:`email-marketing/deliverability-issues` section for more information."
 msgstr ""
-"Mažas atmetimo rodiklis gali reikšti, kad naudotas pašto adresų sąrašas yra "
+"Mažas atmetimo rodiklis gali reikšti, kad pasirinktas pašto adresatų sąrašas yra "
 "atnaujintas, o siuntėjo autentifikacija yra patikima el. pašto paslaugų "
 "teikėjams. Daugiau informacijos rasite "
 ":ref:`email-marketing/deliverability-issues` skyriuje."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:99
 msgid "Deliverability issues"
-msgstr "Pristatymo problemos"
+msgstr "Pristatymų problemos"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:101
 msgid ""
@@ -2194,9 +2194,9 @@ msgid ""
 "malformed email addresses are likely to result in a high bounce rate and/or "
 "a low received rate."
 msgstr ""
-"Naudojant pašto sąrašą, kuriame yra pasenusi kontaktinė informacija arba "
-"neteisingai suformuotos el. pašto adresai, tikėtina, kad pasieksite aukštą "
-"atmetimo rodiklį ir (arba) žemą gavimo rodiklį."
+"Naudojant el. pašto adresatų sąrašą, kuriame yra pasenusi kontaktinė informacija arba "
+"neteisingai suformuoti el. pašto adresai, tikėtina, kad gausite aukštą "
+"atmetimų rodiklį ir / arba žemą gavimų rodiklį."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:105
 msgid ""
@@ -2204,8 +2204,8 @@ msgid ""
 "domain are likely to bounce with certain email providers due to failing "
 ":ref:`DMARC authentication <email_communication/DMARC_compliant>`."
 msgstr ""
-"Laiškai, siunčiami naudojant *Nuo* el. pašto adresą, kuris skiriasi nuo "
-"siuntėjo domeno, gali būti atšaukti tam tikrų el. pašto paslaugų teikėjų dėl "
+"Laiškai, siunčiami naudojant pasirinktą *Nuo* el. pašto adresą, kuris skiriasi nuo "
+"nustatyto siuntėjo domeno, gali būti atšaukti tam tikrų el. pašto paslaugų teikėjų dėl "
 "nepavykusios :ref:`DMARC autentifikacijos "
 "<email_communication/DMARC_compliant>`."
 
@@ -2217,7 +2217,7 @@ msgid ""
 msgstr ""
 "Nepavykus :doc:`nustatyti tinkamus DNS įrašus "
 "<../../general/email_communication/email_domain>`, taip pat gali atsirasti "
-"didelis grąžinimų rodiklis."
+"didelis atsisakymų rodiklis."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:112
 msgid ":ref:`Mailing campaigns <email_marketing/mailing-campaigns>`"
