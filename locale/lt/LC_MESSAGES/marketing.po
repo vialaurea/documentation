@@ -1277,8 +1277,8 @@ msgid ""
 ":guilabel:`Quotations`: the mailing with the most quotations generated is "
 "determined to be the \"winning\" version."
 msgstr ""
-":guilabel:`Citatos`: pašto siunta, kurioje sugeneruojama daugiausiai citatų, "
-"laikoma \"laimėjusiu\" variantu."
+":guilabel:`Pasiūlymai`: El. laiškas, kuriame sugeneruojama daugiausiai pasiūlymų, "
+"laikomas \"laimėjusiu\" variantu."
 
 #: ../../content/applications/marketing/email_marketing.rst:521
 msgid ""
