@@ -2991,7 +2991,7 @@ msgid ""
 ":guilabel:`Bounced`: percentage of emails that bounced (:dfn:`not "
 "delivered`)."
 msgstr ""
-":guilabel:`Atšokę (Bounced)`: procentas atšokusių el. laiškų (`nepristatyta`)."
+":guilabel:`Atmesti (Bounced)`: procentas atmestų el. laiškų (`nepristatyta`)."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:309
 msgid ""
@@ -6690,7 +6690,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:3
 msgid "Campaign workflow activities"
-msgstr "Kampanijos darbo eigos veiklos"
+msgstr "Kampanijos darbų eigos veiklos"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:5
 msgid ""
@@ -6699,9 +6699,9 @@ msgid ""
 "workflow can be made up of any number of :ref:`activities "
 "<marketing_automation/activities>` to meet the needs of the campaign."
 msgstr ""
-"*Darbo eiga* yra bendra veiklos struktūra rinkodaros automatizavimo "
-"kampanijoje. Kiekvienoje kampanijoje gali būti tik viena darbo eiga. Tačiau "
-"darbo eiga gali būti sudaryta iš bet kokio skaičiaus :ref:`veiklų "
+"*Darbų eiga* (angl. *workflow*) yra bendra veiklos struktūra rinkodaros automatizacijos "
+"kampanijoje. Kiekvienoje kampanijoje gali būti tik viena darbų eiga. Tačiau, "
+"darbų eiga gali būti sudaryta iš bet kokio skaičiaus :ref:`veiklų "
 "<marketing_automation/activities>`, kad atitiktų kampanijos poreikius."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:13
@@ -6714,8 +6714,8 @@ msgid ""
 ":ref:`trigger type <marketing_automation/trigger-type>` of **Mail: not "
 "opened**."
 msgstr ""
-"Darbo eigos seka iš trijų veiklų; paskutiniame vaikiniame veikloje yra "
-":ref:`trigerio tipas <marketing_automation/trigger-type>` **Paštas: "
+"Darbų eigos seka iš trijų veiklų; paskutinėje dukterinėje veikloje yra "
+":ref:`trigerio tipas <marketing_automation/trigger-type>` **el. laiškas: "
 "neatidarytas**."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:21
@@ -6724,8 +6724,8 @@ msgid ""
 "a workflow, that are executed within a campaign; they are the building "
 "blocks of the campaign's workflow."
 msgstr ""
-"Veiklos yra komunikacijos ar serverio veiksmų metodai, organizuojami darbo "
-"procesuose, kurie vykdomi kampanijos metu; jie yra kampanijos darbo proceso "
+"Veiklos yra komunikacijos ar serverio veiksmų metodai, planuojami darbų "
+"eigoje, kurie vykdomi kampanijos metu; jie yra kampanijos darbų eigos "
 "pagrindiniai elementai."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:24
@@ -6737,12 +6737,12 @@ msgid ""
 "new activity` button in the :guilabel:`Workflow` section. Doing so opens the "
 ":guilabel:`Create Activities` pop-up window."
 msgstr ""
-"Naują veiklą galima pridėti prie kampanijos formos darbo eigos, pasirenkant "
+"Naują veiklą galima pridėti prie darbų eigos kampanijos formoje, pasirenkant "
 "esamą kampaniją arba :ref:`sukuriant naują kampaniją "
-"<marketing_automation/campaigns>` iš :menuselection:`Marketing Automation "
-"app --> Campaigns` valdymo skydelio, tada paspaudžiant :guilabel:`Pridėti "
-"naują veiklą` mygtuką :guilabel:`Darbo eiga` skiltyje. Tai atidaro "
-":guilabel:`Sukurti veiklas` iškylančią langą."
+"<marketing_automation/campaigns>` iš :menuselection:`Rinkodaros Automatizacijos "
+"programėlės --> Kampanijos` valdymo skydelio, tada paspaudžiant :guilabel:`Pridėti "
+"naują veiklą` mygtuką :guilabel:`Darbų eigos` skiltyje. Tai atidaro "
+":guilabel:`Sukurti veiklas` iškylantį langą."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:29
 msgid ""
@@ -6751,10 +6751,10 @@ msgid ""
 "<marketing_automation/activity-types>` to be executed from the "
 ":guilabel:`Activity Type` field."
 msgstr ""
-"Pirmiausia lauke :guilabel:`Activity Name` (veiklos pavadinimas) nurodykite "
+"Pirmiausia lauke :guilabel:`Veiklos pavadinimas` nurodykite "
 "veiklos pavadinimą ir pasirinkite vykdytinos veiklos tipą (:ref:`type of "
 "activity <marketing_automation/activity-types>`) iš lauko "
-":guilabel:`Activity Type` (veiklos tipas)."
+":guilabel:`Veiklos tipas`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:33
 msgid ""
@@ -6763,9 +6763,9 @@ msgid ""
 "<marketing_automation/expiry-duration>` and the :ref:`DOMAIN "
 "<marketing_automation/activity-domain>` of the activity."
 msgstr ""
-"Tada sukonfigūruokite veiklos :ref:`Sukėlėjas "
+"Tada, sukonfigūruokite veiklos :ref:`Trigerį (iššaukimą) "
 "<marketing_automation/trigger>`, ir, jei pageidaujama, :ref:`Pasibaigimo "
-"trukmė <marketing_automation/expiry-duration>` bei veiklos :ref:`SRITIS "
+"trukmę <marketing_automation/expiry-duration>` bei veiklos :ref:`DOMENĄ "
 "<marketing_automation/activity-domain>`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:37
@@ -6776,12 +6776,12 @@ msgid ""
 "window to add another activity. Clicking :guilabel:`Discard` closes the "
 "pop-up window without saving the activity."
 msgstr ""
-"Kai veikla bus visiškai sukonfigūruota, spustelėkite :guilabel:`Save & "
-"Close`, kad pridėtumėte ją prie kampanijos darbo eigos, arba spustelėkite "
-":guilabel:`Save & New`, kad pridėtumėte veiklą prie darbo eigos ir "
-"atidarytumėte naują iššokančią langą :guilabel:`Create Activities`, norėdami "
-"pridėti kitą veiklą. Spustelėjus :guilabel:`Discard`, iššokantis langas "
-"užsidaro nesaugant veiklos."
+"Kai veikla pilnai sukonfigūruota, spustelėkite :guilabel:`Išsaugoti ir "
+"Uždaryti`, kad pridėtumėte ją prie kampanijos darbų eigos, arba spustelėkite "
+":guilabel:`Išsaugoti ir Kurti Naują`, kad pridėtumėte veiklą prie darbų eigos ir "
+"atidarytumėte naują iššokantį langą :guilabel:`Kurti Veiklas`, norėdami "
+"pridėti kitą veiklą. Spustelėjus :guilabel:`Atmesti`, iššokantis langas "
+"užsidaro neišsaugodamas veiklos."
 
 msgid "The create activities pop-up window."
 msgstr "Sukurti veiklos iššokantįjį langą."
@@ -6794,7 +6794,7 @@ msgstr "Veiklos tipai"
 msgid ""
 "There are three different types of activities available in the *Marketing "
 "Automation* app:"
-msgstr "Programėlėje *Marketing Automation* yra trys skirtingi veiklų tipai:"
+msgstr "Programėlėje *Rinkodaros Automatizacija* yra trys skirtingi veiklų tipai:"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:63
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:288
@@ -6808,7 +6808,7 @@ msgid ""
 "is available."
 msgstr ""
 "Jei :guilabel:`El. paštas` yra pasirinktas kaip :guilabel:`Veiklos tipas`, "
-"galimybė :guilabel:`Pasirinkti šabloną` lauke :guilabel:`El. pašto šablonas` "
+"galimybė :guilabel:`Pasirinkti šabloną` lauke :guilabel:`Laiško šablonas` "
 "yra prieinama."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:68
@@ -6818,10 +6818,10 @@ msgid ""
 "and edit...` to reveal a :guilabel:`Create Marketing Template` pop-up "
 "window. Proceed to create and configure the new email template."
 msgstr ""
-"Norėdami sukurti naują šabloną tiesiogiai iš :guilabel:`Pašto šablonas` "
+"Norėdami sukurti naują šabloną tiesiogiai iš :guilabel:`Laiško šablonas` "
 "lauko, pradėkite rašyti naujo šablono pavadinimą, tada pasirinkite "
 ":guilabel:`Kurti ir redaguoti...`, kad atidarytumėte :guilabel:`Kurti "
-"rinkodaros šabloną` iššokantį langą. Tęskite kurti ir konfigūruoti naują el. "
+"laiško šabloną` iššokantį langą. Tęskite, kurdami ir konfigūruodami naują el. "
 "pašto šabloną."
 
 msgid ""
@@ -6838,10 +6838,10 @@ msgid ""
 "window, in order to continue to configure the :ref:`trigger "
 "<marketing_automation/trigger>`."
 msgstr ""
-"Kai tik el. pašto šablonas yra sukonfigūruotas, spustelėkite :guilabel:`Save "
-"& Close`, kad išsaugotumėte veiklą, ir grįžtumėte į :guilabel:`Create "
-"Activities` iššokančią langą, tam, kad galėtumėte toliau konfigūruoti "
-":ref:`trigger <marketing_automation/trigger>`."
+"Kai tik el. pašto šablonas yra sukonfigūruotas, spustelėkite :guilabel:`Išsaugoti "
+"ir Uždaryti`, kad išsaugotumėte veiklą, ir grįžtumėte į :guilabel:`Kurti "
+"Veiklas` langą, tam, kad galėtumėte toliau konfigūruoti "
+":ref:`veiklos trigerius (iššaukėjus) <marketing_automation/trigger>`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:81
 msgid ""
@@ -6849,14 +6849,14 @@ msgid ""
 "other mail template titles in the campaign, and it also serves as the "
 "subject of the email."
 msgstr ""
-"Pavadinimas, naudojamas :guilabel:`Pašto šablonui`, **turi būti** unikalus "
-"tarp visų kitų pašto šablonų pavadinimų kampanijoje ir taip pat veikia kaip "
+"Pavadinimas, naudojamas :guilabel:`laiško šablonui`, **privalo būti** unikalus "
+"tarp visų kitų pašto šablonų pavadinimų kampanijoje. Jis taip pat veikia kaip "
 "el. laiško tema."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:85
 msgid ":doc:`Creating and configuring email templates <../email_marketing>`"
 msgstr ""
-":dokumentas:`Elektroninio pašto šablonų kūrimas ir konfigūravimas "
+":doc:`Elektroninio pašto šablonų kūrimas ir konfigūravimas "
 "<../email_marketing>`"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:90
@@ -6874,9 +6874,9 @@ msgid ""
 msgstr ""
 "Jei pasirenkamas :guilabel:`Serverio Veiksmas` kaip :guilabel:`Veiklos "
 "Tipas`, lauke :guilabel:`Serverio Veiksmas` galima pasirinkti "
-":guilabel:`Pasirinkti Serverio Veiksmą`. Šis laukas yra iškrentantis meniu, "
-"kuriame yra visi iš anksto sukonfigūruoti serverio veiksmai kampanijos "
-":guilabel:`Tikslinio` modelio. Pasirinktinai, :ref:`sukurti naują serverio "
+":guilabel:`Pasirinkti Serverio Veiksmą`. Šis laukas yra išskleidžiamasis meniu, "
+"kuriame yra visi iš anksto sukonfigūruoti serverio veiksmai pagal kampanijos "
+":guilabel:`Tikslo` modelį. Taip pat galima ir :ref:`sukurti naują serverio "
 "veiksmą <marketing_automation/create-sa>`."
 
 msgid "The Server Action drop-down menu on create activities pop-up window."
@@ -6890,10 +6890,10 @@ msgid ""
 "activity, and return to the :guilabel:`Create Activities` pop-up window, in "
 "order to configure the :ref:`trigger <marketing_automation/trigger>`."
 msgstr ""
-"Pasirinkus iš anksto sukonfigūruotą serverio veiksmą, kitos veiklos rūšies "
-"konfigūravimo nereikia. Spustelėkite :guilabel:`Išsaugoti ir uždaryti`, kad "
+"Pasirinkus iš anksto sukonfigūruotą serverio veiksmą, jokio kito veiklos tipo "
+"konfigūravimo nebereikia. Spustelėkite :guilabel:`Išsaugoti ir uždaryti`, kad "
 "išsaugotumėte veiklą ir grįžtumėte į :guilabel:`Sukurti veiklas` "
-"iškylančiąją langą, norėdami sukonfigūruoti :ref:`trigerį "
+"langą, norėdami sukonfigūruoti :ref:`veiklos trigerį (iššaukimą) "
 "<marketing_automation/trigger>`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:107
@@ -6918,10 +6918,10 @@ msgid ""
 ":guilabel:`Create Server Action` pop-up window, wherein a custom server "
 "action can be created and configured."
 msgstr ""
-"Galima ir galimybė sukurti naują serverio veiksmą. Norėdami tai padaryti, "
-"įveskite pasirinkto serverio veiksmo pavadinimą į lauką :guilabel:`Server "
-"Action`, tada spustelėkite :guilabel:`Create and edit...`. Tai atvers tuščią "
-":guilabel:`Create Server Action` iššokantį langą, kuriame galima sukurti ir "
+"Egzistuoja ir galimybė sukurti naują serverio veiksmą. Norėdami tai padaryti, "
+"įveskite pasirinkto serverio veiksmo pavadinimą į lauką :guilabel:`Serverio "
+"Veiksmas`, tada spustelėkite :guilabel:`Kurti ir redaguoti...`. Tai atvers tuščią "
+":guilabel:`Kurti Serverio Veiksmą` langą, kuriame galima sukurti ir "
 "sukonfigūruoti pasirinktinį serverio veiksmą."
 
 msgid "The Create Server Action pop-up window."
@@ -6933,7 +6933,7 @@ msgid ""
 ":guilabel:`Type` of server action. The configuration fields change, "
 "depending on the selected :guilabel:`Type`:"
 msgstr ""
-"Atsiradusiame :guilabel:`Sukurti serverio veiksmą` iššokančiame lange "
+"Atsiradusiame :guilabel:`Kurti serverio veiksmą` lange, "
 "pasirinkite serverio veiksmo :guilabel:`Tipą`. Konfigūravimo laukai pasikeis "
 "priklausomai nuo pasirinkto :guilabel:`Tipo`:"
 
@@ -6943,7 +6943,7 @@ msgstr ":guilabel:`Atnaujinti Įrašą`: atnaujinti įrašo reikšmes."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:128
 msgid ":guilabel:`Create Activity`: create an activity with the *Discuss* app."
-msgstr ":guilabel:`Sukurti veiklą`: sukurkite veiklą su *Diskusijų* programa."
+msgstr ":guilabel:`Sukurti veiklą`: sukurkite veiklą su *Diskusijos* programa."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:129
 msgid ""
@@ -6951,7 +6951,7 @@ msgid ""
 "*Discuss* app."
 msgstr ""
 ":guilabel:`Siųsti el. laišką`: paskelbkite žinutę, pastabą arba siųskite el. "
-"laišką su „Aptarimo“ programa."
+"laišką su *Diskusijos* programa."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:130
 msgid ""
@@ -6990,7 +6990,7 @@ msgid ""
 ":guilabel:`Execute Existing Actions`: define an action that triggers several "
 "other server actions."
 msgstr ""
-":guilabel:`Vykdyti esamas veiksmus`: apibrėžkite veiksmą, kuris suaktyvina "
+":guilabel:`Vykdyti esamus veiksmus`: apibrėžkite veiksmą, kuris suaktyvina "
 "kelis kitus serverio veiksmus."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:139
@@ -7000,8 +7000,8 @@ msgid ""
 "in order to configure the :ref:`trigger <marketing_automation/trigger>`."
 msgstr ""
 "Kai serverio veiksmas yra sukonfigūruotas, spustelėkite :guilabel:`Išsaugoti "
-"ir Uždaryti`, kad išsaugotumėte veiklą ir grįžtumėte į :guilabel:`Sukurti "
-"Veiklas` iššokantįjį langą, kad galėtumėte sukonfigūruoti :ref:`paleidiklį "
+"ir Uždaryti`, kad išsaugotumėte veiklą ir grįžtumėte į :guilabel:`Kurti "
+"Veiklas` iššokantįjį langą tam, kad galėtumėte sukonfigūruoti :ref:`Veiklos Trigerį (iššaukimą) "
 "<marketing_automation/trigger>`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:144
@@ -7011,7 +7011,7 @@ msgid ""
 ":guilabel:`Allowed Groups` that can execute this server action."
 msgstr ""
 "Kai :ref:`developer-mode` yra aktyvuotas, kai kurie serverio veiksmų tipai "
-"turi pažangius konfigūravimus, pavyzdžiui, galimybę nurodyti "
+"turi pažangias konfigūravimo galimybes, pavyzdžiui, galimybę nurodyti "
 ":guilabel:`Leidžiamas Grupes`, kurios gali vykdyti šį serverio veiksmą."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:151
@@ -7038,8 +7038,8 @@ msgid ""
 msgstr ""
 "Norėdami sukurti naują šabloną tiesiogiai iš :guilabel:`SMS šablonas` lauko, "
 "pradėkite rašyti naujo šablono pavadinimą ir pasirinkite :guilabel:`Sukurti "
-"ir redaguoti...`, kad būtų atverta :guilabel:`Sukurti rinkodaros šabloną` "
-"iššokanti langą. Tęskite naujo SMS šablono kūrimą ir konfigūraciją."
+"ir redaguoti...`, kad atsivertų :guilabel:`Sukurti rinkodaros šabloną` "
+"iššokantis langas. Tęskite naujo SMS šablono kūrimą ir konfigūraciją."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:164
 msgid ""
@@ -7047,9 +7047,9 @@ msgid ""
 "the activity, and return to the :guilabel:`Create Activities` pop-up window, "
 "in order to configure the :ref:`trigger <marketing_automation/trigger>`."
 msgstr ""
-"Kai SMS šablonas bus sukonfigūruotas, paspauskite :guilabel:`Save & Close`, "
-"kad išsaugotumėte veiklą ir grįžtumėte į :guilabel:`Create Activities` "
-"iššokantį langą, kad galėtumėte sukonfigūruoti :ref:`trigger "
+"Kai SMS šablonas bus sukonfigūruotas, paspauskite :guilabel:`Išsaugoti ir uždaryti`, "
+"kad išsaugotumėte veiklą ir grįžtumėte į :guilabel:`Kurti veiklas` "
+"langą, kad galėtumėte sukonfigūruoti :ref:`Veiklos trigerį (iššaukimą) "
 "<marketing_automation/trigger>`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:169
@@ -7062,7 +7062,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:174
 msgid "Trigger"
-msgstr "Sukelti"
+msgstr "Trigeris (iššaukimas)"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:176
 msgid ""
@@ -7074,7 +7074,7 @@ msgstr ""
 "Kai :ref:`veiklos tipas <marketing_automation/activity-types>` yra "
 "sukonfigūruotas, kitas žingsnis :guilabel:`Sukurti veiklas` iššokančiame "
 "lange yra nustatyti, kada veikla turėtų būti vykdoma. Tai atliekama "
-":guilabel:`Trigerio` laukų grupėje."
+":guilabel:`Iššaukimas` lauke."
 
 msgid "The trigger field group on Create Activities pop-up window."
 msgstr "Lauko grupė „Trigeris“ iššokančiame lange „Kurti veiklas“."
@@ -7086,7 +7086,7 @@ msgid ""
 "*interval number* input (e.g. `2` is valid, `0` is also valid, and `1.5` is "
 "not)."
 msgstr ""
-"Norėdami nustatyti veiklos vykdymo vėlavimą nuo tada, kai įvyksta "
+"Norėdami pavėlinti veiklos vykdymą po to, kai įvyksta "
 ":ref:`trigerio tipas <marketing_automation/trigger-type>`, įveskite sveikąjį "
 "skaičių į *intervalo skaičiaus* laukelį (pvz., `2` yra teisingas, `0` taip "
 "pat teisingas, tačiau `1,5` neteisingas)."
@@ -7098,7 +7098,7 @@ msgid ""
 ":guilabel:`Weeks`, and :guilabel:`Months`."
 msgstr ""
 "Tada pasirinkite laiko vienetą intervalui iš *intervalų tipas* "
-"išskleidžiamojo meniu, pasirinkimai yra: :guilabel:`Valandos`, "
+"išskleidžiamojo meniu. Pasirinkimai yra: :guilabel:`Valandos`, "
 ":guilabel:`Dienos`, :guilabel:`Savaitės` ir :guilabel:`Mėnesiai`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:192
@@ -7109,20 +7109,20 @@ msgid ""
 "Queue Manager cron <email_communication/email-sent-late>`)."
 msgstr ""
 "Jei intervalo numeris nustatytas į `0` ir intervalo tipas nustatytas į "
-":guilabel:`Valandos`, veikla bus vykdoma iškart po trigerio tipo atsiradimo "
-"(kitu suplanuotu :ref:`Paštas: Elektroninio pašto eilės tvarkyklės cron "
+":guilabel:`Valandos`, veikla bus vykdoma iškart po trigerio (iššaukėjo) atsiradimo "
+"(kitu suplanuotu :ref:`Paštas: El. pašto eilės tvarkyklės "
 "<email_communication/email-sent-late>` vykdymu)."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:199
 msgid "Trigger type"
-msgstr "Sukelėjas tipas"
+msgstr "Trigerių tipai"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:201
 msgid ""
 "To define the event occurrence that sets the activity into motion, select a "
 "*trigger type* from the drop-down menu:"
 msgstr ""
-"Norėdami apibrėžti įvykio atsiradimą, kuris pradeda veiklą, pasirinkite "
+"Norėdami apibrėžti įvykio atsiradimą, kuris iššaukia norimą veiklą, pasirinkite "
 "*trigerio tipą* iš išskleidžiamojo meniu:"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:204
@@ -7130,7 +7130,7 @@ msgid ""
 ":guilabel:`beginning of workflow`: the activity is executed when the "
 "campaign is started."
 msgstr ""
-":guilabel:`darbo eigos pradžia`: veikla vykdoma, kai prasideda kampanija."
+":guilabel:`darbų eigos pradžia`: veikla vykdoma, kai prasideda kampanija."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:206
 msgid ""
@@ -7140,11 +7140,11 @@ msgid ""
 "<marketing_automation/child-activities>` to be executed directly after the "
 "selected :guilabel:`Activity`:"
 msgstr ""
-"Visi kiti trigerių tipai atskleidžia išskleidžiamąjį meniu "
+"Visi kiti trigerių tipai atidaro išskleidžiamąjį "
 ":guilabel:`Veikla` laukelį, kuriame yra visos kitos kampanijos veiklos. "
-"Pasirinkus vieną iš šių tipų, ši veikla paverčiama :ref:`vaiko veikla "
+"Pasirinkus vieną iš šių tipų, ši veikla paverčiama :ref:`dukterine veikla "
 "<marketing_automation/child-activities>`, kuri vykdoma iškart po "
-"pasirinktosios :guilabel:`Veikla`."
+"pasirinktosios :guilabel:`Veiklos`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:211
 msgid ""
@@ -7155,66 +7155,64 @@ msgstr ":guilabel:`kita veikla`: vykdoma po kitos veiklos kampanijoje."
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:212
 msgid ""
 ":guilabel:`Mail: opened`: the activity's email was opened by the participant."
-msgstr ":guilabel:`Laiškas: atidarytas`: dalyvis atidarė veiklos el. laišką."
+msgstr ":guilabel:`Laiškas: atidarytas`: kai dalyvis atidarė veiklos el. laišką."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:213
 msgid ""
 ":guilabel:`Mail: not opened`: the activity's email was **not** opened by the "
 "participant."
 msgstr ""
-":guilabel:`Paštas: neatidarytas`: dalyvis **neatidarė** veiklos el. laiško."
+":guilabel:`Paštas: neatidarytas`: kai dalyvis **neatidarė** veiklos el. laiško."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:214
 msgid ""
 ":guilabel:`Mail: replied`: the activity's email was replied to by the "
 "participant."
-msgstr ":guilabel:`Paštas: atsakyta`: dalyvis atsakė į veiklos el. laišką."
+msgstr ":guilabel:`Paštas: atsakyta`: kai dalyvis atsakė į veiklos el. laišką."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:215
 msgid ""
 ":guilabel:`Mail: not replied`: the activity's email was **not** replied to "
 "by the participant."
 msgstr ""
-":guilabel:`Paštas: neatsakyta`: veiklos el. laiškas **nebuvo** atsakytas "
-"dalyvio."
+":guilabel:`Paštas: neatsakyta`: kai dalyvis **neatsakė** į veiklos el. laišką."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:216
 msgid ""
 ":guilabel:`Mail: clicked`: a link in the activity's email was clicked by the "
 "participant."
 msgstr ""
-":guilabel:`Pastas: paspausta`: dalyvis paspaudė nuorodą veiklos el. laiške."
+":guilabel:`Pastas: paspausta`: kai dalyvis paspaudė nuorodą veiklos el. laiške."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:217
 msgid ""
 ":guilabel:`Mail: not clicked`: a link in the activity's email was **not** "
 "clicked by the participant."
 msgstr ""
-":guilabel:`Paštas: nepaspausta`: dalyvis **nepaspaudė** nuorodos laiške apie "
-"veiklą."
+":guilabel:`Paštas: nepaspausta`: kai dalyvis **nepaspaudė** nuorodos veiklos el. laiške."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:219
 msgid ":guilabel:`Mail: bounced`: the activity's email has bounced."
-msgstr ":guilabel:`Paštas: atšokęs`: veiklos el. laiškas atšoko."
+msgstr ":guilabel:`Paštas: atmestas (bounced)`: kai dalyvis nesusidomėjo veiklos el. laišku."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:220
 msgid ""
 ":guilabel:`SMS: clicked`: a link in the activity's SMS was clicked by the "
 "participant."
 msgstr ""
-":guilabel:`SMS: paspausta`: dalyvis paspaudė SMS žinutėje esančią nuorodą."
+":guilabel:`SMS: paspausta`: kai dalyvis paspaudė SMS žinutėje esančią nuorodą."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:221
 msgid ""
 ":guilabel:`SMS: not clicked`: a link in the activity's SMS was **not** "
 "clicked by the participant."
 msgstr ""
-":guilabel:`SMS: nepaspausta`: nuoroda veiklos SMS žinutėje **nebuvo** "
+":guilabel:`SMS: nepaspausta`: kai nuoroda veiklos SMS žinutėje **nebuvo** "
 "paspausta dalyvio."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:222
 msgid ":guilabel:`SMS: bounced`: the activity's SMS has bounced."
-msgstr ":guilabel:`SMS: atšokusi`: veiklos SMS buvo atšokusi."
+msgstr ":guilabel:`SMS: atmesta (bounced)`: kai dalyvus nesusidomėjo veiklos SMS."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:225
 msgid ""
@@ -7223,8 +7221,8 @@ msgid ""
 "and will execute **after** a participant clicks on a link from the parent "
 "activity defined in the :guilabel:`Activity` field."
 msgstr ""
-"Jei paleidimo tipas yra nustatytas į :guilabel:`Paštas: spustelėta`, ši "
-"veikla bus konvertuota į :ref:`vaikinę veiklą "
+"Jei paleidimo tipas yra nustatytas į :guilabel:`Paštas: paspausta`, ši "
+"veikla bus konvertuota į :ref:`dukterinę veiklą "
 "<marketing_automation/child-activities>` ir bus vykdoma **po to**, kai "
 "dalyvis spustelės nuorodą iš pagrindinės veiklos, nurodytos "
 ":guilabel:`Veiklos` lauke."
@@ -7256,7 +7254,7 @@ msgid ""
 msgstr ""
 "Įveskite sveikąjį skaičių intervale (pvz., `2` yra tinkamas, `0` taip pat "
 "yra tinkamas, o `1.5` - ne). Tada pasirinkite laiko vienetą intervalų "
-"skaičiui intervalų tipo išskleidžiamajame meniu, galimybės yra: "
+"skaičiui išskleidžiamajame meniu. Galimybės yra: "
 ":guilabel:`Valandos`, :guilabel:`Dienos`, :guilabel:`Savaitės` ir "
 ":guilabel:`Mėnesiai`."
 
@@ -7266,9 +7264,9 @@ msgid ""
 ":guilabel:`Days`, the activity will be cancelled if it has not been executed "
 "within 2 days of the trigger type."
 msgstr ""
-"Jei intervalo numeris nustatytas `2`, o intervalo tipas nustatytas į "
+"Jei intervalo skaičius nustatytas `2`, o intervalo tipas nustatytas į "
 ":guilabel:`Dienos`, veikla bus atšaukta, jei ji nebus įvykdyta per 2 dienas "
-"nuo suaktyvinimo tipo."
+"po trigerio tipo."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:249
 msgid "Activity domain"
@@ -7279,7 +7277,7 @@ msgid ""
 "The :guilabel:`DOMAIN` section of the :guilabel:`Create Activities` pop-up "
 "window contains fields to further filter the target audience of the activity."
 msgstr ""
-"Skyriuje :guilabel:`DOMAIN` iškylančiame lange :guilabel:`Create Activities` "
+"Skyriuje :guilabel:`DOMENAS` iškylančiame lange :guilabel:`Kurti Veiklas` "
 "yra laukų, skirtų toliau filtruoti veiklos tikslinę auditoriją."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:254
@@ -7292,7 +7290,7 @@ msgid ""
 "to the :guilabel:`Target` of the campaign."
 msgstr ""
 "Laukas :guilabel:`Veiklos filtras` dar labiau koncentruoja šią veiklą **ir** "
-"jos :ref:`antrines veiklas <marketing_automation/child-activities>` į "
+"jos :ref:`dukterines veiklas <marketing_automation/child-activities>` į "
 "konkrečią kampanijos filtro grupę. Procesas yra toks pats kaip :ref:`filtrų "
 "apibrėžimas <marketing_automation/defining-filters>` kampanijai, o "
 "filtravimo laukai taip pat priklauso nuo kampanijos :guilabel:`Tikslo`."
@@ -7303,8 +7301,8 @@ msgid ""
 "indicates how many records are currently being targeted by this "
 ":guilabel:`Activity Filter`."
 msgstr ""
-"Laukas :guilabel:`# įrašas(-ai)` šalia :guilabel:`Activity Filter` nurodo, "
-"kiek įrašų šiuo metu yra paveikti šio :guilabel:`Activity Filter`."
+"Laukas :guilabel:`# įrašas(-ai)` šalia :guilabel:`Veiklos Filtro` nurodo, "
+"kiek įrašų šiuo metu yra paveikti šio :guilabel:`Veiklos Filtro`."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:263
 msgid ""
@@ -7314,7 +7312,7 @@ msgid ""
 msgstr ""
 "Laukas :guilabel:`Taikytas filtras` rodo bendrus filtrus iš "
 ":guilabel:`Veiklos filtro` ir paveldėto kampanijos :doc:`Filtro "
-"<tikslinė_auditorija>`. Šis laukas skirtas tik skaitymui."
+"<target_audience>`. Šis laukas skirtas tik peržiūrėjimui."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:266
 msgid ""
@@ -7322,26 +7320,26 @@ msgid ""
 "indicates how many records, in total, are currently being targeted by the "
 "activity."
 msgstr ""
-"Šalia lauko :guilabel:`Taikytas filtras` esantis :guilabel:`# įrašų` nurodo, "
-"kiek iš viso įrašų šiuo metu yra taikinio veiklos."
+"Šalia lauko :guilabel:`Taikytas filtras` esantis :guilabel:`# įrašų` skaičius nurodo, "
+"kiek iš viso įrašų šiuo metu yra šioje veikloje."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:272
 msgid "Child activities"
-msgstr "Vaikų veiklos"
+msgstr "Dukterinės veiklos"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:274
 msgid ""
 "Activities that are connected to, and triggered by, another activity are "
 "known as, *child activities*."
 msgstr ""
-"Veiklos, kurios yra susijusios su kita veikla ir yra jos sukelamos, "
-"vadinamos *vaikų veiklomis*."
+"Veiklos, kurios yra susijusios su kita veikla ir yra jos sukeliamos, "
+"vadinamos *dukterinėmis veiklomis*."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:277
 msgid ""
 "The activity that triggers a child activity is known as its *parent "
 "activity*."
-msgstr "Veikla, kuri sukelia vaiko veiklą, vadinama jos *tėvine veikla*."
+msgstr "Veikla, kuri sukelia dukterinę veiklą, yra vadinama jos *tėvine veikla*."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:279
 msgid ""
@@ -7349,8 +7347,8 @@ msgid ""
 ":guilabel:`➕ Add child activity` button, located beneath the desired parent "
 "activity."
 msgstr ""
-"Vaiko veiklą galima pridėti prie kampanijos darbo eigos užvedus pelės "
-"žymeklį virš mygtuko :guilabel:`➕ Pridėti vaiko veiklą`, esantį po "
+"Dukterinę veiklą galima pridėti prie kampanijos darbų eigos užvedus pelytę "
+"virš mygtuko :guilabel:`➕ Pridėti dukterinę veiklą`, esantį po "
 "pasirinkta tėvine veikla."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:282
@@ -7360,14 +7358,14 @@ msgid ""
 ":ref:`activity type <marketing_automation/activity-types>` (*Email*, *SMS*, "
 "or *Server Action*), and are as follows:"
 msgstr ""
-"Vaiko veiklos :ref:`paleidimo tipai <marketing_automation/trigger-type>` yra "
+"Dukterinės veiklos :ref:`Trigerio (iššaukimo) tipai <marketing_automation/trigger-type>` yra "
 "susiję su pagrindinės :ref:`veiklos tipu "
 "<marketing_automation/activity-types>` (*El. paštas*, *SMS* arba *Serverio "
-"veiksmas*), ir yra šie:"
+"veiksmas*):"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst
 msgid "The trigger types for child activities of an email activity."
-msgstr "El. pašto veiklos vaikų veiklos suaktyvinimo tipai."
+msgstr "El. pašto veiklos dukterinės veiklos suaktyvinimo tipai."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:294
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:321
@@ -7375,7 +7373,7 @@ msgid ""
 "Each trigger the child activity on the following conditions of the parent "
 "activity:"
 msgstr ""
-"Kiekvieną kartą suaktyvinkite vaiko veiklą šiomis tėvų veiklos sąlygomis:"
+"Kiekvieną kartą suaktyvinkite dukterinę veiklą su šiomis tėvinės veiklos sąlygomis:"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:296
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:313
@@ -7390,7 +7388,7 @@ msgstr ":guilabel:`Atidaryta`: laišką atidarė dalyvis."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:298
 msgid ":guilabel:`Not Opened`: the email was **not** opened by the participant."
-msgstr ":guilabel:`Neatidarytas`: dalyvis **ne** atidarė el. laiško."
+msgstr ":guilabel:`Neatidarytas`: dalyvis **neatidarė** el. laiško."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:299
 msgid ":guilabel:`Replied`: the email was replied to by the participant."
@@ -7413,7 +7411,7 @@ msgstr ":guilabel:`Nepaspausta`: dalyvis **nepaspaudė** nuorodos el. laiške."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:303
 msgid ":guilabel:`Bounced`: the email has bounced."
-msgstr ":guilabel:`Sugrįžo`: el. laiškas sugrįžo."
+msgstr ":guilabel:`Atmesta (bounced)`: el. laiškas buvo atmestas."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:305
 msgid "Server Action"
@@ -7446,7 +7444,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:326
 msgid ":guilabel:`Bounced`: the SMS has bounced."
-msgstr ":guilabel:`Grąžintas`: SMS pranešimas nebuvo pristatytas."
+msgstr ":guilabel:`Atmestas`: SMS pranešimas nebuvo pristatytas."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:328
 msgid ""
@@ -7458,10 +7456,10 @@ msgid ""
 "selected."
 msgstr ""
 "Kai pasirenkamas paleidimo tipas, atsidaro iššokantis langas "
-":guilabel:`Kurti veiklas`, skirtas sukurti vaikų veiklą. Procesas toks pat "
+":guilabel:`Kurti veiklas`, skirtas sukurti dukterinę veiklą. Procesas toks pat "
 "kaip :ref:`kurti naują veiklą <marketing_automation/activities>`, išskyrus "
-"tai, kad :guilabel:`Paleidimo tipas` laukas iš anksto užpildytas pasirinktu "
-"paleidimo tipu, o :guilabel:`Veiklos tipas` lauke pasirinkta tėvinė veikla."
+"tai, kad :guilabel:`Trigerio (iššaukimo)` laukas yra iš anksto užpildytas pagal pasirinktą "
+"iššaukimo tipą ir :guilabel:`Veiklos tipą`, su jau pasirinkta tėvinė veikla."
 
 #: ../../content/applications/marketing/sms_marketing.rst:8
 msgid "SMS Marketing"
