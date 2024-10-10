@@ -5231,7 +5231,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation.rst:5
 msgid "Marketing Automation"
-msgstr "Rinkodaros automatizavimas"
+msgstr "Rinkodaros automatizacija"
 
 #: ../../content/applications/marketing/marketing_automation.rst:7
 msgid ""
@@ -5240,9 +5240,9 @@ msgid ""
 "such as sending a series of timed mass emails or engaging with leads based "
 "on their interactions with marketing campaigns."
 msgstr ""
-"Odoo *Marketing Automatikos* programa leidžia naudotojams kurti dinamiškas "
+"Odoo *Rinkodaros Automatizacijos* modulis leidžia naudotojams kurti dinamiškas "
 "kampanijas, su veiksmais, kurie automatiškai vyksta per nustatytą "
-"laikotarpį, pavyzdžiui, siunčiant laiku suplanuotų masinių el. laiškų seriją "
+"laikotarpį, pavyzdžiui, siunčiant tam tikru laiku suplanuotų masinių el. laiškų seriją "
 "arba bendraujant su potencialiais klientais pagal jų sąveikas su rinkodaros "
 "kampanijomis."
 
@@ -5263,23 +5263,23 @@ msgid ""
 "<marketing_automation/campaigns>` or start with a :ref:`campaign template "
 "<marketing_automation/campaign-templates>`."
 msgstr ""
-"Pradėkite kurdami :ref:`naujai kampaniją nuo nulio "
-"<marketing_automation/campaigns>` arba pradėkite naudodami :ref:`kampanijos "
+"Pradėkite kurdami :ref:`naują kampaniją nuo nulio "
+"<marketing_automation/campaigns>` arba naudodami :ref:`kampanijos "
 "šabloną <marketing_automation/campaign-templates>`."
 
 #: ../../content/applications/marketing/marketing_automation.rst:19
 #: ../../content/applications/marketing/sms_marketing.rst:11
 #: ../../content/applications/marketing/social_marketing.rst:11
 msgid "`Odoo Tutorials: Marketing <https://www.odoo.com/slides/marketing-27>`_"
-msgstr "„Odoo pamokos: rinkodara <https://www.odoo.com/slides/marketing-27>`_"
+msgstr "`Odoo pamokos: rinkodara <https://www.odoo.com/slides/marketing-27>`_"
 
 #: ../../content/applications/marketing/marketing_automation.rst:46
 msgid ""
 "To install the *Marketing Automation* application, navigate to the "
 ":menuselection:`Apps application` and search for `Marketing Automation`."
 msgstr ""
-"Norėdami įdiegti *Marketing Automation* programą, eikite į "
-":menuselection:`Aplikacijų programa` ir ieškokite `Marketing Automation`."
+"Norėdami įdiegti *Rinkodaros Automatizacijos* programą, eikite į "
+":menuselection:`Aplikacijų programą` ir ieškokite `Rinkodaros Automatizacija`."
 
 #: ../../content/applications/marketing/marketing_automation.rst:49
 msgid ""
@@ -5295,9 +5295,9 @@ msgid ""
 ":doc:`Email Marketing <email_marketing>` app, as most features of Odoo "
 "*Marketing Automation* are dependent on that specific application."
 msgstr ""
-"Įdiegus *Marketing Automation* programą, taip pat įdiegiama :doc:`Email "
-"Marketing <email_marketing>` programa, nes dauguma Odoo *Marketing "
-"Automation* funkcijų priklauso nuo šios konkrečios programos."
+"Įdiegus *Rinkodaros Automatizacijos* programą, taip pat įdiegiama :doc:`El. Pašto "
+"Rinkodaros <email_marketing>` programa, kadangi dauguma Odoo *Rinkodaros "
+"Automatizacijos* funkcijų priklauso nuo šios konkrečios programos."
 
 #: ../../content/applications/marketing/marketing_automation.rst:57
 msgid ""
@@ -5305,9 +5305,9 @@ msgid ""
 "<sms_marketing>` applications to access *all* of the features available in "
 "*Marketing Automation*."
 msgstr ""
-"Be to, įdiekite :doc:`CRM <../sales/crm>` ir :doc:`SMS Marketing "
+"Taip pat, įsidiekite :doc:`CRM <../sales/crm>` ir :doc:`SMS Rinkodaros "
 "<sms_marketing>` programas, kad galėtumėte pasiekti *visas* funkcijas, "
-"kurios yra prieinamos *Marketingo automatizacijoje*."
+"kurios yra prieinamos *Rinkodaros automatizacijoje*."
 
 #: ../../content/applications/marketing/marketing_automation.rst:60
 msgid ""
@@ -5327,7 +5327,7 @@ msgid ""
 "executed to a target audience, based on predefined filters, triggers, and "
 "durations of activities."
 msgstr ""
-"Kampanija reiškia veiklų eigą, kurios automatiškai vykdomos tikslinėje "
+"Kampanija yra susijusi su eiga veiksmų, kurie yra automatiškai vykdomi tikslinėje "
 "auditorijoje, remiantis iš anksto nustatytais filtrais, paleidimo "
 "mechanizmais ir veiklų trukme."
 
@@ -5347,7 +5347,7 @@ msgid ""
 "campaign form."
 msgstr ""
 "Norėdami sukurti kampaniją, pagrindiniame Odoo prietaisų skydelyje eikite į "
-":menuselection:`Marketing Automation` aplikaciją, kad atidarytumėte "
+":menuselection:`Rinkodaros Automatizacijos` aplikaciją, kad atidarytumėte "
 ":guilabel:`Kampanijos` prietaisų skydelį. Čia spustelėkite mygtuką "
 ":guilabel:`Naujas`, kad atidarytumėte naują kampanijos formą."
 
@@ -5365,7 +5365,7 @@ msgid ""
 "campaigns."
 msgstr ""
 "Odoo pateikia šešis kampanijų šablonus, kad padėtų vartotojams pradėti. "
-"Kampanijų šablonai **rodyti** tik tada, kai duomenų bazėje nėra jokių esamų "
+"Kampanijų šablonai rodomi **tik** tada, kai duomenų bazėje nėra jokių esamų "
 "kampanijų. Sukūrus kampaniją, šablonų kortelės *Kampanijų* valdymo skydelyje "
 "yra pakeičiamos esamų kampanijų Kanban vaizdu."
 
@@ -5375,10 +5375,10 @@ msgid ""
 "Automation` application, from the main Odoo dashboard, to open the "
 ":guilabel:`Campaigns` dashboard, which displays six campaign template cards:"
 msgstr ""
-"Norėdami pradėti naudoti šabloną, eikite į :menuselection:`Marketing "
-"Automation` programą, iš pagrindinio Odoo prietaisų skydelio, kad "
-"atidarytumėte :guilabel:`Campaigns` prietaisų skydelį, kuris rodo šešias "
-"kampanijų šablonų kortas:"
+"Norėdami pradėti naudoti šabloną, eikite į :menuselection:`Rinkodaros "
+"Automatizacijos` programą, iš pagrindinio Odoo prietaisų skydelio, kad "
+"atidarytumėte :guilabel:`Kampanijų` prietaisų skydelį, kuris rodo šešias "
+"kampanijų šablonų korteles:"
 
 #: ../../content/applications/marketing/marketing_automation.rst
 msgid ":guilabel:`🏷️ Tag Hot Contacts`"
@@ -5388,20 +5388,20 @@ msgstr ":guilabel:`🏷️ Žymėti karštus kontaktus`"
 msgid ""
 ":guilabel:`Send a welcome email to contacts and tag them if they click it.`"
 msgstr ""
-":guilabel:`Siųsti pasveikinimo laišką kontaktams ir paženklinti juos, jei "
+":guilabel:`Siųsti pasisveikinimo laišką kontaktams ir pažymėti juos, jei "
 "jie jį paspaudžia.`"
 
 #: ../../content/applications/marketing/marketing_automation.rst
 msgid ":guilabel:`✌️ Welcome Flow`"
-msgstr ":guilabel:`✌️ Sveikinimo Srautas`"
+msgstr ":guilabel:`✌️ Pasisveikinimas su prenumeratoriais`"
 
 #: ../../content/applications/marketing/marketing_automation.rst
 msgid ""
 ":guilabel:`Send a welcome email to new subscribers, remove the address that "
 "bounced.`"
 msgstr ""
-":guilabel:`Siųsti pasveikinimo el. laišką naujiems prenumeratoriams, "
-"pašalinti adresą, kuris atšoko.`"
+":guilabel:`Siųsti pasisveikinimo el. laišką naujiems prenumeratoriams bei "
+"pašalinti adresus, kurie nesusidomėjo (bounced).`"
 
 #: ../../content/applications/marketing/marketing_automation.rst
 msgid ":guilabel:`☑️ Double Opt-in`"
@@ -5411,7 +5411,7 @@ msgstr ":guilabel:`☑️ Dvigubas sutikimas`"
 msgid ":guilabel:`Send an email to new recipients to confirm their consent.`"
 msgstr ""
 ":guilabel:`Išsiųskite el. laišką naujiems gavėjams, kad patvirtintumėte jų "
-"sutikimą.`"
+"sutikimą gauti laiškus.`"
 
 #: ../../content/applications/marketing/marketing_automation.rst
 msgid ":guilabel:`🔍 Commercial prospection`"
@@ -5432,7 +5432,7 @@ msgid ""
 ":guilabel:`If a lead is created for existing contact, schedule a call with "
 "their salesperson.`"
 msgstr ""
-":guilabel:`Jei sukuriamas potencialus klientas esamam kontaktui, "
+":guilabel:`Jei sukuriama CRM iniciatyva esamam kontaktui, "
 "suplanuokite skambutį su jų pardavimo atstovu.`"
 
 #: ../../content/applications/marketing/marketing_automation.rst
@@ -5444,7 +5444,7 @@ msgid ""
 ":guilabel:`Send an email to new leads and assign them a high priority if "
 "they open it.`"
 msgstr ""
-":guilabel:`Siųskite el. laišką naujiems potencialiems klientams ir suteikite "
+":guilabel:`Siųskite el. laišką naujoms iniciatyvoms ir suteikite "
 "jiems aukštą prioritetą, jei jie jį atidarys.`"
 
 msgid ""
@@ -5478,8 +5478,8 @@ msgid ""
 "again, as long as there is not a campaign with the name \"empty\" in the "
 "database."
 msgstr ""
-"Pavyzdžiui, ieškant `empty`, vėl rodomos kampanijos šablono kortelės, jei "
-"duomenų bazėje nėra kampanijos pavadinimu \"empty\"."
+"Pavyzdžiui, ieškant `tuščias`, vėl rodomos kampanijos šablono kortelės, jei "
+"duomenų bazėje nėra kampanijos pavadinimu \"tuščias\"."
 
 #: ../../content/applications/marketing/marketing_automation.rst:121
 msgid "Targets and filters"
@@ -5504,7 +5504,7 @@ msgid ""
 "more."
 msgstr ""
 "Tikslinė auditorija nurodo, kokio tipo įrašai gali būti naudojami "
-"kampanijoje, tokie kaip *Paskola/Galimybė*, *Renginio registracija*, "
+"kampanijoje, tokie kaip *Iniciatyva/Galimybė*, *Renginio registracija*, "
 "*Kontaktas* ir kiti."
 
 #: ../../content/applications/marketing/marketing_automation.rst:131
@@ -5526,7 +5526,7 @@ msgid ""
 "targeting."
 msgstr ""
 "Įrašų skaičius, rodomas šalia kampanijos :guilabel:`Filtras`, nurodo bendrą "
-"įrašų, kuriuos taikosi kampanija, skaičių."
+"įrašų, į kuriuos taikosi kampanija, skaičių."
 
 #: ../../content/applications/marketing/marketing_automation.rst:140
 #: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:157
@@ -5545,8 +5545,8 @@ msgid ""
 "smart button, which displays on the top of the campaign form after a test "
 "has been run."
 msgstr ""
-"Dalyvių, dalyvavusių bandomajame bėgime, skaičius rodomas išmaniajame "
-"mygtuke *Tests*, kuris atsiranda virš kampanijos formos po testavimo."
+"Dalyvių, dalyvavusių bandomojoje kampanijoje, skaičius rodomas išmaniajame "
+"mygtuke *Testai*, kuris atsiranda virš kampanijos formos po testavimo."
 
 #: ../../content/applications/marketing/marketing_automation.rst:147
 msgid ""
@@ -5562,7 +5562,7 @@ msgstr ":doc:`Auditorijos taikymas <marketing_automation/target_audience>`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:154
 msgid "Workflow"
-msgstr "Darbo eiga"
+msgstr "Darbų eiga"
 
 #: ../../content/applications/marketing/marketing_automation.rst:156
 msgid ""
@@ -5570,9 +5570,9 @@ msgid ""
 "activities organized in a campaign. A campaign's workflow is defined in the "
 ":guilabel:`Workflow` section of the campaign form."
 msgstr ""
-"*Darbo eiga* susideda iš vienos veiklos, daugybės veiklų arba veiklų sekos, "
-"kurios yra organizuotos kampanijoje. Kampanijos darbo eiga apibrėžta "
-"kampanijos formos skyriuje :guilabel:`Darbo eiga`."
+"*Darbų eiga* (anl. *workflow*) susideda iš vienos veiklos, daugybės veiklų arba veiklų sekos, "
+"kurios yra suplanuotos kampanijoje. Kampanijos darbų eiga apibrėžta "
+"kampanijos formos skyriuje :guilabel:`Darbų eiga`."
 
 #: ../../content/applications/marketing/marketing_automation.rst:160
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:19
@@ -5586,10 +5586,9 @@ msgid ""
 "activity displays the number of participants that are engaged by the "
 "activity as *Success* and *Rejected* counts."
 msgstr ""
-"*Veiklos* yra komunikacijos metodai arba serverio veiksmai, organizuojami "
-"darbo eigoje, kurie atliekami kampanijos metu. Paleidus, kiekviena veikla "
-"rodo dalyvių, įsitraukusių į veiklą, skaičių kaip *Sėkmės* ir *Atmesti* "
-"skaičius."
+"*Veiklos* yra komunikacijos metodai arba serverio veiksmai, planuojami "
+"darbų eigoje, kurie atliekami kampanijos metu. Paleidus kampaniją, kiekviena veikla "
+"rodo dalyvių, įsitraukusių į veiklą, skaičių kaip *Sėkmingi* ir *Atmesti*."
 
 #: ../../content/applications/marketing/marketing_automation.rst:166
 msgid ""
@@ -5597,7 +5596,7 @@ msgid ""
 "activity` in the :guilabel:`Workflow` section of the campaign form:"
 msgstr ""
 "Norėdami sukurti vieną iš šių veiklų, kampanijos formos skyriuje "
-":guilabel:`Darbo eiga (angl. Workflow)` spustelėkite :guilabel:`Pridėti "
+":guilabel:`Darbų eiga (angl. Workflow)` spustelėkite :guilabel:`Pridėti "
 "naują veiklą (angl. Add new activity)`."
 
 #: ../../content/applications/marketing/marketing_automation.rst:169
@@ -5629,7 +5628,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation.rst:177
 msgid ":doc:`marketing_automation/workflow_activities`"
-msgstr ":doc:`marketing_automation/darbo_srauto_veiklos`"
+msgstr ":doc:`marketing_automation/workflow_activities`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:180
 msgid "Testing and running"
@@ -5642,8 +5641,8 @@ msgid ""
 "before it reaches its target audience."
 msgstr ""
 "Kai kampanija yra sukurta, ją galima išbandyti, siekiant įsitikinti, kad "
-"darbo eiga veikia taip, kaip tikėtasi, patikrinti klaidas ir ištaisyti bet "
-"kokias klaidas prieš ją pasiekiant tikslinę auditoriją."
+"darbų eiga veikia taip, kaip tikėtasi, patikrinti klaidas ir ištaisyti bet "
+"kokias klaidas prieš jai pasiekiant tikslinę auditoriją."
 
 #: ../../content/applications/marketing/marketing_automation.rst:185
 msgid ""
@@ -5651,9 +5650,9 @@ msgid ""
 "audience. The campaign can also be launched *without* testing, if the user "
 "is confident in the workflow."
 msgstr ""
-"Po testavimo kampaniją galima paleisti siekiant įtraukti tikslinę "
+"Po testavimo, kampaniją galima paleisti veikimui siekiant įtraukti tikslinę "
 "auditoriją. Kampaniją taip pat galima paleisti *be* testavimo, jei "
-"naudotojas yra užtikrintas dėl darbo eigos."
+"naudotojas yra užtikrintas dėl suplanuotos darbų eigos."
 
 #: ../../content/applications/marketing/marketing_automation.rst:189
 msgid ":doc:`marketing_automation/testing_running`"
@@ -5670,8 +5669,8 @@ msgid ""
 "Reporting` to access the following menu options:"
 msgstr ""
 "Galima naudoti įvairius ataskaitų rodiklius, siekiant įvertinti kiekvienos "
-"kampanijos sėkmę. Norėdami pasiekti šiuos meniu parinktis, eikite į: "
-":menuselection:`Marketing Automation programėlė --> Ataskaitos`."
+"kampanijos rezultatus. Norėdami pasiekti šias meniu parinktis, eikite į: "
+":menuselection:`Rinkodaros Automatizacijos programėlę --> Ataskaitos`."
 
 #: ../../content/applications/marketing/marketing_automation.rst:197
 msgid ""
@@ -5685,7 +5684,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Traces`: displays the results of all activities from all "
 "campaigns."
-msgstr ":guilabel:`Traces`: rodo visų kampanijų visų veiklų rezultatus."
+msgstr ":guilabel:`Sekimas (angl. Traces)`: rodo visų veiklų rezultatus visose kampanijose."
 
 #: ../../content/applications/marketing/marketing_automation.rst:199
 msgid ""
@@ -5698,11 +5697,11 @@ msgid ""
 "Additionally, each activity within the workflow of a campaign displays its "
 "engagement metrics."
 msgstr ""
-"Be to, kiekviena kampanijos darbo eigos veikla rodo jos įtraukimo metrikas."
+"Taipogi, kiekviena darbo eigų veikla individualiose kampanijose turi jai skirtas metrikas."
 
 #: ../../content/applications/marketing/marketing_automation.rst:204
 msgid ":doc:`marketing_automation/understanding_metrics`"
-msgstr ":doc:`marketing_automation/rodiklių_supratimas`"
+msgstr ":doc:`marketing_automation/understanding_metrics`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:3
 msgid "Audience targeting"
