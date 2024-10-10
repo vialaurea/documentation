@@ -5714,7 +5714,7 @@ msgid ""
 "target audience for the campaign's reach (i.e., the unique contact records "
 "in the database, and imported list, etc.)."
 msgstr ""
-"Kampanijos formos laukuose :guilabel:`Target` ir :guilabel:`Filter`, taip "
+"Kampanijos formos laukuose :guilabel:`Tiklas` ir :guilabel:`Filtras`, taip "
 "pat vadinamose *domenu*, yra pateikiami parametrai, naudojami tikslinės "
 "auditorijos apibrėžimui kampanijos aprėpčiai (t. y. unikalūs kontaktų įrašai "
 "duomenų bazėje, importuotas sąrašas ir kt.)."
@@ -5728,11 +5728,11 @@ msgid ""
 "available in the :guilabel:`Filter` section, and in dynamic placeholders."
 msgstr ""
 ":guilabel:`Tikslas`: nurodo įrašų tipą, kuris gali būti naudojamas "
-"kampanijoje, tokį kaip :guilabel:`Potencialus klientas/Proga`, "
+"kampanijoje, tokį kaip :guilabel:`Iniciatyva/Galimybė`, "
 ":guilabel:`Renginio registracija`, :guilabel:`Kontaktas`. Paskirtas įrašų "
 "modelis nustato laukus, kurie yra pasiekiami kampanijos metu, įskaitant "
-"laukus, pasiekiamus :guilabel:`Filtras` skyriuje ir dinamiškuose vietos "
-"laikikliuose."
+"laukus, pasiekiamus :guilabel:`Filtras` skyriuje ir dinamiškuose "
+"žymekliuose."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:13
 msgid ""
@@ -5743,7 +5743,7 @@ msgid ""
 msgstr ""
 ":guilabel:`Išsaugoti kaip mėgstamą filtrą`: išsaugo esamą :guilabel:`Filtrą` "
 "būsimiems naudojimams su dabartiniu :guilabel:`Tiksliniu` modeliu, ir gali "
-"būti valdomas per :menuselection:`Rinkodaros automatizavimo programa --> "
+"būti valdomas per :menuselection:`Rinkodaros automatizacijos programos --> "
 "Konfigūracija --> Mėgstami filtrai` meniu."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:16
@@ -5752,9 +5752,9 @@ msgid ""
 "where duplicates should be avoided. Traditionally, the :guilabel:`Email` "
 "field is used, but any available field can be used."
 msgstr ""
-":guilabel:`Vienetinis unikalumas pagal`: nurodo :guilabel:`Tikslinis` "
-"modelio lauką, kuriame reikia išvengti dublikatų. Tradiciškai naudojamas "
-":guilabel:`El. pašto` laukas, bet gali būti naudojamas bet kuris prieinamas "
+":guilabel:`Vienetinis unikalumas pagal`: nurodo :guilabel:`Tikslinį` "
+"modelio lauką, kuriame reikia išvengti dublikatų. Tradiciškai tam naudojamas "
+":guilabel:`El. pašto` laukas, bet gali būti naudojamas ir bet kuris kitas prieinamas "
 "laukas."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:19
@@ -5766,7 +5766,7 @@ msgid ""
 msgstr ""
 ":guilabel:`Filtras`: yra interaktyvi forma su konfigūruojama logika, "
 "leidžiančia toliau tikslinti taikymo parametrus pagal pasirinktą "
-":guilabel:`Target` modelį. Daugiau detalių rasite "
+":guilabel:`Tikslo` modelį. Daugiau detalių rasite "
 ":ref:`marketing_automation/defining-filters` skyriuje."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:22
@@ -5782,7 +5782,7 @@ msgid ""
 "A :guilabel:`Responsible` user can be assigned to the campaign by activating "
 ":ref:`developer-mode`."
 msgstr ""
-"A :guilabel:`Atsakingas` vartotojas gali būti priskirtas kampanijai "
+":guilabel:`Atsakingas` vartotojas gali būti priskirtas kampanijai "
 "aktyvavus :ref:`kūrėjo režimą`."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:30
@@ -5791,7 +5791,7 @@ msgid ""
 "audience; see the :doc:`workflow_activities` documentation for more "
 "information."
 msgstr ""
-"Kiekviena veikla kampanijos darbo eigoje gali būti nukreipta į tam tikrą "
+"Kiekviena veikla kampanijos darbų eigoje gali būti nukreipta į tam tikrą "
 "tikslinės auditorijos dalį; daugiau informacijos rasite "
 ":doc:`workflow_activities` dokumentacijoje."
 
@@ -5805,9 +5805,9 @@ msgid ""
 ":guilabel:`Match all records`, indicating that the campaign is targeting "
 "**all** records of the :guilabel:`Target` model."
 msgstr ""
-"Numatytasis kampanijos :guilabel:`Filtras` nustatymas yra "
+"Numatytasis kampanijos :guilabel:`Filtrų` nustatymas yra "
 ":guilabel:`Atitikti visus įrašus`, nurodantis, kad kampanija taikoma "
-"**visiems** :guilabel:`Tikslinis` modelio įrašams."
+"**visiems** :guilabel:`Tikslinio` modelio įrašams."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:41
 msgid ""
@@ -5816,11 +5816,11 @@ msgid ""
 "See the :ref:`Search, filter, and group records <search/custom-filters>` "
 "documentation for more information on how to create filter rules."
 msgstr ""
-"Norėdami patobulinti kampanijos :guilabel:`Filter` taisykles, spustelėkite "
-"mygtuką :guilabel:`➕ Add condition`, kad būtų rodomas naujas eilutės su "
+"Norėdami patobulinti kampanijos :guilabel:`Filtro` taisykles, spustelėkite "
+"mygtuką :guilabel:`➕ Pridėti sąlygą`, kad būtų rodomos naujos eilutės su "
 "konfigūruojamais taisyklių parametrais. Daugiau informacijos apie tai, kaip "
-"kurti filtro taisykles, žr. :ref:`Paieškos, filtravimo ir grupavimo įrašų "
-"dokumentaciją <search/custom-filters>`."
+"kurti filtro taisykles, rasite :ref:`Paieškos, filtravimo ir grupavimo įrašų "
+"dokumentacijoje <search/custom-filters>`."
 
 msgid "A new filter rule row on the campaign form Filters."
 msgstr "Nauja filtro taisyklės eilutė kampanijos formos Filtrai."
@@ -5832,9 +5832,9 @@ msgid ""
 ":guilabel:`# record(s)` button to open a :guilabel:`Selected records` pop-up "
 "window, in which the targeted records can be viewed."
 msgstr ""
-"Filtrų taisyklių apačioje yra mygtukas :guilabel:`# įrašas(ų)`, kuris nurodo "
+"Filtrų taisyklių apačioje yra mygtukas :guilabel:`# įrašas(-ai)`, kuris nurodo "
 "bendrą šio domeno tikslinių įrašų skaičių. Pasirinkite mygtuką :guilabel:`# "
-"įrašas(ų)`, kad atidarytumėte iškylančią langą :guilabel:`Pasirinkti "
+"įrašas(-ai)`, kad atidarytumėte iššokantį langą :guilabel:`Pasirinkti "
 "įrašai`, kuriame galima peržiūrėti tikslinius įrašus."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:54
@@ -5843,7 +5843,7 @@ msgid ""
 "data type, as well as the :guilabel:`# Code editor` text area below the "
 "filter rules, to view and edit the domain manually."
 msgstr ""
-"Suaktyvinkite :ref:`developer-mode`, kad pamatytumėte kiekvieno lauko "
+"Aktyvuokite :ref:`developer-mode`, kad pamatytumėte kiekvieno lauko "
 "techninį pavadinimą ir duomenų tipą, taip pat :guilabel:`# Code editor` "
 "teksto sritį žemiau filtro taisyklių, kad galėtumėte peržiūrėti ir redaguoti "
 "domeną rankiniu būdu."
@@ -5855,28 +5855,28 @@ msgid ""
 "should be entered:"
 msgstr ""
 "Norint nukreipti visas užklausas ir galimybes iš *CRM* programėlės, esančias "
-"*Naujos* stadijoje ir kurių tikėtina pajamų suma viršija $1,000, turėtų būti "
-"įvesta:"
+"*Naujos* stadijoje ir kurių tikėtina pajamų suma viršija $1,000, reikėtų "
+"įvesti:"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:62
 msgid ":guilabel:`Target`: `Lead/Opportunity`"
-msgstr ":guilabel:`Tikslas`: `Pagrindinis/Galimybė`"
+msgstr ":guilabel:`Tikslas`: `Iniciatyva/Galimybė`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:63
 msgid ":guilabel:`Unicity based on`: `Email (Lead/Opportunity)`"
-msgstr ":guilabel:`Unikalumas remiasi`: `El. paštas (Galimybė/Perspektyva)`"
+msgstr ":guilabel:`Vienetinis unikalumas pagal`: `El. paštas (Iniciatyva/Galimybė)`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:64
 msgid ""
 ":guilabel:`Filter`: :guilabel:`Match` :guilabel:`all 🔽 (down arrow)` "
 ":guilabel:`of the following rules:`"
 msgstr ""
-":guilabel:`Filtras`: :guilabel:`Sutapimas` :guilabel:`visi 🔽 (žemyn "
+":guilabel:`Filtras`: :guilabel:`Sutampa` :guilabel:`visos 🔽 (žemyn "
 "rodyklė)` :guilabel:`iš šių taisyklių:`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:67
 msgid ":guilabel:`Stage` :guilabel:`is in` :guilabel:`New`"
-msgstr ":guilabel:`Scena` :guilabel:`yra` :guilabel:`Nauja`"
+msgstr ":guilabel:`Būsena` :guilabel:`yra` :guilabel:`Nauja`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:68
 msgid ":guilabel:`Expected Revenue` :guilabel:`>` `1,000`"
@@ -5884,11 +5884,11 @@ msgstr ":guilabel:`Tikėtinos pajamos` :guilabel:`>` `1 000`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:69
 msgid ":guilabel:`any 🔽 (down arrow)` :guilabel:`of:`"
-msgstr ":guilabel:`kuri nors 🔽 (žiūrėti žemyn rodyklę)` :guilabel:`iš:`"
+msgstr ":guilabel:`kuri nors 🔽 (žemyn rodyklė)` :guilabel:`iš:`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:71
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Lead`"
-msgstr ":guilabel:`Tipas` :guilabel:`=` :guilabel:`Pagrindinis`"
+msgstr ":guilabel:`Tipas` :guilabel:`=` :guilabel:`Iniciatyva`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:72
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Opportunity`"
@@ -5918,7 +5918,7 @@ msgstr ":doc:`darbų_eiga`"
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:83
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:335
 msgid ":doc:`testing_running`"
-msgstr ":sinc_tiksl`testavimas_vykdymas`"
+msgstr ":doc:`testavimas_vykdymas`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:84
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:336
