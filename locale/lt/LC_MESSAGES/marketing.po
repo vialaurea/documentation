@@ -8777,23 +8777,23 @@ msgstr "SMS kainodara ir DUK"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:8
 msgid "What do I need to send SMSs?"
-msgstr "Ką man reikia, norint siųsti SMS žinutes?"
+msgstr "Ko man reikia, norint siųsti SMS žinutes?"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:10
 msgid ""
 "SMS Text Messaging is an In-App Purchase (IAP) service that *requires "
 "prepaid credits* to work."
 msgstr ""
-"SMS teksto siuntimas yra programėlės viduje atliekamas pirkimas (IAP), "
+"SMS žinučių siuntimas yra programėlės viduje atliekamas pirkimas (IAP), "
 "kuriam *reikia iš anksto apmokėtų kreditų*."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:13
 msgid "How many types of SMSs are there?"
-msgstr "Kiek tipų SMS yra?"
+msgstr "Kiek yra SMS tipų?"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:15
 msgid "There are 2 types: GSM7 and UNICODE."
-msgstr "Yra 2 tipai: GSM7 ir UNICODE."
+msgstr "Yra 2 SMS tipai: GSM7 ir UNICODE."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:17
 msgid ""
@@ -8801,7 +8801,7 @@ msgid ""
 "that includes the following characters:"
 msgstr ""
 "**GSM7** yra standartinis formatas, turintis 160 simbolių ribą vienai "
-"žinutei, kuris apima šiuos simbolius:"
+"žinutei bei apimantis šiuos simbolius:"
 
 msgid "GSM7 characters available in Odoo SMS Marketing."
 msgstr "GSM7 simboliai pasiekiami Odoo SMS rinkodaroje."
@@ -8811,8 +8811,8 @@ msgid ""
 "**UNICODE** is the format applied if a special character, that *is not* in "
 "the GSM7 list, is used. Limit per SMS: 70 characters."
 msgstr ""
-"**UNICODE** yra formatas, taikomas, jei naudojamas specialus ženklas, kuris "
-"*nėra* GSM7 sąraše. SMS limitas: 70 ženklų."
+"**UNICODE** SMS formatas yra taikomas tada, kai naudojami specialūs ženklai, kurių "
+"*nėra* GSM7 sąraše. Tokio SMS limitas: 70 ženklų."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:28
 msgid ""
@@ -8824,8 +8824,8 @@ msgid ""
 msgstr ""
 "GSM7 SMS dydžio limitas yra 160 simbolių, o Unicode - 70. *Viršijus šiuos "
 "limitus, turinys padalijamas į kelių dalių pranešimą* ir simbolių limitas "
-"sumažinamas iki 153 GSM7 ir iki 67 Unicode formatams. Tada, realiu laiku, "
-"sistema rodo SMS siuntimų skaičių, kurį žinutė atstovauja."
+"sumažinamas iki 153 GSM7 ir iki 67 Unicode formatams. Tada, realiuoju laiku, "
+"sistema rodo SMS siuntimų skaičių, susijusių su ta žinute."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:34
 msgid "How much does it cost to send an SMS?"
@@ -8838,8 +8838,8 @@ msgid ""
 "consult**: `Odoo SMS - FAQ "
 "<https://iap-services.odoo.com/iap/sms/pricing#sms_faq_01>`_."
 msgstr ""
-"SMS kaina priklauso nuo paskirties ir pranešimo ilgio (simbolių skaičiaus). "
-"Norėdami sužinoti **kainą pagal šalį, prašome kreiptis į**: `Odoo SMS - DUK "
+"SMS kaina priklauso nuo siuntimo šalies ir pranešimo ilgio (simbolių skaičiaus). "
+"Norėdami sužinoti **kainą pagal šalį, galite kreiptis į**: `Odoo SMS - DUK "
 "<https://iap-services.odoo.com/iap/sms/pricing#sms_faq_01>`_."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:40
@@ -8847,7 +8847,7 @@ msgid ""
 "The number of SMSs a message represents will always be available in the "
 "database."
 msgstr ""
-"SMS žinučių skaičius, kurį žinutė atstovauja, visada bus prieinamas duomenų "
+"Išsiųstų SMS, susijusių su tam tikra žinute, skaičius visada bus prieinamas duomenų "
 "bazėje."
 
 msgid ""
@@ -8877,12 +8877,12 @@ msgid ""
 "If Odoo Online (Saas) is being used, along with the Enterprise version, free "
 "trial credits are available to test the feature."
 msgstr ""
-"Jei naudojama Odoo Online (Saas) kartu su Enterprise versija, galima "
-"pasinaudoti nemokamais bandomaisiais kreditais norint išbandyti funkciją."
+"Jei naudojama Odoo Online (Saas) versija kartu su Enterprise versija, galima "
+"pasinaudoti nemokamais bandomaisiais kreditais norint išbandyti šią funkciją."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:66
 msgid "More common questions"
-msgstr "Dažniau užduodami klausimai"
+msgstr "Kiti dažnai užduodami klausimai"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "**Is there an expiration time for my credits?**"
@@ -8890,7 +8890,7 @@ msgstr "**Ar mano kreditai turi galiojimo laiką?**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "No, credits do not expire."
-msgstr "Ne, kreditai nepasibaigia."
+msgstr "Ne, kreditų galiojimo laikas nesibaigia."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid ""
@@ -8898,7 +8898,7 @@ msgid ""
 "I see the icon in front of the field “phone”?**"
 msgstr ""
 "**Ar galiu išsiųsti SMS į telefono numerį (kuris nėra mobilusis telefonas), "
-"nes matau piktogramą priešais laukelį „telefonas“?**"
+"kadangi matau piktogramą priešais laukelį „telefonas“?**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "Only if that phone number supports SMS (e.g. SIP phones)."
@@ -8906,7 +8906,7 @@ msgstr "Tik jei tas telefono numeris palaiko SMS (pvz., SIP telefonai)."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "**Do I receive an invoice to buy my credits?**"
-msgstr "**Ar gausiu sąskaitą už savo kreditų pirkimą?**"
+msgstr "**Ar gausiu sąskaitą faktūrą už kreditų pirkimą?**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "Yes."
@@ -8939,7 +8939,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "**Do I have a history of the sent SMSs?**"
-msgstr "**Ar turiu išsiųstų SMS žinučių istoriją?**"
+msgstr "**Kur galima rasti visų išsiųstų SMS žinučių istoriją?**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid ""
@@ -8949,9 +8949,9 @@ msgid ""
 ":guilabel:`Kanban` view)."
 msgstr ""
 "Išsiųstų SMS žinučių istoriją, kartu su visa susijusia informacija apie "
-"išsiųstus kontaktus (ir pačią žinutę), galima rasti pagrindinės "
-":guilabel:`SMS Marketingas` valdymo lentos :guilabel:`Išsiųsta` stulpelyje "
-"(žvelgiant :guilabel:`Kanban` vaizdu)."
+"išsiųstus kontaktus (ir pačią žinutę), galima rasti pagrindinio "
+":guilabel:`SMS Rinkodaros` prietaisų skydelio :guilabel:`Išsiųsta` stulpelyje "
+"(kai jį peržiūrite :guilabel:`Kanban` vaizdu)."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:91
 msgid ""
@@ -8959,9 +8959,9 @@ msgid ""
 "(in :guilabel:`Kanban` view), and click on either link in the blue banner "
 "above the SMS detail form to learn more."
 msgstr ""
-"Dėl išsamesnės informacijos pasirinkite norimą SMS iš pagrindinio prietaisų "
+"Išsamesnei informacijai, pasirinkite norimą SMS iš pagrindinio prietaisų "
 "skydelio (Kanban rodinyje) ir spustelėkite bet kurią nuorodą mėlyname "
-"baneryje virš SMS detalių formos, kad sužinotumėte daugiau."
+"baneryje virš SMS informacijos formos, kad sužinotumėte daugiau."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "**Can I send as many SMSs I want at once?**"
@@ -8985,7 +8985,7 @@ msgid ""
 "However, if the SMS is sent to the wrong person (or to a fake number), the "
 "credit for that SMS will be lost."
 msgstr ""
-"Ne, ne, jei telefono numeris yra neteisingai formatuotas (pvz., per daug "
+"Ne, tuo atveju jeigu telefono numeris yra neteisingai formatuotas (pvz., per daug "
 "skaitmenų). Tačiau, jei SMS žinutė siunčiama neteisingam asmeniui (arba į "
 "netikrą numerį), kreditas už tą SMS žinutę bus prarastas."
 
@@ -9002,17 +9002,17 @@ msgid ""
 "The SMS will not be delivered to that kind of number, so no charges will be "
 "made."
 msgstr ""
-"SMS nebus pristatytas į tokio tipo numerį, todėl jokių mokesčių nebus "
-"taikoma."
+"SMS nebus pristatytas į tokio tipo numerį, todėl joks mokestis nebus "
+"taikomas."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid ""
 "**Can I identify the numbers that do not exist when I send several SMSs?**"
-msgstr "**Ar galiu nustatyti, kurių numerių nėra, kai siunčiu kelis SMS?**"
+msgstr "**Ar galiu identifikuoti numerius, kurie neegzistuoja, kai siunčiu kelis SMS?**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "Only the ones that have an invalid format."
-msgstr "Tik tie, kurie turi neteisingą formatą."
+msgstr "Tik tuos, kurie turi netinkamą formatą."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "**How does the GDPR regulation affect this service?**"
@@ -9022,7 +9022,7 @@ msgstr "**Kaip GDPR reglamentas veikia šią paslaugą?**"
 msgid ""
 "Please find our `Privacy Policy here <https://iap.odoo.com/privacy#sms>`__."
 msgstr ""
-"Mūsų „Privatumo politika” pateikiama čia: <https://iap.odoo.com/privacy#sms>."
+"Odoo „Privatumo politika” pateikiama čia: <https://iap.odoo.com/privacy#sms>`__."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst
 msgid "**Can I use my own SMS provider?**"
@@ -9034,9 +9034,8 @@ msgid ""
 "a database to allow for the use of a personal SMS provider. Please check our "
 "success packs `here <https://www.odoo.com/pricing-packs>`_."
 msgstr ""
-"Taip, bet tai nėra įmanoma iš karto. Odoo ekspertai gali padėti pritaikyti "
-"duomenų bazę, kad būtų galima naudoti asmeninį SMS tiekėją. Prašome "
-"peržiūrėti mūsų sėkmės paketus `čia <https://www.odoo.com/pricing-packs>`_."
+"Taip, bet tai nėra įmanoma standartinėje Odoo versijoje. Odoo ekspertai ir partneriai gali "
+"padėti pritaikyti duomenų bazę, kad būtų galima naudoti asmeninį SMS tiekėją."
 
 #: ../../content/applications/marketing/social_marketing.rst:8
 msgid "Social Marketing"
