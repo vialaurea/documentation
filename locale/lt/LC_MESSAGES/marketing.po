@@ -4727,7 +4727,7 @@ msgstr "Svetainės puslapio peržiūra ir galimybė paskelbti renginį „Odoo E
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:3
 msgid "Sell tickets"
-msgstr "Parduokite bilietus"
+msgstr "Bilietų pardavimas"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:5
 msgid ""
@@ -4736,10 +4736,10 @@ msgid ""
 ":guilabel:`Tickets` tab. Odoo simplifies the ticket-purchasing process by "
 "providing plenty of payment method options."
 msgstr ""
-"Sukurkite individualius bilietų lygius (su įvairiomis kainomis), kad "
+"Sukurkite individualius bilietų lygius (su įvairiomis kainomis), kuriuos "
 "potencialūs dalyviai galėtų pasirinkti tiesiogiai renginio šablono formoje, "
 "skiltyje :guilabel:`Bilietai`. Odoo supaprastina bilietų pirkimo procesą "
-"suteikdamas daugybę mokėjimo metodų pasirinkimų."
+"suteikdama daugybę mokėjimo metodų pasirinkimų."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:10
 #: ../../content/applications/marketing/events/track_manage_talks.rst:9
@@ -4812,8 +4812,8 @@ msgid ""
 "template form (in the :guilabel:`Events` application)."
 msgstr ""
 "Renginiai, kurių bilietai parduodami internetu arba per pardavimo užsakymus, "
-"turi :guilabel:`Sales Smart Button` nuorodą, esančią renginio šablono formos "
-"viršuje (:guilabel:`Events` programoje)."
+"turi :guilabel:`Pardavimų išmaniojo mygtuko` nuorodą, esančią renginio šablono formos "
+"viršuje (:guilabel:`Renginių` programoje)."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:43
 msgid ""
@@ -4821,7 +4821,7 @@ msgid ""
 "sales orders related to that event."
 msgstr ""
 "Spustelėjus :guilabel:`Pardavimų išmanųjį mygtuką` atsidarys puslapis su "
-"visais su tuo renginiu susijusiais pardavimų užsakymais."
+"visais, su tuo renginiu susijusiais, pardavimų užsakymais."
 
 msgid "View of an event's form and the sales smart button in Odoo Events."
 msgstr "Renginio formos ir pardavimų išmaniojo mygtuko vaizdas „Odoo Events“."
@@ -4858,7 +4858,7 @@ msgid ""
 "Order`, which can be easily accessed in the back end of the database."
 msgstr ""
 "Užbaigtas pirkimas automatiškai suformuojamas :guilabel:`Pardavimo "
-"užsakyme`, kurį galima lengvai pasiekti duomenų bazės galinėje dalyje."
+"užsakyme`, kurį galima lengvai pasiekti duomenų bazės galinėje dalyje (back-end)."
 
 msgid "View of website transaction for Odoo Events."
 msgstr "Peržiūra apie svetainės operaciją Odoo renginiams."
