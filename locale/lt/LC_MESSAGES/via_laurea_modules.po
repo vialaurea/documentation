@@ -2387,20 +2387,28 @@ msgstr ""
 msgid "2. Daily Use Scenarios"
 msgstr "2. Kasdieniai naudojimo scenarijai"
 
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:13
+msgid "In the opened window, select the period for which you want to print the "
+"cash_account book."
+msgstr "Atsidariusiame lange pasirenkama, už kokį laikotarpį norima spausdinti "
+"Kasos knygą."
+
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:14
-msgid ""
-"In the opened window, select the period for which you want to print the "
-"cash_account book. - **Journal**: Select the cash_account journal. - **Cash "
-"Journal Print Type**: Choose how you want to display the cash_account book. "
-"- **Employee**: Select the employee responsible for cash_account operations. "
-"- The report is printed only in PDF."
-msgstr ""
-"Atidarytame lange pasirinkite laikotarpį, už kurį norite atspausdinti pinigų "
-"sąskaitos knygą. - **Žurnalas**: Pasirinkite pinigų sąskaitos žurnalą. - "
-"**Pinigų sąskaitos žurnalo spausdinimo tipas**: Pasirinkite, kaip norite "
-"parodyti pinigų sąskaitos knygą. - **Darbuotojas**: Pasirinkite darbuotoją, "
-"atsakingą už pinigų sąskaitos operacijas. - Ataskaita spausdinama tik PDF "
-"formatu."
+msgid "**Journal**: Select the cash_account journal."
+msgstr "**Žurnalas**: pasirenkamas kasos žurnalas."
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:15
+msgid "**Cash Journal Print Type**: Choose how you want to display the cash_account book."
+msgstr "**Kasos žurnalo spausdinimo tipas**: pasirenkama, kaip norima atvaizduoti kasos knygą: "
+"mėnesinis, viena ataskaita lape, dvi ataskaitos viename lape."
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:16
+msgid "**Employee**: Select the employee responsible for cash_account operations."
+msgstr "**Darbuotojas**: parenkamas darbuotojas, atsakingas už kasos operacijas."
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:17
+msgid "The report is printed only in PDF."
+msgstr "Ataskaita spausdinama tik į PDF."
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:23
 msgid "Monthly:"
