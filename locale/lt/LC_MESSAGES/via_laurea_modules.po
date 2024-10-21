@@ -2375,12 +2375,12 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:2
 msgid "Account Cash"
-msgstr "Grynūjų Apskaita"
+msgstr "Kasos knygos ataskaita"
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:7
 msgid "You can print the cash_account book through Reports -> Cash Journal."
 msgstr ""
-"Galite atspausdinti grynųjų pinigų sąskaitos knygą per Ataskaitos -> Kasos "
+"Kasos knygą atsispausditi galite per Ataskaitos -> Kasos "
 "žurnalas."
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:12
