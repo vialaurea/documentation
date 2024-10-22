@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 09:04+0000\n"
+"POT-Creation-Date: 2024-10-22 11:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1653,18 +1653,34 @@ msgid "2. Daily Use Scenarios"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:14
-msgid "In the opened window, select the period for which you want to print the cash_account book. - **Journal**: Select the cash_account journal. - **Cash Journal Print Type**: Choose how you want to display the cash_account book. - **Employee**: Select the employee responsible for cash_account operations. - The report is printed only in PDF."
+msgid "In the opened window, select the period for which you want to print the cash_account book."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:23
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:16
+msgid "**Journal**: Select the cash_account journal."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:17
+msgid "**Cash Journal Print Type**: Choose how you want to display the cash_account book."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:18
+msgid "**Employee**: Select the employee responsible for cash_account operations."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:19
+msgid "The report is printed only in PDF."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:24
 msgid "Monthly:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:28
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:29
 msgid "One report per page:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:33
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:34
 msgid "Two reports on one page:"
 msgstr ""
 
