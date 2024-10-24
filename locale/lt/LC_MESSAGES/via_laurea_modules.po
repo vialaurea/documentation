@@ -89,19 +89,18 @@ msgid "Accessing accountable persons settings"
 msgstr "Pasiekiama atsakingų asmenų nustatymai"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:18
-#, fuzzy
+# 
 msgid "Assign an accountable persons journal and an account."
-msgstr "Kai atskaitingas asmuo apmoka sąskaitą:"
+msgstr "Priskiriamas atskaitingų asmenų žurnalas."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:19
-#, fuzzy
+#
 msgid ""
 "Regardless of how many accountable persons there are, all entries are "
 "recorded in one general ledger account."
 msgstr ""
-"Priskirkite atsakingų asmenų žurnalą ir sąskaitą. Nepriklausomai nuo to, "
-"kiek yra atsakingų asmenų, visi įrašai registruojami vienoje bendrojoje "
-"sąskaitos knygoje."
+"Priskiriama atskaitingų asmenų sąskaita (nesvarbu, kiek įmonėje būtų atskaitingų "
+"asmenų, visi įrašai registruojasi vienoje DK sąskaitoje)."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
 msgid "3. Daily Usage Scenarios"
@@ -222,6 +221,8 @@ msgid ""
 "Journal - Cash (or can be, for example, a cash register, depending on the"
 " name of the journal for Cash transactions)"
 msgstr ""
+"Žurnalas - Grynieji (arba gali būti pvz. kasa, priklausoma kaip pavadinamas "
+"žurnalas Kasos operacijoms)"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
 msgid "Cash issuance details"
@@ -269,10 +270,12 @@ msgstr "Data - įnešimo į kasą data"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
 msgid "Automatically assigned KIO/KPO number (verify the sequence setting)"
-msgstr "Automatiškai priskirtas KIO/KPO numeris (patikrinkite sekos nustatymą)"
+msgstr ""
+"KIO/KPO numeris - automatiškai priskiria reikiamą (pasitikrinti ar nustatyta seka "
+"Apskaita _> Konfigūracija -> sekos. Kaip susikurti sekas žr. instrukcijoje 'Kasos knyga'."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
-#, fuzzy
+#
 msgid ""
 "Responsible for KIO/KPO - indicate who is responsible for cash register "
 "operations"
@@ -280,15 +283,15 @@ msgstr "KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
 msgid "Reminder - record the purpose of issuing money"
-msgstr ""
+msgstr "Priminimas - įrašoma pinigų išdavimo paskirtis"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
 msgid "Payment method - Manual"
-msgstr ""
+msgstr "Mokėjimo būdas - Manual (rankinis)"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:85
 msgid "You may also check the Journal entries before confirming the transaction."
-msgstr ""
+msgstr "Taip pat galima pasitikrinti Žurnalo įrašus, prieš patvirtinant operaciją"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
 msgid "Cash deposit details"
@@ -312,25 +315,26 @@ msgstr "Peržiūrėti banko pervedimo operacijas"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:97
 msgid "Row no. 1 - formed from a bank statement"
-msgstr ""
+msgstr "Eilutė Nr. 1 - formuojama iš banko išrašo"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:98
 msgid ""
 "Row no. 2 - the system tries to automatically find what the order was "
 "made for"
 msgstr ""
+"Eilutė Nr. 2 - sistema bando automatiškai surasti už ką atliktas pavedimas"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:99
 msgid "Through manual closing, select which employee the order was made to"
-msgstr ""
+msgstr "Per Rankinis sudengimas pasirenkame kuriam darbuotojui atliktas pavedimas"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:100
-#, fuzzy
+#
 msgid "Click Confirm"
-msgstr "Spustelėkite Patvirtinti."
+msgstr "Spaudžiame Patvirtinti"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:103
-#, fuzzy
+#
 msgid "1. Reports and Documentation"
 msgstr "4. Ataskaitos ir dokumentacija"
 
@@ -2253,12 +2257,12 @@ msgid ""
 "Order (KPO). When performing the opposite financial operation - "
 "withdrawing cash from the register, a Cash Expense Order (KIO) is issued."
 msgstr ""
-"Kasos įplaukų orderis (KPO ir KIO) yra apskaitos dokumentas, naudojamas "
-"įrašant grynųjų pinigų įnešimą į kasą arba jų išėmimą iš kasos. Įnešant "
-"grynuosius pinigus, grynųjų pinigų gavimo faktas turi būti dokumentuotas "
-"naudojant kasos įplaukų orderį (KPO). Atliekant priešingą finansinę "
-"operaciją - išimant grynuosius pinigus iš kasos, išduodamas kasos išlaidų"
-" orderis (KIO)."
+"Kasos orderis (KIO  ir KPO) - tai apskaitos dokumentai, pagal kuriuos "
+"grynieji pinigai yra priimami į kasą arba išduodami iš kasos. "
+"Įnešant į kasą grynuosius pinigus, pats pinigų priėmimo faktas turi "
+"būti įformintas su kasos pajamų orderiu (KPO). Darant priešingą finansinę "
+"operaciją - pinigus iš kasos išsiimant, bus išrašomas kasos "
+"išlaidų orderis (KIO)."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:12
 msgid "Install the module ``l10n_lt_kio_kpo_receipt``."
@@ -2290,32 +2294,34 @@ msgid ""
 "**Name**: The name of the sequence. This name is internal and is only "
 "displayed when selecting the sequence from the list."
 msgstr ""
-"**Pavadinimas**: Sekos pavadinimas. Šis pavadinimas yra vidinis ir "
-"rodomas tik renkantis seką iš sąrašo."
+"**Pavadinimas**: kaip vadinasi numeracija. Pavadinimas yra vidinis, "
+"atvaizduojamas tik parenkant numeraciją iš sąrašo."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:25
 msgid "**Prefix**: The prefix of the number, usually \"KIO\" or \"KPO\"."
-msgstr "**Priešdėlis**: Skaičiaus priešdėlis, paprastai „KIO“ arba „KPO“."
+msgstr ""
+"**Priešdėlis**: numerio sudedamoji dalis, raidinė pradžia, priešdėlis prieš skaičius, " 
+"dažniausiai naudojama KIO arba KPO."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:26
 msgid ""
 "**Sequence Size**: The length of the number, i.e., how many digits must "
 "be printed after the prefix."
 msgstr ""
-"**Eilės dydis**: Skaičiaus ilgis, t.y. kiek skaitmenų turi būti "
-"atspausdinta po priešdėlio."
+"**Sekos dydis**: kokio ilgio numeris, t.y. kiek skaičių po raidinės "
+"kombinacijos privaloma atspausdinti."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:27
 msgid "**Step**: The frequency at which the numbers change, usually set to 1."
-msgstr "**Žingsnis**: Dažnis, kuriuo keičiasi skaičiai, paprastai nustatytas į 1."
+msgstr "**Žingsnis**: kokiu dažnumu kinta skaičiai, dažniausiai naudojamas 1."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:28
 msgid ""
 "**Next Number**: The next number in the sequence, based on the company’s "
 "existing numbering system. If there is no previous sequence, enter 1."
 msgstr ""
-"**Kitas numeris**: Kitas numeris eilutėje, pagrįstas dabartine įmonės "
-"numeravimo sistema. Jei nėra ankstesnės eilutės, įveskite 1."
+"**Kitas numeris**: įvedamas sekantis numeris pagal įmonės jau naudojamą "
+"numeraciją. Jei ankstenės numeracijos nėra, įvedamas 1."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:30
 msgid "For example, in the image, the next document will be numbered KIO0054."
@@ -2348,8 +2354,8 @@ msgid ""
 "You can print such a document by clicking the **PRINT** button in the "
 "record and selecting the KIO/KPO print format."
 msgstr ""
-"Tokį dokumentą galite atsispausdinti paspaudę mygtuką **PRINT** įraše ir "
-"pasirinkę KIO/KPO spausdinimo formatą."
+"Tokį dokumentą galima atsispausdinti, paspaudus įraše mygtuką SPAUSDINTI "
+"ir pasirinkus KIO/KPO spausdinimo formą."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:45
 msgid ""
@@ -2366,8 +2372,8 @@ msgid ""
 "You can print such a document by clicking the **PRINT** button and "
 "selecting the KIO/KPO print format."
 msgstr ""
-"Galite atspausdinti tokį dokumentą paspaudę mygtuką **SPAUZDINTI** ir "
-"pasirinkę KIO/KPO spausdinimo formatą."
+"Tokį dokumentą galima atsispausdinti, paspaudus mygtuką **SPAUSDINTI** "
+"ir pasirinkus KIO/KPO spausdinimo formą."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:57
 msgid ""
@@ -2390,8 +2396,8 @@ msgid ""
 "The module is linked to the Cash Report (see more in the Cash Book "
 "documentation)."
 msgstr ""
-"Modulis yra susietas su pinigų ataskaita (daugiau informacijos rasite "
-"pinigų knygos dokumentacijoje)."
+"Modulis susijęs su Kasos ataskaita (plačiau žr. Kasos "
+"knygos dokumentacijoje)."
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:2
 msgid "Account Cash"
@@ -2422,8 +2428,8 @@ msgid ""
 "**Cash Journal Print Type**: Choose how you want to display the "
 "cash_account book."
 msgstr ""
-"**Kasos žurnalo spausdinimo tipas**: pasirenkama, kaip norima atvaizduoti"
-" kasos knygą: mėnesinis, viena ataskaita lape, dvi ataskaitos viename "
+"**Kasos žurnalo spausdinimo tipas**: pasirenkama kaip norima atvaizduoti kasos "
+"knygą: mėnesinis, viena ataskaita lape, dvi ataskaitos viename "
 "lape."
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:18
