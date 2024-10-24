@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-22 11:01+0000\n"
+"POT-Creation-Date: 2024-10-24 14:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -89,24 +89,29 @@ msgid "Accessing accountable persons settings"
 msgstr "Pasiekiama atsakingų asmenų nustatymai"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:18
+#, fuzzy
+msgid "Assign an accountable persons journal and an account."
+msgstr "Kai atskaitingas asmuo apmoka sąskaitą:"
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:19
+#, fuzzy
 msgid ""
-"Assign an accountable persons journal and an account. Regardless of how "
-"many accountable persons there are, all entries are recorded in one "
-"general ledger account."
+"Regardless of how many accountable persons there are, all entries are "
+"recorded in one general ledger account."
 msgstr ""
 "Priskirkite atsakingų asmenų žurnalą ir sąskaitą. Nepriklausomai nuo to, "
 "kiek yra atsakingų asmenų, visi įrašai registruojami vienoje bendrojoje "
 "sąskaitos knygoje."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:21
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
 msgid "3. Daily Usage Scenarios"
 msgstr "3. Kasdieniai naudojimo scenarijai"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:23
 msgid "When an accountable person pays an invoice:"
 msgstr "Kai atskaitingas asmuo apmoka sąskaitą:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:24
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:25
 msgid "Find and open the required invoice and click \"Register Payment\"."
 msgstr ""
 "susiradus ir atsidarius reikiamą sąskaitą, spaudžiame \"Užregistruoti "
@@ -116,31 +121,31 @@ msgstr ""
 msgid "Invoice payment registration"
 msgstr "Sąskaitos apmokėjimo registracija"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:29
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:30
 msgid "A new window opens where you need to:"
 msgstr "Atsidaro naujas langas, kuriame reikia:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:31
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:32
 msgid "Choose the journal for accountable persons"
 msgstr "Žurnalas - atskaitingi asmenys"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:32
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:33
 msgid "Select manual payment method"
 msgstr "Pasirinkite rankinio mokėjimo būdą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:33
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:34
 msgid "Choose the employee who made the payment"
 msgstr "Pasirinkite darbuotoją, kuris atliko mokėjimą."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:34
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:35
 msgid "Enter the amount paid"
 msgstr "Įveskite sumokėtą sumą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:35
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:36
 msgid "Specify the invoice date, which is the date of payment (check)"
 msgstr "Nurodykite sąskaitos-faktūros datą, kuri yra mokėjimo (čekio) data."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:36
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:37
 msgid "Optionally specify which invoice is being paid"
 msgstr "Priminimas - galima nurodyti kokią Sąskaitą faktūrą apmokama;"
 
@@ -148,7 +153,7 @@ msgstr "Priminimas - galima nurodyti kokią Sąskaitą faktūrą apmokama;"
 msgid "Payment details entry"
 msgstr "Mokėjimo duomenų įvedimas"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:41
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:42
 msgid ""
 "Click \"Create Payment\". All payments can be viewed under Clients (or "
 "Suppliers) -> Payments, after removing filters."
@@ -158,11 +163,11 @@ msgstr ""
 "paspaudus \"Naujas\" taip pat galima sukurti atskaitingo asmens "
 "apmokėjimą."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:43
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:44
 msgid "Issuing cash to an accountable person from the cash register:"
 msgstr "Grynųjų pinigų išdavimas atskaitingam asmeniui iš kasos:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:45
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:46
 msgid "At the suppliers/clients payment list, click \"New\"."
 msgstr "Tiekėjų/klientų mokėjimų sąraše spustelėkite „Naujas“."
 
@@ -170,11 +175,11 @@ msgstr "Tiekėjų/klientų mokėjimų sąraše spustelėkite „Naujas“."
 msgid "Issuing cash from the cash register"
 msgstr "Grynųjų pinigų išdavimas iš kasos aparato"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:50
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:51
 msgid "A new window opens where you specify:"
 msgstr "Atsidaro naujas langas, kuriame nurodote:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:52
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:53
 msgid ""
 "Payment type: Send (when issuing from the cash register) or Receive (when"
 " depositing into the cash register)"
@@ -182,19 +187,19 @@ msgstr ""
 "Mokėjimo tipas: Siųsti (kai išduodama iš kasos) arba Gauti (kai įnešama į"
 " kasą)"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:53
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
 msgid "Employee to whom the cash is issued"
 msgstr "Darbuotojas, kuriam išduodami grynieji pinigai"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
 msgid "Amount issued"
 msgstr "Suma - kiek išduodama"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
 msgid "Date of cash issuance"
 msgstr "Data - grynųjų pinigų išdavimo data"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
 msgid ""
 "KIO/KPO number, which is automatically assigned (ensure the sequence is "
 "set in Accounting -> Configuration -> Sequences)"
@@ -203,19 +208,26 @@ msgstr ""
 "nustatyta seka Apskaita -> Konfigūracija -> Sekos. Kaip susikurti sekas "
 "žr. instrukcijoje \"Kasos knyga\")."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
 msgid "Who is responsible for the cash operations"
 msgstr "KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:59
 msgid "Purpose of the cash issuance"
 msgstr "Priminimas - įrašoma pinigų išdavimo paskirtis"
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:60
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:83
+msgid ""
+"Journal - Cash (or can be, for example, a cash register, depending on the"
+" name of the journal for Cash transactions)"
+msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
 msgid "Cash issuance details"
 msgstr "Grynieji pinigai išleidimo detalės"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:63
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:65
 msgid ""
 "Check account correspondences by clicking \"Journal Entry\". If all is "
 "well, confirm the transaction."
@@ -223,11 +235,11 @@ msgstr ""
 "Pasitikrinti sąskaitų korespondenciją galima paspaudus \"Žurnalo "
 "įrašas\". Jei viskas gerai, spaudžiama Patvirtinti."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:65
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:67
 msgid "Depositing cash into the cash register:"
 msgstr "Grynųjų pinigų įnešimas į kasą:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:67
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:69
 msgid "Navigate to Clients -> Payments -> New."
 msgstr "Spaudžiame pvz. Klientai -> Mokėjimai -> Naujas."
 
@@ -235,43 +247,58 @@ msgstr "Spaudžiame pvz. Klientai -> Mokėjimai -> Naujas."
 msgid "Depositing cash into the cash register"
 msgstr "Grynųjų pinigų įdėjimas į kasos aparatą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:72
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:74
 msgid "Specify:"
 msgstr "Pateikite:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:74
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:76
 msgid "Payment type: Receive"
 msgstr "Mokėjimo rūšis - gauti"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:75
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
 msgid "Employee who is depositing the cash"
 msgstr "Darbuotojas - kas įneša pinigus į kasą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:76
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
 msgid "Amount being deposited"
 msgstr "Suma - kiek įneša"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
 msgid "Date of deposit"
 msgstr "Data - įnešimo į kasą data"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
 msgid "Automatically assigned KIO/KPO number (verify the sequence setting)"
 msgstr "Automatiškai priskirtas KIO/KPO numeris (patikrinkite sekos nustatymą)"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
-msgid "Purpose of the deposit"
-msgstr "Indėlio tikslas"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
+#, fuzzy
+msgid ""
+"Responsible for KIO/KPO - indicate who is responsible for cash register "
+"operations"
+msgstr "KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas"
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
+msgid "Reminder - record the purpose of issuing money"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
+msgid "Payment method - Manual"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:85
+msgid "You may also check the Journal entries before confirming the transaction."
+msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
 msgid "Cash deposit details"
 msgstr "Grynųjų pinigų įnešimo duomenys"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:90
 msgid "Bank transfer to an accountable person:"
 msgstr "Banko pervedimas atsakingam asmeniui:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:86
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:92
 msgid ""
 "Typically, bank statements are imported or synchronized, showing the "
 "transfer operation."
@@ -283,25 +310,31 @@ msgstr ""
 msgid "Viewing bank transfer operations"
 msgstr "Peržiūrėti banko pervedimo operacijas"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:91
-msgid ""
-"If the wrong GL account is selected, adjust via Manual Adjustment -> "
-"Specify the correct GL account."
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:97
+msgid "Row no. 1 - formed from a bank statement"
 msgstr ""
-"Jei pasirinkta neteisinga GL sąskaita, koreguokite per Rankinis "
-"reguliavimas -> Nurodykite teisingą GL sąskaitą."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:93
-msgid "Click Confirm."
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:98
+msgid ""
+"Row no. 2 - the system tries to automatically find what the order was "
+"made for"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:99
+msgid "Through manual closing, select which employee the order was made to"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:100
+#, fuzzy
+msgid "Click Confirm"
 msgstr "Spustelėkite Patvirtinti."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:96
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:78
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:103
 #, fuzzy
-msgid "5. Reports and Documentation"
+msgid "1. Reports and Documentation"
 msgstr "4. Ataskaitos ir dokumentacija"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:97
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:104
 msgid ""
 "For the selected period, you can print the accountable person's Advance "
 "Report:"
@@ -317,69 +350,21 @@ msgstr "Plėstiniai ataskaitų generavimo nustatymai"
 msgid "Additional instructions and resources"
 msgstr "Papildomos instrukcijos ir ištekliai"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:104
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:111
 msgid "Date range: Select the period for the report"
 msgstr "Datos rėžis: pasirenkame už kokį laikotarpį spausdinate avansinę apyskaitą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:105
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:112
 msgid "Employee: Choose who the report is for"
 msgstr "Darbuotojas: pasirenkama kam formuoti avansinę apyskaitą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:106
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:113
 msgid "Number: Assign a number for the report"
 msgstr "Numeris: priskiriamas avansinės apyskaitos numeris"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:108
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:115
 msgid "Print the advance report."
 msgstr "Spausdiname avansinę apyskaitą."
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:111
-msgid "6. Integrations and Connection with Other Modules"
-msgstr "6. Integracijos ir ryšys su kitais moduliais"
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:112
-msgid ""
-"How this module integrates with other Odoo modules or external systems. "
-"Special integration instructions if needed."
-msgstr ""
-"Kaip šis modulis integruojasi su kitais Odoo moduliais ar išorinėmis "
-"sistemomis. Specialios integracijos instrukcijos, jei to reikia."
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:116
-msgid "7. Troubleshooting and FAQ"
-msgstr "7. Trikčių šalinimas ir DUK"
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:117
-msgid ""
-"Frequent problems and their solutions. Answers to frequently asked "
-"questions about this module."
-msgstr ""
-"Dažnos problemos ir jų sprendimai. Atsakymai į dažnai užduodamus "
-"klausimus apie šį modulį."
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:121
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:91
-msgid "8. Updates and Version Management"
-msgstr "8. Atnaujinimai ir versijų valdymas"
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:122
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:92
-msgid "How to update the module. Version management practices."
-msgstr "Kaip atnaujinti modulį. Versijų valdymo praktikos."
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:126
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:96
-msgid "9. Appendices"
-msgstr "9. Priedai"
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:127
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:97
-msgid ""
-"Screenshots and visual instructions. Useful links and additional "
-"resources."
-msgstr ""
-"Ekrano nuotraukos ir vaizdinės instrukcijos. Naudingos nuorodos ir "
-"papildomi resursai."
 
 #: ../../content/via_laurea_modules/accounting/declarations.rst:2
 #: ../../content/via_laurea_modules/inventory/declarations.rst:2
@@ -3981,6 +3966,11 @@ msgstr "Tvarkaraščio paskelbimas"
 msgid "Final view of the scheduled shifts"
 msgstr "Galutinis suplanuotų pamainų vaizdas"
 
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:78
+#, fuzzy
+msgid "5. Reports and Documentation"
+msgstr "4. Ataskaitos ir dokumentacija"
+
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:79
 msgid ""
 "All possible reports remain the same as in the case of standard payroll, "
@@ -4010,6 +4000,26 @@ msgid ""
 msgstr ""
 "Dažnos problemos ir jų sprendimai. Atsakymai į dažniausiai užduodamus "
 "klausimus apie šį modulį."
+
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:91
+msgid "8. Updates and Version Management"
+msgstr "8. Atnaujinimai ir versijų valdymas"
+
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:92
+msgid "How to update the module. Version management practices."
+msgstr "Kaip atnaujinti modulį. Versijų valdymo praktikos."
+
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:96
+msgid "9. Appendices"
+msgstr "9. Priedai"
+
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:97
+msgid ""
+"Screenshots and visual instructions. Useful links and additional "
+"resources."
+msgstr ""
+"Ekrano nuotraukos ir vaizdinės instrukcijos. Naudingos nuorodos ir "
+"papildomi resursai."
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:2
 msgid "Personnel Accounting"
@@ -5801,4 +5811,41 @@ msgid ""
 "This Odoo module is connected with the \"Employees\" and \"Payroll\" "
 "modules."
 msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atlyginimai“."
+
+#~ msgid "Purpose of the deposit"
+#~ msgstr "Indėlio tikslas"
+
+#~ msgid ""
+#~ "If the wrong GL account is "
+#~ "selected, adjust via Manual Adjustment "
+#~ "-> Specify the correct GL account."
+#~ msgstr ""
+#~ "Jei pasirinkta neteisinga GL sąskaita, "
+#~ "koreguokite per Rankinis reguliavimas -> "
+#~ "Nurodykite teisingą GL sąskaitą."
+
+#~ msgid "6. Integrations and Connection with Other Modules"
+#~ msgstr "6. Integracijos ir ryšys su kitais moduliais"
+
+#~ msgid ""
+#~ "How this module integrates with other"
+#~ " Odoo modules or external systems. "
+#~ "Special integration instructions if needed."
+#~ msgstr ""
+#~ "Kaip šis modulis integruojasi su kitais"
+#~ " Odoo moduliais ar išorinėmis sistemomis."
+#~ " Specialios integracijos instrukcijos, jei "
+#~ "to reikia."
+
+#~ msgid "7. Troubleshooting and FAQ"
+#~ msgstr "7. Trikčių šalinimas ir DUK"
+
+#~ msgid ""
+#~ "Frequent problems and their solutions. "
+#~ "Answers to frequently asked questions "
+#~ "about this module."
+#~ msgstr ""
+#~ "Dažnos problemos ir jų sprendimai. "
+#~ "Atsakymai į dažnai užduodamus klausimus "
+#~ "apie šį modulį."
 

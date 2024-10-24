@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-22 11:01+0000\n"
+"POT-Creation-Date: 2024-10-24 14:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,18 +71,22 @@ msgid "Accessing accountable persons settings"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:18
-msgid "Assign an accountable persons journal and an account. Regardless of how many accountable persons there are, all entries are recorded in one general ledger account."
+msgid "Assign an accountable persons journal and an account."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:21
-msgid "3. Daily Usage Scenarios"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:19
+msgid "Regardless of how many accountable persons there are, all entries are recorded in one general ledger account."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
+msgid "3. Daily Usage Scenarios"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:23
 msgid "When an accountable person pays an invoice:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:24
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:25
 msgid "Find and open the required invoice and click \"Register Payment\"."
 msgstr ""
 
@@ -90,31 +94,31 @@ msgstr ""
 msgid "Invoice payment registration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:29
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:30
 msgid "A new window opens where you need to:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:31
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:32
 msgid "Choose the journal for accountable persons"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:32
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:33
 msgid "Select manual payment method"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:33
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:34
 msgid "Choose the employee who made the payment"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:34
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:35
 msgid "Enter the amount paid"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:35
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:36
 msgid "Specify the invoice date, which is the date of payment (check)"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:36
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:37
 msgid "Optionally specify which invoice is being paid"
 msgstr ""
 
@@ -122,15 +126,15 @@ msgstr ""
 msgid "Payment details entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:41
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:42
 msgid "Click \"Create Payment\". All payments can be viewed under Clients (or Suppliers) -> Payments, after removing filters."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:43
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:44
 msgid "Issuing cash to an accountable person from the cash register:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:45
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:46
 msgid "At the suppliers/clients payment list, click \"New\"."
 msgstr ""
 
@@ -138,51 +142,56 @@ msgstr ""
 msgid "Issuing cash from the cash register"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:50
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:51
 msgid "A new window opens where you specify:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:52
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:53
 msgid "Payment type: Send (when issuing from the cash register) or Receive (when depositing into the cash register)"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:53
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
 msgid "Employee to whom the cash is issued"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
 msgid "Amount issued"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
 msgid "Date of cash issuance"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
 msgid "KIO/KPO number, which is automatically assigned (ensure the sequence is set in Accounting -> Configuration -> Sequences)"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
 msgid "Who is responsible for the cash operations"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:59
 msgid "Purpose of the cash issuance"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:60
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:83
+msgid "Journal - Cash (or can be, for example, a cash register, depending on the name of the journal for Cash transactions)"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:0
 msgid "Cash issuance details"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:63
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:65
 msgid "Check account correspondences by clicking \"Journal Entry\". If all is well, confirm the transaction."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:65
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:67
 msgid "Depositing cash into the cash register:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:67
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:69
 msgid "Navigate to Clients -> Payments -> New."
 msgstr ""
 
@@ -190,43 +199,55 @@ msgstr ""
 msgid "Depositing cash into the cash register"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:72
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:74
 msgid "Specify:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:74
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:76
 msgid "Payment type: Receive"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:75
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
 msgid "Employee who is depositing the cash"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:76
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
 msgid "Amount being deposited"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
 msgid "Date of deposit"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
 msgid "Automatically assigned KIO/KPO number (verify the sequence setting)"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
-msgid "Purpose of the deposit"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
+msgid "Responsible for KIO/KPO - indicate who is responsible for cash register operations"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
+msgid "Reminder - record the purpose of issuing money"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
+msgid "Payment method - Manual"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:85
+msgid "You may also check the Journal entries before confirming the transaction."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:0
 msgid "Cash deposit details"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:90
 msgid "Bank transfer to an accountable person:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:86
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:92
 msgid "Typically, bank statements are imported or synchronized, showing the transfer operation."
 msgstr ""
 
@@ -234,20 +255,27 @@ msgstr ""
 msgid "Viewing bank transfer operations"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:91
-msgid "If the wrong GL account is selected, adjust via Manual Adjustment -> Specify the correct GL account."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:93
-msgid "Click Confirm."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:96
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:78
-msgid "5. Reports and Documentation"
-msgstr ""
-
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:97
+msgid "Row no. 1 - formed from a bank statement"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:98
+msgid "Row no. 2 - the system tries to automatically find what the order was made for"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:99
+msgid "Through manual closing, select which employee the order was made to"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:100
+msgid "Click Confirm"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:103
+msgid "1. Reports and Documentation"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:104
 msgid "For the selected period, you can print the accountable person's Advance Report:"
 msgstr ""
 
@@ -259,56 +287,20 @@ msgstr ""
 msgid "Additional instructions and resources"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:104
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:111
 msgid "Date range: Select the period for the report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:105
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:112
 msgid "Employee: Choose who the report is for"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:106
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:113
 msgid "Number: Assign a number for the report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:108
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:115
 msgid "Print the advance report."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:111
-msgid "6. Integrations and Connection with Other Modules"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:112
-msgid "How this module integrates with other Odoo modules or external systems. Special integration instructions if needed."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:116
-msgid "7. Troubleshooting and FAQ"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:117
-msgid "Frequent problems and their solutions. Answers to frequently asked questions about this module."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:121
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:91
-msgid "8. Updates and Version Management"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:122
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:92
-msgid "How to update the module. Version management practices."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:126
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:96
-msgid "9. Appendices"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:127
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:97
-msgid "Screenshots and visual instructions. Useful links and additional resources."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations.rst:2
@@ -2491,6 +2483,10 @@ msgstr ""
 msgid "Final view of the scheduled shifts"
 msgstr ""
 
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:78
+msgid "5. Reports and Documentation"
+msgstr ""
+
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:79
 msgid "All possible reports remain the same as in the case of standard payroll, cumulative working time accounting is an additional functionality of the Payroll module. Currently, no additional reports are planned."
 msgstr ""
@@ -2509,6 +2505,22 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:87
 msgid "Common problems and their solutions. Answers to frequently asked questions about this module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:91
+msgid "8. Updates and Version Management"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:92
+msgid "How to update the module. Version management practices."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:96
+msgid "9. Appendices"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:97
+msgid "Screenshots and visual instructions. Useful links and additional resources."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:2
