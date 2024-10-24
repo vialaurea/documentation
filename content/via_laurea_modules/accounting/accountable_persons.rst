@@ -15,7 +15,8 @@ Settings -> Accountable Persons
 .. image:: accountable_persons/number1.jpg
    :alt: Accessing accountable persons settings
 
-Assign an accountable persons journal and an account. Regardless of how many accountable persons there are, all entries are recorded in one general ledger account.
+- Assign an accountable persons journal and an account. 
+- Regardless of how many accountable persons there are, all entries are recorded in one general ledger account.
 
 3. Daily Usage Scenarios
 ------------------------
@@ -56,6 +57,7 @@ A new window opens where you specify:
 - KIO/KPO number, which is automatically assigned (ensure the sequence is set in Accounting -> Configuration -> Sequences)
 - Who is responsible for the cash operations
 - Purpose of the cash issuance
+- Journal - Cash (or can be, for example, a cash register, depending on the name of the journal for Cash transactions)
 
   .. image:: accountable_persons/number5.jpg
      :alt: Cash issuance details
@@ -76,7 +78,11 @@ Specify:
 - Amount being deposited
 - Date of deposit
 - Automatically assigned KIO/KPO number (verify the sequence setting)
-- Purpose of the deposit
+- Responsible for KIO/KPO - indicate who is responsible for cash register operations
+- Reminder - record the purpose of issuing money
+- Journal - Cash (or can be, for example, a cash register, depending on the name of the journal for Cash transactions)
+- Payment method - Manual
+- You may also check the Journal entries before confirming the transaction.
 
   .. image:: accountable_persons/number7.jpg
      :alt: Cash deposit details
@@ -88,11 +94,12 @@ Bank transfer to an accountable person:
   .. image:: accountable_persons/number8.jpg
      :alt: Viewing bank transfer operations
 
-- If the wrong GL account is selected, adjust via Manual Adjustment -> Specify the correct GL account.
+- Row no. 1 - formed from a bank statement
+- Row no. 2 - the system tries to automatically find what the order was made for
+- Through manual closing, select which employee the order was made to
+- Click Confirm
 
-Click Confirm.
-
-5. Reports and Documentation
+1. Reports and Documentation
 -----------------------------
 For the selected period, you can print the accountable person's Advance Report:
 
@@ -106,23 +113,3 @@ For the selected period, you can print the accountable person's Advance Report:
 - Number: Assign a number for the report
 
 Print the advance report.
-
-6. Integrations and Connection with Other Modules
-------------------------------------------------
-How this module integrates with other Odoo modules or external systems.
-Special integration instructions if needed.
-
-7. Troubleshooting and FAQ
---------------------------
-Frequent problems and their solutions.
-Answers to frequently asked questions about this module.
-
-8. Updates and Version Management
----------------------------------
-How to update the module.
-Version management practices.
-
-9. Appendices
--------------
-Screenshots and visual instructions.
-Useful links and additional resources.
