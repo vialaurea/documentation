@@ -5,6 +5,7 @@ Introduction
 ------------
 
 UAB Via Laurea has developed a plugin for the standard Planning module, enabling a broader application of this module for Lithuanian work time accounting needs.
+
 The Planning module is intended for creating work schedules and shifts, accurately determining work hours when the work time is irregular or cumulative work time accounting is applied. The following module is used for planning:
 
 .. image:: shift_work_scheduling/img01.jpg
@@ -16,18 +17,21 @@ Usage and Main Scenarios
 In the Planning module, you can create shift templates and individual schedules for a specific selected employee.
 
 Creating a Template:
+
 In the Planning module, in the configuration section, select "Work Schedule Templates":
 
 .. image:: shift_work_scheduling/img02.jpg
     :alt: Work Schedule Templates
 
 In the opened window, create shifts according to your needs and save. Note that an Odoo day is divided into morning and afternoon parts, allowing you to define lunch break time. For this reason, two lines are entered for the same day, as shown in the example. If the employee works without a lunch break, you can choose only one part, but it is necessary to select one. In the work time accounting sheets, morning or afternoon is not reflected; it is only used in schedule creation.
+
 Important: if working in a rotating schedule (e.g., 2 days on and 2 days off) - describe the off days in the schedule template. In this case, when assigning a schedule to an employee, you can choose the number of repetitions, allowing you to automatically create future schedules.
 
 .. image:: shift_work_scheduling/img03.jpg
     :alt: Shift Template Creation
 
 To assign a schedule to a specific employee, there are two options:
+
 1. You can select Schedule/Plan Shift:
 
 .. image:: shift_work_scheduling/img04.jpg

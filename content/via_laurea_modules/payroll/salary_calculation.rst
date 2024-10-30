@@ -26,6 +26,7 @@ You can assign the account by entering a specific line, in the "Accounting" tab.
     :alt: Accounting Tab
 
 You can also choose whether to show this line in the payroll form and, if needed, select an analytical account.
+
 If you want to use different accounting accounts for different employees based on their departments, check the box "Use department accounts".
 
 .. image:: salary_calculation/image04.jpg
@@ -76,7 +77,9 @@ The settings for accrual accounts are entered in the Payroll module, Configurati
 
 3.1. Assignment of Executive Orders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If it is necessary to make deductions from the employee's salary according to executive orders, enter the data in the specific employee's card, in the "Executive Orders" section. Click "Add line" and enter the data. The recipient of the deduction should be described as a partner - in this case, there will be an option to directly form a payment to the bank. Select the deduction percentages. If there are several executive orders for the same employee, enter them all, distributing the percentages accordingly. The date defines from which date the employee's money will be deducted. In the debt section, enter the amount of debt according to the executive order.
+If it is necessary to make deductions from the employee's salary according to executive orders, enter the data in the specific employee's card, in the "Executive Orders" section. 
+
+Click "Add line" and enter the data. The recipient of the deduction should be described as a partner - in this case, there will be an option to directly form a payment to the bank. Select the deduction percentages. If there are several executive orders for the same employee, enter them all, distributing the percentages accordingly. The date defines from which date the employee's money will be deducted. In the debt section, enter the amount of debt according to the executive order.
 
 .. image:: salary_calculation/image12.jpg
     :alt: Executive Orders
@@ -89,6 +92,7 @@ When creating an employment contract, the employee is assigned one of the two so
     :alt: Work Times
 
 In this section, after describing the specific work schedule and assigning it in the employee card, by default, the working time data will be taken from the schedule (considering absences) when calculating payroll.
+
 **IMPORTANT:** In the schedule, pay attention to the function of shortening the pre-holiday day, the function of ignoring holidays, and the working time proportion compared to full time - configure it according to your needs:
 
 .. image:: salary_calculation/image14.jpg
@@ -143,6 +147,7 @@ If it is necessary to enter deviations from the work schedule for a specific emp
     :alt: Additional Time Entry
 
 Select the type of entry and the time from when to when this mark is relevant. Save and confirm the information. An additional line or cell for additional entries will appear in the specific employee's work schedule.
+
 If it is necessary not to add an additional entry but to change the existing one (e.g., to a business trip), go to the existing cell and inside it, change the type of entry and save the change.
 
 .. image:: salary_calculation/image22.jpg
@@ -181,6 +186,7 @@ If it is necessary to enter bonuses or additional amounts payable to the employe
     :alt: Other Earnings
 
 As the type, select the appropriate earning from the list. Based on this type, calculations and tax deductions will be performed, so it is important to choose the correct one. In the "Calculate" column, enter the required amount.
+
 Below the other earnings section, you will also see the "Executive Order" section, where data will be automatically entered if executive orders or deductions are configured in the employee's card, as described above.
 
 .. image:: salary_calculation/image28.jpg
@@ -234,7 +240,9 @@ After performing these actions, depending on whether the payroll was fully or pa
     :alt: Payroll Status
 
 In the case of partial payments, or if there is an overpayment for the employee, you will see them when forming payments for the next month. In this case, when forming payments for the next month, you will be offered to adjust the payable amount by the amount of overpayment/underpayment.
+
 **NOTE:** Data for GPM declarations are loaded based on payment dates, so it is important to perform this action and specify the correct payment date.
+
 **NOTE:** If you notice an error, in the specific employee's payroll, click the "Cancel" button, then "Set to Draft" and you will be returned to the payroll calculation where you can adjust the information.
 
 .. image:: salary_calculation/image39.jpg
@@ -248,6 +256,7 @@ To send payrolls (salary slips) to employees, open the payroll list, mark which 
     :alt: Send Payroll
 
 **NOTE:** Changing the status of payrolls and recalculating them can be done not only one by one but also for all selected at once. For this purpose, in the Employee Payrolls list, mark the relevant entries, choose "Action" and click on the required function.
+
 Payroll can be calculated not only for a specific person but also for a group of employees. In this case, the calculation is performed from the "Work Entries" window. After entering all the necessary changes in the employees' working time, click the "Generate Payrolls" button.
 
 .. image:: salary_calculation/image42.jpg
@@ -437,6 +446,7 @@ After selecting it, specify the year and click the "Generate Declaration File" b
     :alt: Generate GPM 312 File
 
 A file will be created and automatically saved on your computer for upload to the VMI EDS system in ffdata format. To review the data before uploading the file to the system, use ABBYY eFormFiller software.
+
 **NOTE:** When using the Via Laurea Payroll Calculation module, there is an option to include amounts paid to individuals when forming the annual GPM312 declaration. To use this option, when describing an individual contact in the Contacts module, mark it as an individual supplier, select the appropriate point as the license type (Personal Code, IDV number, etc.), and enter the specific number as the IDV number.
 
 .. image:: salary_calculation/image73.jpg
@@ -484,7 +494,8 @@ In the Absences, Configuration section, "Holidays", enter the holidays for the c
 5.2. Assigning Vacations to the Employee
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 When hiring an employee, a set annual vacation norm must be assigned to them. Odoo has the ability to calculate vacations only from the next day. For this reason, when hiring an employee, it is necessary to make 2 entries. The first one is for "accrued vacations" for the first working day, and the second is for standard vacation accrual from the next day.
-Enter vacation assignments in the Absences, Approvals, Assignments section.
+
+Enter vacation assignments in the Absences - Approvals - Assignments section.
 
 .. image:: salary_calculation/image79.jpg
     :alt: Vacation Assignments
@@ -495,13 +506,16 @@ When hiring an employee, create a new assignment:
     :alt: New Assignment
 
 In it, select the type as "Regular Assignment", specify the specific employee in the Employee field, and in the "Duration" field, enter the amount of vacation entitled for the first working day. Approve the entry.
+
 The second assignment is for vacation accrual:
 
 .. image:: salary_calculation/image81.jpg
     :alt: Vacation Accrual
 
 Fill in the assignment similarly, only select "Accrued Assignment" as the type and select the applicable vacation norm for that employee from the list in the Vacation Norms field. After doing this, approve the entry.
+
 If already working employees are uploaded to the Odoo system with already accrued vacations (e.g., previously using other software for payroll), it is also necessary to make 2 entries, as in the hiring case. In this case, in the first entry, enter the already accrued vacations up to this day, following the description of the first working day entry. In the second entry, assign the accrual based on the applicable vacation norm for the employee.
+
 **NOTE:** If you forgot to enter vacation accrual entries when hiring an employee, calculate how many vacations the employee has accrued until this day, and enter the obtained number when entering the regular vacation assignment for the first working day.
 
 5.3. Entering Absences
@@ -511,6 +525,7 @@ When entering employee absences, follow the standard Odoo Absences module instru
 5.4. Reports and Vacation Accruals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In the Absences module, in Reports, you can find standard reports by employee and type of absence, the formation of which is described in the standard Odoo Absences module description.
+
 Additionally, you can see the Vacation Accrual report, which you can generate in pdf format for the specified date.
 
 .. image:: salary_calculation/image82.jpg

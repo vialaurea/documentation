@@ -20,8 +20,10 @@ Installation and Configuration
 Daily Use Scenarios
 -------------------
 
-Creating an employee card:
-Important: The employee card is linked to the "Contacts" module, and when a new employee is created, their data is automatically duplicated into the Contacts module.
+**Creating an employee card:**
+
+**Important:** The employee card is linked to the "Contacts" module, and when a new employee is created, their data is automatically duplicated into the Contacts module.
+
 When entering new employee data, select "New".
 
 .. image:: personnel_accounting/img03.jpg
@@ -43,7 +45,8 @@ It is important to note that departments, positions, etc., can be created not on
 .. image:: personnel_accounting/img06.jpg
     :alt: Creating a New Department
 
-Entering employment contract information:
+**Entering employment contract information:**
+
 To enter employment contract information, select the "Contracts" section in the employee card.
 
 .. image:: personnel_accounting/img07.jpg
@@ -75,7 +78,9 @@ If the 1-SD report will be generated from the Odoo program, specify the correspo
     :alt: 1-SD Report
 
 After entering all the data, save the employment contract.
-Important: If there is a need to change employment contract data, the existing contract is not changed. In the employee card, the old contract is ended, and a new one is created with updated data (e.g., salary, work schedule, etc.).
+
+**Important:** If there is a need to change employment contract data, the existing contract is not changed. In the employee card, the old contract is ended, and a new one is created with updated data (e.g., salary, work schedule, etc.).
+
 All past and current employment contracts can be seen in the employee's employment contract history.
 
 .. image:: personnel_accounting/img13.jpg
