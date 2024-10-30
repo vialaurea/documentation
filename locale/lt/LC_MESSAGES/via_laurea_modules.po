@@ -1230,7 +1230,7 @@ msgid ""
 "You can find the fixed asset inventory act in the reports section of the "
 "Accounting module:"
 msgstr ""
-"Pastovių aktyvų inventorizacijas aktą galite rasti apskaitos modulio "
+"Ilgalaikio turto inventorizacijos aktą rasite Apskaitos modulio "
 "ataskaitų skiltyje:"
 
 msgid "Accounting module reports section"
@@ -1245,12 +1245,12 @@ msgid ""
 "accountant. Click the \"Print\" button, and a document with corresponding"
 " additional document pages (\"covers\") will be generated."
 msgstr ""
-"Renkantis spausdinti aktą, įveskite inventorizacijos ir apskaitos datas į"
-" atsidariusiame lange, rankiniu būdu įrašykite inventorizacijos atlikimo "
-"pagrindą, pasirinkite uždarymo datą, komisijos pirmininką ir komisijos "
-"narius, materialiai atsakingą asmenį ir buhalterį. Spustelėkite mygtuką "
-"„Spausdinti“, ir bus sugeneruotas dokumentas su atitinkamais papildomais "
-"dokumento puslapiais („dangalais“)."
+"Pasirinkus akto spausdinimą, atsidariusiame lange įveskite inventorizacijos "
+"ir apskaitos datas, įrašykite ranka inventorizacijos atlikimo "
+"pagrindą, pasirinkite sudarymo datą, komisijos pirmininką ir komisijos narius, "
+"materialiai atsakingą asmenį ir buhalterį. Spauskite mygtuką "
+"„Spausdinti“ ir bus suformuotas dokumentas su atitinkamais papildomais "
+"dokumento puslapiais („viršeliais“)."
 
 msgid "Enter inventory and accounting dates"
 msgstr "Įveskite atsargų ir apskaitos datas"
@@ -1280,9 +1280,9 @@ msgid ""
 " assign asset objects to employees, enter additional asset information, "
 "and print various reports."
 msgstr ""
-"Modulis pagerina Odoo ilgalaikio turto funkcionalumą, leidžiantį "
-"priskirti turto objektus darbuotojams, įvesti papildomą turto informaciją"
-" ir spausdinti įvairias ataskaitas."
+"Modulis praplečia Odoo ilgalaikio turto funkcionalumą, leidžiant priskirti "
+"turto objektus darbuotojams, įvesti papildomą turto informaciją "
+"ir atspausdinti įvarias ataskaitas."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:12
 msgid ""
@@ -1294,7 +1294,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:15
 msgid "Asset Assignment to an Employee"
-msgstr "Turto priskyrimas darbuotojui"
+msgstr "1. Turto Priskyrimas Darbuotojui"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:17
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:26
@@ -1319,34 +1319,36 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:24
 msgid "Additional Asset Information"
-msgstr "Papildoma ilgalaikio turto informacija"
+msgstr ""
+"2. Papildomos turto informacijos įvedimas, kuri bus naudojama "
+"įvairioms spausdinimo ataskaitoms:"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:27
 msgid ""
 "Select the asset and open it for editing. The status of the asset "
 "(active, draft, or closed) does not matter."
 msgstr ""
-"Pasirinkite turtą ir atidarykite jį redagavimui. Turto statusas (aktyvus,"
-" juodraštis ar uždarytas) nėra svarbus."
+"Pasirinkite turtą, kurį norite priskirti, ir atidarykite turtą redagavimui. "
+"Nėra svarbu, kokios būsenos yra turtas (veikiantis, juodraštis ar uždarytas)."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:28
-#, fuzzy
+#
 msgid "Enter the following additional information:"
-msgstr "Papildoma ilgalaikio turto informacija"
+msgstr "Įveskite šią papildomą informaciją:"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:30
 msgid "**Inventory Number**: Enter the inventory number of the asset."
-msgstr ""
+msgstr "**Inventoriaus numeris:** Įveskite turto inventoriaus numerį."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:31
 msgid ""
 "**Supplier Invoice Reference**: Enter the reference to the related "
 "supplier invoice."
-msgstr ""
+msgstr "**Tiekėjo sąskaitos nuoroda:** Įveskite nuorodą į susijusią tiekėjo sąskaitą."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:32
 msgid "**Commissioning Date**: Select the date when the asset was commissioned."
-msgstr ""
+msgstr "**Eksploatavimo data:** Pasirinkite datą, kada turtas buvo priimtas eksploatacijai."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:37
 msgid "Main Features"
@@ -1374,23 +1376,22 @@ msgid ""
 "Lithuanian market, which can be found in the Accounting module under "
 "Accounting >> Reports >> Via laurea long-term asset reports."
 msgstr ""
-"UAB Via Laurea sukūrė specialias ilgalaikio turto ataskaitas Lietuvos "
-"rinkai, kurios gali būti rastos ataskaitų skyriuje Apskaitos modulyje "
-">>Ataskaitos >> Via laurea ilgalaikio turto ataskaita."
+"UAB Via laurea Lietuvos rinkos poreikiams yra sukūrusi specialias ilgalaikio turto ataskaitas, "
+"kurias galite rasti Apskaitos modulio ataskaitų skiltyje Apskaita >> Ataskaitos >> "
+"Via laurea ilg. turto ataskaitos."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:46
 msgid ""
 "In the report window, you can choose from three different reports: Asset "
 "Card, Commissioning Act, and Write-off Act."
 msgstr ""
-"Pasirinkdami šį skyrių ir Via Laurea ilgalaikio turto ataskaitas, "
-"atidarytame lange galite pasirinkti Turto kortelę, įvedimo aktą ir "
-"nurašymo aktą."
+"Pasirinkus šias Via laurea ilg. turto ataskaitas, atsidariusiame lange galėsite pasirinkti "
+"3 skirtingas ataskaitas: Turto kortelę, Įvedimo į eksploataciją aktą ir Nurašymo aktą:"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:54
-#, fuzzy
+#
 msgid "1. Asset Card"
-msgstr "Turto Kortelė"
+msgstr "1. Turto Kortelė"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:56
 msgid ""
@@ -1398,30 +1399,29 @@ msgid ""
 "specific asset from the list, and set the date for which the card will be"
 " generated."
 msgstr ""
-"Norėdami atspausdinti turto kortelę, pasirinkite reikiamą ataskaitą, "
-"pasirinkite konkretų turtą iš turto sąrašo ir nustatykite datą, kuriai "
-"kortelė bus sugeneruota."
+"Norint atsispausdinti turto kortelę, pasirinkite reikiamą ataskaitą, turto sąraše "
+"konkretų turtą ir nustatykite datą, kuriai bus formuojama minėta kortelė."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:60
 msgid ""
 "Choose the format in which you want to generate the card. The system will"
 " generate an asset card with all the data related to the selected asset."
 msgstr ""
-"Pasirinkite formatą, kuriuo norite sukurti kortelę. Jums bus sugeneruota "
-"turto kortelė su visais su pasirinktu turtu susijusiais duomenimis."
+"Pasirinkite, kokiu formatu norite formuoti kortelę. Jums bus suformuota IT kortelė "
+"su visais duomenimis, susijusiais su pasirinktu IT vienetu."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:64
 msgid ""
 "**Important**: You can select multiple assets, and the system will "
 "generate a combined file with asset cards for all selected items."
 msgstr ""
-"Svarbu: Galite pasirinkti ne vieną turtą, o kelis. Tokiu atveju bus "
-"sugeneruotas vienas failas su visų pasirinktų turtų kortelėmis iš karto."
+"**Svarbu:** galite pasirinkti ne vieną IT vienetą, bet keletą - tokiu atveju "
+"bus suformuotas bendras failas su visų pasirinktų IT vienetų kortelėmis iškart."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:67
-#, fuzzy
+#
 msgid "2. Commissioning Act"
-msgstr "Eksploatavimo perdavimo aktas"
+msgstr "2. Įvedimo į eksploataciją aktas"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:69
 msgid ""
@@ -1431,11 +1431,11 @@ msgid ""
 "window. Assign the materially responsible person. Select the commission "
 "chairman and members from the list."
 msgstr ""
-"Eksploatavimo perdavimo aktas yra paruošiamas, kai turtas pradedamas "
-"naudoti įmonės veiklai. Norėdami jį atspausdinti, atidarytame lange "
-"įveskite akto numerį, pasirinkite konkretų turtą iš sąrašo, nustatykite "
-"datą ir įveskite užsakymo numerį. Paskirkite materialiai atsakingą "
-"asmenį. Pasirinkite komisijos pirmininką ir komisijos narius iš sąrašo."
+"Įvedimo į eksploataciją aktas sudaromas pradedant įmonės veikloje naudoti IT. "
+"Siekiant jį atsispausdinti, įrašykite atsidariusiame lange akto "
+"numerį, pasirinkite konkretų IT iš sąrašo, datą, įrašykite įsakymo numerį. "
+"Priskirkite materialiai atsakingą asmenį. Pasirinkite komisijos pirmininką "
+"ir komisijos narius iš sąrašo."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:73
 msgid ""
@@ -1443,9 +1443,9 @@ msgid ""
 "generate. The data related to the asset will be pulled into the printable"
 " document from the asset card."
 msgstr ""
-"Užpildę visus laukus, pasirinkite dokumento formatą, kuriame norite "
-"sugeneruoti ataskaitą. Informacija apie patį turtą yra įkelta į "
-"atspausdintą dokumentą iš turto kortelės."
+"Užpildžius visus laukelius, pasirinkite dokumento formatą, kuriuo norite "
+"suformuoti ataskaitą. Duomenys apie patį IT įkeliami į spausdinamą "
+"dokumentą iš IT kortelės."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:77
 msgid ""
@@ -1453,14 +1453,13 @@ msgid ""
 "assets, commissioning acts will be generated for all selected items at "
 "once."
 msgstr ""
-"Svarbu: Kaip ir su ankstesnėmis formomis, jei pasirinksite kelis turtus "
-"vienu metu, paleidimo aktai bus sugeneruoti pasirinktiems vienetams vienu"
-" metu."
+"**Svarbu:** Kaip ir su ankstesnėmis formomis, jei pasirinksite kelis turtus vienu "
+"metu, paleidimo aktai bus sugeneruoti pasirinktiems vienetams vienu metu."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:80
-#, fuzzy
+#
 msgid "3. Write-off Act"
-msgstr "Nurašymo aktas"
+msgstr "3. Nurašymo aktas"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:82
 msgid ""
@@ -1471,16 +1470,16 @@ msgid ""
 "fields, you can enter the necessary text that will be displayed in the "
 "document. Generate the document in the required format."
 msgstr ""
-"Nurašymo aktas naudojamas dokumentui, skirtam turto nurašymui, "
-"sugeneruoti. Pasirinkite atitinkamą turto ataskaitą iš sąrašo, įveskite "
-"akto numerį, dokumento bei nurašymo datas, pasirinkite pirmininką ir "
-"komisijos narius. Nurašymo ir komisijos siūlymo skyriuose galite įvesti "
-"reikalingą tekstą, kuris bus rodomas dokumente. Sugeneruokite dokumentą "
-"reikiamu formatu."
+"Nurašymo aktas skirtas suformuoti dokumentą nurašant IT. Pasirinkite "
+"atitinkamą IT ataskaitą iš sąrašo, įrašykite akto numerį, "
+"dokumento ir eksploatavimo nutraukimo datas, pasirinkite komisijos "
+"pirmininką ir narius. Eksploatavimo nutraukimo ir komisijos "
+"pasiūlymo skiltyse galite įrašyti reikiamą tekstą, kuris bus "
+"atvaizduojamas dokumente. Formuokite dokumentą Jums reikalingu formatu."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:86
 msgid "The appropriate document is generated:"
-msgstr "Atitinkamas dokumentas sukurtas:"
+msgstr "Suformuojamas atitinkamas dokumentas:"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:91
 msgid ""
@@ -1488,10 +1487,9 @@ msgid ""
 "document will be generated, and all the written-off items will be listed "
 "in the table in the appendix."
 msgstr ""
-"Svarbu: jei pasirinksite kelis turtus šiame spausdinimo formoje, atskiri "
-"dokumentai nebus generuojami kiekvienam, bet bus sudarytas vienas "
-"dokumentas, kuriame bus išvardyti visi nurašyti vienetai pridėtoje "
-"lentelėje."
+"**Svarbu:** jei šioje spausdinimo formoje pasirinksite keletą IT vienetų, bus "
+"formuojami ne atskiri dokumentai kiekvienam, bet vienas dokumentas ir visi nurašomi "
+"vienetai bus listinguojami priede esančioje lentelėje."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:96
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:47
