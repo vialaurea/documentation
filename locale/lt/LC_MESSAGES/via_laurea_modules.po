@@ -4055,37 +4055,34 @@ msgid ""
 "employee expenses. The department/division manager can also be specified,"
 " and a higher division can be assigned if needed."
 msgstr ""
-"Darbuotojų modulyje įmonės departamentai yra įvedami konfigūracijos "
-"skiltyje, o apskaitos sąskaitos nustatomos darbo užmokesčio kaupimo "
-"įrašams. Tokiu būdu darbo užmokesčio išlaidos gali būti paskirstytos "
-"pagal poreikį, pavyzdžiui, atskiriant gamybos darbuotojų išlaidas nuo "
-"administracijos darbuotojų išlaidų. Taip pat gali būti nurodytas "
-"departamento/skyriaus vadovas ir priskirtas aukštesnis skyrius, jei to "
-"reikia."
+"Darbuotojų modulyje, konfigūracijos skiltyje suvedami įmonės skyriai "
+"ir nustatomos buhalterinės sąskaitos darbo užmokesčio priskaitymo įrašams. "
+"Tokiu būdu galima paskirstyti DU sąnaudas pagal poreikį - pvz. "
+"atskirti gamybos darbuotojų ir administracijos darbuotojų DU sąnaudas. "
+"Taip pat galima nurodyti skyriaus/padalinio vadovą "
+"ir pagal poreikį priskirti aukštesnį padalinį."
 
 msgid "Department Configuration"
 msgstr "Departamento konfigūracija"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:23
-#, fuzzy
+#
 msgid "**Creating an employee card:**"
-msgstr "Naujo darbuotojo kūrimas"
+msgstr "**Darbuotojo kortelės sukūrimas:**"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:25
-#, fuzzy
+#
 msgid ""
 "**Important:** The employee card is linked to the \"Contacts\" module, "
 "and when a new employee is created, their data is automatically "
 "duplicated into the Contacts module."
 msgstr ""
-"Sukurti darbuotojo kortelę: Svarbu: Darbuotojo kortelė yra susieta su "
-"moduliu „Kontaktai“, ir sukūrus naują darbuotoją, jo duomenys "
-"automatiškai dubliuojami į modulį „Kontaktai“. Įvedant naujus darbuotojo "
-"duomenis, pasirinkite „Naujas“."
+"**Svarbu:** darbuotojo kortelė yra susijusi su „Kontaktų“ moduliu "
+"ir sukūrus naują darbuotoją, jo duomenys dubliuojami į Kontaktų modulį automatiškai."
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:27
 msgid "When entering new employee data, select \"New\"."
-msgstr ""
+msgstr "Įvedant naujo darbuotojo duomenis, pasirinkite „Naujas“."
 
 msgid "Creating a New Employee"
 msgstr "Naujo darbuotojo kūrimas"
@@ -4127,32 +4124,32 @@ msgid ""
 " creation of a new department directly from the employee card while "
 "entering data."
 msgstr ""
-"Skiltyje \"Privati informacija\" įveskite duomenis apie išsilavinimą, "
-"sertifikatus, šeimyninę padėtį ir kt. Personalo kortelėje įveskite "
-"mėnesinę avanso sumą, jei taikoma. Vykdomuosiuose įsakymuose įveskite "
-"duomenis apie išskaitymus iš algų pagal vykdomuosius įsakymus. Svarbu "
-"pažymėti, kad departamentai, pareigos ir kt. gali būti sukuriami ne tik "
-"konfigūracijos skyriuje, bet ir tiesiogiai darbuotojo kortelėje. Kai "
-"įvedamas naujas pavadinimas, atsiranda nuoroda \"Kurti ir redaguoti\", "
-"nukreipianti vartotoją į kūrimo langą. Pavyzdyje rodomas naujo "
-"departamento kūrimas tiesiogiai iš darbuotojo kortelės įvedant duomenis."
+"Privačios informacijos skirtuke suvedame duomenis apie išsilavinimą, sertifikatus, "
+"šeimyninę padėtį ir pan. Personalo kortelėje įrašome mokėtiną "
+"avansą kas mėnesį, jei jis bus mokamas. Vykdomuosiuose raštuose "
+"suvedame duomenis apie išskaitymus iš darbo užmokesčio pagal vykdomuosius raštus. "
+"Svarbu pažymėti, jog skyrius, pareigybes ir pan. galima kurti ne tik Konfigūracijos "
+"skiltyje, bet iškart rašant darbuotojo kortelėje. Įvedus naują pavadinimą, "
+"atsiranda \"Create and Edit\" nuoroda, kurią paspaudus vartotojas nukreipiamas "
+"tiesiai į kūrimo langą. Pavyzdyje parodytas naujo skyriaus "
+"kūrimas tiesiai iš darbuotojo kortelės, vedant duomenis."
 
 msgid "Creating a New Department"
 msgstr "Sukurti naują skyrių"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:48
-#, fuzzy
+#
 msgid "**Entering employment contract information:**"
-msgstr "Darbo sutarties istorija"
+msgstr "**Darbo sutarties informacijos įvedimas:**"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:50
-#, fuzzy
+#
 msgid ""
 "To enter employment contract information, select the \"Contracts\" "
 "section in the employee card."
 msgstr ""
-"Įveskite darbo sutarties informaciją: Norėdami įvesti darbo sutarties "
-"informaciją, pasirinkite skiltį \"Sutartys\" darbuotojo kortelėje."
+"Siekiant įvesti darbo sutarties informaciją, darbuotojo "
+"kortelėje pasirenkame skiltį \"Sutartys\"."
 
 msgid "Contracts Section"
 msgstr "Sutarčių skyrius"
@@ -4171,10 +4168,10 @@ msgid ""
 "employment contract, the application/non-application of NPD, and pension "
 "accumulation if the employee contributes to the second pillar pension."
 msgstr ""
-"Pirmajame skirtuke „Sutarties detalės“ būtina nurodyti darbo įrašų "
-"šaltinį, sukonfigūruotą tvarkaraštį, jei jis pasirenkamas, darbo "
-"sutarties tipą, NPD taikymo/netaikymo, ir pensijų kaupimą, jei "
-"darbuotojas prisideda prie antrosios pakopos pensijos."
+"Pirmojoje kortelėje „Sutarties detalės“ būtina nurodyti darbo įrašų šaltinį, "
+"jei pasirenkamas grafikas - sukonfigūruotą grafiką, "
+"DS rūšį, NPD taikymą/netaikymą bei pensijos kaupimą, "
+"jei darbuotojas kaupia II pakopos pensiją."
 
 msgid "Contract Details"
 msgstr "Sutarties Detalės"
@@ -4185,9 +4182,9 @@ msgid ""
 " accounting is applied, mark it and specify the frequency and the start "
 "date of the first period of cumulative accounting."
 msgstr ""
-"Nurodykite atlyginimo informaciją, įskaitant atlyginimą. Jei taikoma "
-"suminė darbo laiko apskaita, pažymėkite tai ir nurodykite pirmo suminės "
-"apskaitos laikotarpio pradžios datą bei dažnumą."
+"Atlyginimo informacijoje nurodomas atlyginimas, jei taikoma suminė darbo "
+"apskaita - pažymima bei nurodomas periodiškumas ir suminės "
+"apskaitos pirmojo laikotarpio pradžios data."
 
 msgid "Salary Information"
 msgstr "Atlyginimo informacija"
@@ -4197,8 +4194,8 @@ msgid ""
 "In the part-time section, if the employee works part-time, enter the "
 "appropriate data."
 msgstr ""
-"Ne visą darbo dieną dirbančių darbuotojų skyriuje, jei darbuotojas dirba "
-"ne visą darbo dieną, įveskite atitinkamus duomenis."
+"Part-time kortelėje, darbuotojui dirbant ne pilnu etatu, "
+"nurodomi atitinkami duomenys."
 
 msgid "Part-time Section"
 msgstr "Dalinės darbo dienos skyrius"
@@ -4215,30 +4212,28 @@ msgid "1-SD Report"
 msgstr "1-SD Ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:80
-#, fuzzy
+#
 msgid "After entering all the data, save the employment contract."
-msgstr "Įveskite mokėjimo data ir patvirtinkite:"
+msgstr "Suvedus visus duomenis, darbo sutartis išsaugoma."
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:82
-#, fuzzy
+#
 msgid ""
 "**Important:** If there is a need to change employment contract data, the"
 " existing contract is not changed. In the employee card, the old contract"
 " is ended, and a new one is created with updated data (e.g., salary, work"
 " schedule, etc.)."
 msgstr ""
-"Įvedus visus duomenis, išsaugokite darbo sutartį. Svarbu: jei reikia "
-"keisti darbo sutarties duomenis, esama sutartis nėra keičiama. Darbuotojo"
-" kortelėje senoji sutartis yra baigiama ir sukuriama nauja su "
-"atnaujintais duomenimis (pvz., atlyginimu, darbo grafiku ir kt.). Visos "
-"praeities ir dabartinės darbo sutartys gali būti matomos darbuotojo darbo"
-" sutarčių istorijoje."
+"**Svarbu:** esant poreikiui keisti darbo sutarties duomenis, nėra "
+"keičiama jau egzistuojanti sutartis. Darbuotojo kortelėje senoji sutartis "
+"užbaigiama ir formuojama nauja su atnaujintais duomenimis "
+"(pvz. atlyginimų, darbo laiko grafikų ir pan.)."
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:84
 msgid ""
 "All past and current employment contracts can be seen in the employee's "
 "employment contract history."
-msgstr ""
+msgstr "Visas buvusias ir esamą/aktualią DS galima matyti darbuotojo darbo sutarčių istorijoje."
 
 msgid "Employment Contract History"
 msgstr "Darbo sutarties istorija"
