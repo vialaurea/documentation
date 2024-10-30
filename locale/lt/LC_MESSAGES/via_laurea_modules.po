@@ -5790,7 +5790,7 @@ msgstr "Šis modulis sąveikauja su apskaita, darbuotojais, nebuvimais ir planav
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:2
 msgid "Shift work scheduling"
-msgstr "Pamainų darbo grafikas"
+msgstr "Pamaininio darbo laiko planavimas"
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:7
 msgid ""
@@ -5798,21 +5798,21 @@ msgid ""
 "enabling a broader application of this module for Lithuanian work time "
 "accounting needs."
 msgstr ""
+"UAB Via laurea sukurtas įskiepis į standartinį Planavimo modulį "
+"įgalina platesnį šio modulio pritaikymą Lietuvos darbo laiko apskaitos reikmėms."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:9
-#, fuzzy
+#
 msgid ""
 "The Planning module is intended for creating work schedules and shifts, "
 "accurately determining work hours when the work time is irregular or "
 "cumulative work time accounting is applied. The following module is used "
 "for planning:"
 msgstr ""
-"UAB „Via Laurea“ sukūrė papildinį standartiniam Planavimo moduliui, "
-"leidžiantį plačiau naudoti šį modulį Lietuvos darbo laiko apskaitos "
-"poreikiams. Planavimo modulis skirtas darbo grafikams ir pamainoms kurti,"
-" tiksliai nustatyti darbo valandas, kai darbo laikas yra nereguliarus "
-"arba taikoma suminė darbo laiko apskaita. Šis modulis naudojamas "
-"planavimui:"
+"Planavimas skirtas darbo grafikų ir pamainų sudarymui, tiksliam "
+"darbo laiko nustatymui, kai darbo laikas yra nepastovus "
+"arba taikoma suminė darbo laiko apskaita. "
+"Planavimui naudojamas šis modulis:"
 
 msgid "Planning Module"
 msgstr "Planavimo modulis"
@@ -5826,28 +5826,28 @@ msgid ""
 "In the Planning module, you can create shift templates and individual "
 "schedules for a specific selected employee."
 msgstr ""
-"Planuojant skyrių, galite kurti pamainų šablonus ir individualius "
-"tvarkaraščius konkrečiam pasirinktajam darbuotojui."
+"Planavimo modulyje galima sukurti darbo pamainų ruošinius bei kurti "
+"individualų grafiką konkrečiam pasirinktam darbuotojui."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:19
-#, fuzzy
+#
 msgid "Creating a Template:"
-msgstr "Naujo darbuotojo kūrimas"
+msgstr "Ruošinio kūrimas:"
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:21
-#, fuzzy
+#
 msgid ""
 "In the Planning module, in the configuration section, select \"Work "
 "Schedule Templates\":"
 msgstr ""
-"Šablono kūrimas: Planavimo modulyje, konfigūracijos skyriuje, pasirinkite"
-" \"Darbo grafiko šablonai\":"
+"Planavimo modulyje, konfigūracijos skiltyje pasirinkite"
+"\"Darbo grafiko šablonai\":"
 
 msgid "Work Schedule Templates"
 msgstr "Darbo grafiko šablonai"
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:26
-#, fuzzy
+#
 msgid ""
 "In the opened window, create shifts according to your needs and save. "
 "Note that an Odoo day is divided into morning and afternoon parts, "
@@ -5857,18 +5857,13 @@ msgid ""
 "to select one. In the work time accounting sheets, morning or afternoon "
 "is not reflected; it is only used in schedule creation."
 msgstr ""
-"Atidarytame lange sukurkite pamainas pagal savo poreikius ir išsaugokite."
-" Atkreipkite dėmesį, kad Odoo diena yra padalinta į rytinę ir popietinę "
-"dalis, leidžiančias nustatyti pietų pertraukos laiką. Dėl šios "
-"priežasties ta pačia diena yra įrašytos dvi eilutės, kaip parodyta "
-"pavyzdyje. Jei darbuotojas dirba be pietų pertraukos, galite pasirinkti "
-"tik vieną dalį, tačiau būtina pasirinkti vieną. Darbo laiko apskaitos "
-"lapuose ryto ar popietės laikas nėra atspindėtas; tai naudojama tik "
-"tvarkaraščio sukūrimui. Svarbu: jei dirbate rotaciniu grafiku (pvz., 2 "
-"dienos darbo ir 2 poilsio dienos) - aprašykite poilsio dienas "
-"tvarkaraščio šablone. Šiuo atveju, paskyrdami tvarkaraštį darbuotojui, "
-"galite pasirinkti pakartojimų skaičių, leidžiantį automatiškai sukurti "
-"būsimus tvarkaraščius."
+"Atsidariusiame lange kurkite pamainas pagal Jūsų poreikius ir išsaugokite. "
+"Atkreipkite dėmesį, jog Odoo diena skirstoma į ryto ir popietės dalis, "
+"suteikiant galimybę apibrėžti pietų pertraukos laiką. "
+"Dėl šios priežasties tai pačiai dienai vedamos 2 eilutės, kaip parodyta pavyzdyje. "
+"Jei darbuotojas dirba be pietų pertraukos, galite pasirinkti tik vieną dalį, tačiau "
+"ją pasirinkti būtina. Darbo laiko apskaitos žiniaraščiuose "
+"rytas ar popietė neatsispindi, tai naudojama tik grafiko kūrime."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:28
 msgid ""
@@ -5877,20 +5872,22 @@ msgid ""
 " assigning a schedule to an employee, you can choose the number of "
 "repetitions, allowing you to automatically create future schedules."
 msgstr ""
+"Svarbu: jei dirbama slenkančiu grafiku (pvz. 2 dienas dirbama ir 2 dienos laisvos) - grafiko "
+"šablone aprašykite ir laisvas dienas. Tokiu atveju, priskirdami darbuotojui "
+"grafiką, galėsite pasirinkti grafiko pasikartojimų skaičių, kas Jums "
+"leis automatiškai suformuoti ateities grafikus."
 
 msgid "Shift Template Creation"
 msgstr "Pamainos Šablono Sukūrimas"
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:33
-#, fuzzy
+#
 msgid "To assign a schedule to a specific employee, there are two options:"
-msgstr ""
-"Norėdami priskirti grafiką konkrečiam darbuotojui, turite dvi galimybes: "
-"1. Galite pasirinkti Tvarkaraštis/Planavimo pamaina:"
+msgstr "Norint priskirti grafiką konkrečiam darbuotojui, galimi 2 keliai:"
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:35
 msgid "You can select Schedule/Plan Shift:"
-msgstr ""
+msgstr "1. Galite rinktis Suplanuoti/Planuoti pamainą:"
 
 msgid "Plan Shift"
 msgstr "Plano keitimas"
@@ -5915,8 +5912,8 @@ msgid ""
 "A similar planning window can also be accessed using the \"Plan Shift\" "
 "button:"
 msgstr ""
-"Panašus planavimo langas taip pat gali būti pasiekiamas naudojant mygtuką"
-" \"Planavimo pamaina\":"
+"2. Analogišką planavimo langą galite išsikviesti ir naudodami mygtuką "
+"\"Planavimo pamaina\":"
 
 msgid "Plan Shift Button"
 msgstr "Plano Keitimo Mygtukas"
@@ -5930,12 +5927,12 @@ msgid ""
 "an individual schedule by adding lines. After finishing the planning, "
 "click \"Plan Shift.\""
 msgstr ""
-"Jei neįmanoma sudaryti pamainų tvarkaraščių pagal jūsų poreikius, "
-"planavimas konkrečiam darbuotojui gali būti atliktas tiesiai atidarytoje "
-"pamainos lange, įvedant atitinkamą informaciją konkrečiam darbuotojui. "
-"Tokiu atveju nepaisykite darbo tvarkaraščio šablono, o įveskite "
-"individualią tvarkaraštį, pridėdami eilutes. Baigę planavimą, "
-"spustelėkite \"Planuoti pamainą.\""
+"Jei pagal Jūsų poreikius nėra tikslinga kurti pamainų grafikus, planavimą "
+"konkrečiam darbuotojui galima atlikti tiesiogiai atsidariusiame pamainos "
+"lange, įvedant konkrečiam darbuotojui tinkamą informaciją. "
+"Tokiu atveju nesirinkite darbo grafiko šablono, bet veskite "
+"individualų grafiką pridėdami eilutes. Baigę planavimą "
+"spauskite \"Planuoti pamainą.\""
 
 msgid "Individual Schedule Planning"
 msgstr "Individualus tvarkaraščio planavimas"
@@ -5946,10 +5943,10 @@ msgid ""
 " the employees and period in the opened window, enabling you to send the "
 "employee their schedule via email and send data to the Payroll module."
 msgstr ""
-"Baigę pamainų planavimą, pasirinkite mygtuką \"Paskelbti\", "
-"atsidariusiame lange pasirinkite darbuotojus ir laikotarpį, leidžiantį "
-"jums nusiųsti darbuotojui jų tvarkaraštį el. paštu ir išsiųsti duomenis į"
-" atlyginimų modulį."
+"Pabaigus pamainos planavimą, rinkitės mygtuką \"Skelbti\", "
+"atsidariusiame lange pasirinkite darbuotojus, laikotarpį, "
+"kas įgalina išsiųsti darbuotojui jo grafiką el.paštu ir nusiunčia "
+"duomenis į Algalapio modulį."
 
 msgid "Publish Button"
 msgstr "Skelbti mygtuką"
@@ -5959,8 +5956,8 @@ msgid ""
 "When the \"Publish\" button is selected, the schedule is not sent via "
 "email, but the data is sent to the Payroll module."
 msgstr ""
-"Kai pasirinktas mygtukas „Publikuoti“, grafikas nėra siunčiamas el. "
-"paštu, tačiau duomenys yra siunčiami į atlyginimų modulį."
+"Pasirinkus mygtuką „Skelbti“, grafikas nėra siunčiamas el. paštu, "
+"bet duomenys nusiunčiami į Algalapio modulį."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:65
 msgid ""
