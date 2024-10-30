@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-24 14:04+0000\n"
+"POT-Creation-Date: 2024-10-30 12:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -407,7 +407,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:32
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:32
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:13
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:49
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:51
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:40
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:27
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:32
@@ -498,7 +498,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:45
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:59
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:63
 msgid "Integrations and Connections with Other Modules"
 msgstr ""
 
@@ -520,7 +520,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:75
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:78
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:92
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:94
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:45
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:34
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:65
@@ -999,81 +999,92 @@ msgid "Select the asset and open it for editing. The status of the asset (active
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:28
-msgid "Enter the following additional information: - **Inventory Number**: Enter the inventory number of the asset. - **Supplier Invoice Reference**: Enter the reference to the related supplier invoice. - **Commissioning Date**: Select the date when the asset was commissioned."
+msgid "Enter the following additional information:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:36
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:30
+msgid "**Inventory Number**: Enter the inventory number of the asset."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:31
+msgid "**Supplier Invoice Reference**: Enter the reference to the related supplier invoice."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:32
+msgid "**Commissioning Date**: Select the date when the asset was commissioned."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:37
 msgid "Main Features"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:38
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:39
 msgid "If an employee to whom the asset is assigned leaves the company or is assigned another asset, you should update the long-term asset record by removing or changing the \"Assigned to Employee\" field."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:41
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:42
 #: ../../content/via_laurea_modules/accounting/reports.rst:2
 #: ../../content/via_laurea_modules/inventory/reports.rst:2
 msgid "Reports"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:43
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:44
 msgid "Via laurea has developed special long-term asset reports for the Lithuanian market, which can be found in the Accounting module under Accounting >> Reports >> Via laurea long-term asset reports."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:44
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:46
 msgid "In the report window, you can choose from three different reports: Asset Card, Commissioning Act, and Write-off Act."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:52
-msgid "Asset Card"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:54
+msgid "1. Asset Card"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:54
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:56
 msgid "To print an asset card, select the appropriate report, choose the specific asset from the list, and set the date for which the card will be generated."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:58
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:60
 msgid "Choose the format in which you want to generate the card. The system will generate an asset card with all the data related to the selected asset."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:62
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:64
 msgid "**Important**: You can select multiple assets, and the system will generate a combined file with asset cards for all selected items."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:65
-msgid "Commissioning Act"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:67
+msgid "2. Commissioning Act"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:67
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:69
 msgid "The Commissioning Act is created when an asset starts being used in the company's operations. To print it, enter the act number, select the specific asset from the list, date, and order number in the opened window. Assign the materially responsible person. Select the commission chairman and members from the list."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:71
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:73
 msgid "After filling in all the fields, choose the document format you want to generate. The data related to the asset will be pulled into the printable document from the asset card."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:75
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:77
 msgid "**Important**: Similar to the previous form, if you select multiple assets, commissioning acts will be generated for all selected items at once."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:78
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:2
-msgid "Write-off Act"
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:80
+msgid "3. Write-off Act"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:80
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:82
 msgid "The Write-off Act is used to generate a document for writing off an asset. Select the appropriate asset report from the list, enter the act number, document and decommissioning dates, and select the commission chairman and members. In the decommissioning and commission proposal fields, you can enter the necessary text that will be displayed in the document. Generate the document in the required format."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:84
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:86
 msgid "The appropriate document is generated:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:89
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:91
 msgid "**Important**: If you select multiple assets in this form, a single document will be generated, and all the written-off items will be listed in the table in the appendix."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:94
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:96
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:47
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:67
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:36
@@ -2323,6 +2334,10 @@ msgstr ""
 msgid "Report format options"
 msgstr ""
 
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:2
+msgid "Write-off Act"
+msgstr ""
+
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:7
 msgid "Extension of the standard Odoo functionality for scrapping: the ability to print a scrap report."
 msgstr ""
@@ -2542,14 +2557,22 @@ msgid "Department Configuration"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:23
-msgid "Creating an employee card: Important: The employee card is linked to the \"Contacts\" module, and when a new employee is created, their data is automatically duplicated into the Contacts module. When entering new employee data, select \"New\"."
+msgid "**Creating an employee card:**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:25
+msgid "**Important:** The employee card is linked to the \"Contacts\" module, and when a new employee is created, their data is automatically duplicated into the Contacts module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:27
+msgid "When entering new employee data, select \"New\"."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:None
 msgid "Creating a New Employee"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:30
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:32
 msgid "Enter the employee data in the opened card:"
 msgstr ""
 
@@ -2557,7 +2580,7 @@ msgstr ""
 msgid "Enter Employee Data"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:35
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:37
 msgid "In the \"Work Information\" tab, fill in the responsible person who will approve absence records and timesheets. Entries from the assigned department/division data are automatically filled in, but they can be changed if necessary. Choose the work schedule that matches the specific employee's working hours."
 msgstr ""
 
@@ -2565,7 +2588,7 @@ msgstr ""
 msgid "Work Information Tab"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:40
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:42
 msgid "In the \"Private Information\" tab, enter data about education, certificates, marital status, etc. In the personnel card, enter the advance payment to be paid monthly, if applicable. In the executive orders, enter data about deductions from wages according to executive orders. It is important to note that departments, positions, etc., can be created not only in the Configuration section but also directly in the employee card. When a new name is entered, a \"Create and edit\" link appears, directing the user to the creation window. The example shows the creation of a new department directly from the employee card while entering data."
 msgstr ""
 
@@ -2573,15 +2596,19 @@ msgstr ""
 msgid "Creating a New Department"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:46
-msgid "Entering employment contract information: To enter employment contract information, select the \"Contracts\" section in the employee card."
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:48
+msgid "**Entering employment contract information:**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:50
+msgid "To enter employment contract information, select the \"Contracts\" section in the employee card."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:None
 msgid "Contracts Section"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:52
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:55
 msgid "In the opened window, click \"Create\"."
 msgstr ""
 
@@ -2589,7 +2616,7 @@ msgstr ""
 msgid "Create Contract"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:57
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:60
 msgid "In the first tab \"Contract Details\", it is necessary to specify the source of work entries, the configured schedule if chosen, the type of employment contract, the application/non-application of NPD, and pension accumulation if the employee contributes to the second pillar pension."
 msgstr ""
 
@@ -2597,7 +2624,7 @@ msgstr ""
 msgid "Contract Details"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:62
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:65
 msgid "In the salary information, specify the salary. If cumulative working time accounting is applied, mark it and specify the frequency and the start date of the first period of cumulative accounting."
 msgstr ""
 
@@ -2605,7 +2632,7 @@ msgstr ""
 msgid "Salary Information"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:67
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:70
 msgid "In the part-time section, if the employee works part-time, enter the appropriate data."
 msgstr ""
 
@@ -2613,7 +2640,7 @@ msgstr ""
 msgid "Part-time Section"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:72
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:75
 msgid "If the 1-SD report will be generated from the Odoo program, specify the corresponding points:"
 msgstr ""
 
@@ -2622,8 +2649,16 @@ msgstr ""
 msgid "1-SD Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:77
-msgid "After entering all the data, save the employment contract. Important: If there is a need to change employment contract data, the existing contract is not changed. In the employee card, the old contract is ended, and a new one is created with updated data (e.g., salary, work schedule, etc.). All past and current employment contracts can be seen in the employee's employment contract history."
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:80
+msgid "After entering all the data, save the employment contract."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:82
+msgid "**Important:** If there is a need to change employment contract data, the existing contract is not changed. In the employee card, the old contract is ended, and a new one is created with updated data (e.g., salary, work schedule, etc.)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:84
+msgid "All past and current employment contracts can be seen in the employee's employment contract history."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:None
@@ -2671,18 +2706,22 @@ msgid "Accounting Tab"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:28
-msgid "You can also choose whether to show this line in the payroll form and, if needed, select an analytical account. If you want to use different accounting accounts for different employees based on their departments, check the box \"Use department accounts\"."
+msgid "You can also choose whether to show this line in the payroll form and, if needed, select an analytical account."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:30
+msgid "If you want to use different accounting accounts for different employees based on their departments, check the box \"Use department accounts\"."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Use Department Accounts"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:34
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:35
 msgid "In this case, the accounting entries settings are done in the departments, which can be found in the Employees module, Configuration."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:39
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:40
 msgid "Create a department card and specify the payroll debit and credit accounts in it. Standard entries, such as GPM deductions from employees, remain common for all company employees."
 msgstr ""
 
@@ -2690,15 +2729,15 @@ msgstr ""
 msgid "Department Payroll Accounts"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:44
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:45
 msgid "**IMPORTANT:** If you use department accounting entries, the employee must be assigned to one of the existing departments in the employee card."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:47
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:48
 msgid "2.2. Entry of Monthly Working Hours, if Cumulative Working Time Accounting is Applied"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:48
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:49
 msgid "If at least one employee is subject to cumulative working time accounting, it is necessary to enter the number of working hours for the corresponding months before performing the first calculations. This is done in the Payroll module, Configuration, Cumulative Working Time section."
 msgstr ""
 
@@ -2706,7 +2745,7 @@ msgstr ""
 msgid "Cumulative Working Time"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:53
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:54
 msgid "In the opened window, create new years and within them, by adding a line, enter the corresponding number of working hours for each month according to the calendar."
 msgstr ""
 
@@ -2718,11 +2757,11 @@ msgstr ""
 msgid "Working Hours for the Month"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:61
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:62
 msgid "2.3. Configuration, if Advances are Paid to Employees"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:62
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:63
 msgid "If the company pays advances to employees, the accounting accounts used for them are set in the Payroll module, Configuration, Settings section, by entering the corresponding accounting accounts. For advance payments, an interim account should be used, e.g., 273 (money in transit)."
 msgstr ""
 
@@ -2730,11 +2769,11 @@ msgstr ""
 msgid "Interim Account for Advances"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:68
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:69
 msgid "2.4. Configuration of Vacation Accruals"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:69
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:70
 msgid "The settings for accrual accounts are entered in the Payroll module, Configuration, Settings section, specifying the appropriate accounting accounts according to your chart of accounts:"
 msgstr ""
 
@@ -2742,27 +2781,31 @@ msgstr ""
 msgid "Vacation Accrual Accounts"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:75
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:76
 msgid "3. Main Functions"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:78
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:79
 msgid "3.1. Assignment of Executive Orders"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:79
-msgid "If it is necessary to make deductions from the employee's salary according to executive orders, enter the data in the specific employee's card, in the \"Executive Orders\" section. Click \"Add line\" and enter the data. The recipient of the deduction should be described as a partner - in this case, there will be an option to directly form a payment to the bank. Select the deduction percentages. If there are several executive orders for the same employee, enter them all, distributing the percentages accordingly. The date defines from which date the employee's money will be deducted. In the debt section, enter the amount of debt according to the executive order."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:80
+msgid "If it is necessary to make deductions from the employee's salary according to executive orders, enter the data in the specific employee's card, in the \"Executive Orders\" section."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:82
+msgid "Click \"Add line\" and enter the data. The recipient of the deduction should be described as a partner - in this case, there will be an option to directly form a payment to the bank. Select the deduction percentages. If there are several executive orders for the same employee, enter them all, distributing the percentages accordingly. The date defines from which date the employee's money will be deducted. In the debt section, enter the amount of debt according to the executive order."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Executive Orders"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:85
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:88
 msgid "3.2. Creation of Standard Work Schedules"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:86
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:89
 msgid "When creating an employment contract, the employee is assigned one of the two sources of work records - either a Work Schedule or the Planning module. Information about the creation of schedules in the Planning module can be found in the Shift Work Time Accounting Instructions. Standard, regular work schedules are described in the Payroll module, Configuration, in the \"Work Times\" section."
 msgstr ""
 
@@ -2770,15 +2813,19 @@ msgstr ""
 msgid "Work Times"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:91
-msgid "In this section, after describing the specific work schedule and assigning it in the employee card, by default, the working time data will be taken from the schedule (considering absences) when calculating payroll. **IMPORTANT:** In the schedule, pay attention to the function of shortening the pre-holiday day, the function of ignoring holidays, and the working time proportion compared to full time - configure it according to your needs:"
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:94
+msgid "In this section, after describing the specific work schedule and assigning it in the employee card, by default, the working time data will be taken from the schedule (considering absences) when calculating payroll."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:96
+msgid "**IMPORTANT:** In the schedule, pay attention to the function of shortening the pre-holiday day, the function of ignoring holidays, and the working time proportion compared to full time - configure it according to your needs:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Work Schedule Configuration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:97
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:101
 msgid "In the schedule, specify the exact start and end times of work and the lunch break, as shown in the example. Odoo typically divides the working day into two parts: morning and afternoon. **NOTE:** If, when creating a new employment contract, it turns out that there is no suitable work schedule - you can create it directly from the employee card, entering the name of the new schedule in the work schedule line and clicking the \"Create and edit\" link - you will be taken to the schedule creation window, just as when describing schedules in the Payroll module."
 msgstr ""
 
@@ -2786,11 +2833,11 @@ msgstr ""
 msgid "Create and Edit Work Schedule"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:104
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:108
 msgid "3.3. Assigning Sodra Ceilings to the Employee"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:105
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:109
 msgid "Upon receiving a notice from Sodra that a specific employee's salary has reached the Sodra ceiling level and, in the current year, a lower VSDFV contribution rate must be applied, this is indicated in the employee card, in the \"Personnel Settings\" section, by checking the box for \"Reached Sodra Ceiling.\""
 msgstr ""
 
@@ -2798,27 +2845,27 @@ msgstr ""
 msgid "Sodra Ceilings"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:110
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:114
 msgid "**NOTE:** After the end of the year and the calculation of the previous year's December salary, before calculating the first salary of the current year, it is necessary to remove this check mark in the card to restore the standard Sodra contribution rates for the employee."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:113
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:117
 msgid "4. Daily Scenarios and Calculation Process"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:116
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:120
 msgid "4.1. Entering Absences"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:117
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:121
 msgid "Before performing payroll calculations, check if the absence data for the specific calculation month have been entered and approved by the manager in the Absences module: vacations, parental leave, sickness, etc. More information on how to do this can be found in the Absence Registration Instructions."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:120
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:124
 msgid "4.2. Checking for Duplicate Entries"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:121
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:125
 msgid "Before calculating payroll, check for overlapping work entries, for example, if the employee has entered vacations and sickness for the same dates. Do this in the Payroll module, in Work Entries, selecting the \"Conflicts\" section and setting the appropriate month. If there are conflicts/inconsistencies, adjust the entries in the respective module accordingly."
 msgstr ""
 
@@ -2826,11 +2873,11 @@ msgstr ""
 msgid "Check for Conflicts"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:127
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:131
 msgid "4.3. Review and Corrections of the Work Time Ledger"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:128
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:132
 msgid "Before calculating salaries, review the work entries for the corresponding month. Data in this table come from work schedules, the Absences module, and the Planning module."
 msgstr ""
 
@@ -2839,7 +2886,7 @@ msgstr ""
 msgid "Work Time Ledger"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:133
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:137
 msgid "Note that if the salary has already been calculated and approved for a specific employee, you will see a black corner in the work entries."
 msgstr ""
 
@@ -2847,7 +2894,7 @@ msgstr ""
 msgid "Black Corner Indicator"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:138
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:142
 msgid "If it is necessary to enter deviations from the work schedule for a specific employee, such as night hours, overtime work, etc., this can be done on the specific day and the specific employee's work entry. If you are adding additional time, click \"+\" and enter the information in the opened window."
 msgstr ""
 
@@ -2859,23 +2906,27 @@ msgstr ""
 msgid "Additional Time Entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:145
-msgid "Select the type of entry and the time from when to when this mark is relevant. Save and confirm the information. An additional line or cell for additional entries will appear in the specific employee's work schedule. If it is necessary not to add an additional entry but to change the existing one (e.g., to a business trip), go to the existing cell and inside it, change the type of entry and save the change."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:149
+msgid "Select the type of entry and the time from when to when this mark is relevant. Save and confirm the information. An additional line or cell for additional entries will appear in the specific employee's work schedule."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:151
+msgid "If it is necessary not to add an additional entry but to change the existing one (e.g., to a business trip), go to the existing cell and inside it, change the type of entry and save the change."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Change Existing Entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:151
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:156
 msgid "**NOTE:** If, after making changes, you click the \"Recreate Work Entries\" button and select the employee or several employees affected by these manual changes - the changes will be canceled, and the initial information from the Absences module and the schedule will be reloaded."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:154
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:159
 msgid "4.4. Payroll Calculation"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:155
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:160
 msgid "After checking the work entries and entering all additional hours, perform the payroll calculation. You can do this from the work entries window by clicking the \"Generate Payrolls\" button."
 msgstr ""
 
@@ -2883,7 +2934,7 @@ msgstr ""
 msgid "Generate Payrolls"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:160
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:165
 msgid "In this case, payrolls for the respective month will be formed for the entire group of employees. It is also possible to create a payroll for a specific employee. In the Payrolls section, select \"All Payrolls\" and click \"New\"."
 msgstr ""
 
@@ -2891,7 +2942,7 @@ msgstr ""
 msgid "Create New Payroll"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:166
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:171
 msgid "In any of the mentioned cases, draft payrolls for each employee will be created. In the payroll, you will see the gross salary, as well as vacation pay, sickness benefits, etc., if any, and additional payments for night hours, overtime, etc."
 msgstr ""
 
@@ -2899,7 +2950,7 @@ msgstr ""
 msgid "Payroll Details"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:171
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:176
 msgid "To check all earnings and deductions, you can open the \"Salary Calculation\" tab in this draft and see all earnings and deductions and the amount to be paid."
 msgstr ""
 
@@ -2907,11 +2958,11 @@ msgstr ""
 msgid "Salary Calculation Tab"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:177
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:182
 msgid "4.5. Entering Additional Bonuses, Such as Per Diems, Bonuses, In-Kind Income, etc."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:178
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:183
 msgid "If it is necessary to enter bonuses or additional amounts payable to the employee, this can be done in the payroll calculation draft for the specific employee, in the \"Other Earnings\" section."
 msgstr ""
 
@@ -2919,15 +2970,19 @@ msgstr ""
 msgid "Other Earnings"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:183
-msgid "As the type, select the appropriate earning from the list. Based on this type, calculations and tax deductions will be performed, so it is important to choose the correct one. In the \"Calculate\" column, enter the required amount. Below the other earnings section, you will also see the \"Executive Order\" section, where data will be automatically entered if executive orders or deductions are configured in the employee's card, as described above."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:188
+msgid "As the type, select the appropriate earning from the list. Based on this type, calculations and tax deductions will be performed, so it is important to choose the correct one. In the \"Calculate\" column, enter the required amount."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:190
+msgid "Below the other earnings section, you will also see the \"Executive Order\" section, where data will be automatically entered if executive orders or deductions are configured in the employee's card, as described above."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Executive Orders Section"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:189
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:195
 msgid "After entering all additional bonuses, to recalculate the payroll including them, click the \"Calculate Sheet\" button."
 msgstr ""
 
@@ -2935,11 +2990,11 @@ msgstr ""
 msgid "Calculate Sheet"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:195
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:201
 msgid "4.6. Approval of Payroll, Sending by Email, Forming Payments, Marking Payment, Controlling Overpayments"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:196
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:202
 msgid "After recalculating the payroll, click the \"Create Accounting Entry\" button."
 msgstr ""
 
@@ -2947,7 +3002,7 @@ msgstr ""
 msgid "Create Accounting Entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:201
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:207
 msgid "By clicking this button, you will send the payroll data to the Accounting module's general ledger. After creating the accounting entry, form an entry in the bank for payment. Click \"Create Payment Report\", select the bank set in your accounting module where you will make the payment, and confirm. An attached file for sending payments to the bank will be created in the Accounting module."
 msgstr ""
 
@@ -2963,7 +3018,7 @@ msgstr ""
 msgid "Bank Payment Entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:211
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:217
 msgid "After making the payment, it needs to be recorded for the specific payroll. As long as the payroll is not marked as paid, its status is \"Done\". To mark the payment, open the list of payrolls and mark the payrolls you want to change the status to \"Paid\"."
 msgstr ""
 
@@ -2971,7 +3026,7 @@ msgstr ""
 msgid "Mark Payrolls as Paid"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:216
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:222
 msgid "After marking the desired payroll (or several), click \"Action\" and select \"Mark as Paid\"."
 msgstr ""
 
@@ -2979,7 +3034,7 @@ msgstr ""
 msgid "Action Menu"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:221
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:227
 msgid "Enter the date of the payment and confirm."
 msgstr ""
 
@@ -2987,7 +3042,7 @@ msgstr ""
 msgid "Payment Date"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:226
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:232
 msgid "If a partial payment was made, check the box \"Is Partial Payment\" and manually enter the paid amount in the opened table, then confirm."
 msgstr ""
 
@@ -2995,7 +3050,7 @@ msgstr ""
 msgid "Partial Payment"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:231
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:237
 msgid "After performing these actions, depending on whether the payroll was fully or partially paid, its status will change in the payroll list."
 msgstr ""
 
@@ -3003,8 +3058,16 @@ msgstr ""
 msgid "Payroll Status"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:236
-msgid "In the case of partial payments, or if there is an overpayment for the employee, you will see them when forming payments for the next month. In this case, when forming payments for the next month, you will be offered to adjust the payable amount by the amount of overpayment/underpayment. **NOTE:** Data for GPM declarations are loaded based on payment dates, so it is important to perform this action and specify the correct payment date. **NOTE:** If you notice an error, in the specific employee's payroll, click the \"Cancel\" button, then \"Set to Draft\" and you will be returned to the payroll calculation where you can adjust the information."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:242
+msgid "In the case of partial payments, or if there is an overpayment for the employee, you will see them when forming payments for the next month. In this case, when forming payments for the next month, you will be offered to adjust the payable amount by the amount of overpayment/underpayment."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:244
+msgid "**NOTE:** Data for GPM declarations are loaded based on payment dates, so it is important to perform this action and specify the correct payment date."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:246
+msgid "**NOTE:** If you notice an error, in the specific employee's payroll, click the \"Cancel\" button, then \"Set to Draft\" and you will be returned to the payroll calculation where you can adjust the information."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
@@ -3015,7 +3078,7 @@ msgstr ""
 msgid "Set to Draft"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:245
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:253
 msgid "To send payrolls (salary slips) to employees, open the payroll list, mark which payrolls you want to send, select \"Action\" and choose \"Send Payroll\" - the selected payrolls will be sent to the respective employees to the email addresses specified in their cards."
 msgstr ""
 
@@ -3023,15 +3086,19 @@ msgstr ""
 msgid "Send Payroll"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:250
-msgid "**NOTE:** Changing the status of payrolls and recalculating them can be done not only one by one but also for all selected at once. For this purpose, in the Employee Payrolls list, mark the relevant entries, choose \"Action\" and click on the required function. Payroll can be calculated not only for a specific person but also for a group of employees. In this case, the calculation is performed from the \"Work Entries\" window. After entering all the necessary changes in the employees' working time, click the \"Generate Payrolls\" button."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:258
+msgid "**NOTE:** Changing the status of payrolls and recalculating them can be done not only one by one but also for all selected at once. For this purpose, in the Employee Payrolls list, mark the relevant entries, choose \"Action\" and click on the required function."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:260
+msgid "Payroll can be calculated not only for a specific person but also for a group of employees. In this case, the calculation is performed from the \"Work Entries\" window. After entering all the necessary changes in the employees' working time, click the \"Generate Payrolls\" button."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Generate Payrolls for Group"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:256
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:265
 msgid "In Payrolls/All Payrolls, you will find an entry where a group of payrolls for all employees has been created. In parentheses, you will see how many payrolls have been created."
 msgstr ""
 
@@ -3039,7 +3106,7 @@ msgstr ""
 msgid "Group of Payrolls"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:261
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:270
 msgid "To review the created payrolls and enter additional earnings, open the group and expand the list of all payrolls. You can make changes by entering the specific employee's payroll and clicking \"Calculate Sheet\" after making changes."
 msgstr ""
 
@@ -3051,7 +3118,7 @@ msgstr ""
 msgid "Calculate Individual Payroll"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:268
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:277
 msgid "When you have made all the necessary changes, in the opened list in a specific group, mark all the payrolls in it and select \"Create Accounting Entry\" in the Action menu. Similarly, perform the actions \"Send Payroll\" and \"Mark as Paid\"."
 msgstr ""
 
@@ -3059,15 +3126,15 @@ msgstr ""
 msgid "Create Accounting Entry for Group"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:273
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:282
 msgid "**IMPORTANT:** Despite being able to perform these actions by entering the payroll itself, for the entries to be created, it is necessary to do this in the group by marking all entries together and selecting the corresponding action in the \"Action\" button, not individually."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:276
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:285
 msgid "4.8. Entering Advances"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:277
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:286
 msgid "When paying an advance to an employee, the entry is made in the Payroll module, Payrolls, Advances."
 msgstr ""
 
@@ -3075,7 +3142,7 @@ msgstr ""
 msgid "Advances"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:282
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:291
 msgid "Create \"New\", select the employee, the bank where you will create the file, the dates, and the advance amount. Click \"Create SEPA File\"."
 msgstr ""
 
@@ -3083,15 +3150,15 @@ msgstr ""
 msgid "Create SEPA File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:288
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:297
 msgid "4.9. Printing the Work Time Ledger, Payroll Ledger"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:289
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:298
 msgid "After calculating the payroll, print the Work Time Ledger: In the Payroll module, Reports, Work Time Ledger (DLAŽ)."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:295
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:304
 msgid "In the opened table, select the year, month, if you want to print separately for a specific employee or department - select them as well. If not selected, it will be printed for all employees. Also, select the person who created the DLAŽ and the responsible person. Click the \"Print PDF\" button."
 msgstr ""
 
@@ -3099,7 +3166,7 @@ msgstr ""
 msgid "Print PDF"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:300
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:309
 msgid "A .pdf file will be downloaded and saved to your computer for printing."
 msgstr ""
 
@@ -3107,7 +3174,7 @@ msgstr ""
 msgid "Downloaded PDF"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:305
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:314
 msgid "To print the Payroll Ledger: In the Payroll module, Reports, select \"Payroll Ledger\"."
 msgstr ""
 
@@ -3115,7 +3182,7 @@ msgstr ""
 msgid "Payroll Ledger"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:311
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:320
 msgid "In the opened table, fill in the dates. If you want to print a separate payroll ledger for the department, select the department. If you do not use departments or want to form a ledger for all employees - leave this field empty. Click the \"Print PDF\" button, and the ledger will be saved to your computer."
 msgstr ""
 
@@ -3127,15 +3194,15 @@ msgstr ""
 msgid "Saved PDF Ledger"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:318
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:327
 msgid "You can also choose the ledger in .xls format."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:321
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:330
 msgid "4.10. Formation and Printing of Payroll Certificates"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:322
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:331
 msgid "To form a payroll certificate, in the Payroll module, Reports, select the \"Payroll Certificate\" section."
 msgstr ""
 
@@ -3143,7 +3210,7 @@ msgstr ""
 msgid "Payroll Certificate"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:327
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:336
 msgid "In the opened card, select the specific employee and dates for which the certificate is needed. Click \"Print PDF\", and a standard certificate will be sent to your computer."
 msgstr ""
 
@@ -3151,11 +3218,11 @@ msgstr ""
 msgid "Print Payroll Certificate"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:333
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:342
 msgid "4.11. Formation and Printing of Average Salary Certificates"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:334
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:343
 msgid "To print an average salary (VDU) certificate for an employee, in the Payroll module, Reports, select the VDU certificate, in the opened table, specify the employee, the date for which the certificate is needed, and the preparer of the certificate, click \"Print PDF\"."
 msgstr ""
 
@@ -3167,7 +3234,7 @@ msgstr ""
 msgid "Fill VDU Certificate"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:341
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:350
 msgid "A .pdf file with the data for the last 3 months up to the specified date will be created and automatically saved on your computer."
 msgstr ""
 
@@ -3175,19 +3242,19 @@ msgstr ""
 msgid "Saved VDU Certificate"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:347
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:356
 msgid "4.12. VSDFV Reports:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:350
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:359
 msgid "4.12.1. 1-SD Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:351
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:360
 msgid "This form is created when hiring an employee. After entering the employee's data in the \"Employees\" module and creating an employment contract, go to the \"Payroll\" module, Reports, Sodra, 1-SD report."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:356
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:365
 msgid "In the opened table, select the employment contract number of the employee for whom the 1-SD notification is created. Click \"Generate Declaration File\"."
 msgstr ""
 
@@ -3195,17 +3262,17 @@ msgstr ""
 msgid "Generate 1-SD File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:361
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:375
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:408
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:370
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:384
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:417
 msgid "A file that can be uploaded to the Sodra system will be automatically saved on your computer."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:364
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:373
 msgid "4.12.2. 2-SD Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:365
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:374
 msgid "This form is created when dismissing an employee. After entering the employee's data in the \"Employees\" module and creating a dismissal entry, go to the \"Payroll\" module, Reports, Sodra, 2-SD report."
 msgstr ""
 
@@ -3213,7 +3280,7 @@ msgstr ""
 msgid "2-SD Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:370
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:379
 msgid "In the opened table, select the employment contract number of the employee for whom the 2-SD notification is created. Click \"Generate Declaration File\"."
 msgstr ""
 
@@ -3221,11 +3288,11 @@ msgstr ""
 msgid "Generate 2-SD File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:378
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:387
 msgid "4.12.3. NP-SD Report and Calculation of Sick Pay by the Company"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:379
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:388
 msgid "We suggest filling out this declaration directly in the Sodra system by entering the sick pay amount calculated by the employer in the program. In the Absences module, create a sick leave entry by selecting the appropriate type of absence and dates, and approve it."
 msgstr ""
 
@@ -3233,7 +3300,7 @@ msgstr ""
 msgid "Sick Leave Entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:384
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:393
 msgid "After confirming the sick leave entry, select \"VDU Certificate\" in the printing link."
 msgstr ""
 
@@ -3241,7 +3308,7 @@ msgstr ""
 msgid "VDU Certificate for Sick Leave"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:389
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:398
 msgid "A special VDU certificate will be formed, showing the sick pay amount depending on the work schedule for the first 2 working days if they coincided with the employee's work schedule. Enter this amount in the Sodra NP-SD notification."
 msgstr ""
 
@@ -3249,15 +3316,15 @@ msgstr ""
 msgid "Enter Sick Pay Amount"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:394
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:403
 msgid "You can also generate the NP-SD notification directly from Odoo, but this is not very convenient because the sick leave certificate numbers will not be included, and you will have to enter them manually from the Sodra system."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:397
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:406
 msgid "4.12.4. Monthly SAM Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:398
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:407
 msgid "This form is used to declare monthly information about employee income and contributions paid to Sodra. After performing the monthly calculations and confirming the payrolls, in the Payroll module, select Reports, Sodra, SAM report."
 msgstr ""
 
@@ -3265,7 +3332,7 @@ msgstr ""
 msgid "SAM Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:403
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:412
 msgid "In the opened table, select the year and month for which the report is being generated. Click \"Generate Declaration File\"."
 msgstr ""
 
@@ -3273,15 +3340,15 @@ msgstr ""
 msgid "Generate SAM File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:411
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:420
 msgid "4.13. VMI Reports:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:414
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:423
 msgid "4.13.1. GPM 313 Declaration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:415
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:424
 msgid "The monthly GPM declaration can be found in the Payroll module, Reports, in the EDS section, GPM313 declaration."
 msgstr ""
 
@@ -3289,7 +3356,7 @@ msgstr ""
 msgid "GPM 313 Declaration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:420
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:429
 msgid "After selecting it, specify the year and month and click the \"Generate Declaration File\" button."
 msgstr ""
 
@@ -3297,15 +3364,16 @@ msgstr ""
 msgid "Generate GPM 313 File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:425
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:434
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:448
 msgid "A file will be created and automatically saved on your computer for upload to the VMI EDS system in ffdata format. To review the data before uploading the file to the system, use ABBYY eFormFiller software."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:428
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:437
 msgid "4.13.2. GPM 312 Declaration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:429
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:438
 msgid "The annual GPM declaration can be found in the Payroll module, Reports, in the EDS section, GPM312 declaration."
 msgstr ""
 
@@ -3313,7 +3381,7 @@ msgstr ""
 msgid "GPM 312 Declaration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:434
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:443
 msgid "After selecting it, specify the year and click the \"Generate Declaration File\" button."
 msgstr ""
 
@@ -3321,15 +3389,15 @@ msgstr ""
 msgid "Generate GPM 312 File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:439
-msgid "A file will be created and automatically saved on your computer for upload to the VMI EDS system in ffdata format. To review the data before uploading the file to the system, use ABBYY eFormFiller software. **NOTE:** When using the Via Laurea Payroll Calculation module, there is an option to include amounts paid to individuals when forming the annual GPM312 declaration. To use this option, when describing an individual contact in the Contacts module, mark it as an individual supplier, select the appropriate point as the license type (Personal Code, IDV number, etc.), and enter the specific number as the IDV number."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:450
+msgid "**NOTE:** When using the Via Laurea Payroll Calculation module, there is an option to include amounts paid to individuals when forming the annual GPM312 declaration. To use this option, when describing an individual contact in the Contacts module, mark it as an individual supplier, select the appropriate point as the license type (Personal Code, IDV number, etc.), and enter the specific number as the IDV number."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Enter IDV Number"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:445
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:455
 msgid "When entering this supplier's invoice, in the L5 note for GPM312, select the appropriate activity code from the list."
 msgstr ""
 
@@ -3337,23 +3405,23 @@ msgstr ""
 msgid "Select Activity Code"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:450
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:460
 msgid "After performing these actions, when forming the GPM312 declaration for the respective period, the amounts paid to individuals will be included in the declaration."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:453
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:463
 msgid "5. Use of the Absences Module for Lithuanian Accounting"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:454
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:464
 msgid "The Absences module is closely related to the Payroll module. When information is entered into the Absences module, it affects payroll calculations. The standard Odoo Absences module instruction can be found on our website. Due to the specifics of payroll calculation in Lithuania, we have supplemented the Absences module with certain functions."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:457
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:467
 msgid "5.1.1. Configuration of the Absences Module"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:458
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:468
 msgid "In the Absences, Configuration section, \"Time off types\", you will find a list of all possible absences and markings:"
 msgstr ""
 
@@ -3361,7 +3429,7 @@ msgstr ""
 msgid "Time Off Types"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:463
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:473
 msgid "If necessary, you can adjust the list, but note that this is related to payroll formulas. In the \"Approval\" column, you can see which types of absence require manager approval. To mark a specific type of absence as requiring approval, go to the line entry and check the box for requiring approval."
 msgstr ""
 
@@ -3369,15 +3437,15 @@ msgstr ""
 msgid "Approval for Absence"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:468
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:478
 msgid "**NOTE:** After entering the absence information and, if necessary, approving it by the responsible person, the absence information along with the absence type marking symbols will be automatically uploaded to the work entries for the specific period."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:471
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:481
 msgid "5.1.2. Entering Vacation Norms"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:472
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:482
 msgid "In the Absences, Configuration section, \"Vacation Norms\", enter the vacation day norms used in your company (20 working days per year by default, 25 working days for single parents raising a child up to 12 years old, etc., according to the laws)."
 msgstr ""
 
@@ -3385,11 +3453,11 @@ msgstr ""
 msgid "Vacation Norms"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:478
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:488
 msgid "5.1.3. Entering Holidays"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:479
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:489
 msgid "In the Absences, Configuration section, \"Holidays\", enter the holidays for the current year."
 msgstr ""
 
@@ -3397,19 +3465,23 @@ msgstr ""
 msgid "Holidays"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:485
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:495
 msgid "5.2. Assigning Vacations to the Employee"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:486
-msgid "When hiring an employee, a set annual vacation norm must be assigned to them. Odoo has the ability to calculate vacations only from the next day. For this reason, when hiring an employee, it is necessary to make 2 entries. The first one is for \"accrued vacations\" for the first working day, and the second is for standard vacation accrual from the next day. Enter vacation assignments in the Absences, Approvals, Assignments section."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:496
+msgid "When hiring an employee, a set annual vacation norm must be assigned to them. Odoo has the ability to calculate vacations only from the next day. For this reason, when hiring an employee, it is necessary to make 2 entries. The first one is for \"accrued vacations\" for the first working day, and the second is for standard vacation accrual from the next day."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:498
+msgid "Enter vacation assignments in the Absences - Approvals - Assignments section."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Vacation Assignments"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:492
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:503
 msgid "When hiring an employee, create a new assignment:"
 msgstr ""
 
@@ -3417,39 +3489,55 @@ msgstr ""
 msgid "New Assignment"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:497
-msgid "In it, select the type as \"Regular Assignment\", specify the specific employee in the Employee field, and in the \"Duration\" field, enter the amount of vacation entitled for the first working day. Approve the entry. The second assignment is for vacation accrual:"
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:508
+msgid "In it, select the type as \"Regular Assignment\", specify the specific employee in the Employee field, and in the \"Duration\" field, enter the amount of vacation entitled for the first working day. Approve the entry."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:510
+msgid "The second assignment is for vacation accrual:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Vacation Accrual"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:503
-msgid "Fill in the assignment similarly, only select \"Accrued Assignment\" as the type and select the applicable vacation norm for that employee from the list in the Vacation Norms field. After doing this, approve the entry. If already working employees are uploaded to the Odoo system with already accrued vacations (e.g., previously using other software for payroll), it is also necessary to make 2 entries, as in the hiring case. In this case, in the first entry, enter the already accrued vacations up to this day, following the description of the first working day entry. In the second entry, assign the accrual based on the applicable vacation norm for the employee. **NOTE:** If you forgot to enter vacation accrual entries when hiring an employee, calculate how many vacations the employee has accrued until this day, and enter the obtained number when entering the regular vacation assignment for the first working day."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:515
+msgid "Fill in the assignment similarly, only select \"Accrued Assignment\" as the type and select the applicable vacation norm for that employee from the list in the Vacation Norms field. After doing this, approve the entry."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:508
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:517
+msgid "If already working employees are uploaded to the Odoo system with already accrued vacations (e.g., previously using other software for payroll), it is also necessary to make 2 entries, as in the hiring case. In this case, in the first entry, enter the already accrued vacations up to this day, following the description of the first working day entry. In the second entry, assign the accrual based on the applicable vacation norm for the employee."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:519
+msgid "**NOTE:** If you forgot to enter vacation accrual entries when hiring an employee, calculate how many vacations the employee has accrued until this day, and enter the obtained number when entering the regular vacation assignment for the first working day."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:522
 msgid "5.3. Entering Absences"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:509
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:523
 msgid "When entering employee absences, follow the standard Odoo Absences module instruction - in the Absences, Approvals, Absences section, create a new entry, select the appropriate employee, type of absence, fill in the dates, and approve the entry. After doing this, the information will be automatically transferred to the Payroll module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:512
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:526
 msgid "5.4. Reports and Vacation Accruals"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:513
-msgid "In the Absences module, in Reports, you can find standard reports by employee and type of absence, the formation of which is described in the standard Odoo Absences module description. Additionally, you can see the Vacation Accrual report, which you can generate in pdf format for the specified date."
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:527
+msgid "In the Absences module, in Reports, you can find standard reports by employee and type of absence, the formation of which is described in the standard Odoo Absences module description."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:529
+msgid "Additionally, you can see the Vacation Accrual report, which you can generate in pdf format for the specified date."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Vacation Accrual Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:519
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:534
 msgid "If the accounting entries described above are configured in the Payroll module, clicking the \"Create Entry\" button in the report formation window will create an accrual entry in the Accounting module."
 msgstr ""
 
@@ -3457,11 +3545,11 @@ msgstr ""
 msgid "Create Accrual Entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:525
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:540
 msgid "6. Integrations and Connections with Other Modules"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:526
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:541
 msgid "This module interacts with the Accounting, Employees, Absences, and Planning modules."
 msgstr ""
 
@@ -3470,46 +3558,62 @@ msgid "Shift work scheduling"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:7
-msgid "UAB Via Laurea has developed a plugin for the standard Planning module, enabling a broader application of this module for Lithuanian work time accounting needs. The Planning module is intended for creating work schedules and shifts, accurately determining work hours when the work time is irregular or cumulative work time accounting is applied. The following module is used for planning:"
+msgid "UAB Via Laurea has developed a plugin for the standard Planning module, enabling a broader application of this module for Lithuanian work time accounting needs."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:9
+msgid "The Planning module is intended for creating work schedules and shifts, accurately determining work hours when the work time is irregular or cumulative work time accounting is applied. The following module is used for planning:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:None
 msgid "Planning Module"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:14
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:15
 msgid "Usage and Main Scenarios"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:16
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:17
 msgid "In the Planning module, you can create shift templates and individual schedules for a specific selected employee."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:18
-msgid "Creating a Template: In the Planning module, in the configuration section, select \"Work Schedule Templates\":"
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:19
+msgid "Creating a Template:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:21
+msgid "In the Planning module, in the configuration section, select \"Work Schedule Templates\":"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:None
 msgid "Work Schedule Templates"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:24
-msgid "In the opened window, create shifts according to your needs and save. Note that an Odoo day is divided into morning and afternoon parts, allowing you to define lunch break time. For this reason, two lines are entered for the same day, as shown in the example. If the employee works without a lunch break, you can choose only one part, but it is necessary to select one. In the work time accounting sheets, morning or afternoon is not reflected; it is only used in schedule creation. Important: if working in a rotating schedule (e.g., 2 days on and 2 days off) - describe the off days in the schedule template. In this case, when assigning a schedule to an employee, you can choose the number of repetitions, allowing you to automatically create future schedules."
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:26
+msgid "In the opened window, create shifts according to your needs and save. Note that an Odoo day is divided into morning and afternoon parts, allowing you to define lunch break time. For this reason, two lines are entered for the same day, as shown in the example. If the employee works without a lunch break, you can choose only one part, but it is necessary to select one. In the work time accounting sheets, morning or afternoon is not reflected; it is only used in schedule creation."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:28
+msgid "Important: if working in a rotating schedule (e.g., 2 days on and 2 days off) - describe the off days in the schedule template. In this case, when assigning a schedule to an employee, you can choose the number of repetitions, allowing you to automatically create future schedules."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:None
 msgid "Shift Template Creation"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:30
-msgid "To assign a schedule to a specific employee, there are two options: 1. You can select Schedule/Plan Shift:"
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:33
+msgid "To assign a schedule to a specific employee, there are two options:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:35
+msgid "You can select Schedule/Plan Shift:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:None
 msgid "Plan Shift"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:36
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:40
 msgid "In the opened window, select the employee, start date, desired work schedule template, and, if necessary, check the Repeat box and choose the number of periods. After entering all the necessary information, click \"Plan Shift.\""
 msgstr ""
 
@@ -3517,7 +3621,7 @@ msgstr ""
 msgid "Plan Shift Window"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:41
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:45
 msgid "A similar planning window can also be accessed using the \"Plan Shift\" button:"
 msgstr ""
 
@@ -3525,7 +3629,7 @@ msgstr ""
 msgid "Plan Shift Button"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:46
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:50
 msgid "If it is not practical to create shift schedules according to your needs, planning for a specific employee can be done directly in the opened shift window by entering the appropriate information for the specific employee. In this case, do not choose a work schedule template but enter an individual schedule by adding lines. After finishing the planning, click \"Plan Shift.\""
 msgstr ""
 
@@ -3533,7 +3637,7 @@ msgstr ""
 msgid "Individual Schedule Planning"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:51
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:55
 msgid "After finishing the shift planning, choose the \"Publish\" button, select the employees and period in the opened window, enabling you to send the employee their schedule via email and send data to the Payroll module."
 msgstr ""
 
@@ -3541,10 +3645,10 @@ msgstr ""
 msgid "Publish Button"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:56
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:60
 msgid "When the \"Publish\" button is selected, the schedule is not sent via email, but the data is sent to the Payroll module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:61
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:65
 msgid "This Odoo module is connected with the \"Employees\" and \"Payroll\" modules."
 msgstr ""
