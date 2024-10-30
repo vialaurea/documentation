@@ -2457,16 +2457,15 @@ msgstr "Dvi ataskaitos viename puslapyje:"
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:2
 msgid "Registration of advances"
-msgstr "Avansu registravimas"
+msgstr "Avansų registravimas"
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:7
 msgid ""
 "Instructions on how to correctly register received/paid advances in the "
 "Odoo system and reconcile them with received or issued invoices."
 msgstr ""
-"Instrukcijos, kaip teisingai registruoti gautus/mokėtus avansus Odoo "
-"sistemoje ir sutikrinti juos su gautomis arba išduotomis sąskaitomis "
-"faktūromis."
+"Instrukcija skirta teisingai registruoti gautus/sumokėtus avansus Odoo "
+"sistemoje bei juos sudengti su gautomis arba išrašytomis sąskaitomis faktūromis."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:12
 msgid ""
@@ -2475,10 +2474,10 @@ msgid ""
 "of accounts. To do this, in Accounting, go to Configuration, and in the "
 "Settings section, select the accounts and the created journal."
 msgstr ""
-"Norint tinkamai naudotis Pažangų moduliu, pirmiausia turite jį "
-"sukonfigūruoti, sukuriant „Pažangų“ žurnalą ir nurodant sąskaitas iš "
-"sąskaitų plano. Norėdami tai padaryti, Apskaitoje eikite į Konfigūravimą "
-"ir nustatymų skiltyje pasirinkite sąskaitas ir sukurtą žurnalą."
+"Siekiant teisingai naudotis Avansų moduliu, pirmiausia "
+"reikia atlikti konfigūraciją, sukurti žurnalą „Avansai“ ir "
+"nurodyti sąskaitas iš sąskaitų plano. Tuo tikslu Apskaitoje, Konfigūracijoje, "
+"Nustaymų skiltyje parinkite sąskaitas bei sukurtąjį žurnalą."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:17
 msgid "3. Daily Use Scenarios"
@@ -2507,10 +2506,9 @@ msgid ""
 "account where the buyer's debt is registered (in our case, 2410) on the "
 "invoice date."
 msgstr ""
-"Spustelėjus mygtuką „Pridėti“, bus sukurtas automatinis įrašas, kuris "
-"perves sumą iš išankstinio mokėjimo sąskaitos 4420 į sąskaitą, kurioje "
-"registruojama pirkėjo skola (mūsų atveju, 2410), sąskaitos faktūros "
-"išrašymo data."
+"Paspaudus mygtuką „Pridėti“, bus sukurtas automatinis įrašas, kuris sąskaitos "
+"data perkels iš avansinio mokėjimo sąskaitos 4420 sumą į sąskaitą, "
+"kurioje užregistruota pirkėjo skola (mūsų atveju 2410)."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:31
 msgid ""
@@ -2518,8 +2516,8 @@ msgid ""
 "the related general ledger entries for this automatic operation will "
 "open:"
 msgstr ""
-"Spustelėję lauką „Suderintos prekės“, parodytą rodykle, atsidarys "
-"susijusios bendrosios knygos įrašai šiai automatinei operacijai:"
+"Jei paspausite pele ant laukelio „Reconciled items“, kaip parodyta rodykle - atsidarys "
+"su šia automatine operacija susiję DK įrašai:"
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:35
 msgid ""
@@ -2528,10 +2526,10 @@ msgid ""
 "by selecting the appropriate accounts, you can also reconcile paid "
 "advances with payable amounts."
 msgstr ""
-"Remdamiesi šiais įrašais, galite matyti, kaip sąskaitos faktūros suma yra"
-" perkelta iš avanso ir sulyginama su gautinų sumų suma. Panašiai, "
-"pasirinkę atitinkamas sąskaitas, galite taip pat sulyginti sumokėtus "
-"avansus su mokėtinomis sumomis."
+"Remiantis šiais įrašais galite matyti, kaip sąskaitos suma perkeliama "
+"iš avanso ir sudengiama su gautina suma. "
+"Analogiškai, tik pasirenkant atitinkamas sąskaitas, galite sudengti "
+"ir sumokėtus avansus su mokėtinomis sumomis."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:2
 msgid "Accounting note"
@@ -2550,7 +2548,7 @@ msgid "**Module Installation**: The module `accounting_note` must be installed."
 msgstr "**Modulio įdiegimas**: Modulis `accounting_note` turi būti įdiegtas."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:13
-#, fuzzy
+#
 msgid ""
 "**Configuration**: The installed module does not require additional "
 "configuration."
