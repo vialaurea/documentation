@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 12:43+0000\n"
+"POT-Creation-Date: 2024-11-04 14:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -425,7 +425,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:7
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:16
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:5
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:11
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:10
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:13
 msgid "Installation and Configuration"
 msgstr "Įdiegimas ir konfigūracija"
@@ -497,7 +497,7 @@ msgstr "Pagrindinės funkcijos"
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:17
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:13
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:13
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:17
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:16
 #: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:13
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:21
 msgid "Daily Use Scenarios"
@@ -552,7 +552,7 @@ msgstr "Sukūrus deklaracijos failą, jį galima tiesiogiai pateikti VMI."
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:55
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:30
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:58
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:24
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:23
 msgid "Reports and Documentation"
 msgstr "Ataskaitos ir dokumentacija"
 
@@ -1501,7 +1501,6 @@ msgid "The module is updated with each new version of Odoo."
 msgstr "Modulis atnaujinamas su kiekviena nauja Odoo versija."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:2
-#
 msgid "Fuel (Fleet) Accounting"
 msgstr "Automobilio Parko ir Kuro Apskaita"
 
@@ -1748,7 +1747,6 @@ msgstr ""
 "Atsidariusiame lange nurodome kokiai datai spausdinamas aktas ir "
 "pasirenkame kokiu formatu norite jį atsispausdinti:"
 
-#
 msgid "Generating a report"
 msgstr "Atostogų kaupimo ataskaita"
 
@@ -3527,28 +3525,62 @@ msgid "Inventory module reports section"
 msgstr "Inventoriaus modulio ataskaitų skyrius"
 
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:15
-msgid ""
-"In the opened window, specify when the inventory starts and ends. - "
-"Locations: specify from which warehouse \"location\" the items are "
-"inventoried. - Filling Form: this is the inventory form adapted for "
-"manual entry of actual quantities. - Choose whether to display items "
-"whose quantities have changed at the top of the table. Choose whether to "
-"combine locations and serial numbers. By default, a vertical sheet is "
-"printed, but there is an option to print a horizontal sheet. - Fill in "
-"the inventory accounting date. Select inventory adjustment, enter the "
-"basis for preparation, date, chairman of the commission, members, "
-"materially responsible persons, and accountant."
+msgid "In the opened window, specify when the inventory starts and ends."
 msgstr ""
-"Atidarytame lange nurodykite, kada inventorizacija prasideda ir baigiasi."
-" - Lokacijos: nurodykite, iš kurio sandėlio \"vietos\" inventorizuojami "
-"daiktai. - Užpildymo forma: tai inventorizacijos forma, pritaikyta "
-"faktinių kiekių rankiniam įvedimui. - Pasirinkite, ar rodyti prekes, "
-"kurių kiekiai pasikeitė, lentelės viršuje. Pasirinkite, ar sujungti "
-"vietas ir serijos numerius. Pagal numatymą spausdinamas vertikalus lapas,"
-" tačiau yra galimybė spausdinti ir horizontalų lapą. - Užpildykite "
-"inventorizacijos apskaitos datą. Pasirinkite inventorizacijos koregavimą,"
-" įveskite parengimo pagrindą, datą, komisijos pirmininką, narius, "
-"materialiai atsakingus asmenis ir buhalterį."
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:17
+msgid ""
+"**Starts, Ends** - when the inventory starts and ends. Fill in not only "
+"the date, but also the hour and second accuracy."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:18
+msgid ""
+"**Locations** - specify from which warehouse \"location\" the items are "
+"inventoried."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:19
+msgid ""
+"**Filling Form** - this is the inventory form adapted for manual entry of"
+" actual quantities."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:20
+msgid ""
+"**Products whose quantity has changed are shown at the top of the table**"
+" - can be marked."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:21
+msgid "**Combine locations** - can be marked."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:22
+msgid "**Combine serial numbers** - can be marked."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:23
+msgid ""
+"**Vertical sheet** - by default, a vertical sheet is printed, but there "
+"is an option to print a horizontal sheet."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:24
+#, fuzzy
+msgid "**Accounting date** - fill in the inventory accounting date."
+msgstr "Įveskite atsargų ir apskaitos datas"
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:25
+#, fuzzy
+msgid "**Select inventory adjustment** - optional."
+msgstr "Atsargų koregavimo detalės"
+
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:27
+msgid ""
+"You may also enter the basis for preparation, date, chairman of the "
+"commission, members, materially responsible persons, accountant, etc."
+msgstr ""
 
 msgid "Inventory start and end dates"
 msgstr "Inventorizacijos pradžios ir pabaigos datos"
@@ -3556,14 +3588,14 @@ msgstr "Inventorizacijos pradžios ir pabaigos datos"
 msgid "Inventory location and details"
 msgstr "Inventoriaus vieta ir detalės"
 
-#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:27
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:35
 msgid "When \"Filling Form\" is selected:"
 msgstr "Kai pasirenkama „Pildymo forma“:"
 
 msgid "Filling Form selected"
 msgstr "Užpildymo formos pasirinkimas"
 
-#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:32
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:40
 msgid "When \"Filling Form\" is not selected:"
 msgstr "Kai „Formos pildymas“ nėra pasirinktas:"
 
@@ -3573,11 +3605,11 @@ msgstr "Pildymo forma nepasirinkta"
 msgid "Inventory adjustment details"
 msgstr "Atsargų koregavimo detalės"
 
-#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:41
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:49
 msgid "Note"
 msgstr "Pastaba"
 
-#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:43
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:51
 msgid ""
 "Shortage/Surplus is calculated by subtracting the Accounting Quantity "
 "from the Actual Balance. At the bottom of the act, the Shortage value is "
@@ -3587,7 +3619,7 @@ msgstr ""
 "likučio. Akto apačioje Trūkumo reikšmė rodoma su minuso ženklu, o "
 "Pertekliaus – su pliuso ženklu."
 
-#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:44
+#: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:53
 msgid ""
 "It is very important to note that the inventory act itself does not take "
 "data from what happened on the Inventory Day with transfers (IN, OUT, "
@@ -3652,15 +3684,7 @@ msgstr ""
 "Standartinio Odoo funkcionalumo išplėtimas: galimybė spausdinti nurašymo "
 "ataskaitą."
 
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:8
-msgid ""
-"This module contributes to compliance with Lithuanian accounting "
-"standards in the Odoo system, if applicable."
-msgstr ""
-"Šis modulis prisideda prie atitikimo Lietuvos apskaitos standartams Odoo "
-"sistemoje, jei taikoma."
-
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:13
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:12
 msgid ""
 "**Installation Instructions**: The module `Inventory scrap report` "
 "(technical name `inventory_scrap_report`) must be installed along with "
@@ -3670,13 +3694,13 @@ msgstr ""
 "pavadinimas `inventory_scrap_report`) būtina įdiegti kartu su "
 "standartiniu Odoo inventoriaus moduliu (techninis pavadinimas `stock`)."
 
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:14
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:13
 msgid "**Initial Configuration**: No additional configuration is required."
 msgstr ""
 "**Pradiniai nustatymai**: Papildomas diegimas ar konfigūravimas "
 "nereikalingas."
 
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:19
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:18
 msgid ""
 "Using the standard Odoo functionality, navigate to Inventory -> "
 "Operations -> Scrap. Enter one or more product scraps from the warehouse."
@@ -3685,27 +3709,35 @@ msgstr ""
 "Operacijos -> Sunaikinti. Įveskite vieną ar kelis produktų sunaikinimus "
 "iš sandėlio."
 
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:26
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:25
 msgid "After entering the document, it is possible to print the scrap report."
 msgstr "Įvedus dokumentą, galima atspausdinti broko ataskaitą."
 
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:30
-msgid ""
-"In the window that opens, the following fields need to be filled in: - "
-"**Scrap Report Date**: Select the date. - **Scrap Report Number**: "
-"Manually enter the number (there is no automatic numbering). - **Scrap "
-"Basis, Commission Established, Commission Suggests**: Texts that will "
-"appear in the report; not mandatory to fill in. - **Commission Chairman, "
-"Commission Members, Materially Responsible Person, and Accounting "
-"Staff**: Select from the list of employees."
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:29
+msgid "In the window that opens, the following fields need to be filled in:"
 msgstr ""
-"Atsidariusiame lange reikia užpildyti šiuos laukus: - **Lūženų Ataskaitos"
-" Data**: Pasirinkite datą. - **Lūženų Ataskaitos Numeris**: Rankiniu būdu"
-" įveskite numerį (automatinio numeravimo nėra). - **Lūženų Pagrindas, "
-"Komisija Nusprendė, Komisija Siūlo**: Tekstai, kurie bus rodomi "
-"ataskaitoje; nebūtina užpildyti. - **Komisijos Pirmininkas, Komisijos "
-"Nariai, Materialiai Atsakingas Asmuo ir Apskaitos Personalo "
-"Darbuotojai**: Pasirinkite iš darbuotojų sąrašo."
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:31
+msgid "**Scrap Report Date**: Select the date."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:32
+msgid ""
+"**Scrap Report Number**: Manually enter the number (there is no automatic"
+" numbering)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:33
+msgid ""
+"**Scrap Basis, Commission Established, Commission Suggests**: Texts that "
+"will appear in the report; not mandatory to fill in."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:34
+msgid ""
+"**Commission Chairman, Commission Members, Materially Responsible Person,"
+" and Accounting Staff**: Select from the list of employees."
+msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:38
 msgid "Press \"Print\" to generate the following document:"
@@ -5975,4 +6007,80 @@ msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atly
 
 #~ msgid "1. Main Features"
 #~ msgstr "3. Pagrindinės funkcijos"
+
+#~ msgid ""
+#~ "In the opened window, specify when "
+#~ "the inventory starts and ends. - "
+#~ "Locations: specify from which warehouse "
+#~ "\"location\" the items are inventoried. "
+#~ "- Filling Form: this is the "
+#~ "inventory form adapted for manual entry"
+#~ " of actual quantities. - Choose "
+#~ "whether to display items whose "
+#~ "quantities have changed at the top "
+#~ "of the table. Choose whether to "
+#~ "combine locations and serial numbers. By"
+#~ " default, a vertical sheet is "
+#~ "printed, but there is an option to"
+#~ " print a horizontal sheet. - Fill "
+#~ "in the inventory accounting date. Select"
+#~ " inventory adjustment, enter the basis "
+#~ "for preparation, date, chairman of the"
+#~ " commission, members, materially responsible "
+#~ "persons, and accountant."
+#~ msgstr ""
+#~ "Atidarytame lange nurodykite, kada "
+#~ "inventorizacija prasideda ir baigiasi. - "
+#~ "Lokacijos: nurodykite, iš kurio sandėlio "
+#~ "\"vietos\" inventorizuojami daiktai. - "
+#~ "Užpildymo forma: tai inventorizacijos forma,"
+#~ " pritaikyta faktinių kiekių rankiniam "
+#~ "įvedimui. - Pasirinkite, ar rodyti "
+#~ "prekes, kurių kiekiai pasikeitė, lentelės "
+#~ "viršuje. Pasirinkite, ar sujungti vietas "
+#~ "ir serijos numerius. Pagal numatymą "
+#~ "spausdinamas vertikalus lapas, tačiau yra "
+#~ "galimybė spausdinti ir horizontalų lapą. "
+#~ "- Užpildykite inventorizacijos apskaitos datą."
+#~ " Pasirinkite inventorizacijos koregavimą, "
+#~ "įveskite parengimo pagrindą, datą, komisijos"
+#~ " pirmininką, narius, materialiai atsakingus "
+#~ "asmenis ir buhalterį."
+
+#~ msgid ""
+#~ "This module contributes to compliance "
+#~ "with Lithuanian accounting standards in "
+#~ "the Odoo system, if applicable."
+#~ msgstr ""
+#~ "Šis modulis prisideda prie atitikimo "
+#~ "Lietuvos apskaitos standartams Odoo sistemoje,"
+#~ " jei taikoma."
+
+#~ msgid ""
+#~ "In the window that opens, the "
+#~ "following fields need to be filled "
+#~ "in: - **Scrap Report Date**: Select "
+#~ "the date. - **Scrap Report Number**: "
+#~ "Manually enter the number (there is "
+#~ "no automatic numbering). - **Scrap "
+#~ "Basis, Commission Established, Commission "
+#~ "Suggests**: Texts that will appear in"
+#~ " the report; not mandatory to fill"
+#~ " in. - **Commission Chairman, Commission"
+#~ " Members, Materially Responsible Person, "
+#~ "and Accounting Staff**: Select from the"
+#~ " list of employees."
+#~ msgstr ""
+#~ "Atsidariusiame lange reikia užpildyti šiuos"
+#~ " laukus: - **Lūženų Ataskaitos Data**: "
+#~ "Pasirinkite datą. - **Lūženų Ataskaitos "
+#~ "Numeris**: Rankiniu būdu įveskite numerį "
+#~ "(automatinio numeravimo nėra). - **Lūženų "
+#~ "Pagrindas, Komisija Nusprendė, Komisija "
+#~ "Siūlo**: Tekstai, kurie bus rodomi "
+#~ "ataskaitoje; nebūtina užpildyti. - **Komisijos"
+#~ " Pirmininkas, Komisijos Nariai, Materialiai "
+#~ "Atsakingas Asmuo ir Apskaitos Personalo "
+#~ "Darbuotojai**: Pasirinkite iš darbuotojų "
+#~ "sąrašo."
 
