@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 11:17+0000\n"
+"POT-Creation-Date: 2024-11-04 12:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -330,7 +330,6 @@ msgid "Click Confirm"
 msgstr "Spaudžiame Patvirtinti"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:103
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
 msgid "1. Reports and Documentation"
 msgstr "4. Ataskaitos ir dokumentacija"
 
@@ -1502,8 +1501,9 @@ msgid "The module is updated with each new version of Odoo."
 msgstr "Modulis atnaujinamas su kiekviena nauja Odoo versija."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:2
-msgid "Fuel Registration by Car"
-msgstr "Automobilio parko ir kuro apskaita"
+#, fuzzy
+msgid "Fuel (Fleet) Accounting"
+msgstr "Apskaita"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:7
 msgid ""
@@ -1516,12 +1516,10 @@ msgstr ""
 "bei stebėti ir analizuoti kitas išlaidas, susijusias su automobiliais."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:13
-#
 msgid "Before using this module, specific settings need to be configured."
 msgstr "Prieš pradedant naudotis šiuo moduliu, reikalingi nustatymai."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:15
-#
 msgid "Go to \"Vehicle Park\" -> Configuration -> Settings:"
 msgstr "Spaudžiame \"Automobilių Parkas\" -> Konfigūracija -> Nustatymai:"
 
@@ -1529,7 +1527,6 @@ msgid "Configuration settings window"
 msgstr "Konfigūracijos nustatymų langas"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:20
-#
 msgid "Configuration fields open:"
 msgstr "Atsidaro nustatymų laukai:"
 
@@ -1550,20 +1547,19 @@ msgid ""
 "specialized one specifically for fuel accounting (for how to create a "
 "journal, see the \"Starting with Odoo\" instructions)."
 msgstr ""
-"Kuro žurnalas: galima naudoti įprastą „įvairių operacijų“ arba "
-"susikurti atskirą, susijusį būtent su kuro apskaita (kaip sukurti žurnalą "
-"žr. instrukcijoje „Darbo pradžia su Odoo“)."
+"Kuro žurnalas: galima naudoti įprastą „įvairių operacijų“ arba susikurti "
+"atskirą, susijusį būtent su kuro apskaita (kaip sukurti žurnalą žr. "
+"instrukcijoje „Darbo pradžia su Odoo“)."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:30
-#
-msgid "1. Main Features"
-msgstr "3. Pagrindinės funkcijos"
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
+msgid "3. Main Features"
+msgstr "3. Pagrindinės savybės"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:32
 msgid "Create a vehicle card and enter all necessary information:"
-msgstr ""
-"Sukuriama automobilio kortelė ir suvedama "
-"visa reikalinga informacija:"
+msgstr "Sukuriama automobilio kortelė ir suvedama visa reikalinga informacija:"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:34
 msgid "Click \"New\":"
@@ -1594,7 +1590,6 @@ msgid "Specify the debit/credit account for fuel accounting."
 msgstr "Nurodoma Kuros apskaitos debetinė/kreditinė sąskaita."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:45
-#
 msgid "After filling in the tax information, we go to the templates:"
 msgstr "Užpildę mokesčių informaciją pereiname į šablonus:"
 
@@ -1602,7 +1597,6 @@ msgid "Additional vehicle information fields"
 msgstr "Papildomi transporto priemonės informacijos laukai"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:50
-#
 msgid "Proceed to input additional vehicle details."
 msgstr "Toliau pildoma informacija apie automobilį."
 
@@ -1616,7 +1610,9 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:54
 msgid "When registering invoices, the necessary vehicle is assigned in the lines:"
-msgstr "Registruojant sąskaitas faktūras, eilutėse priskiriamas reikalingas automobilis:"
+msgstr ""
+"Registruojant sąskaitas faktūras, eilutėse priskiriamas reikalingas "
+"automobilis:"
 
 msgid "Assigning vehicles in invoice registration"
 msgstr "Transporto priemonių priskyrimas sąskaitų registracijoje"
@@ -1633,7 +1629,6 @@ msgid "Services related information display on vehicle card"
 msgstr "Paslaugų informacijos rodymas transporto priemonės kortelėje"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:64
-#
 msgid "Clicking on this button opens a window with all invoices."
 msgstr "Paspaudus ant šio mygtuko, atsidaro langas su visomis sąskaitomis."
 
@@ -1655,14 +1650,11 @@ msgstr "Degalų nurašymo sąsaja"
 msgid ""
 "In the opened window, the purchased quantity, write-offs, and remaining "
 "fuel balance are displayed."
-msgstr ""
-"Atsidariusiame lange matomas įsigytas kiekis, nurašymai "
-"bei kuro likutis."
+msgstr "Atsidariusiame lange matomas įsigytas kiekis, nurašymai bei kuro likutis."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:78
 msgid "Fuel write-off is performed on the vehicle card by clicking the button:"
-msgstr ""
-"Kuro nurašymas atliekamas automobilio kortelėje paspaudus mygtuką:"
+msgstr "Kuro nurašymas atliekamas automobilio kortelėje paspaudus mygtuką:"
 
 msgid "Details of fuel write-off"
 msgstr "Degalų nurašymo detalės"
@@ -1702,8 +1694,9 @@ msgid ""
 "Here, draft entries are created, which need to be registered to ensure "
 "that the data and figures are recorded in the general ledger:"
 msgstr ""
-"Šioje vietoje susikuria juodraštiniai įrašai, kuriuos reikia dar užregistruoti, "
-"norint, jog duomenys ir skaičiai užsiregistruotų didžiojoje knygoje:"
+"Šioje vietoje susikuria juodraštiniai įrašai, kuriuos reikia dar "
+"užregistruoti, norint, jog duomenys ir skaičiai užsiregistruotų "
+"didžiojoje knygoje:"
 
 msgid "Finalizing entries in the fuel journal"
 msgstr "Galutinis įrašų degalų žurnale užbaigimas"
@@ -1713,8 +1706,8 @@ msgid ""
 "Before registering, by clicking on the desired line, you can check the "
 "correspondence that will register:"
 msgstr ""
-"Prieš registruojant, paspaudus ant norimos eilutės, galime "
-"pasitikrinti kokia korespondencija užsiregistruos:"
+"Prieš registruojant, paspaudus ant norimos eilutės, galime pasitikrinti "
+"kokia korespondencija užsiregistruos:"
 
 msgid "Document management and archiving instructions"
 msgstr "Dokumentų tvarkymo ir archyvavimo instrukcijos"
@@ -1724,34 +1717,40 @@ msgid ""
 "If everything is correct, return to the Fuel Journals, mark the entry you"
 " want to register, and click Action -> Post Entries."
 msgstr ""
-"Jei viskas gerai, grįžtame atgal į Kuro žurnalus, pasižymime varnele kurį "
-"įrašą norime registruoti ir spaudžiame Veiksmas -> Post entries."
+"Jei viskas gerai, grįžtame atgal į Kuro žurnalus, pasižymime varnele kurį"
+" įrašą norime registruoti ir spaudžiame Veiksmas -> Post entries."
 
 msgid "Integration with other modules"
 msgstr "Integracija su kitais moduliais"
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
+msgid "4. Reports and Documentation"
+msgstr "4. Ataskaitos ir dokumentacija"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:116
 msgid "A fuel write-off report can be printed in the fuel accounting module."
 msgstr "Automobilio modulyje galima atsispausdinti kuro nurašymo aktą."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:118
-#
 msgid "In the vehicle card, click \"Print\""
 msgstr "Automobilio kortelėje spaudžiame \"Spausdinti\"."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:119
-#
 msgid "Select \"fuel write-off report\""
 msgstr "Pasirenkame \"Kuro nurašymo aktas\""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:120
-#
 msgid ""
 "In the opened window, select the date for which the report should be "
 "printed and choose the format:"
 msgstr ""
 "Atsidariusiame lange nurodome kokiai datai spausdinamas aktas ir "
 "pasirenkame kokiu formatu norite jį atsispausdinti:"
+
+#, fuzzy
+msgid "Generating a report"
+msgstr "Atostogų kaupimo ataskaita"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities.rst:2
 msgid "Other functionalities"
@@ -3007,11 +3006,6 @@ msgstr ""
 msgid "Initial configuration: no settings are necessary."
 msgstr "Pradiniai nustatymai: nustatymai nėra privalomi"
 
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
-msgid "3. Main Features"
-msgstr "3. Pagrindinės savybės"
-
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:17
 msgid ""
 "Detailed feature description: Inventory -> Operations -> Transfers. "
@@ -3033,10 +3027,6 @@ msgstr ""
 "turi būti įvestas produkto svoris, Intrastato KN kodas (daugiau "
 "informacijos žr. Intrastato deklaracijos dokumentacijoje) ir kilmės "
 "šalis."
-
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
-msgid "4. Reports and Documentation"
-msgstr "4. Ataskaitos ir dokumentacija"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
 msgid ""
@@ -5979,4 +5969,10 @@ msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atly
 
 #~ msgid "8. Appendices"
 #~ msgstr "8. Priedai"
+
+#~ msgid "Fuel Registration by Car"
+#~ msgstr "Automobilio parko ir kuro apskaita"
+
+#~ msgid "1. Main Features"
+#~ msgstr "3. Pagrindinės funkcijos"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 11:17+0000\n"
+"POT-Creation-Date: 2024-11-04 12:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -272,7 +272,6 @@ msgid "Click Confirm"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:103
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
 msgid "1. Reports and Documentation"
 msgstr ""
 
@@ -1089,7 +1088,7 @@ msgid "The module is updated with each new version of Odoo."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:2
-msgid "Fuel Registration by Car"
+msgid "Fuel (Fleet) Accounting"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:7
@@ -1130,7 +1129,9 @@ msgid "Fuel journal: Either use the standard \"various operations\" or create a 
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:30
-msgid "1. Main Features"
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
+msgid "3. Main Features"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:32
@@ -1285,6 +1286,11 @@ msgstr ""
 msgid "Integration with other modules"
 msgstr ""
 
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
+msgid "4. Reports and Documentation"
+msgstr ""
+
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:116
 msgid "A fuel write-off report can be printed in the fuel accounting module."
 msgstr ""
@@ -1299,6 +1305,10 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:120
 msgid "In the opened window, select the date for which the report should be printed and choose the format:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:None
+msgid "Generating a report"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities.rst:2
@@ -1995,21 +2005,12 @@ msgstr ""
 msgid "Initial configuration: no settings are necessary."
 msgstr ""
 
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
-msgid "3. Main Features"
-msgstr ""
-
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:17
 msgid "Detailed feature description: Inventory -> Operations -> Transfers. Select the required delivery (Out) document. The document must be in the \"Ready\" or \"Done\" status, then Print -> CMR."
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:21
 msgid "Before generating the report, it is necessary to correctly enter the product details: the product weight, Intrastat CN code (see more in the Intrastat declaration documentation), and country of origin must be entered."
-msgstr ""
-
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
-msgid "4. Reports and Documentation"
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
