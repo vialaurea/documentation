@@ -1501,9 +1501,9 @@ msgid "The module is updated with each new version of Odoo."
 msgstr "Modulis atnaujinamas su kiekviena nauja Odoo versija."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:2
-#, fuzzy
+#
 msgid "Fuel (Fleet) Accounting"
-msgstr "Apskaita"
+msgstr "Automobilio Parko ir Kuro Apskaita"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:7
 msgid ""
@@ -1555,7 +1555,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
 msgid "3. Main Features"
-msgstr "3. Pagrindinės savybės"
+msgstr "3. Pagrindinės funkcijos"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:32
 msgid "Create a vehicle card and enter all necessary information:"
@@ -1748,7 +1748,7 @@ msgstr ""
 "Atsidariusiame lange nurodome kokiai datai spausdinamas aktas ir "
 "pasirenkame kokiu formatu norite jį atsispausdinti:"
 
-#, fuzzy
+#
 msgid "Generating a report"
 msgstr "Atostogų kaupimo ataskaita"
 
