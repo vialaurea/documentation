@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-30 12:46+0000\n"
+"POT-Creation-Date: 2024-11-04 11:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -330,6 +330,7 @@ msgid "Click Confirm"
 msgstr "Spaudžiame Patvirtinti"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:103
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
 msgid "1. Reports and Documentation"
 msgstr "4. Ataskaitos ir dokumentacija"
 
@@ -602,7 +603,6 @@ msgstr "Dažniausios problemos ir jų sprendimai."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:72
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:75
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:129
 msgid "Answers to frequently asked questions about this module."
 msgstr "Atsakymai į dažniausiai užduodamus klausimus apie šį modulį."
 
@@ -621,7 +621,6 @@ msgstr "Atnaujinimai ir versijų valdymas"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:77
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:80
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:134
 msgid "How to update the module."
 msgstr "Kaip atnaujinti modulį."
 
@@ -637,13 +636,11 @@ msgstr "Supratau. Prašau pateikti tekstą."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:83
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:86
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:141
 msgid "Screenshots and visual instructions."
 msgstr "Ekrano nuotraukos ir vaizdinės instrukcijos."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:84
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:87
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:143
 msgid "Useful links and additional resources."
 msgstr "Naudingos nuorodos ir papildomi ištekliai."
 
@@ -1192,7 +1189,6 @@ msgid "Report sent"
 msgstr "Ataskaita išsiųsta"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:87
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:117
 msgid "How this module integrates with other Odoo modules or external systems."
 msgstr ""
 "Kaip šis modulis integruojasi su kitais Odoo moduliais ar išorinėmis "
@@ -1230,8 +1226,8 @@ msgid ""
 "You can find the fixed asset inventory act in the reports section of the "
 "Accounting module:"
 msgstr ""
-"Ilgalaikio turto inventorizacijos aktą rasite Apskaitos modulio "
-"ataskaitų skiltyje:"
+"Ilgalaikio turto inventorizacijos aktą rasite Apskaitos modulio ataskaitų"
+" skiltyje:"
 
 msgid "Accounting module reports section"
 msgstr "Apskaitos modulio ataskaitų skyrius"
@@ -1245,12 +1241,12 @@ msgid ""
 "accountant. Click the \"Print\" button, and a document with corresponding"
 " additional document pages (\"covers\") will be generated."
 msgstr ""
-"Pasirinkus akto spausdinimą, atsidariusiame lange įveskite inventorizacijos "
-"ir apskaitos datas, įrašykite ranka inventorizacijos atlikimo "
-"pagrindą, pasirinkite sudarymo datą, komisijos pirmininką ir komisijos narius, "
-"materialiai atsakingą asmenį ir buhalterį. Spauskite mygtuką "
-"„Spausdinti“ ir bus suformuotas dokumentas su atitinkamais papildomais "
-"dokumento puslapiais („viršeliais“)."
+"Pasirinkus akto spausdinimą, atsidariusiame lange įveskite "
+"inventorizacijos ir apskaitos datas, įrašykite ranka inventorizacijos "
+"atlikimo pagrindą, pasirinkite sudarymo datą, komisijos pirmininką ir "
+"komisijos narius, materialiai atsakingą asmenį ir buhalterį. Spauskite "
+"mygtuką „Spausdinti“ ir bus suformuotas dokumentas su atitinkamais "
+"papildomais dokumento puslapiais („viršeliais“)."
 
 msgid "Enter inventory and accounting dates"
 msgstr "Įveskite atsargų ir apskaitos datas"
@@ -1280,9 +1276,9 @@ msgid ""
 " assign asset objects to employees, enter additional asset information, "
 "and print various reports."
 msgstr ""
-"Modulis praplečia Odoo ilgalaikio turto funkcionalumą, leidžiant priskirti "
-"turto objektus darbuotojams, įvesti papildomą turto informaciją "
-"ir atspausdinti įvarias ataskaitas."
+"Modulis praplečia Odoo ilgalaikio turto funkcionalumą, leidžiant "
+"priskirti turto objektus darbuotojams, įvesti papildomą turto informaciją"
+" ir atspausdinti įvarias ataskaitas."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:12
 msgid ""
@@ -1320,19 +1316,19 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:24
 msgid "Additional Asset Information"
 msgstr ""
-"2. Papildomos turto informacijos įvedimas, kuri bus naudojama "
-"įvairioms spausdinimo ataskaitoms:"
+"2. Papildomos turto informacijos įvedimas, kuri bus naudojama įvairioms "
+"spausdinimo ataskaitoms:"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:27
 msgid ""
 "Select the asset and open it for editing. The status of the asset "
 "(active, draft, or closed) does not matter."
 msgstr ""
-"Pasirinkite turtą, kurį norite priskirti, ir atidarykite turtą redagavimui. "
-"Nėra svarbu, kokios būsenos yra turtas (veikiantis, juodraštis ar uždarytas)."
+"Pasirinkite turtą, kurį norite priskirti, ir atidarykite turtą "
+"redagavimui. Nėra svarbu, kokios būsenos yra turtas (veikiantis, "
+"juodraštis ar uždarytas)."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:28
-#
 msgid "Enter the following additional information:"
 msgstr "Įveskite šią papildomą informaciją:"
 
@@ -1344,11 +1340,15 @@ msgstr "**Inventoriaus numeris:** Įveskite turto inventoriaus numerį."
 msgid ""
 "**Supplier Invoice Reference**: Enter the reference to the related "
 "supplier invoice."
-msgstr "**Tiekėjo sąskaitos nuoroda:** Įveskite nuorodą į susijusią tiekėjo sąskaitą."
+msgstr ""
+"**Tiekėjo sąskaitos nuoroda:** Įveskite nuorodą į susijusią tiekėjo "
+"sąskaitą."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:32
 msgid "**Commissioning Date**: Select the date when the asset was commissioned."
-msgstr "**Eksploatavimo data:** Pasirinkite datą, kada turtas buvo priimtas eksploatacijai."
+msgstr ""
+"**Eksploatavimo data:** Pasirinkite datą, kada turtas buvo priimtas "
+"eksploatacijai."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:37
 msgid "Main Features"
@@ -1376,20 +1376,21 @@ msgid ""
 "Lithuanian market, which can be found in the Accounting module under "
 "Accounting >> Reports >> Via laurea long-term asset reports."
 msgstr ""
-"UAB Via laurea Lietuvos rinkos poreikiams yra sukūrusi specialias ilgalaikio turto ataskaitas, "
-"kurias galite rasti Apskaitos modulio ataskaitų skiltyje Apskaita >> Ataskaitos >> "
-"Via laurea ilg. turto ataskaitos."
+"UAB Via laurea Lietuvos rinkos poreikiams yra sukūrusi specialias "
+"ilgalaikio turto ataskaitas, kurias galite rasti Apskaitos modulio "
+"ataskaitų skiltyje Apskaita >> Ataskaitos >> Via laurea ilg. turto "
+"ataskaitos."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:46
 msgid ""
 "In the report window, you can choose from three different reports: Asset "
 "Card, Commissioning Act, and Write-off Act."
 msgstr ""
-"Pasirinkus šias Via laurea ilg. turto ataskaitas, atsidariusiame lange galėsite pasirinkti "
-"3 skirtingas ataskaitas: Turto kortelę, Įvedimo į eksploataciją aktą ir Nurašymo aktą:"
+"Pasirinkus šias Via laurea ilg. turto ataskaitas, atsidariusiame lange "
+"galėsite pasirinkti 3 skirtingas ataskaitas: Turto kortelę, Įvedimo į "
+"eksploataciją aktą ir Nurašymo aktą:"
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:54
-#
 msgid "1. Asset Card"
 msgstr "1. Turto Kortelė"
 
@@ -1399,27 +1400,28 @@ msgid ""
 "specific asset from the list, and set the date for which the card will be"
 " generated."
 msgstr ""
-"Norint atsispausdinti turto kortelę, pasirinkite reikiamą ataskaitą, turto sąraše "
-"konkretų turtą ir nustatykite datą, kuriai bus formuojama minėta kortelė."
+"Norint atsispausdinti turto kortelę, pasirinkite reikiamą ataskaitą, "
+"turto sąraše konkretų turtą ir nustatykite datą, kuriai bus formuojama "
+"minėta kortelė."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:60
 msgid ""
 "Choose the format in which you want to generate the card. The system will"
 " generate an asset card with all the data related to the selected asset."
 msgstr ""
-"Pasirinkite, kokiu formatu norite formuoti kortelę. Jums bus suformuota IT kortelė "
-"su visais duomenimis, susijusiais su pasirinktu IT vienetu."
+"Pasirinkite, kokiu formatu norite formuoti kortelę. Jums bus suformuota "
+"IT kortelė su visais duomenimis, susijusiais su pasirinktu IT vienetu."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:64
 msgid ""
 "**Important**: You can select multiple assets, and the system will "
 "generate a combined file with asset cards for all selected items."
 msgstr ""
-"**Svarbu:** galite pasirinkti ne vieną IT vienetą, bet keletą - tokiu atveju "
-"bus suformuotas bendras failas su visų pasirinktų IT vienetų kortelėmis iškart."
+"**Svarbu:** galite pasirinkti ne vieną IT vienetą, bet keletą - tokiu "
+"atveju bus suformuotas bendras failas su visų pasirinktų IT vienetų "
+"kortelėmis iškart."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:67
-#
 msgid "2. Commissioning Act"
 msgstr "2. Įvedimo į eksploataciją aktas"
 
@@ -1431,11 +1433,11 @@ msgid ""
 "window. Assign the materially responsible person. Select the commission "
 "chairman and members from the list."
 msgstr ""
-"Įvedimo į eksploataciją aktas sudaromas pradedant įmonės veikloje naudoti IT. "
-"Siekiant jį atsispausdinti, įrašykite atsidariusiame lange akto "
-"numerį, pasirinkite konkretų IT iš sąrašo, datą, įrašykite įsakymo numerį. "
-"Priskirkite materialiai atsakingą asmenį. Pasirinkite komisijos pirmininką "
-"ir komisijos narius iš sąrašo."
+"Įvedimo į eksploataciją aktas sudaromas pradedant įmonės veikloje naudoti"
+" IT. Siekiant jį atsispausdinti, įrašykite atsidariusiame lange akto "
+"numerį, pasirinkite konkretų IT iš sąrašo, datą, įrašykite įsakymo "
+"numerį. Priskirkite materialiai atsakingą asmenį. Pasirinkite komisijos "
+"pirmininką ir komisijos narius iš sąrašo."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:73
 msgid ""
@@ -1453,11 +1455,11 @@ msgid ""
 "assets, commissioning acts will be generated for all selected items at "
 "once."
 msgstr ""
-"**Svarbu:** Kaip ir su ankstesnėmis formomis, jei pasirinksite kelis turtus vienu "
-"metu, paleidimo aktai bus sugeneruoti pasirinktiems vienetams vienu metu."
+"**Svarbu:** Kaip ir su ankstesnėmis formomis, jei pasirinksite kelis "
+"turtus vienu metu, paleidimo aktai bus sugeneruoti pasirinktiems "
+"vienetams vienu metu."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:80
-#
 msgid "3. Write-off Act"
 msgstr "3. Nurašymo aktas"
 
@@ -1471,11 +1473,11 @@ msgid ""
 "document. Generate the document in the required format."
 msgstr ""
 "Nurašymo aktas skirtas suformuoti dokumentą nurašant IT. Pasirinkite "
-"atitinkamą IT ataskaitą iš sąrašo, įrašykite akto numerį, "
-"dokumento ir eksploatavimo nutraukimo datas, pasirinkite komisijos "
-"pirmininką ir narius. Eksploatavimo nutraukimo ir komisijos "
-"pasiūlymo skiltyse galite įrašyti reikiamą tekstą, kuris bus "
-"atvaizduojamas dokumente. Formuokite dokumentą Jums reikalingu formatu."
+"atitinkamą IT ataskaitą iš sąrašo, įrašykite akto numerį, dokumento ir "
+"eksploatavimo nutraukimo datas, pasirinkite komisijos pirmininką ir "
+"narius. Eksploatavimo nutraukimo ir komisijos pasiūlymo skiltyse galite "
+"įrašyti reikiamą tekstą, kuris bus atvaizduojamas dokumente. Formuokite "
+"dokumentą Jums reikalingu formatu."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:86
 msgid "The appropriate document is generated:"
@@ -1487,9 +1489,9 @@ msgid ""
 "document will be generated, and all the written-off items will be listed "
 "in the table in the appendix."
 msgstr ""
-"**Svarbu:** jei šioje spausdinimo formoje pasirinksite keletą IT vienetų, bus "
-"formuojami ne atskiri dokumentai kiekvienam, bet vienas dokumentas ir visi nurašomi "
-"vienetai bus listinguojami priede esančioje lentelėje."
+"**Svarbu:** jei šioje spausdinimo formoje pasirinksite keletą IT vienetų,"
+" bus formuojami ne atskiri dokumentai kiekvienam, bet vienas dokumentas "
+"ir visi nurašomi vienetai bus listinguojami priede esančioje lentelėje."
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:96
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:47
@@ -1516,35 +1518,38 @@ msgstr ""
 "standartams Odoo sistemoje."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:13
-msgid "**Installation Instructions:** Necessary steps for installing the module."
-msgstr "**Diegimo instrukcijos:** Būtini modulio diegimo žingsniai."
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:15
-msgid ""
-"**Initial Configuration:** Before using this module, specific settings "
-"need to be configured. Go to \"Vehicle Park\" -> Configuration -> "
-"Settings:"
+#, fuzzy
+msgid "Before using this module, specific settings need to be configured."
 msgstr ""
 "**Pradinė konfigūracija:** Prieš naudojant šį modulį, reikia "
 "sukonfigūruoti tam tikrus nustatymus. Eikite į \"Transporto priemonių "
 "parkas\" -> Konfigūracija -> Nustatymai:"
 
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:15
+#, fuzzy
+msgid "Go to \"Vehicle Park\" -> Configuration -> Settings:"
+msgstr "Modulis Apskaita -> Konfigūracija -> Mokesčiai"
+
 msgid "Configuration settings window"
 msgstr "Konfigūracijos nustatymų langas"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:20
-msgid "Open configuration fields:"
+#, fuzzy
+msgid "Configuration fields open:"
 msgstr "Atidaryti konfigūracijos laukus:"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:22
+msgid "Vehicle card creation interface"
+msgstr "Transporto priemonės kortelės kūrimo sąsaja"
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:25
 msgid "Specify the debit/credit fuel account."
 msgstr "Nurodykite debeto/kredito kuro sąskaitą."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:23
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:26
 msgid "Choose the fuel products."
 msgstr "Pasirinkite degalų produktus."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:24
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:27
 msgid ""
 "Fuel journal: Either use the standard \"various operations\" or create a "
 "specialized one specifically for fuel accounting (for how to create a "
@@ -1554,64 +1559,61 @@ msgstr ""
 "sukurkite specializuotą, skirtą išimtinai kuro apskaitai (kaip sukurti "
 "žurnalą, žiūrėkite „Pradžia su Odoo“ nurodymuose)."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:27
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
-msgid "3. Main Features"
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:30
+#, fuzzy
+msgid "1. Main Features"
 msgstr "3. Pagrindinės savybės"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:29
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:32
 msgid "Create a vehicle card and enter all necessary information:"
 msgstr ""
 "Sukurkite transporto priemonės kortelę ir įveskite visą reikiamą "
 "informaciją:"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:31
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:34
 msgid "Click \"New\":"
 msgstr "Spustelėkite „Nauja“:"
 
-msgid "Vehicle card creation interface"
-msgstr "Transporto priemonės kortelės kūrimo sąsaja"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:36
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:39
 msgid "Select a template (vehicle make) from the provided list."
 msgstr "Pasirinkite šabloną (transporto priemonės markę) iš pateikto sąrašo."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:37
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:40
 msgid "Enter the registration number."
 msgstr "Įveskite registracijos numerį."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:38
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:41
 msgid "If needed, input information about the driver."
 msgstr "Jei reikia, įveskite informaciją apie vairuotoją."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:39
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:42
 msgid "Fill in the relevant fields about the vehicle."
 msgstr "Užpildykite atitinkamus laukus apie transporto priemonę."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:40
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:43
 msgid "Fill in the required information in the tax information field."
 msgstr "Užpildykite reikiamą informaciją mokesčių informacijos lauke."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:41
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:44
 msgid "Specify the debit/credit account for fuel accounting."
 msgstr "Nurodykite debeto/kredito sąskaitą kuro apskaitai."
 
-msgid "Additional vehicle information fields"
-msgstr "Papildomi transporto priemonės informacijos laukai"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:46
-msgid ""
-"After filling in the tax information, proceed to input additional vehicle"
-" details:"
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:45
+#, fuzzy
+msgid "After filling in the tax information, we go to the templates:"
 msgstr ""
 "Įvedę mokesčių informaciją, tęskite ir įveskite papildomą informaciją "
 "apie transporto priemonę:"
 
-msgid "Inputting additional vehicle details"
+msgid "Additional vehicle information fields"
+msgstr "Papildomi transporto priemonės informacijos laukai"
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:50
+#, fuzzy
+msgid "Proceed to input additional vehicle details."
 msgstr "Įvedant papildomą transporto priemonės informaciją"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:51
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:52
 msgid ""
 "Once the vehicle card is completed and filled out, it is possible to "
 "register operations related to the specific vehicle."
@@ -1619,7 +1621,7 @@ msgstr ""
 "Kai transporto priemonės kortelė yra užpildyta ir sukomplektuota, galima "
 "registruoti su konkrečia transporto priemone susijusias operacijas."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:53
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:54
 msgid "When registering invoices, the necessary vehicle is assigned in the lines:"
 msgstr ""
 "Registruojant sąskaitas faktūras, eilutėse paskiriama reikalinga "
@@ -1628,7 +1630,7 @@ msgstr ""
 msgid "Assigning vehicles in invoice registration"
 msgstr "Transporto priemonių priskyrimas sąskaitų registracijoje"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:58
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:59
 msgid ""
 "If services related to the vehicle were purchased, the information is "
 "displayed here on the vehicle card:"
@@ -1639,18 +1641,26 @@ msgstr ""
 msgid "Services related information display on vehicle card"
 msgstr "Paslaugų informacijos rodymas transporto priemonės kortelėje"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:63
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:64
+#, fuzzy
+msgid "Clicking on this button opens a window with all invoices."
+msgstr "Spustelėjus šį mygtuką atsidaro langas su visa degalų istorija:"
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:66
 msgid "When purchasing fuel:"
 msgstr "Pirkdami kurą:"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:65
-msgid "Clicking this button opens a window with the entire fuel history:"
-msgstr "Spustelėjus šį mygtuką atsidaro langas su visa degalų istorija:"
 
 msgid "Fuel history window"
 msgstr "Degalų istorijos langas"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:70
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:71
+msgid "Clicking this button opens a window with the entire fuel history:"
+msgstr "Spustelėjus šį mygtuką atsidaro langas su visa degalų istorija:"
+
+msgid "Fuel write-off interface"
+msgstr "Degalų nurašymo sąsaja"
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:76
 msgid ""
 "In the opened window, the purchased quantity, write-offs, and remaining "
 "fuel balance are displayed."
@@ -1658,46 +1668,46 @@ msgstr ""
 "Atidarytame lange rodomas įsigytas kiekis, nurašymai ir likęs kuro "
 "balansas."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:72
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:78
 msgid "Fuel write-off is performed on the vehicle card by clicking the button:"
 msgstr ""
 "Degalų nurašymas atliekamas transporto priemonės kortelėje paspaudus "
 "mygtuką:"
 
-msgid "Fuel write-off interface"
-msgstr "Degalų nurašymo sąsaja"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:77
-msgid "A window opens:"
-msgstr "Atidaromas langas:"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:79
-msgid "Select a vehicle."
-msgstr "Pasirinkite transporto priemonę."
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:80
-msgid "Specify the date for the fuel write-off."
-msgstr "Nurodykite degalų nurašymo datą."
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:81
-msgid "Enter the amount of fuel to be written off."
-msgstr "Įveskite nurašytino kuro kiekį."
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:82
-msgid "Click \"Write off\"."
-msgstr "Spustelėkite „Nurašyti“."
-
 msgid "Details of fuel write-off"
 msgstr "Degalų nurašymo detalės"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:87
-msgid "After forming the fuel write-off record, go to the \"Fuel Journal\":"
-msgstr "Sukūrus kuro nurašymo aktą, eikite į \"Kuro žurnalą\":"
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:83
+msgid "A window opens:"
+msgstr "Atidaromas langas:"
 
 msgid "Accessing the fuel journal"
 msgstr "Prisijungimas prie degalų žurnalo"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:92
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:88
+msgid "Select a vehicle."
+msgstr "Pasirinkite transporto priemonę."
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:89
+msgid "Specify the date for the fuel write-off."
+msgstr "Nurodykite degalų nurašymo datą."
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:90
+msgid "Enter the amount of fuel to be written off."
+msgstr "Įveskite nurašytino kuro kiekį."
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:91
+msgid "Click \"Write off\"."
+msgstr "Spustelėkite „Nurašyti“."
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:93
+msgid "After forming the fuel write-off record, go to the \"Fuel Journal\":"
+msgstr "Sukūrus kuro nurašymo aktą, eikite į \"Kuro žurnalą\":"
+
+msgid "Checking draft entries"
+msgstr "Tikrinami juodraščiai įrašai"
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:98
 msgid ""
 "Here, draft entries are created, which need to be registered to ensure "
 "that the data and figures are recorded in the general ledger:"
@@ -1705,7 +1715,10 @@ msgstr ""
 "Čia sukuriami juodraščių įrašai, kuriuos reikia užregistruoti, kad būtų "
 "užtikrintas duomenų ir skaičių įrašymas į bendrąją apskaitos knygą:"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:94
+msgid "Finalizing entries in the fuel journal"
+msgstr "Galutinis įrašų degalų žurnale užbaigimas"
+
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:103
 msgid ""
 "Before registering, by clicking on the desired line, you can check the "
 "correspondence that will register:"
@@ -1713,10 +1726,10 @@ msgstr ""
 "Prieš registruodamiesi, spustelėję norimą eilutę, galite patikrinti "
 "susirašinėjimą, kuris bus registruojamas:"
 
-msgid "Checking draft entries"
-msgstr "Tikrinami juodraščiai įrašai"
+msgid "Document management and archiving instructions"
+msgstr "Dokumentų tvarkymo ir archyvavimo instrukcijos"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:99
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:108
 msgid ""
 "If everything is correct, return to the Fuel Journals, mark the entry you"
 " want to register, and click Action -> Post Entries."
@@ -1724,55 +1737,31 @@ msgstr ""
 "Jei viskas yra teisinga, grįžkite į kuro žurnalus, pažymėkite norimą "
 "įrašyti įrašą ir spustelėkite Veiksmas -> Paskelbti įrašus."
 
-msgid "Finalizing entries in the fuel journal"
-msgstr "Galutinis įrašų degalų žurnale užbaigimas"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:105
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
-msgid "4. Reports and Documentation"
-msgstr "4. Ataskaitos ir dokumentacija"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:107
-msgid "How to generate reports using the module."
-msgstr "Kaip generuoti ataskaitas naudojant modulį."
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:109
-msgid "Instructions for document management and archiving."
-msgstr "Instrukcijos dokumentų tvarkymui ir archyvavimui."
-
-msgid "Document management and archiving instructions"
-msgstr "Dokumentų tvarkymo ir archyvavimo instrukcijos"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:115
-msgid "5. Integrations and Connection with Other Modules"
-msgstr "5. Integracijos ir ryšys su kitais moduliais"
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:119
-msgid "Special integration instructions if needed."
-msgstr "Specialios integracijos instrukcijos, jei reikia."
-
 msgid "Integration with other modules"
 msgstr "Integracija su kitais moduliais"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:125
-msgid "6. Troubleshooting and FAQ"
-msgstr "6. Trikčių šalinimas ir DUK"
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:116
+msgid "A fuel write-off report can be printed in the fuel accounting module."
+msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:127
-msgid "Frequent problems and their solutions."
-msgstr "Dažnos problemos ir jų sprendimai."
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:118
+#, fuzzy
+msgid "In the vehicle card, click \"Print\""
+msgstr "Atidarytame lange spustelėkite „Sukurti“."
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:132
-msgid "7. Updates and Version Management"
-msgstr "7. Atnaujinimai ir versijų valdymas"
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:119
+#, fuzzy
+msgid "Select \"fuel write-off report\""
+msgstr "Degalų nurašymo detalės"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:136
-msgid "Version management practices."
-msgstr "Versijų valdymo praktikos."
-
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:139
-msgid "8. Appendices"
-msgstr "8. Priedai"
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:120
+#, fuzzy
+msgid ""
+"In the opened window, select the date for which the report should be "
+"printed and choose the format:"
+msgstr ""
+"Atidarame lange galite pasirinkti datą, kurios informaciją norite matyti."
+" Išspausdinkite PDF ir xlsx formatais."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities.rst:2
 msgid "Other functionalities"
@@ -2463,7 +2452,8 @@ msgid ""
 "Odoo system and reconcile them with received or issued invoices."
 msgstr ""
 "Instrukcija skirta teisingai registruoti gautus/sumokėtus avansus Odoo "
-"sistemoje bei juos sudengti su gautomis arba išrašytomis sąskaitomis faktūromis."
+"sistemoje bei juos sudengti su gautomis arba išrašytomis sąskaitomis "
+"faktūromis."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:12
 msgid ""
@@ -2472,10 +2462,10 @@ msgid ""
 "of accounts. To do this, in Accounting, go to Configuration, and in the "
 "Settings section, select the accounts and the created journal."
 msgstr ""
-"Siekiant teisingai naudotis Avansų moduliu, pirmiausia "
-"reikia atlikti konfigūraciją, sukurti žurnalą „Avansai“ ir "
-"nurodyti sąskaitas iš sąskaitų plano. Tuo tikslu Apskaitoje, Konfigūracijoje, "
-"Nustaymų skiltyje parinkite sąskaitas bei sukurtąjį žurnalą."
+"Siekiant teisingai naudotis Avansų moduliu, pirmiausia reikia atlikti "
+"konfigūraciją, sukurti žurnalą „Avansai“ ir nurodyti sąskaitas iš "
+"sąskaitų plano. Tuo tikslu Apskaitoje, Konfigūracijoje, Nustaymų skiltyje"
+" parinkite sąskaitas bei sukurtąjį žurnalą."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:17
 msgid "3. Daily Use Scenarios"
@@ -2504,9 +2494,9 @@ msgid ""
 "account where the buyer's debt is registered (in our case, 2410) on the "
 "invoice date."
 msgstr ""
-"Paspaudus mygtuką „Pridėti“, bus sukurtas automatinis įrašas, kuris sąskaitos "
-"data perkels iš avansinio mokėjimo sąskaitos 4420 sumą į sąskaitą, "
-"kurioje užregistruota pirkėjo skola (mūsų atveju 2410)."
+"Paspaudus mygtuką „Pridėti“, bus sukurtas automatinis įrašas, kuris "
+"sąskaitos data perkels iš avansinio mokėjimo sąskaitos 4420 sumą į "
+"sąskaitą, kurioje užregistruota pirkėjo skola (mūsų atveju 2410)."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:31
 msgid ""
@@ -2514,8 +2504,8 @@ msgid ""
 "the related general ledger entries for this automatic operation will "
 "open:"
 msgstr ""
-"Jei paspausite pele ant laukelio „Reconciled items“, kaip parodyta rodykle - atsidarys "
-"su šia automatine operacija susiję DK įrašai:"
+"Jei paspausite pele ant laukelio „Reconciled items“, kaip parodyta "
+"rodykle - atsidarys su šia automatine operacija susiję DK įrašai:"
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:35
 msgid ""
@@ -2524,10 +2514,10 @@ msgid ""
 "by selecting the appropriate accounts, you can also reconcile paid "
 "advances with payable amounts."
 msgstr ""
-"Remiantis šiais įrašais galite matyti, kaip sąskaitos suma perkeliama "
-"iš avanso ir sudengiama su gautina suma. "
-"Analogiškai, tik pasirenkant atitinkamas sąskaitas, galite sudengti "
-"ir sumokėtus avansus su mokėtinomis sumomis."
+"Remiantis šiais įrašais galite matyti, kaip sąskaitos suma perkeliama iš "
+"avanso ir sudengiama su gautina suma. Analogiškai, tik pasirenkant "
+"atitinkamas sąskaitas, galite sudengti ir sumokėtus avansus su "
+"mokėtinomis sumomis."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:2
 msgid "Accounting note"
@@ -2546,7 +2536,6 @@ msgid "**Module Installation**: The module `accounting_note` must be installed."
 msgstr "**Modulio įdiegimas**: Modulis `accounting_note` turi būti įdiegtas."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:13
-#
 msgid ""
 "**Configuration**: The installed module does not require additional "
 "configuration."
@@ -3028,6 +3017,11 @@ msgstr ""
 msgid "Initial configuration: no settings are necessary."
 msgstr "Pradiniai nustatymai: nustatymai nėra privalomi"
 
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
+#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
+msgid "3. Main Features"
+msgstr "3. Pagrindinės savybės"
+
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:17
 msgid ""
 "Detailed feature description: Inventory -> Operations -> Transfers. "
@@ -3049,6 +3043,10 @@ msgstr ""
 "turi būti įvestas produkto svoris, Intrastato KN kodas (daugiau "
 "informacijos žr. Intrastato deklaracijos dokumentacijoje) ir kilmės "
 "šalis."
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
+msgid "4. Reports and Documentation"
+msgstr "4. Ataskaitos ir dokumentacija"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
 msgid ""
@@ -4051,30 +4049,29 @@ msgid ""
 "employee expenses. The department/division manager can also be specified,"
 " and a higher division can be assigned if needed."
 msgstr ""
-"Darbuotojų modulyje, konfigūracijos skiltyje suvedami įmonės skyriai "
-"ir nustatomos buhalterinės sąskaitos darbo užmokesčio priskaitymo įrašams. "
-"Tokiu būdu galima paskirstyti DU sąnaudas pagal poreikį - pvz. "
-"atskirti gamybos darbuotojų ir administracijos darbuotojų DU sąnaudas. "
-"Taip pat galima nurodyti skyriaus/padalinio vadovą "
-"ir pagal poreikį priskirti aukštesnį padalinį."
+"Darbuotojų modulyje, konfigūracijos skiltyje suvedami įmonės skyriai ir "
+"nustatomos buhalterinės sąskaitos darbo užmokesčio priskaitymo įrašams. "
+"Tokiu būdu galima paskirstyti DU sąnaudas pagal poreikį - pvz. atskirti "
+"gamybos darbuotojų ir administracijos darbuotojų DU sąnaudas. Taip pat "
+"galima nurodyti skyriaus/padalinio vadovą ir pagal poreikį priskirti "
+"aukštesnį padalinį."
 
 msgid "Department Configuration"
 msgstr "Departamento konfigūracija"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:23
-#
 msgid "**Creating an employee card:**"
 msgstr "**Darbuotojo kortelės sukūrimas:**"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:25
-#
 msgid ""
 "**Important:** The employee card is linked to the \"Contacts\" module, "
 "and when a new employee is created, their data is automatically "
 "duplicated into the Contacts module."
 msgstr ""
-"**Svarbu:** darbuotojo kortelė yra susijusi su „Kontaktų“ moduliu "
-"ir sukūrus naują darbuotoją, jo duomenys dubliuojami į Kontaktų modulį automatiškai."
+"**Svarbu:** darbuotojo kortelė yra susijusi su „Kontaktų“ moduliu ir "
+"sukūrus naują darbuotoją, jo duomenys dubliuojami į Kontaktų modulį "
+"automatiškai."
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:27
 msgid "When entering new employee data, select \"New\"."
@@ -4120,32 +4117,31 @@ msgid ""
 " creation of a new department directly from the employee card while "
 "entering data."
 msgstr ""
-"Privačios informacijos skirtuke suvedame duomenis apie išsilavinimą, sertifikatus, "
-"šeimyninę padėtį ir pan. Personalo kortelėje įrašome mokėtiną "
-"avansą kas mėnesį, jei jis bus mokamas. Vykdomuosiuose raštuose "
-"suvedame duomenis apie išskaitymus iš darbo užmokesčio pagal vykdomuosius raštus. "
-"Svarbu pažymėti, jog skyrius, pareigybes ir pan. galima kurti ne tik Konfigūracijos "
-"skiltyje, bet iškart rašant darbuotojo kortelėje. Įvedus naują pavadinimą, "
-"atsiranda \"Create and Edit\" nuoroda, kurią paspaudus vartotojas nukreipiamas "
-"tiesiai į kūrimo langą. Pavyzdyje parodytas naujo skyriaus "
-"kūrimas tiesiai iš darbuotojo kortelės, vedant duomenis."
+"Privačios informacijos skirtuke suvedame duomenis apie išsilavinimą, "
+"sertifikatus, šeimyninę padėtį ir pan. Personalo kortelėje įrašome "
+"mokėtiną avansą kas mėnesį, jei jis bus mokamas. Vykdomuosiuose raštuose "
+"suvedame duomenis apie išskaitymus iš darbo užmokesčio pagal vykdomuosius"
+" raštus. Svarbu pažymėti, jog skyrius, pareigybes ir pan. galima kurti ne"
+" tik Konfigūracijos skiltyje, bet iškart rašant darbuotojo kortelėje. "
+"Įvedus naują pavadinimą, atsiranda \"Create and Edit\" nuoroda, kurią "
+"paspaudus vartotojas nukreipiamas tiesiai į kūrimo langą. Pavyzdyje "
+"parodytas naujo skyriaus kūrimas tiesiai iš darbuotojo kortelės, vedant "
+"duomenis."
 
 msgid "Creating a New Department"
 msgstr "Sukurti naują skyrių"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:48
-#
 msgid "**Entering employment contract information:**"
 msgstr "**Darbo sutarties informacijos įvedimas:**"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:50
-#
 msgid ""
 "To enter employment contract information, select the \"Contracts\" "
 "section in the employee card."
 msgstr ""
-"Siekiant įvesti darbo sutarties informaciją, darbuotojo "
-"kortelėje pasirenkame skiltį \"Sutartys\"."
+"Siekiant įvesti darbo sutarties informaciją, darbuotojo kortelėje "
+"pasirenkame skiltį \"Sutartys\"."
 
 msgid "Contracts Section"
 msgstr "Sutarčių skyrius"
@@ -4164,10 +4160,10 @@ msgid ""
 "employment contract, the application/non-application of NPD, and pension "
 "accumulation if the employee contributes to the second pillar pension."
 msgstr ""
-"Pirmojoje kortelėje „Sutarties detalės“ būtina nurodyti darbo įrašų šaltinį, "
-"jei pasirenkamas grafikas - sukonfigūruotą grafiką, "
-"DS rūšį, NPD taikymą/netaikymą bei pensijos kaupimą, "
-"jei darbuotojas kaupia II pakopos pensiją."
+"Pirmojoje kortelėje „Sutarties detalės“ būtina nurodyti darbo įrašų "
+"šaltinį, jei pasirenkamas grafikas - sukonfigūruotą grafiką, DS rūšį, NPD"
+" taikymą/netaikymą bei pensijos kaupimą, jei darbuotojas kaupia II "
+"pakopos pensiją."
 
 msgid "Contract Details"
 msgstr "Sutarties Detalės"
@@ -4179,8 +4175,8 @@ msgid ""
 "date of the first period of cumulative accounting."
 msgstr ""
 "Atlyginimo informacijoje nurodomas atlyginimas, jei taikoma suminė darbo "
-"apskaita - pažymima bei nurodomas periodiškumas ir suminės "
-"apskaitos pirmojo laikotarpio pradžios data."
+"apskaita - pažymima bei nurodomas periodiškumas ir suminės apskaitos "
+"pirmojo laikotarpio pradžios data."
 
 msgid "Salary Information"
 msgstr "Atlyginimo informacija"
@@ -4190,8 +4186,8 @@ msgid ""
 "In the part-time section, if the employee works part-time, enter the "
 "appropriate data."
 msgstr ""
-"Part-time kortelėje, darbuotojui dirbant ne pilnu etatu, "
-"nurodomi atitinkami duomenys."
+"Part-time kortelėje, darbuotojui dirbant ne pilnu etatu, nurodomi "
+"atitinkami duomenys."
 
 msgid "Part-time Section"
 msgstr "Dalinės darbo dienos skyrius"
@@ -4208,12 +4204,10 @@ msgid "1-SD Report"
 msgstr "1-SD Ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:80
-#
 msgid "After entering all the data, save the employment contract."
 msgstr "Suvedus visus duomenis, darbo sutartis išsaugoma."
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:82
-#
 msgid ""
 "**Important:** If there is a need to change employment contract data, the"
 " existing contract is not changed. In the employee card, the old contract"
@@ -4221,15 +4215,17 @@ msgid ""
 " schedule, etc.)."
 msgstr ""
 "**Svarbu:** esant poreikiui keisti darbo sutarties duomenis, nėra "
-"keičiama jau egzistuojanti sutartis. Darbuotojo kortelėje senoji sutartis "
-"užbaigiama ir formuojama nauja su atnaujintais duomenimis "
-"(pvz. atlyginimų, darbo laiko grafikų ir pan.)."
+"keičiama jau egzistuojanti sutartis. Darbuotojo kortelėje senoji sutartis"
+" užbaigiama ir formuojama nauja su atnaujintais duomenimis (pvz. "
+"atlyginimų, darbo laiko grafikų ir pan.)."
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:84
 msgid ""
 "All past and current employment contracts can be seen in the employee's "
 "employment contract history."
-msgstr "Visas buvusias ir esamą/aktualią DS galima matyti darbuotojo darbo sutarčių istorijoje."
+msgstr ""
+"Visas buvusias ir esamą/aktualią DS galima matyti darbuotojo darbo "
+"sutarčių istorijoje."
 
 msgid "Employment Contract History"
 msgstr "Darbo sutarties istorija"
@@ -4249,11 +4245,12 @@ msgid ""
 "accounting, payroll calculation, and various forms for Sodra and VMI "
 "related to payroll (module \"Payroll\")."
 msgstr ""
-"Darbo užmokesčio skaičiavimas apima darbuotojų kontaktus, darbo "
-"sutarčių informacijos įvedimą (modulis „Darbuotojai“), darbo grafikų sudarymą, "
-"neatvykimų apskaitą (moduliai „Planavimas“ ir „Neatvykimai“), darbo laiko "
-"apskaitą, darbo užmokesčio skaičiavimą, bei įvairias formas Sodrai ir VMI, "
-"kurios susiję su darbo užmokesčiu. Tam naudojamas modulis „Algalapis“."
+"Darbo užmokesčio skaičiavimas apima darbuotojų kontaktus, darbo sutarčių "
+"informacijos įvedimą (modulis „Darbuotojai“), darbo grafikų sudarymą, "
+"neatvykimų apskaitą (moduliai „Planavimas“ ir „Neatvykimai“), darbo laiko"
+" apskaitą, darbo užmokesčio skaičiavimą, bei įvairias formas Sodrai ir "
+"VMI, kurios susiję su darbo užmokesčiu. Tam naudojamas modulis "
+"„Algalapis“."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:12
 msgid "2.1. Configuration of Accounting Entries"
@@ -4268,10 +4265,10 @@ msgid ""
 " in the Payroll module, in the Configuration section, under \"Rules\"."
 msgstr ""
 "Naudojant darbo užmokesčio skaičiavimą Odoo, svarbu nusistatyti "
-"buhalterines korespondencijas, pagal kurias, patvirtinus skaičiavimus, bus "
-"siunčiama informacija į Apskaitos modulį. Jei visiems darbuotojams bus "
-"naudojama vienoda sąskaitų korespondencija, ją reiktų nurodyti Algalapio "
-"modulyje >> Konfigūracija >> parametre \"Taisyklės\"."
+"buhalterines korespondencijas, pagal kurias, patvirtinus skaičiavimus, "
+"bus siunčiama informacija į Apskaitos modulį. Jei visiems darbuotojams "
+"bus naudojama vienoda sąskaitų korespondencija, ją reiktų nurodyti "
+"Algalapio modulyje >> Konfigūracija >> parametre \"Taisyklės\"."
 
 msgid "Payroll Rules Configuration"
 msgstr "Mokesčių grupės konfigūravimas"
@@ -4282,8 +4279,8 @@ msgid ""
 "assigning the appropriate accounting accounts where needed based on your "
 "company's chart of accounts."
 msgstr ""
-"Pasirinkus „Mėnesinis darbo užmokestis“, atsidariusiame sąraše "
-"reikėtų peržiūrėti visas eilutes ir tose, kuriose sąskaitų korespondencija "
+"Pasirinkus „Mėnesinis darbo užmokestis“, atsidariusiame sąraše reikėtų "
+"peržiūrėti visas eilutes ir tose, kuriose sąskaitų korespondencija "
 "reikalinga, priskirti atitinkamas buhalterines sąskaitas, remiantis Jūsų "
 "įmonės sąskaitų planu."
 
@@ -4300,16 +4297,14 @@ msgid "Accounting Tab"
 msgstr "Apskaitos skirtukas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:28
-#
 msgid ""
 "You can also choose whether to show this line in the payroll form and, if"
 " needed, select an analytical account."
 msgstr ""
-"Taip pat galite pasirinkti, ar šią eilutę rodyti formuojamame "
-"algalapyje ir, pagal poreikį, pasirinkti analitinę sąskaitą."
+"Taip pat galite pasirinkti, ar šią eilutę rodyti formuojamame algalapyje "
+"ir, pagal poreikį, pasirinkti analitinę sąskaitą."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:30
-#
 msgid ""
 "If you want to use different accounting accounts for different employees "
 "based on their departments, check the box \"Use department accounts\"."
@@ -4335,9 +4330,9 @@ msgid ""
 "accounts in it. Standard entries, such as GPM deductions from employees, "
 "remain common for all company employees."
 msgstr ""
-"Sukūrus skyriaus kortelę, joje nurodykite Algalapio debeto "
-"ir kredito sąskaitas. Standartinės korespondencijos, kaip pvz. GPM "
-"išskaitymo iš darbuotojų, lieka bendros visiems įmonės darbuotojams."
+"Sukūrus skyriaus kortelę, joje nurodykite Algalapio debeto ir kredito "
+"sąskaitas. Standartinės korespondencijos, kaip pvz. GPM išskaitymo iš "
+"darbuotojų, lieka bendros visiems įmonės darbuotojams."
 
 msgid "Department Payroll Accounts"
 msgstr "Departamento darbo užmokesčio sąskaitos"
@@ -4348,7 +4343,8 @@ msgid ""
 "must be assigned to one of the existing departments in the employee card."
 msgstr ""
 "**SVARBU:** jei naudojate skyrių sąskaitų korespondencijas, darbuotojo "
-"kortelėje darbuotojas būtinai turi būti priskirtas kažkuriam iš esančių skyrių."
+"kortelėje darbuotojas būtinai turi būti priskirtas kažkuriam iš esančių "
+"skyrių."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:48
 msgid ""
@@ -4366,10 +4362,10 @@ msgid ""
 "done in the Payroll module, Configuration, Cumulative Working Time "
 "section."
 msgstr ""
-"Jei bent vienam darbuotojui taikoma suminė darbo laiko apskaita, "
-"prieš pirmųjų skaičiavimų atlikimą būtina suvesti darbo valandų skaičių "
-"atitinkamais mėnesiais. Tai atliekama Algalapio modulyje >> "
-"Konfigūracija >> Suminės apskaitos darbo laikas."
+"Jei bent vienam darbuotojui taikoma suminė darbo laiko apskaita, prieš "
+"pirmųjų skaičiavimų atlikimą būtina suvesti darbo valandų skaičių "
+"atitinkamais mėnesiais. Tai atliekama Algalapio modulyje >> Konfigūracija"
+" >> Suminės apskaitos darbo laikas."
 
 msgid "Cumulative Working Time"
 msgstr "Suminė darbo laiko apskaita"
@@ -4381,8 +4377,8 @@ msgid ""
 " to the calendar."
 msgstr ""
 "Atsidariusiame lange sukurkite naujus metus ir jų viduje, pridėdami "
-"eilutę, kiekvienam mėnesiui įveskite atitinkamą darbo valandų "
-"skaičių pagal kalendorių."
+"eilutę, kiekvienam mėnesiui įveskite atitinkamą darbo valandų skaičių "
+"pagal kalendorių."
 
 msgid "Add Working Hours"
 msgstr "Pridėti Darbo Valandas"
@@ -4402,10 +4398,9 @@ msgid ""
 "an interim account should be used, e.g., 273 (money in transit)."
 msgstr ""
 "Jei įmonė moka darbuotojams avansus, jiems naudojamos buhalterinės "
-"sąskaitos nustatomos Algalapio modulyje >> Konfigūracija >> "
-"Nustatymai, įvedant atitinkamas buhalterines sąskaitas. Avansiniams "
-"mokėjimams turėtų būti naudojama tarpinė sąskaita, "
-"pvz. 273 (pinigai kelyje)."
+"sąskaitos nustatomos Algalapio modulyje >> Konfigūracija >> Nustatymai, "
+"įvedant atitinkamas buhalterines sąskaitas. Avansiniams mokėjimams turėtų"
+" būti naudojama tarpinė sąskaita, pvz. 273 (pinigai kelyje)."
 
 msgid "Interim Account for Advances"
 msgstr "Tarpinė sąskaita avansams"
@@ -4420,9 +4415,9 @@ msgid ""
 "Configuration, Settings section, specifying the appropriate accounting "
 "accounts according to your chart of accounts:"
 msgstr ""
-"Kaupinių sąskaitų korespondencijai nustatymai vedami Algalapio "
-"modulyje >> Konfigūracija >> Nustatymai, nurodant atitinkamas "
-"buhalterines sąskaitas pagal Jūsų sąskaitų planą:"
+"Kaupinių sąskaitų korespondencijai nustatymai vedami Algalapio modulyje "
+">> Konfigūracija >> Nustatymai, nurodant atitinkamas buhalterines "
+"sąskaitas pagal Jūsų sąskaitų planą:"
 
 msgid "Vacation Accrual Accounts"
 msgstr "Atostogų kaupimo sąskaitos"
@@ -4441,12 +4436,11 @@ msgid ""
 "according to executive orders, enter the data in the specific employee's "
 "card, in the \"Executive Orders\" section."
 msgstr ""
-"Esant poreikiui darbuotojui atlikti išskaitymus iš darbo užmokesčio "
-"pagal vykdomuosius raštus, konkretaus darbuotojo kortelėje, skiltyje "
-"skiltyje „Vykdomieji raštai“ suveskite duomenis."
+"Esant poreikiui darbuotojui atlikti išskaitymus iš darbo užmokesčio pagal"
+" vykdomuosius raštus, konkretaus darbuotojo kortelėje, skiltyje skiltyje "
+"„Vykdomieji raštai“ suveskite duomenis."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:82
-#
 msgid ""
 "Click \"Add line\" and enter the data. The recipient of the deduction "
 "should be described as a partner - in this case, there will be an option "
@@ -4456,13 +4450,13 @@ msgid ""
 "which date the employee's money will be deducted. In the debt section, "
 "enter the amount of debt according to the executive order."
 msgstr ""
-"Spustelėkite \"Pridėti eilutę\" ir suveskite duomenis. Išskaitymo "
-"gavėjas turėtų būti aprašytas kaip partneris - tokiu atveju bus galimybė "
+"Spustelėkite \"Pridėti eilutę\" ir suveskite duomenis. Išskaitymo gavėjas"
+" turėtų būti aprašytas kaip partneris - tokiu atveju bus galimybė "
 "tiesiogiai formuoti pavedimą į banką. Pasirinkite išskaitymo procentus. "
-"Jei yra keletas vykdomųjų raštų tam pačiam darbuotojui, suveskite "
-"visus, atitinkamai paskirstant procentus. Data apibrėžia, nuo "
-"kokios datos bus išskaitomi iš darbuotojo pinigai. Skolos "
-"skiltyje įveskite skolos pagal vykdomąjį raštą sumą."
+"Jei yra keletas vykdomųjų raštų tam pačiam darbuotojui, suveskite visus, "
+"atitinkamai paskirstant procentus. Data apibrėžia, nuo kokios datos bus "
+"išskaitomi iš darbuotojo pinigai. Skolos skiltyje įveskite skolos pagal "
+"vykdomąjį raštą sumą."
 
 msgid "Executive Orders"
 msgstr "Vykdomieji įsakymai"
@@ -4482,27 +4476,26 @@ msgid ""
 msgstr ""
 "Kuriant darbo sutartį, darbuotojui parenkamas vienas iš dviejų darbo "
 "įrašų šaltinių - arba Darbo grafikas, arba Planavimo modulis. Apie "
-"Planavimo modulio grafikų sudarymą informaciją galite rasti "
-"Pamaininio darbo laiko apskaitos instrukcijoje. Įprasti, standartiniai "
-"darbo grafikai yra aprašomi Algalapio modulyje >> Konfigūracija >> parametre Darbo laikai."
+"Planavimo modulio grafikų sudarymą informaciją galite rasti Pamaininio "
+"darbo laiko apskaitos instrukcijoje. Įprasti, standartiniai darbo "
+"grafikai yra aprašomi Algalapio modulyje >> Konfigūracija >> parametre "
+"Darbo laikai."
 
 msgid "Work Times"
 msgstr "Darbo Laikai"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:94
-#
 msgid ""
 "In this section, after describing the specific work schedule and "
 "assigning it in the employee card, by default, the working time data will"
 " be taken from the schedule (considering absences) when calculating "
 "payroll."
 msgstr ""
-"Šioje dalyje, aprašius konkretų darbo grafiką ir darbuotojo kortelėje "
-"jį priskyrus, pagal nutylėjimą, skaičiuojant darbo užmokestį "
-"bus imami darbo laiko duomenys iš grafiko (įvertinus neatvykimus)."
+"Šioje dalyje, aprašius konkretų darbo grafiką ir darbuotojo kortelėje jį "
+"priskyrus, pagal nutylėjimą, skaičiuojant darbo užmokestį bus imami darbo"
+" laiko duomenys iš grafiko (įvertinus neatvykimus)."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:96
-#
 msgid ""
 "**IMPORTANT:** In the schedule, pay attention to the function of "
 "shortening the pre-holiday day, the function of ignoring holidays, and "
@@ -4510,9 +4503,9 @@ msgid ""
 "according to your needs:"
 msgstr ""
 "**SVARBU:** Grafike atkrepkite dėmesį į prieššventinės dienos trumpinimo "
-"funkciją, dėmeio nekreipimo į šventines dienas funkciją, "
-"bei darbo laiko proporciją, lyginant su pilnu etatu - sukonfigūruokite "
-"tai pagal savo poreikius:"
+"funkciją, dėmeio nekreipimo į šventines dienas funkciją, bei darbo laiko "
+"proporciją, lyginant su pilnu etatu - sukonfigūruokite tai pagal savo "
+"poreikius:"
 
 msgid "Work Schedule Configuration"
 msgstr "Darbo grafiko nustatymai"
@@ -4552,11 +4545,11 @@ msgid ""
 "card, in the \"Personnel Settings\" section, by checking the box for "
 "\"Reached Sodra Ceiling.\""
 msgstr ""
-"Gavus pranešimą iš Sodros, jog konkretaus darbuotojo darbo "
-"užmokestis pasiekė Sodros 'lubų' lygį ir, einamaisiais "
-"metais, reikia taikyti mažesnį VSDFV įmokų tarifą, tai pažymima darbuotojo "
-"kortelėje, skiltyje „Personalo nustatymai“, uždedant varnelę "
-"ant punkto „Pasiektos Sodros lubos“."
+"Gavus pranešimą iš Sodros, jog konkretaus darbuotojo darbo užmokestis "
+"pasiekė Sodros 'lubų' lygį ir, einamaisiais metais, reikia taikyti "
+"mažesnį VSDFV įmokų tarifą, tai pažymima darbuotojo kortelėje, skiltyje "
+"„Personalo nustatymai“, uždedant varnelę ant punkto „Pasiektos Sodros "
+"lubos“."
 
 msgid "Sodra Ceilings"
 msgstr "„Sodra“ lubos"
@@ -4570,8 +4563,8 @@ msgid ""
 msgstr ""
 "**PASTABA:** pasibaigus metams ir atlikus praėjusių metų gruodžio mėn. "
 "atlyginimo skaičiavimus, prieš skaičiuojant einamųjų metų pirmą "
-"atlyginimą, būtina kortelėje nuimti šį pažymėjimą, kad būtų "
-"atkurti standartiniai Sodros įmokų tarifai darbuotojui."
+"atlyginimą, būtina kortelėje nuimti šį pažymėjimą, kad būtų atkurti "
+"standartiniai Sodros įmokų tarifai darbuotojui."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:117
 msgid "4. Daily Scenarios and Calculation Process"
@@ -4589,11 +4582,11 @@ msgid ""
 "information on how to do this can be found in the Absence Registration "
 "Instructions."
 msgstr ""
-"Prieš atliekant darbo užmokesčio skaičiavimą, patikrinkite, "
-"ar suvesti ir vadovo patvirtinti neatvykimų duomenys už konkretų saičiavimo "
-"mėnesį Neatvykimų modulyje: atostogos, tėvadieniai, nedarbingumas "
-"ir tt. Platesnę informaciją, kaip tai atlikti, rasite Neatvykimų "
-"registravimo instrukcijoje."
+"Prieš atliekant darbo užmokesčio skaičiavimą, patikrinkite, ar suvesti ir"
+" vadovo patvirtinti neatvykimų duomenys už konkretų saičiavimo mėnesį "
+"Neatvykimų modulyje: atostogos, tėvadieniai, nedarbingumas ir tt. "
+"Platesnę informaciją, kaip tai atlikti, rasite Neatvykimų registravimo "
+"instrukcijoje."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:124
 msgid "4.2. Checking for Duplicate Entries"
@@ -4608,12 +4601,12 @@ msgid ""
 "conflicts/inconsistencies, adjust the entries in the respective module "
 "accordingly."
 msgstr ""
-"Prieš skaičiuojant darbo užmokestį, patikrinkite, ar nėra "
-"persidengiančių darbo įrašų, tarkime, darbuotojui toms pačioms datoms įvestos "
-"atostogos ir nedarbingumas. Tai atlikite Algalapio modulyje >> Darbo "
-"įrašai pasirinkdami parametrą Konfliktai ir nusistatydami atitinkamą "
-"mėnesį. Esant konfliktams/neatitikimams, atitinkamai "
-"pakoreguokite įrašus reikiamame modulyje."
+"Prieš skaičiuojant darbo užmokestį, patikrinkite, ar nėra persidengiančių"
+" darbo įrašų, tarkime, darbuotojui toms pačioms datoms įvestos atostogos "
+"ir nedarbingumas. Tai atlikite Algalapio modulyje >> Darbo įrašai "
+"pasirinkdami parametrą Konfliktai ir nusistatydami atitinkamą mėnesį. "
+"Esant konfliktams/neatitikimams, atitinkamai pakoreguokite įrašus "
+"reikiamame modulyje."
 
 msgid "Check for Conflicts"
 msgstr "Patikrinkite konfliktus"
@@ -4628,8 +4621,8 @@ msgid ""
 "corresponding month. Data in this table come from work schedules, the "
 "Absences module, and the Planning module."
 msgstr ""
-"Prieš atliekant atlyginimo skaičiavimą, peržiūrėkite atitinkamo "
-"mėnesio darbo įrašus. Duomenys į šią lentelę automatiškai ateina iš darbo "
+"Prieš atliekant atlyginimo skaičiavimą, peržiūrėkite atitinkamo mėnesio "
+"darbo įrašus. Duomenys į šią lentelę automatiškai ateina iš darbo "
 "grafikų, Neatvykimo bei Planavimo modulių."
 
 msgid "Work Time Ledger"
@@ -4654,10 +4647,11 @@ msgid ""
 "are adding additional time, click \"+\" and enter the information in the "
 "opened window."
 msgstr ""
-"Jei reikalinga konkrečiam darbuotojui įvesti nukrypimus nuo darbo grafiko, "
-"pvz naktines valandas, viršvalandinį darbą ir pan., tai galite atlikti ant "
-"konkrečios dienos ir konkretaus darbuotojo darbo įrašo. Jeigu pridedate papildomą "
-"laiką, spauskite \"+\" ir atsidariusiame lange įveskite informaciją:"
+"Jei reikalinga konkrečiam darbuotojui įvesti nukrypimus nuo darbo "
+"grafiko, pvz naktines valandas, viršvalandinį darbą ir pan., tai galite "
+"atlikti ant konkrečios dienos ir konkretaus darbuotojo darbo įrašo. Jeigu"
+" pridedate papildomą laiką, spauskite \"+\" ir atsidariusiame lange "
+"įveskite informaciją:"
 
 msgid "Add Additional Time"
 msgstr "Pridėti papildomo laiko"
@@ -4666,7 +4660,6 @@ msgid "Additional Time Entry"
 msgstr "Papildomas laiko įrašas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:149
-#
 msgid ""
 "Select the type of entry and the time from when to when this mark is "
 "relevant. Save and confirm the information. An additional line or cell "
@@ -4674,19 +4667,19 @@ msgid ""
 "schedule."
 msgstr ""
 "Pasirinkite įrašo tipą ir laiką, nuo kada iki kada šis žymėjimas "
-"aktualus. Išsaugokite ir patvirtinkite informaciją. Prie konkretaus darbuotojo "
-"darbo grafiko atsiras papildoma eilutė arba langelis papildomiems įrašams."
+"aktualus. Išsaugokite ir patvirtinkite informaciją. Prie konkretaus "
+"darbuotojo darbo grafiko atsiras papildoma eilutė arba langelis "
+"papildomiems įrašams."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:151
-#
 msgid ""
 "If it is necessary not to add an additional entry but to change the "
 "existing one (e.g., to a business trip), go to the existing cell and "
 "inside it, change the type of entry and save the change."
 msgstr ""
-"Jei reikia ne pridėti papildomą įrašą, bet pakeisti esamą "
-"(pvz. į komandiruotę), užeikite ant jau esamo langelio ir įėję "
-"į jo vidų, keiskite įrašo tipą ir išsaugokite pakeitimą."
+"Jei reikia ne pridėti papildomą įrašą, bet pakeisti esamą (pvz. į "
+"komandiruotę), užeikite ant jau esamo langelio ir įėję į jo vidų, "
+"keiskite įrašo tipą ir išsaugokite pakeitimą."
 
 msgid "Change Existing Entry"
 msgstr "Pakeisti esamą įrašą"
@@ -4699,9 +4692,9 @@ msgid ""
 "information from the Absences module and the schedule will be reloaded."
 msgstr ""
 "**PASTABA:** jei, atlikus pakeitimus, paspausite mygtuką „Perkurti darbo "
-"įrašus“, ir pasirinksite darbuotoją ar kelis darbuotojus, kuriuos "
-"šie rankiniai pakeitimai įtakojo - pakeitimai bus anuliuoti "
-"ir iš naujo įkelta pradinė informacija iš Neatvykimų modulio bei grafiko."
+"įrašus“, ir pasirinksite darbuotoją ar kelis darbuotojus, kuriuos šie "
+"rankiniai pakeitimai įtakojo - pakeitimai bus anuliuoti ir iš naujo "
+"įkelta pradinė informacija iš Neatvykimų modulio bei grafiko."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:159
 msgid "4.4. Payroll Calculation"
@@ -4713,8 +4706,8 @@ msgid ""
 "perform the payroll calculation. You can do this from the work entries "
 "window by clicking the \"Generate Payrolls\" button."
 msgstr ""
-"Patikrinus darbo įrašus ir suvedus visas papildomas valandas, "
-"atliekamas atlyginimo skaičiavimas. Jį galite atlikti iš darbo įrašų lango, "
+"Patikrinus darbo įrašus ir suvedus visas papildomas valandas, atliekamas "
+"atlyginimo skaičiavimas. Jį galite atlikti iš darbo įrašų lango, "
 "spaudžiant mygtuką \"Generuoti algalapius\"."
 
 msgid "Generate Payrolls"
@@ -4727,10 +4720,10 @@ msgid ""
 "specific employee. In the Payrolls section, select \"All Payrolls\" and "
 "click \"New\"."
 msgstr ""
-"Tokiu atveju bus suformuoti atitinkamo mėnesio algalapiai "
-"visai grupei darbuotojų. Taip pat galima kurti algalapį konkrečiam darbuotojui. "
-"Skiltyje \"Algalapiai\" pasirinkite \"Visi algalapiai\" ir "
-"spauskite \"Naujas\"."
+"Tokiu atveju bus suformuoti atitinkamo mėnesio algalapiai visai grupei "
+"darbuotojų. Taip pat galima kurti algalapį konkrečiam darbuotojui. "
+"Skiltyje \"Algalapiai\" pasirinkite \"Visi algalapiai\" ir spauskite "
+"\"Naujas\"."
 
 msgid "Create New Payroll"
 msgstr "Sukurti naują darbo užmokestį"
@@ -4743,9 +4736,9 @@ msgid ""
 "for night hours, overtime, etc."
 msgstr ""
 "Kuriant bet kuriuo paminėtu būdu, bus sukurti juodraštiniai algalapiai "
-"kiekvienam darbuotojui. Algalapyje matysite DU priskaitymą, taip "
-"pat atostoginius, nedarbingumus ir pan., jei jų buvo bei "
-"papildomą priskaitymą už dirbtas naktines valandas, viršvalandžius ir t.t."
+"kiekvienam darbuotojui. Algalapyje matysite DU priskaitymą, taip pat "
+"atostoginius, nedarbingumus ir pan., jei jų buvo bei papildomą "
+"priskaitymą už dirbtas naktines valandas, viršvalandžius ir t.t."
 
 msgid "Payroll Details"
 msgstr "Darbo užmokesčio detalės"
@@ -4756,9 +4749,10 @@ msgid ""
 "Calculation\" tab in this draft and see all earnings and deductions and "
 "the amount to be paid."
 msgstr ""
-"Norint pasitikrinti visus priskaitymus ir išskaitymus, šiame juodraštiniame "
-"ruošinyje galite atsidaryti kortelę „Atlyginimo skaičiavimas“ - ten matysite visus "
-"priskaitymus ir išskaitymus bei mokėtiną sumą."
+"Norint pasitikrinti visus priskaitymus ir išskaitymus, šiame "
+"juodraštiniame ruošinyje galite atsidaryti kortelę „Atlyginimo "
+"skaičiavimas“ - ten matysite visus priskaitymus ir išskaitymus bei "
+"mokėtiną sumą."
 
 msgid "Salary Calculation Tab"
 msgstr "Atlyginimo skaičiavimo skirtukas"
@@ -4768,8 +4762,8 @@ msgid ""
 "4.5. Entering Additional Bonuses, Such as Per Diems, Bonuses, In-Kind "
 "Income, etc."
 msgstr ""
-"4.5. Papildomų priedų, kaip dienpinigiai, priedai, pajamos "
-"natūra ir pan. įvedimas"
+"4.5. Papildomų priedų, kaip dienpinigiai, priedai, pajamos natūra ir pan."
+" įvedimas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:183
 msgid ""
@@ -4777,37 +4771,35 @@ msgid ""
 "employee, this can be done in the payroll calculation draft for the "
 "specific employee, in the \"Other Earnings\" section."
 msgstr ""
-"Esant poreikiui įvesti priedus ar papildomas mokėtinas sumas "
-"darbuotojui, tai galite atlikti atlyginimo skaičiavimo konkrečiam darbuotojui "
+"Esant poreikiui įvesti priedus ar papildomas mokėtinas sumas darbuotojui,"
+" tai galite atlikti atlyginimo skaičiavimo konkrečiam darbuotojui "
 "ruošinyje, skiltyje \"Kiti priskaitymai\"."
 
 msgid "Other Earnings"
 msgstr "Kitos pajamos"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:188
-#
 msgid ""
 "As the type, select the appropriate earning from the list. Based on this "
 "type, calculations and tax deductions will be performed, so it is "
 "important to choose the correct one. In the \"Calculate\" column, enter "
 "the required amount."
 msgstr ""
-"Kaip tipą pasirinkite atitinkamą priskaitymą iš sąrašo. Remiantis "
-"šiuo tipu bus atliekami skaičiavimai bei mokesčių išskaitymai, todėl svarbu jį "
-"pasirinkti tinkamą. Stulpelyje \"Skaičiuoti\" įrašykite reikiamą sumą."
+"Kaip tipą pasirinkite atitinkamą priskaitymą iš sąrašo. Remiantis šiuo "
+"tipu bus atliekami skaičiavimai bei mokesčių išskaitymai, todėl svarbu jį"
+" pasirinkti tinkamą. Stulpelyje \"Skaičiuoti\" įrašykite reikiamą sumą."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:190
-#
 msgid ""
 "Below the other earnings section, you will also see the \"Executive "
 "Order\" section, where data will be automatically entered if executive "
 "orders or deductions are configured in the employee's card, as described "
 "above."
 msgstr ""
-"Po kitų priskaitymu skiltimi taip pat matysite skiltį \"Vykdomasis raštas\", "
-"įsakymas\", į kurią duomenys bus įkeliami automatizuotai, jei vykdomieji raštai "
-"ar išskaitymai sukonfigūruoti darbuotojo kortelėje, kaip "
-"buvo aprašyta aukščiau."
+"Po kitų priskaitymu skiltimi taip pat matysite skiltį \"Vykdomasis "
+"raštas\", įsakymas\", į kurią duomenys bus įkeliami automatizuotai, jei "
+"vykdomieji raštai ar išskaitymai sukonfigūruoti darbuotojo kortelėje, "
+"kaip buvo aprašyta aukščiau."
 
 msgid "Executive Orders Section"
 msgstr "Vykdomųjų įsakymų skyrius"
@@ -4817,8 +4809,8 @@ msgid ""
 "After entering all additional bonuses, to recalculate the payroll "
 "including them, click the \"Calculate Sheet\" button."
 msgstr ""
-"Suvedus visus papildomus priedus, norint perskaičiuoti algalapį "
-"juos įtraukiant, spauskite mygtuką „Skaičiuoti lapą“."
+"Suvedus visus papildomus priedus, norint perskaičiuoti algalapį juos "
+"įtraukiant, spauskite mygtuką „Skaičiuoti lapą“."
 
 msgid "Calculate Sheet"
 msgstr "Skaičiuoklės Lapas"
@@ -4835,9 +4827,7 @@ msgstr ""
 msgid ""
 "After recalculating the payroll, click the \"Create Accounting Entry\" "
 "button."
-msgstr ""
-"Perskaičiavus algalapį, spauskite mygtuką „Sukurti apskaitos "
-"įrašą“."
+msgstr "Perskaičiavus algalapį, spauskite mygtuką „Sukurti apskaitos įrašą“."
 
 msgid "Create Accounting Entry"
 msgstr "Sukurktie buhalterinį įraša"
@@ -4851,12 +4841,12 @@ msgid ""
 "and confirm. An attached file for sending payments to the bank will be "
 "created in the Accounting module."
 msgstr ""
-"Šio mygtuko paspaudimu nusiųsite apgalapio duomenis į Apskaitos "
-"modulio Didžiąją knygą. Sukūrus apskaitos žurnalo įrašus, "
-"suformuokite įrašą į banką mokėjimui. Spauskite \"Sukurti mokėjimo ataskaitą\", "
-"pasirinkite savo apskaitos modulyje nustatytą banką, kuriame "
-"atliksite mokėjimą ir patvirtinkite. Apskaitos modulyje bus sukurtas "
-"failas, pridėtas prie mokėjimų siuntimui į banką."
+"Šio mygtuko paspaudimu nusiųsite apgalapio duomenis į Apskaitos modulio "
+"Didžiąją knygą. Sukūrus apskaitos žurnalo įrašus, suformuokite įrašą į "
+"banką mokėjimui. Spauskite \"Sukurti mokėjimo ataskaitą\", pasirinkite "
+"savo apskaitos modulyje nustatytą banką, kuriame atliksite mokėjimą ir "
+"patvirtinkite. Apskaitos modulyje bus sukurtas failas, pridėtas prie "
+"mokėjimų siuntimui į banką."
 
 msgid "Create Payment Report"
 msgstr "Sukurkite mokėjimo ataskaita"
@@ -4876,8 +4866,8 @@ msgid ""
 msgstr ""
 "Atlikus mokėjimą, reikia jį užregistruoti konkrečiam algalapiui. Kol "
 "algalapis nėra pažymėtas kaip apmokėtas, jo statusas yra \"Atlikta\". "
-"Norint pažymėti apmokėjimą, atsidarykite algalapių sąrašą ir "
-"pažymėkite algalapius, kurių statusą norite pakeisti į \"Apmokėta\"."
+"Norint pažymėti apmokėjimą, atsidarykite algalapių sąrašą ir pažymėkite "
+"algalapius, kurių statusą norite pakeisti į \"Apmokėta\"."
 
 msgid "Mark Payrolls as Paid"
 msgstr "Pažymėti algalapius kaip apmokėtus"
@@ -4917,14 +4907,13 @@ msgid ""
 "After performing these actions, depending on whether the payroll was "
 "fully or partially paid, its status will change in the payroll list."
 msgstr ""
-"Atlikus šiuos veiksmus, priklausomai nuo to, ar algalapis buvo pilnai, "
-"ar dalinai apmokėtas, pasikeis jo statusas algalapių sąraše."
+"Atlikus šiuos veiksmus, priklausomai nuo to, ar algalapis buvo pilnai, ar"
+" dalinai apmokėtas, pasikeis jo statusas algalapių sąraše."
 
 msgid "Payroll Status"
 msgstr "Darbo užmokesčio būsena"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:242
-#
 msgid ""
 "In the case of partial payments, or if there is an overpayment for the "
 "employee, you will see them when forming payments for the next month. In "
@@ -4932,8 +4921,8 @@ msgid ""
 "to adjust the payable amount by the amount of overpayment/underpayment."
 msgstr ""
 "Atlikus dalinius mokėjimus, arba jei darbuotojui yra DU permoka, juos "
-"matysite, formuojant sekančio mėnesio mokėjimus. Tokiu atveju, formuojant "
-"mokėjimus sekantį mėnesį, Jums bus siūloma mokėtiną sumą koreguoti "
+"matysite, formuojant sekančio mėnesio mokėjimus. Tokiu atveju, formuojant"
+" mokėjimus sekantį mėnesį, Jums bus siūloma mokėtiną sumą koreguoti "
 "permokos/nepriemokos suma."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:244
@@ -4942,9 +4931,9 @@ msgid ""
 " it is important to perform this action and specify the correct payment "
 "date."
 msgstr ""
-"**PASTABA:** duomenys į GPM deklaracijas yra keliami remiantis "
-"mokėjimo datomis, todėl svarbu atlikti šį veiksmą ir nurodyti "
-"teisingą mokėjimo datą."
+"**PASTABA:** duomenys į GPM deklaracijas yra keliami remiantis mokėjimo "
+"datomis, todėl svarbu atlikti šį veiksmą ir nurodyti teisingą mokėjimo "
+"datą."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:246
 msgid ""
@@ -4953,8 +4942,9 @@ msgid ""
 "returned to the payroll calculation where you can adjust the information."
 msgstr ""
 "**PASTABA:** jei pastebėjote, jog suklydote, konkretaus darbuotojo "
-"algalapyje spauskite mygtuką \"Atšaukti\", tuomet \"Nustatyti kaip juodraštį\" "
-"ir būsite sugrąžinti į algalapio skaičiavimą, kur galėsite koreguoti informaciją"
+"algalapyje spauskite mygtuką \"Atšaukti\", tuomet \"Nustatyti kaip "
+"juodraštį\" ir būsite sugrąžinti į algalapio skaičiavimą, kur galėsite "
+"koreguoti informaciją"
 
 msgid "Cancel Payroll"
 msgstr "Atšaukti darbo užmokestį"
@@ -4969,38 +4959,36 @@ msgid ""
 "Payroll\" - the selected payrolls will be sent to the respective "
 "employees to the email addresses specified in their cards."
 msgstr ""
-"Siekiant išsiųsti algalapius (atlyginimo lapelius) darbuotojams, atsidarykite "
-"algalapių sąrašą, pažymėkite, kuriuos algalapius norite siųsti, pasirinkite "
-"\"Veiksmas\" ir pasirinkite \"Siųsti algalapį\" - "
-"pasirinkti algalapiai bus išsiųsti atitinkamiems darbuotojams "
-"į jų kortelėse nurodytus el.pašto adresus."
+"Siekiant išsiųsti algalapius (atlyginimo lapelius) darbuotojams, "
+"atsidarykite algalapių sąrašą, pažymėkite, kuriuos algalapius norite "
+"siųsti, pasirinkite \"Veiksmas\" ir pasirinkite \"Siųsti algalapį\" - "
+"pasirinkti algalapiai bus išsiųsti atitinkamiems darbuotojams į jų "
+"kortelėse nurodytus el.pašto adresus."
 
 msgid "Send Payroll"
 msgstr "Siūsti darbo užmokestį"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:258
-#
 msgid ""
 "**NOTE:** Changing the status of payrolls and recalculating them can be "
 "done not only one by one but also for all selected at once. For this "
 "purpose, in the Employee Payrolls list, mark the relevant entries, choose"
 " \"Action\" and click on the required function."
 msgstr ""
-"**PASTABA:** keisti algalapių statusą bei juos perskaičiuoti galima "
-"ne tik po 1 atskirai, bet ir visiems pasirinktiems vienu metu. Tuo "
-"tikslu Darbuotojų algalapių sąraše pažymėkite atitinkamus "
-"įrašus, rinkitės \"Veiksmas\" ir spauskite ant reikiamos funkcijos."
+"**PASTABA:** keisti algalapių statusą bei juos perskaičiuoti galima ne "
+"tik po 1 atskirai, bet ir visiems pasirinktiems vienu metu. Tuo tikslu "
+"Darbuotojų algalapių sąraše pažymėkite atitinkamus įrašus, rinkitės "
+"\"Veiksmas\" ir spauskite ant reikiamos funkcijos."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:260
-#
 msgid ""
 "Payroll can be calculated not only for a specific person but also for a "
 "group of employees. In this case, the calculation is performed from the "
 "\"Work Entries\" window. After entering all the necessary changes in the "
 "employees' working time, click the \"Generate Payrolls\" button."
 msgstr ""
-"Darbo užmokestį galima skaičiuoti ne tik konkrečiam asmeniui, "
-"bet ir darbuotojų grupei. Tokiu atveju skaičiavimas atlikemas iš „Darbo įrašai“ "
+"Darbo užmokestį galima skaičiuoti ne tik konkrečiam asmeniui, bet ir "
+"darbuotojų grupei. Tokiu atveju skaičiavimas atlikemas iš „Darbo įrašai“ "
 "lango. Suvedus visus reikiamus pakeitimus darbuotojų darbo laike, "
 "spauskite mygtuką „Generuoti algalapius“."
 
@@ -5013,9 +5001,9 @@ msgid ""
 "payrolls for all employees has been created. In parentheses, you will see"
 " how many payrolls have been created."
 msgstr ""
-"Algalapiai/Visi algalapiai rasite įrašą, kur bus sukurta grupė "
-"algalapių visiems darbuotojams. Skliausteliuose matysite, kiek algalapių "
-"yra sukurta."
+"Algalapiai/Visi algalapiai rasite įrašą, kur bus sukurta grupė algalapių "
+"visiems darbuotojams. Skliausteliuose matysite, kiek algalapių yra "
+"sukurta."
 
 msgid "Group of Payrolls"
 msgstr "Atlyginimų grupė"
@@ -5027,10 +5015,10 @@ msgid ""
 "entering the specific employee's payroll and clicking \"Calculate Sheet\""
 " after making changes."
 msgstr ""
-"Norėdami peržiūrėti sukurtus algalapius bei įvesti papildomus priskaitymus, "
-"atsidarykite grupę ir išskleisite visų algalapių sąrašą. Galite atlikti pakeitimus, "
-"įėję į konkretaus darbuotojo algalapį ir jame po pakeitimų paspaudžiant "
-"\"Skaičiuoti lapą\"."
+"Norėdami peržiūrėti sukurtus algalapius bei įvesti papildomus "
+"priskaitymus, atsidarykite grupę ir išskleisite visų algalapių sąrašą. "
+"Galite atlikti pakeitimus, įėję į konkretaus darbuotojo algalapį ir jame "
+"po pakeitimų paspaudžiant \"Skaičiuoti lapą\"."
 
 msgid "Expand List of Payrolls"
 msgstr "Išskleisti atlyginimų sąrašą"
@@ -5045,10 +5033,10 @@ msgid ""
 "Accounting Entry\" in the Action menu. Similarly, perform the actions "
 "\"Send Payroll\" and \"Mark as Paid\"."
 msgstr ""
-"Kai atliksite visus reikiamus pakeitimus, atsidarius sąrašą, "
-"esantį konkrečioje grupėje, pažymėkita visus joje esančius algalapius ir Veiksmo "
-"ženklelyje pasirinkite \"Sukurti apskaitos įrašą\". Analogiškai atlikite veiksmus "
-"\"Siųsti algalapį\" bei \"Pažymėti kaip apmokėtą\"."
+"Kai atliksite visus reikiamus pakeitimus, atsidarius sąrašą, esantį "
+"konkrečioje grupėje, pažymėkita visus joje esančius algalapius ir Veiksmo"
+" ženklelyje pasirinkite \"Sukurti apskaitos įrašą\". Analogiškai atlikite"
+" veiksmus \"Siųsti algalapį\" bei \"Pažymėti kaip apmokėtą\"."
 
 msgid "Create Accounting Entry for Group"
 msgstr "Sukurkite apskaitos įrašą grupei"
@@ -5061,8 +5049,8 @@ msgid ""
 "corresponding action in the \"Action\" button, not individually."
 msgstr ""
 "**SVARBU:** nepaisant to, jog galite šiuos veiksmus aplikti įėję į patį "
-"algalapį, norint, kad įrašai susikurtų, būtina tai atlikti grupėje, pažymint "
-"kartu visus įrašus ir pasirenkant atitinkamą veiksmą."
+"algalapį, norint, kad įrašai susikurtų, būtina tai atlikti grupėje, "
+"pažymint kartu visus įrašus ir pasirenkant atitinkamą veiksmą."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:285
 msgid "4.8. Entering Advances"
@@ -5084,8 +5072,8 @@ msgid ""
 "Create \"New\", select the employee, the bank where you will create the "
 "file, the dates, and the advance amount. Click \"Create SEPA File\"."
 msgstr ""
-"Spauskite „Naujas“, pasirinkite darbuotoją, banką, kuriame "
-"kursite failą, datas bei avanso sumą. Spauskite „Sukurti SEPA failą“."
+"Spauskite „Naujas“, pasirinkite darbuotoją, banką, kuriame kursite failą,"
+" datas bei avanso sumą. Spauskite „Sukurti SEPA failą“."
 
 msgid "Create SEPA File"
 msgstr "Sukurti SEPA failą"
@@ -5112,11 +5100,11 @@ msgid ""
 "person who created the DLAŽ and the responsible person. Click the \"Print"
 " PDF\" button."
 msgstr ""
-"Atsidariusioje lentelėje pasirenkame metus, mėnesį, jei norime spausdinti "
-"atskirai konkrečiam darbuotojui ar padaliniui - pasirenkame ir juos. Jei "
-"nepasirinkisime, spausdinsime visiems darbuotojams. Taip pat pasirenkame DLAŽ "
-"sudariusį ir atsakingą asmenis. Spaudžiame mygtuką "
-"„Spausdinti PDF“."
+"Atsidariusioje lentelėje pasirenkame metus, mėnesį, jei norime spausdinti"
+" atskirai konkrečiam darbuotojui ar padaliniui - pasirenkame ir juos. Jei"
+" nepasirinkisime, spausdinsime visiems darbuotojams. Taip pat pasirenkame"
+" DLAŽ sudariusį ir atsakingą asmenis. Spaudžiame mygtuką „Spausdinti "
+"PDF“."
 
 msgid "Print PDF"
 msgstr "Spausdinti PDF"
@@ -5133,8 +5121,8 @@ msgid ""
 "To print the Payroll Ledger: In the Payroll module, Reports, select "
 "\"Payroll Ledger\"."
 msgstr ""
-"Darbo užmokesčio žiniaraščio spausdinimas: Algalapio modulyje >> Ataskaitose >> "
-"pasirinkite \"Darbo užmokesčio žiniaraštis\"."
+"Darbo užmokesčio žiniaraščio spausdinimas: Algalapio modulyje >> "
+"Ataskaitose >> pasirinkite \"Darbo užmokesčio žiniaraštis\"."
 
 msgid "Payroll Ledger"
 msgstr "Darbo užmokesčio žurnalas"
@@ -5148,10 +5136,10 @@ msgid ""
 " to your computer."
 msgstr ""
 "Atsidariusioje lentelėje užpildykite datas. Norint spausdinti atskirą "
-"atlyginimų žiniaraštį padaliniui, pasirinkite padalinį. Jei padalinių nenaudojate "
-"arba norite formuoti žiniaraštį visiems darbuotojams - palikite šį lauką tuščią. "
-"Spauskite mygtuką „Spausdinti PDF“ ir Jūsų kompiuteryje "
-"bus išsaugotas žiniaraštis."
+"atlyginimų žiniaraštį padaliniui, pasirinkite padalinį. Jei padalinių "
+"nenaudojate arba norite formuoti žiniaraštį visiems darbuotojams - "
+"palikite šį lauką tuščią. Spauskite mygtuką „Spausdinti PDF“ ir Jūsų "
+"kompiuteryje bus išsaugotas žiniaraštis."
 
 msgid "Payroll Ledger Dates"
 msgstr "Algų knyga Datos"
@@ -5161,7 +5149,9 @@ msgstr "Išsaugotas PDF Didžioji Knyga"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:327
 msgid "You can also choose the ledger in .xls format."
-msgstr "Taip pat galite pasirinkti Darbo užmokesčio žiniaraštį spausdinti .xls formatu."
+msgstr ""
+"Taip pat galite pasirinkti Darbo užmokesčio žiniaraštį spausdinti .xls "
+"formatu."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:330
 msgid "4.10. Formation and Printing of Payroll Certificates"
@@ -5172,8 +5162,8 @@ msgid ""
 "To form a payroll certificate, in the Payroll module, Reports, select the"
 " \"Payroll Certificate\" section."
 msgstr ""
-"Norint suformuoti pažymą apie dabo užmokestį, Algalapio modulyje "
-">> Ataskaitose >> pasirinkite skirsnį \"DU pažyma\"."
+"Norint suformuoti pažymą apie dabo užmokestį, Algalapio modulyje >> "
+"Ataskaitose >> pasirinkite skirsnį \"DU pažyma\"."
 
 msgid "Payroll Certificate"
 msgstr "Darbo užmokesčio pažyma"
@@ -5184,9 +5174,9 @@ msgid ""
 "certificate is needed. Click \"Print PDF\", and a standard certificate "
 "will be sent to your computer."
 msgstr ""
-"Atsidariusioje kortelėje pasirinkite konkretų darbuotoją ir datas, "
-"už kuras reikalinga pažyma. Spauskite „Spausdinti PDF“ ir į Jūsų "
-"kompiuterį bus atsiųsta standartinė pažyma."
+"Atsidariusioje kortelėje pasirinkite konkretų darbuotoją ir datas, už "
+"kuras reikalinga pažyma. Spauskite „Spausdinti PDF“ ir į Jūsų kompiuterį "
+"bus atsiųsta standartinė pažyma."
 
 msgid "Print Payroll Certificate"
 msgstr "Atspausdinkite atlyginimo pažymą"
@@ -5202,10 +5192,10 @@ msgid ""
 " specify the employee, the date for which the certificate is needed, and "
 "the preparer of the certificate, click \"Print PDF\"."
 msgstr ""
-"Norint atspausdinti vidutinio darbo užmokesčio (VDU) pažymą "
-"darbuotojui, Algalapių modulyje >> Ataskaitose >> pasirinkite VDU "
-"pažyma, atsidariusioje lentelėje nurodykite darbuotoją, datą, "
-"kuriai reikalinga pažyma ir pažymos rengėją, spauskite „Spausdinti PDF“."
+"Norint atspausdinti vidutinio darbo užmokesčio (VDU) pažymą darbuotojui, "
+"Algalapių modulyje >> Ataskaitose >> pasirinkite VDU pažyma, "
+"atsidariusioje lentelėje nurodykite darbuotoją, datą, kuriai reikalinga "
+"pažyma ir pažymos rengėją, spauskite „Spausdinti PDF“."
 
 msgid "VDU Certificate"
 msgstr "VDU Sertifikatas"
@@ -5238,8 +5228,8 @@ msgid ""
 "employee's data in the \"Employees\" module and creating an employment "
 "contract, go to the \"Payroll\" module, Reports, Sodra, 1-SD report."
 msgstr ""
-"Ši forma kuriama įdarbinant darbuotoją. Suvedus darbuotojo "
-"duomenis modulyje „Darbuotojai“ ir sukūrus darbo sutartį, eikite į modulį "
+"Ši forma kuriama įdarbinant darbuotoją. Suvedus darbuotojo duomenis "
+"modulyje „Darbuotojai“ ir sukūrus darbo sutartį, eikite į modulį "
 "Algalapis >> Ataskaitos >> Sodra >> 1-SD ataskaita:"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:365
@@ -5262,8 +5252,8 @@ msgid ""
 "A file that can be uploaded to the Sodra system will be automatically "
 "saved on your computer."
 msgstr ""
-"Jūsų kompiuteryje automatiškai bus išsaugotas failas, "
-"kurį galėsite įkelti į Sodros sistemą."
+"Jūsų kompiuteryje automatiškai bus išsaugotas failas, kurį galėsite "
+"įkelti į Sodros sistemą."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:373
 msgid "4.12.2. 2-SD Report"
@@ -5276,8 +5266,8 @@ msgid ""
 "entry, go to the \"Payroll\" module, Reports, Sodra, 2-SD report."
 msgstr ""
 "Ši forma kuriama atleidžiant darbuotoją. Suvedus darbuotojo duomenis "
-"modulyje „Darbuotojai“ ir sukūrus atleidimo įrašą, eikite į modulį Algalapis "
-">> Ataskaitos >> Sodra >> 2-SD ataskaita:"
+"modulyje „Darbuotojai“ ir sukūrus atleidimo įrašą, eikite į modulį "
+"Algalapis >> Ataskaitos >> Sodra >> 2-SD ataskaita:"
 
 msgid "2-SD Report"
 msgstr "2-SD Ataskaita"
@@ -5306,10 +5296,10 @@ msgid ""
 "In the Absences module, create a sick leave entry by selecting the "
 "appropriate type of absence and dates, and approve it."
 msgstr ""
-"Šią deklaraciją siūlome pildyti tiesiogiai Sodros sistemoje, "
-"įrašant programoje apskaičiuotą darbdavio mokėtiną nedarbingumo išmoką. "
-"Neatvykimų modulyje sukurkite nedarbingumo įrašą, "
-"pasirinkdami atitinkamą neatvykimo tipą ir datas bei jį patvirtinkite."
+"Šią deklaraciją siūlome pildyti tiesiogiai Sodros sistemoje, įrašant "
+"programoje apskaičiuotą darbdavio mokėtiną nedarbingumo išmoką. "
+"Neatvykimų modulyje sukurkite nedarbingumo įrašą, pasirinkdami atitinkamą"
+" neatvykimo tipą ir datas bei jį patvirtinkite."
 
 msgid "Sick Leave Entry"
 msgstr "Įrašas apie nedarbingumo atostogas"
@@ -5318,9 +5308,7 @@ msgstr "Įrašas apie nedarbingumo atostogas"
 msgid ""
 "After confirming the sick leave entry, select \"VDU Certificate\" in the "
 "printing link."
-msgstr ""
-"Patvirtinus nedarbingumo įrašą, pasirinkite >> "
-"Spausdinimas >> VDU pažyma."
+msgstr "Patvirtinus nedarbingumo įrašą, pasirinkite >> Spausdinimas >> VDU pažyma."
 
 msgid "VDU Certificate for Sick Leave"
 msgstr "VDU pažyma dėl nedarbingumo."
@@ -5347,9 +5335,9 @@ msgid ""
 "not be included, and you will have to enter them manually from the Sodra "
 "system."
 msgstr ""
-"Taip pat galite formuoti NP-SD pranešimą tiesiai iš Odoo "
-"sistemos, tačiau tai nėra labai patogu, nes nebus įtraukti nedarbingumo "
-"pažymėjimo numeriai ir juos teks įsivesti iš Sodros sistemos."
+"Taip pat galite formuoti NP-SD pranešimą tiesiai iš Odoo sistemos, tačiau"
+" tai nėra labai patogu, nes nebus įtraukti nedarbingumo pažymėjimo "
+"numeriai ir juos teks įsivesti iš Sodros sistemos."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:406
 msgid "4.12.4. Monthly SAM Report"
@@ -5362,10 +5350,10 @@ msgid ""
 "calculations and confirming the payrolls, in the Payroll module, select "
 "Reports, Sodra, SAM report."
 msgstr ""
-"Ši forma naudojama mėnesio informacijai apie darbuotojų pajamas "
-"ir Sodrai mokamus mokesčius deklaruoti. Atlikus mėnesio skaičiavimus "
-"ir patvirtinus algalapius, Algalapio modulyje pasirinkite Ataskaitos "
-">> Sodra >> SAM ataskaita."
+"Ši forma naudojama mėnesio informacijai apie darbuotojų pajamas ir Sodrai"
+" mokamus mokesčius deklaruoti. Atlikus mėnesio skaičiavimus ir "
+"patvirtinus algalapius, Algalapio modulyje pasirinkite Ataskaitos >> "
+"Sodra >> SAM ataskaita."
 
 msgid "SAM Report"
 msgstr "SAM ataskaitą"
@@ -5394,8 +5382,8 @@ msgid ""
 "The monthly GPM declaration can be found in the Payroll module, Reports, "
 "in the EDS section, GPM313 declaration."
 msgstr ""
-"Mėnesinę GPM deklaraciją rasite Algalapio modulyje >> "
-"Ataskaitose >> skiltyje EDS >> GPM313 deklaracija."
+"Mėnesinę GPM deklaraciją rasite Algalapio modulyje >> Ataskaitose >> "
+"skiltyje EDS >> GPM313 deklaracija."
 
 msgid "GPM 313 Declaration"
 msgstr "GPM 313 Deklaracijos"
@@ -5418,10 +5406,9 @@ msgid ""
 "upload to the VMI EDS system in ffdata format. To review the data before "
 "uploading the file to the system, use ABBYY eFormFiller software."
 msgstr ""
-"Bus sukurtas ir automatiškai kompiuteryje išsaugotas failas "
-"įkėlimui į VMI EDS sistemą ffdata formatu. Norint peržiūrėti duomenis prieš "
-"minėtą failą įkeliant į sistemą, naudokite  ABBYY eFormFiller "
-"programinę įrangą."
+"Bus sukurtas ir automatiškai kompiuteryje išsaugotas failas įkėlimui į "
+"VMI EDS sistemą ffdata formatu. Norint peržiūrėti duomenis prieš minėtą "
+"failą įkeliant į sistemą, naudokite  ABBYY eFormFiller programinę įrangą."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:437
 msgid "4.13.2. GPM 312 Declaration"
@@ -5432,8 +5419,8 @@ msgid ""
 "The annual GPM declaration can be found in the Payroll module, Reports, "
 "in the EDS section, GPM312 declaration."
 msgstr ""
-"Metinę GPM deklaraciją rasite Algalapio modulyje >> "
-"Ataskaitose >> skiltyje EDS >> GPM312 deklaracija."
+"Metinę GPM deklaraciją rasite Algalapio modulyje >> Ataskaitose >> "
+"skiltyje EDS >> GPM312 deklaracija."
 
 msgid "GPM 312 Declaration"
 msgstr "GPM 312 Deklaracijos"
@@ -5450,7 +5437,6 @@ msgid "Generate GPM 312 File"
 msgstr "Sukurti GPM 312 deklaracijos failą"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:450
-#
 msgid ""
 "**NOTE:** When using the Via Laurea Payroll Calculation module, there is "
 "an option to include amounts paid to individuals when forming the annual "
@@ -5460,12 +5446,12 @@ msgid ""
 "etc.), and enter the specific number as the IDV number."
 msgstr ""
 "**PASTABA:** naudojant Via laurea Darbo užmokesčio skaičiavimo modulį, "
-"yra galimybe formuojant metinę GPM312 deklaraciją į ją įtraukti "
-"sumas, sumokėtas fiziniams asmenims. Tam, kad pasinaudoti "
-"šia galimybe, aprašant fizinio asmens kontaktą Kontaktų modulyje reikia "
-"pažymėti, kad tai individualus tiekėjas, kaip licencijos tipą išsirinkti "
-"atitinkamą punktą (Asmens kodas, IDV numeris ir tt) ir įvesti konkretų "
-"numerį kaip IDV numerį."
+"yra galimybe formuojant metinę GPM312 deklaraciją į ją įtraukti sumas, "
+"sumokėtas fiziniams asmenims. Tam, kad pasinaudoti šia galimybe, aprašant"
+" fizinio asmens kontaktą Kontaktų modulyje reikia pažymėti, kad tai "
+"individualus tiekėjas, kaip licencijos tipą išsirinkti atitinkamą punktą "
+"(Asmens kodas, IDV numeris ir tt) ir įvesti konkretų numerį kaip IDV "
+"numerį."
 
 msgid "Enter IDV Number"
 msgstr "Įveskite IDV numerį."
@@ -5503,11 +5489,11 @@ msgid ""
 "on our website. Due to the specifics of payroll calculation in Lithuania,"
 " we have supplemented the Absences module with certain functions."
 msgstr ""
-"Neatvykimų modulis yra glaudžiai susijęs su Algalapio moduliu. "
-"Įvedus informaciją Neatvykimų modulyje, ji įtakoja atlyginimų skaičiavimą. "
-"Standartinio Odoo Neatvykimų modulio instrukciją rasite mūsų puslapyje. Dėl "
-"darbo užmokesčio skaičiavimo specifikos Lietuvoje, esame Neatvykimų modulį "
-"papildę tam tikromis funkcijomis."
+"Neatvykimų modulis yra glaudžiai susijęs su Algalapio moduliu. Įvedus "
+"informaciją Neatvykimų modulyje, ji įtakoja atlyginimų skaičiavimą. "
+"Standartinio Odoo Neatvykimų modulio instrukciją rasite mūsų puslapyje. "
+"Dėl darbo užmokesčio skaičiavimo specifikos Lietuvoje, esame Neatvykimų "
+"modulį papildę tam tikromis funkcijomis."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:467
 msgid "5.1.1. Configuration of the Absences Module"
@@ -5518,8 +5504,8 @@ msgid ""
 "In the Absences, Configuration section, \"Time off types\", you will find"
 " a list of all possible absences and markings:"
 msgstr ""
-"Neatvykimai >> Konfigūracija >> parametre \"Time off types\" rasite "
-"visų galimų neatvykimų ir žymėjimų sąrašą:"
+"Neatvykimai >> Konfigūracija >> parametre \"Time off types\" rasite visų "
+"galimų neatvykimų ir žymėjimų sąrašą:"
 
 msgid "Time Off Types"
 msgstr "Laiko atostogų tipai"
@@ -5532,11 +5518,11 @@ msgid ""
 "requiring approval, go to the line entry and check the box for requiring "
 "approval."
 msgstr ""
-"Esant poreikiui, sąrašą galite koreguoti, tačiau atkreipkite dėmesį, "
-"jog tai yra susiję su atlyginimų formulėmis. Stulpelyje „Approval“ "
-"galite matyti, kuriems neatvykimo tipams reikalingas "
-"vadovo patvirtinimas. Norint ant konkretaus neatvykimo tipo uždėti "
-"šią žymą, eikite į eilutės įrašą ir pažymėkite, jog reikalingas patvirtinimas."
+"Esant poreikiui, sąrašą galite koreguoti, tačiau atkreipkite dėmesį, jog "
+"tai yra susiję su atlyginimų formulėmis. Stulpelyje „Approval“ galite "
+"matyti, kuriems neatvykimo tipams reikalingas vadovo patvirtinimas. "
+"Norint ant konkretaus neatvykimo tipo uždėti šią žymą, eikite į eilutės "
+"įrašą ir pažymėkite, jog reikalingas patvirtinimas."
 
 msgid "Approval for Absence"
 msgstr "Patvirtinimas dėl nebuvimo"
@@ -5548,9 +5534,10 @@ msgid ""
 "with the absence type marking symbols will be automatically uploaded to "
 "the work entries for the specific period."
 msgstr ""
-"**PASTABA:** Suvedus neatvykimo informaciją ir, jei reikalinga, patvirtinus "
-"atsakingas asmeniui, neatvykimo informacija kartu su neatvykimo tipo žymėjimo "
-"simboliais bus automatiškai įkelta į konkretaus laikotarpio darbo įrašus."
+"**PASTABA:** Suvedus neatvykimo informaciją ir, jei reikalinga, "
+"patvirtinus atsakingas asmeniui, neatvykimo informacija kartu su "
+"neatvykimo tipo žymėjimo simboliais bus automatiškai įkelta į konkretaus "
+"laikotarpio darbo įrašus."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:481
 msgid "5.1.2. Entering Vacation Norms"
@@ -5565,8 +5552,8 @@ msgid ""
 msgstr ""
 "Modulyje Neatvykimai >> Konfigūracija >> Atostogų normos suveskite Jūsų "
 "įmonėje naudojamas atostogų dienų normas (pvz.: 20 d.d. per metus "
-"įprastine tvarka, 25 d.d. vienišiem tėvam, auginantiem vaiką iki "
-"12 metų ir t.t., vadovaujantis įstatymais)."
+"įprastine tvarka, 25 d.d. vienišiem tėvam, auginantiem vaiką iki 12 metų "
+"ir t.t., vadovaujantis įstatymais)."
 
 msgid "Vacation Norms"
 msgstr "Atostogų normos"
@@ -5580,8 +5567,8 @@ msgid ""
 "In the Absences, Configuration section, \"Holidays\", enter the holidays "
 "for the current year."
 msgstr ""
-"Modulyje Neatvykimai >> Konfigūracija >> Šventinės dienos "
-"suveskite einamųjų metų valstybės patvirtintas šventines dienas."
+"Modulyje Neatvykimai >> Konfigūracija >> Šventinės dienos suveskite "
+"einamųjų metų valstybės patvirtintas šventines dienas."
 
 msgid "Holidays"
 msgstr "Atostogos"
@@ -5591,7 +5578,6 @@ msgid "5.2. Assigning Vacations to the Employee"
 msgstr "5.2. Atostogų priskyrimas darbuotojui"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:496
-#
 msgid ""
 "When hiring an employee, a set annual vacation norm must be assigned to "
 "them. Odoo has the ability to calculate vacations only from the next day."
@@ -5600,19 +5586,17 @@ msgid ""
 " day, and the second is for standard vacation accrual from the next day."
 msgstr ""
 "Įdarbinant darbuotoją, jam turi būti priskiriama nustatyta metinė "
-"atostogų norma. Odoo turi galimybę skaičiuoti atostogas tik nuo sekančios dienos. "
-"Dėl šios priežasteis, įdarbinant darbuotoją, reikalinga atlikti 2 įrašus. Pirmasis "
-"skirtas \"sukauptoms atostogoms\" už pirmąją darbo dieną "
-"ir antrasis skirtas standartiniam atostogų kaupimui nuo "
-"sekančios dienos."
+"atostogų norma. Odoo turi galimybę skaičiuoti atostogas tik nuo sekančios"
+" dienos. Dėl šios priežasteis, įdarbinant darbuotoją, reikalinga atlikti "
+"2 įrašus. Pirmasis skirtas \"sukauptoms atostogoms\" už pirmąją darbo "
+"dieną ir antrasis skirtas standartiniam atostogų kaupimui nuo sekančios "
+"dienos."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:498
 msgid ""
 "Enter vacation assignments in the Absences - Approvals - Assignments "
 "section."
-msgstr ""
-"Atostogų priskyrimus veskite Neatvykimai >> Patvirtinimai >> "
-"Priskyrimai."
+msgstr "Atostogų priskyrimus veskite Neatvykimai >> Patvirtinimai >> Priskyrimai."
 
 msgid "Vacation Assignments"
 msgstr "Atostogų Užduotys"
@@ -5625,15 +5609,14 @@ msgid "New Assignment"
 msgstr "Nauja užduotis"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:508
-#
 msgid ""
 "In it, select the type as \"Regular Assignment\", specify the specific "
 "employee in the Employee field, and in the \"Duration\" field, enter the "
 "amount of vacation entitled for the first working day. Approve the entry."
 msgstr ""
 "Jame pasirinkite tipą kaip „Įprastinis priskyrimas“, konkretų darbuotoją "
-"Darbuotojų laukelyje ir laukelyje „Trukmė“ įveskite, kiek "
-"atostogų priklauso už pirmąją darbo dieną. Patvirtinkite įrašą."
+"Darbuotojų laukelyje ir laukelyje „Trukmė“ įveskite, kiek atostogų "
+"priklauso už pirmąją darbo dieną. Patvirtinkite įrašą."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:510
 msgid "The second assignment is for vacation accrual:"
@@ -5649,12 +5632,11 @@ msgid ""
 "the list in the Vacation Norms field. After doing this, approve the "
 "entry."
 msgstr ""
-"Priskyrimą užpildykite analogiškai, tik tipą pasirinkite \"Kaupiamasis priskyrimas\" "
-"ir Atostogų normų laukelyje pasirinkite tam darbuotojui taikomą "
-"atostogų normą iš sąrašo. Tai atlikus, patvirtinkite įrašą."
+"Priskyrimą užpildykite analogiškai, tik tipą pasirinkite \"Kaupiamasis "
+"priskyrimas\" ir Atostogų normų laukelyje pasirinkite tam darbuotojui "
+"taikomą atostogų normą iš sąrašo. Tai atlikus, patvirtinkite įrašą."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:517
-#
 msgid ""
 "If already working employees are uploaded to the Odoo system with already"
 " accrued vacations (e.g., previously using other software for payroll), "
@@ -5665,12 +5647,11 @@ msgid ""
 "for the employee."
 msgstr ""
 "Jei jau dirbantys darbuotojai įkeliami į Odoo sistemą su jau sukauptomis "
-"atostogomis (pvz. anksčiau darbo užmokesčiui naudojote kitą "
-"programinę įrangą), taip pat reikalinga atlikti 2 įrašus, kaip ir įdarbinimo "
-"atveju. Tokiu atveju pirmame įraše įveskite jau sukauptas atostogas "
-"iki šios dienos, vadovaujantis pirmos darbo dienos įvedimo "
-"aprašymu. Antrame - priskirkite kaupimą remiantis darbuotojui "
-"priklausančia atostogų norma."
+"atostogomis (pvz. anksčiau darbo užmokesčiui naudojote kitą programinę "
+"įrangą), taip pat reikalinga atlikti 2 įrašus, kaip ir įdarbinimo atveju."
+" Tokiu atveju pirmame įraše įveskite jau sukauptas atostogas iki šios "
+"dienos, vadovaujantis pirmos darbo dienos įvedimo aprašymu. Antrame - "
+"priskirkite kaupimą remiantis darbuotojui priklausančia atostogų norma."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:519
 msgid ""
@@ -5679,8 +5660,8 @@ msgid ""
 "this day, and enter the obtained number when entering the regular "
 "vacation assignment for the first working day."
 msgstr ""
-"**PATABA:** jei įdarbindami darbuotoją pamiršote atlikti atostogų kaupimo "
-"įrašus, paskaičiuokite, kiek iki šios dienos darbuotojas sukaupė "
+"**PATABA:** jei įdarbindami darbuotoją pamiršote atlikti atostogų kaupimo"
+" įrašus, paskaičiuokite, kiek iki šios dienos darbuotojas sukaupė "
 "atostogų ir vedant įprastinį atostogų priskyrimą už pirmą darbo dieną "
 "išveskite gautą skaičių."
 
@@ -5696,18 +5677,17 @@ msgid ""
 "dates, and approve the entry. After doing this, the information will be "
 "automatically transferred to the Payroll module."
 msgstr ""
-"Vedant darbuotojų neatvykimus, vadovaukitės standartine Odoo "
-"Neatvykimų modulių instrukcija - Neatvykimai >> Patvirtinimai >> Neatvykimai "
-"kurkite naują įrašą, pasirinkite atitinkamą darbuotoją, neatvykimo tipą, užpildykite "
-"datas ir patvirtinkite įrašą. Tai atlikus, informacija bus automatiškai perkelta "
-"į Algalapio modulį."
+"Vedant darbuotojų neatvykimus, vadovaukitės standartine Odoo Neatvykimų "
+"modulių instrukcija - Neatvykimai >> Patvirtinimai >> Neatvykimai kurkite"
+" naują įrašą, pasirinkite atitinkamą darbuotoją, neatvykimo tipą, "
+"užpildykite datas ir patvirtinkite įrašą. Tai atlikus, informacija bus "
+"automatiškai perkelta į Algalapio modulį."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:526
 msgid "5.4. Reports and Vacation Accruals"
 msgstr "5.4. Ataskaitos ir atostogų kaupimas"
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:527
-#
 msgid ""
 "In the Absences module, in Reports, you can find standard reports by "
 "employee and type of absence, the formation of which is described in the "
@@ -5722,8 +5702,8 @@ msgid ""
 "Additionally, you can see the Vacation Accrual report, which you can "
 "generate in pdf format for the specified date."
 msgstr ""
-"Papildomai galite matyti Atostogų kaupinių ataskaitą, "
-"kurią galite susiformuoti pdf formatu nurodomai datai."
+"Papildomai galite matyti Atostogų kaupinių ataskaitą, kurią galite "
+"susiformuoti pdf formatu nurodomai datai."
 
 msgid "Vacation Accrual Report"
 msgstr "Atostogų kaupimo ataskaita"
@@ -5735,9 +5715,9 @@ msgid ""
 "window will create an accrual entry in the Accounting module."
 msgstr ""
 "Jei Algalapio modulyje sukonfigūruotos aukščiau aprašytos sąskaitų "
-"korespondencijos, paspaudus Atostogų kaupinių ataskaitos formavimo "
-"lange mygtuką \"Kurti įrašą\", nurodytai datai "
-"bus sukuriamas kaupinių įrašas Apskaitos modulyje Didžiojoje Knygoje."
+"korespondencijos, paspaudus Atostogų kaupinių ataskaitos formavimo lange "
+"mygtuką \"Kurti įrašą\", nurodytai datai bus sukuriamas kaupinių įrašas "
+"Apskaitos modulyje Didžiojoje Knygoje."
 
 msgid "Create Accrual Entry"
 msgstr "Sukurti kaupimo įrašą"
@@ -5762,21 +5742,19 @@ msgid ""
 "enabling a broader application of this module for Lithuanian work time "
 "accounting needs."
 msgstr ""
-"UAB Via laurea sukurtas įskiepis į standartinį Planavimo modulį "
-"įgalina platesnį šio modulio pritaikymą Lietuvos darbo laiko apskaitos reikmėms."
+"UAB Via laurea sukurtas įskiepis į standartinį Planavimo modulį įgalina "
+"platesnį šio modulio pritaikymą Lietuvos darbo laiko apskaitos reikmėms."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:9
-#
 msgid ""
 "The Planning module is intended for creating work schedules and shifts, "
 "accurately determining work hours when the work time is irregular or "
 "cumulative work time accounting is applied. The following module is used "
 "for planning:"
 msgstr ""
-"Planavimas skirtas darbo grafikų ir pamainų sudarymui, tiksliam "
-"darbo laiko nustatymui, kai darbo laikas yra nepastovus "
-"arba taikoma suminė darbo laiko apskaita. "
-"Planavimui naudojamas šis modulis:"
+"Planavimas skirtas darbo grafikų ir pamainų sudarymui, tiksliam darbo "
+"laiko nustatymui, kai darbo laikas yra nepastovus arba taikoma suminė "
+"darbo laiko apskaita. Planavimui naudojamas šis modulis:"
 
 msgid "Planning Module"
 msgstr "Planavimo modulis"
@@ -5794,24 +5772,21 @@ msgstr ""
 "individualų grafiką konkrečiam pasirinktam darbuotojui."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:19
-#
 msgid "Creating a Template:"
 msgstr "Ruošinio kūrimas:"
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:21
-#
 msgid ""
 "In the Planning module, in the configuration section, select \"Work "
 "Schedule Templates\":"
 msgstr ""
-"Planavimo modulyje, konfigūracijos skiltyje pasirinkite"
-"\"Darbo grafiko šablonai\":"
+"Planavimo modulyje, konfigūracijos skiltyje pasirinkite\"Darbo grafiko "
+"šablonai\":"
 
 msgid "Work Schedule Templates"
 msgstr "Darbo grafiko šablonai"
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:26
-#
 msgid ""
 "In the opened window, create shifts according to your needs and save. "
 "Note that an Odoo day is divided into morning and afternoon parts, "
@@ -5821,13 +5796,14 @@ msgid ""
 "to select one. In the work time accounting sheets, morning or afternoon "
 "is not reflected; it is only used in schedule creation."
 msgstr ""
-"Atsidariusiame lange kurkite pamainas pagal Jūsų poreikius ir išsaugokite. "
-"Atkreipkite dėmesį, jog Odoo diena skirstoma į ryto ir popietės dalis, "
-"suteikiant galimybę apibrėžti pietų pertraukos laiką. "
-"Dėl šios priežasties tai pačiai dienai vedamos 2 eilutės, kaip parodyta pavyzdyje. "
-"Jei darbuotojas dirba be pietų pertraukos, galite pasirinkti tik vieną dalį, tačiau "
-"ją pasirinkti būtina. Darbo laiko apskaitos žiniaraščiuose "
-"rytas ar popietė neatsispindi, tai naudojama tik grafiko kūrime."
+"Atsidariusiame lange kurkite pamainas pagal Jūsų poreikius ir "
+"išsaugokite. Atkreipkite dėmesį, jog Odoo diena skirstoma į ryto ir "
+"popietės dalis, suteikiant galimybę apibrėžti pietų pertraukos laiką. Dėl"
+" šios priežasties tai pačiai dienai vedamos 2 eilutės, kaip parodyta "
+"pavyzdyje. Jei darbuotojas dirba be pietų pertraukos, galite pasirinkti "
+"tik vieną dalį, tačiau ją pasirinkti būtina. Darbo laiko apskaitos "
+"žiniaraščiuose rytas ar popietė neatsispindi, tai naudojama tik grafiko "
+"kūrime."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:28
 msgid ""
@@ -5836,16 +5812,16 @@ msgid ""
 " assigning a schedule to an employee, you can choose the number of "
 "repetitions, allowing you to automatically create future schedules."
 msgstr ""
-"Svarbu: jei dirbama slenkančiu grafiku (pvz. 2 dienas dirbama ir 2 dienos laisvos) - grafiko "
-"šablone aprašykite ir laisvas dienas. Tokiu atveju, priskirdami darbuotojui "
-"grafiką, galėsite pasirinkti grafiko pasikartojimų skaičių, kas Jums "
-"leis automatiškai suformuoti ateities grafikus."
+"Svarbu: jei dirbama slenkančiu grafiku (pvz. 2 dienas dirbama ir 2 dienos"
+" laisvos) - grafiko šablone aprašykite ir laisvas dienas. Tokiu atveju, "
+"priskirdami darbuotojui grafiką, galėsite pasirinkti grafiko "
+"pasikartojimų skaičių, kas Jums leis automatiškai suformuoti ateities "
+"grafikus."
 
 msgid "Shift Template Creation"
 msgstr "Pamainos Šablono Sukūrimas"
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:33
-#
 msgid "To assign a schedule to a specific employee, there are two options:"
 msgstr "Norint priskirti grafiką konkrečiam darbuotojui, galimi 2 keliai:"
 
@@ -5891,12 +5867,11 @@ msgid ""
 "an individual schedule by adding lines. After finishing the planning, "
 "click \"Plan Shift.\""
 msgstr ""
-"Jei pagal Jūsų poreikius nėra tikslinga kurti pamainų grafikus, planavimą "
-"konkrečiam darbuotojui galima atlikti tiesiogiai atsidariusiame pamainos "
-"lange, įvedant konkrečiam darbuotojui tinkamą informaciją. "
-"Tokiu atveju nesirinkite darbo grafiko šablono, bet veskite "
-"individualų grafiką pridėdami eilutes. Baigę planavimą "
-"spauskite \"Planuoti pamainą.\""
+"Jei pagal Jūsų poreikius nėra tikslinga kurti pamainų grafikus, planavimą"
+" konkrečiam darbuotojui galima atlikti tiesiogiai atsidariusiame pamainos"
+" lange, įvedant konkrečiam darbuotojui tinkamą informaciją. Tokiu atveju "
+"nesirinkite darbo grafiko šablono, bet veskite individualų grafiką "
+"pridėdami eilutes. Baigę planavimą spauskite \"Planuoti pamainą.\""
 
 msgid "Individual Schedule Planning"
 msgstr "Individualus tvarkaraščio planavimas"
@@ -5907,10 +5882,9 @@ msgid ""
 " the employees and period in the opened window, enabling you to send the "
 "employee their schedule via email and send data to the Payroll module."
 msgstr ""
-"Pabaigus pamainos planavimą, rinkitės mygtuką \"Skelbti\", "
-"atsidariusiame lange pasirinkite darbuotojus, laikotarpį, "
-"kas įgalina išsiųsti darbuotojui jo grafiką el.paštu ir nusiunčia "
-"duomenis į Algalapio modulį."
+"Pabaigus pamainos planavimą, rinkitės mygtuką \"Skelbti\", atsidariusiame"
+" lange pasirinkite darbuotojus, laikotarpį, kas įgalina išsiųsti "
+"darbuotojui jo grafiką el.paštu ir nusiunčia duomenis į Algalapio modulį."
 
 msgid "Publish Button"
 msgstr "Skelbti mygtuką"
@@ -5920,8 +5894,8 @@ msgid ""
 "When the \"Publish\" button is selected, the schedule is not sent via "
 "email, but the data is sent to the Payroll module."
 msgstr ""
-"Pasirinkus mygtuką „Skelbti“, grafikas nėra siunčiamas el. paštu, "
-"bet duomenys nusiunčiami į Algalapio modulį."
+"Pasirinkus mygtuką „Skelbti“, grafikas nėra siunčiamas el. paštu, bet "
+"duomenys nusiunčiami į Algalapio modulį."
 
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:65
 msgid ""
@@ -5983,4 +5957,36 @@ msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atly
 #~ "tiekėjo sąskaitą. - **Eksploatavimo data**:"
 #~ " Pasirinkite datą, kada turtas buvo "
 #~ "priimtas eksploatacijai."
+
+#~ msgid ""
+#~ "**Installation Instructions:** Necessary steps "
+#~ "for installing the module."
+#~ msgstr "**Diegimo instrukcijos:** Būtini modulio diegimo žingsniai."
+
+#~ msgid "How to generate reports using the module."
+#~ msgstr "Kaip generuoti ataskaitas naudojant modulį."
+
+#~ msgid "Instructions for document management and archiving."
+#~ msgstr "Instrukcijos dokumentų tvarkymui ir archyvavimui."
+
+#~ msgid "5. Integrations and Connection with Other Modules"
+#~ msgstr "5. Integracijos ir ryšys su kitais moduliais"
+
+#~ msgid "Special integration instructions if needed."
+#~ msgstr "Specialios integracijos instrukcijos, jei reikia."
+
+#~ msgid "6. Troubleshooting and FAQ"
+#~ msgstr "6. Trikčių šalinimas ir DUK"
+
+#~ msgid "Frequent problems and their solutions."
+#~ msgstr "Dažnos problemos ir jų sprendimai."
+
+#~ msgid "7. Updates and Version Management"
+#~ msgstr "7. Atnaujinimai ir versijų valdymas"
+
+#~ msgid "Version management practices."
+#~ msgstr "Versijų valdymo praktikos."
+
+#~ msgid "8. Appendices"
+#~ msgstr "8. Priedai"
 
