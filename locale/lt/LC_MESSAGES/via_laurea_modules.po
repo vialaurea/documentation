@@ -2076,7 +2076,7 @@ msgstr ""
 "modulį."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:14
-#, fuzzy
+#
 msgid "**Configuration**: No additional configuration is required."
 msgstr ""
 "**Pradiniai nustatymai**: Papildomas diegimas ar konfigūravimas "
@@ -2099,7 +2099,7 @@ msgstr ""
 "Apskaitos modulio dalis."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:24
-#, fuzzy
+#
 msgid "Step-by-step instructions on how to use these functions."
 msgstr ""
 "Išsamus kiekvienos svarbios funkcijos aprašymas ir nuoseklios "
@@ -2439,8 +2439,8 @@ msgid ""
 "Odoo system and reconcile them with received or issued invoices."
 msgstr ""
 "Instrukcija skirta teisingai registruoti gautus/sumokėtus avansus Odoo "
-"sistemoje bei juos sudengti su gautomis arba išrašytomis sąskaitomis "
-"faktūromis."
+"sistemoje bei juos sudengti su gautomis arba išrašytomis "
+"sąskaitomis faktūromis."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:12
 msgid ""
@@ -2451,8 +2451,8 @@ msgid ""
 msgstr ""
 "Siekiant teisingai naudotis Avansų moduliu, pirmiausia reikia atlikti "
 "konfigūraciją, sukurti žurnalą „Avansai“ ir nurodyti sąskaitas iš "
-"sąskaitų plano. Tuo tikslu Apskaitoje, Konfigūracijoje, Nustaymų skiltyje"
-" parinkite sąskaitas bei sukurtąjį žurnalą."
+"sąskaitų plano. Tuo tikslu Apskaitoje, Konfigūracijoje, Nustatymų skiltyje "
+"parinkite sąskaitas bei sukurtąjį žurnalą."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:17
 msgid "3. Daily Use Scenarios"
@@ -2555,7 +2555,7 @@ msgstr ""
 "skirtuke „Kita informacija“ GL įraše."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:32
-#, fuzzy
+#
 msgid ""
 "If needed, the certificate can also be printed from the list view in the "
 "standard way."
@@ -3372,11 +3372,11 @@ msgid "i.VAZ can be filled in the Accounting and Inventory modules."
 msgstr "i.VAZ galima užpildyti Apskaitos ir Inventorizacijos moduliuose."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:8
-#, fuzzy
+#
 msgid ""
 "You can find the filling option in the Accounting module under the i.MAS "
 "section."
-msgstr "Banko ataskaitą galite rasti Apskaitos modulyje, i.VAZ Ataskaitų:skyriuje"
+msgstr "Banko ataskaitą galite rasti Apskaitos modulyje, i.VAZ Ataskaitų skyriuje"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:12
 msgid "Or in the Inventory module under the i.VAZ section."
@@ -3996,9 +3996,9 @@ msgid "Final view of the scheduled shifts"
 msgstr "Galutinis suplanuotų pamainų vaizdas"
 
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:78
-#, fuzzy
+#
 msgid "5. Reports and Documentation"
-msgstr "4. Ataskaitos ir dokumentacija"
+msgstr "5. Ataskaitos ir dokumentacija"
 
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:79
 msgid ""
