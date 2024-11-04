@@ -1,4 +1,4 @@
-Fuel Registration by Car
+Fuel (Fleet) Accounting
 ========================
 
 1. Introduction
@@ -26,7 +26,7 @@ Configuration fields open:
 - Choose the fuel products.
 - Fuel journal: Either use the standard "various operations" or create a specialized one specifically for fuel accounting (for how to create a journal, see the "Starting with Odoo" instructions).
 
-1. Main Features
+3. Main Features
 ----------------
 
 Create a vehicle card and enter all necessary information:
@@ -110,7 +110,7 @@ If everything is correct, return to the Fuel Journals, mark the entry you want t
 .. image:: fuel_accounting/number14.jpg
    :alt: Integration with other modules
 
-1. Reports and Documentation
+4. Reports and Documentation
 -----------------------------
 
 A fuel write-off report can be printed in the fuel accounting module.
@@ -118,3 +118,6 @@ A fuel write-off report can be printed in the fuel accounting module.
 - In the vehicle card, click "Print"
 - Select "fuel write-off report"
 - In the opened window, select the date for which the report should be printed and choose the format:
+
+.. image:: fuel_accounting/number15.jpg
+   :alt: Generating a report
