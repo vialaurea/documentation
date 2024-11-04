@@ -5,7 +5,6 @@ Introduction
 ------------
 
 - Extension of the standard Odoo functionality for scrapping: the ability to print a scrap report.
-- This module contributes to compliance with Lithuanian accounting standards in the Odoo system, if applicable.
 
 Installation and Configuration
 ------------------------------
@@ -16,18 +15,19 @@ Installation and Configuration
 Daily Use Scenarios
 -------------------
 
-- Using the standard Odoo functionality, navigate to Inventory -> Operations -> Scrap. Enter one or more product scraps from the warehouse.
+Using the standard Odoo functionality, navigate to Inventory -> Operations -> Scrap. Enter one or more product scraps from the warehouse.
 
   .. image:: write-off_act/image01.jpg
 
 Reports and Documentation
 -------------------------
 
-- After entering the document, it is possible to print the scrap report.
+After entering the document, it is possible to print the scrap report.
 
   .. image:: write-off_act/image02.jpg
 
-- In the window that opens, the following fields need to be filled in:
+In the window that opens, the following fields need to be filled in:
+  
   - **Scrap Report Date**: Select the date.
   - **Scrap Report Number**: Manually enter the number (there is no automatic numbering).
   - **Scrap Basis, Commission Established, Commission Suggests**: Texts that will appear in the report; not mandatory to fill in.
@@ -39,7 +39,7 @@ Reports and Documentation
 
   .. image:: write-off_act/image04.jpg
 
-- If needed, the scrap report can also be printed from the list view in the standard way.
+If needed, the scrap report can also be printed from the list view in the standard way.
 
 Updates and Version Control
 ----------------------------
