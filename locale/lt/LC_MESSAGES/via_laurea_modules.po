@@ -1502,7 +1502,7 @@ msgstr "Modulis atnaujinamas su kiekviena nauja Odoo versija."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:2
 msgid "Fuel (Fleet) Accounting"
-msgstr "Automobilio Parko ir Kuro Apskaita"
+msgstr "Automobilio parko ir kuro apskaita"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:7
 msgid ""
@@ -1781,16 +1781,16 @@ msgid ""
 "Go to **Settings >> Users & Companies >> Companies** and open the "
 "**Company Government** form."
 msgstr ""
-"Eikite į **Nustatymai >> Vartotojai ir Bendrovės >> Bendrovės** ir "
-"atidarykite **Bendrovės valdymas** formą."
+"Pasirenkame **Nustatymai** >> Vartotojai ir Įmonės >> Įmonės**, atsidarome "
+"kortelę **Įmonės vyriausybė**."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:17
 msgid ""
 "In the **Executive History** section, select the director from the "
 "contact list. The job title must be specified in the contact's form."
 msgstr ""
-"**Vadovų istorija** skiltyje pasirinkite direktorių iš kontaktų sąrašo. "
-"Pareigų pavadinimas turi būti nurodytas kontakto formoje."
+"Skyrelyje **Vadovų istorija** parenkame iš kontaktų sąrašo direktorių. "
+"Pareigos turi būti nurodytos kontakto kortelėje."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:21
 msgid ""
@@ -1798,35 +1798,33 @@ msgid ""
 "contact list. The job title must be specified in the contact's form, in "
 "the job title field."
 msgstr ""
-"**Buhalterių istorijos** skyriuje pasirinkite buhalterį iš kontaktų "
-"sąrašo. Darbo pavadinimas turi būti nurodytas kontakto formoje, darbo "
-"pavadinimo laukelyje."
+"Skyrelyje **Buhalterių istorija** parenkame iš kontaktų sąrašo buhalterę. "
+"Pareigos turi būti nurodytos kontakto kortelėje, laukelyje pareigos."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:29
 msgid ""
 "The information entered in the module is used when printing various "
 "accounting reports, such as a reconciliation statement."
 msgstr ""
-"Į modulį įvesta informacija naudojama spausdinant įvairias apskaitos "
-"ataskaitas, pvz., suderinimo ataskaitą."
+"Modulyje suvesta informacija naudojama spausdinant įvairias apskaitos "
+"ataskaitas, pavyzdžiui, suderinimo aktą."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:33
 msgid "It is also used for KIO and KPO orders."
-msgstr "Jis taip pat naudojamas KIO ir KPO užsakymams."
+msgstr "Taip pat naudojamas spausdinant kasos KIO ir KPO orderius."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:41
 msgid ""
 "The module is linked to the Cash Report (see more in the Cash Book "
 "documentation) and to cash orders (see more in KIO-KPO numbering)."
 msgstr ""
-"Modulis yra susietas su Grynojo Pinigų Ataskaita (daugiau informacijos "
-"Grynojo Pinigų Knygos dokumentacijoje) ir su pinigų užsakymais (daugiau "
-"informacijos KIO-KPO numeracijos sistemoje)."
+"Modulis susijęs su Kasos ataskaita (plačiau žr. Kasos knygos ataskaita) "
+"ir su kasos orderiais (plačiau žr. KIO-KPO numeracija)."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:2
-#, fuzzy
+#
 msgid "Journals by departments (sales teams)"
-msgstr "Sukurkite pardavimų komandas"
+msgstr "Žurnalas pagal įmonės padalinius (pard. komandas)"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:7
 msgid ""
@@ -1834,10 +1832,9 @@ msgid ""
 " invoices differently. However, the journal in the sales invoice can only"
 " be selected manually by default."
 msgstr ""
-"„Odoo“ standartinė versija leidžia sukurti kelis pardavimo žurnalus ir "
-"skaičiuoti pardavimo sąskaitas-faktūras skirtingai. Tačiau žurnalas "
-"pardavimo sąskaitoje-faktūroje pagal numatytuosius nustatymus gali būti "
-"pasirinktas tik rankiniu būdu."
+"Odoo standartas leidžia susikurti kelis pardavimų žurnalus ir skirtingai "
+"numeruoti pardavimo faktūras. Tačiau pardavimo faktūroje žurnalą "
+"standartiškai galima pasirinkti tik rankiniu būdu."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:8
 msgid ""
@@ -1847,11 +1844,10 @@ msgid ""
 "Šiauliai, it is possible to number sales invoices separately by branch, "
 "i.e., by sales team."
 msgstr ""
-"Šis modulis leidžia automatiškai numeruoti pardavimo sąskaitas faktūras "
-"pagal įmonės fizinį padalinį. Pavyzdžiui, jei įmonės veikla yra "
-"registruota Kaune, tačiau ji taip pat turi filialus Vilniuje, Klaipėdoje "
-"ir Šiauliuose, galima numeruoti pardavimo sąskaitas faktūras atskirai "
-"pagal filialą, t. y. pagal pardavimo komandą."
+"Šis modulis suteikia galimybę automatizuotai skirtingai numeruoti "
+"pardavimo faktūras pagal fizinį įmonės padalinį. Pavyzdžiui, jei įmonės veikla "
+"registruota Kaune, bet dar turi ir Vilniaus, Klaipėdos ir Šiaulių skyrius, yra galimybė "
+"atskirai numeruoti pardavimo faktūras pagal skyrių, t.y. pardavimo komandą."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:9
 msgid ""
@@ -1860,32 +1856,33 @@ msgid ""
 "LITHUANIA ORDER ON THE MANAGEMENT OF VAT INVOICE REGISTERS, allowing the "
 "numbering of invoices according to the company's internal procedures."
 msgstr ""
-"Šis modulis leidžia skirtingą pardavimo sąskaitų faktūrų numeraciją pagal"
-" Lietuvos Respublikos finansų ministerijos Valstybinės mokesčių "
-"inspekcijos įsakymą dėl PVM sąskaitų faktūrų registrų tvarkymo, "
-"leidžiantį sąskaitų faktūrų numeraciją pagal įmonės vidines procedūras."
+"Modulis leidžia skirtingai numeruoti pardavimų sąskaitas faktūras vadovaujantis "
+"VALST.MOKESČIŲ INSPEKCIJOS PRIE LR FINANSŲ MINISTERIJOS VIRŠININKO "
+"ĮSAKYMU DĖL VALSTYBINĖS MOKESČIŲ INSPEKCIJOS PRIE LIETUVOS RESPUBLIKOS FINANSŲ "
+"MINISTERIJOS VIRŠININKO 2004 M. BALANDŽIO 21 D. ĮSAKYMO NR. VA-55 „DĖL "
+"PRIDĖTINĖS VERTĖS MOKESČIO SĄSKAITŲ FAKTŪRŲ REGISTRŲ TVARKYMO“ 2008 m. "
+"liepos 10 d. Nr. VA-34 PAKEITIMU, leidžiančiu numeruoti sąskaitas faktūras "
+"pagal įmonės vidaus tvarkas."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:14
 msgid "Install the module `customer_invoices_by_departments`."
 msgstr "Įdiekite `customer_invoices_by_departments` modulį"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:16
-#, fuzzy
+#
 msgid "To configure the module:"
-msgstr "Kaip atnaujinti modulį."
+msgstr "Modulio konfigūracijai reikia:"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:18
-#, fuzzy
+#
 msgid ""
 "In the Accounting module, create separate journals, e.g., Kaunas division"
 " sales, Klaipėda sales division, etc. The journal type must be Sales, and"
 " the short code must be unique, as it will be used for invoice numbering."
 msgstr ""
-"Norėdami sukonfigūruoti modulį:\n"
-"1. Apskaitos modulyje sukurkite atskirus žurnalus, pvz., Kauno padalinio "
-"pardavimai, Klaipėdos pardavimų skyrius ir kt. Žurnalo tipas turi būti "
-"\"Pardavimai\", o trumpas kodas turi būti unikalus, nes jis bus "
-"naudojamas sąskaitų numeravimui."
+"Apskaitos modulyje sukurti atskirus žurnalus, pavyzdžiui, Kauno padalinio pardavimai, "
+"Klaipėdos pardavimų padalinys ir pan. Žurnalo tipas turi būti Pardavimas, "
+"trumpas kodas turi būti unikalus, jis bus naudojamas faktūrų numeracijai."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst
 msgid "Create separate journals"
@@ -1933,9 +1930,9 @@ msgstr ""
 "Pardavimų darbuotojas, prisijungęs prie savo paskyros, per pardavimų "
 "modulį sukuria naujus pardavimo užsakymus. Pagal numatytuosius "
 "nustatymus, kuriant pardavimo užsakymą (SO), pardavimo komanda yra "
-"užpildoma pagal darbuotojo komandos priskyrimą. Kuriant naują sąskaitą "
-"faktūrą iš SO, sąskaitų faktūrų žurnalas, priskirtas pardavimo komandai, "
-"automatiškai pasirenkamas sąskaitoje faktūroje."
+"užpildoma pagal darbuotojo komandos priskyrimą. Iš SO (pardavimų užsakymo) "
+"sukuriant naują faktūrą, automatiškai sąskaitoje faktūroje parenkamas atitinkamai "
+"pardavimų komandai priskirtas pardavimų žurnalas."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst
 msgid "Sales team and journal assignment"
@@ -1948,10 +1945,10 @@ msgid ""
 "order will be suggested by default, according to Odoo standard. The "
 "employee can select the required journal manually."
 msgstr ""
-"Jei darbuotojas nėra priskirtas jokiai pardavimų komandai (skyriui), "
-"kuriant pardavimo užsakymą ir išrašant (kuriant) sąskaitą faktūrą, "
-"pirmasis žurnalas bus pasiūlytas pagal nutylėjimą, pagal Odoo standartą. "
-"Darbuotojas gali pasirinkti reikiamą žurnalą rankiniu būdu."
+"Jei darbuotojas nebus priskirtas jokiai pardavimų komandai (padaliniui), "
+"sukurūs SO ir iš jo išrašant (sukuriant) faktūrą pagal nutylėjimą pasiūlys "
+"pirmą žurnalą iš eilės, pagal Odoo standartą. Darbuotojas galės "
+"parinkti reikiamą žurnalą tik rankiniu būdu."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst
 msgid "Default journal selection"
@@ -2035,10 +2032,10 @@ msgid ""
 " iSAF report (see more in the iSAF declaration submission documentation)."
 " It is not possible to submit a declaration for separate divisions."
 msgstr ""
-"Nepriklausomai nuo to, kaip faktūros yra numeruojamos, visos jos bus "
-"įtrauktos į vieną iSAF ataskaitą (daugiau informacijos rasite iSAF "
-"deklaracijos pateikimo dokumentacijoje). Neįmanoma pateikti deklaracijos "
-"atskiroms padaliniams."
+"Nepriklausomai nuo to, kaip bus numeruojamos faktūros, visos bus įtraukiamos "
+"į vieną bendrą iSAF ataskaitą(plačiau žr. iSAF deklaracijos teikimas "
+"dokumentacijoje). Nėra numatyta galimybė teikti deklaraciją "
+"atskiriems padaliniams."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:73
 msgid ""
@@ -2046,14 +2043,13 @@ msgid ""
 "register documentation) by different divisions in the report. A single "
 "consolidated invoice register report for all divisions will be printed."
 msgstr ""
-"Neįmanoma atspausdinti S/F registro (daugiau informacijos žr. S/F "
-"registro dokumentacijoje) skirtingose ataskaitos divizionuose. Bus "
-"atspausdinta viena konsoliduota sąskaitų-faktūrų registrų ataskaita "
-"visiems divizionams."
+"Nėra numatyta ataskaitoje S/F registras( plačiau žr. S/F registras dokumentacijoje) "
+"spausdinti pagal skirtingus padalinius. Bus spausdinama viena bendra "
+"sąskaitų faktūrų registro ataskaita visiems padaliniams."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:2
 msgid "Mass accounting records management"
-msgstr "Masinė buhalterinių įrašų tvarkyba"
+msgstr "Masinis apskaitos įrašų tvarkymas"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:7
 msgid ""
@@ -2061,30 +2057,29 @@ msgid ""
 " The module is associated with the Accounting module but is not related "
 "to the LT localization. It can operate in any localization."
 msgstr ""
-"Techninis modulio pavadinimas yra `mass_accounting_records_management`. "
-"Modulis yra susijęs su Apskaitos moduliu, bet nėra susijęs su LT "
-"lokalizacija. Jis gali veikti bet kurioje lokalizacijoje."
+"Modulio techninis pavadinimas `account_move_mass_cancel`. Modulis yra "
+"susijęs su Accounting moduliu, bet nesusijęs su LT lokalizacija. "
+"Gali veikti bet kokioje lokalizacijoje."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:9
 msgid ""
 "The module is intended for consultants or highly experienced Odoo users "
 "when there is a need to manage GL entries in bulk."
 msgstr ""
-"Modulis skirtas konsultantams arba labai patyrusiems „Odoo“ vartotojams, "
-"kai reikia tvarkyti Didžiosios Knygos įrašus dideliais kiekiais."
+"Modulis skirtas konsultantams arba labai patyrusiems Odoo naudotojams, "
+"kai reikia masiškai tvarkyti DK įrašus."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:14
 msgid ""
 "**Module Installation**: Install the `mass_accounting_records_management`"
 " module."
 msgstr ""
-"**Modulio diegimas**: Įdiekite `mass_accounting_records_management` "
-"modulį."
+"**Modulio diegimas**: Įdiegiamas modulis account_move_mass_cancel."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:16
 msgid "**Configuration**: No additional configuration is required."
 msgstr ""
-"**Pradiniai nustatymai**: Papildomas diegimas ar konfigūravimas "
+"**Konfigūracija**: Papildomas diegimas ar konfigūravimas "
 "nereikalingas."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:21
@@ -2092,8 +2087,8 @@ msgid ""
 "The module adds 2 additional Action buttons in Accounting >> Accounting "
 ">> GL Entries: **Cancel** and **Reset to Draft**."
 msgstr ""
-"Modulis prideda 2 papildomus veiksmų mygtukus Apskaita >> Apskaita >> "
-"Didžiosios knygos įrašai: **Atšaukti** ir **Atkurti į juodraštį**."
+"Modulis Apskaita >> Apskaita >> DK įrašai prideda 2 papildomus Veiksmo mygtukus: "
+"**Atšaukti** ir **Atkurti kaip juodraštį**."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:23
 msgid ""
@@ -2110,10 +2105,9 @@ msgid ""
 "confirmation, and later, they need to be removed or corrected due to "
 "errors."
 msgstr ""
-"Modulis yra naudingas, pavyzdžiui, tvarkant ilgalaikio turto įrašus, kai "
-"bendrajame žurnale sukuriama daug įrašų už praeitus laikotarpius "
-"patvirtinus turtą, o vėliau juos reikia pašalinti arba ištaisyti dėl "
-"klaidų."
+"Modulis tinka pavyzdžiui, tvarkant ilgalaikio turto įrašus, kai patvirtinus turtą "
+"susikuria daug DK įrašų už praėjusius laikotarpius, o po to reikia juos "
+"pašalinti arba pataisyti klaidingai suvestus įrašus."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:38
 msgid ""
@@ -2121,13 +2115,13 @@ msgid ""
 "prohibited to cancel GL entries for certain invoices. With this module, "
 "it is possible to cancel invoices."
 msgstr ""
-"**Įspėjimas**: 16 versijoje modulis pažeidžia Odoo taisyklę, pagal kurią "
-"draudžiama anuliuoti tam tikrų sąskaitų faktūrų bendrosios žurnalo "
-"įrašus. Naudojant šį modulį, galima anuliuoti sąskaitas faktūras."
+"**DĖMESIO**: 16 ir 17 versijoje modulis pažeidžia Odoo taisyklę, kai tam "
+"tikroms sąskaitoms faktūroms DRAUDŽIAMA atšaukti DK įrašus. Su šiuo moduliu "
+"yra galimybė atšaukti faktūras."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:40
 msgid "The module can be freely used in version 15."
-msgstr "Modulis gali būti laisvai naudojamas 15 versijoje."
+msgstr "Modulį visiškai laisvai galima naudoti 15 versijoje."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:2
 msgid "Reverse VAT"
@@ -2140,67 +2134,69 @@ msgid ""
 "responsible for the VAT by adding a certain tax amount to the final "
 "price."
 msgstr ""
-"Atvirkštinis PVM yra mokestis, taikomas PVM mokėtojams, kai pirkėjas, o "
-"ne pardavėjas, sumoka PVM į valstybės biudžetą. Paprastai pardavėjas yra "
-"atsakingas už PVM pridėdamas tam tikrą mokesčio sumą prie galutinės "
-"kainos."
+"Atvirkštiniu PVM yra laikomas mokestis taikomas PVM mokėtojams kuomet jis "
+"pats, o ne pardavėjas sumoka PVM mokestį į valstybės biudžetą. Įprastu atveju už "
+"mokamą PVM atsako prekių pardavėjai, prie galutinės kainos pridedant tam "
+"tikrą mokesčio dalį."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:9
 msgid "This type of VAT is also applicable in cases such as:"
-msgstr ""
+msgstr "Šis PVM tipas taip pat yra aktualus tokiu atveju, kai:"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:11
 msgid "When construction work is performed."
-msgstr ""
+msgstr "Kai atliekami statybos darbai."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:12
 msgid "When improving the condition of a building or structure."
-msgstr ""
+msgstr "Kai yra gerinama pastato arba statinio būklė."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:13
 msgid "When taking over ownership of property."
-msgstr ""
+msgstr "Tais atvejais, kai perimti nuosavybės teisės objektai."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:14
 msgid ""
 "When purchasing mobile phones, tablets, laptops, or other computers, hard"
 " drives, etc."
 msgstr ""
+"Tokiu atveju, kai yra perkami mobilieji telefonai, planšetiniai, nešiojami "
+"arba kiti kompiuteriai, standieji diskai ir t.t."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:15
 msgid "When buying wood."
-msgstr ""
+msgstr "Perkant medieną."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:16
 msgid "When buying ferrous or non-ferrous metals."
-msgstr ""
+msgstr "Tais atvejais, kai yra perkami juodieji arba spalvotieji metalai."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:21
 msgid ""
 "In the Odoo business management system, you need to install Account "
 "Invoice Reversed Tax Show."
 msgstr ""
-"Odoo verslo valdymo sistemoje reikia įdiegti Account Invoice Reversed Tax"
-" Show."
+"Odoo verslo valdymo sistemoje reikia instaliuoti Account Invoice "
+"Reversed Tax Show."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:23
-#, fuzzy
+#
 msgid ""
 "Before using this module, you need to perform the following "
 "configurations:"
-msgstr "Prieš pradedant naudotis šiuo moduliu, reikalingi nustatymai."
+msgstr "Prieš naudodami šį modulį, turite atlikti šias konfigūracijas:"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:25
 msgid "Create a new tax group for reverse taxes and assign them (important!)."
-msgstr ""
+msgstr "Sukurkite naują mokesčių grupę atvirkštiniams mokesčiams ir priskirkite jiems (svarbu!)."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:26
 msgid "Set the reverse tax field to Force calculate the invoice."
-msgstr ""
+msgstr "Nustatykite atvirkštinių mokesčių lauke Priverstinai apskaičiuoti sąskaitą faktūrą."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:27
 msgid "Do not use the checkbox for other types of taxes."
-msgstr ""
+msgstr "Nenaudoti varnelės kitos rūšies mokesčiams."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst
 msgid "Tax group configuration"
@@ -2223,8 +2219,8 @@ msgid ""
 "If configured correctly, the VAT amount is automatically calculated in "
 "the final calculation."
 msgstr ""
-"Jei sukonfigūruota teisingai, PVM suma automatiškai apskaičiuojama "
-"galutiniame skaičiavime."
+"Jeigu teisingai konfigūruota, bendroje sumoje automatiškai susiskaičiuojama "
+"ir išskiriama PVM suma."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst
 msgid "Automatic VAT calculation"
