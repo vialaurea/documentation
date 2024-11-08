@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 14:41+0000\n"
+"POT-Creation-Date: 2024-11-08 13:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -324,7 +324,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:5
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:5
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:5
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:8
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:5
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:5
@@ -350,8 +350,8 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:10
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:11
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:12
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:11
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:20
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:12
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:19
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:10
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:10
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:7
@@ -394,8 +394,8 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:29
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:25
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:27
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:32
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:17
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:34
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:19
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:33
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:16
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:13
@@ -408,9 +408,9 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:32
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:13
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:51
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:40
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:27
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:32
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:42
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:29
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:33
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:55
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:13
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:30
@@ -494,8 +494,8 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:69
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:85
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:39
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:68
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:45
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:46
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:63
@@ -521,7 +521,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:78
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:94
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:45
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:34
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:36
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:65
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:35
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:52
@@ -1356,7 +1356,7 @@ msgid "The module is linked to the Cash Report (see more in the Cash Book docume
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:2
-msgid "Customer invoices by departments"
+msgid "Journals by departments (sales teams)"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:7
@@ -1375,15 +1375,19 @@ msgstr ""
 msgid "Install the module `customer_invoices_by_departments`."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:15
-msgid "To configure the module: 1. In the Accounting module, create separate journals, e.g., Kaunas division sales, Klaipėda sales division, etc. The journal type must be Sales, and the short code must be unique, as it will be used for invoice numbering."
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:16
+msgid "To configure the module:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:18
+msgid "In the Accounting module, create separate journals, e.g., Kaunas division sales, Klaipėda sales division, etc. The journal type must be Sales, and the short code must be unique, as it will be used for invoice numbering."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:0
 msgid "Create separate journals"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:21
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:23
 msgid "In the Sales module >> Configuration >> Sales Teams or in the CRM module >> Configuration >> Sales Teams, create separate teams according to the company's physical divisions, e.g., Vilnius branch, Šiauliai branch, Alytus branch, etc."
 msgstr ""
 
@@ -1391,7 +1395,7 @@ msgstr ""
 msgid "Create sales teams"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:26
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:28
 msgid "Assign each sales team an appropriate sales journal and employees working in that division. It is RECOMMENDED to assign all employees (not just salespeople) to the appropriate sales teams."
 msgstr ""
 
@@ -1399,7 +1403,7 @@ msgstr ""
 msgid "Assign sales journal and employees"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:34
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:36
 msgid "The sales employee, logged into their account, creates new sales orders through the sales module. By default, when creating an SO, the sales team is filled in according to the employee's team assignment. When creating a new invoice from the SO, the sales journal assigned to the sales team is automatically selected in the invoice."
 msgstr ""
 
@@ -1407,7 +1411,7 @@ msgstr ""
 msgid "Sales team and journal assignment"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:42
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:44
 msgid "If the employee is not assigned to any sales team (division), when creating an SO and issuing (creating) an invoice, the first journal in order will be suggested by default, according to Odoo standard. The employee can select the required journal manually."
 msgstr ""
 
@@ -1415,7 +1419,7 @@ msgstr ""
 msgid "Default journal selection"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:47
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:49
 msgid "When issuing (creating) an invoice through Accounting >> Customers >> Invoices, the first journal in order will be suggested by default (according to Odoo standard), regardless of whether the employee is assigned to a sales team or not. When the sales team is selected manually in the invoice, the sales journal will be selected according to the sales team automatically. The employee can also select the required journal manually."
 msgstr ""
 
@@ -1423,7 +1427,7 @@ msgstr ""
 msgid "Manual sales team and journal selection"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:52
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:54
 msgid "If the employee is not assigned to any sales team (division), creating a new sales order will not automatically fill in the sales team. But if the employee selects the sales team manually, when issuing (creating) the sales invoice, the journal will be suggested according to the sales team from the sales order."
 msgstr ""
 
@@ -1431,7 +1435,7 @@ msgstr ""
 msgid "Manual sales team selection"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:57
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:59
 msgid "If the employee is assigned to one sales team (division) and manually selects another sales team when creating a new sales order, the sales journal will be assigned according to the sales team from the sales order (not according to the employee) when issuing (creating) the sales invoice."
 msgstr ""
 
@@ -1439,7 +1443,7 @@ msgstr ""
 msgid "Sales team selection based on sales order"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:62
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:64
 msgid "The same sales journal can be assigned to multiple sales teams, e.g., Klaipėda and Palanga sales teams issue invoices in the Klaipėda sales journal."
 msgstr ""
 
@@ -1447,11 +1451,11 @@ msgstr ""
 msgid "Assigning the same journal to multiple teams"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:72
 msgid "Regardless of how invoices are numbered, all will be included in a single iSAF report (see more in the iSAF declaration submission documentation). It is not possible to submit a declaration for separate divisions."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:71
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:73
 msgid "It is not possible to print the S/F register (see more in the S/F register documentation) by different divisions in the report. A single consolidated invoice register report for all divisions will be printed."
 msgstr ""
 
@@ -1463,71 +1467,99 @@ msgstr ""
 msgid "The technical name of the module is `mass_accounting_records_management`. The module is associated with the Accounting module but is not related to the LT localization. It can operate in any localization."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:8
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:9
 msgid "The module is intended for consultants or highly experienced Odoo users when there is a need to manage GL entries in bulk."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:13
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:14
 msgid "**Module Installation**: Install the `mass_accounting_records_management` module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:14
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:16
 msgid "**Configuration**: No additional configuration is required."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:19
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:21
 msgid "The module adds 2 additional Action buttons in Accounting >> Accounting >> GL Entries: **Cancel** and **Reset to Draft**."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:20
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:23
 msgid "The Action buttons **Confirm** and **Delete** are part of the standard Accounting module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:24
-msgid "Step-by-step instructions on how to use these functions."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:29
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:31
 msgid "The module is useful, for example, when managing fixed asset entries where many GL entries are created for past periods upon asset confirmation, and later, they need to be removed or corrected due to errors."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:36
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:38
 msgid "**Warning**: In version 16, the module violates an Odoo rule where it is prohibited to cancel GL entries for certain invoices. With this module, it is possible to cancel invoices."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:37
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:40
 msgid "The module can be freely used in version 15."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:2
-msgid "Reverse Charges"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:5
 msgid "Reverse VAT"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:10
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:7
 msgid "Reverse VAT is a tax applied to VAT payers where the buyer, not the seller, pays the VAT to the state budget. Usually, the seller is responsible for the VAT by adding a certain tax amount to the final price."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:11
-msgid "This type of VAT is also applicable in cases such as: 1. When construction work is performed. 2. When improving the condition of a building or structure. 3. When taking over ownership of property. 4. When purchasing mobile phones, tablets, laptops, or other computers, hard drives, etc. 5. When buying wood. 6. When buying ferrous or non-ferrous metals."
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:9
+msgid "This type of VAT is also applicable in cases such as:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:22
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:11
+msgid "When construction work is performed."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:12
+msgid "When improving the condition of a building or structure."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:13
+msgid "When taking over ownership of property."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:14
+msgid "When purchasing mobile phones, tablets, laptops, or other computers, hard drives, etc."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:15
+msgid "When buying wood."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:16
+msgid "When buying ferrous or non-ferrous metals."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:21
 msgid "In the Odoo business management system, you need to install Account Invoice Reversed Tax Show."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:23
-msgid "Before using this module, you need to perform the following configurations: - Create a new tax group for reverse taxes and assign them (important!). - Set the reverse tax field to Force calculate the invoice. - Do not use the checkbox for other types of taxes."
+msgid "Before using this module, you need to perform the following configurations:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:25
+msgid "Create a new tax group for reverse taxes and assign them (important!)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:26
+msgid "Set the reverse tax field to Force calculate the invoice."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:27
+msgid "Do not use the checkbox for other types of taxes."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:0
 msgid "Tax group configuration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:34
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:35
 msgid "When selling an item subject to reverse VAT, you need to manually change the tax."
 msgstr ""
 
@@ -1535,7 +1567,7 @@ msgstr ""
 msgid "Manually change the tax"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:39
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:40
 msgid "If configured correctly, the VAT amount is automatically calculated in the final calculation."
 msgstr ""
 
@@ -1543,7 +1575,7 @@ msgstr ""
 msgid "Automatic VAT calculation"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:47
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:48
 msgid "The module only works with the Accounting module."
 msgstr ""
 
