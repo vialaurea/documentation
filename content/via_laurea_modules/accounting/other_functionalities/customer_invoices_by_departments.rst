@@ -1,4 +1,4 @@
-Customer invoices by departments
+Journals by departments (sales teams)
 ================================
 
 Introduction
@@ -11,8 +11,10 @@ Introduction
 Installation and Configuration
 ------------------------------
 
-- Install the module `customer_invoices_by_departments`.
-- To configure the module:
+Install the module `customer_invoices_by_departments`.
+
+To configure the module:
+
   1. In the Accounting module, create separate journals, e.g., Kaunas division sales, Klaipėda sales division, etc. The journal type must be Sales, and the short code must be unique, as it will be used for invoice numbering.
 
   .. image:: customer_invoices_by_departments/img01.jpg

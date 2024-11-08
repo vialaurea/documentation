@@ -1,14 +1,13 @@
-Reverse Charges
-===============
-
 Reverse VAT
------------
+===============
 
 Introduction
 ------------
 
-- Reverse VAT is a tax applied to VAT payers where the buyer, not the seller, pays the VAT to the state budget. Usually, the seller is responsible for the VAT by adding a certain tax amount to the final price.
-- This type of VAT is also applicable in cases such as:
+Reverse VAT is a tax applied to VAT payers where the buyer, not the seller, pays the VAT to the state budget. Usually, the seller is responsible for the VAT by adding a certain tax amount to the final price.
+
+This type of VAT is also applicable in cases such as:
+
   1. When construction work is performed.
   2. When improving the condition of a building or structure.
   3. When taking over ownership of property.
@@ -19,8 +18,10 @@ Introduction
 Installation and Configuration
 ------------------------------
 
-- In the Odoo business management system, you need to install Account Invoice Reversed Tax Show.
-- Before using this module, you need to perform the following configurations:
+In the Odoo business management system, you need to install Account Invoice Reversed Tax Show.
+
+Before using this module, you need to perform the following configurations:
+
   - Create a new tax group for reverse taxes and assign them (important!).
   - Set the reverse tax field to Force calculate the invoice.
   - Do not use the checkbox for other types of taxes.
