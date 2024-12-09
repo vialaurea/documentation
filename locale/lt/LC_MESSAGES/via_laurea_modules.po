@@ -3637,7 +3637,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:122
 msgid "Automatic submission option"
-msgstr ""
+msgstr "Automatinio pateikimo galimybė"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:124
 msgid ""
