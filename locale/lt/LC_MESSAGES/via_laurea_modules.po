@@ -3377,23 +3377,25 @@ msgid "i.VAZ"
 msgstr "i.VAZ"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:7
-#, fuzzy
+#
 msgid ""
 "i.VAZ can be filled in both Accounting and Inventory modules. It is most "
 "convenient to fill i.VAZ in the Inventory module.."
-msgstr "i.VAZ galima užpildyti Apskaitos ir Inventorizacijos moduliuose."
+msgstr ""
+"i.VAZ pildymas galimas Apskaitos ir Inventoriaus moduliuose. "
+"Patogiausia i.VAZ pildyti Inventoriaus modulyje."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:9
-#, fuzzy
+#
 msgid ""
 "An important condition is that i.VAZ can only be filled after confirming "
 "the delivery document or OUT in the Inventory module. The delivery order "
 "OUT must be in \"Done\" status."
 msgstr ""
-"Abiejuose moduliuose failas generuojamas skirtingai. Svarbi sąlyga yra "
-"ta, kad i.VAZ galima užpildyti tik patvirtinus pardavimo užsakymą "
-"Pardavimų modulyje. Pardavimo užsakymas turi būti pažymėtas kaip "
-"„Atliktas“."
+"Svarbi sąlyga, i.VAZ gali būti pildomas tik patvirtinus "
+"pristatymo dokumentą arba OUT Inventoriaus modulyje. "
+"Pristatymo užsakymas OUT turi būti būsenoje "
+"„Atlikta“."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:16
 msgid ""
@@ -3401,6 +3403,8 @@ msgid ""
 " Sales module, you can see them in the Inventory module, Operations "
 "section, under Deliveries."
 msgstr ""
+"Paruošus pardavimo užsakymą ir Pardavimų modulyje patvirtinus prekių "
+"išvežimus, juos galite matyti Inventoriaus modulyje, Operacijų skiltyje, Pristatymuose."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:20
 msgid ""
@@ -3408,10 +3412,13 @@ msgid ""
 " list, select and mark the deliveries for which you want to create an "
 "i.VAZ file. Then click the \"Generate i.VAZ\" button."
 msgstr ""
+"Pasirinkus šią skiltį, matysite pristatymų sąrašą. Iš sąrašo pasirinkite pristatymus, "
+"kuriems norite formuoti i.VAZ rinkmeną ir juos pažymėkite. Po "
+"to spauskite mygtuką \"Generuoti i.VAZ\"."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:24
 msgid "Choose whether you want to generate a batch or separate i.VAZ documents."
-msgstr ""
+msgstr "Pasirinkite, ar norėsite generuoti rinkinį, ar atskirus i.VAZ dokumentus."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:28
 msgid ""
@@ -3420,29 +3427,35 @@ msgid ""
 "required fields in it. If needed, adjust the shipping and delivery dates "
 "and times."
 msgstr ""
+"Jei pasirinkrite generuoti i.VAZ rinkinį, automatiškai susikurs bendras i.VAZ "
+"juodraštinis įrašas visiems pažymėtiems pristatymams. Jame užpildykite "
+"reikiamus laukus. Esant poreikiui, pakoreguokite "
+"išgabenimo ir pristatymo datas ir laikus."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:30
 msgid ""
 "In the Transfers tab, you will see the list of deliveries you have "
 "selected."
-msgstr ""
+msgstr "Perkėlimų kortelėje matysite Jūsų pasirinktų pristatymų sąrašą."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:34
 msgid ""
 "Go to the \"Waybills\" tab, click the \"Generate Documents\" button, and "
 "the delivery list will be transferred to waybills."
 msgstr ""
+"Pereikite į kortelę \"Važtaraščiai\", paspauskite mygtuką "
+"\"Generuoti dokumentus\" ir pristatymų sąrašas bus perkeltas į važtaraščius."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:38
-#, fuzzy
+#
 msgid ""
 "After doing this, confirm the document and a \"Download Document\" button"
 " will appear at the top of the window. Clicking it will download the "
 "i.VAZ file to your computer, which you can then upload to the VMI system."
 msgstr ""
-"Patvirtinus, atsiras laukas „Atsisiųsti“. Spustelėkite nuorodą, kad "
-"atsisiųstumėte xml failą į savo kompiuterį, kurį galite įkelti į VMI "
-"sistemą."
+"Tai atlikę, patvirtinkite dokumentą ir lango viršuje atsiras mygtukas "
+"\"Atsisiųsti dokumentą\", kurį paspaudus atsisiųsite i.VAZ failą "
+"į savo kompiuterį, bei galėsite jį įkelti į VMI sistemą."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:42
 msgid ""
@@ -3451,16 +3464,19 @@ msgid ""
 "delivery. We recommend using this option when shipments will be delivered"
 " by different carriers or vehicles."
 msgstr ""
+"Jei i.VAZ kūrimo momentu pasirinksite generuoti atskirus i.VAZ dokumentus, "
+"kiekvienam iš pristatymų turėsite įvesti pristatymo duomenis atskirai. "
+"Šį punktą siūlome naudoti, kai krovinius pristatys skirtingi vežėjai ar automobiliai."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:44
 msgid "In this case, i.VAZ drafts will be created for each delivery."
-msgstr ""
+msgstr "Tokiu atveju Jums bus sukurti i.VAZ ruošiniai kiekvienam pristatymui."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:48
 msgid ""
 "In each delivery, check the \"Strict Verification\" option and fill in "
 "the required fields."
-msgstr ""
+msgstr "Kiekviename pristatyme pažymėkite punktą \"Griežtas tikrinimas\" ir užpildykite reikiamus laukus."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:52
 msgid ""
@@ -3469,6 +3485,10 @@ msgid ""
 "addresses. If needed, adjust the shipping and expected delivery dates and"
 " times."
 msgstr ""
+"Išvežimo ir pristatymo adresų informacija yra nuskaitoma automatizuotai, "
+"remiantis Jūsų įmonės sandėlio bei gavėjo kontaktų kortelės duomenimis "
+"ir adresais. Esant poreikiui, pakoreguokite išgabenimo bei numatomo pristatymo "
+"datas ir laikus."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:54
 msgid ""
@@ -3477,61 +3497,67 @@ msgid ""
 "will allow you to download the document to your computer and upload it to"
 " the VMI system."
 msgstr ""
+"Užpildžius duomenis, spauskite mygtuką \"Patvirtinti\". Lango "
+"viršuje atsiras papildomas mygtukas \"Atsisiųsti dokumentą\", jo "
+"pagalba atsisiųsite dokumentą į savo kompiuterį ir "
+"galėsite įkelti į VMI sistemą."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:59
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:122
-#, fuzzy
+#
 msgid "Other, additional filling options"
-msgstr "Papildomi transporto priemonės informacijos laukai"
+msgstr "Kitos, papildomos pildymo galimybės"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:61
-#, fuzzy
+#
 msgid "Additional filling options can be found at:"
-msgstr "Papildomos planavimo parinktys planavimo modulyje"
+msgstr "Papildomas pildymo galimybes rasite:"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:63
-#, fuzzy
+#
 msgid "Accounting module menu i.MAS >> i.VAZ"
-msgstr "Apskaitos modulio ataskaitų skyrius"
+msgstr "Apskaitos modulio meniu i.MAS >> i.VAZ"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:67
-#, fuzzy
+#
 msgid "In the inventory module, by selecting the i.VAZ menu."
-msgstr "Inventoriaus modulio i.VAZ skyriuje"
+msgstr "Inventoriaus modulyje pasirinkę meniu i.VAZ."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:71
 msgid ""
 "In both cases, i.VAZ is formed by selecting the appropriate option - as a"
 " batch or as a document, based on the needs described above."
 msgstr ""
+"Abiem šiais atvejais i.VAZ formuojamas pasirenkant atitinkamą "
+"variantą - kaip rinkinį ar kaip dokumentą, remiantis aukščiau "
+"aprašytu poreikiu."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:73
-#, fuzzy
+#
 msgid ""
 "If filling as a batch, in the i.VAZ section select i.VAZ batch documents "
 "and click the \"New\" button."
 msgstr ""
-"Skiltyje \"i.VAZ\" pasirinkite \"i.VAZ partijų dokumentai\" ir "
-"spustelėkite mygtuką \"Naujas\"."
+"Jei pildoma kaip rinkinys, punkte i.VAZ pasirinkite i.VAZ "
+"rinkinio dokumentai ir spauskite mygtuką \"Naujas\"."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:77
-#, fuzzy
+#
 msgid ""
 "In the opened window, enter the carrier, vehicle license plate number, "
 "make, and driver's first and last name. Click \"Add or Remove "
 "Documents\"."
 msgstr ""
-"Atsidariusiame lange įveskite vežėją, transporto priemonės registracijos "
-"numerį, markę, vairuotojo vardą ir pavardę. Spustelėkite „Pridėti arba "
-"pašalinti dokumentus“."
+"Atsidariusiame lange įveskite vežėją, automobilio valst.numerį, "
+"markę, vairuotojo vardą ir pavardę. Spauskite „Pridėti arba šalinti dokumentus“."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:81
-#, fuzzy
+#
 msgid "A new window will open where you should click the \"Add a line\" link."
-msgstr "Atidarytame lange spustelėkite „Sukurti“."
+msgstr "Atsidarys sekantis langas, kuriame spauskite nuorodą „Pridėti eilutę“."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:85
-#, fuzzy
+#
 msgid ""
 "A new window will open where you can create a new waybill. In the "
 "transfer, select the confirmed sales order waybill number, fill in the "
@@ -3540,91 +3566,89 @@ msgid ""
 "are automatically taken from the customer card). If necessary, adjust the"
 " addresses."
 msgstr ""
-"Kitame lange galite sukurti naują važtaraštį. Perkėlime pasirinkite "
-"patvirtinto pardavimo užsakymo važtaraščio numerį, užpildykite gavėjo, "
-"siuntėjo, transportavimo datas ir laikus, ir patikrinkite išsiuntimo ir "
-"gavimo vietų detalią informaciją apačioje (tai automatiškai paimama iš "
-"kliento kortelės). Jei reikia, pataisykite adresus."
+"Atsidarys sekantis langas, kuriame galėsite sukurti naują važtaraštį. "
+"Perkėlime pasirinkite patvirtintą pardavimų užsakymo važtaraščio numerį, "
+"užpildykite gavėją, siuntėja, gabenimo datas ir laikus bei apačioje "
+"pasitikrinkite išsamioje informacijoje išsiuntimo ir gavimo vietas (jos automatiškai "
+"paimamos iš kliento kortelės). Esant reikalui, adresus pakoreguokite."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:89
-#, fuzzy
+#
 msgid ""
 "After filling in, save the document. You will see the entered document in"
 " the list of added waybills. If needed, you can add more waybill lines. "
 "After uploading all required waybills from sales orders, confirm the "
 "document."
 msgstr ""
-"Užpildę, išsaugokite dokumentą. Įrašytą dokumentą pamatysite pridėtų "
-"važtaraščių sąraše. Jei reikia, galite pridėti daugiau važtaraščio "
-"eilučių. Įkrovę visus reikiamus važtaraščius iš pardavimų užsakymų, "
-"patvirtinkite dokumentą."
+"Užpildžius, išsaugokite dokumentą. Jau įvestą dokumentą matysite "
+"pridėtų važtaraščių sąraše. Esant poreikiui, galite pridėti "
+"daugiau važtaraščių eilučių. Sukėlus visus reikiamus važtaraščius iš "
+"pardavimų užsakymų, dokumentą patvirtinkite."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:91
-#, fuzzy
+#
 msgid ""
 "In the i.VAZ documents window, you will see all uploaded waybills in the "
 "waybill lines. After checking, confirm the document."
 msgstr ""
-"i.VAZ dokumento lange matysite visas įkeltas važtaraščius važtaraščių "
-"eilutėse. Patikrinę, patvirtinkite dokumentą."
+"i.VAZ dokumentų lange, važtaraščių eilutėse matysite visus įkeltus "
+"važtaraščius. Patikrinę, patvirtinkite dokumentą."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:95
-#, fuzzy
+#
 msgid ""
 "After confirmation, a \"Download\" field will appear. Clicking it will "
 "download a file in xml format to your computer, which you can upload to "
 "the VMI system."
 msgstr ""
-"Patvirtinus, atsiras laukas „Atsisiųsti“. Spustelėkite nuorodą, kad "
-"atsisiųstumėte xml failą į savo kompiuterį, kurį galite įkelti į VMI "
-"sistemą."
+"Patvirtinus, atsiras laukelis \"Atsisiųsti\", paspaudus jo nuorodą, į Jūsų kompiuterį "
+"bus atsiųstas failas xml formatu, kurį įkelkite į VMI sistemą."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:99
-#, fuzzy
+#
 msgid ""
 "After sending, click the \"Document Sent\" button. In the i.VAZ section, "
 "by selecting \"i.VAZ documents\" you can check the sending information of"
 " a specific waybill:"
 msgstr ""
-"Išsiuntę spustelėkite mygtuką „Dokumentas išsiųstas“. Skiltyje „i.VAZ“ "
-"pasirinkite „i.VAZ dokumentai“, kad patikrintumėte konkretaus važtaraščio"
-" išsiuntimo informaciją:"
+"Išsiuntę, paspauskite mygtuką „Dokumentas išsiųstas“. Skiltyje i.VAZ pasirinkę "
+"„i.VAZ dokumentai“ galite pasitikrinti konkretaus važtaraščio išsiuntimo informaciją:"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:103
-#, fuzzy
+#
 msgid "And, if needed, download the file again in xml format for submission:"
-msgstr "Ir, jei reikia, vėl atsisiųskite failą pateikimui xml formatu:"
+msgstr "Bei, esant poreikiui, dar kartą atsisiųsti failą pateikimui xml formatu:"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:107
-#, fuzzy
+#
 msgid ""
 "If you are transferring your goods from one location to another, select "
 "the \"Transfers\" tab and click \"Add a line\"."
 msgstr ""
-"Jei perkeliatės prekes iš vienos vietos į kitą, pasirinkite skirtuką "
-"„Perkėlimai“ ir spustelėkite „Pridėti eilutę“."
+"Jei perkeliate savo prekes iš vienos vietos į kitą, pasirinkite kortelę "
+"„Perkėlimai“, spauskite „Pridėti eilutę“."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:111
-#, fuzzy
+#
 msgid ""
 "Mark the appropriate Transfer waybills and click \"Select\" or create a "
 "new one where you will enter the data manually."
 msgstr ""
-"Patikrinkite tinkamus pervežimo važtaraščius ir spauskite „Pasirinkti“ "
-"arba sukurkite naują, kuriame rankiniu būdu įveskite duomenis."
+"Pažymėkite atitinkamus Perkėlimų važtaraščius ir spauskite „Pasirinkti“ "
+"arba kurkite naują, kuriame ranka suvesite duomenis."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:115
 msgid "You will see the added waybills in the list:"
-msgstr "Pamatysite pridėtus važtaraščius sąraše:"
+msgstr "Sąraše matysite pridėtus važtaraščius:"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:119
-#, fuzzy
+#
 msgid ""
 "Fill in all i.VAZ fields according to the description provided above. "
 "Confirm, generate the xml file and attach it in the VMI system."
 msgstr ""
-"Užpildykite visus i.VAZ laukus pagal aukščiau pateiktą aprašymą. Panašiai"
-" patvirtinkite, sugeneruokite xml failą ir pridėkite jį į VMI sistemą."
+"Visus i.VAZ laukus užpildykite pagal aukščiau pateiktą aprašymą. "
+"Analogiškai patvirtinkite, suformuokite xml failą ir prikabinkite VMI sistemoje."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:124
 msgid ""
@@ -3633,6 +3657,9 @@ msgid ""
 "a single button click. If needed, contact Via laurea for additional "
 "configurations."
 msgstr ""
+"Yra galimybė atlikti papildomą konfigūraciją, kuri leistų i.VAZ failą įkelti į "
+"VMI sistemą tiesiai iš Odoo vieno mygtuko paspaudimu. Esant "
+"poreikiui, kreipkitės į UAB Via laurea dėl papildomos konfigūracijos."
 
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:2
 msgid "Inventorization Act"
