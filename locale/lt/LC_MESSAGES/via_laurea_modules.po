@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 13:46+0000\n"
+"POT-Creation-Date: 2024-12-09 17:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -494,7 +494,7 @@ msgstr "Pagrindinės funkcijos"
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:47
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:13
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:86
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:17
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:14
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:13
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:13
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:16
@@ -1781,8 +1781,8 @@ msgid ""
 "Go to **Settings >> Users & Companies >> Companies** and open the "
 "**Company Government** form."
 msgstr ""
-"Pasirenkame **Nustatymai** >> Vartotojai ir Įmonės >> Įmonės**, atsidarome "
-"kortelę **Įmonės vyriausybė**."
+"Pasirenkame **Nustatymai** >> Vartotojai ir Įmonės >> Įmonės**, "
+"atsidarome kortelę **Įmonės vyriausybė**."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:17
 msgid ""
@@ -1798,8 +1798,8 @@ msgid ""
 "contact list. The job title must be specified in the contact's form, in "
 "the job title field."
 msgstr ""
-"Skyrelyje **Buhalterių istorija** parenkame iš kontaktų sąrašo buhalterę. "
-"Pareigos turi būti nurodytos kontakto kortelėje, laukelyje pareigos."
+"Skyrelyje **Buhalterių istorija** parenkame iš kontaktų sąrašo buhalterę."
+" Pareigos turi būti nurodytos kontakto kortelėje, laukelyje pareigos."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:29
 msgid ""
@@ -1822,7 +1822,6 @@ msgstr ""
 "ir su kasos orderiais (plačiau žr. KIO-KPO numeracija)."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:2
-#
 msgid "Journals by departments (sales teams)"
 msgstr "Žurnalas pagal įmonės padalinius (pard. komandas)"
 
@@ -1845,9 +1844,10 @@ msgid ""
 "i.e., by sales team."
 msgstr ""
 "Šis modulis suteikia galimybę automatizuotai skirtingai numeruoti "
-"pardavimo faktūras pagal fizinį įmonės padalinį. Pavyzdžiui, jei įmonės veikla "
-"registruota Kaune, bet dar turi ir Vilniaus, Klaipėdos ir Šiaulių skyrius, yra galimybė "
-"atskirai numeruoti pardavimo faktūras pagal skyrių, t.y. pardavimo komandą."
+"pardavimo faktūras pagal fizinį įmonės padalinį. Pavyzdžiui, jei įmonės "
+"veikla registruota Kaune, bet dar turi ir Vilniaus, Klaipėdos ir Šiaulių "
+"skyrius, yra galimybė atskirai numeruoti pardavimo faktūras pagal skyrių,"
+" t.y. pardavimo komandą."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:9
 msgid ""
@@ -1856,33 +1856,32 @@ msgid ""
 "LITHUANIA ORDER ON THE MANAGEMENT OF VAT INVOICE REGISTERS, allowing the "
 "numbering of invoices according to the company's internal procedures."
 msgstr ""
-"Modulis leidžia skirtingai numeruoti pardavimų sąskaitas faktūras vadovaujantis "
-"VALST.MOKESČIŲ INSPEKCIJOS PRIE LR FINANSŲ MINISTERIJOS VIRŠININKO "
-"ĮSAKYMU DĖL VALSTYBINĖS MOKESČIŲ INSPEKCIJOS PRIE LIETUVOS RESPUBLIKOS FINANSŲ "
-"MINISTERIJOS VIRŠININKO 2004 M. BALANDŽIO 21 D. ĮSAKYMO NR. VA-55 „DĖL "
-"PRIDĖTINĖS VERTĖS MOKESČIO SĄSKAITŲ FAKTŪRŲ REGISTRŲ TVARKYMO“ 2008 m. "
-"liepos 10 d. Nr. VA-34 PAKEITIMU, leidžiančiu numeruoti sąskaitas faktūras "
-"pagal įmonės vidaus tvarkas."
+"Modulis leidžia skirtingai numeruoti pardavimų sąskaitas faktūras "
+"vadovaujantis VALST.MOKESČIŲ INSPEKCIJOS PRIE LR FINANSŲ MINISTERIJOS "
+"VIRŠININKO ĮSAKYMU DĖL VALSTYBINĖS MOKESČIŲ INSPEKCIJOS PRIE LIETUVOS "
+"RESPUBLIKOS FINANSŲ MINISTERIJOS VIRŠININKO 2004 M. BALANDŽIO 21 D. "
+"ĮSAKYMO NR. VA-55 „DĖL PRIDĖTINĖS VERTĖS MOKESČIO SĄSKAITŲ FAKTŪRŲ "
+"REGISTRŲ TVARKYMO“ 2008 m. liepos 10 d. Nr. VA-34 PAKEITIMU, leidžiančiu "
+"numeruoti sąskaitas faktūras pagal įmonės vidaus tvarkas."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:14
 msgid "Install the module `customer_invoices_by_departments`."
 msgstr "Įdiekite `customer_invoices_by_departments` modulį"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:16
-#
 msgid "To configure the module:"
 msgstr "Modulio konfigūracijai reikia:"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:18
-#
 msgid ""
 "In the Accounting module, create separate journals, e.g., Kaunas division"
 " sales, Klaipėda sales division, etc. The journal type must be Sales, and"
 " the short code must be unique, as it will be used for invoice numbering."
 msgstr ""
-"Apskaitos modulyje sukurti atskirus žurnalus, pavyzdžiui, Kauno padalinio pardavimai, "
-"Klaipėdos pardavimų padalinys ir pan. Žurnalo tipas turi būti Pardavimas, "
-"trumpas kodas turi būti unikalus, jis bus naudojamas faktūrų numeracijai."
+"Apskaitos modulyje sukurti atskirus žurnalus, pavyzdžiui, Kauno padalinio"
+" pardavimai, Klaipėdos pardavimų padalinys ir pan. Žurnalo tipas turi "
+"būti Pardavimas, trumpas kodas turi būti unikalus, jis bus naudojamas "
+"faktūrų numeracijai."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst
 msgid "Create separate journals"
@@ -1930,9 +1929,9 @@ msgstr ""
 "Pardavimų darbuotojas, prisijungęs prie savo paskyros, per pardavimų "
 "modulį sukuria naujus pardavimo užsakymus. Pagal numatytuosius "
 "nustatymus, kuriant pardavimo užsakymą (SO), pardavimo komanda yra "
-"užpildoma pagal darbuotojo komandos priskyrimą. Iš SO (pardavimų užsakymo) "
-"sukuriant naują faktūrą, automatiškai sąskaitoje faktūroje parenkamas atitinkamai "
-"pardavimų komandai priskirtas pardavimų žurnalas."
+"užpildoma pagal darbuotojo komandos priskyrimą. Iš SO (pardavimų "
+"užsakymo) sukuriant naują faktūrą, automatiškai sąskaitoje faktūroje "
+"parenkamas atitinkamai pardavimų komandai priskirtas pardavimų žurnalas."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst
 msgid "Sales team and journal assignment"
@@ -1946,8 +1945,8 @@ msgid ""
 "employee can select the required journal manually."
 msgstr ""
 "Jei darbuotojas nebus priskirtas jokiai pardavimų komandai (padaliniui), "
-"sukurūs SO ir iš jo išrašant (sukuriant) faktūrą pagal nutylėjimą pasiūlys "
-"pirmą žurnalą iš eilės, pagal Odoo standartą. Darbuotojas galės "
+"sukurūs SO ir iš jo išrašant (sukuriant) faktūrą pagal nutylėjimą "
+"pasiūlys pirmą žurnalą iš eilės, pagal Odoo standartą. Darbuotojas galės "
 "parinkti reikiamą žurnalą tik rankiniu būdu."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst
@@ -2032,9 +2031,9 @@ msgid ""
 " iSAF report (see more in the iSAF declaration submission documentation)."
 " It is not possible to submit a declaration for separate divisions."
 msgstr ""
-"Nepriklausomai nuo to, kaip bus numeruojamos faktūros, visos bus įtraukiamos "
-"į vieną bendrą iSAF ataskaitą(plačiau žr. iSAF deklaracijos teikimas "
-"dokumentacijoje). Nėra numatyta galimybė teikti deklaraciją "
+"Nepriklausomai nuo to, kaip bus numeruojamos faktūros, visos bus "
+"įtraukiamos į vieną bendrą iSAF ataskaitą(plačiau žr. iSAF deklaracijos "
+"teikimas dokumentacijoje). Nėra numatyta galimybė teikti deklaraciją "
 "atskiriems padaliniams."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:73
@@ -2043,9 +2042,9 @@ msgid ""
 "register documentation) by different divisions in the report. A single "
 "consolidated invoice register report for all divisions will be printed."
 msgstr ""
-"Nėra numatyta ataskaitoje S/F registras( plačiau žr. S/F registras dokumentacijoje) "
-"spausdinti pagal skirtingus padalinius. Bus spausdinama viena bendra "
-"sąskaitų faktūrų registro ataskaita visiems padaliniams."
+"Nėra numatyta ataskaitoje S/F registras( plačiau žr. S/F registras "
+"dokumentacijoje) spausdinti pagal skirtingus padalinius. Bus spausdinama "
+"viena bendra sąskaitų faktūrų registro ataskaita visiems padaliniams."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:2
 msgid "Mass accounting records management"
@@ -2058,8 +2057,8 @@ msgid ""
 "to the LT localization. It can operate in any localization."
 msgstr ""
 "Modulio techninis pavadinimas `account_move_mass_cancel`. Modulis yra "
-"susijęs su Accounting moduliu, bet nesusijęs su LT lokalizacija. "
-"Gali veikti bet kokioje lokalizacijoje."
+"susijęs su Accounting moduliu, bet nesusijęs su LT lokalizacija. Gali "
+"veikti bet kokioje lokalizacijoje."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:9
 msgid ""
@@ -2073,22 +2072,19 @@ msgstr ""
 msgid ""
 "**Module Installation**: Install the `mass_accounting_records_management`"
 " module."
-msgstr ""
-"**Modulio diegimas**: Įdiegiamas modulis account_move_mass_cancel."
+msgstr "**Modulio diegimas**: Įdiegiamas modulis account_move_mass_cancel."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:16
 msgid "**Configuration**: No additional configuration is required."
-msgstr ""
-"**Konfigūracija**: Papildomas diegimas ar konfigūravimas "
-"nereikalingas."
+msgstr "**Konfigūracija**: Papildomas diegimas ar konfigūravimas nereikalingas."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:21
 msgid ""
 "The module adds 2 additional Action buttons in Accounting >> Accounting "
 ">> GL Entries: **Cancel** and **Reset to Draft**."
 msgstr ""
-"Modulis Apskaita >> Apskaita >> DK įrašai prideda 2 papildomus Veiksmo mygtukus: "
-"**Atšaukti** ir **Atkurti kaip juodraštį**."
+"Modulis Apskaita >> Apskaita >> DK įrašai prideda 2 papildomus Veiksmo "
+"mygtukus: **Atšaukti** ir **Atkurti kaip juodraštį**."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:23
 msgid ""
@@ -2105,9 +2101,9 @@ msgid ""
 "confirmation, and later, they need to be removed or corrected due to "
 "errors."
 msgstr ""
-"Modulis tinka pavyzdžiui, tvarkant ilgalaikio turto įrašus, kai patvirtinus turtą "
-"susikuria daug DK įrašų už praėjusius laikotarpius, o po to reikia juos "
-"pašalinti arba pataisyti klaidingai suvestus įrašus."
+"Modulis tinka pavyzdžiui, tvarkant ilgalaikio turto įrašus, kai "
+"patvirtinus turtą susikuria daug DK įrašų už praėjusius laikotarpius, o "
+"po to reikia juos pašalinti arba pataisyti klaidingai suvestus įrašus."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:38
 msgid ""
@@ -2116,8 +2112,8 @@ msgid ""
 "it is possible to cancel invoices."
 msgstr ""
 "**DĖMESIO**: 16 ir 17 versijoje modulis pažeidžia Odoo taisyklę, kai tam "
-"tikroms sąskaitoms faktūroms DRAUDŽIAMA atšaukti DK įrašus. Su šiuo moduliu "
-"yra galimybė atšaukti faktūras."
+"tikroms sąskaitoms faktūroms DRAUDŽIAMA atšaukti DK įrašus. Su šiuo "
+"moduliu yra galimybė atšaukti faktūras."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:40
 msgid "The module can be freely used in version 15."
@@ -2134,10 +2130,10 @@ msgid ""
 "responsible for the VAT by adding a certain tax amount to the final "
 "price."
 msgstr ""
-"Atvirkštiniu PVM yra laikomas mokestis taikomas PVM mokėtojams kuomet jis "
-"pats, o ne pardavėjas sumoka PVM mokestį į valstybės biudžetą. Įprastu atveju už "
-"mokamą PVM atsako prekių pardavėjai, prie galutinės kainos pridedant tam "
-"tikrą mokesčio dalį."
+"Atvirkštiniu PVM yra laikomas mokestis taikomas PVM mokėtojams kuomet jis"
+" pats, o ne pardavėjas sumoka PVM mokestį į valstybės biudžetą. Įprastu "
+"atveju už mokamą PVM atsako prekių pardavėjai, prie galutinės kainos "
+"pridedant tam tikrą mokesčio dalį."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:9
 msgid "This type of VAT is also applicable in cases such as:"
@@ -2160,8 +2156,8 @@ msgid ""
 "When purchasing mobile phones, tablets, laptops, or other computers, hard"
 " drives, etc."
 msgstr ""
-"Tokiu atveju, kai yra perkami mobilieji telefonai, planšetiniai, nešiojami "
-"arba kiti kompiuteriai, standieji diskai ir t.t."
+"Tokiu atveju, kai yra perkami mobilieji telefonai, planšetiniai, "
+"nešiojami arba kiti kompiuteriai, standieji diskai ir t.t."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:15
 msgid "When buying wood."
@@ -2176,11 +2172,10 @@ msgid ""
 "In the Odoo business management system, you need to install Account "
 "Invoice Reversed Tax Show."
 msgstr ""
-"Odoo verslo valdymo sistemoje reikia instaliuoti Account Invoice "
-"Reversed Tax Show."
+"Odoo verslo valdymo sistemoje reikia instaliuoti Account Invoice Reversed"
+" Tax Show."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:23
-#
 msgid ""
 "Before using this module, you need to perform the following "
 "configurations:"
@@ -2188,11 +2183,15 @@ msgstr "Prieš naudodami šį modulį, turite atlikti šias konfigūracijas:"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:25
 msgid "Create a new tax group for reverse taxes and assign them (important!)."
-msgstr "Sukurkite naują mokesčių grupę atvirkštiniams mokesčiams ir priskirkite jiems (svarbu!)."
+msgstr ""
+"Sukurkite naują mokesčių grupę atvirkštiniams mokesčiams ir priskirkite "
+"jiems (svarbu!)."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:26
 msgid "Set the reverse tax field to Force calculate the invoice."
-msgstr "Nustatykite atvirkštinių mokesčių lauke Priverstinai apskaičiuoti sąskaitą faktūrą."
+msgstr ""
+"Nustatykite atvirkštinių mokesčių lauke Priverstinai apskaičiuoti "
+"sąskaitą faktūrą."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:27
 msgid "Do not use the checkbox for other types of taxes."
@@ -2219,8 +2218,8 @@ msgid ""
 "If configured correctly, the VAT amount is automatically calculated in "
 "the final calculation."
 msgstr ""
-"Jeigu teisingai konfigūruota, bendroje sumoje automatiškai susiskaičiuojama "
-"ir išskiriama PVM suma."
+"Jeigu teisingai konfigūruota, bendroje sumoje automatiškai "
+"susiskaičiuojama ir išskiriama PVM suma."
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst
 msgid "Automatic VAT calculation"
@@ -3378,66 +3377,168 @@ msgid "i.VAZ"
 msgstr "i.VAZ"
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:7
-msgid "i.VAZ can be filled in the Accounting and Inventory modules."
+#, fuzzy
+msgid ""
+"i.VAZ can be filled in both Accounting and Inventory modules. It is most "
+"convenient to fill i.VAZ in the Inventory module.."
 msgstr "i.VAZ galima užpildyti Apskaitos ir Inventorizacijos moduliuose."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:8
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:9
+#, fuzzy
 msgid ""
-"You can find the filling option in the Accounting module under the i.MAS "
-"section."
-msgstr "Banko ataskaitą galite rasti Apskaitos modulyje, i.VAZ Ataskaitų skyriuje"
-
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:12
-msgid "Or in the Inventory module under the i.VAZ section."
-msgstr "Inventoriaus modulio i.VAZ skyriuje"
-
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:19
-msgid ""
-"In both modules, the file is generated differently. An important "
-"condition is that i.VAZ can only be filled after confirming a sales order"
-" in the Sales module. The sales order must be marked \"Done\":"
+"An important condition is that i.VAZ can only be filled after confirming "
+"the delivery document or OUT in the Inventory module. The delivery order "
+"OUT must be in \"Done\" status."
 msgstr ""
 "Abiejuose moduliuose failas generuojamas skirtingai. Svarbi sąlyga yra "
 "ta, kad i.VAZ galima užpildyti tik patvirtinus pardavimo užsakymą "
 "Pardavimų modulyje. Pardavimo užsakymas turi būti pažymėtas kaip "
 "„Atliktas“."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:23
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:16
 msgid ""
-"i.VAZ is generated identically in both the Inventory and Accounting "
-"modules:"
+"After preparing the sales order and confirming the goods shipments in the"
+" Sales module, you can see them in the Inventory module, Operations "
+"section, under Deliveries."
 msgstr ""
-"i.VAZ generuojamas vienodai tiek Inventorizacijos, tiek Apskaitos "
-"moduliuose:"
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:25
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:20
 msgid ""
-"In the i.VAZ section, select \"i.VAZ batch documents\" and click the "
-"\"New\" button."
+"When you select this section, you will see a list of deliveries. From the"
+" list, select and mark the deliveries for which you want to create an "
+"i.VAZ file. Then click the \"Generate i.VAZ\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:24
+msgid "Choose whether you want to generate a batch or separate i.VAZ documents."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:28
+msgid ""
+"If you choose to generate an i.VAZ batch, a common draft i.VAZ record "
+"will be automatically created for all marked deliveries. Fill in the "
+"required fields in it. If needed, adjust the shipping and delivery dates "
+"and times."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:30
+msgid ""
+"In the Transfers tab, you will see the list of deliveries you have "
+"selected."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:34
+msgid ""
+"Go to the \"Waybills\" tab, click the \"Generate Documents\" button, and "
+"the delivery list will be transferred to waybills."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:38
+#, fuzzy
+msgid ""
+"After doing this, confirm the document and a \"Download Document\" button"
+" will appear at the top of the window. Clicking it will download the "
+"i.VAZ file to your computer, which you can then upload to the VMI system."
+msgstr ""
+"Patvirtinus, atsiras laukas „Atsisiųsti“. Spustelėkite nuorodą, kad "
+"atsisiųstumėte xml failą į savo kompiuterį, kurį galite įkelti į VMI "
+"sistemą."
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:42
+msgid ""
+"If you choose to generate separate i.VAZ documents at the time of "
+"creation, you will need to enter delivery data separately for each "
+"delivery. We recommend using this option when shipments will be delivered"
+" by different carriers or vehicles."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:44
+msgid "In this case, i.VAZ drafts will be created for each delivery."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:48
+msgid ""
+"In each delivery, check the \"Strict Verification\" option and fill in "
+"the required fields."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:52
+msgid ""
+"The shipping and delivery address information is automatically read based"
+" on your company's warehouse and recipient's contact card details and "
+"addresses. If needed, adjust the shipping and expected delivery dates and"
+" times."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:54
+msgid ""
+"After filling in the data, click the \"Confirm\" button. An additional "
+"\"Download Document\" button will appear at the top of the window, which "
+"will allow you to download the document to your computer and upload it to"
+" the VMI system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:59
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:122
+#, fuzzy
+msgid "Other, additional filling options"
+msgstr "Papildomi transporto priemonės informacijos laukai"
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:61
+#, fuzzy
+msgid "Additional filling options can be found at:"
+msgstr "Papildomos planavimo parinktys planavimo modulyje"
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:63
+#, fuzzy
+msgid "Accounting module menu i.MAS >> i.VAZ"
+msgstr "Apskaitos modulio ataskaitų skyrius"
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:67
+#, fuzzy
+msgid "In the inventory module, by selecting the i.VAZ menu."
+msgstr "Inventoriaus modulio i.VAZ skyriuje"
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:71
+msgid ""
+"In both cases, i.VAZ is formed by selecting the appropriate option - as a"
+" batch or as a document, based on the needs described above."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:73
+#, fuzzy
+msgid ""
+"If filling as a batch, in the i.VAZ section select i.VAZ batch documents "
+"and click the \"New\" button."
 msgstr ""
 "Skiltyje \"i.VAZ\" pasirinkite \"i.VAZ partijų dokumentai\" ir "
 "spustelėkite mygtuką \"Naujas\"."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:29
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:77
+#, fuzzy
 msgid ""
-"In the window that opens, enter the carrier, vehicle registration number,"
-" make, driver's name, and surname. Click \"Add or remove documents\"."
+"In the opened window, enter the carrier, vehicle license plate number, "
+"make, and driver's first and last name. Click \"Add or Remove "
+"Documents\"."
 msgstr ""
 "Atsidariusiame lange įveskite vežėją, transporto priemonės registracijos "
 "numerį, markę, vairuotojo vardą ir pavardę. Spustelėkite „Pridėti arba "
 "pašalinti dokumentus“."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:33
-msgid "In the next window, click the \"Add line\" link."
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:81
+#, fuzzy
+msgid "A new window will open where you should click the \"Add a line\" link."
 msgstr "Atidarytame lange spustelėkite „Sukurti“."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:37
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:85
+#, fuzzy
 msgid ""
-"In the next window, you can create a new waybill. In the transfer, select"
-" the confirmed sales order waybill number, fill in the recipient, sender,"
-" transportation dates and times, and check the detailed information for "
-"dispatch and receipt locations at the bottom (these are automatically "
-"taken from the client's card). Correct addresses if necessary."
+"A new window will open where you can create a new waybill. In the "
+"transfer, select the confirmed sales order waybill number, fill in the "
+"recipient, sender, transportation dates and times, and check the shipping"
+" and receiving locations in the detailed information at the bottom (they "
+"are automatically taken from the customer card). If necessary, adjust the"
+" addresses."
 msgstr ""
 "Kitame lange galite sukurti naują važtaraštį. Perkėlime pasirinkite "
 "patvirtinto pardavimo užsakymo važtaraščio numerį, užpildykite gavėjo, "
@@ -3445,78 +3546,93 @@ msgstr ""
 "gavimo vietų detalią informaciją apačioje (tai automatiškai paimama iš "
 "kliento kortelės). Jei reikia, pataisykite adresus."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:41
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:89
+#, fuzzy
 msgid ""
 "After filling in, save the document. You will see the entered document in"
-" the list of added waybills. If necessary, you can add more waybill "
-"lines. After loading all the required waybills from the sales orders, "
-"confirm the document."
+" the list of added waybills. If needed, you can add more waybill lines. "
+"After uploading all required waybills from sales orders, confirm the "
+"document."
 msgstr ""
 "Užpildę, išsaugokite dokumentą. Įrašytą dokumentą pamatysite pridėtų "
 "važtaraščių sąraše. Jei reikia, galite pridėti daugiau važtaraščio "
 "eilučių. Įkrovę visus reikiamus važtaraščius iš pardavimų užsakymų, "
 "patvirtinkite dokumentą."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:43
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:91
+#, fuzzy
 msgid ""
-"In the i.VAZ document window, you will see all the uploaded waybills in "
-"the waybill lines. After checking, confirm the document."
+"In the i.VAZ documents window, you will see all uploaded waybills in the "
+"waybill lines. After checking, confirm the document."
 msgstr ""
 "i.VAZ dokumento lange matysite visas įkeltas važtaraščius važtaraščių "
 "eilutėse. Patikrinę, patvirtinkite dokumentą."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:47
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:95
+#, fuzzy
 msgid ""
-"Once confirmed, a \"Download\" field will appear. Click on the link to "
-"download an xml file to your computer, which you can upload to the VMI "
-"system."
+"After confirmation, a \"Download\" field will appear. Clicking it will "
+"download a file in xml format to your computer, which you can upload to "
+"the VMI system."
 msgstr ""
 "Patvirtinus, atsiras laukas „Atsisiųsti“. Spustelėkite nuorodą, kad "
 "atsisiųstumėte xml failą į savo kompiuterį, kurį galite įkelti į VMI "
 "sistemą."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:51
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:99
+#, fuzzy
 msgid ""
-"After sending, click the \"Document sent\" button. In the i.VAZ section, "
-"select \"i.VAZ documents\" to check the dispatch information of a "
-"specific waybill:"
+"After sending, click the \"Document Sent\" button. In the i.VAZ section, "
+"by selecting \"i.VAZ documents\" you can check the sending information of"
+" a specific waybill:"
 msgstr ""
 "Išsiuntę spustelėkite mygtuką „Dokumentas išsiųstas“. Skiltyje „i.VAZ“ "
 "pasirinkite „i.VAZ dokumentai“, kad patikrintumėte konkretaus važtaraščio"
 " išsiuntimo informaciją:"
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:55
-msgid "And, if necessary, download the file for submission in xml format again:"
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:103
+#, fuzzy
+msgid "And, if needed, download the file again in xml format for submission:"
 msgstr "Ir, jei reikia, vėl atsisiųskite failą pateikimui xml formatu:"
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:59
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:107
+#, fuzzy
 msgid ""
-"If you are transferring your goods from one place to another, select the "
-"\"Transfers\" tab, click \"Add line\"."
+"If you are transferring your goods from one location to another, select "
+"the \"Transfers\" tab and click \"Add a line\"."
 msgstr ""
 "Jei perkeliatės prekes iš vienos vietos į kitą, pasirinkite skirtuką "
 "„Perkėlimai“ ir spustelėkite „Pridėti eilutę“."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:63
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:111
+#, fuzzy
 msgid ""
-"Check the appropriate Transfer waybills and click \"Select\" or create a "
-"new one where you manually enter the data."
+"Mark the appropriate Transfer waybills and click \"Select\" or create a "
+"new one where you will enter the data manually."
 msgstr ""
 "Patikrinkite tinkamus pervežimo važtaraščius ir spauskite „Pasirinkti“ "
 "arba sukurkite naują, kuriame rankiniu būdu įveskite duomenis."
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:67
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:115
 msgid "You will see the added waybills in the list:"
 msgstr "Pamatysite pridėtus važtaraščius sąraše:"
 
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:71
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:119
+#, fuzzy
 msgid ""
-"Fill in all the i.VAZ fields according to the above description. "
-"Similarly, confirm, generate the xml file, and attach it in the VMI "
-"system."
+"Fill in all i.VAZ fields according to the description provided above. "
+"Confirm, generate the xml file and attach it in the VMI system."
 msgstr ""
 "Užpildykite visus i.VAZ laukus pagal aukščiau pateiktą aprašymą. Panašiai"
 " patvirtinkite, sugeneruokite xml failą ir pridėkite jį į VMI sistemą."
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:124
+msgid ""
+"There is a possibility to perform additional configurations that would "
+"allow uploading the i.VAZ file directly to the VMI system from Odoo with "
+"a single button click. If needed, contact Via laurea for additional "
+"configurations."
+msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:2
 msgid "Inventorization Act"
@@ -6164,4 +6280,19 @@ msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atly
 #~ " priverstinai būtų atliekami sąskaitos "
 #~ "faktūros skaičiavimai. - Nenaudokite žymėjimo"
 #~ " langelio kitiems mokesčių tipams."
+
+#~ msgid ""
+#~ "You can find the filling option in"
+#~ " the Accounting module under the "
+#~ "i.MAS section."
+#~ msgstr ""
+#~ "Banko ataskaitą galite rasti Apskaitos "
+#~ "modulyje, i.VAZ Ataskaitų skyriuje"
+
+#~ msgid ""
+#~ "i.VAZ is generated identically in both"
+#~ " the Inventory and Accounting modules:"
+#~ msgstr ""
+#~ "i.VAZ generuojamas vienodai tiek "
+#~ "Inventorizacijos, tiek Apskaitos moduliuose:"
 
