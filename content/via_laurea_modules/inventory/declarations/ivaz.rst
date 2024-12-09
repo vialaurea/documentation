@@ -62,39 +62,39 @@ Additional filling options can be found at:
 
 1. Accounting module menu i.MAS >> i.VAZ
 
-  .. image:: ivaz/image1.jpg
+  .. image:: ivaz/image01.jpg
 
 2. In the inventory module, by selecting the i.VAZ menu.
 
-  .. image:: ivaz/image2.jpg
+  .. image:: ivaz/image02.jpg
 
 In both cases, i.VAZ is formed by selecting the appropriate option - as a batch or as a document, based on the needs described above.
 
 If filling as a batch, in the i.VAZ section select i.VAZ batch documents and click the "New" button.
 
-  .. image:: ivaz/image4.jpg
+  .. image:: ivaz/image04.jpg
 
 In the opened window, enter the carrier, vehicle license plate number, make, and driver's first and last name. Click "Add or Remove Documents".
 
-  .. image:: ivaz/image5.jpg
+  .. image:: ivaz/image05.jpg
 
 A new window will open where you should click the "Add a line" link.
 
-  .. image:: ivaz/image6.jpg
+  .. image:: ivaz/image06.jpg
 
 A new window will open where you can create a new waybill. In the transfer, select the confirmed sales order waybill number, fill in the recipient, sender, transportation dates and times, and check the shipping and receiving locations in the detailed information at the bottom (they are automatically taken from the customer card). If necessary, adjust the addresses.
 
-  .. image:: ivaz/image7.jpg
+  .. image:: ivaz/image07.jpg
 
 After filling in, save the document. You will see the entered document in the list of added waybills. If needed, you can add more waybill lines. After uploading all required waybills from sales orders, confirm the document.
 
 In the i.VAZ documents window, you will see all uploaded waybills in the waybill lines. After checking, confirm the document.
 
-  .. image:: ivaz/image8.jpg
+  .. image:: ivaz/image08.jpg
 
 After confirmation, a "Download" field will appear. Clicking it will download a file in xml format to your computer, which you can upload to the VMI system.
 
-  .. image:: ivaz/image9.jpg
+  .. image:: ivaz/image09.jpg
 
 After sending, click the "Document Sent" button. In the i.VAZ section, by selecting "i.VAZ documents" you can check the sending information of a specific waybill:
 
@@ -118,7 +118,7 @@ You will see the added waybills in the list:
 
 Fill in all i.VAZ fields according to the description provided above. Confirm, generate the xml file and attach it in the VMI system.
 
-Other, additional filling options
+Automatic submission option
 -------------------
 
 There is a possibility to perform additional configurations that would allow uploading the i.VAZ file directly to the VMI system from Odoo with a single button click. If needed, contact Via laurea for additional configurations.
