@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-09 17:26+0000\n"
+"POT-Creation-Date: 2024-12-09 18:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2258,7 +2258,6 @@ msgid "After filling in the data, click the \"Confirm\" button. An additional \"
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:59
-#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:122
 msgid "Other, additional filling options"
 msgstr ""
 
@@ -2328,6 +2327,10 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:119
 msgid "Fill in all i.VAZ fields according to the description provided above. Confirm, generate the xml file and attach it in the VMI system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:122
+msgid "Automatic submission option"
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:124
