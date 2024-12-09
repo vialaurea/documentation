@@ -4,68 +4,121 @@ i.VAZ
 Introduction
 ------------
 
-- i.VAZ can be filled in the Accounting and Inventory modules.
-- You can find the filling option in the Accounting module under the i.MAS section.
+i.VAZ can be filled in both Accounting and Inventory modules. It is most convenient to fill i.VAZ in the Inventory module..
 
-  .. image:: ivaz/image01.jpg
+An important condition is that i.VAZ can only be filled after confirming the delivery document or OUT in the Inventory module. The delivery order OUT must be in "Done" status.
 
-- Or in the Inventory module under the i.VAZ section.
-
-  .. image:: ivaz/image02.jpg
+  .. image:: ivaz/image03.jpg
 
 Daily Use Scenarios
 -------------------
 
-- In both modules, the file is generated differently. An important condition is that i.VAZ can only be filled after confirming a sales order in the Sales module. The sales order must be marked "Done":
+After preparing the sales order and confirming the goods shipments in the Sales module, you can see them in the Inventory module, Operations section, under Deliveries.
 
-  .. image:: ivaz/image03.jpg
+  .. image:: ivaz/image15.png
 
-- i.VAZ is generated identically in both the Inventory and Accounting modules:
+When you select this section, you will see a list of deliveries. From the list, select and mark the deliveries for which you want to create an i.VAZ file. Then click the "Generate i.VAZ" button.
+
+    .. image:: ivaz/image16.jpg
   
-  - In the i.VAZ section, select "i.VAZ batch documents" and click the "New" button.
+Choose whether you want to generate a batch or separate i.VAZ documents.
 
-    .. image:: ivaz/image04.jpg
+    .. image:: ivaz/image17.jpg
   
-  - In the window that opens, enter the carrier, vehicle registration number, make, driver's name, and surname. Click "Add or remove documents".
+1. If you choose to generate an i.VAZ batch, a common draft i.VAZ record will be automatically created for all marked deliveries. Fill in the required fields in it. If needed, adjust the shipping and delivery dates and times.
 
-    .. image:: ivaz/image05.jpg
+In the Transfers tab, you will see the list of deliveries you have selected.
+
+    .. image:: ivaz/image18.jpg
   
-  - In the next window, click the "Add line" link.
+Go to the "Waybills" tab, click the "Generate Documents" button, and the delivery list will be transferred to waybills.
 
-    .. image:: ivaz/image06.jpg
-  
-  - In the next window, you can create a new waybill. In the transfer, select the confirmed sales order waybill number, fill in the recipient, sender, transportation dates and times, and check the detailed information for dispatch and receipt locations at the bottom (these are automatically taken from the client's card). Correct addresses if necessary.
+    .. image:: ivaz/image19.jpg
 
-    .. image:: ivaz/image07.jpg
+After doing this, confirm the document and a "Download Document" button will appear at the top of the window. Clicking it will download the i.VAZ file to your computer, which you can then upload to the VMI system.
 
-- After filling in, save the document. You will see the entered document in the list of added waybills. If necessary, you can add more waybill lines. After loading all the required waybills from the sales orders, confirm the document.
-  
-- In the i.VAZ document window, you will see all the uploaded waybills in the waybill lines. After checking, confirm the document.
+  .. image:: ivaz/image20.jpg
 
-  .. image:: ivaz/image08.jpg
+2. If you choose to generate separate i.VAZ documents at the time of creation, you will need to enter delivery data separately for each delivery. We recommend using this option when shipments will be delivered by different carriers or vehicles.
 
-- Once confirmed, a "Download" field will appear. Click on the link to download an xml file to your computer, which you can upload to the VMI system.
+In this case, i.VAZ drafts will be created for each delivery.
 
-  .. image:: ivaz/image09.jpg
+  .. image:: ivaz/image21.jpg
 
-- After sending, click the "Document sent" button. In the i.VAZ section, select "i.VAZ documents" to check the dispatch information of a specific waybill:
+In each delivery, check the "Strict Verification" option and fill in the required fields.
+
+  .. image:: ivaz/image22.jpg
+
+The shipping and delivery address information is automatically read based on your company's warehouse and recipient's contact card details and addresses. If needed, adjust the shipping and expected delivery dates and times.
+
+After filling in the data, click the "Confirm" button. An additional "Download Document" button will appear at the top of the window, which will allow you to download the document to your computer and upload it to the VMI system.
+
+  .. image:: ivaz/image23.jpg
+
+Other, additional filling options
+-------------------
+
+Additional filling options can be found at:
+
+1. Accounting module menu i.MAS >> i.VAZ
+
+  .. image:: ivaz/image1.jpg
+
+2. In the inventory module, by selecting the i.VAZ menu.
+
+  .. image:: ivaz/image2.jpg
+
+In both cases, i.VAZ is formed by selecting the appropriate option - as a batch or as a document, based on the needs described above.
+
+If filling as a batch, in the i.VAZ section select i.VAZ batch documents and click the "New" button.
+
+  .. image:: ivaz/image4.jpg
+
+In the opened window, enter the carrier, vehicle license plate number, make, and driver's first and last name. Click "Add or Remove Documents".
+
+  .. image:: ivaz/image5.jpg
+
+A new window will open where you should click the "Add a line" link.
+
+  .. image:: ivaz/image6.jpg
+
+A new window will open where you can create a new waybill. In the transfer, select the confirmed sales order waybill number, fill in the recipient, sender, transportation dates and times, and check the shipping and receiving locations in the detailed information at the bottom (they are automatically taken from the customer card). If necessary, adjust the addresses.
+
+  .. image:: ivaz/image7.jpg
+
+After filling in, save the document. You will see the entered document in the list of added waybills. If needed, you can add more waybill lines. After uploading all required waybills from sales orders, confirm the document.
+
+In the i.VAZ documents window, you will see all uploaded waybills in the waybill lines. After checking, confirm the document.
+
+  .. image:: ivaz/image8.jpg
+
+After confirmation, a "Download" field will appear. Clicking it will download a file in xml format to your computer, which you can upload to the VMI system.
+
+  .. image:: ivaz/image9.jpg
+
+After sending, click the "Document Sent" button. In the i.VAZ section, by selecting "i.VAZ documents" you can check the sending information of a specific waybill:
 
   .. image:: ivaz/image10.jpg
 
-- And, if necessary, download the file for submission in xml format again:
+And, if needed, download the file again in xml format for submission:
 
   .. image:: ivaz/image11.jpg
 
-- If you are transferring your goods from one place to another, select the "Transfers" tab, click "Add line".
+If you are transferring your goods from one location to another, select the "Transfers" tab and click "Add a line".
 
   .. image:: ivaz/image12.jpg
 
-- Check the appropriate Transfer waybills and click "Select" or create a new one where you manually enter the data.
+Mark the appropriate Transfer waybills and click "Select" or create a new one where you will enter the data manually.
 
   .. image:: ivaz/image13.jpg
 
-- You will see the added waybills in the list:
+You will see the added waybills in the list:
 
   .. image:: ivaz/image14.jpg
 
-- Fill in all the i.VAZ fields according to the above description. Similarly, confirm, generate the xml file, and attach it in the VMI system.
+Fill in all i.VAZ fields according to the description provided above. Confirm, generate the xml file and attach it in the VMI system.
+
+Other, additional filling options
+-------------------
+
+There is a possibility to perform additional configurations that would allow uploading the i.VAZ file directly to the VMI system from Odoo with a single button click. If needed, contact Via laurea for additional configurations.
