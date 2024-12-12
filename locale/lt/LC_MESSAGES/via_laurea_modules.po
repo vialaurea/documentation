@@ -3953,7 +3953,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:2
 msgid "Acceptance-transfer act"
-msgstr ""
+msgstr "Mažaverčio turto priėmimo-perdavimo aktas"
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:7
 msgid ""
@@ -3964,34 +3964,44 @@ msgid ""
 "for accounting purposes. However, companies strive to account for low-"
 "value assets, track their movements and condition."
 msgstr ""
+"**Mažavertis materialusis turtas** - tai turtas, kurio įsigijimo vertė mažesnė už pasirinktą "
+"minimalią ilgalaikio turto įsigijimo vertę. Šios vertės nesiekiantis turtas priskiriamas atsargoms. "
+"Įsigijus ir pradėjus naudoti tokį turtą, buhalteriškai jis iš karto nurašomas į sąnaudas. "
+"Tačiau įmonės stengiasi mažavertį turtą apskaityti, sekti jo judėjimus ir būklę."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:9
 msgid ""
 "When using the Odoo system, it is recommended to account for low-value "
 "tangible assets in the standard Maintenance module."
 msgstr ""
+"Naudojantis Odoo sistema, siūloma mažavertį materialųjį turtą apskaityti "
+"standartiniame Priežiūros (Maintenance) modulyje."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:14
 msgid ""
 "The l10n_lt_equipment_transfer_act module is installed along with the "
 "standard Maintenance module."
 msgstr ""
+"Įdiegiamas modulis l10n_lt_equipment_transfer_act, o taip pat "
+"standartinis Maintenance modulis."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:16
-#, fuzzy
+#
 msgid "No additional configuration is required."
-msgstr "**Konfigūracija**: Papildomas diegimas ar konfigūravimas nereikalingas."
+msgstr "Jokios papildomos konfigūracijos nereikia."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:21
 msgid ""
 "Using standard Odoo functionality, go to Maintenance >> Equipment to "
 "enter one or more records and assign them to a selected employee."
 msgstr ""
+"Naudojantis standartinį Odoo funkcionalumą, Priežiūra >> Įranga "
+"įveskite vieną ar kelis įrašus ir priskirkite juos pasirinktam darbuotojui."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:25
-#, fuzzy
+#
 msgid "After entering the data, select the print function."
-msgstr "Suvedus visus duomenis, darbo sutartis išsaugoma."
+msgstr "Suvedus duomenis, pasirenkame spausdinti funkciją."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:29
 msgid ""
@@ -4000,45 +4010,57 @@ msgid ""
 " of various assets (both low-value and long-term), and they will be "
 "included in a common printed acceptance-transfer act."
 msgstr ""
+"Spausdinti galime tiek iš įrangos įrašo, tiek iš įrangos sąrašo. Jei spausdinsime "
+"iš sąrašo, tokiu būdu galime sužymėti ne vieną, o keletą įvairaus "
+"(mažaverčio ir ilgalaikio) turto vienetų ir juos įtrauks į bendrą "
+"spausdinamą priėmimo-perdavimo aktą."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:36
 msgid ""
 "When selecting the Print >> Equipment Transfer Act button, a launch "
 "parameter opens where you need to fill in:"
 msgstr ""
+"Pasirinkus mygtuką Spausdinti >> Įrangos perdavimo aktas "
+"atsidaro paleidimo parametras, kuriame reikia užpildyti:"
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:40
 msgid ""
 "**Transferred by** - select from the employee list the responsible "
 "employee who transfers the assets;"
 msgstr ""
+"**Perdavė** - parenkame iš darbuotojų sąrašo atsakingą darbuotoją, "
+"kuris perduoda turtą;"
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:41
 msgid ""
 "**Received by** - select from the employee list the responsible employee "
 "to whom the assets are being transferred;"
 msgstr ""
+"**Priėmė** - parenkame iš darbuotojų sąrašo atsakingą darbuotoją, kuriam "
+"yra perduodamas turtas;"
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:42
 msgid ""
 "**Date** - enter the date. By default, it is always filled with today's "
 "date."
-msgstr ""
+msgstr "**Data** - įvedame datą. Pagal nutylėjimą visada užsipildo šios dienos data."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:44
 msgid "When you click 'Print Act', a .pdf document of this format is generated:"
-msgstr ""
+msgstr "Paspausdus 'Spausdinti aktą', susiformuoja tokio formato .pdf dokumentas:"
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:48
 msgid ""
 "The document can be printed and submitted to responsible employees for "
 "signing."
 msgstr ""
+"Dokumentą galima atsispausdinti ir pateikti atsakingiems "
+"darbuotojams pasirašyti."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:51
-#, fuzzy
+#
 msgid "Updates and Version Management"
-msgstr "8. Atnaujinimai ir versijų valdymas"
+msgstr "Atnaujinimai ir Versijų Valdymas"
 
 #: ../../content/via_laurea_modules/payroll.rst:2
 msgid "Payroll"
