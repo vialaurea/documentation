@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-09 18:33+0000\n"
+"POT-Creation-Date: 2024-12-12 10:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -335,6 +335,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:5
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:5
 #: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:5
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:5
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:5
 #: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:5
 msgid "Introduction"
@@ -358,6 +359,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:16
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:5
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:10
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:12
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:13
 msgid "Installation and Configuration"
 msgstr ""
@@ -422,6 +424,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:13
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:16
 #: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:13
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:19
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:21
 msgid "Daily Use Scenarios"
 msgstr ""
@@ -469,6 +472,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:30
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:58
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:23
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:34
 msgid "Reports and Documentation"
 msgstr ""
 
@@ -1932,6 +1936,7 @@ msgid "It is recommended to generate the report before submitting the iSAF decla
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:54
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:53
 msgid "The module is updated with each new Odoo version."
 msgstr ""
 
@@ -2524,6 +2529,66 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/maintenance/inventorisation_act.rst:15
 msgid "After selecting the print option for the report, a window will open where you should enter the inventory and accounting dates, manually enter the reason for the inventory, select the creation date, the chairman of the commission, commission members, the materially responsible person, and the accountant. Click the \"Print\" button to generate the document with the corresponding additional pages (\"covers\")."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:2
+msgid "Acceptance-transfer act"
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:7
+msgid "**Low-value tangible assets** are assets whose acquisition value is lower than the selected minimum acquisition value for fixed assets. Assets below this value are classified as inventory. When such assets are acquired and put into use, they are immediately written off as expenses for accounting purposes. However, companies strive to account for low-value assets, track their movements and condition."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:9
+msgid "When using the Odoo system, it is recommended to account for low-value tangible assets in the standard Maintenance module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:14
+msgid "The l10n_lt_equipment_transfer_act module is installed along with the standard Maintenance module."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:16
+msgid "No additional configuration is required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:21
+msgid "Using standard Odoo functionality, go to Maintenance >> Equipment to enter one or more records and assign them to a selected employee."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:25
+msgid "After entering the data, select the print function."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:29
+msgid "You can print both from the equipment record and from the equipment list. If we print from the list, we can select not just one, but several units of various assets (both low-value and long-term), and they will be included in a common printed acceptance-transfer act."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:36
+msgid "When selecting the Print >> Equipment Transfer Act button, a launch parameter opens where you need to fill in:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:40
+msgid "**Transferred by** - select from the employee list the responsible employee who transfers the assets;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:41
+msgid "**Received by** - select from the employee list the responsible employee to whom the assets are being transferred;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:42
+msgid "**Date** - enter the date. By default, it is always filled with today's date."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:44
+msgid "When you click 'Print Act', a .pdf document of this format is generated:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:48
+msgid "The document can be printed and submitted to responsible employees for signing."
+msgstr ""
+
+#: ../../content/via_laurea_modules/maintenance/transfer_act.rst:51
+msgid "Updates and Version Management"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll.rst:2
