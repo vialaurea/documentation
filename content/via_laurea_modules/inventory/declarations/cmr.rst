@@ -27,15 +27,15 @@ Some of the CMR report lines are filled in automatically, while others must be f
 
 Automatically filled in:
 
-Template languages - by default, En/Lt is offered, but you can choose Lt/En and Ru/En
-4. Cargo loading location - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter
-4. Country - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter
-4. Date - from the loading document
-5. Attached documents - if an invoice is issued from the sales order, then its number is filled in automatically, if the invoice has not been created, enter the number manually
-9. Cargo name and 10. Statistical number are filled in from the product card Accounting -> KN code. This field is related to the Intrastat report (see Intrastat report)
-11. Gross weight, kg - the weight of the shipment is taken from the document from which the CMR report is printed, additional information on the card, field shipment weight
-21. Place of collection - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter
-22. Date of collection - by default, today's date is entered
+- **Template languages** - by default, En/Lt is offered, but you can choose Lt/En and Ru/En
+- **4. Cargo loading location** - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter
+- **4. Country** - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter
+- **4. Date** - from the loading document
+- **5. Attached documents** - if an invoice is issued from the sales order, then its number is filled in automatically, if the invoice has not been created, enter the number manually
+- **9. Cargo name** and **10. Statistical number** are filled in from the product card Accounting -> KN code. This field is related to the Intrastat report (see Intrastat report)
+- **11. Gross weight, kg** - the weight of the shipment is taken from the document from which the CMR report is printed, additional information on the card, field shipment weight
+- **21. Place of collection** - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter
+- **22. Date of collection** - by default, today's date is entered
 
 If necessary, all fields can be adjusted manually. The remaining fields can be filled in manually.
 
