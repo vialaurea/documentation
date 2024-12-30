@@ -3864,12 +3864,12 @@ msgid ""
 "Using the standard Odoo functionality, navigate to Inventory -> "
 "Operations -> Scrap. Enter one or more product scraps from the warehouse."
 msgstr ""
-"Naudojant standartinį Odoo funkcionalumą, Inventorius -> Operacijos -> "
-"Nurašymas. Įveskite vieną ar kelis produkto nurašymus iš sandėlio."
+"Naudojantis standartinį Odoo funkcionalumą, Inventorius -> Operacijos -> "
+"Nurašymas, įveskite vieną ar kelis produkto nurašymus iš sandėlio."
 
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:25
 msgid "After entering the document, it is possible to print the scrap report."
-msgstr "Įvedus dokumentą, galima atspausdinti broko ataskaitą."
+msgstr "Įvedus dokumentą, galima atspausdinti nurašymo aktą:"
 
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:29
 msgid "In the window that opens, the following fields need to be filled in:"
