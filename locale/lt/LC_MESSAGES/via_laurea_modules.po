@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-12 10:58+0000\n"
+"POT-Creation-Date: 2024-12-30 14:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -71,7 +71,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:11
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:11
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:10
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:11
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:10
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:13
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:9
 msgid "2. Installation and Configuration"
@@ -1198,7 +1198,6 @@ msgstr ""
 "sistemomis."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:88
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:32
 msgid "Special integration instructions, if needed."
 msgstr "Specialios integravimo instrukcijos, jei reikia."
 
@@ -1499,7 +1498,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:96
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:47
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:67
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:36
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:52
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:47
 msgid "The module is updated with each new version of Odoo."
 msgstr "Modulis atnaujinamas su kiekviena nauja Odoo versija."
@@ -1555,7 +1554,7 @@ msgstr ""
 "instrukcijoje „Darbo pradžia su Odoo“)."
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:30
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:16
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:18
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
 msgid "3. Main Features"
 msgstr "3. Pagrindinės funkcijos"
@@ -1727,7 +1726,7 @@ msgid "Integration with other modules"
 msgstr "Integracija su kitais moduliais"
 
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:24
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
 msgid "4. Reports and Documentation"
 msgstr "4. Ataskaitos ir dokumentacija"
 
@@ -2989,70 +2988,116 @@ msgid "CMR"
 msgstr "CMR"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:6
+#, fuzzy
 msgid ""
-"The Convention on the Contract for the International Carriage of Goods by"
-" Road (CMR) is designed for the transportation of goods by road."
+"This is a report under the Convention on the Contract for the "
+"International Carriage of Goods by Road (CMR) for the carriage of goods "
+"by land."
 msgstr ""
 "Konvencija dėl tarptautinio krovinių vežimo keliais sutarties (CMR) yra "
 "skirta prekių vežimui keliais."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:7
+#, fuzzy
 msgid ""
-"This module contributes to the compliance with the international "
-"transportation system."
+"The module contributes to compliance with the international "
+"transportation system by printing international freight bills of lading."
 msgstr "Šis modulis prisideda prie atitikties tarptautinei transporto sistemai."
 
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:8
-msgid "Ensures the ability to print international consignment notes."
-msgstr "Užtikrina galimybę spausdinti tarptautinius važtaraščius."
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:11
+msgid ""
+"The CMR is printed from the Inventory module, so this module must be "
+"installed."
+msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:12
 msgid ""
-"CMR is a component of the Inventory module. Installation instructions: no"
-" additional configuration is required for module installation."
+"Check whether the CMR report module, technically named stock_cmr_report, "
+"is installed. Additionally, check whether the Intrastat module is "
+"installed and configured."
 msgstr ""
-"CMR yra Inventoriaus modulio dalis. Diegimo instrukcija: modulio diegimui"
-" nereikalinga papildoma konfigūracija."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:13
-msgid "Initial configuration: no settings are necessary."
-msgstr "Pradiniai nustatymai: nustatymai nėra privalomi"
-
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:17
-msgid ""
-"Detailed feature description: Inventory -> Operations -> Transfers. "
-"Select the required delivery (Out) document. The document must be in the "
-"\"Ready\" or \"Done\" status, then Print -> CMR."
+msgid "No additional settings are required for the initial configuration."
 msgstr ""
-"Išsami funkcijų aprašymas: Inventorius -> Operacijos -> Perkėlimai. "
-"Pasirinkite reikiamą pristatymo (Išeinančio) dokumentą. Dokumentas turi "
-"būti \"Paruošta\" arba \"Atlikta\" būsenoje, tada Spausdinti -> CMR."
 
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:21
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:15
+#, fuzzy
 msgid ""
-"Before generating the report, it is necessary to correctly enter the "
-"product details: the product weight, Intrastat CN code (see more in the "
-"Intrastat declaration documentation), and country of origin must be "
-"entered."
+"However, before generating the report, it is necessary to properly enter "
+"the product card(s): the weight, Intrastat KN code (for more information,"
+" see the Intrastat declaration documentation) and country of origin of "
+"each product must be entered."
 msgstr ""
 "Prieš generuojant ataskaitą, būtina teisingai įvesti produkto detales: "
 "turi būti įvestas produkto svoris, Intrastato KN kodas (daugiau "
 "informacijos žr. Intrastato deklaracijos dokumentacijoje) ir kilmės "
 "šalis."
 
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:19
+#, fuzzy
 msgid ""
-"Some lines of the report are filled in automatically, some need to be "
-"filled in manually."
+"In the module Inventory -> Operations -> Transfers >> select the required"
+" unloading (OUT) document. The document must be in the \"Ready\" or "
+"\"Completed\" status, then select Print -> CMR.."
+msgstr ""
+"Išsami funkcijų aprašymas: Inventorius -> Operacijos -> Perkėlimai. "
+"Pasirinkite reikiamą pristatymo (Išeinančio) dokumentą. Dokumentas turi "
+"būti \"Paruošta\" arba \"Atlikta\" būsenoje, tada Spausdinti -> CMR."
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:26
+#, fuzzy
+msgid ""
+"Some of the CMR report lines are filled in automatically, while others "
+"must be filled in manually."
 msgstr ""
 "Kai kurios ataskaitos eilutės yra užpildytos automatiškai, kai kurias "
 "reikia užpildyti rankiniu būdu."
 
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:28
+#, fuzzy
+msgid "Automatically filled in:"
+msgstr "Automatiškai rinkti sąskaitas faktūras"
+
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:30
+msgid ""
+"Template languages - by default, En/Lt is offered, but you can choose "
+"Lt/En and Ru/En 4. Cargo loading location - taken from Inventory -> "
+"configuration -> warehouses, the specific warehouse address specified in "
+"the parameter 4. Country - taken from Inventory -> configuration -> "
+"warehouses, the specific warehouse address specified in the parameter 4. "
+"Date - from the loading document 5. Attached documents - if an invoice is"
+" issued from the sales order, then its number is filled in automatically,"
+" if the invoice has not been created, enter the number manually 9. Cargo "
+"name and 10. Statistical number are filled in from the product card "
+"Accounting -> KN code. This field is related to the Intrastat report (see"
+" Intrastat report) 11. Gross weight, kg - the weight of the shipment is "
+"taken from the document from which the CMR report is printed, additional "
+"information on the card, field shipment weight 21. Place of collection - "
+"taken from Inventory -> configuration -> warehouses, the specific "
+"warehouse address specified in the parameter 22. Date of collection - by "
+"default, today's date is entered"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:40
+msgid ""
+"If necessary, all fields can be adjusted manually. The remaining fields "
+"can be filled in manually."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:44
+msgid ""
+"The report can be formatted in XLSX format using Generate CMR or PDF - "
+"Generate CMR (PDF). If needed, it can also be printed from the list of "
+"shipping documents (OUT) in the standard way, but it is necessary to "
+"select shipping documents (OUT) from the same partner only."
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:47
 msgid "5. Integrations and Connectivity with Other Modules"
 msgstr "5. Integracijos ir ryšys su kitais moduliais"
 
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:31
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:48
 msgid ""
 "The module is linked to the standard Intrastat module (see more in the "
 "Intrastat declaration documentation)."
@@ -3060,7 +3105,7 @@ msgstr ""
 "Modulis yra susietas su standartiniu Intrastat moduliu (daugiau "
 "informacijos rasite Intrastat deklaracijos dokumentacijoje)."
 
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:35
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:51
 msgid "6. Updates and Version Control"
 msgstr "Atnaujinimai ir versijų valdymas"
 
@@ -3964,10 +4009,12 @@ msgid ""
 "for accounting purposes. However, companies strive to account for low-"
 "value assets, track their movements and condition."
 msgstr ""
-"**Mažavertis materialusis turtas** - tai turtas, kurio įsigijimo vertė mažesnė už pasirinktą "
-"minimalią ilgalaikio turto įsigijimo vertę. Šios vertės nesiekiantis turtas priskiriamas atsargoms. "
-"Įsigijus ir pradėjus naudoti tokį turtą, buhalteriškai jis iš karto nurašomas į sąnaudas. "
-"Tačiau įmonės stengiasi mažavertį turtą apskaityti, sekti jo judėjimus ir būklę."
+"**Mažavertis materialusis turtas** - tai turtas, kurio įsigijimo vertė "
+"mažesnė už pasirinktą minimalią ilgalaikio turto įsigijimo vertę. Šios "
+"vertės nesiekiantis turtas priskiriamas atsargoms. Įsigijus ir pradėjus "
+"naudoti tokį turtą, buhalteriškai jis iš karto nurašomas į sąnaudas. "
+"Tačiau įmonės stengiasi mažavertį turtą apskaityti, sekti jo judėjimus ir"
+" būklę."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:9
 msgid ""
@@ -3986,7 +4033,6 @@ msgstr ""
 "standartinis Maintenance modulis."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:16
-#
 msgid "No additional configuration is required."
 msgstr "Jokios papildomos konfigūracijos nereikia."
 
@@ -3995,11 +4041,10 @@ msgid ""
 "Using standard Odoo functionality, go to Maintenance >> Equipment to "
 "enter one or more records and assign them to a selected employee."
 msgstr ""
-"Naudojantis standartinį Odoo funkcionalumą, Priežiūra >> Įranga "
-"įveskite vieną ar kelis įrašus ir priskirkite juos pasirinktam darbuotojui."
+"Naudojantis standartinį Odoo funkcionalumą, Priežiūra >> Įranga įveskite "
+"vieną ar kelis įrašus ir priskirkite juos pasirinktam darbuotojui."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:25
-#
 msgid "After entering the data, select the print function."
 msgstr "Suvedus duomenis, pasirenkame spausdinti funkciją."
 
@@ -4010,26 +4055,26 @@ msgid ""
 " of various assets (both low-value and long-term), and they will be "
 "included in a common printed acceptance-transfer act."
 msgstr ""
-"Spausdinti galime tiek iš įrangos įrašo, tiek iš įrangos sąrašo. Jei spausdinsime "
-"iš sąrašo, tokiu būdu galime sužymėti ne vieną, o keletą įvairaus "
-"(mažaverčio ir ilgalaikio) turto vienetų ir juos įtrauks į bendrą "
-"spausdinamą priėmimo-perdavimo aktą."
+"Spausdinti galime tiek iš įrangos įrašo, tiek iš įrangos sąrašo. Jei "
+"spausdinsime iš sąrašo, tokiu būdu galime sužymėti ne vieną, o keletą "
+"įvairaus (mažaverčio ir ilgalaikio) turto vienetų ir juos įtrauks į "
+"bendrą spausdinamą priėmimo-perdavimo aktą."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:36
 msgid ""
 "When selecting the Print >> Equipment Transfer Act button, a launch "
 "parameter opens where you need to fill in:"
 msgstr ""
-"Pasirinkus mygtuką Spausdinti >> Įrangos perdavimo aktas "
-"atsidaro paleidimo parametras, kuriame reikia užpildyti:"
+"Pasirinkus mygtuką Spausdinti >> Įrangos perdavimo aktas atsidaro "
+"paleidimo parametras, kuriame reikia užpildyti:"
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:40
 msgid ""
 "**Transferred by** - select from the employee list the responsible "
 "employee who transfers the assets;"
 msgstr ""
-"**Perdavė** - parenkame iš darbuotojų sąrašo atsakingą darbuotoją, "
-"kuris perduoda turtą;"
+"**Perdavė** - parenkame iš darbuotojų sąrašo atsakingą darbuotoją, kuris "
+"perduoda turtą;"
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:41
 msgid ""
@@ -4043,7 +4088,9 @@ msgstr ""
 msgid ""
 "**Date** - enter the date. By default, it is always filled with today's "
 "date."
-msgstr "**Data** - įvedame datą. Pagal nutylėjimą visada užsipildo šios dienos data."
+msgstr ""
+"**Data** - įvedame datą. Pagal nutylėjimą visada užsipildo šios dienos "
+"data."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:44
 msgid "When you click 'Print Act', a .pdf document of this format is generated:"
@@ -4054,11 +4101,10 @@ msgid ""
 "The document can be printed and submitted to responsible employees for "
 "signing."
 msgstr ""
-"Dokumentą galima atsispausdinti ir pateikti atsakingiems "
-"darbuotojams pasirašyti."
+"Dokumentą galima atsispausdinti ir pateikti atsakingiems darbuotojams "
+"pasirašyti."
 
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:51
-#
 msgid "Updates and Version Management"
 msgstr "Atnaujinimai ir Versijų Valdymas"
 
@@ -6427,4 +6473,20 @@ msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atly
 #~ msgstr ""
 #~ "i.VAZ generuojamas vienodai tiek "
 #~ "Inventorizacijos, tiek Apskaitos moduliuose:"
+
+#~ msgid "Ensures the ability to print international consignment notes."
+#~ msgstr "Užtikrina galimybę spausdinti tarptautinius važtaraščius."
+
+#~ msgid ""
+#~ "CMR is a component of the "
+#~ "Inventory module. Installation instructions: "
+#~ "no additional configuration is required "
+#~ "for module installation."
+#~ msgstr ""
+#~ "CMR yra Inventoriaus modulio dalis. "
+#~ "Diegimo instrukcija: modulio diegimui "
+#~ "nereikalinga papildoma konfigūracija."
+
+#~ msgid "Initial configuration: no settings are necessary."
+#~ msgstr "Pradiniai nustatymai: nustatymai nėra privalomi"
 
