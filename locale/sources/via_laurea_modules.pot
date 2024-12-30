@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-30 14:42+0000\n"
+"POT-Creation-Date: 2024-12-30 14:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2058,7 +2058,39 @@ msgid "Automatically filled in:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:30
-msgid "Template languages - by default, En/Lt is offered, but you can choose Lt/En and Ru/En 4. Cargo loading location - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter 4. Country - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter 4. Date - from the loading document 5. Attached documents - if an invoice is issued from the sales order, then its number is filled in automatically, if the invoice has not been created, enter the number manually 9. Cargo name and 10. Statistical number are filled in from the product card Accounting -> KN code. This field is related to the Intrastat report (see Intrastat report) 11. Gross weight, kg - the weight of the shipment is taken from the document from which the CMR report is printed, additional information on the card, field shipment weight 21. Place of collection - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter 22. Date of collection - by default, today's date is entered"
+msgid "**Template languages** - by default, En/Lt is offered, but you can choose Lt/En and Ru/En"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:31
+msgid "**4. Cargo loading location** - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:32
+msgid "**4. Country** - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:33
+msgid "**4. Date** - from the loading document"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:34
+msgid "**5. Attached documents** - if an invoice is issued from the sales order, then its number is filled in automatically, if the invoice has not been created, enter the number manually"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:35
+msgid "**9. Cargo name** and **10. Statistical number** are filled in from the product card Accounting -> KN code. This field is related to the Intrastat report (see Intrastat report)"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:36
+msgid "**11. Gross weight, kg** - the weight of the shipment is taken from the document from which the CMR report is printed, additional information on the card, field shipment weight"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:37
+msgid "**21. Place of collection** - taken from Inventory -> configuration -> warehouses, the specific warehouse address specified in the parameter"
+msgstr ""
+
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:38
+msgid "**22. Date of collection** - by default, today's date is entered"
 msgstr ""
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:40
