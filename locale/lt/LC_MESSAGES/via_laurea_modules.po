@@ -75,7 +75,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:13
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:9
 msgid "2. Installation and Configuration"
-msgstr "2. Įrengimas ir konfigūracija"
+msgstr "2. Diegimas ir konfigūracija"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:12
 msgid ""
@@ -2988,27 +2988,31 @@ msgid "CMR"
 msgstr "CMR"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:6
-#, fuzzy
+#
 msgid ""
 "This is a report under the Convention on the Contract for the "
 "International Carriage of Goods by Road (CMR) for the carriage of goods "
 "by land."
 msgstr ""
-"Konvencija dėl tarptautinio krovinių vežimo keliais sutarties (CMR) yra "
-"skirta prekių vežimui keliais."
+"Tai yra ataskaita pagal tarptautinio krovinių vežimo keliais sutarties konvenciją "
+"(CMR), skirtą krovinių gabenimui sausuma."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:7
-#, fuzzy
+#
 msgid ""
 "The module contributes to compliance with the international "
 "transportation system by printing international freight bills of lading."
-msgstr "Šis modulis prisideda prie atitikties tarptautinei transporto sistemai."
+msgstr ""
+"Modulis prisideda prie tarptautinių pervežimų sistemos laikymosi, spausdinant "
+"tarptautinius krovinių transportavimo važtaraščius."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:11
 msgid ""
 "The CMR is printed from the Inventory module, so this module must be "
 "installed."
 msgstr ""
+"CMR yra spausdinama iš Inventoriaus modulio, todėl turi būti "
+"instaliuotas šis modulis."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:12
 msgid ""
@@ -3016,70 +3020,75 @@ msgid ""
 "is installed. Additionally, check whether the Intrastat module is "
 "installed and configured."
 msgstr ""
+"Patikrinti ar instaliuotas CMR ataskaitos modulis, techniniu pavadinimu stock_cmr_report. "
+"Taip pat reikia patikrinti, ar instaliuotas ir sukonfigūruotas Intrastat modulis."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:13
 msgid "No additional settings are required for the initial configuration."
-msgstr ""
+msgstr "Pradinei konfigūracijai nereikialingi jokie papildomi nustatymai."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:15
-#, fuzzy
+#
 msgid ""
 "However, before generating the report, it is necessary to properly enter "
 "the product card(s): the weight, Intrastat KN code (for more information,"
 " see the Intrastat declaration documentation) and country of origin of "
 "each product must be entered."
 msgstr ""
-"Prieš generuojant ataskaitą, būtina teisingai įvesti produkto detales: "
-"turi būti įvestas produkto svoris, Intrastato KN kodas (daugiau "
-"informacijos žr. Intrastato deklaracijos dokumentacijoje) ir kilmės "
-"šalis."
+"Tačiau prieš generuojant ataskaitą, būtina tvarkingai suvesti produkto kortelę (-es): "
+"turi būti įvestas kiekvieno produkto svoris, intrastato KN kodas (plačiau žr. Intrastat "
+"deklaracijos dokumentacijoje) ir kilmės šalis."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:19
-#, fuzzy
+#
 msgid ""
 "In the module Inventory -> Operations -> Transfers >> select the required"
 " unloading (OUT) document. The document must be in the \"Ready\" or "
 "\"Completed\" status, then select Print -> CMR.."
 msgstr ""
-"Išsami funkcijų aprašymas: Inventorius -> Operacijos -> Perkėlimai. "
-"Pasirinkite reikiamą pristatymo (Išeinančio) dokumentą. Dokumentas turi "
-"būti \"Paruošta\" arba \"Atlikta\" būsenoje, tada Spausdinti -> CMR."
+"Modulyje Inventorius -> Operacijos -> Pervedimai >> pasirenkamas reikalingas "
+"atkrovimo (OUT'o) dokumentas. Dokumentas turi būti \"Paruošta\" "
+"arba \"Atlikta\" būsenoje, tada renkamės Spausdinti -> CMR."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:26
-#, fuzzy
+#
 msgid ""
 "Some of the CMR report lines are filled in automatically, while others "
 "must be filled in manually."
 msgstr ""
-"Kai kurios ataskaitos eilutės yra užpildytos automatiškai, kai kurias "
-"reikia užpildyti rankiniu būdu."
+"Dalis CMR ataskaitos eilučių užsipildo automatizuotai, dalį reikia "
+"užpildyti rankiniu būdu."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:28
-#, fuzzy
+#
 msgid "Automatically filled in:"
-msgstr "Automatiškai rinkti sąskaitas faktūras"
+msgstr "Automatiškai užsipildo:"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:30
 msgid ""
 "**Template languages** - by default, En/Lt is offered, but you can choose"
 " Lt/En and Ru/En"
-msgstr ""
+msgstr "**Šablono kalbos** - pagal nutylėjimą siūlo En/Lt, tačiau galima rinktis Lt/En ir Ru/En"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:31
 msgid ""
 "**4. Cargo loading location** - taken from Inventory -> configuration -> "
 "warehouses, the specific warehouse address specified in the parameter"
 msgstr ""
+"**4. Krovinio pakrovimo vieta** - imama iš Inventorius -> konfiguracija -> sandėliai, "
+"parametre nurodyto konkretaus sandėlio adreso"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:32
 msgid ""
 "**4. Country** - taken from Inventory -> configuration -> warehouses, the"
 " specific warehouse address specified in the parameter"
 msgstr ""
+"**4. Šalis** - imama iš Inventorius -> konfiguracija -> sandėliai, parametre "
+"nurodyto konkretaus sandėlio adreso"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:33
 msgid "**4. Date** - from the loading document"
-msgstr ""
+msgstr "**4. Data** - iš atkrovimo dokumento"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:34
 msgid ""
@@ -3087,6 +3096,8 @@ msgid ""
 " then its number is filled in automatically, if the invoice has not been "
 "created, enter the number manually"
 msgstr ""
+"**5. Pridedami dokumentai** - jeigu iš pardavimo užsakymo yra išrašyta SF, "
+"tada jos numeris užsipildo automatiškai, jeigu SF nekurta numerį įsirašyti rankiniu būdu"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:35
 msgid ""
@@ -3094,6 +3105,8 @@ msgid ""
 "product card Accounting -> KN code. This field is related to the "
 "Intrastat report (see Intrastat report)"
 msgstr ""
+"**9 Krovinio pavadinimas** ir **10. Statistinis numeris** užpildomi iš produkto kortelės "
+"Apskaita -> KN kodas. Šis laukas yra susijęs su Intrastat ataskaita (žr. Intrastat ataskaita)"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:36
 msgid ""
@@ -3101,22 +3114,28 @@ msgid ""
 "document from which the CMR report is printed, additional information on "
 "the card, field shipment weight"
 msgstr ""
+"**11. Svoris brutto, kg** - siuntos svoris imamas iš dokumento, iš kurio "
+"spausdinama CMR ataskaita, kortelės papildoma informacija, lauko siuntos svoris"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:37
 msgid ""
 "**21. Place of collection** - taken from Inventory -> configuration -> "
 "warehouses, the specific warehouse address specified in the parameter"
 msgstr ""
+"**21. Surašymo vieta** - imama iš Inventorius -> konfiguracija -> sandėliai, parametre "
+"nurodyto konkretaus sandėlio adreso"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:38
 msgid "**22. Date of collection** - by default, today's date is entered"
-msgstr ""
+msgstr "**21. Surašymo data** - pagal nutylėjimą, įrašo šios dienos datą"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:40
 msgid ""
 "If necessary, all fields can be adjusted manually. The remaining fields "
 "can be filled in manually."
 msgstr ""
+"Esant būtinybei galima visus laukus koreguoti rankiniu būdu. Likusius "
+"laukus galima pildyti rankiniu būdu."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:44
 msgid ""
@@ -3125,6 +3144,10 @@ msgid ""
 "shipping documents (OUT) in the standard way, but it is necessary to "
 "select shipping documents (OUT) from the same partner only."
 msgstr ""
+"Ataskaitą galima formuoti XLSX formuojant Generuoti CMR arba PDF - Generuoti "
+"CMR (PDF). Esant poreikiui, ataskaitą galima spausdinti ir iš atkrovimo dokumentų "
+"(OUT) sąrašo vaizdo, standartiniu būdu, tačiau būtina parinkti tik to pačio partnerio "
+"kelis atkrovimo dokumentus (OUT)."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:47
 msgid "5. Integrations and Connectivity with Other Modules"
@@ -3148,13 +3171,15 @@ msgstr "Intrastatas"
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:7
 msgid "Install the modules ``account_intrastat`` and ``l10n_lt_intrastat``."
-msgstr "Įdiekite modulį ``account_intrastat`` ir  ``l10n_lt_intrastat``."
+msgstr ""
+"Reikia instaliuoti modulį Intrastat Reports (techninis pavadinimas account_intrastat) "
+"ir modulį Lithuanian Intrastat (techninis pavadinimas l10n_lt_intrastat)."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:9
 msgid ""
 "After installing the modules, two additional menus appear in the "
 "Accounting module:"
-msgstr "Po modulio įdiegimo, atsiras du papildomi meniu punktai Apskaitosmodulyje"
+msgstr "Instaliavus modulius, Apskaitos modulyje atsiranda 2 papildomi meniu:"
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:11
 msgid "**Accounting >> Reports >> Intrastat Report**"
@@ -3170,9 +3195,9 @@ msgid ""
 "the Lithuanian Customs: transaction codes, delivery condition codes, "
 "Lithuanian counties classifier, and Combined Nomenclature (KN)."
 msgstr ""
-"Intrastato kodo parametras apima visus pagrindinius Lietuvos muitinės "
-"klasifikatorius: sandorių kodus, pristatymo sąlygų kodus, Lietuvos "
-"apskričių klasifikatorių ir Kombinuotąją nomenklatūrą (KN)."
+"Intrastato kodų parametre yra sudėti visi pagrindiniai Lietuvos Muitinės klasifikatoriai: "
+"sandorio pobūdžio kodai, pristatymo sąlygų kodai, Lietuvos Respublikos "
+"apskričių klasifikatorius ir Kombinuotoji nomenklatūra (KN)."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:18
 msgid ""
@@ -3180,9 +3205,9 @@ msgid ""
 "translations only for those KN codes that your company uses for "
 "sales/purchases within the EU. Other codes can be left blank."
 msgstr ""
-"Kombinuotosios nomenklatūros parametre turite pridėti vertimus į lietuvių"
-" kalbą tik tiems KN kodams, kuriuos jūsų įmonė naudoja "
-"pardavimams/pirkimams ES viduje. Kitus kodus galite palikti tuščius."
+"Kombinuotosios nomenklatūros parametre būtina sudėti vertimus į LT kalbą tik "
+"tų KN kodų, kuriuos įmonė naudoja pardavimuose/pirkimuose su ES. "
+"Kitų kodų vertimo galima nepildyti."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:22
 msgid ""
@@ -3208,9 +3233,9 @@ msgid ""
 "Configuration >> Settings**), you can set the default Incoterm conditions"
 " and transaction types."
 msgstr ""
-"Apskaitos modulio pagrindiniuose nustatymuose (**Apskaita >> "
-"Konfigūracija >> Nustatymai**) galite nustatyti numatytas Incoterm "
-"sąlygas ir operacijų tipus."
+"Pagrindiniame apskaitos modulio nustatyme **Apskaita >> "
+"Konfigūracija >> Nustatymai** galima nustatyti Incoterm sąlygas ir "
+"sandorio tipus pagal nutylėjimą."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:32
 msgid ""
@@ -3238,15 +3263,15 @@ msgid ""
 "additional unit of measure, you need to enter the product unit equivalent"
 " with the units used in the declaration."
 msgstr ""
-"Gaminio formoje turi būti nustatytas Kombinuotosios nomenklatūros (KN) "
-"kodas, pasirenkamas iš Intrastat kodo klasifikatoriaus, kartu pasirinkta "
-"kilmės šalis iš standartinio Odoo šalies klasifikatoriaus. Jei yra "
-"papildomas matavimo vienetas, reikia įvesti gaminio vieneto ekvivalentą "
-"su deklaracijoje naudojamais vienetais."
+"Produkto kortelėje reikia nustatyti Kombinuotosios nomenklatūros (KN) kodą, "
+"parenkama iš Intrastat kodų klasifikatoriaus, ir kilmės šalį, parenkama "
+"iš standartinio Odoo šalių klasifikatoriaus. Jei yra papildomas matavimo vienetas, "
+"reikia įvesti produkto vieneto atitikmenį su deklaracijoje "
+"naudojamais matavimo vienetais."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:44
 msgid "The standard weight field must also be filled in on the product form."
-msgstr "Standartinis svorio laukas taip pat turi būti užpildytas produkto formoje."
+msgstr "Taip pat produkto kortelėje turi būti užpildytas standartinis svorio laukas."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:46
 msgid ""
@@ -3329,10 +3354,10 @@ msgid ""
 "whether the declaration is for exported goods or imported goods, and the "
 "action - primary, corrected, or zero."
 msgstr ""
-"Pradžios parametruose reikia pasirinkti metus, mėnesį (pagal "
-"numatytuosius nustatymus visada siūlomas ankstesnis laikotarpis), "
-"Intrastato tipą, t.y., ar deklaracija yra eksportuotoms ar importuotoms "
-"prekėms, ir veiksmą - pirminė, patikslinta arba nulinė."
+"Paleidimo parametre reikia pasirinkti metus, mėnesį (pagal nutylėjimą visada "
+"siūlo praėjusį periodą), Intrastat'o tipą, t.y. ar deklaracija išsiųstoms "
+"prekėms, ar deklaracija atvykusioms prekėms, veiksmas - pirminė, koreguojama "
+"arba nulinė."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:78
 msgid ""
@@ -3383,9 +3408,10 @@ msgid ""
 "invoice lines have missing transaction codes, and allowing you to fill "
 "them in immediately."
 msgstr ""
-"Panašiai, jei žinutė nurodo, kad \"Kai kuriuose eilutėse trūksta "
-"operacijų kodų,\" atsidarys kitas langas, rodantis, kuriose sąskaitos "
-"eilutėse trūksta operacijų kodų, ir leis jums juos iškart užpildyti."
+"Taip pat, kai pranešimas sako, kad \"Kai kuriose eilutėse "
+"nenurodyti sandorio pobūdžio kodai\", atsidaro kitokio tipo "
+"langas, kuris nurodo kuriose faktūros eilutėse neužpildytas sandorio "
+"kodas ir čia pat galima užpildyti."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:100
 msgid ""
@@ -3399,7 +3425,7 @@ msgstr ""
 msgid ""
 "After entering the data, it is recommended to regenerate the report or "
 "reload it."
-msgstr "Įvedus duomenis, rekomenduojama regeneruoti ataskaitą arba perkrauti ją."
+msgstr "Suvedus duomenis, rekomenduojama ataskaitą suformuoti iš naujo arba perkrauti."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:106
 msgid ""
@@ -3483,9 +3509,8 @@ msgid ""
 " Sales module, you can see them in the Inventory module, Operations "
 "section, under Deliveries."
 msgstr ""
-"Paruošus pardavimo užsakymą ir Pardavimų modulyje patvirtinus prekių "
-"išvežimus, juos galite matyti Inventoriaus modulyje, Operacijų skiltyje, "
-"Pristatymuose."
+"Paruošus pardavimo užsakymą ir Pardavimų modulyje patvirtinus prekių išvežimus, "
+"juos galite matyti Inventoriaus modulyje >> Operacijos >> Pristatymai."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:20
 msgid ""
@@ -3508,7 +3533,7 @@ msgid ""
 "required fields in it. If needed, adjust the shipping and delivery dates "
 "and times."
 msgstr ""
-"Jei pasirinkrite generuoti i.VAZ rinkinį, automatiškai susikurs bendras "
+"Jei pasirinksite generuoti i.VAZ rinkinį, automatiškai susikurs bendras "
 "i.VAZ juodraštinis įrašas visiems pažymėtiems pristatymams. Jame "
 "užpildykite reikiamus laukus. Esant poreikiui, pakoreguokite išgabenimo "
 "ir pristatymo datas ir laikus."
@@ -3640,7 +3665,7 @@ msgid ""
 msgstr ""
 "Atsidarys sekantis langas, kuriame galėsite sukurti naują važtaraštį. "
 "Perkėlime pasirinkite patvirtintą pardavimų užsakymo važtaraščio numerį, "
-"užpildykite gavėją, siuntėja, gabenimo datas ir laikus bei apačioje "
+"užpildykite gavėją, siuntėją, gabenimo datas ir laikus bei apačioje "
 "pasitikrinkite išsamioje informacijoje išsiuntimo ir gavimo vietas (jos "
 "automatiškai paimamos iš kliento kortelės). Esant reikalui, adresus "
 "pakoreguokite."
