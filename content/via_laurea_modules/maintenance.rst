@@ -7,4 +7,4 @@ Maintenance related instructions can be found here.
    :maxdepth: 2
 
    maintenance/inventorisation_act
-   maintenance/handover_act
+   maintenance/transfer_act
