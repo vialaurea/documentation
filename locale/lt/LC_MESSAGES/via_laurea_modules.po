@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:3
 msgid "Accountable Persons"
-msgstr "Atsakingi asmenys"
+msgstr "Atskaitingi asmenys"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:7
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:5
@@ -79,14 +79,15 @@ msgid "2. Installation and Configuration"
 msgstr "2. Diegimas ir konfigūracija"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:12
-#, fuzzy
+#
 msgid ""
 "Before you start registering transactions with accountable persons, you "
 "need to check the settings: Accounting -> Configuration -> Settings -> "
 "Accountable persons."
 msgstr ""
-"Prieš pradedant registruoti operacijas su atskaitingais asmenimis, reikia"
-" pasitikrinti nustatymus: Nustatymai -> Atskaitingi asmenys."
+"Prieš pradedant registruoti operacijas su atskaitingais asmenimis, reikia "
+"pasitikrinti nustatymus: Apskaita -> Konfigūracija -> Nustatymai -> "
+"Atskaitingi asmenys."
 
 msgid "Accessing accountable persons settings"
 msgstr "Pasiekiama atsakingų asmenų nustatymai"
@@ -108,9 +109,9 @@ msgid "3. Daily Usage Scenarios"
 msgstr "3. Kasdieniai naudojimo scenarijai"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
-#, fuzzy
+#
 msgid "**When an accountable person pays an invoice:**"
-msgstr "Kai atskaitingas asmuo apmoka sąskaitą:"
+msgstr "**Kai atskaitingas asmuo apmoka sąskaitą:**"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:24
 msgid "Find and open the required invoice and click \"Register Payment\"."
@@ -127,60 +128,60 @@ msgid "A new window opens where you need to:"
 msgstr "Atsidaro naujas langas, kuriame reikia:"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:31
-#, fuzzy
+#
 msgid "Choose the journal for accountable persons;"
-msgstr "Žurnalas - atskaitingi asmenys"
+msgstr "Žurnalas - parenkame 'Atskaitingi asmenys';"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:32
-#, fuzzy
+#
 msgid "Select manual payment method;"
-msgstr "Pasirinkite rankinio mokėjimo būdą"
+msgstr "Mokėjimo būdas - rankinis;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:33
-#, fuzzy
+#
 msgid "Choose the employee who made the payment;"
-msgstr "Pasirinkite darbuotoją, kuris atliko mokėjimą."
+msgstr "Darbuotojas - pasirenkame kas apmokėjo sąskaitą;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:34
-#, fuzzy
+#
 msgid "Enter the amount paid;"
-msgstr "Įveskite sumokėtą sumą"
+msgstr "Suma - nurodome kokią sumą sumokėjo;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:35
-#, fuzzy
+#
 msgid "Specify the invoice date, which is the date of payment (check);"
-msgstr "Nurodykite sąskaitos-faktūros datą, kuri yra mokėjimo (čekio) data."
+msgstr "Sąskaitos faktūros data - tai apmokėjimo (čekio) data;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:36
-#, fuzzy
+#
 msgid "Optionally specify which invoice is being paid;"
-msgstr "Priminimas - galima nurodyti kokią Sąskaitą faktūrą apmokama;"
+msgstr "Priminimas - galima nurodyti kokią sąskaitą faktūrą apmokama arba čekio numerį;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
 msgid "Payment details entry"
 msgstr "Mokėjimo duomenų įvedimas"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:41
-#, fuzzy
+#
 msgid ""
 "Click \"Create payment\". We can see all payments under Customers (or "
 "Suppliers) -> Payments -> remove filters."
 msgstr ""
-"Spustelėkite „Sukurti mokėjimą“. Visus mokėjimus galime pamatyti prie "
-"Klientai (arba Tiekėjai) -> Mokėjimai -> nuimti filtrus. Šioje vietoje "
-"paspaudus \"Naujas\" taip pat galima sukurti atskaitingo asmens "
-"apmokėjimą."
+"Spaudžiame „Sukurti mokėjimą“. Visus mokėjimus galime pamatyti prie "
+"Klientai (arba Tiekėjai) -> Mokėjimai -> nuimti filtrus."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:43
 msgid ""
 "By clicking \"New\" here, you can also create a payment for the "
 "accountable person."
 msgstr ""
+"Šioje vietoje paspaudus „Naujas“ taip pat galima sukurti "
+"atskaitingo asmens apmokėjimą."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:45
-#, fuzzy
+#
 msgid "**Issuing cash to an accountable person from the cash register:**"
-msgstr "Grynųjų pinigų išdavimas atskaitingam asmeniui iš kasos:"
+msgstr "**Grynųjų pinigų išdavimas atskaitingam asmeniui iš kasos:**"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:47
 msgid "At the suppliers/clients payment list, click \"New\"."
@@ -192,60 +193,60 @@ msgstr "Grynųjų pinigų išdavimas iš kasos aparato"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:52
 msgid "A new window opens where you specify:"
-msgstr "Atsidaro naujas langas, kuriame nurodote:"
+msgstr "Atsidaro naujas langas, kuriame nurodome:"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
-#, fuzzy
+#
 msgid ""
 "Payment type: Send (when issuing from the cash register) or Receive (when"
 " depositing into the cash register);"
-msgstr ""
-"Mokėjimo tipas: Siųsti (kai išduodama iš kasos) arba Gauti (kai įnešama į"
-" kasą)"
+msgstr "Mokėjimo rūšis - Siųsti (kai išduodama iš kasos);"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
-#, fuzzy
+#
 msgid "Employee to whom the cash is issued;"
-msgstr "Darbuotojas, kuriam išduodami grynieji pinigai"
+msgstr "Darbuotojas - kam išduodama;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
-#, fuzzy
+#
 msgid "Amount issued;"
-msgstr "Suma - kiek išduodama"
+msgstr "Suma - kiek išduodama;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
-#, fuzzy
+#
 msgid "Date of cash issuance;"
-msgstr "Data - grynųjų pinigų išdavimo data"
+msgstr "Data - grynųjų pinigų išdavimo data;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
-#, fuzzy
+#
 msgid ""
 "KIO/KPO number, which is automatically assigned (ensure the sequence is "
 "set in Accounting -> Configuration -> Sequences);"
 msgstr ""
-"KIO/KPO numeris - automatiškai prisiskiria reikiamas (pasitikrinti ar "
-"nustatyta seka Apskaita -> Konfigūracija -> Sekos. Kaip susikurti sekas "
-"žr. instrukcijoje \"Kasos knyga\")."
+"KIO/KPO numeris - automatiškai prisiskiria reikiamas (pasitikrinti ar nustatyta "
+"seka Apskaita _> Konfigūracija -> Sekos, plačiau žr. instrukcijoje "
+"\"KIO KPO numeracija\")."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:59
-#, fuzzy
+#
 msgid "KIO/KPO responsible - indicates who is responsible for cash transactions;"
-msgstr "KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas"
+msgstr ""
+"KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas; "
+"pagal nutylėjimą priskiriamas naudotojas, kuris sukūrė įrašą;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:60
-#, fuzzy
+#
 msgid "Reminder - the purpose of the cash issuance;"
-msgstr "Priminimas - įrašoma pinigų išdavimo paskirtis"
+msgstr "Priminimas - įrašoma pinigų išdavimo paskirtis;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:61
-#, fuzzy
+#
 msgid ""
 "Journal - Cash (or can be, for example, a cash register, depending on the"
 " name of the journal for Cash transactions)."
 msgstr ""
-"Žurnalas - Grynieji (arba gali būti pvz. kasa, priklausoma kaip "
-"pavadinamas žurnalas Kasos operacijoms)"
+"Žurnalas - Grynieji (arba gali būti pvz. kasa, priklausoma kaip "
+"pavadinamas žurnalas Kasos operacijoms);"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
 msgid "Cash issuance details"
@@ -260,9 +261,9 @@ msgstr ""
 "įrašas\". Jei viskas gerai, spaudžiama Patvirtinti."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:68
-#, fuzzy
+#
 msgid "**Depositing cash into the cash register:**"
-msgstr "Grynųjų pinigų įnešimas į kasą:"
+msgstr "**Grynųjų pinigų įnešimas į kasą:**"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:70
 msgid "Navigate to Clients -> Payments -> New."
@@ -323,19 +324,19 @@ msgstr "Mokėjimo būdas - Manual (rankinis)"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:87
 msgid "You may also check the Journal entries before confirming the transaction."
-msgstr "Taip pat galima pasitikrinti Žurnalo įrašus, prieš patvirtinant operaciją"
+msgstr "Taip pat galima pasitikrinti Žurnalo įrašus, prieš patvirtinant operaciją."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
 msgid "Cash deposit details"
 msgstr "Grynųjų pinigų įnešimo duomenys"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:92
-#, fuzzy
+#
 msgid "**Bank transfer to an accountable person:**"
-msgstr "Banko pervedimas atsakingam asmeniui:"
+msgstr "**Banko pervedimas atsakingam asmeniui:**"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:94
-#, fuzzy
+#
 msgid ""
 "Typically, bank statements are imported or synchronized, showing the "
 "transfer operation:"
@@ -369,7 +370,7 @@ msgstr "Peržiūrėti banko pervedimo operacijas"
 msgid ""
 "You can view the accountable persons entries in Accounting -> Accounting "
 "-> Ledger lines."
-msgstr ""
+msgstr "Peržiūrėti Atskaitingų įrašus galima Apskaita -> Apskaita -> DK eilutės."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:107
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
@@ -2223,9 +2224,9 @@ msgid "Payments"
 msgstr "Mokėjimai"
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:2
-#, fuzzy
+#
 msgid "KIO-KPO numeration"
-msgstr "KIO-KPO Numeracija"
+msgstr "KIO-KPO numeracija"
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:7
 msgid ""
@@ -2322,9 +2323,8 @@ msgid ""
 " is Cash, upon confirmation, a KIO number is automatically assigned "
 "according to the defined sequence."
 msgstr ""
-"Kai kuriant mokėjimą, kai tipas nustatytas į „siųsti“ ir žurnalas yra "
-"„Grynieji“, patvirtinimo metu KIO numeris priskiriamas automatiškai pagal"
-" nustatytą seką."
+"Sukuriant mokėjimą, kurio rūšis - siųsti ir žurnalas Kasa, patvirtinus "
+"mokėjimą, automatiškai priskiriamas KIO numeris pagal žurnale nustatytą seką."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:41
 msgid ""
@@ -2340,9 +2340,9 @@ msgid ""
 "journal is Cash, upon confirmation, a KPO number is automatically "
 "assigned according to the defined sequence."
 msgstr ""
-"Kai sukuriamas mokėjimas, kai tipas yra nustatytas kaip „gauti“ ir "
-"žurnalas yra „grynieji pinigai“, patvirtinus, KPO numeris automatiškai "
-"priskiriamas pagal nustatytą seką."
+"Sukuriant mokėjimą, kurio mokėjimo rūšis - gauti ir žurnalas Kasa, "
+"patvirtinus mokėjimą, automatiškai priskiriamas KPO numeris "
+"pagal nustatytą seką."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:49
 msgid ""
@@ -2361,12 +2361,12 @@ msgid ""
 "cannot be reused in the future. In such a case, the payment should be "
 "canceled, and a new, correct payment should be created."
 msgstr ""
-"Kai mokėjimas yra patvirtintas ir jam priskirtas KIO arba KPO numeris, "
-"nebegalima pakeisti mokėjimo tipo (net jei mokėjimas atstatomas kaip "
-"juodraštis), nes priskirtas KIO arba KPO numeris nesikeičia. Jei padaryta"
-" klaida, tas KIO arba KPO numeris bus panaudotas ir negali būti "
-"pakartotinai naudojamas ateityje. Tokiu atveju mokėjimas turi būti "
-"atšauktas, ir turi būti sukurtas naujas, teisingas mokėjimas."
+"Po to, kai mokėjimas buvo vieną kartą patvirtintas, jam priskirtas KIO "
+"arba KPO, daugiau negalima keisti mokėjimo tipo (atkūrus "
+"kaip juodraštį), nes jau priskirtas KIO arba KPO numeris neatsinaujina. "
+"Jei buvo padaryta klaida, KIO arba KPO numeris jau "
+"liks panaudotas, kitą kartą jo panaudoti nebegalės. Tokiu "
+"atveju mokėjimą reikia atšaukti ir kurti naują, teisingą."
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:62
 msgid ""
@@ -2420,22 +2420,24 @@ msgstr "Ataskaita spausdinama tik į PDF."
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:23
 msgid "The monthly report looks like this when printed:"
-msgstr ""
+msgstr "Mėnesinė ataskaita atspausdinus atrodo taip:"
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:27
 msgid "A single report printed on one page looks like this:"
-msgstr ""
+msgstr "Viena ataskaita lape atspausdinus atrodo taip:"
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:31
-#, fuzzy
+#
 msgid "Two reports printed on one page look like this:"
-msgstr "Dvi ataskaitos viename puslapyje:"
+msgstr "​Dvi ataskaitos viename lape atspausdinus atrodo taip:"
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:35
 msgid ""
 "The report is closely related to the functionality of KIO and KPO (see "
 "KIO-KPO numeration)."
 msgstr ""
+"Ataskaita yra glaudžiai susijusi su KIO ir KPO funkcionalumu "
+"(žr. KIO-KPO numeracija)."
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:2
 msgid "Registration of advances"
