@@ -1,4 +1,4 @@
-KIO-KPO Numeration
+KIO-KPO numeration
 ==================
 
 Introduction

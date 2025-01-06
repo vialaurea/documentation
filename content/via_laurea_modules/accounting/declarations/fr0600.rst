@@ -10,7 +10,8 @@ Installation and Configuration
 
 - For the FR0600 declaration, an additional module is required/not required to be installed.
 - Before starting work with the Odoo system, when VAT invoices will start to be registered, it is necessary to configure the taxes:
-  1. Module Accounting -> Configuration -> Taxes
+
+1. Module Accounting -> Configuration -> Taxes
 
   .. image:: fr0600/image01.jpg
       :alt: Module Accounting -> Configuration -> Taxes
@@ -25,15 +26,10 @@ Installation and Configuration
 
   After verifying or entering the information, you can start registering VAT invoices, and after registering them, form the FR0600 declaration.
 
-Main Functions
---------------
-
 Daily Use Scenarios
 -------------------
 
-Having all purchase and sales VAT invoices registered for the period for which you want to form and submit the VAT declaration FR0600:
-
-* Reports -> FR0600
+Once you have all purchase and sales VAT invoices registered for the period for which you want to form and submit the VAT declaration FR0600, select Accounting >> Reports >> FR600 declaration.
 
   .. image:: fr0600/image04.jpg
       :alt: Reports -> FR0600
@@ -50,38 +46,3 @@ Having all purchase and sales VAT invoices registered for the period for which y
       :alt: Generate declaration file
 
 * After generating the declaration file, it can be submitted directly to VMI.
-
-Reports and Documentation
---------------------------
-
-- The report can be printed via Reports -> Tax Report:
-
-  .. image:: fr0600/image06.jpg
-      :alt: Reports -> Tax Report
-
-- In the opened window, you can select the date for which you want to see the information. Print it in PDF and xlsx format.
-
-  .. image:: fr0600/image07.jpg
-      :alt: Print in PDF and xlsx format
-
-
-Integrations and Connections with Other Modules
------------------------------------------------
-
-Problem Solving and FAQs
-------------------------
-
-- The most common problems and their solutions.
-- Answers to frequently asked questions about this module.
-
-Updates and Version Control
-----------------------------
-
-- How to update the module.
-- Version control practices.
-
-Attachments
------------
-
-- Screenshots and visual instructions.
-- Useful links and additional resources.

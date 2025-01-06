@@ -5,6 +5,7 @@ Introduction
 ------------
 
 - Since 2019-07-01, all legal entities that are VAT payers must submit the data of issued and received VAT invoice registers to VMI monthly by the 20th day of the following month. The register is called the iSAF declaration. The rules for filling in and submitting VAT invoice registers are approved by the VMI Order No. VA-55 dated 2004-04-21 "On the management of VAT invoice registers".
+- The main function of the iSAF report is to cross-check registered invoice data (issued and received) (customers/suppliers) in the VMI information system.
 
 Installation and Configuration
 -------------------------------
@@ -20,11 +21,6 @@ Installation and Configuration
 
   .. image:: isaf/img02.jpg
       :alt: Mandatory Tax Code
-
-Main Functions
---------------
-
-- The main function of the iSAF report is the cross-checking (clients/suppliers) of the data of registered invoices (issued and received) in the VMI information system
 
 Reports and Documentation
 -------------------------

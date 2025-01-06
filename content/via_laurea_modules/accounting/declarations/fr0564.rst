@@ -25,9 +25,6 @@ Installation and Configuration
 
   After verifying or entering the information, you can start registering VAT invoices, and after registering them, form the FR0564 declaration.
 
-Main Functions
---------------
-
 Daily Use Scenarios
 -------------------
 
@@ -61,24 +58,3 @@ For verification, print out the report:
 
   .. image:: fr0564/image07.jpg
       :alt: Print in PDF and xlsx format
-
-Integrations and Connections with Other Modules
------------------------------------------------
-
-Problem Solving and FAQs
-------------------------
-
-- The most common problems and their solutions.
-- Answers to frequently asked questions about this module.
-
-Updates and Version Control
-----------------------------
-
-- How to update the module.
-- Version control practices.
-
-Attachments
------------
-
-- Screenshots and visual instructions.
-- Useful links and additional resources.

@@ -4,7 +4,7 @@ Accounting note
 Introduction
 ------------
 
-- This report is designed to justify a financial operation, explaining why a General Ledger (GL) entry was created manually.
+This report is designed to justify a financial operation, explaining why a General Ledger (GL) entry was created manually.
 
 Installation and Configuration
 ------------------------------
@@ -15,21 +15,23 @@ Installation and Configuration
 Main Functions
 --------------
 
-- The accounting certificate is created within GL entries:
-  - Navigate to the main menu: Accounting -> Accounting -> GL Entries.
-  - Select the required entry, then Print -> Accounting Certificate.
+The accounting note is created within GL entries. Navigate to the main menu: Accounting -> Accounting -> GL Entries.
+
+Select the required entry, then Print -> Accounting Note.
 
   .. image:: accounting_note/image01.jpg
 
-- The printed Accounting Certificate will appear as follows:
+The printed Accounting Note will appear as follows:
 
   .. image:: accounting_note/image02.jpg
 
-- If you want to add a note or reason for creating the Accounting Certificate, you can enter it in the "Notes" field located in the second tab "Other Information" of the GL entry.
+If you want to add a note or reason for creating the Accounting Note, you can enter it in the "Notes" field located in the second tab "Other Information" of the GL entry.
 
   .. image:: accounting_note/image03.jpg
 
-- If needed, the certificate can also be printed from the list view in the standard way.
+If needed, the note can also be printed from the list view in the standard way.
+
+If you want the details of the director and accountant to be printed on the note, you can fill in the company executives (for more information, see the instructions Company Executives)
 
 Updates and Version Control
 ----------------------------

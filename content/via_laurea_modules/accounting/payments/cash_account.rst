@@ -20,17 +20,16 @@ In the opened window, select the period for which you want to print the cash_acc
 
 .. image:: cash_account/image02.jpg
 
-Monthly:
---------
+The monthly report looks like this when printed:
 
 .. image:: cash_account/image03.jpg
 
-One report per page:
----------------------
+A single report printed on one page looks like this:
 
 .. image:: cash_account/image04.jpg
 
-Two reports on one page:
--------------------------
+Two reports printed on one page look like this:
 
 .. image:: cash_account/image05.jpg
+
+The report is closely related to the functionality of KIO and KPO (see KIO-KPO numeration).

@@ -20,7 +20,7 @@ Installation and Configuration
 
 .. image:: invoice_registry/image01.jpg
 
-- In the tax environment, the tax code field is mandatory and must be filled in for all VAT taxes in the database.
+In the tax environment, the tax code field is mandatory and must be filled in for all VAT taxes in the database.
 
 Main Functions
 --------------
