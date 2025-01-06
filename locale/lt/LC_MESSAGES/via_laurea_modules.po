@@ -2523,8 +2523,8 @@ msgid ""
 "This report is designed to justify a financial operation, explaining why "
 "a General Ledger (GL) entry was created manually."
 msgstr ""
-"Šis pranešimas skirtas pagrįsti finansinę operaciją, paaiškinant, kodėl "
-"pagrindinės knygos (GL) įrašas buvo sukurtas rankiniu būdu."
+"Ataskaita skirta pagrįsti ūkinę operaciją, kodėl rankiniu būdu sukurtas "
+"didžiosios knygos (DK) įrašas."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:12
 msgid "**Module Installation**: The module `accounting_note` must be installed."
@@ -2539,43 +2539,42 @@ msgstr ""
 "nereikalingas."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:18
-#, fuzzy
+#
 msgid ""
 "The accounting note is created within GL entries. Navigate to the main "
 "menu: Accounting -> Accounting -> GL Entries."
 msgstr ""
-"Apskaitos sertifikatas sukuriamas per GL įrašus: - Pereikite į pagrindinį"
-" meniu: Apskaita -> Apskaita -> GL įrašai. - Pasirinkite reikiamą įrašą, "
-"tada Spausdinti -> Apskaitos sertifikatas."
+"Buhalterinė pažyma kuriama DK įrašuose. Pasirenkame pagrindinį "
+"meniu - Apskaita -> apskaita -> DK įrašai."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:20
 msgid "Select the required entry, then Print -> Accounting Note."
-msgstr ""
+msgstr "Pasirenkame reikiamą įrašą - Spausdinti -> Buhalterinė pažyma."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:24
-#, fuzzy
+#
 msgid "The printed Accounting Note will appear as follows:"
-msgstr "Atspausdintas buhalterijos pažymėjimas atrodys taip:"
+msgstr "Atsispausdinus Buhalterinės pažyma atrodys taip:"
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:28
-#, fuzzy
+#
 msgid ""
 "If you want to add a note or reason for creating the Accounting Note, you"
 " can enter it in the \"Notes\" field located in the second tab \"Other "
 "Information\" of the GL entry."
 msgstr ""
-"Jei norite pridėti pastabą ar priežastį, kodėl kuriate apskaitos "
-"sertifikatą, galite ją įvesti į „Pastabų“ laukelį, esantį antrame "
-"skirtuke „Kita informacija“ GL įraše."
+"Jeigu norite įrašyti pastabą ar priežastį, kodėl sukurta Buhalterinė "
+"pažyma, galima įrašyti į pastabos lauką esantį DK įrašo "
+"antroje kortelėje \"Kita informacija\"."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:32
-#, fuzzy
+#
 msgid ""
 "If needed, the note can also be printed from the list view in the "
 "standard way."
 msgstr ""
-"Jei reikia, ataskaita apie atliekas taip pat gali būti atspausdinta iš "
-"sąrašo rodinio įprastu būdu."
+"Esant poreikiui, pažymą galima spausdinti ir iš sąrašo vaizdo, "
+"standartiniu būdu."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:34
 msgid ""
@@ -2583,6 +2582,9 @@ msgid ""
 "the note, you can fill in the company executives (for more information, "
 "see the instructions Company Executives)"
 msgstr ""
+"Jeigu norite, kad pažymoje spausdintų direktoriaus ir buhalterio "
+"duomenis, galima užpildyti įmonės vadovus, (plačiau žr. instrukciją "
+"Įmonės vadovai)."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:39
 msgid "**Module Updates**: Information on how to update the module."
@@ -2639,10 +2641,10 @@ msgid ""
 "debug mode). It is not mandatory to fill in this parameter; the report "
 "will work even if the parameter is not filled."
 msgstr ""
-"Ataskaita pagrįsta sąskaitų grupėmis, todėl galite įvesti sąskaitų grupes"
-" parametre \"Buhalterija >> Konfigūracija >> Sąskaitų grupės\" (matoma "
-"derinimo režimu). Užpildyti šį parametrą nėra būtina; ataskaita veiks net"
-" jei parametras nebus užpildytas."
+"Ataskaita remiasi sąskaitų grupėmis, todėl galima suvesti sąskaitų grupes "
+"parametre Apskaita >> Konfigūracija >> Sąskaitų grupės "
+"(matoma debug režimu). Parametrą nėra būtina užpildyti, ataskaita "
+"veiks ir neužpildžius parametro."
 
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:15
 msgid ""
@@ -2737,7 +2739,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:2
 msgid "Invoice Registry"
-msgstr "Sąskaitų registras"
+msgstr "Sąskaitų faktūrų registro ataskaita"
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:7
 msgid ""
@@ -2762,16 +2764,16 @@ msgid ""
 "From October 1, 2016, VAT invoice registers (received and issued) are in "
 "a free-form report format."
 msgstr ""
-"Nuo 2016 m. spalio 1 d. PVM sąskaitų faktūrų registrai (gautieji ir "
-"išrašytieji) yra laisvos formos ataskaitos formate."
+"Nuo 2016 spalio 1 d. PVM sąskaitų faktūrų registrai (gaunamų ir išrašomų) "
+"yra laisvos formos ataskaita."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:10
 msgid ""
 "Documents in the received VAT invoice register are registered by their "
 "receipt date."
 msgstr ""
-"Dokumentai gauti PVM sąskaitų faktūrų registre registruojami pagal jų "
-"gavimo datą."
+"Gaunamų PVM sąskaitų faktūrų registre dokumentai registruojami jų "
+"gavimo data."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:11
 msgid ""
@@ -2780,11 +2782,11 @@ msgid ""
 "be registered in the issued VAT invoice register, except for VAT invoices"
 " for non-taxable financial services."
 msgstr ""
-"Visos PVM sąskaitos faktūros už prekių ir (ar) paslaugų tiekimą bei "
-"avansiniai PVM sąskaitos faktūros, išduotos PVM mokėtojo per mokestinį "
-"laikotarpį, turi būti registruojamos išduotų PVM sąskaitų faktūrų "
-"registre, išskyrus PVM sąskaitas faktūras už neapmokestinamas finansines "
-"paslaugas."
+"Išrašomų PVM sąskaitų faktūrų registre turi būti registruojamos visos per "
+"mokestinį laikotarpį PVM mokėtojo išrašytos prekių tiekimo ir (ar) "
+"paslaugų teikimo bei avanso gavimo PVM sąskaitos faktūros, "
+"išskyrus PVM neapmokestinamų finansinių paslaugų suteikimo PVM "
+"sąskaitas faktūras."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:18
 msgid "Install the modules `l10n_lt_invoice_registry` and `l10n_lt_tax_code`."
@@ -2797,16 +2799,16 @@ msgid ""
 "Configuration -> Taxes."
 msgstr ""
 "Konfigūravimui turite nustatyti Valstybinės mokesčių inspekcijos (VMI) "
-"patvirtintus PVM klasifikatoriaus kodus: Pasirinkite pagrindinį meniu - "
-"Apskaita -> Konfigūracija -> Mokesčiai"
+"patvirtintus PVM klasifikatoriaus kodus: Pasirenkame modulį Apskaita -> "
+"Konfiguracija -> Mokesčiai."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:23
 msgid ""
 "In the tax environment, the tax code field is mandatory and must be "
 "filled in for all VAT taxes in the database."
 msgstr ""
-"Mokesčių aplinkoje mokesčių kodo laukas yra privalomasir turi buti "
-"užpildyti visi PVM mokesčiams duomenų bazėje."
+"Mokesčių parametre mokesčio kodas yra privalomas laukas, jį "
+"reikia užpildyti visiems duomenų bazėje esantiems PVM mokesčiams."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:28
 msgid ""
@@ -2825,17 +2827,16 @@ msgid ""
 "**Date Range** - select the period for which you want to generate the "
 "report; specify the dates from and to. Mandatory to fill in."
 msgstr ""
-"**Datos intervalas** - pasirinkite laikotarpį, kuriam norite sugeneruoti "
-"ataskaitą; nurodykite pradžios ir pabaigos datas. Privaloma užpildyti."
+"**Datos rėžis** - pasirenkame, kokio periodo ataskaitą norime suformuoti; "
+"nurodomos datos nuo ir iki."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:35
 msgid ""
 "**Invoice Type** - specify whether you will generate a report for "
 "received (purchase) or issued (sales) invoices. Mandatory to fill in."
 msgstr ""
-"**Sąskaitos faktūros tipas** - nurodykite, ar ruošiatės generuoti "
-"ataskaitą gautoms (pirkimo), ar išrašytoms (pardavimo) sąskaitoms "
-"faktūroms. Privaloma užpildyti."
+"**Sąskaitų tipas** - kurią ataskaitą formuosime, gaunamų (pirkimas) "
+"ar išrašomų (pardavimas)."
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:39
 msgid ""
@@ -2880,7 +2881,7 @@ msgstr "Modulis atnaujinamas su kiekviena nauja Odoo versija."
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:2
 msgid "Mutual Reconciliation Act"
-msgstr "Savitarpio Taikos Aktas"
+msgstr "Tarpusavio skolų suderinimo aktas"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:7
 msgid ""
@@ -2890,24 +2891,26 @@ msgid ""
 "specific partner/client, you can find this report in the Accounting "
 "module by selecting Reports/Partner Ledger."
 msgstr ""
-"Abipusio skolų suderinimo aktai (EUR) gali būti sudaryti detaliai - su "
-"visais sandoriais, arba apibendrintai - įtraukiant tik bendrą nurodyto "
-"laikotarpio rezultatą. Norėdami sugeneruoti suderinimo aktą konkrečiam "
-"partneriui/klientui, galite rasti šią ataskaitą apskaitos modulyje, "
-"pasirinkdami Ataskaitos/Partnerio sąskaita."
+"Tarpusavio skolų suderinimo aktai (Eur) gali būti formuojamas detalūs - su "
+"visomis vykusiomis operacijomis, arba suminiai - įtraukiant tik bendrą "
+"suminį nurodyto periodo rezultatą. Norint formuoti suderinimo aktą konkrečiam "
+"partneriui/klientui, šią ataskaitą rasite Apskaitos modulyje pasirinkę -> "
+"Ataskaitos -> Partnerio didžioji knyga."
 
 msgid "Reports/Partner Ledger"
 msgstr "Ataskaitos / Partnerių knyga"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:15
-#, fuzzy
+#
 msgid "**2.1. Printing a Detailed Mutual Debt Reconciliation Act:**"
-msgstr "### Išsamus Abipusio Skolos Sutikrinimo Akto Spausdinimas:"
+msgstr "**2.1. Detalaus tarpusavio skolų suderinimo akto spausdinimas:**"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:17
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:30
 msgid "In the partner ledger list, click the \"Debt Reconciliation Act\" button."
-msgstr "Partnerių apskaitos sąraše spustelėkite mygtuką „Skolų suderinimo aktas“."
+msgstr ""
+"Partnerių didžiosios knygos sąraše spauskite mygtuką „Skolų suderinimo aktas“. "
+"arba „Valiutinis skolų suderinimo aktas“."
 
 msgid "Debt Reconciliation Act button"
 msgstr "Skolos suderinimo įstatymo mygtukas"
@@ -2918,17 +2921,18 @@ msgid ""
 "period. Check the \"Expand lines\" box. Click the \"Print PDF\" button. "
 "This will generate a file in PDF format."
 msgstr ""
-"Atsidariusiame lange pasirinkite partnerį, laikotarpio pradžios ir "
-"pabaigos datas. Pažymėkite langelį „Išskleisti eilutes“. Spauskite "
-"mygtuką „Spausdinti PDF“. Tai sugeneruos failą PDF formatu."
+"Atsidariusiame lange pasirinkite partnerį, periodo pradžios bei pabaigos datas. "
+"Pasirinkite žymą „Išskleisti eilutes“. Spausdinant valiutinį suderinimo aktą "
+"galima parinkti valiutą arba neparinkti nieko, tokiu atveju atspausdins "
+"suderinimo aktą visomis valiutomis."
 
 msgid "Expand lines and Print PDF"
 msgstr "Išplėskite eilutes ir spausdinkite PDF."
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:28
-#, fuzzy
+#
 msgid "**2.2. Printing a Summary Mutual Debt Reconciliation Act:**"
-msgstr "### Spausdinti santrauką apie Tarpusavio Skolų Sutaikymo Aktą:"
+msgstr "**2.2. Suminio tarpusavio skolų suderinimo akto spausdinimas:**"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:35
 msgid ""
@@ -2944,9 +2948,9 @@ msgid "Summary Print PDF"
 msgstr "Santrauka Spausdinti PDF"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:41
-#, fuzzy
+#
 msgid "**2.3. Printing Reconciliation Acts for Multiple Partners in a Batch:**"
-msgstr "### Daugelio partnerių atsiskaitymo aktų spausdinimas vienu metu:"
+msgstr "**2.3. Keletos partnerių suderinimo aktų spausdinimas kartu:**"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:43
 msgid ""
@@ -2957,27 +2961,27 @@ msgid ""
 "reconciliation acts for all your selected partners will be generated "
 "sequentially."
 msgstr ""
-"Šis metodas naudojamas, kai reikia vienu metu spausdinti sutaikymo aktus "
-"keliems partneriams. Tokiu atveju pakartokite visus aukščiau aprašytus "
-"žingsnius pagal savo poreikius. Partnerių lauke pasirinkite kelis "
-"reikalingus partnerius iš sąrašo. Bus sugeneruotas vienas PDF failas su "
-"sutaikymo aktais visiems pasirinktiems partneriams pagal eilę."
+"Šis būdas naudojamas, kai reikalinga atspausdinti suderinimo "
+"aktus keletui partnerių vienu metu. Tokiu atveju kartokite visus žingsnius, "
+"aprašytus aukščiau, pagal Jūsų poreikius. Partnerio skiltyje pasirinkite "
+"keletą reikalingų partnerių iš sąrašo. Jums bus suformuotas vienas PDF "
+"failas su visų Jūsų pasirinktų partnerių suderinimo aktais paeiliui."
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:45
 msgid "**2.4. Printing the reconciliation report from a contact:**"
-msgstr ""
+msgstr "**2.4. Suderinimo akto spausdinimas iš kontakto:**"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:47
-#, fuzzy
+#
 msgid ""
 "You can also access the partner's general ledger directly from the "
 "Contacts module. In the Contacts module, select the required partner, go "
 "to their card, and select Print -> \"Debt reconciliation statement\" or "
 "\"Currency debt reconciliation statement\"."
 msgstr ""
-"Pastaba: Partnerio didžiąją knygą galite pasiekti tiesiogiai iš kontaktų "
-"modulio. Kontaktų modulyje pasirinkite reikalingą partnerį, eikite į jo "
-"kortelę ir pasirinkite mygtuką „Daugiau“ -> „Partnerio didžioji knyga“."
+"Partnerio didžiąją knygą galite pasiekti ir tiesiai iš Kontaktų modulio. Kontaktų "
+"modulyje pasirinkite reikiamą partnerį, įeikite į jo kortelę ir "
+"pasirinkite Spausdinti -> „Skolų suderinimo aktas“ arba „Valiutinis skolų suderinimo aktas“."
 
 msgid "Partner Ledger from Contacts module"
 msgstr "Partnerių knyga iš Kontaktų modulio"
