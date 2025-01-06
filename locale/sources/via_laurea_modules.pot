@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-30 14:55+0000\n"
+"POT-Creation-Date: 2025-01-06 14:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,6 +43,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:5
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:5
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:5
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:5
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:9
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:5
@@ -63,30 +64,30 @@ msgid "2. Installation and Configuration"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:12
-msgid "Before starting to work with transactions involving accountable persons, check the settings: Settings -> Accountable Persons"
+msgid "Before you start registering transactions with accountable persons, you need to check the settings: Accounting -> Configuration -> Settings -> Accountable persons."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:None
 msgid "Accessing accountable persons settings"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:18
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:17
 msgid "Assign an accountable persons journal and an account."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:19
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:18
 msgid "Regardless of how many accountable persons there are, all entries are recorded in one general ledger account."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:21
 msgid "3. Daily Usage Scenarios"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:23
-msgid "When an accountable person pays an invoice:"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
+msgid "**When an accountable person pays an invoice:**"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:25
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:24
 msgid "Find and open the required invoice and click \"Register Payment\"."
 msgstr ""
 
@@ -94,47 +95,51 @@ msgstr ""
 msgid "Invoice payment registration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:30
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:29
 msgid "A new window opens where you need to:"
 msgstr ""
 
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:31
+msgid "Choose the journal for accountable persons;"
+msgstr ""
+
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:32
-msgid "Choose the journal for accountable persons"
+msgid "Select manual payment method;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:33
-msgid "Select manual payment method"
+msgid "Choose the employee who made the payment;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:34
-msgid "Choose the employee who made the payment"
+msgid "Enter the amount paid;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:35
-msgid "Enter the amount paid"
+msgid "Specify the invoice date, which is the date of payment (check);"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:36
-msgid "Specify the invoice date, which is the date of payment (check)"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:37
-msgid "Optionally specify which invoice is being paid"
+msgid "Optionally specify which invoice is being paid;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:0
 msgid "Payment details entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:42
-msgid "Click \"Create Payment\". All payments can be viewed under Clients (or Suppliers) -> Payments, after removing filters."
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:41
+msgid "Click \"Create payment\". We can see all payments under Customers (or Suppliers) -> Payments -> remove filters."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:44
-msgid "Issuing cash to an accountable person from the cash register:"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:43
+msgid "By clicking \"New\" here, you can also create a payment for the accountable person."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:46
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:45
+msgid "**Issuing cash to an accountable person from the cash register:**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:47
 msgid "At the suppliers/clients payment list, click \"New\"."
 msgstr ""
 
@@ -142,56 +147,55 @@ msgstr ""
 msgid "Issuing cash from the cash register"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:51
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:52
 msgid "A new window opens where you specify:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:53
-msgid "Payment type: Send (when issuing from the cash register) or Receive (when depositing into the cash register)"
-msgstr ""
-
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
-msgid "Employee to whom the cash is issued"
+msgid "Payment type: Send (when issuing from the cash register) or Receive (when depositing into the cash register);"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
-msgid "Amount issued"
+msgid "Employee to whom the cash is issued;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
-msgid "Date of cash issuance"
+msgid "Amount issued;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
-msgid "KIO/KPO number, which is automatically assigned (ensure the sequence is set in Accounting -> Configuration -> Sequences)"
+msgid "Date of cash issuance;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
-msgid "Who is responsible for the cash operations"
+msgid "KIO/KPO number, which is automatically assigned (ensure the sequence is set in Accounting -> Configuration -> Sequences);"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:59
-msgid "Purpose of the cash issuance"
+msgid "KIO/KPO responsible - indicates who is responsible for cash transactions;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:60
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:83
-msgid "Journal - Cash (or can be, for example, a cash register, depending on the name of the journal for Cash transactions)"
+msgid "Reminder - the purpose of the cash issuance;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:61
+msgid "Journal - Cash (or can be, for example, a cash register, depending on the name of the journal for Cash transactions)."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:0
 msgid "Cash issuance details"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:65
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:66
 msgid "Check account correspondences by clicking \"Journal Entry\". If all is well, confirm the transaction."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:67
-msgid "Depositing cash into the cash register:"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:68
+msgid "**Depositing cash into the cash register:**"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:69
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:70
 msgid "Navigate to Clients -> Payments -> New."
 msgstr ""
 
@@ -199,43 +203,47 @@ msgstr ""
 msgid "Depositing cash into the cash register"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:74
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:75
 msgid "Specify:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:76
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
 msgid "Payment type: Receive"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
 msgid "Employee who is depositing the cash"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
 msgid "Amount being deposited"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
 msgid "Date of deposit"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
 msgid "Automatically assigned KIO/KPO number (verify the sequence setting)"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
 msgid "Responsible for KIO/KPO - indicate who is responsible for cash register operations"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:83
 msgid "Reminder - record the purpose of issuing money"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
-msgid "Payment method - Manual"
+msgid "Journal - Cash (or can be, for example, a cash register, depending on the name of the journal for Cash transactions)"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:85
+msgid "Payment method - Manual"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:87
 msgid "You may also check the Journal entries before confirming the transaction."
 msgstr ""
 
@@ -243,39 +251,45 @@ msgstr ""
 msgid "Cash deposit details"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:90
-msgid "Bank transfer to an accountable person:"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:92
+msgid "**Bank transfer to an accountable person:**"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:92
-msgid "Typically, bank statements are imported or synchronized, showing the transfer operation."
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:94
+msgid "Typically, bank statements are imported or synchronized, showing the transfer operation:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:96
+msgid "Row no. 1 - formed from a bank statement"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:97
+msgid "Row no. 2 - the system tries to automatically find what the order was made for"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:98
+msgid "Through manual closing, select which employee the order was made to"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:99
+msgid "Click Confirm"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:0
 msgid "Viewing bank transfer operations"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:97
-msgid "Row no. 1 - formed from a bank statement"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:98
-msgid "Row no. 2 - the system tries to automatically find what the order was made for"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:99
-msgid "Through manual closing, select which employee the order was made to"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:100
-msgid "Click Confirm"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:103
-msgid "1. Reports and Documentation"
-msgstr ""
-
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:104
+msgid "You can view the accountable persons entries in Accounting -> Accounting -> Ledger lines."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:107
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
+msgid "4. Reports and Documentation"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:108
 msgid "For the selected period, you can print the accountable person's Advance Report:"
 msgstr ""
 
@@ -287,19 +301,19 @@ msgstr ""
 msgid "Additional instructions and resources"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:111
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:115
 msgid "Date range: Select the period for the report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:112
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:116
 msgid "Employee: Choose who the report is for"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:113
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:117
 msgid "Number: Assign a number for the report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:115
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:119
 msgid "Print the advance report."
 msgstr ""
 
@@ -329,7 +343,6 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:5
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:5
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:5
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:5
@@ -347,7 +360,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:10
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:9
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:10
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:11
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:10
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:11
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:12
@@ -365,11 +378,11 @@ msgid "Installation and Configuration"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:12
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:12
 msgid "Before starting work with the Odoo system, when VAT invoices will start to be registered, it is necessary to configure the taxes: 1. Module Accounting -> Configuration -> Taxes"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:None
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:14
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:None
 msgid "Module Accounting -> Configuration -> Taxes"
 msgstr ""
@@ -393,21 +406,7 @@ msgid "After verifying or entering the information, you can start registering VA
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:29
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:29
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:25
-#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:27
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:34
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:19
-#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:33
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:16
-#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:13
-#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:26
-#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:38
-msgid "Main Functions"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:32
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:32
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:30
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:13
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:51
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:42
@@ -417,7 +416,6 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:13
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:30
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:47
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:13
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:86
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:14
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:13
@@ -429,31 +427,31 @@ msgstr ""
 msgid "Daily Use Scenarios"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:34
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:31
 msgid "Having all purchase and sales VAT invoices registered for the period for which you want to form and submit the VAT declaration FR0564:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:36
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:33
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:0
 msgid "Reports -> FR0564"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:41
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:41
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:38
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:37
 msgid "In the opened window, select:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:43
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:43
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:40
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:39
 msgid "Date range - for which period you want to form the declaration;"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:44
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:41
 msgid "Add additional sheets FR0564R and FR0564T if needed;"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:45
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:47
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:42
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:43
 msgid "Click Generate declaration file"
 msgstr ""
 
@@ -462,21 +460,20 @@ msgstr ""
 msgid "Generate declaration file"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:50
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:52
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:47
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:48
 msgid "After generating the declaration file, it can be submitted directly to VMI."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:53
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:55
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:30
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:50
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:26
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:58
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:23
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:34
 msgid "Reports and Documentation"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:55
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:52
 msgid "For verification, print out the report:"
 msgstr ""
 
@@ -484,79 +481,12 @@ msgstr ""
 msgid "Print out the report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:60
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:62
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:57
 msgid "In the opened window, you can select the date for which you want to see the information. Print it in PDF and xlsx format."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:0
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:0
 msgid "Print in PDF and xlsx format"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:66
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:69
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:85
-#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:39
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:46
-#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
-#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:63
-msgid "Integrations and Connections with Other Modules"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:69
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:72
-msgid "Problem Solving and FAQs"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:71
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:74
-msgid "The most common problems and their solutions."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:72
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:75
-msgid "Answers to frequently asked questions about this module."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:75
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:78
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:94
-#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:45
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:36
-#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:65
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:35
-#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:52
-#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:120
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:45
-msgid "Updates and Version Control"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:77
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:80
-msgid "How to update the module."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:78
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:81
-msgid "Version control practices."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:81
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:84
-msgid "Attachments"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:83
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:86
-msgid "Screenshots and visual instructions."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:84
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:87
-msgid "Useful links and additional resources."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:2
@@ -571,41 +501,36 @@ msgstr ""
 msgid "For the FR0600 declaration, an additional module is required/not required to be installed."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:21
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:12
+msgid "Before starting work with the Odoo system, when VAT invoices will start to be registered, it is necessary to configure the taxes:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:22
 msgid "When opening the settings of the selected tax, check (or fill in) the Tax Grids fields, according to which the FR0600 declaration will be formed:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:26
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:27
 msgid "After verifying or entering the information, you can start registering VAT invoices, and after registering them, form the FR0600 declaration."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:34
-msgid "Having all purchase and sales VAT invoices registered for the period for which you want to form and submit the VAT declaration FR0600:"
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:32
+msgid "Once you have all purchase and sales VAT invoices registered for the period for which you want to form and submit the VAT declaration FR0600, select Accounting >> Reports >> FR600 declaration."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:36
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:0
 msgid "Reports -> FR0600"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:44
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:40
 msgid "Status - you can form the declaration as Initial or Corrected;"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:45
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:41
 msgid "Type - usually \"Regular financial period\";"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:46
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:42
 msgid "VAT report percentage - 100;"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:57
-msgid "The report can be printed via Reports -> Tax Report:"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:0
-msgid "Reports -> Tax Report"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:2
@@ -796,11 +721,15 @@ msgstr ""
 msgid "Since 2019-07-01, all legal entities that are VAT payers must submit the data of issued and received VAT invoice registers to VMI monthly by the 20th day of the following month. The register is called the iSAF declaration. The rules for filling in and submitting VAT invoice registers are approved by the VMI Order No. VA-55 dated 2004-04-21 \"On the management of VAT invoice registers\"."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:12
-msgid "Install the module (technical name) - l10n_lt_isaf"
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:8
+msgid "The main function of the iSAF report is to cross-check registered invoice data (issued and received) (customers/suppliers) in the VMI information system."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:13
+msgid "Install the module (technical name) - l10n_lt_isaf"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:14
 msgid "For configuration, you need to set the VAT classifier codes approved by the State Tax Inspectorate (VMI): Select the main menu - Accounting -> Configuration -> Taxes"
 msgstr ""
 
@@ -808,7 +737,7 @@ msgstr ""
 msgid "Main menu - Accounting -> Configuration -> Taxes"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:19
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:20
 msgid "In the tax environment, the Tax code is mandatory"
 msgstr ""
 
@@ -816,11 +745,7 @@ msgstr ""
 msgid "Mandatory Tax Code"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:27
-msgid "The main function of the iSAF report is the cross-checking (clients/suppliers) of the data of registered invoices (issued and received) in the VMI information system"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:32
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:28
 msgid "Before generating iSAF, data verification is recommended. Main menu - Reports -> Invoice registers"
 msgstr ""
 
@@ -828,7 +753,7 @@ msgstr ""
 msgid "Main menu - Reports -> Invoice registers"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:38
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:34
 msgid "The reporting period date (month), purchases/sales are shown separately, and VAT information is also highlighted"
 msgstr ""
 
@@ -836,7 +761,7 @@ msgstr ""
 msgid "Reporting period date - purchases/sales and VAT information"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:43
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:39
 msgid "The generated report shows ALL and non-declared data"
 msgstr ""
 
@@ -844,11 +769,11 @@ msgstr ""
 msgid "Generated report showing all and non-declared data"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:49
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:45
 msgid "iSAF Generation"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:51
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:47
 msgid "Main menu - i.MAS -> i.SAF to create a new report"
 msgstr ""
 
@@ -856,7 +781,7 @@ msgstr ""
 msgid "Main menu - i.MAS -> i.SAF new report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:56
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:52
 msgid "The reporting period (month), the type of register (registered invoices) can be selected, by report (all, supplier or invoices)"
 msgstr ""
 
@@ -864,7 +789,7 @@ msgstr ""
 msgid "Reporting period and register type selection"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:61
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:57
 msgid "For example: Register type - All -> (save button) -> Automatically collect invoices"
 msgstr ""
 
@@ -872,7 +797,7 @@ msgstr ""
 msgid "Automatically collect invoices"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:66
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:62
 msgid "Automatically generated invoice register to be formed into an XML file"
 msgstr ""
 
@@ -880,7 +805,7 @@ msgstr ""
 msgid "Form into XML file"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:71
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:67
 msgid "Download the generated report"
 msgstr ""
 
@@ -888,7 +813,7 @@ msgstr ""
 msgid "Download report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:76
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:72
 msgid "and send"
 msgstr ""
 
@@ -900,11 +825,21 @@ msgstr ""
 msgid "Report sent"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:87
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:81
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:39
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:46
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:63
+msgid "Integrations and Connections with Other Modules"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:83
 msgid "How this module integrates with other Odoo modules or external systems."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:88
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:84
 msgid "Special integration instructions, if needed."
 msgstr ""
 
@@ -1080,6 +1015,17 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:91
 msgid "**Important**: If you select multiple assets in this form, a single document will be generated, and all the written-off items will be listed in the table in the appendix."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:94
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:45
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:36
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:65
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:37
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:52
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:120
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:45
+msgid "Updates and Version Control"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:96
@@ -1289,11 +1235,6 @@ msgstr ""
 msgid "Integration with other modules"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
-msgid "4. Reports and Documentation"
-msgstr ""
-
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:116
 msgid "A fuel write-off report can be printed in the fuel accounting module."
 msgstr ""
@@ -1344,6 +1285,17 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:21
 msgid "In the **Accountants' History** section, select the accountant from the contact list. The job title must be specified in the contact's form, in the job title field."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:27
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:34
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:19
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:33
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:16
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:13
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:26
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:38
+msgid "Main Functions"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:29
@@ -1587,7 +1539,7 @@ msgid "Payments"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:2
-msgid "KIO-KPO Numeration"
+msgid "KIO-KPO numeration"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:7
@@ -1671,6 +1623,7 @@ msgid "You can print the cash_account book through Reports -> Cash Journal."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:12
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:13
 msgid "2. Daily Use Scenarios"
 msgstr ""
 
@@ -1694,16 +1647,20 @@ msgstr ""
 msgid "The report is printed only in PDF."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:24
-msgid "Monthly:"
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:23
+msgid "The monthly report looks like this when printed:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:29
-msgid "One report per page:"
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:27
+msgid "A single report printed on one page looks like this:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:34
-msgid "Two reports on one page:"
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:31
+msgid "Two reports printed on one page look like this:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:35
+msgid "The report is closely related to the functionality of KIO and KPO (see KIO-KPO numeration)."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:2
@@ -1759,26 +1716,34 @@ msgid "**Configuration**: The installed module does not require additional confi
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:18
-msgid "The accounting certificate is created within GL entries: - Navigate to the main menu: Accounting -> Accounting -> GL Entries. - Select the required entry, then Print -> Accounting Certificate."
+msgid "The accounting note is created within GL entries. Navigate to the main menu: Accounting -> Accounting -> GL Entries."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:20
+msgid "Select the required entry, then Print -> Accounting Note."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:24
-msgid "The printed Accounting Certificate will appear as follows:"
+msgid "The printed Accounting Note will appear as follows:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:28
-msgid "If you want to add a note or reason for creating the Accounting Certificate, you can enter it in the \"Notes\" field located in the second tab \"Other Information\" of the GL entry."
+msgid "If you want to add a note or reason for creating the Accounting Note, you can enter it in the \"Notes\" field located in the second tab \"Other Information\" of the GL entry."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:32
-msgid "If needed, the certificate can also be printed from the list view in the standard way."
+msgid "If needed, the note can also be printed from the list view in the standard way."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:37
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:34
+msgid "If you want the details of the director and accountant to be printed on the note, you can fill in the company executives (for more information, see the instructions Company Executives)"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:39
 msgid "**Module Updates**: Information on how to update the module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:38
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:40
 msgid "**Version Control Practices**: Information on version control practices."
 msgstr ""
 
@@ -1952,7 +1917,7 @@ msgid "Reports/Partner Ledger"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:15
-msgid "### Printing a Detailed Mutual Debt Reconciliation Act:"
+msgid "**2.1. Printing a Detailed Mutual Debt Reconciliation Act:**"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:17
@@ -1975,7 +1940,7 @@ msgid "Expand lines and Print PDF"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:28
-msgid "### Printing a Summary Mutual Debt Reconciliation Act:"
+msgid "**2.2. Printing a Summary Mutual Debt Reconciliation Act:**"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:35
@@ -1987,7 +1952,7 @@ msgid "Summary Print PDF"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:41
-msgid "### Printing Reconciliation Acts for Multiple Partners in a Batch:"
+msgid "**2.3. Printing Reconciliation Acts for Multiple Partners in a Batch:**"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:43
@@ -1995,14 +1960,18 @@ msgid "This method is used when you need to print reconciliation acts for severa
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:45
-msgid "Note: You can also access the partner ledger directly from the Contacts module. In the Contacts module, select the required partner, go to their card, and select the \"More\" button \"Partner Ledger.\""
+msgid "**2.4. Printing the reconciliation report from a contact:**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:47
+msgid "You can also access the partner's general ledger directly from the Contacts module. In the Contacts module, select the required partner, go to their card, and select Print -> \"Debt reconciliation statement\" or \"Currency debt reconciliation statement\"."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:None
 msgid "Partner Ledger from Contacts module"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:50
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:52
 msgid "In the opened form, you can choose the \"Debt Reconciliation Act\" button and follow the previously described instructions for the printing form."
 msgstr ""
 

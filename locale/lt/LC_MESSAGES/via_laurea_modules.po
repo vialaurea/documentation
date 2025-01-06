@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-30 14:55+0000\n"
+"POT-Creation-Date: 2025-01-06 14:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -54,6 +54,7 @@ msgstr "Atsakingi asmenys"
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:5
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:5
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:5
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:5
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:9
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:5
@@ -78,9 +79,11 @@ msgid "2. Installation and Configuration"
 msgstr "2. Diegimas ir konfigūracija"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:12
+#, fuzzy
 msgid ""
-"Before starting to work with transactions involving accountable persons, "
-"check the settings: Settings -> Accountable Persons"
+"Before you start registering transactions with accountable persons, you "
+"need to check the settings: Accounting -> Configuration -> Settings -> "
+"Accountable persons."
 msgstr ""
 "Prieš pradedant registruoti operacijas su atskaitingais asmenimis, reikia"
 " pasitikrinti nustatymus: Nustatymai -> Atskaitingi asmenys."
@@ -88,11 +91,11 @@ msgstr ""
 msgid "Accessing accountable persons settings"
 msgstr "Pasiekiama atsakingų asmenų nustatymai"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:18
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:17
 msgid "Assign an accountable persons journal and an account."
 msgstr "Priskiriamas atskaitingų asmenų žurnalas."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:19
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:18
 msgid ""
 "Regardless of how many accountable persons there are, all entries are "
 "recorded in one general ledger account."
@@ -100,15 +103,16 @@ msgstr ""
 "Priskiriama atskaitingų asmenų sąskaita (nesvarbu, kiek įmonėje būtų "
 "atskaitingų asmenų, visi įrašai registruojasi vienoje DK sąskaitoje)."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:21
 msgid "3. Daily Usage Scenarios"
 msgstr "3. Kasdieniai naudojimo scenarijai"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:23
-msgid "When an accountable person pays an invoice:"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:22
+#, fuzzy
+msgid "**When an accountable person pays an invoice:**"
 msgstr "Kai atskaitingas asmuo apmoka sąskaitą:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:25
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:24
 msgid "Find and open the required invoice and click \"Register Payment\"."
 msgstr ""
 "susiradus ir atsidarius reikiamą sąskaitą, spaudžiame \"Užregistruoti "
@@ -118,53 +122,67 @@ msgstr ""
 msgid "Invoice payment registration"
 msgstr "Sąskaitos apmokėjimo registracija"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:30
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:29
 msgid "A new window opens where you need to:"
 msgstr "Atsidaro naujas langas, kuriame reikia:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:32
-msgid "Choose the journal for accountable persons"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:31
+#, fuzzy
+msgid "Choose the journal for accountable persons;"
 msgstr "Žurnalas - atskaitingi asmenys"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:33
-msgid "Select manual payment method"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:32
+#, fuzzy
+msgid "Select manual payment method;"
 msgstr "Pasirinkite rankinio mokėjimo būdą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:34
-msgid "Choose the employee who made the payment"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:33
+#, fuzzy
+msgid "Choose the employee who made the payment;"
 msgstr "Pasirinkite darbuotoją, kuris atliko mokėjimą."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:35
-msgid "Enter the amount paid"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:34
+#, fuzzy
+msgid "Enter the amount paid;"
 msgstr "Įveskite sumokėtą sumą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:36
-msgid "Specify the invoice date, which is the date of payment (check)"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:35
+#, fuzzy
+msgid "Specify the invoice date, which is the date of payment (check);"
 msgstr "Nurodykite sąskaitos-faktūros datą, kuri yra mokėjimo (čekio) data."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:37
-msgid "Optionally specify which invoice is being paid"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:36
+#, fuzzy
+msgid "Optionally specify which invoice is being paid;"
 msgstr "Priminimas - galima nurodyti kokią Sąskaitą faktūrą apmokama;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
 msgid "Payment details entry"
 msgstr "Mokėjimo duomenų įvedimas"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:42
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:41
+#, fuzzy
 msgid ""
-"Click \"Create Payment\". All payments can be viewed under Clients (or "
-"Suppliers) -> Payments, after removing filters."
+"Click \"Create payment\". We can see all payments under Customers (or "
+"Suppliers) -> Payments -> remove filters."
 msgstr ""
 "Spustelėkite „Sukurti mokėjimą“. Visus mokėjimus galime pamatyti prie "
 "Klientai (arba Tiekėjai) -> Mokėjimai -> nuimti filtrus. Šioje vietoje "
 "paspaudus \"Naujas\" taip pat galima sukurti atskaitingo asmens "
 "apmokėjimą."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:44
-msgid "Issuing cash to an accountable person from the cash register:"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:43
+msgid ""
+"By clicking \"New\" here, you can also create a payment for the "
+"accountable person."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:45
+#, fuzzy
+msgid "**Issuing cash to an accountable person from the cash register:**"
 msgstr "Grynųjų pinigų išdavimas atskaitingam asmeniui iš kasos:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:46
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:47
 msgid "At the suppliers/clients payment list, click \"New\"."
 msgstr "Tiekėjų/klientų mokėjimų sąraše spustelėkite „Naujas“."
 
@@ -172,52 +190,59 @@ msgstr "Tiekėjų/klientų mokėjimų sąraše spustelėkite „Naujas“."
 msgid "Issuing cash from the cash register"
 msgstr "Grynųjų pinigų išdavimas iš kasos aparato"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:51
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:52
 msgid "A new window opens where you specify:"
 msgstr "Atsidaro naujas langas, kuriame nurodote:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:53
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
+#, fuzzy
 msgid ""
 "Payment type: Send (when issuing from the cash register) or Receive (when"
-" depositing into the cash register)"
+" depositing into the cash register);"
 msgstr ""
 "Mokėjimo tipas: Siųsti (kai išduodama iš kasos) arba Gauti (kai įnešama į"
 " kasą)"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
-msgid "Employee to whom the cash is issued"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
+#, fuzzy
+msgid "Employee to whom the cash is issued;"
 msgstr "Darbuotojas, kuriam išduodami grynieji pinigai"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
-msgid "Amount issued"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
+#, fuzzy
+msgid "Amount issued;"
 msgstr "Suma - kiek išduodama"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
-msgid "Date of cash issuance"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
+#, fuzzy
+msgid "Date of cash issuance;"
 msgstr "Data - grynųjų pinigų išdavimo data"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
+#, fuzzy
 msgid ""
 "KIO/KPO number, which is automatically assigned (ensure the sequence is "
-"set in Accounting -> Configuration -> Sequences)"
+"set in Accounting -> Configuration -> Sequences);"
 msgstr ""
 "KIO/KPO numeris - automatiškai prisiskiria reikiamas (pasitikrinti ar "
 "nustatyta seka Apskaita -> Konfigūracija -> Sekos. Kaip susikurti sekas "
 "žr. instrukcijoje \"Kasos knyga\")."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
-msgid "Who is responsible for the cash operations"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:59
+#, fuzzy
+msgid "KIO/KPO responsible - indicates who is responsible for cash transactions;"
 msgstr "KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:59
-msgid "Purpose of the cash issuance"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:60
+#, fuzzy
+msgid "Reminder - the purpose of the cash issuance;"
 msgstr "Priminimas - įrašoma pinigų išdavimo paskirtis"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:60
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:83
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:61
+#, fuzzy
 msgid ""
 "Journal - Cash (or can be, for example, a cash register, depending on the"
-" name of the journal for Cash transactions)"
+" name of the journal for Cash transactions)."
 msgstr ""
 "Žurnalas - Grynieji (arba gali būti pvz. kasa, priklausoma kaip "
 "pavadinamas žurnalas Kasos operacijoms)"
@@ -226,7 +251,7 @@ msgstr ""
 msgid "Cash issuance details"
 msgstr "Grynieji pinigai išleidimo detalės"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:65
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:66
 msgid ""
 "Check account correspondences by clicking \"Journal Entry\". If all is "
 "well, confirm the transaction."
@@ -234,11 +259,12 @@ msgstr ""
 "Pasitikrinti sąskaitų korespondenciją galima paspaudus \"Žurnalo "
 "įrašas\". Jei viskas gerai, spaudžiama Patvirtinti."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:67
-msgid "Depositing cash into the cash register:"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:68
+#, fuzzy
+msgid "**Depositing cash into the cash register:**"
 msgstr "Grynųjų pinigų įnešimas į kasą:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:69
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:70
 msgid "Navigate to Clients -> Payments -> New."
 msgstr "Spaudžiame pvz. Klientai -> Mokėjimai -> Naujas."
 
@@ -246,48 +272,56 @@ msgstr "Spaudžiame pvz. Klientai -> Mokėjimai -> Naujas."
 msgid "Depositing cash into the cash register"
 msgstr "Grynųjų pinigų įdėjimas į kasos aparatą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:74
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:75
 msgid "Specify:"
 msgstr "Pateikite:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:76
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
 msgid "Payment type: Receive"
 msgstr "Mokėjimo rūšis - gauti"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
 msgid "Employee who is depositing the cash"
 msgstr "Darbuotojas - kas įneša pinigus į kasą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
 msgid "Amount being deposited"
 msgstr "Suma - kiek įneša"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
 msgid "Date of deposit"
 msgstr "Data - įnešimo į kasą data"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
 msgid "Automatically assigned KIO/KPO number (verify the sequence setting)"
 msgstr ""
 "KIO/KPO numeris - automatiškai priskiria reikiamą (pasitikrinti ar "
 "nustatyta seka Apskaita _> Konfigūracija -> sekos. Kaip susikurti sekas "
 "žr. instrukcijoje 'Kasos knyga'."
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
 msgid ""
 "Responsible for KIO/KPO - indicate who is responsible for cash register "
 "operations"
 msgstr "KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:83
 msgid "Reminder - record the purpose of issuing money"
 msgstr "Priminimas - įrašoma pinigų išdavimo paskirtis"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
+msgid ""
+"Journal - Cash (or can be, for example, a cash register, depending on the"
+" name of the journal for Cash transactions)"
+msgstr ""
+"Žurnalas - Grynieji (arba gali būti pvz. kasa, priklausoma kaip "
+"pavadinamas žurnalas Kasos operacijoms)"
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:85
 msgid "Payment method - Manual"
 msgstr "Mokėjimo būdas - Manual (rankinis)"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:85
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:87
 msgid "You may also check the Journal entries before confirming the transaction."
 msgstr "Taip pat galima pasitikrinti Žurnalo įrašus, prieš patvirtinant operaciją"
 
@@ -295,45 +329,55 @@ msgstr "Taip pat galima pasitikrinti Žurnalo įrašus, prieš patvirtinant oper
 msgid "Cash deposit details"
 msgstr "Grynųjų pinigų įnešimo duomenys"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:90
-msgid "Bank transfer to an accountable person:"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:92
+#, fuzzy
+msgid "**Bank transfer to an accountable person:**"
 msgstr "Banko pervedimas atsakingam asmeniui:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:92
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:94
+#, fuzzy
 msgid ""
 "Typically, bank statements are imported or synchronized, showing the "
-"transfer operation."
+"transfer operation:"
 msgstr ""
 "dažniausiu atveju banko išrašai importuojami arba turi sinchronizaciją. "
 "Tuomet jau matosi pavedimo operacija:"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst
-msgid "Viewing bank transfer operations"
-msgstr "Peržiūrėti banko pervedimo operacijas"
-
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:97
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:96
 msgid "Row no. 1 - formed from a bank statement"
 msgstr "Eilutė Nr. 1 - formuojama iš banko išrašo"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:98
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:97
 msgid ""
 "Row no. 2 - the system tries to automatically find what the order was "
 "made for"
 msgstr "Eilutė Nr. 2 - sistema bando automatiškai surasti už ką atliktas pavedimas"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:99
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:98
 msgid "Through manual closing, select which employee the order was made to"
 msgstr "Per Rankinis sudengimas pasirenkame kuriam darbuotojui atliktas pavedimas"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:100
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:99
 msgid "Click Confirm"
 msgstr "Spaudžiame Patvirtinti"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:103
-msgid "1. Reports and Documentation"
-msgstr "4. Ataskaitos ir dokumentacija"
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst
+msgid "Viewing bank transfer operations"
+msgstr "Peržiūrėti banko pervedimo operacijas"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:104
+msgid ""
+"You can view the accountable persons entries in Accounting -> Accounting "
+"-> Ledger lines."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:107
+#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
+#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
+msgid "4. Reports and Documentation"
+msgstr "4. Ataskaitos ir dokumentacija"
+
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:108
 msgid ""
 "For the selected period, you can print the accountable person's Advance "
 "Report:"
@@ -349,19 +393,19 @@ msgstr "Plėstiniai ataskaitų generavimo nustatymai"
 msgid "Additional instructions and resources"
 msgstr "Papildomos instrukcijos ir ištekliai"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:111
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:115
 msgid "Date range: Select the period for the report"
 msgstr "Datos rėžis: pasirenkame už kokį laikotarpį spausdinate avansinę apyskaitą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:112
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:116
 msgid "Employee: Choose who the report is for"
 msgstr "Darbuotojas: pasirenkama kam formuoti avansinę apyskaitą"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:113
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:117
 msgid "Number: Assign a number for the report"
 msgstr "Numeris: priskiriamas avansinės apyskaitos numeris"
 
-#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:115
+#: ../../content/via_laurea_modules/accounting/accountable_persons.rst:119
 msgid "Print the advance report."
 msgstr "Spausdiname avansinę apyskaitą."
 
@@ -391,7 +435,6 @@ msgstr "FR0564"
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:5
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:5
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:5
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:5
 #: ../../content/via_laurea_modules/inventory/reports/inventory_turnover_report.rst:5
@@ -415,7 +458,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:10
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:9
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:10
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:11
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:10
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:11
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:12
@@ -433,7 +476,6 @@ msgid "Installation and Configuration"
 msgstr "Įdiegimas ir konfigūracija"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:12
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:12
 msgid ""
 "Before starting work with the Odoo system, when VAT invoices will start "
 "to be registered, it is necessary to configure the taxes: 1. Module "
@@ -443,6 +485,7 @@ msgstr ""
 "būti registruojamos, būtina sukonfigūruoti mokesčius: 1. Modulis Apskaita"
 " -> Konfigūracija -> Mokesčiai"
 
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:14
 msgid "Module Accounting -> Configuration -> Taxes"
 msgstr "Modulis Apskaita -> Konfigūracija -> Mokesčiai"
 
@@ -470,21 +513,7 @@ msgstr ""
 "sąskaitas faktūras, o po jų registravimo formuoti FR0564 deklaraciją."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:29
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:29
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:25
-#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:27
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:34
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:19
-#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:33
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:16
-#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:13
-#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:26
-#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:38
-msgid "Main Functions"
-msgstr "Pagrindinės funkcijos"
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:32
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:32
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:30
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_inventory_act.rst:13
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:51
 #: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:42
@@ -494,7 +523,6 @@ msgstr "Pagrindinės funkcijos"
 #: ../../content/via_laurea_modules/accounting/reports/bank_report.rst:13
 #: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:30
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:47
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:13
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:86
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:14
 #: ../../content/via_laurea_modules/inventory/reports/inventorization_act.rst:13
@@ -506,7 +534,7 @@ msgstr "Pagrindinės funkcijos"
 msgid "Daily Use Scenarios"
 msgstr "Kasdieniai naudojimo scenarijai"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:34
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:31
 msgid ""
 "Having all purchase and sales VAT invoices registered for the period for "
 "which you want to form and submit the VAT declaration FR0564:"
@@ -516,26 +544,26 @@ msgstr ""
 "FR0564:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:36
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:33
 msgid "Reports -> FR0564"
 msgstr "Ataskaitos -> FR0564"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:41
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:41
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:38
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:37
 msgid "In the opened window, select:"
 msgstr "Atsidariusiame lange pasirinkite:"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:43
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:43
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:40
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:39
 msgid "Date range - for which period you want to form the declaration;"
 msgstr "Laikotarpis - už kurį laikotarpį norite suformuoti deklaraciją;"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:44
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:41
 msgid "Add additional sheets FR0564R and FR0564T if needed;"
 msgstr "Pridėkite papildomus lapus FR0564R ir FR0564T, jei reikia."
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:45
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:47
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:42
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:43
 msgid "Click Generate declaration file"
 msgstr "Spustelėkite Sugeneruoti deklaracijos failą"
 
@@ -544,23 +572,22 @@ msgstr "Spustelėkite Sugeneruoti deklaracijos failą"
 msgid "Generate declaration file"
 msgstr "Sukurti deklaracijos failą"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:50
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:52
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:47
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:48
 msgid ""
 "After generating the declaration file, it can be submitted directly to "
 "VMI."
 msgstr "Sukūrus deklaracijos failą, jį galima tiesiogiai pateikti VMI."
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:53
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:55
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:30
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:50
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:26
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:58
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:23
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:34
 msgid "Reports and Documentation"
 msgstr "Ataskaitos ir dokumentacija"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:55
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:52
 msgid "For verification, print out the report:"
 msgstr "Patvirtinimui atspausdinkite ataskaitą:"
 
@@ -568,8 +595,7 @@ msgstr "Patvirtinimui atspausdinkite ataskaitą:"
 msgid "Print out the report"
 msgstr "Išspausdinkite ataskaitą"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:60
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:62
+#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:57
 msgid ""
 "In the opened window, you can select the date for which you want to see "
 "the information. Print it in PDF and xlsx format."
@@ -578,74 +604,8 @@ msgstr ""
 " Išspausdinkite PDF ir xlsx formatais."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst
 msgid "Print in PDF and xlsx format"
 msgstr "Spausdinti PDF ir xlsx formatu"
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:66
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:69
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:85
-#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:39
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:46
-#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
-#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:63
-msgid "Integrations and Connections with Other Modules"
-msgstr "Integracijos ir ryšiai su kitais moduliais"
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:69
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:72
-msgid "Problem Solving and FAQs"
-msgstr "Problemų sprendimas ir DUK (dažnai užduodami klausimai)"
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:71
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:74
-msgid "The most common problems and their solutions."
-msgstr "Dažniausios problemos ir jų sprendimai."
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:72
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:75
-msgid "Answers to frequently asked questions about this module."
-msgstr "Atsakymai į dažniausiai užduodamus klausimus apie šį modulį."
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:75
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:78
-#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:94
-#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:45
-#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:36
-#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:65
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:35
-#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:52
-#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:120
-#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:45
-msgid "Updates and Version Control"
-msgstr "Atnaujinimai ir versijų valdymas"
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:77
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:80
-msgid "How to update the module."
-msgstr "Kaip atnaujinti modulį."
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:78
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:81
-msgid "Version control practices."
-msgstr "Versijų kontrolės praktikos."
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:81
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:84
-msgid "Attachments"
-msgstr "Supratau. Prašau pateikti tekstą."
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:83
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:86
-msgid "Screenshots and visual instructions."
-msgstr "Ekrano nuotraukos ir vaizdinės instrukcijos."
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:84
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:87
-msgid "Useful links and additional resources."
-msgstr "Naudingos nuorodos ir papildomi ištekliai."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:2
 msgid "FR0600"
@@ -665,7 +625,17 @@ msgid ""
 " to be installed."
 msgstr "FR0600 deklaracijai papildomas modulis reikalingas/nereikalingas montuoti."
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:21
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:12
+#, fuzzy
+msgid ""
+"Before starting work with the Odoo system, when VAT invoices will start "
+"to be registered, it is necessary to configure the taxes:"
+msgstr ""
+"Prieš pradedant darbą su Odoo sistema, kai PVM sąskaitos faktūros pradės "
+"būti registruojamos, būtina sukonfigūruoti mokesčius: 1. Modulis Apskaita"
+" -> Konfigūracija -> Mokesčiai"
+
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:22
 msgid ""
 "When opening the settings of the selected tax, check (or fill in) the Tax"
 " Grids fields, according to which the FR0600 declaration will be formed:"
@@ -674,7 +644,7 @@ msgstr ""
 " Mokesčių tinklelių laukus, pagal kuriuos bus formuojama FR0600 "
 "deklaracija:"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:26
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:27
 msgid ""
 "After verifying or entering the information, you can start registering "
 "VAT invoices, and after registering them, form the FR0600 declaration."
@@ -682,39 +652,32 @@ msgstr ""
 "Patikrinę arba įvedę informaciją, galite pradėti registruoti PVM "
 "sąskaitas faktūras, o užregistravę jas, suformuokite FR0600 deklaraciją."
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:34
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:32
+#, fuzzy
 msgid ""
-"Having all purchase and sales VAT invoices registered for the period for "
-"which you want to form and submit the VAT declaration FR0600:"
+"Once you have all purchase and sales VAT invoices registered for the "
+"period for which you want to form and submit the VAT declaration FR0600, "
+"select Accounting >> Reports >> FR600 declaration."
 msgstr ""
 "Turite užregistruoti visas pirkimų ir pardavimų PVM sąskaitas faktūras "
 "laikotarpiui, už kurį norite suformuoti ir pateikti PVM deklaraciją "
 "FR0600:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:36
 msgid "Reports -> FR0600"
 msgstr "Ataskaitos -> FR0600"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:44
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:40
 msgid "Status - you can form the declaration as Initial or Corrected;"
 msgstr "Statusas – galite pasirinkti deklaraciją kaip Pradinę arba Patikslintą;"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:45
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:41
 msgid "Type - usually \"Regular financial period\";"
 msgstr "Tipas - paprastai „Įprastas finansinis laikotarpis“;"
 
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:46
+#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:42
 msgid "VAT report percentage - 100;"
 msgstr "PVM ataskaitos procentas - 100;"
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:57
-msgid "The report can be printed via Reports -> Tax Report:"
-msgstr "Ataskaitą galima atspausdinti per Ataskaitos -> Mokesčių ataskaita:"
-
-#: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst
-msgid "Reports -> Tax Report"
-msgstr "Ataskaitos -> Mokesčių ataskaita"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:2
 msgid "GPAIS"
@@ -1050,11 +1013,22 @@ msgstr ""
 " yra patvirtintos 2004-04-21 VMI įsakymu Nr. VA-55 „Dėl PVM sąskaitų "
 "faktūrų registrų žymėjimo tvarkos“."
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:12
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:8
+#, fuzzy
+msgid ""
+"The main function of the iSAF report is to cross-check registered invoice"
+" data (issued and received) (customers/suppliers) in the VMI information "
+"system."
+msgstr ""
+"Pagrindinė iSAF ataskaitos funkcija yra registruotų sąskaitų faktūrų "
+"(išrašytų ir gautų) duomenų kryžminis tikrinimas (klientų/tiekėjų) VMI "
+"informacinėje sistemoje."
+
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:13
 msgid "Install the module (technical name) - l10n_lt_isaf"
 msgstr "Įdiekite modulį (techninis pavadinimas) - l10n_lt_isaf"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:13
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:14
 msgid ""
 "For configuration, you need to set the VAT classifier codes approved by "
 "the State Tax Inspectorate (VMI): Select the main menu - Accounting -> "
@@ -1068,7 +1042,7 @@ msgstr ""
 msgid "Main menu - Accounting -> Configuration -> Taxes"
 msgstr "Pagrindinis meniu - Apskaita -> Konfigūracija -> Mokesčiai"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:19
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:20
 msgid "In the tax environment, the Tax code is mandatory"
 msgstr "Mokesčių aplinkoje Mokesčių kodeksas yra privalomas."
 
@@ -1076,17 +1050,7 @@ msgstr "Mokesčių aplinkoje Mokesčių kodeksas yra privalomas."
 msgid "Mandatory Tax Code"
 msgstr "Privalomas mokesčių kodeksas"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:27
-msgid ""
-"The main function of the iSAF report is the cross-checking "
-"(clients/suppliers) of the data of registered invoices (issued and "
-"received) in the VMI information system"
-msgstr ""
-"Pagrindinė iSAF ataskaitos funkcija yra registruotų sąskaitų faktūrų "
-"(išrašytų ir gautų) duomenų kryžminis tikrinimas (klientų/tiekėjų) VMI "
-"informacinėje sistemoje."
-
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:32
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:28
 msgid ""
 "Before generating iSAF, data verification is recommended. Main menu - "
 "Reports -> Invoice registers"
@@ -1098,7 +1062,7 @@ msgstr ""
 msgid "Main menu - Reports -> Invoice registers"
 msgstr "Pagrindinis meniu - Ataskaitos -> Sąskaitų registrai"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:38
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:34
 msgid ""
 "The reporting period date (month), purchases/sales are shown separately, "
 "and VAT information is also highlighted"
@@ -1110,7 +1074,7 @@ msgstr ""
 msgid "Reporting period date - purchases/sales and VAT information"
 msgstr "Ataskaitinio laikotarpio data - pirkimai/pardavimai ir PVM informacija"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:43
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:39
 msgid "The generated report shows ALL and non-declared data"
 msgstr "Sugeneruota ataskaita rodo VISUS ir nepaskelbtus duomenis."
 
@@ -1118,11 +1082,11 @@ msgstr "Sugeneruota ataskaita rodo VISUS ir nepaskelbtus duomenis."
 msgid "Generated report showing all and non-declared data"
 msgstr "Sugeneruota ataskaita, rodanti visus ir nedeklaruotus duomenis"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:49
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:45
 msgid "iSAF Generation"
 msgstr "i.SAF generavimas"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:51
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:47
 msgid "Main menu - i.MAS -> i.SAF to create a new report"
 msgstr "Pagrindinis meniu - i.MAS -> i.SAF sukurti naują ataskaitą"
 
@@ -1130,7 +1094,7 @@ msgstr "Pagrindinis meniu - i.MAS -> i.SAF sukurti naują ataskaitą"
 msgid "Main menu - i.MAS -> i.SAF new report"
 msgstr "Pagrindinis meniu - i.MAS -> i.SAF nauja ataskaita"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:56
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:52
 msgid ""
 "The reporting period (month), the type of register (registered invoices) "
 "can be selected, by report (all, supplier or invoices)"
@@ -1143,7 +1107,7 @@ msgstr ""
 msgid "Reporting period and register type selection"
 msgstr "Ataskaitinio laikotarpio ir registro tipo pasirinkimas"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:61
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:57
 msgid ""
 "For example: Register type - All -> (save button) -> Automatically "
 "collect invoices"
@@ -1155,7 +1119,7 @@ msgstr ""
 msgid "Automatically collect invoices"
 msgstr "Automatiškai rinkti sąskaitas faktūras"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:66
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:62
 msgid "Automatically generated invoice register to be formed into an XML file"
 msgstr ""
 "Automatiškai sugeneruotas sąskaitų faktūrų registras, kuris turi būti "
@@ -1171,7 +1135,7 @@ msgstr ""
 "</data>\n"
 "```"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:71
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:67
 msgid "Download the generated report"
 msgstr "Atsisiųsti sugeneruotą ataskaitą"
 
@@ -1179,7 +1143,7 @@ msgstr "Atsisiųsti sugeneruotą ataskaitą"
 msgid "Download report"
 msgstr "Atsisiųsti ataskaitą"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:76
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:72
 msgid "and send"
 msgstr "Aš suprantu. Prašau perduoti man tekstą."
 
@@ -1191,13 +1155,23 @@ msgstr "Siųsti ataskaitą"
 msgid "Report sent"
 msgstr "Ataskaita išsiųsta"
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:87
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:81
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:39
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:46
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:63
+msgid "Integrations and Connections with Other Modules"
+msgstr "Integracijos ir ryšiai su kitais moduliais"
+
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:83
 msgid "How this module integrates with other Odoo modules or external systems."
 msgstr ""
 "Kaip šis modulis integruojasi su kitais Odoo moduliais ar išorinėmis "
 "sistemomis."
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:88
+#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:84
 msgid "Special integration instructions, if needed."
 msgstr "Specialios integravimo instrukcijos, jei reikia."
 
@@ -1495,6 +1469,17 @@ msgstr ""
 " bus formuojami ne atskiri dokumentai kiekvienam, bet vienas dokumentas "
 "ir visi nurašomi vienetai bus listinguojami priede esančioje lentelėje."
 
+#: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:94
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:45
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:36
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:65
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:37
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:52
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:120
+#: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:45
+msgid "Updates and Version Control"
+msgstr "Atnaujinimai ir versijų valdymas"
+
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:96
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:47
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:67
@@ -1725,11 +1710,6 @@ msgstr ""
 msgid "Integration with other modules"
 msgstr "Integracija su kitais moduliais"
 
-#: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:114
-#: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:25
-msgid "4. Reports and Documentation"
-msgstr "4. Ataskaitos ir dokumentacija"
-
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:116
 msgid "A fuel write-off report can be printed in the fuel accounting module."
 msgstr "Automobilio modulyje galima atsispausdinti kuro nurašymo aktą."
@@ -1803,6 +1783,17 @@ msgid ""
 msgstr ""
 "Skyrelyje **Buhalterių istorija** parenkame iš kontaktų sąrašo buhalterę."
 " Pareigos turi būti nurodytos kontakto kortelėje, laukelyje pareigos."
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:27
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:34
+#: ../../content/via_laurea_modules/accounting/other_functionalities/mass_accounting_records_management.rst:19
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:33
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:16
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:13
+#: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:26
+#: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:38
+msgid "Main Functions"
+msgstr "Pagrindinės funkcijos"
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:29
 msgid ""
@@ -2237,7 +2228,8 @@ msgid "Payments"
 msgstr "Mokėjimai"
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:2
-msgid "KIO-KPO Numeration"
+#, fuzzy
+msgid "KIO-KPO numeration"
 msgstr "KIO-KPO Numeracija"
 
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:7
@@ -2398,6 +2390,7 @@ msgid "You can print the cash_account book through Reports -> Cash Journal."
 msgstr "Kasos knygą atsispausditi galite per Ataskaitos -> Kasos žurnalas."
 
 #: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:12
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:13
 msgid "2. Daily Use Scenarios"
 msgstr "2. Kasdieniai naudojimo scenarijai"
 
@@ -2430,17 +2423,24 @@ msgstr "**Darbuotojas**: parenkamas darbuotojas, atsakingas už kasos operacijas
 msgid "The report is printed only in PDF."
 msgstr "Ataskaita spausdinama tik į PDF."
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:24
-msgid "Monthly:"
-msgstr "Mėnesinis:"
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:23
+msgid "The monthly report looks like this when printed:"
+msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:29
-msgid "One report per page:"
-msgstr "Viena ataskaite puslapyje"
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:27
+msgid "A single report printed on one page looks like this:"
+msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:34
-msgid "Two reports on one page:"
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:31
+#, fuzzy
+msgid "Two reports printed on one page look like this:"
 msgstr "Dvi ataskaitos viename puslapyje:"
+
+#: ../../content/via_laurea_modules/accounting/payments/cash_account.rst:35
+msgid ""
+"The report is closely related to the functionality of KIO and KPO (see "
+"KIO-KPO numeration)."
+msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:2
 msgid "Registration of advances"
@@ -2544,42 +2544,56 @@ msgstr ""
 "nereikalingas."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:18
+#, fuzzy
 msgid ""
-"The accounting certificate is created within GL entries: - Navigate to "
-"the main menu: Accounting -> Accounting -> GL Entries. - Select the "
-"required entry, then Print -> Accounting Certificate."
+"The accounting note is created within GL entries. Navigate to the main "
+"menu: Accounting -> Accounting -> GL Entries."
 msgstr ""
 "Apskaitos sertifikatas sukuriamas per GL įrašus: - Pereikite į pagrindinį"
 " meniu: Apskaita -> Apskaita -> GL įrašai. - Pasirinkite reikiamą įrašą, "
 "tada Spausdinti -> Apskaitos sertifikatas."
 
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:20
+msgid "Select the required entry, then Print -> Accounting Note."
+msgstr ""
+
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:24
-msgid "The printed Accounting Certificate will appear as follows:"
+#, fuzzy
+msgid "The printed Accounting Note will appear as follows:"
 msgstr "Atspausdintas buhalterijos pažymėjimas atrodys taip:"
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:28
+#, fuzzy
 msgid ""
-"If you want to add a note or reason for creating the Accounting "
-"Certificate, you can enter it in the \"Notes\" field located in the "
-"second tab \"Other Information\" of the GL entry."
+"If you want to add a note or reason for creating the Accounting Note, you"
+" can enter it in the \"Notes\" field located in the second tab \"Other "
+"Information\" of the GL entry."
 msgstr ""
 "Jei norite pridėti pastabą ar priežastį, kodėl kuriate apskaitos "
 "sertifikatą, galite ją įvesti į „Pastabų“ laukelį, esantį antrame "
 "skirtuke „Kita informacija“ GL įraše."
 
 #: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:32
+#, fuzzy
 msgid ""
-"If needed, the certificate can also be printed from the list view in the "
+"If needed, the note can also be printed from the list view in the "
 "standard way."
 msgstr ""
 "Jei reikia, ataskaita apie atliekas taip pat gali būti atspausdinta iš "
 "sąrašo rodinio įprastu būdu."
 
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:37
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:34
+msgid ""
+"If you want the details of the director and accountant to be printed on "
+"the note, you can fill in the company executives (for more information, "
+"see the instructions Company Executives)"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:39
 msgid "**Module Updates**: Information on how to update the module."
 msgstr "**Modulio atnaujinimai**: Informacija apie tai, kaip atnaujinti modulį."
 
-#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:38
+#: ../../content/via_laurea_modules/accounting/reports/accounting_note.rst:40
 msgid "**Version Control Practices**: Information on version control practices."
 msgstr ""
 "**Versijų kontrolės praktikos**: Informacija apie versijų kontrolės "
@@ -2891,7 +2905,8 @@ msgid "Reports/Partner Ledger"
 msgstr "Ataskaitos / Partnerių knyga"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:15
-msgid "### Printing a Detailed Mutual Debt Reconciliation Act:"
+#, fuzzy
+msgid "**2.1. Printing a Detailed Mutual Debt Reconciliation Act:**"
 msgstr "### Išsamus Abipusio Skolos Sutikrinimo Akto Spausdinimas:"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:17
@@ -2916,7 +2931,8 @@ msgid "Expand lines and Print PDF"
 msgstr "Išplėskite eilutes ir spausdinkite PDF."
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:28
-msgid "### Printing a Summary Mutual Debt Reconciliation Act:"
+#, fuzzy
+msgid "**2.2. Printing a Summary Mutual Debt Reconciliation Act:**"
 msgstr "### Spausdinti santrauką apie Tarpusavio Skolų Sutaikymo Aktą:"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:35
@@ -2933,7 +2949,8 @@ msgid "Summary Print PDF"
 msgstr "Santrauka Spausdinti PDF"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:41
-msgid "### Printing Reconciliation Acts for Multiple Partners in a Batch:"
+#, fuzzy
+msgid "**2.3. Printing Reconciliation Acts for Multiple Partners in a Batch:**"
 msgstr "### Daugelio partnerių atsiskaitymo aktų spausdinimas vienu metu:"
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:43
@@ -2952,10 +2969,16 @@ msgstr ""
 "sutaikymo aktais visiems pasirinktiems partneriams pagal eilę."
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:45
+msgid "**2.4. Printing the reconciliation report from a contact:**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:47
+#, fuzzy
 msgid ""
-"Note: You can also access the partner ledger directly from the Contacts "
-"module. In the Contacts module, select the required partner, go to their "
-"card, and select the \"More\" button \"Partner Ledger.\""
+"You can also access the partner's general ledger directly from the "
+"Contacts module. In the Contacts module, select the required partner, go "
+"to their card, and select Print -> \"Debt reconciliation statement\" or "
+"\"Currency debt reconciliation statement\"."
 msgstr ""
 "Pastaba: Partnerio didžiąją knygą galite pasiekti tiesiogiai iš kontaktų "
 "modulio. Kontaktų modulyje pasirinkite reikalingą partnerį, eikite į jo "
@@ -2964,7 +2987,7 @@ msgstr ""
 msgid "Partner Ledger from Contacts module"
 msgstr "Partnerių knyga iš Kontaktų modulio"
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:50
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:52
 msgid ""
 "In the opened form, you can choose the \"Debt Reconciliation Act\" button"
 " and follow the previously described instructions for the printing form."
@@ -2988,31 +3011,29 @@ msgid "CMR"
 msgstr "CMR"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:6
-#
 msgid ""
 "This is a report under the Convention on the Contract for the "
 "International Carriage of Goods by Road (CMR) for the carriage of goods "
 "by land."
 msgstr ""
-"Tai yra ataskaita pagal tarptautinio krovinių vežimo keliais sutarties konvenciją "
-"(CMR), skirtą krovinių gabenimui sausuma."
+"Tai yra ataskaita pagal tarptautinio krovinių vežimo keliais sutarties "
+"konvenciją (CMR), skirtą krovinių gabenimui sausuma."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:7
-#
 msgid ""
 "The module contributes to compliance with the international "
 "transportation system by printing international freight bills of lading."
 msgstr ""
-"Modulis prisideda prie tarptautinių pervežimų sistemos laikymosi, spausdinant "
-"tarptautinius krovinių transportavimo važtaraščius."
+"Modulis prisideda prie tarptautinių pervežimų sistemos laikymosi, "
+"spausdinant tarptautinius krovinių transportavimo važtaraščius."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:11
 msgid ""
 "The CMR is printed from the Inventory module, so this module must be "
 "installed."
 msgstr ""
-"CMR yra spausdinama iš Inventoriaus modulio, todėl turi būti "
-"instaliuotas šis modulis."
+"CMR yra spausdinama iš Inventoriaus modulio, todėl turi būti instaliuotas"
+" šis modulis."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:12
 msgid ""
@@ -3020,38 +3041,37 @@ msgid ""
 "is installed. Additionally, check whether the Intrastat module is "
 "installed and configured."
 msgstr ""
-"Patikrinti ar instaliuotas CMR ataskaitos modulis, techniniu pavadinimu stock_cmr_report. "
-"Taip pat reikia patikrinti, ar instaliuotas ir sukonfigūruotas Intrastat modulis."
+"Patikrinti ar instaliuotas CMR ataskaitos modulis, techniniu pavadinimu "
+"stock_cmr_report. Taip pat reikia patikrinti, ar instaliuotas ir "
+"sukonfigūruotas Intrastat modulis."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:13
 msgid "No additional settings are required for the initial configuration."
 msgstr "Pradinei konfigūracijai nereikialingi jokie papildomi nustatymai."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:15
-#
 msgid ""
 "However, before generating the report, it is necessary to properly enter "
 "the product card(s): the weight, Intrastat KN code (for more information,"
 " see the Intrastat declaration documentation) and country of origin of "
 "each product must be entered."
 msgstr ""
-"Tačiau prieš generuojant ataskaitą, būtina tvarkingai suvesti produkto kortelę (-es): "
-"turi būti įvestas kiekvieno produkto svoris, intrastato KN kodas (plačiau žr. Intrastat "
-"deklaracijos dokumentacijoje) ir kilmės šalis."
+"Tačiau prieš generuojant ataskaitą, būtina tvarkingai suvesti produkto "
+"kortelę (-es): turi būti įvestas kiekvieno produkto svoris, intrastato KN"
+" kodas (plačiau žr. Intrastat deklaracijos dokumentacijoje) ir kilmės "
+"šalis."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:19
-#
 msgid ""
 "In the module Inventory -> Operations -> Transfers >> select the required"
 " unloading (OUT) document. The document must be in the \"Ready\" or "
 "\"Completed\" status, then select Print -> CMR.."
 msgstr ""
-"Modulyje Inventorius -> Operacijos -> Pervedimai >> pasirenkamas reikalingas "
-"atkrovimo (OUT'o) dokumentas. Dokumentas turi būti \"Paruošta\" "
-"arba \"Atlikta\" būsenoje, tada renkamės Spausdinti -> CMR."
+"Modulyje Inventorius -> Operacijos -> Pervedimai >> pasirenkamas "
+"reikalingas atkrovimo (OUT'o) dokumentas. Dokumentas turi būti "
+"\"Paruošta\" arba \"Atlikta\" būsenoje, tada renkamės Spausdinti -> CMR."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:26
-#
 msgid ""
 "Some of the CMR report lines are filled in automatically, while others "
 "must be filled in manually."
@@ -3060,7 +3080,6 @@ msgstr ""
 "užpildyti rankiniu būdu."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:28
-#
 msgid "Automatically filled in:"
 msgstr "Automatiškai užsipildo:"
 
@@ -3068,23 +3087,25 @@ msgstr "Automatiškai užsipildo:"
 msgid ""
 "**Template languages** - by default, En/Lt is offered, but you can choose"
 " Lt/En and Ru/En"
-msgstr "**Šablono kalbos** - pagal nutylėjimą siūlo En/Lt, tačiau galima rinktis Lt/En ir Ru/En"
+msgstr ""
+"**Šablono kalbos** - pagal nutylėjimą siūlo En/Lt, tačiau galima rinktis "
+"Lt/En ir Ru/En"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:31
 msgid ""
 "**4. Cargo loading location** - taken from Inventory -> configuration -> "
 "warehouses, the specific warehouse address specified in the parameter"
 msgstr ""
-"**4. Krovinio pakrovimo vieta** - imama iš Inventorius -> konfiguracija -> sandėliai, "
-"parametre nurodyto konkretaus sandėlio adreso"
+"**4. Krovinio pakrovimo vieta** - imama iš Inventorius -> konfiguracija "
+"-> sandėliai, parametre nurodyto konkretaus sandėlio adreso"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:32
 msgid ""
 "**4. Country** - taken from Inventory -> configuration -> warehouses, the"
 " specific warehouse address specified in the parameter"
 msgstr ""
-"**4. Šalis** - imama iš Inventorius -> konfiguracija -> sandėliai, parametre "
-"nurodyto konkretaus sandėlio adreso"
+"**4. Šalis** - imama iš Inventorius -> konfiguracija -> sandėliai, "
+"parametre nurodyto konkretaus sandėlio adreso"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:33
 msgid "**4. Date** - from the loading document"
@@ -3096,8 +3117,9 @@ msgid ""
 " then its number is filled in automatically, if the invoice has not been "
 "created, enter the number manually"
 msgstr ""
-"**5. Pridedami dokumentai** - jeigu iš pardavimo užsakymo yra išrašyta SF, "
-"tada jos numeris užsipildo automatiškai, jeigu SF nekurta numerį įsirašyti rankiniu būdu"
+"**5. Pridedami dokumentai** - jeigu iš pardavimo užsakymo yra išrašyta "
+"SF, tada jos numeris užsipildo automatiškai, jeigu SF nekurta numerį "
+"įsirašyti rankiniu būdu"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:35
 msgid ""
@@ -3105,8 +3127,9 @@ msgid ""
 "product card Accounting -> KN code. This field is related to the "
 "Intrastat report (see Intrastat report)"
 msgstr ""
-"**9 Krovinio pavadinimas** ir **10. Statistinis numeris** užpildomi iš produkto kortelės "
-"Apskaita -> KN kodas. Šis laukas yra susijęs su Intrastat ataskaita (žr. Intrastat ataskaita)"
+"**9 Krovinio pavadinimas** ir **10. Statistinis numeris** užpildomi iš "
+"produkto kortelės Apskaita -> KN kodas. Šis laukas yra susijęs su "
+"Intrastat ataskaita (žr. Intrastat ataskaita)"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:36
 msgid ""
@@ -3115,15 +3138,16 @@ msgid ""
 "the card, field shipment weight"
 msgstr ""
 "**11. Svoris brutto, kg** - siuntos svoris imamas iš dokumento, iš kurio "
-"spausdinama CMR ataskaita, kortelės papildoma informacija, lauko siuntos svoris"
+"spausdinama CMR ataskaita, kortelės papildoma informacija, lauko siuntos "
+"svoris"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:37
 msgid ""
 "**21. Place of collection** - taken from Inventory -> configuration -> "
 "warehouses, the specific warehouse address specified in the parameter"
 msgstr ""
-"**21. Surašymo vieta** - imama iš Inventorius -> konfiguracija -> sandėliai, parametre "
-"nurodyto konkretaus sandėlio adreso"
+"**21. Surašymo vieta** - imama iš Inventorius -> konfiguracija -> "
+"sandėliai, parametre nurodyto konkretaus sandėlio adreso"
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:38
 msgid "**22. Date of collection** - by default, today's date is entered"
@@ -3144,10 +3168,10 @@ msgid ""
 "shipping documents (OUT) in the standard way, but it is necessary to "
 "select shipping documents (OUT) from the same partner only."
 msgstr ""
-"Ataskaitą galima formuoti XLSX formuojant Generuoti CMR arba PDF - Generuoti "
-"CMR (PDF). Esant poreikiui, ataskaitą galima spausdinti ir iš atkrovimo dokumentų "
-"(OUT) sąrašo vaizdo, standartiniu būdu, tačiau būtina parinkti tik to pačio partnerio "
-"kelis atkrovimo dokumentus (OUT)."
+"Ataskaitą galima formuoti XLSX formuojant Generuoti CMR arba PDF - "
+"Generuoti CMR (PDF). Esant poreikiui, ataskaitą galima spausdinti ir iš "
+"atkrovimo dokumentų (OUT) sąrašo vaizdo, standartiniu būdu, tačiau būtina"
+" parinkti tik to pačio partnerio kelis atkrovimo dokumentus (OUT)."
 
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:47
 msgid "5. Integrations and Connectivity with Other Modules"
@@ -3172,8 +3196,9 @@ msgstr "Intrastatas"
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:7
 msgid "Install the modules ``account_intrastat`` and ``l10n_lt_intrastat``."
 msgstr ""
-"Reikia instaliuoti modulį Intrastat Reports (techninis pavadinimas account_intrastat) "
-"ir modulį Lithuanian Intrastat (techninis pavadinimas l10n_lt_intrastat)."
+"Reikia instaliuoti modulį Intrastat Reports (techninis pavadinimas "
+"account_intrastat) ir modulį Lithuanian Intrastat (techninis pavadinimas "
+"l10n_lt_intrastat)."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:9
 msgid ""
@@ -3195,9 +3220,10 @@ msgid ""
 "the Lithuanian Customs: transaction codes, delivery condition codes, "
 "Lithuanian counties classifier, and Combined Nomenclature (KN)."
 msgstr ""
-"Intrastato kodų parametre yra sudėti visi pagrindiniai Lietuvos Muitinės klasifikatoriai: "
-"sandorio pobūdžio kodai, pristatymo sąlygų kodai, Lietuvos Respublikos "
-"apskričių klasifikatorius ir Kombinuotoji nomenklatūra (KN)."
+"Intrastato kodų parametre yra sudėti visi pagrindiniai Lietuvos Muitinės "
+"klasifikatoriai: sandorio pobūdžio kodai, pristatymo sąlygų kodai, "
+"Lietuvos Respublikos apskričių klasifikatorius ir Kombinuotoji "
+"nomenklatūra (KN)."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:18
 msgid ""
@@ -3205,9 +3231,9 @@ msgid ""
 "translations only for those KN codes that your company uses for "
 "sales/purchases within the EU. Other codes can be left blank."
 msgstr ""
-"Kombinuotosios nomenklatūros parametre būtina sudėti vertimus į LT kalbą tik "
-"tų KN kodų, kuriuos įmonė naudoja pardavimuose/pirkimuose su ES. "
-"Kitų kodų vertimo galima nepildyti."
+"Kombinuotosios nomenklatūros parametre būtina sudėti vertimus į LT kalbą "
+"tik tų KN kodų, kuriuos įmonė naudoja pardavimuose/pirkimuose su ES. Kitų"
+" kodų vertimo galima nepildyti."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:22
 msgid ""
@@ -3233,9 +3259,9 @@ msgid ""
 "Configuration >> Settings**), you can set the default Incoterm conditions"
 " and transaction types."
 msgstr ""
-"Pagrindiniame apskaitos modulio nustatyme **Apskaita >> "
-"Konfigūracija >> Nustatymai** galima nustatyti Incoterm sąlygas ir "
-"sandorio tipus pagal nutylėjimą."
+"Pagrindiniame apskaitos modulio nustatyme **Apskaita >> Konfigūracija >> "
+"Nustatymai** galima nustatyti Incoterm sąlygas ir sandorio tipus pagal "
+"nutylėjimą."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:32
 msgid ""
@@ -3263,15 +3289,17 @@ msgid ""
 "additional unit of measure, you need to enter the product unit equivalent"
 " with the units used in the declaration."
 msgstr ""
-"Produkto kortelėje reikia nustatyti Kombinuotosios nomenklatūros (KN) kodą, "
-"parenkama iš Intrastat kodų klasifikatoriaus, ir kilmės šalį, parenkama "
-"iš standartinio Odoo šalių klasifikatoriaus. Jei yra papildomas matavimo vienetas, "
-"reikia įvesti produkto vieneto atitikmenį su deklaracijoje "
-"naudojamais matavimo vienetais."
+"Produkto kortelėje reikia nustatyti Kombinuotosios nomenklatūros (KN) "
+"kodą, parenkama iš Intrastat kodų klasifikatoriaus, ir kilmės šalį, "
+"parenkama iš standartinio Odoo šalių klasifikatoriaus. Jei yra papildomas"
+" matavimo vienetas, reikia įvesti produkto vieneto atitikmenį su "
+"deklaracijoje naudojamais matavimo vienetais."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:44
 msgid "The standard weight field must also be filled in on the product form."
-msgstr "Taip pat produkto kortelėje turi būti užpildytas standartinis svorio laukas."
+msgstr ""
+"Taip pat produkto kortelėje turi būti užpildytas standartinis svorio "
+"laukas."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:46
 msgid ""
@@ -3354,10 +3382,10 @@ msgid ""
 "whether the declaration is for exported goods or imported goods, and the "
 "action - primary, corrected, or zero."
 msgstr ""
-"Paleidimo parametre reikia pasirinkti metus, mėnesį (pagal nutylėjimą visada "
-"siūlo praėjusį periodą), Intrastat'o tipą, t.y. ar deklaracija išsiųstoms "
-"prekėms, ar deklaracija atvykusioms prekėms, veiksmas - pirminė, koreguojama "
-"arba nulinė."
+"Paleidimo parametre reikia pasirinkti metus, mėnesį (pagal nutylėjimą "
+"visada siūlo praėjusį periodą), Intrastat'o tipą, t.y. ar deklaracija "
+"išsiųstoms prekėms, ar deklaracija atvykusioms prekėms, veiksmas - "
+"pirminė, koreguojama arba nulinė."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:78
 msgid ""
@@ -3408,10 +3436,10 @@ msgid ""
 "invoice lines have missing transaction codes, and allowing you to fill "
 "them in immediately."
 msgstr ""
-"Taip pat, kai pranešimas sako, kad \"Kai kuriose eilutėse "
-"nenurodyti sandorio pobūdžio kodai\", atsidaro kitokio tipo "
-"langas, kuris nurodo kuriose faktūros eilutėse neužpildytas sandorio "
-"kodas ir čia pat galima užpildyti."
+"Taip pat, kai pranešimas sako, kad \"Kai kuriose eilutėse nenurodyti "
+"sandorio pobūdžio kodai\", atsidaro kitokio tipo langas, kuris nurodo "
+"kuriose faktūros eilutėse neužpildytas sandorio kodas ir čia pat galima "
+"užpildyti."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:100
 msgid ""
@@ -3425,7 +3453,9 @@ msgstr ""
 msgid ""
 "After entering the data, it is recommended to regenerate the report or "
 "reload it."
-msgstr "Suvedus duomenis, rekomenduojama ataskaitą suformuoti iš naujo arba perkrauti."
+msgstr ""
+"Suvedus duomenis, rekomenduojama ataskaitą suformuoti iš naujo arba "
+"perkrauti."
 
 #: ../../content/via_laurea_modules/inventory/declarations/intrastat.rst:106
 msgid ""
@@ -3509,8 +3539,9 @@ msgid ""
 " Sales module, you can see them in the Inventory module, Operations "
 "section, under Deliveries."
 msgstr ""
-"Paruošus pardavimo užsakymą ir Pardavimų modulyje patvirtinus prekių išvežimus, "
-"juos galite matyti Inventoriaus modulyje >> Operacijos >> Pristatymai."
+"Paruošus pardavimo užsakymą ir Pardavimų modulyje patvirtinus prekių "
+"išvežimus, juos galite matyti Inventoriaus modulyje >> Operacijos >> "
+"Pristatymai."
 
 #: ../../content/via_laurea_modules/inventory/declarations/ivaz.rst:20
 msgid ""
@@ -6582,4 +6613,46 @@ msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atly
 #~ "of collection - by default, today's "
 #~ "date is entered"
 #~ msgstr ""
+
+#~ msgid "Who is responsible for the cash operations"
+#~ msgstr "KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas"
+
+#~ msgid "1. Reports and Documentation"
+#~ msgstr "4. Ataskaitos ir dokumentacija"
+
+#~ msgid "Problem Solving and FAQs"
+#~ msgstr "Problemų sprendimas ir DUK (dažnai užduodami klausimai)"
+
+#~ msgid "The most common problems and their solutions."
+#~ msgstr "Dažniausios problemos ir jų sprendimai."
+
+#~ msgid "Answers to frequently asked questions about this module."
+#~ msgstr "Atsakymai į dažniausiai užduodamus klausimus apie šį modulį."
+
+#~ msgid "How to update the module."
+#~ msgstr "Kaip atnaujinti modulį."
+
+#~ msgid "Version control practices."
+#~ msgstr "Versijų kontrolės praktikos."
+
+#~ msgid "Attachments"
+#~ msgstr "Supratau. Prašau pateikti tekstą."
+
+#~ msgid "Screenshots and visual instructions."
+#~ msgstr "Ekrano nuotraukos ir vaizdinės instrukcijos."
+
+#~ msgid "Useful links and additional resources."
+#~ msgstr "Naudingos nuorodos ir papildomi ištekliai."
+
+#~ msgid "The report can be printed via Reports -> Tax Report:"
+#~ msgstr "Ataskaitą galima atspausdinti per Ataskaitos -> Mokesčių ataskaita:"
+
+#~ msgid "Reports -> Tax Report"
+#~ msgstr "Ataskaitos -> Mokesčių ataskaita"
+
+#~ msgid "Monthly:"
+#~ msgstr "Mėnesinis:"
+
+#~ msgid "One report per page:"
+#~ msgstr "Viena ataskaite puslapyje"
 
