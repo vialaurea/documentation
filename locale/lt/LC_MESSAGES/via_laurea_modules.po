@@ -497,9 +497,8 @@ msgid ""
 "When opening the settings of the selected tax, check (or fill in) the Tax"
 " Grids fields, according to which the FR0564 declaration will be formed:"
 msgstr ""
-"Atidarant pasirinkto mokesčio nustatymus, patikrinkite (arba užpildykite)"
-" laukus „Mokesčių lentelės“, pagal kuriuos bus formuojama FR0564 "
-"deklaracija:"
+"Atsidarius pasirinkto mokesčio nustatymus pasitikriname (arba užsipildome) "
+"Tax Grids laukus, pagal kuriuos bus formuojama FR00564 deklaracija:"
 
 msgid "Tax Grids fields"
 msgstr "Mokesčių tinklelio laukeliai"
@@ -509,8 +508,8 @@ msgid ""
 "After verifying or entering the information, you can start registering "
 "VAT invoices, and after registering them, form the FR0564 declaration."
 msgstr ""
-"Patikrinę arba įvedę informaciją, galite pradėti registruoti PVM "
-"sąskaitas faktūras, o po jų registravimo formuoti FR0564 deklaraciją."
+"Sutikrinus ar susivedus informaciją, galima pradėti registruoti PVM "
+"sąskaitas faktūras, o jas užregistravus, formuoti FR0564 deklaraciją."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:29
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:30
@@ -539,9 +538,9 @@ msgid ""
 "Having all purchase and sales VAT invoices registered for the period for "
 "which you want to form and submit the VAT declaration FR0564:"
 msgstr ""
-"Turėti užregistruotas visas pirkimo ir pardavimo PVM sąskaitas faktūras "
-"už laikotarpį, už kurį norite sudaryti ir pateikti PVM deklaraciją "
-"FR0564:"
+"Turėdami visas pirkimo ir pardavimo PVM sąskaitas faktūras registruotas "
+"už laikotarpį, už kurį norima formuoti ir pateikti PVM deklaraciją FR0600: "
+"Apskaita -> Ataskaitos -> FR00564:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:33
@@ -556,7 +555,7 @@ msgstr "Atsidariusiame lange pasirinkite:"
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:40
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:39
 msgid "Date range - for which period you want to form the declaration;"
-msgstr "Laikotarpis - už kurį laikotarpį norite suformuoti deklaraciją;"
+msgstr "datos rėžį - už kurį laikotarpį norima suformuoti deklaraciją;"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:41
 msgid "Add additional sheets FR0564R and FR0564T if needed;"
@@ -589,7 +588,9 @@ msgstr "Ataskaitos ir dokumentacija"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst:52
 msgid "For verification, print out the report:"
-msgstr "Patvirtinimui atspausdinkite ataskaitą:"
+msgstr ""
+"Prieš formuodami ataskaitą, galime pasitikrinti atsispausdindami "
+"Pardavimų į EB registro(EC Sales List) ataskaitą:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst
 msgid "Print out the report"
@@ -600,8 +601,8 @@ msgid ""
 "In the opened window, you can select the date for which you want to see "
 "the information. Print it in PDF and xlsx format."
 msgstr ""
-"Atidarame lange galite pasirinkti datą, kurios informaciją norite matyti."
-" Išspausdinkite PDF ir xlsx formatais."
+"Atsidariusame lange galima pasirinkti datą, už kurią norima matyti "
+"informaciją. Ją atsispausdinti PDF ir xlsx formatu."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0564.rst
 msgid "Print in PDF and xlsx format"
@@ -626,14 +627,14 @@ msgid ""
 msgstr "FR0600 deklaracijai papildomas modulis reikalingas/nereikalingas montuoti."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:12
-#, fuzzy
+#
 msgid ""
 "Before starting work with the Odoo system, when VAT invoices will start "
 "to be registered, it is necessary to configure the taxes:"
 msgstr ""
-"Prieš pradedant darbą su Odoo sistema, kai PVM sąskaitos faktūros pradės "
-"būti registruojamos, būtina sukonfigūruoti mokesčius: 1. Modulis Apskaita"
-" -> Konfigūracija -> Mokesčiai"
+"Prieš pradedant darbą su Odoo sistema, kai bus pradedamos "
+"registruoti PVM sąskaitos faktūros, reikalinga atlikti "
+"mokesčių konfigūraciją:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:22
 msgid ""
@@ -653,15 +654,15 @@ msgstr ""
 "sąskaitas faktūras, o užregistravę jas, suformuokite FR0600 deklaraciją."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:32
-#, fuzzy
+#
 msgid ""
 "Once you have all purchase and sales VAT invoices registered for the "
 "period for which you want to form and submit the VAT declaration FR0600, "
 "select Accounting >> Reports >> FR600 declaration."
 msgstr ""
-"Turite užregistruoti visas pirkimų ir pardavimų PVM sąskaitas faktūras "
-"laikotarpiui, už kurį norite suformuoti ir pateikti PVM deklaraciją "
-"FR0600:"
+"Turėdami visas pirkimo ir pardavimo PVM sąskaitas faktūras registruotas "
+"už laikotarpį, už kurį norima formuoti ir pateikti PVM deklaraciją "
+"FR0600, pasirenkate Apskaita >> Ataskaitos >> FR600 deklaracija."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst
 msgid "Reports -> FR0600"
@@ -1006,23 +1007,21 @@ msgid ""
 "registers are approved by the VMI Order No. VA-55 dated 2004-04-21 \"On "
 "the management of VAT invoice registers\"."
 msgstr ""
-"Nuo 2019-07-01, visos juridinės asmenys, kurie yra PVM mokėtojai, privalo"
-" kas mėnesį iki kito mėnesio 20 dienos pateikti išrašytų ir gautų PVM "
-"sąskaitų faktūrų registrų duomenis VMI. Registras vadinamas iSAF "
-"deklaracija. PVM sąskaitų faktūrų registrų pildymo ir pateikimo taisyklės"
-" yra patvirtintos 2004-04-21 VMI įsakymu Nr. VA-55 „Dėl PVM sąskaitų "
-"faktūrų registrų žymėjimo tvarkos“."
+"Nuo 2019-07-01 visi juridiniai asmenys, PVM mokėtojai, išrašomų ir gaunamų "
+"PVM sąskaitų faktūrų registrų duomenis VMI turi teikti kas mėnesį iki kito "
+"mėnesio 20 dienos. Registras vadinasi iSAF deklaracija. PVM sąskaitų faktūrų registrų pildymo "
+"ir pateikimo taisyklės patvirtintos VMI prie FM viršininko 2004-04-21 įsakymu "
+"Nr. VA-55 „Dėl pridėtinės vertės mokesčio sąskaitų faktūrų registrų tvarkymo."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:8
-#, fuzzy
+#
 msgid ""
 "The main function of the iSAF report is to cross-check registered invoice"
 " data (issued and received) (customers/suppliers) in the VMI information "
 "system."
 msgstr ""
-"Pagrindinė iSAF ataskaitos funkcija yra registruotų sąskaitų faktūrų "
-"(išrašytų ir gautų) duomenų kryžminis tikrinimas (klientų/tiekėjų) VMI "
-"informacinėje sistemoje."
+"Pagrindinė iSAF ataskaitos funkcija yra registruotų sąskaitų faktūrų (išrašytų ir gautų) "
+"duomenų kryžminis tikrinimas (klientų/tiekėjų) VMI informacinėje sistemoje."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:13
 msgid "Install the module (technical name) - l10n_lt_isaf"
@@ -1035,7 +1034,7 @@ msgid ""
 "Configuration -> Taxes"
 msgstr ""
 "Konfigūravimui turite nustatyti Valstybinės mokesčių inspekcijos (VMI) "
-"patvirtintus PVM klasifikatoriaus kodus: Pasirinkite pagrindinį meniu - "
+"patvirtintus PVM klasifikatoriaus kodus: Pasirinkite pagrindinį meniu "
 "Apskaita -> Konfigūracija -> Mokesčiai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
@@ -1044,7 +1043,7 @@ msgstr "Pagrindinis meniu - Apskaita -> Konfigūracija -> Mokesčiai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:20
 msgid "In the tax environment, the Tax code is mandatory"
-msgstr "Mokesčių aplinkoje Mokesčių kodeksas yra privalomas."
+msgstr "Kiekvienam mokesčiui privaloma priskirti Mokesčio kodą."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Mandatory Tax Code"
@@ -1055,8 +1054,8 @@ msgid ""
 "Before generating iSAF, data verification is recommended. Main menu - "
 "Reports -> Invoice registers"
 msgstr ""
-"Prieš sugeneruojant iSAF, rekomenduojama patikrinti duomenis. Pagrindinis"
-" meniu - Ataskaitos -> Sąskaitų faktūrų registrai"
+"Prieš formuojant iSAF rekomenduojamas duomenų patikrinimas. "
+"Apskaita -> Ataskaitos -> SF registrai (plačiau žr. Sąskaitų registro dokumentacijoje)."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Main menu - Reports -> Invoice registers"
@@ -1067,8 +1066,9 @@ msgid ""
 "The reporting period date (month), purchases/sales are shown separately, "
 "and VAT information is also highlighted"
 msgstr ""
-"Ataskaitinio laikotarpio data (mėnuo), pirkimai/pardavimai parodyti "
-"atskirai, ir PVM informacija taip pat pažymėta"
+"Atsidariusiame lange pasirenkame ataskaitinio laikotarpio datą (mėnesį), "
+"Pirkimai/Pardavimai ataskaitos formuojamos atskirai, taip pat galima "
+"išskirti PVM informaciją, pažymėjus Rodyti PVM."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Reporting period date - purchases/sales and VAT information"
@@ -1076,11 +1076,11 @@ msgstr "Ataskaitinio laikotarpio data - pirkimai/pardavimai ir PVM informacija"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:39
 msgid "The generated report shows ALL and non-declared data"
-msgstr "Sugeneruota ataskaita rodo VISUS ir nepaskelbtus duomenis."
+msgstr "Suformuotoje ataskaitoje rodomi VISI, net ir nedeklaruojami, duomenis."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Generated report showing all and non-declared data"
-msgstr "Sugeneruota ataskaita, rodanti visus ir nedeklaruotus duomenis"
+msgstr "Suformuotoje ataskaitoje rodomi VISI, net ir nedeklaruojami, duomenis."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:45
 msgid "iSAF Generation"
@@ -1088,7 +1088,7 @@ msgstr "i.SAF generavimas"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:47
 msgid "Main menu - i.MAS -> i.SAF to create a new report"
-msgstr "Pagrindinis meniu - i.MAS -> i.SAF sukurti naują ataskaitą"
+msgstr "Apskaita  -> i.MAS -> i.SAF. Spaudžiame Naujas ir kuriame naują ataskaitą"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Main menu - i.MAS -> i.SAF new report"
@@ -1099,9 +1099,8 @@ msgid ""
 "The reporting period (month), the type of register (registered invoices) "
 "can be selected, by report (all, supplier or invoices)"
 msgstr ""
-"Ataskaitinis laikotarpis (mėnuo), registro tipas (registruotos sąskaitos "
-"faktūros) gali būti pasirinktas pagal ataskaitą (visos, tiekėjo arba "
-"sąskaitos faktūros)"
+"Užpildome ataskaitinį laikotarpį (mėnuo), galima rinktis registro "
+"tipą pagal ataskaitą: visos, tiekėjų sąskaitos arba sąskaitos."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Reporting period and register type selection"
@@ -1112,8 +1111,8 @@ msgid ""
 "For example: Register type - All -> (save button) -> Automatically "
 "collect invoices"
 msgstr ""
-"Pavyzdžiui: Registracijos tipas - Visi -> (išsaugojimo mygtukas) -> "
-"Automatinis sąskaitų rinkimas"
+"Pvz.: Registro tipas - Visos -> (mygtukas išsaugoti) -> Surinkti "
+"automatiškai sąskaitas faktūras"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Automatically collect invoices"
@@ -1122,22 +1121,16 @@ msgstr "Automatiškai rinkti sąskaitas faktūras"
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:62
 msgid "Automatically generated invoice register to be formed into an XML file"
 msgstr ""
-"Automatiškai sugeneruotas sąskaitų faktūrų registras, kuris turi būti "
-"suformuotas į XML failą."
+"Paspaudus mygtuką Suformuoti, sąskaitų faktūrų registrą "
+"automatiškai suformuoka XML formatu."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Form into XML file"
-msgstr ""
-"```xml\n"
-"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
-"<data>\n"
-"    <statement>I understand. Please give me the text.</statement>\n"
-"</data>\n"
-"```"
+msgstr "Form into XML file"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:67
 msgid "Download the generated report"
-msgstr "Atsisiųsti sugeneruotą ataskaitą"
+msgstr "Norint gautą ataskaitą atsisiųsti, reikia spausti Atsisiųsti mygtuką."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Download report"
@@ -1145,7 +1138,9 @@ msgstr "Atsisiųsti ataskaitą"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:72
 msgid "and send"
-msgstr "Aš suprantu. Prašau perduoti man tekstą."
+msgstr ""
+"Kai ataskaita yra pateikta VMI ir regsitras sėkmingai priimtas, "
+"galima paspausti išsiųsta, tada pasikeičia ataskaitos būsena."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Send report"
