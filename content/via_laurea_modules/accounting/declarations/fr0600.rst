@@ -8,7 +8,7 @@ Introduction
 Installation and Configuration
 ------------------------------
 
-- For the FR0600 declaration, an additional module is required/not required to be installed.
+- The FR0600 declaration requires the installation of the FR0600 VAT Declaration module (technical name l10n_lt_fr0600).
 - Before starting work with the Odoo system, when VAT invoices will start to be registered, it is necessary to configure the taxes:
 
 1. Module Accounting -> Configuration -> Taxes

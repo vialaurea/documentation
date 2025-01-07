@@ -19,8 +19,7 @@ In the partner ledger list, click the "Debt Reconciliation Act" button.
 .. image:: mutual_reconciliation_act/img02.jpg
     :alt: Debt Reconciliation Act button
 
-In the opened window, select the partner, the start and end dates of the period. Check the "Expand lines" box.
-Click the "Print PDF" button. This will generate a file in PDF format.
+In the window that opens, select the partner, start and end dates of the period. Do not select the "Expand rows" checkbox. When printing a currency reconciliation report, you can select a currency or not select any currency, in which case the reconciliation report will be printed in all currencies.
 
 .. image:: mutual_reconciliation_act/img03.jpg
     :alt: Expand lines and Print PDF

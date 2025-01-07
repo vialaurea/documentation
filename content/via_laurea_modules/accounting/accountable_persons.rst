@@ -51,12 +51,12 @@ By clicking "New" here, you can also create a payment for the accountable person
 
 A new window opens where you specify:
 
-- Payment type: Send (when issuing from the cash register) or Receive (when depositing into the cash register);
-- Employee to whom the cash is issued;
-- Amount issued;
-- Date of cash issuance;
+- Payment type - Send (when issuing from the cash register);
+- Employee - to whom the cash is issued;
+- Amount - how much is issued;
+- Date - the date of cash issuance;
 - KIO/KPO number, which is automatically assigned (ensure the sequence is set in Accounting -> Configuration -> Sequences);
-- KIO/KPO responsible - indicates who is responsible for cash transactions;
+- KIO/KPO responsible - indicates who is responsible for cash transactions (by default, the user who created the post is assigned);
 - Reminder - the purpose of the cash issuance;
 - Journal - Cash (or can be, for example, a cash register, depending on the name of the journal for Cash transactions).
 
@@ -74,15 +74,15 @@ Check account correspondences by clicking "Journal Entry". If all is well, confi
 
 Specify:
 
-- Payment type: Receive
-- Employee who is depositing the cash
-- Amount being deposited
-- Date of deposit
-- Automatically assigned KIO/KPO number (verify the sequence setting)
-- Responsible for KIO/KPO - indicate who is responsible for cash register operations
-- Reminder - record the purpose of issuing money
+- Payment type - Receive (when depositing into the cash register);
+- Employee - who is depositing the cash;
+- Amount - how much is being deposited;
+- Date - the date of deposit;
+- KIO/KPO number - automatically assigned (ensure the sequence is set in Accounting -> Configuration -> Sequences);
+- Responsible for KIO/KPO - indicate who is responsible for cash register operations;
+- Reminder - the purpose of issuing money;
 - Journal - Cash (or can be, for example, a cash register, depending on the name of the journal for Cash transactions)
-- Payment method - Manual
+- Payment method - Manual;
 
 You may also check the Journal entries before confirming the transaction.
 
@@ -112,8 +112,8 @@ For the selected period, you can print the accountable person's Advance Report:
   .. image:: accountable_persons/number10.jpg
      :alt: Additional instructions and resources
 
-- Date range: Select the period for the report
-- Employee: Choose who the report is for
-- Number: Assign a number for the report
+- Date range - select the period for the report;
+- Employee - choose who the report is for (multiple employees can be selected);
+- Number, purpose, date - optional fields, which can be filled in to print in the report;
 
 Print the advance report.

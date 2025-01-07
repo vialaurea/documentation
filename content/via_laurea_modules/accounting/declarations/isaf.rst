@@ -31,12 +31,12 @@ Main menu - Reports -> Invoice registers
   .. image:: isaf/img03.jpg
       :alt: Main menu - Reports -> Invoice registers
 
-The reporting period date (month), purchases/sales are shown separately, and VAT information is also highlighted
+In the window that opens, we select the date (month) of the reporting period, Purchases/Sales reports are generated separately, and it is also possible to exclude VAT information by checking Show VAT.
 
   .. image:: isaf/img04.jpg
       :alt: Reporting period date - purchases/sales and VAT information
 
-The generated report shows ALL and non-declared data
+The generated report displays ALL data, including undeclared data.
 
   .. image:: isaf/img05.jpg
       :alt: Generated report showing all and non-declared data
@@ -44,7 +44,7 @@ The generated report shows ALL and non-declared data
 iSAF Generation
 ---------------
 
-Main menu - i.MAS -> i.SAF to create a new report
+Accounting -> i.MAS -> i.SAF. Click New and create a new report.
 
   .. image:: isaf/img06.jpg
       :alt: Main menu - i.MAS -> i.SAF new report
