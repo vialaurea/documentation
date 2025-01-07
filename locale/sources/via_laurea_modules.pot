@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-06 14:44+0000\n"
+"POT-Creation-Date: 2025-01-07 14:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,19 +152,19 @@ msgid "A new window opens where you specify:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
-msgid "Payment type: Send (when issuing from the cash register) or Receive (when depositing into the cash register);"
+msgid "Payment type - Send (when issuing from the cash register);"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
-msgid "Employee to whom the cash is issued;"
+msgid "Employee - to whom the cash is issued;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
-msgid "Amount issued;"
+msgid "Amount - how much is issued;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
-msgid "Date of cash issuance;"
+msgid "Date - the date of cash issuance;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:58
@@ -172,7 +172,7 @@ msgid "KIO/KPO number, which is automatically assigned (ensure the sequence is s
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:59
-msgid "KIO/KPO responsible - indicates who is responsible for cash transactions;"
+msgid "KIO/KPO responsible - indicates who is responsible for cash transactions (by default, the user who created the post is assigned);"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:60
@@ -208,31 +208,31 @@ msgid "Specify:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
-msgid "Payment type: Receive"
+msgid "Payment type - Receive (when depositing into the cash register);"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
-msgid "Employee who is depositing the cash"
+msgid "Employee - who is depositing the cash;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
-msgid "Amount being deposited"
+msgid "Amount - how much is being deposited;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
-msgid "Date of deposit"
+msgid "Date - the date of deposit;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
-msgid "Automatically assigned KIO/KPO number (verify the sequence setting)"
+msgid "KIO/KPO number - automatically assigned (ensure the sequence is set in Accounting -> Configuration -> Sequences);"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
-msgid "Responsible for KIO/KPO - indicate who is responsible for cash register operations"
+msgid "Responsible for KIO/KPO - indicate who is responsible for cash register operations;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:83
-msgid "Reminder - record the purpose of issuing money"
+msgid "Reminder - the purpose of issuing money;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
@@ -240,7 +240,7 @@ msgid "Journal - Cash (or can be, for example, a cash register, depending on the
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:85
-msgid "Payment method - Manual"
+msgid "Payment method - Manual;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:87
@@ -302,15 +302,15 @@ msgid "Additional instructions and resources"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:115
-msgid "Date range: Select the period for the report"
+msgid "Date range - select the period for the report;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:116
-msgid "Employee: Choose who the report is for"
+msgid "Employee - choose who the report is for (multiple employees can be selected);"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:117
-msgid "Number: Assign a number for the report"
+msgid "Number, purpose, date - optional fields, which can be filled in to print in the report;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:119
@@ -498,7 +498,7 @@ msgid "The VAT declaration FR0600 must be submitted by persons registered as VAT
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:11
-msgid "For the FR0600 declaration, an additional module is required/not required to be installed."
+msgid "The FR0600 declaration requires the installation of the FR0600 VAT Declaration module (technical name l10n_lt_fr0600)."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:12
@@ -542,118 +542,198 @@ msgid "1. Module Purpose and Operation"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:6
-msgid "The \"GPAIS\" module, published via Laurea, is designed for registering, automatically collecting records in the Odoo system, and using a VVS interface or file format to transfer data to the Unified System of Products, Packaging, and Waste Accounting (GPAIS)."
+msgid "The GPAIS module, created by Via laurea, is designed to register, automatically collect records in the Odoo system and transfer data to the Unified Product, Packaging and Waste Accounting Information System (in lithuanian, abbreviated as GPAIS) using the Odoo software interface or in file form."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
-msgid "GPAIS Module Overview"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:12
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:9
 msgid "2. Module Settings"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:13
-msgid "2.1 User (Representative) Settings An Odoo system user can use the GPAIS module and export data directly to Odoo when:"
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:11
+msgid "**2.1 User (Representative) Settings**"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:15
-msgid "Appropriate rights are granted: Settings → Users → Access Rights → Select \"Manager\" for GPAIS rights."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:14
+msgid "An Odoo system user can use the GPAIS module and export data directly to Odoo when:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:14
+msgid "Appropriate rights are granted:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:16
+msgid "*Settings → Users → Access Rights → Select \"Manager\" for GPAIS rights.*"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:18
-msgid "The user's GPAIS RSA key is uploaded, and the GPAIS username is entered. Data is uploaded in the user profile settings."
+msgid "The user's GPAIS RSA key is uploaded, and the GPAIS username is entered. Data is uploaded in the user profile settings:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "User Access Rights Settings"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:24
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:23
 msgid "The RSA key and GPAIS username from GPAIS are obtained as follows:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:24
-msgid "First, contract terms are confirmed upon connecting to the GPAIS system via the VVS interface."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:25
+msgid "First, contract terms are confirmed upon connecting to the GPAIS system via the ERP interface."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:36
-msgid "2.2 Flow Registration Settings The GPAIS flow registration ID number must be specified in Odoo. The process includes:"
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
+msgid "Confirming contract terms"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:38
-msgid "Settings → Inventory → GPAIS Settings → Select relevant flows, enter flow ID numbers, and save."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:30
+msgid "Then, \"Generate New\" is clicked in the adjacent \"Settings\" tab:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
+msgid "Generating new RSA key and username"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:35
+msgid "The generated files include: RSA key (\"id_rsa\") and username (\"username\"):"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
+msgid "RSA key generated files"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:40
+msgid "**2.2 Flow Registration Settings**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:42
+msgid "The GPAIS flow registration ID number must be specified in Odoo. The process is as follows:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:44
+msgid "*Settings → Inventory → GPAIS Settings → Select relevant flows, enter flow ID numbers, and save.*"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Setting flow registration IDs"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:44
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:49
 msgid "Flow ID numbers are located in the GPAIS account:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:44
-msgid "Accessed by clicking on one's name → VVS interface → Help → List of flow registrations for represented entities → Codes for respective flows are copied from the sent file."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:51
+msgid "*Accessed by clicking on one's name → ERP interface → Help → List of flow registrations for represented entities → Codes for respective flows are copied from the sent file.*"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Retrieving flow ID numbers"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:49
-msgid "2.3 Mode Settings Important! It is always recommended to set to test mode in both testing and production environments during the testing, journals, and GPAIS units preparation stage. Test mode should only be turned off when exporting data to the GPAIS operational environment to avoid accidental data transfer to the production GPAIS system. Test mode is enabled and disabled in the Odoo GPAIS settings."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:56
+msgid "**2.3 Mode Settings**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:58
+msgid "**Important!** It is always recommended to set to test mode in both testing and production environments during the testing, journals, and GPAIS units preparation stage. Test mode should only be turned off when exporting data to the GPAIS operational environment to avoid accidental data transfer to the production GPAIS system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:60
+msgid "Test mode is enabled and disabled in the Odoo GPAIS settings:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Test mode settings"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:55
-msgid "2.4 Product (Unit) Settings Every product entering the GPAIS product list must be marked with a \"GPAIS product\" checkbox."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:65
+msgid "**2.4 Product (Unit) Settings**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:67
+msgid "Every product entering the GPAIS product list must be marked with a \"GPAIS product\" checkbox."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Product settings in GPAIS"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:61
-msgid "Important! Only after marking the products with the \"GPAIS product\" checkbox, these products will automatically start to be included in the intermediate GPAIS journal entries list. This means that if product A is marked as a GPAIS product on 02.01, the intermediate journal entries for this product will start to be automatically accumulated from this date. When forming the journal for the period from 01.01 to 03.31, and to include entries for product A for the entire period, new intermediate journal entries must be generated."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:72
+msgid "**Important!** Only after marking the products with the \"GPAIS product\" checkbox, these products will automatically start to be included in the intermediate GPAIS journal entries list. This means that if product A is marked as a GPAIS product on 02.01, the intermediate journal entries for this product will start to be automatically accumulated from this date. When forming the journal for the period from 01.01 to 03.31, and to include entries for product A for the entire period, new intermediate journal entries must be generated."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:74
+msgid "They are generated using the following sequence:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:76
+msgid "*Enable \"Developer Mode\" → Module \"Inventory\" → GPAIS → \"Generate intermediate records\" → In the table (see below) we indicate the flow and period of newly generated intermediate records.*"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Generating intermediate journal entries"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:66
-msgid "2.5 Classifier Settings It is recommended to activate only the relevant classifiers in the \"Classifications\" tab of the GPAIS module. This provides a shorter list of classifiers and reduces the risk of selecting an incorrect classifier."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:81
+msgid "**2.5 Classifier Settings**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:83
+msgid "It is recommended to activate only the relevant classifiers in the \"Classifications\" tab of the GPAIS module. This provides a shorter list of classifiers and reduces the risk of selecting an incorrect classifier. Below is an example list of classifications with activity settings:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Classifier settings in GPAIS"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:73
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:89
 msgid "3. Product (Unit) Packaging Description"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:74
-msgid "3.1 Basic Product Data For \"GPAIS products,\" the product (unit) information to be presented to GPAIS is specified in the \"GPAIS\" tab:"
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:90
+msgid "**3.1 Basic Product Data**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:92
+msgid "For \"GPAIS products,\" the product (unit) information to be presented to GPAIS is specified in the \"GPAIS\" tab:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:94
+msgid "Flow type - select from the list;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:95
+msgid "Receipt method - select;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:96
+msgid "Product code and Product name - enter manually;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:97
+msgid "Started supplying to the market - indicates the date from which the product began to be sold;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:99
+msgid "The required tab is also filled in."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Basic product data tab in GPAIS"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:80
-msgid "3.2 Deposit Packaging In the case of declaring deposit packaging, such packaging codes and names are filled in the \"Deposit Packaging Codes\" tab:"
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:104
+msgid "**3.2 Deposit Packaging**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:106
+msgid "In the case of declaring deposit packaging, such packaging codes and names are filled in the \"Deposit Packaging Codes\" tab:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Deposit packaging codes"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:86
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:111
 msgid "Then, when filling out the product (unit) card, the required deposit packaging is selected from the list:"
 msgstr ""
 
@@ -661,8 +741,12 @@ msgstr ""
 msgid "Selecting deposit packaging"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:91
-msgid "3.3 Declaring Odoo Packaging as a Separate Unit Odoo's packaging functionality allows products to be bought and sold in packages (illustration below: one avocado and its packaging - a pallet with n units of avocados). Using Odoo's packaging functionality, such a package can be described as a separate GPAIS unit and declared in a separate journal entry. In this case, information about the Odoo package is filled in the \"Packaging\" tab of the GPAIS module and assigned to the corresponding product."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:116
+msgid "**3.3 Declaring Packaging as a Separate Unit**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:118
+msgid "Odoo's packaging functionality allows products to be bought and sold in packages (illustration below: one avocado and its packaging - a pallet with n units of avocados)."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
@@ -673,44 +757,60 @@ msgstr ""
 msgid "Detailed view of Odoo packaging"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:102
-msgid "4. Data Formation and Export to GPAIS"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:103
-msgid "4.1 Exporting Units Units are exported to GPAIS using the “Action” button from the product list by selecting several products/packages or directly from the product/package card by pressing the \"Export to GPAIS\" button:"
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:126
+msgid "Using Odoo's packaging functionality, such a package can be described as a separate GPAIS unit and declared in a separate journal entry. In this case, information about the Odoo package is filled in the \"Packaging\" tab of the GPAIS module and assigned to the corresponding product *(example of filling in packaging data below)*:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Exporting units to GPAIS"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:109
-msgid "4.2 Forming and Exporting Journal Entries After selecting the \"GPAIS Journals\" tab, a new journal is created, and the data for the reportable period are filled in:"
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:132
+msgid "4. Data Formation and Export to GPAIS"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:111
-msgid "By pressing the \"Save\" button, a new journal is created, and data about warehouse movements (goods dispatched to customers, write-offs) are automatically collected into the intermediate entries tab. The intermediate entries for the reportable period are summed into journal entries by marking the \"Sum entries\" checkbox, specifying the date of entry summation, and then pressing the \"Generate Journal Entries\" button."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:133
+msgid "**4.1 Exporting Units**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:135
+msgid "Units are exported to GPAIS using the “Action” button from the product list by selecting several products/packages or directly from the product/package card by pressing the \"Export to GPAIS\" button:"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Forming and exporting journal entries"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:116
-msgid "After verifying the summed journal entries and, if necessary, making adjustments, the journal entries can be exported to GPAIS. This action is performed by pressing the \"Submit to GPAIS\" button. Journal entries can also be uploaded to GPAIS in XML file format: press the \"Generate XML Declaration File\" button, and then the generated file can be uploaded to the GPAIS system."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:140
+msgid "**4.2 Forming and Exporting Journal Entries**"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:142
+msgid "By selecting the module tab \"GPAIS Journals\", you can choose to create a new journal and fill in the data of the journal being prepared (flow, reporting period information):"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Submitting journal entries to GPAIS"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:121
-msgid "Important! Before confirming the imported journal report in the GPAIS system, it is necessary to recheck the imported data in the GPAIS system itself."
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:147
+msgid "By clicking the \"Save\" button, a new journal is created, and data on warehouse movements (delivery of goods to customers, write-offs) is automatically collected in the interim records tab. The interim records of the reporting period are summed up in the journal entries by checking the \"Summarize entries\" box, specifying the date of summarizing the records, and then clicking the \"Generate journal entries\" button (**Important!** Before summing the journal entries, it is important to assess whether new products (units) have appeared during the period and whether it is necessary to update the generated interim journal entries, according to the instructions in paragraph **2.4**):"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:None
 msgid "Checking imported data in GPAIS"
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:152
+msgid "After verifying the summed journal entries and, if necessary, making adjustments, the journal entries can be exported to GPAIS. This action is performed by clicking the \"Submit to GPAIS\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:154
+msgid "Journal entries can also be uploaded to GPAIS in XML file format: click the \"Generate XML Declaration File\" button, and then the generated file can be uploaded to the GPAIS system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:156
+msgid "**Important!** Before confirming the imported journal report in the GPAIS system, it is necessary to recheck the imported data in the GPAIS system itself."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:2
@@ -754,7 +854,7 @@ msgid "Main menu - Reports -> Invoice registers"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:34
-msgid "The reporting period date (month), purchases/sales are shown separately, and VAT information is also highlighted"
+msgid "In the window that opens, we select the date (month) of the reporting period, Purchases/Sales reports are generated separately, and it is also possible to exclude VAT information by checking Show VAT."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:0
@@ -762,7 +862,7 @@ msgid "Reporting period date - purchases/sales and VAT information"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:39
-msgid "The generated report shows ALL and non-declared data"
+msgid "The generated report displays ALL data, including undeclared data."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:0
@@ -774,7 +874,7 @@ msgid "iSAF Generation"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:47
-msgid "Main menu - i.MAS -> i.SAF to create a new report"
+msgid "Accounting -> i.MAS -> i.SAF. Click New and create a new report."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:0
@@ -1921,7 +2021,7 @@ msgid "**2.1. Printing a Detailed Mutual Debt Reconciliation Act:**"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:17
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:30
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:29
 msgid "In the partner ledger list, click the \"Debt Reconciliation Act\" button."
 msgstr ""
 
@@ -1932,18 +2032,18 @@ msgid "Debt Reconciliation Act button"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:22
-msgid "In the opened window, select the partner, the start and end dates of the period. Check the \"Expand lines\" box. Click the \"Print PDF\" button. This will generate a file in PDF format."
+msgid "In the window that opens, select the partner, start and end dates of the period. Do not select the \"Expand rows\" checkbox. When printing a currency reconciliation report, you can select a currency or not select any currency, in which case the reconciliation report will be printed in all currencies."
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:None
 msgid "Expand lines and Print PDF"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:28
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:27
 msgid "**2.2. Printing a Summary Mutual Debt Reconciliation Act:**"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:35
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:34
 msgid "In the opened window, select the partner, the start and end dates of the period. Do not check the \"Expand lines\" box. Click the \"Print PDF\" button. This will generate a file in PDF format."
 msgstr ""
 
@@ -1951,19 +2051,19 @@ msgstr ""
 msgid "Summary Print PDF"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:41
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:40
 msgid "**2.3. Printing Reconciliation Acts for Multiple Partners in a Batch:**"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:43
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:42
 msgid "This method is used when you need to print reconciliation acts for several partners at once. In this case, repeat all the steps described above according to your needs. In the partner field, select several required partners from the list. A single PDF file with the reconciliation acts for all your selected partners will be generated sequentially."
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:45
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:44
 msgid "**2.4. Printing the reconciliation report from a contact:**"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:47
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:46
 msgid "You can also access the partner's general ledger directly from the Contacts module. In the Contacts module, select the required partner, go to their card, and select Print -> \"Debt reconciliation statement\" or \"Currency debt reconciliation statement\"."
 msgstr ""
 
@@ -1971,7 +2071,7 @@ msgstr ""
 msgid "Partner Ledger from Contacts module"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:52
+#: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:51
 msgid "In the opened form, you can choose the \"Debt Reconciliation Act\" button and follow the previously described instructions for the printing form."
 msgstr ""
 
