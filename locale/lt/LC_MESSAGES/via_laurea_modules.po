@@ -188,22 +188,22 @@ msgid "A new window opens where you specify:"
 msgstr "Atsidaro naujas langas, kuriame nurodome:"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:54
-#, fuzzy
+#
 msgid "Payment type - Send (when issuing from the cash register);"
 msgstr "Mokėjimo rūšis - Siųsti (kai išduodama iš kasos);"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:55
-#, fuzzy
+#
 msgid "Employee - to whom the cash is issued;"
 msgstr "Darbuotojas - kam išduodama;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:56
-#, fuzzy
+#
 msgid "Amount - how much is issued;"
 msgstr "Suma - kiek išduodama;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:57
-#, fuzzy
+#
 msgid "Date - the date of cash issuance;"
 msgstr "Data - grynųjų pinigų išdavimo data;"
 
@@ -217,7 +217,7 @@ msgstr ""
 "instrukcijoje \"KIO KPO numeracija\")."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:59
-#, fuzzy
+#
 msgid ""
 "KIO/KPO responsible - indicates who is responsible for cash transactions "
 "(by default, the user who created the post is assigned);"
@@ -234,7 +234,7 @@ msgid ""
 "Journal - Cash (or can be, for example, a cash register, depending on the"
 " name of the journal for Cash transactions)."
 msgstr ""
-"Žurnalas - Grynieji (arba gali būti pvz. kasa, priklausoma kaip "
+"Žurnalas - Grynieji (arba gali būti pvz. kasa, priklausoma kaip "
 "pavadinamas žurnalas Kasos operacijoms);"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst
@@ -266,46 +266,46 @@ msgid "Specify:"
 msgstr "Pateikite:"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:77
-#, fuzzy
+#
 msgid "Payment type - Receive (when depositing into the cash register);"
-msgstr "Mokėjimo rūšis - Siųsti (kai išduodama iš kasos);"
+msgstr "Mokėjimo rūšis - gauti (kai įnešama į kasą);"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:78
-#, fuzzy
+#
 msgid "Employee - who is depositing the cash;"
-msgstr "Darbuotojas - kas įneša pinigus į kasą"
+msgstr "Darbuotojas - kas įneša pinigus į kasą;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:79
-#, fuzzy
+#
 msgid "Amount - how much is being deposited;"
-msgstr "Suma - kiek įneša"
+msgstr "Suma - kiek įneša;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:80
-#, fuzzy
+#
 msgid "Date - the date of deposit;"
-msgstr "Data - įnešimo į kasą data"
+msgstr "Data - įnešimo į kasą data;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:81
-#, fuzzy
+#
 msgid ""
 "KIO/KPO number - automatically assigned (ensure the sequence is set in "
 "Accounting -> Configuration -> Sequences);"
 msgstr ""
 "KIO/KPO numeris - automatiškai prisiskiria reikiamas (pasitikrinti ar "
-"nustatyta seka Apskaita _> Konfigūracija -> Sekos, plačiau žr. "
+"nustatyta seka Apskaita -> Konfigūracija -> Sekos, plačiau žr. "
 "instrukcijoje \"KIO KPO numeracija\")."
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:82
-#, fuzzy
+#
 msgid ""
 "Responsible for KIO/KPO - indicate who is responsible for cash register "
 "operations;"
 msgstr "KIO/KPO atsakingas - nurodoma kas atsakingas už kasos operacijas"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:83
-#, fuzzy
+#
 msgid "Reminder - the purpose of issuing money;"
-msgstr "Priminimas - įrašoma pinigų išdavimo paskirtis"
+msgstr "Priminimas - įrašoma pinigų įnešimo priežastis;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:84
 msgid ""
@@ -316,7 +316,7 @@ msgstr ""
 "pavadinamas žurnalas Kasos operacijoms)"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:85
-#, fuzzy
+#
 msgid "Payment method - Manual;"
 msgstr "Mokėjimo būdas - Manual (rankinis)"
 
@@ -391,22 +391,26 @@ msgid "Additional instructions and resources"
 msgstr "Papildomos instrukcijos ir ištekliai"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:115
-#, fuzzy
+#
 msgid "Date range - select the period for the report;"
-msgstr "Datos rėžis: pasirenkame už kokį laikotarpį spausdinate avansinę apyskaitą"
+msgstr "Datos rėžis: pasirenkame už kokį laikotarpį spausdinate avansinę apyskaitą;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:116
-#, fuzzy
+#
 msgid ""
 "Employee - choose who the report is for (multiple employees can be "
 "selected);"
-msgstr "Darbuotojas: pasirenkama kam formuoti avansinę apyskaitą"
+msgstr ""
+"pasirenkama kam formuoti avansinę apyskaitą (galima parinkti "
+"keletą darbuotojų);"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:117
 msgid ""
 "Number, purpose, date - optional fields, which can be filled in to print "
 "in the report;"
 msgstr ""
+"Numeris, paskirtis, data - neprivalomi laukai, galima užpildyti, "
+"kad spausdintųsi ataskaitoje;"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:119
 msgid "Print the advance report."
@@ -629,6 +633,8 @@ msgid ""
 "The FR0600 declaration requires the installation of the FR0600 VAT "
 "Declaration module (technical name l10n_lt_fr0600)."
 msgstr ""
+"FR0600 deklaracijai reikalinga įdiegti modulį FR0600 VAT "
+"Declaration (techninis pavadinimas l10n_lt_fr0600)."
 
 #: ../../content/via_laurea_modules/accounting/declarations/fr0600.rst:12
 msgid ""
@@ -690,7 +696,7 @@ msgid "1. Module Purpose and Operation"
 msgstr "1. Modulio paskirtis ir veikimas"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:6
-#, fuzzy
+#
 msgid ""
 "The GPAIS module, created by Via laurea, is designed to register, "
 "automatically collect records in the Odoo system and transfer data to the"
@@ -698,10 +704,10 @@ msgid ""
 "lithuanian, abbreviated as GPAIS) using the Odoo software interface or in"
 " file form."
 msgstr ""
-"„GPAIS“ modulis, publikuotas per „Laurea“, skirtas registruoti, "
-"automatiškai rinkti įrašus Odoo sistemoje ir naudojant VVS sąsają arba "
-"failo formatą perduoti duomenis į Vieningą gaminių, pakuočių ir atliekų "
-"apskaitos informacinę sistemą (GPAIS)."
+"UAB Via laurea paruoštas modulis GPAIS yra skirtas Odoo sistemoje registruoti, "
+"automatiškai kaupti įrašus ir naudojant VVS sąsają arba "
+"failo pavidalu perduoti duomenis į Vieningą gaminių, pakuočių ir atliekų apskaitos "
+"informacinę sistemą (sutrumpintai vadinamą GPAIS)."
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:9
 msgid "2. Module Settings"
@@ -709,60 +715,58 @@ msgstr "2. Modulio nustatymai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:11
 msgid "**2.1 User (Representative) Settings**"
-msgstr ""
+msgstr "**2.1 Vartotojo (atstovo) nustatymai**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:14
-#, fuzzy
+#
 msgid ""
 "An Odoo system user can use the GPAIS module and export data directly to "
 "Odoo when:"
 msgstr ""
-"2.1 Vartotojo (Atstovo) Nustatymai Odoo sistemos vartotojas gali naudotis"
-" GPAIS moduliu ir eksportuoti duomenis tiesiai į Odoo, kai:"
+"Odoo sistemos vartotojas gali naudoti GPAIS modulį ir naudojant Odoo "
+"eksportuoti duomenis tiesiai į GPAIS tik tada kai:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:14
-#, fuzzy
+#
 msgid "Appropriate rights are granted:"
-msgstr "Suformuojamas atitinkamas dokumentas:"
+msgstr "Vartotojui suteiktos atitinkamos teisės:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:16
-#, fuzzy
+#
 msgid "*Settings → Users → Access Rights → Select \"Manager\" for GPAIS rights.*"
-msgstr ""
-"Suteiktos atitinkamos teisės: Nustatymai → Vartotojai → Prieigos teisės →"
-" Pasirinkite „Vadovas“ GPAIS teisėms."
+msgstr "*Nustatymai → Vartotojai → Prieigos teisės → GPAIS teisių pasirinkimas \"Vadovas\"*."
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:18
-#, fuzzy
+#
 msgid ""
 "The user's GPAIS RSA key is uploaded, and the GPAIS username is entered. "
 "Data is uploaded in the user profile settings:"
 msgstr ""
-"Vartotojo GPAIS RSA raktas yra įkeltas, ir įvestas GPAIS naudotojo "
-"vardas. Duomenys įkeliami vartotojo profilio nustatymuose."
+"Įkeltas GPAIS RSA raktas ir įvestas GPAIS vartotojo vardas. Duomenys "
+"užpildomi vartotojo profilio kortelės nustatymuose:"
 
 msgid "User Access Rights Settings"
 msgstr "Vartotojo prieigos teisių nustatymai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:23
 msgid "The RSA key and GPAIS username from GPAIS are obtained as follows:"
-msgstr "RSA raktas ir GPAIS prisijungimo vardas iš GPAIS gaunamas taip:"
+msgstr "RSA raktas ir GPAIS vartotojo vardas iš GPAIS gaunami taip:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:25
-#, fuzzy
+#
 msgid ""
 "First, contract terms are confirmed upon connecting to the GPAIS system "
 "via the ERP interface."
 msgstr ""
-"Pirma, sutarties sąlygos patvirtinamos prisijungus prie GPAIS sistemos "
-"per VVS sąsają."
+"Prisijungus prie GPAIS sistemos VVS sąsajoje visų pirma patvirtinamos "
+"sutarties sąlygas:"
 
 msgid "Confirming contract terms"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:30
 msgid "Then, \"Generate New\" is clicked in the adjacent \"Settings\" tab:"
-msgstr ""
+msgstr "Tada greta esančiame skirtuke \"Nustatymai\" spaudžiama \"Generuoti naują\":"
 
 msgid "Generating new RSA key and username"
 msgstr ""
@@ -772,62 +776,64 @@ msgid ""
 "The generated files include: RSA key (\"id_rsa\") and username "
 "(\"username\"):"
 msgstr ""
+"Gaunami sugeneruoti failai: RSA raktas (\"id_rsa\") ir vartojo vardas "
+"(\"username\"):"
 
-#, fuzzy
+#
 msgid "RSA key generated files"
 msgstr "Sukurti 2-SD deklaracijos failą"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:40
-#, fuzzy
+#
 msgid "**2.2 Flow Registration Settings**"
-msgstr "Nustatoma srauto registracijos ID"
+msgstr "**2.2 Srautų registracijos nustatymai**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:42
-#, fuzzy
+#
 msgid ""
 "The GPAIS flow registration ID number must be specified in Odoo. The "
 "process is as follows:"
 msgstr ""
-"2.2 Srautų registravimo nustatymai GPAIS srautų registracijos ID numeris "
-"turi būti nurodytas Odoo. Procesas apima:"
+"Odoo turi būti nurodytas GPAIS srauto registracijos ID numeris. "
+"Atliekama tokia eiga:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:44
-#, fuzzy
+#
 msgid ""
 "*Settings → Inventory → GPAIS Settings → Select relevant flows, enter "
 "flow ID numbers, and save.*"
 msgstr ""
-"Parametrai → Inventorius → GPAIS parametrai → Pasirinkite atitinkamus "
-"srautus, įveskite srauto ID numerius ir išsaugokite."
+"*Nustatymai → Inventorius → GPAIS nustatymai → Pasirenkami aktualūs srautai, "
+"įvedami srautų ID numeriai ir išsaugoma.*"
 
 msgid "Setting flow registration IDs"
 msgstr "Nustatoma srauto registracijos ID"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:49
 msgid "Flow ID numbers are located in the GPAIS account:"
-msgstr "Srauto ID numeriai yra GPAIS paskyroje:"
+msgstr "Srauto ID numeriai yra Jūsų GPAIS paskyroje:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:51
-#, fuzzy
+#
 msgid ""
 "*Accessed by clicking on one's name → ERP interface → Help → List of flow"
 " registrations for represented entities → Codes for respective flows are "
 "copied from the sent file.*"
 msgstr ""
-"Pasiekiama spustelėjus savo vardą → VVS sąsaja → Pagalba → Atstovaujamų "
-"subjektų srautų registracijų sąrašas → Atitinkamų srautų kodai "
-"kopijuojami iš išsiųsto failo."
+"*Spaudžiama ant savo vardo → VVS sąsaja → Pagalba → Vartotojo atstovaujamų "
+"subjektų srautų registracijos sąrašas → Iš parsiųsto failo "
+"nukopijuojamas atitinkamų srautų kodai.*"
 
 msgid "Retrieving flow ID numbers"
 msgstr "Atgaunamos srauto ID numeriai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:56
-#, fuzzy
+#
 msgid "**2.3 Mode Settings**"
-msgstr "2. Modulio nustatymai"
+msgstr "**2.3 Režimo nustatymai**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:58
-#, fuzzy
+#
 msgid ""
 "**Important!** It is always recommended to set to test mode in both "
 "testing and production environments during the testing, journals, and "
@@ -835,39 +841,38 @@ msgid ""
 "exporting data to the GPAIS operational environment to avoid accidental "
 "data transfer to the production GPAIS system."
 msgstr ""
-"2.3 Režimo nustatymai Svarbu! Visuomet rekomenduojama nustatyti testavimo"
-" režimą tiek testavimo, tiek gamybos aplinkose testavimo, žurnalų ir "
-"GPAIS vienetų parengimo etape. Testavimo režimą išjunkite tik tada, kai "
-"duomenys eksportuojami į GPAIS darbinę aplinką, kad būtų išvengta "
-"netyčinio duomenų perkėlimo į gamybinę GPAIS sistemą. Testavimo režimas "
-"yra įjungiamas ir išjungiamas Odoo GPAIS nustatymuose."
+"**Svarbu!** Tiek testinėje, tiek produkcinėje aplinkoje testavimo, žurnalų "
+"ir GPAIS prekinių vienetų rengimo etape rekomenduojama visada "
+"nustatyti, kad dirbama testiniu režimu. Testinį režimą išjungti tik duomenų "
+"eksportavimui į GPAIS darbinę aplinką. Taip bus išvengiama "
+"netyčinio duomenų perdavimo į produkcinę GPAIS sistemą rizikos."
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:60
 msgid "Test mode is enabled and disabled in the Odoo GPAIS settings:"
-msgstr ""
+msgstr "Testinis rėžimas įjungiamas ir išjungiamas Odoo GPAIS nustatymuose:"
 
 msgid "Test mode settings"
 msgstr "Bandomojo režimo nustatymai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:65
-#, fuzzy
+#
 msgid "**2.4 Product (Unit) Settings**"
-msgstr "2. Modulio nustatymai"
+msgstr "**2.4 Produktų (prekinių vienetų) nustatymai**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:67
-#, fuzzy
+#
 msgid ""
 "Every product entering the GPAIS product list must be marked with a "
 "\"GPAIS product\" checkbox."
 msgstr ""
-"2.4 Produkto (Vieneto) Nustatymai Kiekvienas produktas, patenkantis į "
-"GPAIS produktų sąrašą, turi būti pažymėtas varnele „GPAIS produktas“."
+"Kiekvienas produktas, kuris patenka į GPAIS produktų sąrašą, turi būti "
+"pažymėti varnele \"GPAIS produktas\":"
 
 msgid "Product settings in GPAIS"
 msgstr "GPAIS gaminio nustatymai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:72
-#, fuzzy
+#
 msgid ""
 "**Important!** Only after marking the products with the \"GPAIS product\""
 " checkbox, these products will automatically start to be included in the "
@@ -878,18 +883,18 @@ msgid ""
 "include entries for product A for the entire period, new intermediate "
 "journal entries must be generated."
 msgstr ""
-"Svarbu! Tik pažymėjus produktus žymę „GPAIS produktas“, šie produktai "
-"automatiškai pradės būti įtraukti į tarpinį GPAIS žurnalo įrašų sąrašą. "
-"Tai reiškia, kad jei produktas A bus pažymėtas kaip GPAIS produktas "
-"01.02, tarpiniai žurnalo įrašai šiam produktui nuo šios datos pradės "
-"automatiškai kauptis. Formuojant žurnalą laikotarpiui nuo 01.01 iki 03.31"
-" ir norint įtraukti įrašus apie produktą A už visą laikotarpį, turi būti "
-"sugeneruoti nauji tarpiniai žurnalo įrašai."
+"**Svarbu!** Tik po produktų pažymėjimo varnele \"GPAIS produktas\", tokie produktai "
+"pradės automatiškai patekti į tarpinių GPAIS žurnalo įrašų sąrašą. Tai reiškia, "
+"kad jeigu produktą A pažymėjome kaip GPAIS produktą 02.01, šio produkto "
+"tarpiniai žurnalo įrašai bus pradėti automatiškai kaupti nuo šios dienos. "
+"Formuojant žurnalą už periodą nuo 01.01 iki 03.31 ir norint, kad į "
+"jį patektų A produkto įrašai už visą periodą, reikia naujai sugeneruoti tarpinius "
+"žurnalo įrašus."
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:74
-#, fuzzy
+#
 msgid "They are generated using the following sequence:"
-msgstr "Paspauskite „Spausdinti“ norėdami sugeneruoti šį dokumentą:"
+msgstr "Generuojama tokia eiga:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:76
 msgid ""
@@ -897,17 +902,20 @@ msgid ""
 "intermediate records\" → In the table (see below) we indicate the flow "
 "and period of newly generated intermediate records.*"
 msgstr ""
+"*Įjungiamas \"Kūrėjo rėžimas\" → Modulis \"Inventorius\" → GPAIS → \"Generuoti "
+"tarpinius įrašus\" → Lentelėje (žiūrėti žemiau) nurodome naujai "
+"generuojamų tarpinių įrašų srautą ir periodą.*"
 
 msgid "Generating intermediate journal entries"
 msgstr "Generuoti tarpinius žurnalo įrašus"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:81
-#, fuzzy
+#
 msgid "**2.5 Classifier Settings**"
-msgstr "Klasifikatoriaus nustatymai GPAIS"
+msgstr "**2.5 Klasifikatorių nustatymas**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:83
-#, fuzzy
+#
 msgid ""
 "It is recommended to activate only the relevant classifiers in the "
 "\"Classifications\" tab of the GPAIS module. This provides a shorter list"
@@ -915,89 +923,91 @@ msgid ""
 "classifier. Below is an example list of classifications with activity "
 "settings:"
 msgstr ""
-"2.5 Klasifikatorių nustatymai Rekomenduojama aktyvuoti tik aktualius "
-"klasifikatorius \"Klasifikacijos\" skirtuke GPAIS modulyje. Tai pateikia "
-"trumpesnį klasifikatorių sąrašą ir sumažina neteisingo klasifikatoriaus "
-"pasirinkimo riziką."
+"Rekomeduojama GPAIS modulio skirtuke \"Klasifikacijos\" kaip aktyvius "
+"nustatyti tik aktualius klasifikatorius. Taip vedant prekinių vienetų "
+"informaciją bus siūlomas trumpesnis klasifikacijų sąrašas ir sumažės "
+"rizika pasirinkti neteisingą klasifikatorių. Žemiau atvaizduojamas "
+"klasifikacijų sąrašas su aktyvumo nustatymais:"
 
 msgid "Classifier settings in GPAIS"
 msgstr "Klasifikatoriaus nustatymai GPAIS"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:89
 msgid "3. Product (Unit) Packaging Description"
-msgstr "3. Gaminio (Vieneto) Pakavimo Aprašymas"
+msgstr "3. Produkto (prekinio vieneto) pakuotės aprašymas"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:90
-#, fuzzy
+#
 msgid "**3.1 Basic Product Data**"
-msgstr "GPais pagrindinių produktų duomenų kortelė"
+msgstr "**3.1 Pagrindiniai produkto duomenys**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:92
-#, fuzzy
+#
 msgid ""
 "For \"GPAIS products,\" the product (unit) information to be presented to"
 " GPAIS is specified in the \"GPAIS\" tab:"
 msgstr ""
-"3.1 Pagrindinė Produkto Informacija \"GPAIS produktams\" – produktų "
-"(vienetų) informacija, kuri turi būti pateikta GPAIS nurodyta skirtuke "
-"\"GPAIS\":"
+"Pažymėtiems \"GPAIS produktams\" skirtuke \"GPAIS\" "
+"nurodoma į GPAIS pateikiama produkto (prekinio vieneto) informacija:"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:94
 msgid "Flow type - select from the list;"
-msgstr ""
+msgstr "Srauto tipas - parenkama iš sąrašo;"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:95
 msgid "Receipt method - select;"
-msgstr ""
+msgstr "Gavimo būdas - parenkama;"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:96
 msgid "Product code and Product name - enter manually;"
-msgstr ""
+msgstr "Produkto kodas ir Gaminio pavadinimas - įvedame rankiniu būdu;"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:97
 msgid ""
 "Started supplying to the market - indicates the date from which the "
 "product began to be sold;"
 msgstr ""
+"Pradėta tiekti rinkai - nurodoma data, nuo kada produktas "
+"pradėtas pardavinėti;"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:99
 msgid "The required tab is also filled in."
-msgstr ""
+msgstr "Taip pat užpildomas reikiamas skirtukas."
 
 msgid "Basic product data tab in GPAIS"
-msgstr "GPais pagrindinių produktų duomenų kortelė"
+msgstr "GPAIS pagrindinių produktų duomenų kortelė"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:104
-#, fuzzy
+#
 msgid "**3.2 Deposit Packaging**"
-msgstr "Užstato pakuočių kodai"
+msgstr "**3.2 Užstatinės pakuotės**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:106
-#, fuzzy
+#
 msgid ""
 "In the case of declaring deposit packaging, such packaging codes and "
 "names are filled in the \"Deposit Packaging Codes\" tab:"
 msgstr ""
-"3.2 Užstato pakuotė Užstato pakuotės deklaravimo atveju „Užstato pakuotės"
-" kodų“ lape užpildomi tokių pakuočių kodai ir pavadinimai:"
+"Užstatinės pakuotės deklaravimo atveju, tokios pakuotės kodai "
+"ir pavadinimai užpildomi skirtuke \"Užstatinių pakuočių kodai\";"
 
 msgid "Deposit packaging codes"
-msgstr "Užstato pakuočių kodai"
+msgstr "Užstatinių pakuočių kodai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:111
 msgid ""
 "Then, when filling out the product (unit) card, the required deposit "
 "packaging is selected from the list:"
 msgstr ""
-"Tuomet, pildant produkto (vieneto) kortelę, iš sąrašo pasirenkama "
-"reikiama užstato pakuotė:"
+"Tada pildant produkto (prekinio vieneto) kortelės reikiama užstatinė pakuotė "
+"pasirenkama iš sąrašo:"
 
 msgid "Selecting deposit packaging"
 msgstr "Pasirinkti depozito pakavimą"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:116
 msgid "**3.3 Declaring Packaging as a Separate Unit**"
-msgstr ""
+msgstr "**3.3 Odoo pakuočių deklaravimas atskiru prekiniu vienetu**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:118
 msgid ""
@@ -1005,6 +1015,9 @@ msgid ""
 "packages (illustration below: one avocado and its packaging - a pallet "
 "with n units of avocados)."
 msgstr ""
+"Odoo pakuočių funkcionalumas leidžia produktus pirkti ir pardavinėti "
+"pakuotėmis (Iliustracija žemiau: produktas - 1 avokadas ir produktų "
+"pakuotė - paletė su n vienetų avokadų)."
 
 msgid "Odoo packaging functionality"
 msgstr "„Odoo“ pakavimo funkcionalumas"
@@ -1013,7 +1026,7 @@ msgid "Detailed view of Odoo packaging"
 msgstr "Išsamus Odoo pakuotės vaizdas"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:126
-#, fuzzy
+#
 msgid ""
 "Using Odoo's packaging functionality, such a package can be described as "
 "a separate GPAIS unit and declared in a separate journal entry. In this "
@@ -1021,13 +1034,11 @@ msgid ""
 "tab of the GPAIS module and assigned to the corresponding product "
 "*(example of filling in packaging data below)*:"
 msgstr ""
-"3.3 Deklaruoti Odoo pakavimą kaip atskirą vienetą Odoo pakavimo "
-"funkcionalumas leidžia produktus pirkti ir parduoti pakuotėse (pavyzdys "
-"žemiau: vienas avokadas ir jo pakuotė - paletė su n avokadų vienetais). "
-"naudojant Odoo pakavimo funkcionalumą, tokia pakuotė gali būti aprašyta "
-"kaip atskiras GPAIS vienetas ir deklaruojama atskira žurnalo įrašu. Šiuo "
-"atveju, informacija apie Odoo pakuotę užpildoma GPAIS modulyje "
-"\"Pakavimas\" skirtuke ir priskiriama atitinkamam produktui."
+"Naudojant Odoo pakuočių funkcionalumą, tokią pakuotę galima aprašyti "
+"kaip atskirą GPAIS prekinį vienetą ir GPAIS deklaruoti atskiru "
+"žurnalo įrašu. Tokiu atveju informacija apie Odoo pakuotę pildoma GPAIS modulio "
+"skirtuke \"Pakuotės\" ir priskiriama atitinkamam produktui "
+"*(pakuotės duomenų užpildymo pavyzdys žemiau)*:"
 
 msgid "Exporting units to GPAIS"
 msgstr "Eksporto vienetai į GPAIS"
@@ -1037,29 +1048,29 @@ msgid "4. Data Formation and Export to GPAIS"
 msgstr "4. Duomenų formavimas ir eksportas į GPAIS"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:133
-#, fuzzy
+#
 msgid "**4.1 Exporting Units**"
-msgstr "Eksporto vienetai į GPAIS"
+msgstr "**4.1. Prekinių vienetų eksportavimas**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:135
-#, fuzzy
+#
 msgid ""
 "Units are exported to GPAIS using the “Action” button from the product "
 "list by selecting several products/packages or directly from the "
 "product/package card by pressing the \"Export to GPAIS\" button:"
 msgstr ""
-"4.1 Eksportuoti vienetus Vienetai eksportuojami į GPAIS naudojant mygtuką"
-" „Veiksmas” produktų sąraše, pasirenkant kelis produktus/pakuotes arba "
-"tiesiogiai iš produkto/pakuotės kortelės paspaudžiant mygtuką "
-"„Eksportuoti į GPAIS“:"
+"Prekinių vienetai į GPAIS eksportuojami per “Action” mygtuką "
+"iš produktų sąrašo pasirinkus kelis produktus/ pakuotes "
+"arba tiesiai iš produkto/ pakuotės kortelės, spaudžiant mygtuką "
+"\"Eksportuoti į GPAIS\":"
 
 msgid "Forming and exporting journal entries"
 msgstr "Žurnalo įrašų formavimas ir eksportavimas"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:140
-#, fuzzy
+#
 msgid "**4.2 Forming and Exporting Journal Entries**"
-msgstr "Žurnalo įrašų formavimas ir eksportavimas"
+msgstr "**4.2. Žurnalo įrašų formavimas ir eksportavimas**"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:142
 msgid ""
@@ -1067,12 +1078,15 @@ msgid ""
 "a new journal and fill in the data of the journal being prepared (flow, "
 "reporting period information):"
 msgstr ""
+"Pasirinkus modulio skirtuką \"GPAIS žurnalai\", pasirenkama kurti naują "
+"žurnalą ir užpildomi rengiamo žurnalo duomenys (srautas, "
+"ataskaitinio laikotarpio informacija):"
 
 msgid "Submitting journal entries to GPAIS"
 msgstr "Dienoraščio įrašų pateikimas GPAIS sistemai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:147
-#, fuzzy
+#
 msgid ""
 "By clicking the \"Save\" button, a new journal is created, and data on "
 "warehouse movements (delivery of goods to customers, write-offs) is "
@@ -1085,57 +1099,53 @@ msgid ""
 "whether it is necessary to update the generated interim journal entries, "
 "according to the instructions in paragraph **2.4**):"
 msgstr ""
-"Paspaudus mygtuką „Išsaugoti“, sukuriamas naujas žurnalas, o duomenys "
-"apie sandėlio judėjimus (prekių išsiuntimas klientams, nurašymai) "
-"automatiškai surenkami į tarpinę įrašų kortelę. Pažymėjus žymimąjį "
-"laukelį „Sumuoti įrašus“, nurodžius įrašų sumavimo datą ir paspaudus "
-"mygtuką „Generuoti žurnalo įrašus“, ataskaitiniu laikotarpiu tarpiniai "
-"įrašai susumuojami į žurnalo įrašus."
+"Paspaudus mygtuką \"Išsaugoti\" sukuriamas naujas žurnalas, į tarpinių įrašų "
+"skirtuką automatiškai surenkami duomenys apie sandėlio judėjimą "
+"(prekių išvežimą klientams, nurašymus). Ataskaitinio periodo tarpiniai įrašai "
+"susumuojami į žurnalo įrašus pažymėjus varnelę \"Susumuoti įrašus\", "
+"nurodžius įrašų sumavimo datą bei ir tada paspaudus mygtuką "
+"\"Generuoti žurnalo įrašus\" (**Svarbu!** Prieš sumuojant žurnalo įrašus "
+"svarbu įvertintiti, ar periodo metu neatsirado naujų produktų "
+"(prekinių vienetų) ir ar nereikia pagal **2.4** punkto nurodymus atnaujinti "
+"sugeneruotų tarpinių žurnalo įrašų):"
 
 msgid "Checking imported data in GPAIS"
 msgstr "Duomenų tikrinimas GPAIS sistemoje"
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:152
-#, fuzzy
+#
 msgid ""
 "After verifying the summed journal entries and, if necessary, making "
 "adjustments, the journal entries can be exported to GPAIS. This action is"
 " performed by clicking the \"Submit to GPAIS\" button."
 msgstr ""
-"Patikrinus suvestas žurnalo įrašus ir, jei reikia, atlikus koregavimus, "
-"žurnalo įrašus galima eksportuoti į GPAIS. Šis veiksmas atliekamas "
-"paspaudžiant mygtuką „Pateikti GPAIS“. Žurnalo įrašus taip pat galima "
-"įkelti į GPAIS XML failo formatu: paspauskite mygtuką „Generuoti XML "
-"deklaracijos failą“, ir tuomet sugeneruotą failą galima įkelti į GPAIS "
-"sistemą."
+"Patikrinus susumuotus žurnalo įrašus ir, pagal poreikį, atlikus "
+"pataisymus, galima žurnalo įrašus eksportuoti į GPAIS. "
+"Veiksmas atliekamas spaudžiant mygtuką \"Pateikti į GPAIS\"."
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:154
-#, fuzzy
+#
 msgid ""
 "Journal entries can also be uploaded to GPAIS in XML file format: click "
 "the \"Generate XML Declaration File\" button, and then the generated file"
 " can be uploaded to the GPAIS system."
 msgstr ""
-"Patikrinus suvestas žurnalo įrašus ir, jei reikia, atlikus koregavimus, "
-"žurnalo įrašus galima eksportuoti į GPAIS. Šis veiksmas atliekamas "
-"paspaudžiant mygtuką „Pateikti GPAIS“. Žurnalo įrašus taip pat galima "
-"įkelti į GPAIS XML failo formatu: paspauskite mygtuką „Generuoti XML "
-"deklaracijos failą“, ir tuomet sugeneruotą failą galima įkelti į GPAIS "
-"sistemą."
+"Taip pat žurnalo įrašus galima įkelti į GPAIS xml failo pavidalu: spaudžiamas "
+"mygtukas \"Generuoti xml deklaracijos failą\" ir tada sugeneruotas failas "
+"gali būti įkeliamas į GPAIS sistemą."
 
 #: ../../content/via_laurea_modules/accounting/declarations/gpais.rst:156
-#, fuzzy
+#
 msgid ""
 "**Important!** Before confirming the imported journal report in the GPAIS"
 " system, it is necessary to recheck the imported data in the GPAIS system"
 " itself."
 msgstr ""
-"Svarbu! Prieš patvirtindami importuotą žurnalo ataskaitą GPAIS sistemoje,"
-" būtina dar kartą patikrinti importuotus duomenis pačioje GPAIS "
-"sistemoje."
+"**Svarbu!** Prieš tvirtinant importuotą žurnalo ataskaitą GPAIS sistemoje, "
+"būtina dar kartą pačioje GPAIS sistemoje patikrinti importuotus duomenis."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:2
-msgid "​iSAF"
+msgid "iSAF"
 msgstr "iSAF"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:7
@@ -1147,10 +1157,10 @@ msgid ""
 "registers are approved by the VMI Order No. VA-55 dated 2004-04-21 \"On "
 "the management of VAT invoice registers\"."
 msgstr ""
-"Nuo 2019-07-01 visi juridiniai asmenys, PVM mokėtojai, išrašomų ir "
+"Nuo 2019-07-01 visi juridiniai asmenys, PVM mokėtojai, išrašomų ir "
 "gaunamų PVM sąskaitų faktūrų registrų duomenis VMI turi teikti kas mėnesį"
 " iki kito mėnesio 20 dienos. Registras vadinasi iSAF deklaracija. PVM "
-"sąskaitų faktūrų registrų pildymo ir pateikimo taisyklės patvirtintos VMI"
+"sąskaitų faktūrų registrų pildymo ir pateikimo taisyklės patvirtintos VMI"
 " prie FM viršininko 2004-04-21 įsakymu Nr. VA-55 „Dėl pridėtinės vertės "
 "mokesčio sąskaitų faktūrų registrų tvarkymo."
 
@@ -1184,7 +1194,7 @@ msgstr "Pagrindinis meniu - Apskaita -> Konfigūracija -> Mokesčiai"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:20
 msgid "In the tax environment, the Tax code is mandatory"
-msgstr "Kiekvienam mokesčiui privaloma priskirti Mokesčio kodą."
+msgstr "Kiekvienam mokesčiui privaloma priskirti Mokesčio kodą."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Mandatory Tax Code"
@@ -1209,13 +1219,16 @@ msgid ""
 "period, Purchases/Sales reports are generated separately, and it is also "
 "possible to exclude VAT information by checking Show VAT."
 msgstr ""
+"Atsidariusiame lange pasirenkame ataskaitinio laikotarpio datą "
+"(mėnesį), Pirkimai/Pardavimai ataskaitos formuojamos atskirai, "
+"taip pat galima išskirti PVM informaciją, pažymėjus Rodyti PVM."
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Reporting period date - purchases/sales and VAT information"
 msgstr "Ataskaitinio laikotarpio data - pirkimai/pardavimai ir PVM informacija"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:39
-#, fuzzy
+#
 msgid "The generated report displays ALL data, including undeclared data."
 msgstr "Suformuotoje ataskaitoje rodomi VISI, net ir nedeklaruojami, duomenis."
 
@@ -1228,9 +1241,9 @@ msgid "iSAF Generation"
 msgstr "i.SAF generavimas"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:47
-#, fuzzy
+#
 msgid "Accounting -> i.MAS -> i.SAF. Click New and create a new report."
-msgstr "Apskaita  -> i.MAS -> i.SAF. Spaudžiame Naujas ir kuriame naują ataskaitą"
+msgstr "Apskaita -> i.MAS -> i.SAF. Spaudžiame Naujas ir kuriame naują ataskaitą"
 
 #: ../../content/via_laurea_modules/accounting/declarations/isaf.rst
 msgid "Main menu - i.MAS -> i.SAF new report"
@@ -3059,6 +3072,11 @@ msgid ""
 "any currency, in which case the reconciliation report will be printed in "
 "all currencies."
 msgstr ""
+"Atsidariusiame lange pasirinkite partnerį, periodo pradžios bei "
+"pabaigos datas. Nesirinkite žymos \"Išskleisti eilutes\". Spausdinant "
+"valiutinį suderinimo aktą galima parinkti valiutą arba "
+"neparinkti jokios valiutos, tokiu atveju atspausdins suderinimo "
+"aktą visomis valiutomis."
 
 msgid "Expand lines and Print PDF"
 msgstr "Išplėskite eilutes ir spausdinkite PDF."
