@@ -123,7 +123,7 @@ msgstr "Sąskaitos apmokėjimo registracija"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:29
 msgid "A new window opens where you need to:"
-msgstr "Atsidaro naujas langas, kuriame reikia:"
+msgstr "Atsidaro naujas langas, kuriame nurodome:"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:31
 msgid "Choose the journal for accountable persons;"
@@ -337,7 +337,7 @@ msgid ""
 "Typically, bank statements are imported or synchronized, showing the "
 "transfer operation:"
 msgstr ""
-"dažniausiu atveju banko išrašai importuojami arba turi sinchronizaciją. "
+"Dažniausiu atveju banko išrašai importuojami arba turi sinchronizaciją. "
 "Tuomet jau matosi pavedimo operacija:"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:96
@@ -401,7 +401,7 @@ msgid ""
 "Employee - choose who the report is for (multiple employees can be "
 "selected);"
 msgstr ""
-"pasirenkama kam formuoti avansinę apyskaitą (galima parinkti "
+"Darbuotojas - pasirenkama kam formuoti avansinę apyskaitą (galima parinkti "
 "keletą darbuotojų);"
 
 #: ../../content/via_laurea_modules/accounting/accountable_persons.rst:117
