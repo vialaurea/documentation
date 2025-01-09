@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 14:42+0000\n"
+"POT-Creation-Date: 2025-01-09 10:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -925,24 +925,6 @@ msgstr ""
 msgid "Report sent"
 msgstr ""
 
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:81
-#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:39
-#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
-#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:46
-#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
-#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
-#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:63
-msgid "Integrations and Connections with Other Modules"
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:83
-msgid "How this module integrates with other Odoo modules or external systems."
-msgstr ""
-
-#: ../../content/via_laurea_modules/accounting/declarations/isaf.rst:84
-msgid "Special integration instructions, if needed."
-msgstr ""
-
 #: ../../content/via_laurea_modules/accounting/fixed_assets.rst:2
 msgid "Fixed Assets"
 msgstr ""
@@ -1404,6 +1386,15 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:33
 msgid "It is also used for KIO and KPO orders."
+msgstr ""
+
+#: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:39
+#: ../../content/via_laurea_modules/accounting/other_functionalities/customer_invoices_by_departments.rst:70
+#: ../../content/via_laurea_modules/accounting/other_functionalities/reverse_charges.rst:46
+#: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:60
+#: ../../content/via_laurea_modules/accounting/reports/chart_of_accounts_report.rst:40
+#: ../../content/via_laurea_modules/payroll/shift_work_scheduling.rst:63
+msgid "Integrations and Connections with Other Modules"
 msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/other_functionalities/company_executives.rst:41
@@ -2828,27 +2819,11 @@ msgid "The calculation of cumulative working time is part of the Payroll module.
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:86
-msgid "7. Problem Solving and FAQs"
+msgid "7. Updates and Version Management"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:87
-msgid "Common problems and their solutions. Answers to frequently asked questions about this module."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:91
-msgid "8. Updates and Version Management"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:92
 msgid "How to update the module. Version management practices."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:96
-msgid "9. Appendices"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:97
-msgid "Screenshots and visual instructions. Useful links and additional resources."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:2
