@@ -76,9 +76,3 @@ and send
 
   .. image:: isaf/img12.jpg
       :alt: Report sent
-
-Integrations and Connections with Other Modules
------------------------------------------------
-
-- How this module integrates with other Odoo modules or external systems.
-- Special integration instructions, if needed.

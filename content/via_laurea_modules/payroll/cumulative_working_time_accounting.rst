@@ -82,17 +82,7 @@ All possible reports remain the same as in the case of standard payroll, cumulat
 ---------------------------------------------------
 The calculation of cumulative working time is part of the Payroll module.
 
-7. Problem Solving and FAQs
----------------------------
-Common problems and their solutions.
-Answers to frequently asked questions about this module.
-
-8. Updates and Version Management
+7. Updates and Version Management
 ---------------------------------
 How to update the module.
 Version management practices.
-
-9. Appendices
--------------
-Screenshots and visual instructions.
-Useful links and additional resources.
