@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-09 10:41+0000\n"
+"POT-Creation-Date: 2025-01-20 14:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -57,6 +57,10 @@ msgstr "Atskaitingi asmenys"
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:5
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:9
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:5
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:5
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:5
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:5
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:5
 msgid "1. Introduction"
 msgstr "1. Įvadas"
@@ -74,6 +78,10 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:10
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:10
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:13
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:11
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:11
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:13
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:11
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:9
 msgid "2. Installation and Configuration"
 msgstr "2. Diegimas ir konfigūracija"
@@ -1574,6 +1582,7 @@ msgstr "Atnaujinimai ir versijų valdymas"
 #: ../../content/via_laurea_modules/accounting/payments/KIO-KPO_numeration.rst:67
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:52
 #: ../../content/via_laurea_modules/inventory/reports/write-off_act.rst:47
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:46
 msgid "The module is updated with each new version of Odoo."
 msgstr "Modulis atnaujinamas su kiekviena nauja Odoo versija."
 
@@ -1630,6 +1639,10 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:30
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:18
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:15
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:15
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:17
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:15
 msgid "3. Main Features"
 msgstr "3. Pagrindinės funkcijos"
 
@@ -2974,6 +2987,9 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:54
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:53
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:37
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:32
 msgid "The module is updated with each new Odoo version."
 msgstr "Modulis atnaujinamas su kiekviena nauja Odoo versija."
 
@@ -4727,6 +4743,284 @@ msgstr "Darbo sutarties istorija"
 msgid "Employment Contract History Details"
 msgstr "Užimtumo Sutarties Istorijos Detalės"
 
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:2
+msgid "Certificate of average earnings"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:6
+msgid ""
+"In cases where an employee must be paid an average wage (or part thereof)"
+" in accordance with the Labor Code or other labor law provisions or an "
+"employment contract, a certificate must be printed showing how that "
+"average salary was calculated.."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:8
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:8
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:10
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:8
+msgid ""
+"The report is a table in a typical recommended format, formatted into a "
+".pdf document."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:12
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:12
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:14
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:12
+msgid ""
+"The Lithuanian Payroll Reports module (technical name "
+"l10n_lt_hr_payroll_vl_reports) is installed, as well as the Lithuanian "
+"Payroll module (technical name l10n_lt_hr_payroll_vl)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:16
+msgid ""
+"After calculating the payroll (for more information, see Payroll "
+"calculation), we can print an average salary certificate for the "
+"employee. Select Payroll module >> Reports >> Average salary certificate."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:18
+msgid "In the table that opens, specify:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:20
+#, fuzzy
+msgid "**Employee** - select from the list;"
+msgstr "Srauto tipas - parenkama iš sąrašo;"
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:21
+msgid "**Date** - specify the date for which the certificate is required;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:22
+#, fuzzy
+msgid "**Certificate preparer** - select from the Contacts list;"
+msgstr "Srauto tipas - parenkama iš sąrašo;"
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:24
+msgid "Click \"Print PDF\". One certificate can be printed per employee."
+msgstr ""
+
+msgid "Average earnings certificate tab information"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:29
+#, fuzzy
+msgid ""
+"A .pdf file with data for the last 3 months prior to the entered date "
+"will be created and automatically saved on your computer."
+msgstr ""
+".pdf failas su duomenimis už pastaruosius 3 mėnesius iki nurodytos datos "
+"bus sukurtas ir automatiškai išsaugotas jūsų kompiuteryje."
+
+msgid "Example of average earnings certificate"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:35
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
+#, fuzzy
+msgid "4. Updates and Version Management"
+msgstr "8. Atnaujinimai ir versijų valdymas"
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:37
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:38
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:33
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:47
+msgid "This instruction is valid for versions 16 and 17."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:2
+#, fuzzy
+msgid "Payroll sheet"
+msgstr "Darbo užmokesčio būsena"
+
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:6
+msgid ""
+"A **payroll accounting sheet** is a payroll accounting document that "
+"lists an employee's monthly salary data regarding credited and deducted "
+"amounts."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:16
+msgid ""
+"After calculating the payroll (for more information, see Payroll "
+"Calculation), we can print the Payroll Sheet: Payroll module >> Reports "
+">> Payroll Sheet."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:21
+msgid "In the table that opens, fill in the date range from... to."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:23
+#, fuzzy
+msgid ""
+"To print a separate salary slip for a specific department, select the "
+"department. If you do not use departments or want to create a slip for "
+"all employees - leave this field empty."
+msgstr ""
+"Atsidariusioje lentelėje užpildykite datas. Norint spausdinti atskirą "
+"atlyginimų žiniaraštį padaliniui, pasirinkite padalinį. Jei padalinių "
+"nenaudojate arba norite formuoti žiniaraštį visiems darbuotojams - "
+"palikite šį lauką tuščią. Spauskite mygtuką „Spausdinti PDF“ ir Jūsų "
+"kompiuteryje bus išsaugotas žiniaraštis."
+
+msgid "Selecting date range for payroll sheet"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:28
+msgid ""
+"Click the \"Print PDF\" button and the sheet will be saved to your "
+"computer."
+msgstr ""
+
+msgid "Example of printed payroll sheet"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:33
+#, fuzzy
+msgid "You can also format the spreadsheet in .xlsx format."
+msgstr ""
+"Taip pat galite pasirinkti Darbo užmokesčio žiniaraštį spausdinti .xls "
+"formatu."
+
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:2
+#, fuzzy
+msgid "Salary certificate"
+msgstr "Darbo užmokesčio pažyma"
+
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:6
+msgid ""
+"A certificate of calculated and paid wages (salary) to an employee is a "
+"special form that is provided at the employee's request."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:8
+msgid ""
+"Most often, the employee requests the certificate because they have to "
+"submit it to other institutions, for example, a bank, kindergarten, "
+"social welfare system, etc."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:18
+#, fuzzy
+msgid ""
+"To create a salary certificate, select Payroll module >> Reports >> "
+"Salary certificate."
+msgstr ""
+"Norint suformuoti pažymą apie dabo užmokestį, Algalapio modulyje >> "
+"Ataskaitose >> pasirinkite skirsnį \"DU pažyma\"."
+
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:23
+#, fuzzy
+msgid ""
+"In the opened tab, select the employee and the date range from... to for "
+"which the certificate is required. One certificate can be printed per "
+"employee."
+msgstr ""
+"Atsidariusioje kortelėje pasirinkite konkretų darbuotoją ir datas, už "
+"kuras reikalinga pažyma. Spauskite „Spausdinti PDF“ ir į Jūsų kompiuterį "
+"bus atsiųsta standartinė pažyma."
+
+#, fuzzy
+msgid "Example of salary certificate"
+msgstr "Darbo užmokesčio pažyma"
+
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:28
+#, fuzzy
+msgid ""
+"Click \"Print PDF\" and a standard certificate will be sent to your "
+"computer."
+msgstr ""
+"Atsidariusioje kortelėje pasirinkite konkretų darbuotoją ir datas, už "
+"kuras reikalinga pažyma. Spauskite „Spausdinti PDF“ ir į Jūsų kompiuterį "
+"bus atsiųsta standartinė pažyma."
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:2
+msgid "Timesheets"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:6
+msgid ""
+"A timesheet is a special summary that can be used to correctly calculate "
+"employee wages. In the event of a dispute, the report serves as proof of "
+"work completed."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:16
+msgid ""
+"Before calculating the salary, review the work records for the relevant "
+"month (for more information, see Payroll Calculation)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:18
+msgid ""
+"Once you are ready, you can print the working timesheet: Payroll module "
+">> Reports >> DLAŽ (timesheets)."
+msgstr ""
+
+msgid "Printing timesheets"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:23
+#, fuzzy
+msgid "In the table that opens, select:"
+msgstr "Atsidariusiame lange pasirinkite:"
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:25
+msgid ""
+"**Year** - by default, current year is always suggested, but can be "
+"adjusted manually;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:26
+#, fuzzy
+msgid "**Month** - select from the list;"
+msgstr "Srauto tipas - parenkama iš sąrašo;"
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:27
+msgid ""
+"**Departments, employees** - select if you want to print separately for a"
+" specific employee or department. If you do not select it, it will print "
+"for all employees by default."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:29
+msgid "In the Signatures section, select:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:31
+msgid ""
+"**Filled in by** - select from the Contact register (this field is "
+"optional);"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:32
+msgid ""
+"**Employer or the authorized person** - select from the Contact register "
+"(this field is optional);"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:34
+#, fuzzy
+msgid "Click the \"Print PDF\" button."
+msgstr "Paspauskite mygtuką „Spausdinti“"
+
+msgid "Information to fill in for timesheets"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:39
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:309
+msgid "A .pdf file will be downloaded and saved to your computer for printing."
+msgstr ".pdf failas bus atsisiųstas ir išsaugotas jūsų kompiuteryje spausdinimui."
+
+msgid "Example of printed timesheets document"
+msgstr ""
+
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:2
 msgid "Payroll Calculation"
 msgstr "Darbo užmokesčio skaičiavimas"
@@ -5602,10 +5896,6 @@ msgstr ""
 
 msgid "Print PDF"
 msgstr "Spausdinti PDF"
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:309
-msgid "A .pdf file will be downloaded and saved to your computer for printing."
-msgstr ".pdf failas bus atsisiųstas ir išsaugotas jūsų kompiuteryje spausdinimui."
 
 msgid "Downloaded PDF"
 msgstr "Atsisiųsti PDF"
