@@ -15,6 +15,9 @@ The report is a table in a typical recommended format, formatted into a .pdf doc
 ----------------
 After calculating the payroll (for more information, see Payroll calculation), we can print an average salary certificate for the employee. Select Payroll module >> Reports >> Average salary certificate.
 
+.. image:: certificate_of_average_earnings/img01.jpg
+   :alt: Creating an average earnings certificate
+
 In the table that opens, specify:
 
 - **Employee** - select from the list;
@@ -31,7 +34,7 @@ A .pdf file with data for the last 3 months prior to the entered date will be cr
 .. image:: certificate_of_average_earnings/img03.jpg
    :alt: Example of average earnings certificate
 
-4. Updates and Version Management
+1. Updates and Version Management
 ---------------------------------
 - The module is updated with each new Odoo version.
 - This instruction is valid for versions 16 and 17.
