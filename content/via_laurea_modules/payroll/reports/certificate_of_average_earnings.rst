@@ -3,7 +3,7 @@ Certificate of average earnings
 
 1. Introduction
 ------------
-In cases where an employee must be paid an average wage (or part thereof) in accordance with the Labor Code or other labor law provisions or an employment contract, a certificate must be printed showing how that average salary was calculated..
+In cases where an employee must be paid an average wage (or part thereof) in accordance with the Labor Code or other labor law provisions or an employment contract, a certificate must be printed showing how that average salary was calculated.
 
 The report is a table in a typical recommended format, formatted into a .pdf document.
 
@@ -34,7 +34,7 @@ A .pdf file with data for the last 3 months prior to the entered date will be cr
 .. image:: certificate_of_average_earnings/img03.jpg
    :alt: Example of average earnings certificate
 
-1. Updates and Version Management
+4. Updates and Version Management
 ---------------------------------
 - The module is updated with each new Odoo version.
 - This instruction is valid for versions 16 and 17.

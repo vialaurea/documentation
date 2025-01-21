@@ -14,7 +14,7 @@ Accumulated vacation is considered a liability of the company and reduces profit
    :alt: Opening vacation accrual settings
 
 - **Debit account** - indicates the expense account. As noted in the note next to the field, if wages are allocated to expenses by department (for more information, see Payroll Calculation), this account will not be used, but the expense account assigned to the department.
-- **Credit account** - indicates a class 4 account, for example 4485 Vacation Accruals
+- **Credit account** - indicates a class 4 account, for example 4485 Vacation Accruals.
 
 3. Main Features
 ----------------

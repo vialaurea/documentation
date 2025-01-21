@@ -16,7 +16,7 @@ The report is a table in a typical recommended format, formatted into a .pdf doc
 After calculating the payroll (for more information, see Payroll Calculation), we can print the Payroll Sheet: Payroll module >> Reports >> Payroll Sheet.
 
 .. image:: payroll_sheet/img01.jpg
-   :alt: Printing payroll sheet
+   :alt: How to print the payroll sheet
 
 In the table that opens, fill in the date range from... to. 
 

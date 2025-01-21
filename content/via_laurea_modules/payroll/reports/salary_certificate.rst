@@ -18,7 +18,7 @@ The report is a table in a typical recommended format, formatted into a .pdf doc
 To create a salary certificate, select Payroll module >> Reports >> Salary certificate.
 
 .. image:: salary_certificate/img01.jpg
-   :alt: Creating the salary certificate
+   :alt: Where to print the salary certificate 
 
 In the opened tab, select the employee and the date range from... to for which the certificate is required. One certificate can be printed per employee.
 
