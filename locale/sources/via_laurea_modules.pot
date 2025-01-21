@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 14:41+0000\n"
+"POT-Creation-Date: 2025-01-21 15:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:5
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:5
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:5
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:5
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:5
 msgid "1. Introduction"
 msgstr ""
@@ -67,6 +68,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:11
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:13
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:11
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:9
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:9
 msgid "2. Installation and Configuration"
 msgstr ""
@@ -1175,6 +1177,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:15
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:17
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:15
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:20
 msgid "3. Main Features"
 msgstr ""
 
@@ -2005,9 +2008,10 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:54
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:53
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:39
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:37
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:32
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:37
 msgid "The module is updated with each new Odoo version."
 msgstr ""
 
@@ -2999,23 +3003,27 @@ msgstr ""
 msgid "After calculating the payroll (for more information, see Payroll calculation), we can print an average salary certificate for the employee. Select Payroll module >> Reports >> Average salary certificate."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:18
-msgid "In the table that opens, specify:"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:20
-msgid "**Employee** - select from the list;"
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:None
+msgid "Creating an average earnings certificate"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:21
-msgid "**Date** - specify the date for which the certificate is required;"
+msgid "In the table that opens, specify:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:22
-msgid "**Certificate preparer** - select from the Contacts list;"
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:23
+msgid "**Employee** - select from the list;"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:24
+msgid "**Date** - specify the date for which the certificate is required;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:25
+msgid "**Certificate preparer** - select from the Contacts list;"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:27
 msgid "Click \"Print PDF\". One certificate can be printed per employee."
 msgstr ""
 
@@ -3023,7 +3031,7 @@ msgstr ""
 msgid "Average earnings certificate tab information"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:29
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:32
 msgid "A .pdf file with data for the last 3 months prior to the entered date will be created and automatically saved on your computer."
 msgstr ""
 
@@ -3031,17 +3039,15 @@ msgstr ""
 msgid "Example of average earnings certificate"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:35
-#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
-#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
-#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
-msgid "4. Updates and Version Management"
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:38
+msgid "1. Updates and Version Management"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:37
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:40
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:38
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:33
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:47
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:38
 msgid "This instruction is valid for versions 16 and 17."
 msgstr ""
 
@@ -3055,6 +3061,10 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:16
 msgid "After calculating the payroll (for more information, see Payroll Calculation), we can print the Payroll Sheet: Payroll module >> Reports >> Payroll Sheet."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:None
+msgid "Printing payroll sheet"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:21
@@ -3081,6 +3091,13 @@ msgstr ""
 msgid "You can also format the spreadsheet in .xlsx format."
 msgstr ""
 
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:36
+msgid "4. Updates and Version Management"
+msgstr ""
+
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:2
 msgid "Salary certificate"
 msgstr ""
@@ -3095,6 +3112,10 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:18
 msgid "To create a salary certificate, select Payroll module >> Reports >> Salary certificate."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:None
+msgid "Creating the salary certificate"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:23
@@ -3172,6 +3193,58 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:None
 msgid "Example of printed timesheets document"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:2
+msgid "Vacation accrual report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:6
+msgid "Accumulated vacation is considered a liability of the company and reduces profits, so this indicator is important for both financial reporting and business planning. Therefore, at the end of the financial year, accounting specialists must calculate the number of days off employees are entitled to and create the appropriate entry in the General Ledger."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:10
+msgid "The Accrued Vacation module (technical name l10n_lt_hr_accrued_vacation) is installed, as well as the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:11
+msgid "Settings for cumulative account correspondence are managed in the Payroll module >> Configuration >> Settings, specifying the appropriate accounting accounts based on your chart of accounts:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:None
+msgid "Opening vacation accrual settings"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:16
+msgid "**Debit account** - indicates the expense account. As noted in the note next to the field, if wages are allocated to expenses by department (for more information, see Payroll Calculation), this account will not be used, but the expense account assigned to the department."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:17
+msgid "**Credit account** - indicates a class 4 account, for example 4485 Vacation Accruals"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:21
+msgid "In the Time Off module >> Reports, you can find standard reports by employee and absence type, the creation of which is described in the standard Odoo Time Off module documentation."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:23
+msgid "Additionally, under Time Off >> Reports, you can see the Vacation Accruals report, which you can generate in .pdf format for the selected date."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:None
+msgid "Creating the vacation accruals report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:28
+msgid "If the account correspondences described above (in the Configurations section) are configured in the Payroll module, clicking the \"Create Entry\" button in the Vacation Accruals Report generation tab will create an accruals entry in the Accounting module in the General Ledger for the specified date."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:None
+msgid "Creating a vacation accrual entry in general ledger"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:33
+msgid "A single draft ledger entry is created, which can be deleted if the data still needs to be adjusted, or it can be registered so that the data and figures are recorded in the General Ledger."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:2
