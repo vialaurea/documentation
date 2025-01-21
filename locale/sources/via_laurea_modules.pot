@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-21 15:17+0000\n"
+"POT-Creation-Date: 2025-01-21 15:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2982,7 +2982,7 @@ msgid "Certificate of average earnings"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:6
-msgid "In cases where an employee must be paid an average wage (or part thereof) in accordance with the Labor Code or other labor law provisions or an employment contract, a certificate must be printed showing how that average salary was calculated.."
+msgid "In cases where an employee must be paid an average wage (or part thereof) in accordance with the Labor Code or other labor law provisions or an employment contract, a certificate must be printed showing how that average salary was calculated."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:8
@@ -3040,7 +3040,11 @@ msgid "Example of average earnings certificate"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:38
-msgid "1. Updates and Version Management"
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:36
+msgid "4. Updates and Version Management"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:40
@@ -3064,7 +3068,7 @@ msgid "After calculating the payroll (for more information, see Payroll Calculat
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:None
-msgid "Printing payroll sheet"
+msgid "How to print the payroll sheet"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:21
@@ -3091,13 +3095,6 @@ msgstr ""
 msgid "You can also format the spreadsheet in .xlsx format."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
-#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
-#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
-#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:36
-msgid "4. Updates and Version Management"
-msgstr ""
-
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:2
 msgid "Salary certificate"
 msgstr ""
@@ -3115,7 +3112,7 @@ msgid "To create a salary certificate, select Payroll module >> Reports >> Salar
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:None
-msgid "Creating the salary certificate"
+msgid "Where to print the salary certificate"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:23
@@ -3220,7 +3217,7 @@ msgid "**Debit account** - indicates the expense account. As noted in the note n
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:17
-msgid "**Credit account** - indicates a class 4 account, for example 4485 Vacation Accruals"
+msgid "**Credit account** - indicates a class 4 account, for example 4485 Vacation Accruals."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:21

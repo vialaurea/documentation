@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-21 15:17+0000\n"
+"POT-Creation-Date: 2025-01-21 15:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -4756,7 +4756,7 @@ msgid ""
 "In cases where an employee must be paid an average wage (or part thereof)"
 " in accordance with the Labor Code or other labor law provisions or an "
 "employment contract, a certificate must be printed showing how that "
-"average salary was calculated.."
+"average salary was calculated."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:8
@@ -4827,8 +4827,12 @@ msgid "Example of average earnings certificate"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:38
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:36
 #, fuzzy
-msgid "1. Updates and Version Management"
+msgid "4. Updates and Version Management"
 msgstr "8. Atnaujinimai ir versijų valdymas"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:40
@@ -4859,7 +4863,7 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-msgid "Printing payroll sheet"
+msgid "How to print the payroll sheet"
 msgstr "Darbo užmokesčio būsena"
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:21
@@ -4898,14 +4902,6 @@ msgstr ""
 "Taip pat galite pasirinkti Darbo užmokesčio žiniaraštį spausdinti .xls "
 "formatu."
 
-#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
-#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
-#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
-#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:36
-#, fuzzy
-msgid "4. Updates and Version Management"
-msgstr "8. Atnaujinimai ir versijų valdymas"
-
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:2
 #, fuzzy
 msgid "Salary certificate"
@@ -4934,7 +4930,7 @@ msgstr ""
 "Ataskaitose >> pasirinkite skirsnį \"DU pažyma\"."
 
 #, fuzzy
-msgid "Creating the salary certificate"
+msgid "Where to print the salary certificate"
 msgstr "Darbo užmokesčio pažyma"
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:23
@@ -5090,7 +5086,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:17
 msgid ""
 "**Credit account** - indicates a class 4 account, for example 4485 "
-"Vacation Accruals"
+"Vacation Accruals."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:21
@@ -7237,4 +7233,23 @@ msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atly
 #~ msgstr ""
 #~ "Ekrano nuotraukos ir vaizdinės instrukcijos."
 #~ " Naudingos nuorodos ir papildomi resursai."
+
+#~ msgid ""
+#~ "In cases where an employee must be"
+#~ " paid an average wage (or part "
+#~ "thereof) in accordance with the Labor"
+#~ " Code or other labor law provisions"
+#~ " or an employment contract, a "
+#~ "certificate must be printed showing how"
+#~ " that average salary was calculated.."
+#~ msgstr ""
+
+#~ msgid "1. Updates and Version Management"
+#~ msgstr "8. Atnaujinimai ir versijų valdymas"
+
+#~ msgid ""
+#~ "**Credit account** - indicates a class"
+#~ " 4 account, for example 4485 Vacation"
+#~ " Accruals"
+#~ msgstr ""
 
