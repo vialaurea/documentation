@@ -4315,11 +4315,11 @@ msgstr "Atnaujinimai ir Versijų Valdymas"
 
 #: ../../content/via_laurea_modules/payroll.rst:2
 msgid "Payroll"
-msgstr "Atsiskaitymas"
+msgstr "Atsiskaitymai"
 
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:2
 msgid "Cumulative working time accounting"
-msgstr "Kaupiamoji darbo laiko apskaita"
+msgstr " Suminė darbo laiko apskaita"
 
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:10
 msgid ""
@@ -4749,7 +4749,7 @@ msgstr "Užimtumo Sutarties Istorijos Detalės"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:2
 msgid "Certificate of average earnings"
-msgstr ""
+msgstr "Vidutinio darbo užmokesčio pažyma"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:6
 msgid ""
@@ -4758,6 +4758,10 @@ msgid ""
 "employment contract, a certificate must be printed showing how that "
 "average salary was calculated."
 msgstr ""
+"Tais atvejais, kai darbuotojui pagal Darbo kodeksą ar kitas darbo teisės "
+"normas ar darbo sutartį turi būti mokamas vidutinis darbo užmokestis "
+"(arba jo dalis), reikia atspausdinti pažymą, kaip tas vidutinis DU "
+"buvo apskaičiuotas."
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:8
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:8
@@ -4767,6 +4771,8 @@ msgid ""
 "The report is a table in a typical recommended format, formatted into a "
 ".pdf document."
 msgstr ""
+"Ataskaita yra tipinės formos rekomenduojama lentelė, formuojama "
+"į .pdf dokumentą."
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:12
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:12
@@ -4777,6 +4783,9 @@ msgid ""
 "l10n_lt_hr_payroll_vl_reports) is installed, as well as the Lithuanian "
 "Payroll module (technical name l10n_lt_hr_payroll_vl)."
 msgstr ""
+"Įdiegiamas modulis Lithuanian Payroll Reports "
+"(techn.pavadinimas l10n_lt_hr_payroll_vl_reports), taip pat "
+"modulis Lithuanian Payroll (techn. pavadinimas l10n_lt_hr_payroll_vl)."
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:16
 msgid ""
@@ -4784,56 +4793,59 @@ msgid ""
 "calculation), we can print an average salary certificate for the "
 "employee. Select Payroll module >> Reports >> Average salary certificate."
 msgstr ""
+"Suskaičiavus darbo užmokestį (plačiau žr. Darbo užmokesčio skaičiavimas), "
+"galime atsispausdinti DU pažymą darbuotojui. Pasirenkame "
+"Algalapių modulyje >> Ataskaitos >> VDU pažyma."
 
-#, fuzzy
+#
 msgid "Creating an average earnings certificate"
-msgstr "4.11. Vidutinio darbo užmokesčio pažymų formavimas ir spausdinimas"
+msgstr "Vidutinio darbo užmokesčio pažymos kūrimas"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:21
 msgid "In the table that opens, specify:"
-msgstr ""
+msgstr "Atsidariusioje lentelėje nurodykite:"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:23
-#, fuzzy
+#
 msgid "**Employee** - select from the list;"
-msgstr "Srauto tipas - parenkama iš sąrašo;"
+msgstr "**Darbuotojas** - parinkite iš sąrašo;"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:24
 msgid "**Date** - specify the date for which the certificate is required;"
-msgstr ""
+msgstr "**Data** - nurodykite datą, kuriai reikalinga pažyma;"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:25
-#, fuzzy
+#
 msgid "**Certificate preparer** - select from the Contacts list;"
-msgstr "Srauto tipas - parenkama iš sąrašo;"
+msgstr "**Pažymos rengėją** - parinkite iš Kontaktų sąrašo;"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:27
 msgid "Click \"Print PDF\". One certificate can be printed per employee."
-msgstr ""
+msgstr "Spauskite \"Spausdinti PDF\". Vieną pažymą galima atspausdinti vienam darbuotojui."
 
 msgid "Average earnings certificate tab information"
-msgstr ""
+msgstr "Suvedame reikalingus duomenis VDU lentelėje"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:32
-#, fuzzy
+#
 msgid ""
 "A .pdf file with data for the last 3 months prior to the entered date "
 "will be created and automatically saved on your computer."
 msgstr ""
-".pdf failas su duomenimis už pastaruosius 3 mėnesius iki nurodytos datos "
-"bus sukurtas ir automatiškai išsaugotas jūsų kompiuteryje."
+"Bus sukurtas ir automatiškai Jūsų kompiuteryje išsaugotas .pdf failas "
+"su paskutinių 3 mėnesių iki įvestos datos duomenimis."
 
 msgid "Example of average earnings certificate"
-msgstr ""
+msgstr "VDU pažymos pavyzdys"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:38
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:36
-#, fuzzy
+#
 msgid "4. Updates and Version Management"
-msgstr "8. Atnaujinimai ir versijų valdymas"
+msgstr "4. Atnaujinimai ir versijų valdymas"
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:40
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:38
@@ -4841,12 +4853,12 @@ msgstr "8. Atnaujinimai ir versijų valdymas"
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:47
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:38
 msgid "This instruction is valid for versions 16 and 17."
-msgstr ""
+msgstr "Instrukcija galioja 16 ir 17 versijai."
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:2
-#, fuzzy
+#
 msgid "Payroll sheet"
-msgstr "Darbo užmokesčio būsena"
+msgstr "Darbo užmokesčio žiniaraščio ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:6
 msgid ""
@@ -4854,6 +4866,9 @@ msgid ""
 "lists an employee's monthly salary data regarding credited and deducted "
 "amounts."
 msgstr ""
+"**Darbo užmokesčio** apskaitos **žiniaraštis** - **tai darbo užmokesčio** apskaitos "
+"dokumentas, kuriame surašyti darbuotojo mėnesio **darbo užmokesčio** duomenys "
+"apie priskaitytas ir išskaičiuotas sumas."
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:16
 msgid ""
@@ -4861,49 +4876,50 @@ msgid ""
 "Calculation), we can print the Payroll Sheet: Payroll module >> Reports "
 ">> Payroll Sheet."
 msgstr ""
+"Suskaičiavus darbo užmokestį (plačiau žr. Darbo užmokesčio skaičiavimas), galime "
+"atsispausdinti Darbo užmokesčio apskaitos žiniaraštį: Algalapio modulyje >> "
+"Ataskaitose >> Darbo užmokesčio žiniaraštis."
 
-#, fuzzy
+#
 msgid "How to print the payroll sheet"
-msgstr "Darbo užmokesčio būsena"
+msgstr "Kaip atspausdinti darbo užmokesčio žiniaraštį"
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:21
 msgid "In the table that opens, fill in the date range from... to."
-msgstr ""
+msgstr "Atsidariusioje lentelėje užpildykite datos rėžį nuo... iki."
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:23
-#, fuzzy
+#
 msgid ""
 "To print a separate salary slip for a specific department, select the "
 "department. If you do not use departments or want to create a slip for "
 "all employees - leave this field empty."
 msgstr ""
-"Atsidariusioje lentelėje užpildykite datas. Norint spausdinti atskirą "
-"atlyginimų žiniaraštį padaliniui, pasirinkite padalinį. Jei padalinių "
-"nenaudojate arba norite formuoti žiniaraštį visiems darbuotojams - "
-"palikite šį lauką tuščią. Spauskite mygtuką „Spausdinti PDF“ ir Jūsų "
-"kompiuteryje bus išsaugotas žiniaraštis."
+"Norint spausdinti atskirą atlyginimų žiniaraštį padaliniui, pasirinkite padalinį. "
+"Jei padalinių nenaudojate arba norite formuoti žiniaraštį visiems "
+"darbuotojams - palikite šį lauką tuščią."
 
 msgid "Selecting date range for payroll sheet"
-msgstr ""
+msgstr "Pasirenkame žiniaraščio datos rėžį"
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:28
 msgid ""
 "Click the \"Print PDF\" button and the sheet will be saved to your "
 "computer."
 msgstr ""
+"Spauskite mygtuką \"Spausdinti PDF\" ir Jūsų kompiuteryje bus "
+"išsaugotas žiniaraštis."
 
 msgid "Example of printed payroll sheet"
-msgstr ""
+msgstr "Žiniaraščio dokumento pavyzdys"
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:33
-#, fuzzy
+#
 msgid "You can also format the spreadsheet in .xlsx format."
-msgstr ""
-"Taip pat galite pasirinkti Darbo užmokesčio žiniaraštį spausdinti .xls "
-"formatu."
+msgstr "Taip pat galite formuoti žiniaraštį į .xlsx formatą."
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:2
-#, fuzzy
+#
 msgid "Salary certificate"
 msgstr "Darbo užmokesčio pažyma"
 
@@ -4912,6 +4928,8 @@ msgid ""
 "A certificate of calculated and paid wages (salary) to an employee is a "
 "special form that is provided at the employee's request."
 msgstr ""
+"Pažyma apie apskaičiuotą ir išmokėtą darbo užmokestį (atlyginimą) darbuotojui "
+"yra speciali forma, kuri yra teikiama darbuotojo prašymu."
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:8
 msgid ""
@@ -4919,48 +4937,48 @@ msgid ""
 "submit it to other institutions, for example, a bank, kindergarten, "
 "social welfare system, etc."
 msgstr ""
+"Dažniausiai pažymos darbuotojas prašo, nes jis turi pateikti kitoms "
+"institucijoms, pavyzdžiui, bankui, vaikų darželiui, socialinei rūpybai ir pan."
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:18
-#, fuzzy
+#
 msgid ""
 "To create a salary certificate, select Payroll module >> Reports >> "
 "Salary certificate."
 msgstr ""
-"Norint suformuoti pažymą apie dabo užmokestį, Algalapio modulyje >> "
-"Ataskaitose >> pasirinkite skirsnį \"DU pažyma\"."
+"Norint suformuoti pažymą apie darbo užmokestį, pasirinkite Algalapio "
+"modulyje >> Ataskaitose >> DU pažyma."
 
-#, fuzzy
+#
 msgid "Where to print the salary certificate"
-msgstr "Darbo užmokesčio pažyma"
+msgstr "Kur rasti darbo užmokesčio pažymą"
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:23
-#, fuzzy
+#
 msgid ""
 "In the opened tab, select the employee and the date range from... to for "
 "which the certificate is required. One certificate can be printed per "
 "employee."
 msgstr ""
-"Atsidariusioje kortelėje pasirinkite konkretų darbuotoją ir datas, už "
-"kuras reikalinga pažyma. Spauskite „Spausdinti PDF“ ir į Jūsų kompiuterį "
-"bus atsiųsta standartinė pažyma."
+"Atsidariusioje kortelėje pasirinkite darbuotoją ir datų rėžį nuo... iki už "
+"kurį reikalinga pažyma. Vieną pažymą galima atspausdinti vienam darbuotojui."
 
-#, fuzzy
+#
 msgid "Example of salary certificate"
-msgstr "Darbo užmokesčio pažyma"
+msgstr "Darbo užmokesčio pažymos pavyzdys"
 
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:28
-#, fuzzy
+#
 msgid ""
 "Click \"Print PDF\" and a standard certificate will be sent to your "
 "computer."
 msgstr ""
-"Atsidariusioje kortelėje pasirinkite konkretų darbuotoją ir datas, už "
-"kuras reikalinga pažyma. Spauskite „Spausdinti PDF“ ir į Jūsų kompiuterį "
-"bus atsiųsta standartinė pažyma."
+"Spauskite „Spausdinti PDF“ ir į Jūsų kompiuterį bus atsiųsta standartinė "
+"pažyma."
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:2
 msgid "Timesheets"
-msgstr ""
+msgstr "Darbo laiko apskaitos žiniaraštis"
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:6
 msgid ""
@@ -4968,37 +4986,46 @@ msgid ""
 "employee wages. In the event of a dispute, the report serves as proof of "
 "work completed."
 msgstr ""
+"Darbo laiko apskaitos žiniaraštis yra speciali suvestinė, kuria remiantis "
+"galima teisingai apskaičiuoti ir darbuotojams darbo užmokestį. Kilus "
+"ginčui, jis ataskaita yra atlikto darbo įrodymas."
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:16
 msgid ""
 "Before calculating the salary, review the work records for the relevant "
 "month (for more information, see Payroll Calculation)."
 msgstr ""
+"Prieš atliekant atlyginimo skaičiavimą, peržiūrėkite atitinkamo mėnesio "
+"darbo įrašus (plačiau žr. Darbo užmokesčio skaičiavimas). 
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:18
 msgid ""
 "Once you are ready, you can print the working timesheet: Payroll module "
 ">> Reports >> DLAŽ (timesheets)."
 msgstr ""
+"Susitvarkius, galima atspausdinti darbo laiko apskaitos žiniaraštį: Algalapio "
+"modulyje >> Ataskaitose >> DLAŽ."
 
 msgid "Printing timesheets"
-msgstr ""
+msgstr "Darbo laiko apskaitos žiniaraščio spausdinimas"
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:23
-#, fuzzy
+#
 msgid "In the table that opens, select:"
-msgstr "Atsidariusiame lange pasirinkite:"
+msgstr "Atsidariusioje lentelėje pasirenkame:"
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:25
 msgid ""
 "**Year** - by default, current year is always suggested, but can be "
 "adjusted manually;"
 msgstr ""
+"**Metus** - pagal nutylėjimą visada siūlo šiuos metus, bet "
+"galima pakoreguoti ranka."
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:26
-#, fuzzy
+#
 msgid "**Month** - select from the list;"
-msgstr "Srauto tipas - parenkama iš sąrašo;"
+msgstr "**Mėnesį** - parenkame iš sąrašo;"
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:27
 msgid ""
@@ -5006,43 +5033,47 @@ msgid ""
 " specific employee or department. If you do not select it, it will print "
 "for all employees by default."
 msgstr ""
+"**Padaliniai, darbuotojai** - pasirenkame jei norime spausdinti atskirai konkrečiam "
+"darbuotojui ar padaliniui. Jei nepasirinksime, pagal nutylėjimą spausdins "
+"visiems darbuotojams."
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:29
 msgid "In the Signatures section, select:"
-msgstr ""
+msgstr "Prie skyriaus Parašai pasirenkame:"
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:31
 msgid ""
 "**Filled in by** - select from the Contact register (this field is "
 "optional);"
-msgstr ""
+msgstr "**DLAŽ užpildė** - parenkame iš Kontaktų registro, lauko užpildyti nebūtina."
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:32
 msgid ""
 "**Employer or the authorized person** - select from the Contact register "
 "(this field is optional);"
-msgstr ""
+msgstr "**Darbdavys arba jo įgaliotas asmuo** - parenkame iš Kontaktų "
+"registro, lauko užpildyti nebūtina."
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:34
-#, fuzzy
+#
 msgid "Click the \"Print PDF\" button."
-msgstr "Paspauskite mygtuką „Spausdinti“"
+msgstr "Spaudžiame mygtuką „Spausdinti PDF“"
 
 msgid "Information to fill in for timesheets"
-msgstr ""
+msgstr "Informacijos užpildymas žiniaraščiui"
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:39
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:309
 msgid "A .pdf file will be downloaded and saved to your computer for printing."
-msgstr ".pdf failas bus atsisiųstas ir išsaugotas jūsų kompiuteryje spausdinimui."
+msgstr "Į Jūsų kompiuterį bus atsiųstas ir išsaugotas .pdf failas atspausdinimui."
 
 msgid "Example of printed timesheets document"
-msgstr ""
+msgstr "Žiniaraščio dokumento pavyzdys"
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:2
-#, fuzzy
+#
 msgid "Vacation accrual report"
-msgstr "Atostogų kaupimo ataskaita"
+msgstr "Atostogų kaupinių ataskaita"
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:6
 msgid ""
@@ -5052,6 +5083,11 @@ msgid ""
 "accounting specialists must calculate the number of days off employees "
 "are entitled to and create the appropriate entry in the General Ledger."
 msgstr ""
+"Sukauptos atostogos laikomos įmonės įsipareigojimu ir mažina pelną, taigi "
+"šis rodiklis svarbus tiek finansinei atskaitomybei, tiek verslo planavimui. Todėl "
+"pasibaigiant finansiniams metams, buhalterinės apskaitos specialistai privalo "
+"apskaičiuoti darbuotojams priklausančių laisvadienių skaičių ir suformuoti "
+"atitinkamą įrašą Didžiojoje knygoje."
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:10
 msgid ""
@@ -5059,21 +5095,23 @@ msgid ""
 "is installed, as well as the Lithuanian Payroll module (technical name "
 "l10n_lt_hr_payroll_vl)."
 msgstr ""
+"Įdiegiamas modulis Accrued Vacation (techn. pavadinimas l10n_lt_hr_accrued_vacation), "
+"taip pat modulis Lithuanian Payroll (techn. pavadinimas l10n_lt_hr_payroll_vl)."
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:11
-#, fuzzy
+#
 msgid ""
 "Settings for cumulative account correspondence are managed in the Payroll"
 " module >> Configuration >> Settings, specifying the appropriate "
 "accounting accounts based on your chart of accounts:"
 msgstr ""
-"Kaupinių sąskaitų korespondencijai nustatymai vedami Algalapio modulyje "
-">> Konfigūracija >> Nustatymai, nurodant atitinkamas buhalterines "
+"Kaupinių sąskaitų korespondencijai nustatymai vedami Algalapio modulyje >> "
+"Konfigūracija >> Nustatymai, nurodant atitinkamas buhalterines "
 "sąskaitas pagal Jūsų sąskaitų planą:"
 
-#, fuzzy
+#
 msgid "Opening vacation accrual settings"
-msgstr "Atostogų kaupimo ataskaita"
+msgstr "Atostogų kaupinių ataskaitos nustatymai"
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:16
 msgid ""
@@ -5082,40 +5120,46 @@ msgid ""
 "more information, see Payroll Calculation), this account will not be "
 "used, but the expense account assigned to the department."
 msgstr ""
+"**Debeto sąskaita** - nurodoma sąnaudų sąskaita. Kaip pažymėta šalia laukelio "
+"esančioje pastaboje, jei darbo užmokestis paskirstomas į sąnaudas pagal "
+"skyrius (plačiau žr. Darbo užmokesčio skaičiavimas), bus naudojama ne ši sąskaita, "
+"o skyriuje priskirta sąnaudų sąskaita."
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:17
 msgid ""
 "**Credit account** - indicates a class 4 account, for example 4485 "
 "Vacation Accruals."
 msgstr ""
+"**Kredito sąskaita** - nurodoma 4 klasės sąskaita, pavyzdžiui 4485 "
+"Atostoginių kaupiniai"
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:21
-#, fuzzy
+#
 msgid ""
 "In the Time Off module >> Reports, you can find standard reports by "
 "employee and absence type, the creation of which is described in the "
 "standard Odoo Time Off module documentation."
 msgstr ""
-"Modulyje Neatvykimai  >> Ataskaitose, galite rasti standartines "
-"ataskaitas pagal darbuotoją ir neatvykimo tipą, kurių formavimas yra "
+"Modulyje Neatvykimai >> Ataskaitose, galite rasti standartines ataskaitas "
+"pagal darbuotoją ir neatvykimo tipą, kurių formavimas yra "
 "aprašytas standartiniame Odoo Neatvykimų modulio aprašyme."
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:23
-#, fuzzy
+#
 msgid ""
 "Additionally, under Time Off >> Reports, you can see the Vacation "
 "Accruals report, which you can generate in .pdf format for the selected "
 "date."
 msgstr ""
-"Papildomai galite matyti Atostogų kaupinių ataskaitą, kurią galite "
-"susiformuoti pdf formatu nurodomai datai."
+"Papildomai Neatvykimai >> Ataskaitos galite matyti Atostogų kaupinių "
+"ataskaitą, kurią galite susiformuoti .pdf formatu pasirinktai datai."
 
-#, fuzzy
+#
 msgid "Creating the vacation accruals report"
-msgstr "Atostogų kaupimo ataskaita"
+msgstr "Atostogų kaupimnių ataskaits kūrimas"
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:28
-#, fuzzy
+#
 msgid ""
 "If the account correspondences described above (in the Configurations "
 "section) are configured in the Payroll module, clicking the \"Create "
@@ -5123,24 +5167,24 @@ msgid ""
 " an accruals entry in the Accounting module in the General Ledger for the"
 " specified date."
 msgstr ""
-"Jei Algalapio modulyje sukonfigūruotos aukščiau aprašytos sąskaitų "
-"korespondencijos, paspaudus Atostogų kaupinių ataskaitos formavimo lange "
-"mygtuką \"Kurti įrašą\", nurodytai datai bus sukuriamas kaupinių įrašas "
-"Apskaitos modulyje Didžiojoje Knygoje."
+"Jei Algalapio modulyje sukonfigūruotos aukščiau Konfigūracijoje aprašytos "
+"sąskaitų korespondencijos, paspaudus Atostogų kaupinių ataskaitos "
+"formavimo lange mygtuką \"Kurti įrašą\", nurodytai datai bus "
+"sukuriamas kaupinių įrašas Apskaitos modulyje Didžiojoje Knygoje."
 
 msgid "Creating a vacation accrual entry in general ledger"
-msgstr ""
+msgstr "Kaupinių įrašas Didžiojoje Knygoje"
 
 #: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:33
-#, fuzzy
+#
 msgid ""
 "A single draft ledger entry is created, which can be deleted if the data "
 "still needs to be adjusted, or it can be registered so that the data and "
 "figures are recorded in the General Ledger."
 msgstr ""
-"Šioje vietoje susikuria juodraštiniai įrašai, kuriuos reikia dar "
-"užregistruoti, norint, jog duomenys ir skaičiai užsiregistruotų "
-"didžiojoje knygoje:"
+"Susikuria vienas juodraštinis DK įrašas, kurį galima ištrinti, jei duomenis "
+"dar reikia tikslinti arba galima užregistruoti, norint, jog duomenys "
+"ir skaičiai užsiregistruotų Didžiojoje knygoje."
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:2
 msgid "Payroll Calculation"
