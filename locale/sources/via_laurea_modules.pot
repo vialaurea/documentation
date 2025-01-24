@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-21 15:34+0000\n"
+"POT-Creation-Date: 2025-01-24 11:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1050,6 +1050,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fixed_assets/fixed_assets_reports.rst:42
 #: ../../content/via_laurea_modules/accounting/reports.rst:2
 #: ../../content/via_laurea_modules/inventory/reports.rst:2
+#: ../../content/via_laurea_modules/payroll/reports.rst:2
 msgid "Reports"
 msgstr ""
 
@@ -2977,6 +2978,10 @@ msgstr ""
 msgid "Employment Contract History Details"
 msgstr ""
 
+#: ../../content/via_laurea_modules/payroll/reports.rst:4
+msgid "Overview of payroll reports and declarations."
+msgstr ""
+
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:2
 msgid "Certificate of average earnings"
 msgstr ""
@@ -3184,7 +3189,6 @@ msgid "Information to fill in for timesheets"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:39
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:309
 msgid "A .pdf file will be downloaded and saved to your computer for printing."
 msgstr ""
 
@@ -3457,7 +3461,6 @@ msgid "Before calculating salaries, review the work entries for the correspondin
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
 msgid "Work Time Ledger"
 msgstr ""
 
@@ -3726,106 +3729,18 @@ msgid "Create SEPA File"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/salary_calculation.rst:297
-msgid "4.9. Printing the Work Time Ledger, Payroll Ledger"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:298
-msgid "After calculating the payroll, print the Work Time Ledger: In the Payroll module, Reports, Work Time Ledger (DLAŽ)."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:304
-msgid "In the opened table, select the year, month, if you want to print separately for a specific employee or department - select them as well. If not selected, it will be printed for all employees. Also, select the person who created the DLAŽ and the responsible person. Click the \"Print PDF\" button."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Print PDF"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Downloaded PDF"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:314
-msgid "To print the Payroll Ledger: In the Payroll module, Reports, select \"Payroll Ledger\"."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Payroll Ledger"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:320
-msgid "In the opened table, fill in the dates. If you want to print a separate payroll ledger for the department, select the department. If you do not use departments or want to form a ledger for all employees - leave this field empty. Click the \"Print PDF\" button, and the ledger will be saved to your computer."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Payroll Ledger Dates"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Saved PDF Ledger"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:327
-msgid "You can also choose the ledger in .xls format."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:330
-msgid "4.10. Formation and Printing of Payroll Certificates"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:331
-msgid "To form a payroll certificate, in the Payroll module, Reports, select the \"Payroll Certificate\" section."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Payroll Certificate"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:336
-msgid "In the opened card, select the specific employee and dates for which the certificate is needed. Click \"Print PDF\", and a standard certificate will be sent to your computer."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Print Payroll Certificate"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:342
-msgid "4.11. Formation and Printing of Average Salary Certificates"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:343
-msgid "To print an average salary (VDU) certificate for an employee, in the Payroll module, Reports, select the VDU certificate, in the opened table, specify the employee, the date for which the certificate is needed, and the preparer of the certificate, click \"Print PDF\"."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "VDU Certificate"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Fill VDU Certificate"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:350
-msgid "A .pdf file with the data for the last 3 months up to the specified date will be created and automatically saved on your computer."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Saved VDU Certificate"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:356
 msgid "4.12. VSDFV Reports:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:359
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:300
 msgid "4.12.1. 1-SD Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:360
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:301
 msgid "This form is created when hiring an employee. After entering the employee's data in the \"Employees\" module and creating an employment contract, go to the \"Payroll\" module, Reports, Sodra, 1-SD report."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:365
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:306
 msgid "In the opened table, select the employment contract number of the employee for whom the 1-SD notification is created. Click \"Generate Declaration File\"."
 msgstr ""
 
@@ -3833,17 +3748,17 @@ msgstr ""
 msgid "Generate 1-SD File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:370
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:384
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:417
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:311
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:325
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:358
 msgid "A file that can be uploaded to the Sodra system will be automatically saved on your computer."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:373
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:314
 msgid "4.12.2. 2-SD Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:374
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:315
 msgid "This form is created when dismissing an employee. After entering the employee's data in the \"Employees\" module and creating a dismissal entry, go to the \"Payroll\" module, Reports, Sodra, 2-SD report."
 msgstr ""
 
@@ -3851,7 +3766,7 @@ msgstr ""
 msgid "2-SD Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:379
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:320
 msgid "In the opened table, select the employment contract number of the employee for whom the 2-SD notification is created. Click \"Generate Declaration File\"."
 msgstr ""
 
@@ -3859,11 +3774,11 @@ msgstr ""
 msgid "Generate 2-SD File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:387
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:328
 msgid "4.12.3. NP-SD Report and Calculation of Sick Pay by the Company"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:388
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:329
 msgid "We suggest filling out this declaration directly in the Sodra system by entering the sick pay amount calculated by the employer in the program. In the Absences module, create a sick leave entry by selecting the appropriate type of absence and dates, and approve it."
 msgstr ""
 
@@ -3871,7 +3786,7 @@ msgstr ""
 msgid "Sick Leave Entry"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:393
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:334
 msgid "After confirming the sick leave entry, select \"VDU Certificate\" in the printing link."
 msgstr ""
 
@@ -3879,7 +3794,7 @@ msgstr ""
 msgid "VDU Certificate for Sick Leave"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:398
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:339
 msgid "A special VDU certificate will be formed, showing the sick pay amount depending on the work schedule for the first 2 working days if they coincided with the employee's work schedule. Enter this amount in the Sodra NP-SD notification."
 msgstr ""
 
@@ -3887,15 +3802,15 @@ msgstr ""
 msgid "Enter Sick Pay Amount"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:403
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:344
 msgid "You can also generate the NP-SD notification directly from Odoo, but this is not very convenient because the sick leave certificate numbers will not be included, and you will have to enter them manually from the Sodra system."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:406
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:347
 msgid "4.12.4. Monthly SAM Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:407
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:348
 msgid "This form is used to declare monthly information about employee income and contributions paid to Sodra. After performing the monthly calculations and confirming the payrolls, in the Payroll module, select Reports, Sodra, SAM report."
 msgstr ""
 
@@ -3903,7 +3818,7 @@ msgstr ""
 msgid "SAM Report"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:412
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:353
 msgid "In the opened table, select the year and month for which the report is being generated. Click \"Generate Declaration File\"."
 msgstr ""
 
@@ -3911,15 +3826,15 @@ msgstr ""
 msgid "Generate SAM File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:420
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:361
 msgid "4.13. VMI Reports:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:423
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:364
 msgid "4.13.1. GPM 313 Declaration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:424
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:365
 msgid "The monthly GPM declaration can be found in the Payroll module, Reports, in the EDS section, GPM313 declaration."
 msgstr ""
 
@@ -3927,7 +3842,7 @@ msgstr ""
 msgid "GPM 313 Declaration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:429
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:370
 msgid "After selecting it, specify the year and month and click the \"Generate Declaration File\" button."
 msgstr ""
 
@@ -3935,16 +3850,16 @@ msgstr ""
 msgid "Generate GPM 313 File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:434
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:448
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:375
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:389
 msgid "A file will be created and automatically saved on your computer for upload to the VMI EDS system in ffdata format. To review the data before uploading the file to the system, use ABBYY eFormFiller software."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:437
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:378
 msgid "4.13.2. GPM 312 Declaration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:438
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:379
 msgid "The annual GPM declaration can be found in the Payroll module, Reports, in the EDS section, GPM312 declaration."
 msgstr ""
 
@@ -3952,7 +3867,7 @@ msgstr ""
 msgid "GPM 312 Declaration"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:443
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:384
 msgid "After selecting it, specify the year and click the \"Generate Declaration File\" button."
 msgstr ""
 
@@ -3960,7 +3875,7 @@ msgstr ""
 msgid "Generate GPM 312 File"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:450
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:391
 msgid "**NOTE:** When using the Via Laurea Payroll Calculation module, there is an option to include amounts paid to individuals when forming the annual GPM312 declaration. To use this option, when describing an individual contact in the Contacts module, mark it as an individual supplier, select the appropriate point as the license type (Personal Code, IDV number, etc.), and enter the specific number as the IDV number."
 msgstr ""
 
@@ -3968,7 +3883,7 @@ msgstr ""
 msgid "Enter IDV Number"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:455
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:396
 msgid "When entering this supplier's invoice, in the L5 note for GPM312, select the appropriate activity code from the list."
 msgstr ""
 
@@ -3976,23 +3891,23 @@ msgstr ""
 msgid "Select Activity Code"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:460
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:401
 msgid "After performing these actions, when forming the GPM312 declaration for the respective period, the amounts paid to individuals will be included in the declaration."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:463
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:404
 msgid "5. Use of the Absences Module for Lithuanian Accounting"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:464
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:405
 msgid "The Absences module is closely related to the Payroll module. When information is entered into the Absences module, it affects payroll calculations. The standard Odoo Absences module instruction can be found on our website. Due to the specifics of payroll calculation in Lithuania, we have supplemented the Absences module with certain functions."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:467
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:408
 msgid "5.1.1. Configuration of the Absences Module"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:468
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:409
 msgid "In the Absences, Configuration section, \"Time off types\", you will find a list of all possible absences and markings:"
 msgstr ""
 
@@ -4000,7 +3915,7 @@ msgstr ""
 msgid "Time Off Types"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:473
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:414
 msgid "If necessary, you can adjust the list, but note that this is related to payroll formulas. In the \"Approval\" column, you can see which types of absence require manager approval. To mark a specific type of absence as requiring approval, go to the line entry and check the box for requiring approval."
 msgstr ""
 
@@ -4008,15 +3923,15 @@ msgstr ""
 msgid "Approval for Absence"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:478
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:419
 msgid "**NOTE:** After entering the absence information and, if necessary, approving it by the responsible person, the absence information along with the absence type marking symbols will be automatically uploaded to the work entries for the specific period."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:481
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:422
 msgid "5.1.2. Entering Vacation Norms"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:482
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:423
 msgid "In the Absences, Configuration section, \"Vacation Norms\", enter the vacation day norms used in your company (20 working days per year by default, 25 working days for single parents raising a child up to 12 years old, etc., according to the laws)."
 msgstr ""
 
@@ -4024,11 +3939,11 @@ msgstr ""
 msgid "Vacation Norms"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:488
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:429
 msgid "5.1.3. Entering Holidays"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:489
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:430
 msgid "In the Absences, Configuration section, \"Holidays\", enter the holidays for the current year."
 msgstr ""
 
@@ -4036,15 +3951,15 @@ msgstr ""
 msgid "Holidays"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:495
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:436
 msgid "5.2. Assigning Vacations to the Employee"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:496
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:437
 msgid "When hiring an employee, a set annual vacation norm must be assigned to them. Odoo has the ability to calculate vacations only from the next day. For this reason, when hiring an employee, it is necessary to make 2 entries. The first one is for \"accrued vacations\" for the first working day, and the second is for standard vacation accrual from the next day."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:498
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:439
 msgid "Enter vacation assignments in the Absences - Approvals - Assignments section."
 msgstr ""
 
@@ -4052,7 +3967,7 @@ msgstr ""
 msgid "Vacation Assignments"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:503
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:444
 msgid "When hiring an employee, create a new assignment:"
 msgstr ""
 
@@ -4060,11 +3975,11 @@ msgstr ""
 msgid "New Assignment"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:508
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:449
 msgid "In it, select the type as \"Regular Assignment\", specify the specific employee in the Employee field, and in the \"Duration\" field, enter the amount of vacation entitled for the first working day. Approve the entry."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:510
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:451
 msgid "The second assignment is for vacation accrual:"
 msgstr ""
 
@@ -4072,55 +3987,31 @@ msgstr ""
 msgid "Vacation Accrual"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:515
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:456
 msgid "Fill in the assignment similarly, only select \"Accrued Assignment\" as the type and select the applicable vacation norm for that employee from the list in the Vacation Norms field. After doing this, approve the entry."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:517
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:458
 msgid "If already working employees are uploaded to the Odoo system with already accrued vacations (e.g., previously using other software for payroll), it is also necessary to make 2 entries, as in the hiring case. In this case, in the first entry, enter the already accrued vacations up to this day, following the description of the first working day entry. In the second entry, assign the accrual based on the applicable vacation norm for the employee."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:519
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:460
 msgid "**NOTE:** If you forgot to enter vacation accrual entries when hiring an employee, calculate how many vacations the employee has accrued until this day, and enter the obtained number when entering the regular vacation assignment for the first working day."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:522
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:463
 msgid "5.3. Entering Absences"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:523
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:464
 msgid "When entering employee absences, follow the standard Odoo Absences module instruction - in the Absences, Approvals, Absences section, create a new entry, select the appropriate employee, type of absence, fill in the dates, and approve the entry. After doing this, the information will be automatically transferred to the Payroll module."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:526
-msgid "5.4. Reports and Vacation Accruals"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:527
-msgid "In the Absences module, in Reports, you can find standard reports by employee and type of absence, the formation of which is described in the standard Odoo Absences module description."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:529
-msgid "Additionally, you can see the Vacation Accrual report, which you can generate in pdf format for the specified date."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Vacation Accrual Report"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:534
-msgid "If the accounting entries described above are configured in the Payroll module, clicking the \"Create Entry\" button in the report formation window will create an accrual entry in the Accounting module."
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:None
-msgid "Create Accrual Entry"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:540
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:467
 msgid "6. Integrations and Connections with Other Modules"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:541
+#: ../../content/via_laurea_modules/payroll/salary_calculation.rst:468
 msgid "This module interacts with the Accounting, Employees, Absences, and Planning modules."
 msgstr ""
 
