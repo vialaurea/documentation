@@ -293,65 +293,6 @@ Create "New", select the employee, the bank where you will create the file, the 
 .. image:: salary_calculation/image48.jpg
     :alt: Create SEPA File
 
-4.9. Printing the Work Time Ledger, Payroll Ledger
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-After calculating the payroll, print the Work Time Ledger:
-In the Payroll module, Reports, Work Time Ledger (DLAŽ).
-
-.. image:: salary_calculation/image49.jpg
-    :alt: Work Time Ledger
-
-In the opened table, select the year, month, if you want to print separately for a specific employee or department - select them as well. If not selected, it will be printed for all employees. Also, select the person who created the DLAŽ and the responsible person. Click the "Print PDF" button.
-
-.. image:: salary_calculation/image50.jpg
-    :alt: Print PDF
-
-A .pdf file will be downloaded and saved to your computer for printing.
-
-.. image:: salary_calculation/image51.jpg
-    :alt: Downloaded PDF
-
-To print the Payroll Ledger:
-In the Payroll module, Reports, select "Payroll Ledger".
-
-.. image:: salary_calculation/image52.jpg
-    :alt: Payroll Ledger
-
-In the opened table, fill in the dates. If you want to print a separate payroll ledger for the department, select the department. If you do not use departments or want to form a ledger for all employees - leave this field empty. Click the "Print PDF" button, and the ledger will be saved to your computer.
-
-.. image:: salary_calculation/image53.jpg
-    :alt: Payroll Ledger Dates
-.. image:: salary_calculation/image54.jpg
-    :alt: Saved PDF Ledger
-
-You can also choose the ledger in .xls format.
-
-4.10. Formation and Printing of Payroll Certificates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-To form a payroll certificate, in the Payroll module, Reports, select the "Payroll Certificate" section.
-
-.. image:: salary_calculation/image55.jpg
-    :alt: Payroll Certificate
-
-In the opened card, select the specific employee and dates for which the certificate is needed. Click "Print PDF", and a standard certificate will be sent to your computer.
-
-.. image:: salary_calculation/image56.jpg
-    :alt: Print Payroll Certificate
-
-4.11. Formation and Printing of Average Salary Certificates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-To print an average salary (VDU) certificate for an employee, in the Payroll module, Reports, select the VDU certificate, in the opened table, specify the employee, the date for which the certificate is needed, and the preparer of the certificate, click "Print PDF".
-
-.. image:: salary_calculation/image57.jpg
-    :alt: VDU Certificate
-.. image:: salary_calculation/image58.jpg
-    :alt: Fill VDU Certificate
-
-A .pdf file with the data for the last 3 months up to the specified date will be created and automatically saved on your computer.
-
-.. image:: salary_calculation/image59.jpg
-    :alt: Saved VDU Certificate
-
 4.12. VSDFV Reports:
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -521,20 +462,6 @@ If already working employees are uploaded to the Odoo system with already accrue
 5.3. Entering Absences
 ~~~~~~~~~~~~~~~~~~~~~~
 When entering employee absences, follow the standard Odoo Absences module instruction - in the Absences, Approvals, Absences section, create a new entry, select the appropriate employee, type of absence, fill in the dates, and approve the entry. After doing this, the information will be automatically transferred to the Payroll module.
-
-5.4. Reports and Vacation Accruals
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In the Absences module, in Reports, you can find standard reports by employee and type of absence, the formation of which is described in the standard Odoo Absences module description.
-
-Additionally, you can see the Vacation Accrual report, which you can generate in pdf format for the specified date.
-
-.. image:: salary_calculation/image82.jpg
-    :alt: Vacation Accrual Report
-
-If the accounting entries described above are configured in the Payroll module, clicking the "Create Entry" button in the report formation window will create an accrual entry in the Accounting module.
-
-.. image:: salary_calculation/image83.jpg
-    :alt: Create Accrual Entry
 
 6. Integrations and Connections with Other Modules
 ---------------------------------------------------
