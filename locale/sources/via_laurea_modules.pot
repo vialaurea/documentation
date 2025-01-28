@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-24 11:43+0000\n"
+"POT-Creation-Date: 2025-01-28 17:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,6 +46,12 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/reports/mutual_reconciliation_act.rst:5
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:5
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:9
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:5
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:5
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:5
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:5
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:5
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:5
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:5
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:5
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:5
@@ -64,6 +70,12 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/payments/registration_of_advances.rst:10
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:10
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:13
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:9
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:9
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:15
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:9
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:11
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:9
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:11
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:11
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:13
@@ -1174,6 +1186,12 @@ msgstr ""
 #: ../../content/via_laurea_modules/accounting/fuel_accounting.rst:30
 #: ../../content/via_laurea_modules/inventory/declarations/cmr.rst:18
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:36
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:13
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:13
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:19
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:13
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:15
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:13
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:15
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:15
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:17
@@ -2009,6 +2027,12 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/reports/invoice_registry.rst:54
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:53
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:47
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:47
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:49
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:30
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:47
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:35
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:39
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:37
 #: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:32
@@ -2847,6 +2871,369 @@ msgstr ""
 msgid "How to update the module. Version management practices."
 msgstr ""
 
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:2
+msgid "1-SD declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:6
+msgid "1-SD is the official standard form of the Social Insurance Institution (Sodra) created when hiring an employee. When an employment contract is concluded with an employee, the 1-SD notification must be submitted no later than one working day before the scheduled start of work. This form can also be submitted to the director on his first working day. The notification must be submitted in the electronic Sodra system through the personal \"Sodra\" account of the insured person."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:10
+msgid "The Sodra 1-SD module (technical name l10n_lt_sodra_1sd) is installed, and the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is also required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:14
+msgid "In order for all information to be filled in when submitting a 1-SD report from the program, the information for generating a 1-SD report must be filled in the employee's employment contract. Go to Employees >> Specific employee card >> Employment contract >> Sodra."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:None
+msgid "Finding the Sodra tab"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:19
+msgid "Fill in the required fields by selecting the appropriate items from the expanded extension and save."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:None
+msgid "Filling in employee information for Sodra"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:24
+msgid "After entering the employee's data in the \"Employees\" module and creating an employment contract, go to the Payroll module >> Reports >> Sodra >> 1-SD report:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:None
+msgid "Creating a 1-SD declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:29
+msgid "In the table that opens, select the employment contract number of the employee for whom the 1-SD form is being created from the list. Click \"Generate declaration file\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:None
+msgid "Generating a 1-SD declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:34
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:34
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:24
+msgid "A .ffdata file will be created and automatically saved on your computer, suitable for uploading to the Sodra electronic system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:36
+msgid "If you need to revise and then print the 1 SD form, checking the Print PT box will display additional fields:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:None
+msgid "Printing a revised 1-SD declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:41
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:41
+msgid "After filling in the fields and selecting the DS contract to be adjusted, you can generate a .ffdata file of the declaration. A .pdf file will be created and automatically saved on your computer, suitable for uploading to the Sodra electronic system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:43
+msgid "You can create a 1-SD .ffdata file without filling in the fields in the employee's employment contract, but in this case, these fields will have to be filled in directly on the Sodra page after uploading the file generated in the program."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:46
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:46
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:29
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:46
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:34
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:38
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:36
+msgid "4. Updates and Version Management"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:48
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:48
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:50
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:31
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:48
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:36
+#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:40
+#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:38
+#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:33
+#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:47
+#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:38
+msgid "This instruction is valid for versions 16 and 17."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:2
+msgid "2-SD declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:6
+msgid "2-SD is the official standard form of the Social Insurance Institution (Sodra) created when an employee is dismissed. The 2-SD notification must be submitted no later than the next business day after the date of termination of the employment relationship. The notification must be submitted in the electronic Sodra system through the personal \"Sodra\" account of the insured person."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:10
+msgid "The Sodra 2-SD module (technical name l10n_lt_sodra_2sd) is installed, and the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is also required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:14
+msgid "To submit a completed 2-SD form, you need to fill in the dismissal details in the employee's employment contract. Go to the Employees module, select the relevant employee's card and their last employment contract: Employees >> Employee Card >> Sodra:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:None
+msgid "Finding the employee tab"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:19
+msgid "In this section you will find the required fields to fill in. Enter the severance pay period manually, fill in the other fields by selecting the required item in the drop-down menu:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:None
+msgid "Filling in the required employee information"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:24
+msgid "After entering the employee's data in the \"Employees\" module and creating a dismissal record, go to the Payroll >> Reports >> Sodra >> 2-SD report module:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:None
+msgid "Creating a 2-SD declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:29
+msgid "In the table that opens, select the employment contract number of the employee for whom the 2-SD report is being created from the list. Click \"Generate declaration file\""
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:None
+msgid "Generating the 2-SD declaration file"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:36
+msgid "If you need to revise and print a 2-SD form, checking the Print PT box will display additional fields:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:None
+msgid "Printing a revised 2-SD declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:43
+msgid "You can create a 2-SD .ffdata file without filling in the fields in the employee's employment contract, but in this case, these fields will have to be filled in directly on the Sodra page after uploading the file generated in the program."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:2
+msgid "GPM 312 declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:6
+msgid "Individuals and legal entities that have paid A and B class benefits to residents during the previous year must submit a GPM312 declaration by February 15 of the current year. Income received by residents is divided into two classes according to the tax payment procedure - A and B."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:8
+msgid "Tax on class A income is calculated, deducted and paid to the budget by the person paying those benefits. For example, income related to employment (salary) of a resident is class A income, therefore the employer deducts and pays GPM (resident income tax) to the state budget."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:10
+msgid "Income tax on class B income is calculated and paid to the budget by the resident himself. For example, income from self-employed activities is classified as class B income, therefore the person carrying out such activities declares and pays personal income tax to the state budget by submitting the relevant declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:12
+msgid "The annual GPM312 declaration provides the total amount credited to each employee or resident during the tax period, classified according to the relevant code as taxable and non-taxable income, and the amount of income tax deducted and paid."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:16
+msgid "The GPM 312 module (technical name l10n_lt_gpm312) is installed, and the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is also required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:20
+msgid "You can find the annual GPM declaration in the Payroll module >> Reports >> EDS section >> GPM312 declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:None
+msgid "Finding the GPM 312 declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:25
+msgid "After selecting it, specify the year and click the \"Generate declaration file\" button."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:None
+msgid "Generating a GPM 312 declaration file"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:30
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:24
+msgid "A file for uploading to the VMI EDS system in ffdata format will be created and automatically saved on your computer. To view the data before uploading the file to the system, use the *ABBYY eFormFiller* software."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:32
+msgid "**Important:** only those payroll amounts that have the \"Paid\" attribute in the Payroll module are included in the declaration. If you have not entered the payment date after calculating the salary, the data will not be included in this declaration. In order for the daily allowances paid to be included in the GPM312 declaration, they must be entered in the relevant employee's monthly payslip, as other accruals."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:35
+msgid "4. Daily Use Scenarios"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:36
+msgid "Using the Via laurea Salary Calculation module, there is an option to include amounts paid to individuals as suppliers (contractors) when forming the annual GPM312 declaration. To use this option, when describing the contact of the individual in the Contacts module, it is necessary to indicate that this is an individual supplier, select the appropriate item as the license type (Personal Code, IDV number, etc.) and enter a specific number as the IDV number:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:None
+msgid "Adding an employee as a contractor for GMP 312"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:41
+msgid "When creating an invoice for this contractor, select the required activity code from the list in the GPM312 for L5 tag."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:43
+msgid "After completing these steps, the amounts paid to this individual will be included in the declaration when forming the GPM312 declaration for the relevant period."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:45
+msgid "**Important:** if the individual is not a VAT payer - data is uploaded to GPM 312 based on the date of payment of money (cash principle), if the individual is a VAT payer - the amount excluding VAT is uploaded based on the invoice date (accrual principle)."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:48
+msgid "5. Updates and Version Management"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:2
+msgid "GPM 313 declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:6
+msgid "This declaration is intended to declare the amounts of money credited to employees and individuals as well as the deducted GPM, when the income is classified as class A income. The declaration for the benefits paid in the current month is submitted by the 15th day of the following month. The declaration is submitted every month."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:10
+msgid "The GPM 313 module (technical name l10n_lt_gpm313) is installed, and the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is also required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:14
+msgid "You can find the monthly GPM declaration in the Payroll module >> Reports >> EDS section >> GPM313 report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:None
+msgid "Finding the GPM 313 declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:19
+msgid "To create a declaration, enter the year in the window that opens and select the required month."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:None
+msgid "Generating a GPM 313 declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:26
+msgid "**Important:** only the payroll amounts that have the \"Paid\" attribute in the Payroll module are included in the declaration. If you did not enter the payment date after calculating the salary, the data will not be included in this declaration."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:2
+msgid "NP-SD report"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:6
+msgid "The NP-SD report is an official notification to the Social Insurance Institution (Sodra) that an employee has become temporarily unable to work and Sodra is informed about the allocation of benefits to the employee. By submitting the report, the accountant informs Sodra about the payouts allocated to the employee by the employer."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:8
+msgid "We recommend that you fill out this declaration directly in the Sodra system, entering the absence payout calculated by the employer in the program. In this case, you will avoid having to manually enter the dates and number of the issued absence certificate."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:12
+msgid "The Sodra NP-SD2 module (technical name l10n_lt_sodra_np_sd2) is installed, and the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is also required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:16
+msgid "In the Time Off module, create an absence record by selecting the appropriate absence type and dates and confirm it."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:None
+msgid "Creating an absence record in the Time Off module"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:21
+msgid "After confirming the absence record, select >> Printing >> \"VDU certificate\""
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:None
+msgid "Printing a VDU certificate"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:26
+msgid "A special VDU certificate will be generated, in which you will see the amount of the absence payout, depending on the work schedule, for the first 2 working days, if they coincide with the employee's work schedule."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:28
+msgid "Enter this amount in the Sodra NP-SD notification."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:None
+msgid "Entering the payout amount"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:33
+msgid "You can also generate an NP-SD2 report directly from Odoo. Select Payroll >> Reports >> NP-SD2. When running the report, enter the date range from...to."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:None
+msgid "Generating a NP-SD2 report from Odoo"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:38
+msgid "A .ffdata file will be created and automatically saved on your computer, suitable for uploading to the Sodra electronic system. Creating the file from the program is not very convenient, as the absence certificate numbers will not be included and will have to be entered manually from the Sodra system."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:40
+msgid "The amount paid is calculated based on the company's approved rules on the percentage of VDU the employer pays for the first days of incapacity for work. These percentages can be changed, if necessary, in the Payroll module: Payroll >> Configuration >> Compensation rules parameters >> Sickness or injury (L) coefficient, by entering the percentages and the date from which these percentages take effect."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:None
+msgid "Changing the absence payout amount"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:2
+msgid "SAM monthly declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:6
+msgid "The SAM declaration is an official report to the Social Security Insurance (Sodra) in a prescribed format about the salaries and contributions of employees, which the employer must submit every month. The SAM report for the current month must be submitted by the 15th of the following month."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:10
+msgid "The Sodra SAM module (technical name l10n_lt_sodra_sam) is installed, and the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is also required."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:14
+msgid "After completing the monthly calculations and approving the payslips of all employees, in the Payslip module, select Reports >> Sodra >> SAM report."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:None
+msgid "Creating a SAM report in Odoo"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:19
+msgid "In the window that opens, select the year and month for which the report is being generated. Click \"Generate declaration file\"."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:None
+msgid "Entering the year and month for the SAM declaration"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:26
+msgid "If you need to submit a revised SAM form, checking the Print PT box will display additional fields:"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:None
+msgid "Revising and resubmitting the SAM form"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:31
+msgid "After filling in the fields and selecting the employee whose salary is being adjusted, you can generate a declaration .ffdata file for submission to the Sodra system."
+msgstr ""
+
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:2
 #: ../../content/via_laurea_modules/payroll/personnel_accounting.rst:None
 msgid "Personnel Accounting"
@@ -3042,22 +3429,6 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:None
 msgid "Example of average earnings certificate"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:38
-#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:36
-#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:31
-#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:45
-#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:36
-msgid "4. Updates and Version Management"
-msgstr ""
-
-#: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:40
-#: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:38
-#: ../../content/via_laurea_modules/payroll/reports/salary_certificate.rst:33
-#: ../../content/via_laurea_modules/payroll/reports/timesheets.rst:47
-#: ../../content/via_laurea_modules/payroll/reports/vacation_accrual_report.rst:38
-msgid "This instruction is valid for versions 16 and 17."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/payroll_sheet.rst:2
