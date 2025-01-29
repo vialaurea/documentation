@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 17:47+0000\n"
+"POT-Creation-Date: 2025-01-29 11:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -341,6 +341,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/accounting/declarations.rst:2
 #: ../../content/via_laurea_modules/inventory/declarations.rst:2
+#: ../../content/via_laurea_modules/payroll/declarations.rst:2
 msgid "Declarations"
 msgstr ""
 
@@ -2871,6 +2872,10 @@ msgstr ""
 msgid "How to update the module. Version management practices."
 msgstr ""
 
+#: ../../content/via_laurea_modules/payroll/declarations.rst:4
+msgid "Overview of payroll declarations."
+msgstr ""
+
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:2
 msgid "1-SD declaration"
 msgstr ""
@@ -3366,7 +3371,7 @@ msgid "Employment Contract History Details"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports.rst:4
-msgid "Overview of payroll reports and declarations."
+msgid "Overview of payroll reports."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/reports/certificate_of_average_earnings.rst:2
