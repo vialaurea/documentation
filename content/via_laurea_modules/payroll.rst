@@ -11,3 +11,4 @@ Overview of inventory management and associated reports and declarations.
    payroll/salary_calculation
    payroll/cumulative_working_time_accounting
    payroll/reports
+   payroll/declarations

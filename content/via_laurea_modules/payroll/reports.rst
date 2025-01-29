@@ -1,7 +1,7 @@
 Reports
 =======
 
-Overview of payroll reports and declarations.
+Overview of payroll reports.
 
 .. toctree::
    :maxdepth: 2
