@@ -4959,39 +4959,42 @@ msgid ""
 " of accounts settings. You can do this at Accounting -> Configuration -> "
 "Chart of Accounts."
 msgstr ""
+"Naudojant Via laurea Darbo užmokesčio skaičiavimo modulį, yra galimybe formuojant "
+"metinę GPM312 deklaraciją į ją įtraukti sumas, sumokėtas fiziniams asmenims kaip "
+"tiekėjams. Tam, kad pasinaudoti šia galimybe pirmiausia sąskaitų plano nustatymuose "
+"pažymėti, iš kurių DK sąkaitų reikalinga naudoti informaciją deklaracijai. "
+"Pasirenkame Apskaita -> Konfigūracija -> Sąskaitų planas."
 
-#, fuzzy
+#
 msgid "Updating ledger accounts settings"
-msgstr "Pasiekiama atsakingų asmenų nustatymai"
+msgstr "Didžiosios knygos sąskaitos nustatymų atnaujinimas"
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:41
-#, fuzzy
+#
 msgid ""
 "When describing a physical person's contact in the Contacts module, it is"
 " necessary to note that this is an individual supplier, selecting the "
 "appropriate item as the license type (Personal Code, IDV number, etc.) "
 "and enter a specific number as the IDV number:"
 msgstr ""
-"**PASTABA:** naudojant Via laurea Darbo užmokesčio skaičiavimo modulį, "
-"yra galimybe formuojant metinę GPM312 deklaraciją į ją įtraukti sumas, "
-"sumokėtas fiziniams asmenims. Tam, kad pasinaudoti šia galimybe, aprašant"
-" fizinio asmens kontaktą Kontaktų modulyje reikia pažymėti, kad tai "
+"Aprašant fizinio asmens kontaktą Kontaktų modulyje reikia pažymėti, kad tai "
 "individualus tiekėjas, kaip licencijos tipą išsirinkti atitinkamą punktą "
-"(Asmens kodas, IDV numeris ir tt) ir įvesti konkretų numerį kaip IDV "
-"numerį."
+"(Asmens kodas, IDV numeris ir tt) ir įvesti konkretų numerį kaip IDV numerį:"
 
 msgid "Adding an employee as a supplier for GMP 312"
-msgstr ""
+msgstr "Darbuotojo įvedimas kaip GMP 312 tiekėjo"
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:46
 msgid ""
 "When creating an invoice for this supplier, select the required activity "
 "code from the list in the GPM312 for L5 tag."
 msgstr ""
+"Vedant šio tiekėjo sąskaitą, žymoje L5 skirtas GPM312 išsirinkite "
+"reikiamą veiklos kodą iš sąrašo."
 
-#, fuzzy
+#
 msgid "Creating an invoice for the supplier"
-msgstr "Naujo darbuotojo kūrimas"
+msgstr "Sąskaitos faktūros sukūrimas tiekėjui"
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:51
 msgid ""
@@ -4999,6 +5002,8 @@ msgid ""
 " included in the declaration when forming the GPM312 declaration for the "
 "relevant period."
 msgstr ""
+"Atlikus šiuos veiksmus, formuojant GPM312 deklaraciją už atitinkamą laikotarpį "
+"į deklaraciją bus įtrauktos FA išmokėtos sumos."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:53
 msgid ""
@@ -5007,6 +5012,10 @@ msgid ""
 "individual is a VAT payer - the amount excluding VAT is uploaded based on"
 " the invoice date (accrual principle)."
 msgstr ""
+"**Svarbu:** jei fizinis asmuo nėra PVM mokėtojas - duomenys į GPM 312 įkeliami "
+"pagal pinigų sumokėjimo datą (pinigų principu), jei fizinis asmuo yra PVM "
+"mokėtojas - įkeliama suma be PVM pagal sąskaitos faktūros datą "
+"(kaupimo principu)."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:56
 msgid "5. Updates and Version Management"
