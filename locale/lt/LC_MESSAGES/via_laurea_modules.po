@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-29 11:47+0000\n"
+"POT-Creation-Date: 2025-01-29 14:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -3012,7 +3012,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:53
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:47
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:47
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:49
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:57
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:30
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:47
 #: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:35
@@ -4560,7 +4560,6 @@ msgid "The calculation of cumulative working time is part of the Payroll module.
 msgstr "Kaupiamojo darbo laiko skaičiavimas yra darbo užmokesčio modulio dalis."
 
 #: ../../content/via_laurea_modules/payroll/cumulative_working_time_accounting.rst:86
-#
 msgid "7. Updates and Version Management"
 msgstr "7. Atnaujinimai ir versijų valdymas"
 
@@ -4569,12 +4568,10 @@ msgid "How to update the module. Version management practices."
 msgstr "Kaip atnaujinti modulį. Versijų valdymo praktikos."
 
 #: ../../content/via_laurea_modules/payroll/declarations.rst:4
-#
 msgid "Overview of payroll declarations."
 msgstr "Inventoriaus valdymo ir susijusių ataskaitų bei deklaracijų apžvalga."
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:2
-#
 msgid "1-SD declaration"
 msgstr "1-SD deklaracija"
 
@@ -4588,22 +4585,22 @@ msgid ""
 "notification must be submitted in the electronic Sodra system through the"
 " personal \"Sodra\" account of the insured person."
 msgstr ""
-"1-SD yra oficiali standartinė Sodros forma, kuriama įdarbinant darbuotoją. "
-"Kai su darbuotoju sudaroma darbo sutartis, 1-SD pranešimas turi "
-"būti pateikiamas ne vėliau kaip prieš vieną darbo dieną iki numatytos "
-"darbo pradžios. Direktoriui ši forma galima pateikti ir jo pirmąją darbo "
-"dieną. Pranešimas turi būti pateiktas elektroninėje Sodros "
+"1-SD yra oficiali standartinė Sodros forma, kuriama įdarbinant "
+"darbuotoją. Kai su darbuotoju sudaroma darbo sutartis, 1-SD pranešimas "
+"turi būti pateikiamas ne vėliau kaip prieš vieną darbo dieną iki "
+"numatytos darbo pradžios. Direktoriui ši forma galima pateikti ir jo "
+"pirmąją darbo dieną. Pranešimas turi būti pateiktas elektroninėje Sodros "
 "sistemoje per asmeninę ,,Sodros“ paskyrą draudėjui."
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:10
-#
 msgid ""
 "The Sodra 1-SD module (technical name l10n_lt_sodra_1sd) is installed, "
 "and the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) "
 "is also required."
 msgstr ""
-"Įdiegiamas modulis Sodra 1-SD (techn.pavadinimas l10n_lt_sodra_1sd), taip "
-"pat reikalingas modulis Lithuanian Payroll (techn.pavadinimasl10n_lt_hr_payroll_vl)."
+"Įdiegiamas modulis Sodra 1-SD (techn.pavadinimas l10n_lt_sodra_1sd), taip"
+" pat reikalingas modulis Lithuanian Payroll "
+"(techn.pavadinimasl10n_lt_hr_payroll_vl)."
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:14
 msgid ""
@@ -4612,9 +4609,9 @@ msgid ""
 "must be filled in the employee's employment contract. Go to Employees >> "
 "Specific employee card >> Employment contract >> Sodra."
 msgstr ""
-"Norint, kad teikiant 1-SD ataskaitą iš programos, visa informacija būtų užpildyta, "
-"darbuotojo darbo sutartyje reikia užpildyti informaciją 1-SD ataskaitos "
-"formavimui. Eikite į Darbuotojai >> Konkretaus darbuotojo "
+"Norint, kad teikiant 1-SD ataskaitą iš programos, visa informacija būtų "
+"užpildyta, darbuotojo darbo sutartyje reikia užpildyti informaciją 1-SD "
+"ataskaitos formavimui. Eikite į Darbuotojai >> Konkretaus darbuotojo "
 "kortelė >> Darbo sutartis >> Sodra."
 
 msgid "Finding the Sodra tab"
@@ -4625,39 +4622,35 @@ msgid ""
 "Fill in the required fields by selecting the appropriate items from the "
 "expanded extension and save."
 msgstr ""
-"Užpildykite reikiamus laukus, pasirenkant atitinkamus punktus iš išsiskleidusio "
-"plėtinio ir išsaugokite."
+"Užpildykite reikiamus laukus, pasirenkant atitinkamus punktus iš "
+"išsiskleidusio plėtinio ir išsaugokite."
 
 msgid "Filling in employee information for Sodra"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:24
-#
 msgid ""
 "After entering the employee's data in the \"Employees\" module and "
 "creating an employment contract, go to the Payroll module >> Reports >> "
 "Sodra >> 1-SD report:"
 msgstr ""
-"Suvedus darbuotojo duomenis modulyje „Darbuotojai“ ir sukūrus "
-"darbo sutartį, eikite į modulį Algalapis >> "
-"Ataskaitos >> Sodra >> 1-SD ataskaita:"
+"Suvedus darbuotojo duomenis modulyje „Darbuotojai“ ir sukūrus darbo "
+"sutartį, eikite į modulį Algalapis >> Ataskaitos >> Sodra >> 1-SD "
+"ataskaita:"
 
-#
 msgid "Creating a 1-SD declaration"
 msgstr "Sukurti naują 1-SD deklaraciją"
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:29
-#
 msgid ""
 "In the table that opens, select the employment contract number of the "
 "employee for whom the 1-SD form is being created from the list. Click "
 "\"Generate declaration file\"."
 msgstr ""
 "Atsidariusioje lentelėje iš sąrašo pasirinkite darbo sutarties numerį "
-"darbuotojo, kuriam kuriamas 1-SD forma. Spauskite „Generuoti deklaracijos "
-"failą“."
+"darbuotojo, kuriam kuriamas 1-SD forma. Spauskite „Generuoti deklaracijos"
+" failą“."
 
-#
 msgid "Generating a 1-SD declaration"
 msgstr "Sukurti deklaracijos failą"
 
@@ -4668,16 +4661,16 @@ msgid ""
 "A .ffdata file will be created and automatically saved on your computer, "
 "suitable for uploading to the Sodra electronic system."
 msgstr ""
-"Bus sukurtas ir automatiškai Jūsų kompiuteryje išsaugotas .ffdata "
-"failas, tinkamas įkelti į Sodros elektroninę sistemą."
+"Bus sukurtas ir automatiškai Jūsų kompiuteryje išsaugotas .ffdata failas,"
+" tinkamas įkelti į Sodros elektroninę sistemą."
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:36
 msgid ""
 "If you need to revise and then print the 1 SD form, checking the Print PT"
 " box will display additional fields:"
 msgstr ""
-"Jei reikalinga atspausdinti patikslintą 1 SD formą, uždėjus varnelė "
-"ant Spausdinti PT atsiranda papildomi laukai:"
+"Jei reikalinga atspausdinti patikslintą 1 SD formą, uždėjus varnelė ant "
+"Spausdinti PT atsiranda papildomi laukai:"
 
 msgid "Printing a revised 1-SD declaration"
 msgstr ""
@@ -4690,9 +4683,10 @@ msgid ""
 "created and automatically saved on your computer, suitable for uploading "
 "to the Sodra electronic system."
 msgstr ""
-"Užsipildžius laukus ir pasirinkus tikslinamą DS sutartį, galima generuoti "
-"deklaracijos .ffdata failą. Bus sukurtas ir automatiškai Jūsų kompiuteryje "
-"išsaugotas .pdf failas, tinkamas įkelti į Sodros elektroninę sistemą."
+"Užsipildžius laukus ir pasirinkus tikslinamą DS sutartį, galima generuoti"
+" deklaracijos .ffdata failą. Bus sukurtas ir automatiškai Jūsų "
+"kompiuteryje išsaugotas .pdf failas, tinkamas įkelti į Sodros elektroninę"
+" sistemą."
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:43
 msgid ""
@@ -4701,9 +4695,9 @@ msgid ""
 "to be filled in directly on the Sodra page after uploading the file "
 "generated in the program."
 msgstr ""
-"Galite kurti 1-SD .ffdata failą ir neužpildę laukų darbuotojo darbo sutartyje, "
-"tačiau tokiu atveju šiuos laukus teks užpildyti tiesiogiai Sodros "
-"puslapyje, įkėlus programoje sugeneruotą failą."
+"Galite kurti 1-SD .ffdata failą ir neužpildę laukų darbuotojo darbo "
+"sutartyje, tačiau tokiu atveju šiuos laukus teks užpildyti tiesiogiai "
+"Sodros puslapyje, įkėlus programoje sugeneruotą failą."
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:46
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:46
@@ -4720,7 +4714,7 @@ msgstr "4. Atnaujinimai ir versijų valdymas"
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:48
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:48
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:50
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:58
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:31
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:48
 #: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:36
@@ -4733,7 +4727,6 @@ msgid "This instruction is valid for versions 16 and 17."
 msgstr "Instrukcija galioja 16 ir 17 versijai."
 
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:2
-#
 msgid "2-SD declaration"
 msgstr "2-SD deklaracija"
 
@@ -4747,20 +4740,20 @@ msgid ""
 "account of the insured person."
 msgstr ""
 "2-SD yra oficiali standartinė Sodros forma, kuriama atleidžiant iš darbo "
-"darbuotoją. 2-SD pranešimą reikia pateikti ne vėliau kaip kitą "
-"darbo dieną po darbo santykių pasibaigimo dienos. Pranešimas turi "
-"būti pateiktas elektroninėje Sodros sistemoje per asmeninę ,,Sodros“ "
-"paskyrą draudėjui."
+"darbuotoją. 2-SD pranešimą reikia pateikti ne vėliau kaip kitą darbo "
+"dieną po darbo santykių pasibaigimo dienos. Pranešimas turi būti "
+"pateiktas elektroninėje Sodros sistemoje per asmeninę ,,Sodros“ paskyrą "
+"draudėjui."
 
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:10
-#
 msgid ""
 "The Sodra 2-SD module (technical name l10n_lt_sodra_2sd) is installed, "
 "and the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) "
 "is also required."
 msgstr ""
-"Įdiegiamas modulis Sodra 2-SD (techn.pavadinimas l10n_lt_sodra_2sd), "
-"taip pat reikalingas modulis Lithuanian Payroll (techn.pavadinimas l10n_lt_hr_payroll_vl)."
+"Įdiegiamas modulis Sodra 2-SD (techn.pavadinimas l10n_lt_sodra_2sd), taip"
+" pat reikalingas modulis Lithuanian Payroll (techn.pavadinimas "
+"l10n_lt_hr_payroll_vl)."
 
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:14
 msgid ""
@@ -4769,12 +4762,11 @@ msgid ""
 "module, select the relevant employee's card and their last employment "
 "contract: Employees >> Employee Card >> Sodra:"
 msgstr ""
-"Norint pateikti užpildytą 2-SD formą, reikia užpildyti atleidimo duomenis "
-"darbuotojo darbo sutartyje. Eikite į Darbuotojų modulį, "
-"pasirinkite atitinkamo darbuotojo kortelę ir jo paskutinę darbo sutartį: "
-"Darbuotojai >> Darbuotojo kortelė >> Sodra:"
+"Norint pateikti užpildytą 2-SD formą, reikia užpildyti atleidimo duomenis"
+" darbuotojo darbo sutartyje. Eikite į Darbuotojų modulį, pasirinkite "
+"atitinkamo darbuotojo kortelę ir jo paskutinę darbo sutartį: Darbuotojai "
+">> Darbuotojo kortelė >> Sodra:"
 
-#
 msgid "Finding the employee tab"
 msgstr "Įveskite darbuotojo duomenis"
 
@@ -4785,40 +4777,35 @@ msgid ""
 "required item in the drop-down menu:"
 msgstr ""
 "Šioje skiltyje rasite reikiamus užpildyti laukus. Išeitinės išmokos "
-"laikotarpį įveskite ranka, kitus laukus užpildykite "
-"pasirinkdami reikiamą punktą išskleidžiamame pasirinkimų meniu:"
+"laikotarpį įveskite ranka, kitus laukus užpildykite pasirinkdami reikiamą"
+" punktą išskleidžiamame pasirinkimų meniu:"
 
-#
 msgid "Filling in the required employee information"
 msgstr "Užpildoma reikalinga darbuotojo informacija."
 
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:24
-#
 msgid ""
 "After entering the employee's data in the \"Employees\" module and "
 "creating a dismissal record, go to the Payroll >> Reports >> Sodra >> "
 "2-SD report module:"
 msgstr ""
-"Suvedus darbuotojo duomenis modulyje „Darbuotojai“ ir sukūrus "
-"atleidimo įrašą, eikite į modulį Algalapis >> "
-"Ataskaitos >> Sodra >> 2-SD ataskaita:"
+"Suvedus darbuotojo duomenis modulyje „Darbuotojai“ ir sukūrus atleidimo "
+"įrašą, eikite į modulį Algalapis >> Ataskaitos >> Sodra >> 2-SD "
+"ataskaita:"
 
-#
 msgid "Creating a 2-SD declaration"
 msgstr "Sukurti naują 2-SD deklaraciją"
 
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:29
-#
 msgid ""
 "In the table that opens, select the employment contract number of the "
 "employee for whom the 2-SD report is being created from the list. Click "
 "\"Generate declaration file\""
 msgstr ""
 "Atsidariusioje lentelėje iš sąrašo pasirinkite darbo sutarties numerį "
-"darbuotojo, kuriam kuriamas 2-SD pranešimas. Spauskite „Generuoti deklaracijos "
-"failą“."
+"darbuotojo, kuriam kuriamas 2-SD pranešimas. Spauskite „Generuoti "
+"deklaracijos failą“."
 
-#
 msgid "Generating the 2-SD declaration file"
 msgstr "Sukurti deklaracijos failą"
 
@@ -4827,8 +4814,8 @@ msgid ""
 "If you need to revise and print a 2-SD form, checking the Print PT box "
 "will display additional fields:"
 msgstr ""
-"Jei reikalinga atspausdinti patikslintą 2 SD formą, uždėjus varnelė "
-"ant Spausdinti PT atsiranda papildomi laukai:"
+"Jei reikalinga atspausdinti patikslintą 2 SD formą, uždėjus varnelė ant "
+"Spausdinti PT atsiranda papildomi laukai:"
 
 msgid "Printing a revised 2-SD declaration"
 msgstr ""
@@ -4840,12 +4827,11 @@ msgid ""
 "to be filled in directly on the Sodra page after uploading the file "
 "generated in the program."
 msgstr ""
-"Galite kurti 2-SD .ffdata failą ir neužpildę laukų darbuotojo darbo sutartyje, "
-"tačiau tokiu atveju šiuos laukus teks užpildyti tiesiogiai Sodros "
-"puslapyje, įkėlus programoje sugeneruotą failą."
+"Galite kurti 2-SD .ffdata failą ir neužpildę laukų darbuotojo darbo "
+"sutartyje, tačiau tokiu atveju šiuos laukus teks užpildyti tiesiogiai "
+"Sodros puslapyje, įkėlus programoje sugeneruotą failą."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:2
-#
 msgid "GPM 312 declaration"
 msgstr "GPM 312 deklaracija"
 
@@ -4856,10 +4842,10 @@ msgid ""
 "February 15 of the current year. Income received by residents is divided "
 "into two classes according to the tax payment procedure - A and B."
 msgstr ""
-"Fiziniai ir juridiniai asmenys, gyventojams išmokėję A ir B klasės išmokas per "
-"praėjusius metus, privalo pateikti deklaraciją GPM312 iki einamųjų metų "
-"vasario 15 dienos. Gyventojų gaunamos pajamos pagal mokesčio "
-"mokėjimo tvarką skirstomos į dvi klases - A ir B."
+"Fiziniai ir juridiniai asmenys, gyventojams išmokėję A ir B klasės "
+"išmokas per praėjusius metus, privalo pateikti deklaraciją GPM312 iki "
+"einamųjų metų vasario 15 dienos. Gyventojų gaunamos pajamos pagal "
+"mokesčio mokėjimo tvarką skirstomos į dvi klases - A ir B."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:8
 msgid ""
@@ -4868,10 +4854,11 @@ msgid ""
 "employment (salary) of a resident is class A income, therefore the "
 "employer deducts and pays GPM (resident income tax) to the state budget."
 msgstr ""
-"Nuo A klasės pajamų mokestį apskaičiuoja, išskaičiuoja ir sumoka į biudžetą "
-"tas išmokas išmokantis asmuo. Pavyzdžiui, gyventojo su darbo santykiais "
-"susijusios pajamos (darbo užmokestis) yra A klasės pajamos, todėl darbdavys "
-"išskaičiuoja ir sumoka GPM (gyventojų pajamų mokestį) į valstybės biudžetą."
+"Nuo A klasės pajamų mokestį apskaičiuoja, išskaičiuoja ir sumoka į "
+"biudžetą tas išmokas išmokantis asmuo. Pavyzdžiui, gyventojo su darbo "
+"santykiais susijusios pajamos (darbo užmokestis) yra A klasės pajamos, "
+"todėl darbdavys išskaičiuoja ir sumoka GPM (gyventojų pajamų mokestį) į "
+"valstybės biudžetą."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:10
 msgid ""
@@ -4881,8 +4868,8 @@ msgid ""
 "activities declares and pays personal income tax to the state budget by "
 "submitting the relevant declaration."
 msgstr ""
-"Pajamų mokestį nuo B klasės pajamų apskaičiuoja ir sumoka į biudžetą pats "
-"gyventojas. Pavyzdžiui, individualios veiklos pagal pažymą pajamos yra "
+"Pajamų mokestį nuo B klasės pajamų apskaičiuoja ir sumoka į biudžetą pats"
+" gyventojas. Pavyzdžiui, individualios veiklos pagal pažymą pajamos yra "
 "priskiriamos B klasės pajamoms, todėl tokią veiklą vykdantis asmuo pats "
 "deklaruoja ir sumoka GPM į valstybės biudžetą, pateikdamas atitinkamą "
 "deklaraciją."
@@ -4894,23 +4881,22 @@ msgid ""
 "relevant code as taxable and non-taxable income, and the amount of income"
 " tax deducted and paid."
 msgstr ""
-"Metinėje deklaracijoje GPM312 pateikiama bendra kiekvienam darbuotojui "
-"ar gyventojui per mokestinį laikotarpį priskaityta suma, pagal "
-"atitinkamą kodą priskiriama apmokestinamosioms ir neapmokestinamosioms "
-"pajamoms, bei išskaičiuoto ir sumokėto pajamų mokesčio suma."
+"Metinėje deklaracijoje GPM312 pateikiama bendra kiekvienam darbuotojui ar"
+" gyventojui per mokestinį laikotarpį priskaityta suma, pagal atitinkamą "
+"kodą priskiriama apmokestinamosioms ir neapmokestinamosioms pajamoms, bei"
+" išskaičiuoto ir sumokėto pajamų mokesčio suma."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:16
-#
 msgid ""
 "The GPM 312 module (technical name l10n_lt_gpm312) is installed, and the "
 "Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is also "
 "required."
 msgstr ""
-"Įdiegiamas modulis GPM 312 (techn.pavadinimas l10n_lt_gpm312), taip "
-"pat reikalingas modulis Lithuanian Payroll (techn.pavadinimas l10n_lt_hr_payroll_vl)."
+"Įdiegiamas modulis GPM 312 (techn.pavadinimas l10n_lt_gpm312), taip pat "
+"reikalingas modulis Lithuanian Payroll (techn.pavadinimas "
+"l10n_lt_hr_payroll_vl)."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:20
-#
 msgid ""
 "You can find the annual GPM declaration in the Payroll module >> Reports "
 ">> EDS section >> GPM312 declaration."
@@ -4918,12 +4904,10 @@ msgstr ""
 "Metinę GPM deklaraciją rasite Algalapio modulyje >> Ataskaitose >> "
 "skiltyje EDS >> GPM312 deklaracija."
 
-#
 msgid "Finding the GPM 312 declaration"
 msgstr "GPM 312 deklaracijos radimas"
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:25
-#
 msgid ""
 "After selecting it, specify the year and click the \"Generate declaration"
 " file\" button."
@@ -4931,21 +4915,20 @@ msgstr ""
 "Ją pasirinkę, nurodykite metus ir spauskite mygtuką \"Generuoti "
 "deklaracijos failą\"."
 
-#
 msgid "Generating a GPM 312 declaration file"
 msgstr "GPM 312 deklaracijos failo generavimas"
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:30
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:24
-#
 msgid ""
 "A file for uploading to the VMI EDS system in ffdata format will be "
 "created and automatically saved on your computer. To view the data before"
 " uploading the file to the system, use the *ABBYY eFormFiller* software."
 msgstr ""
-"Bus sukurtas ir automatiškai kompiuteryje išsaugotas failas įkėlimui į VMI "
-"EDS sistemą ffdata formatu. Norint peržiūrėti duomenis prieš minėtą "
-"failą įkeliant į sistemą, naudokite *ABBYY eFormFiller* programinę įrangą."
+"Bus sukurtas ir automatiškai kompiuteryje išsaugotas failas įkėlimui į "
+"VMI EDS sistemą ffdata formatu. Norint peržiūrėti duomenis prieš minėtą "
+"failą įkeliant į sistemą, naudokite *ABBYY eFormFiller* programinę "
+"įrangą."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:32
 msgid ""
@@ -4956,25 +4939,36 @@ msgid ""
 "allowances paid to be included in the GPM312 declaration, they must be "
 "entered in the relevant employee's monthly payslip, as other accruals."
 msgstr ""
-"**Svarbu:** į deklaraciją įtraukiamos tik tos DU sumos, kurios Algalapio modulyje "
-"turi požymį \"Apmokėta\". Jei paskaičiavę darbo užmokestį neįvedėte apmokėjimo "
-"datos, duomenys į šią deklaraciją nepateks. Norint, kad į GPM312 deklaraciją "
-"patektų ir išmokėti dienpinigiai, juos reikia įvesti į atitinkamo "
-"darbuotojo atitinkamo mėnesio algalapį, kaip kitus priskaitymus."
+"**Svarbu:** į deklaraciją įtraukiamos tik tos DU sumos, kurios Algalapio "
+"modulyje turi požymį \"Apmokėta\". Jei paskaičiavę darbo užmokestį "
+"neįvedėte apmokėjimo datos, duomenys į šią deklaraciją nepateks. Norint, "
+"kad į GPM312 deklaraciją patektų ir išmokėti dienpinigiai, juos reikia "
+"įvesti į atitinkamo darbuotojo atitinkamo mėnesio algalapį, kaip kitus "
+"priskaitymus."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:35
-#
 msgid "4. Daily Use Scenarios"
 msgstr "4. Kasdienio Naudojimo Scenarijai"
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:36
+msgid ""
+"Using the Via laurea Salary Calculation Module, there is an option to "
+"include amounts paid to individuals as suppliers, when forming the annual"
+" GPM312 declaration. To use this option, first select which ledger "
+"accounts need to be used for information for the declaration in the chart"
+" of accounts settings. You can do this at Accounting -> Configuration -> "
+"Chart of Accounts."
+msgstr ""
+
+#, fuzzy
+msgid "Updating ledger accounts settings"
+msgstr "Pasiekiama atsakingų asmenų nustatymai"
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:41
 #, fuzzy
 msgid ""
-"Using the Via laurea Salary Calculation module, there is an option to "
-"include amounts paid to individuals as suppliers (contractors) when "
-"forming the annual GPM312 declaration. To use this option, when "
-"describing the contact of the individual in the Contacts module, it is "
-"necessary to indicate that this is an individual supplier, select the "
+"When describing a physical person's contact in the Contacts module, it is"
+" necessary to note that this is an individual supplier, selecting the "
 "appropriate item as the license type (Personal Code, IDV number, etc.) "
 "and enter a specific number as the IDV number:"
 msgstr ""
@@ -4986,23 +4980,27 @@ msgstr ""
 "(Asmens kodas, IDV numeris ir tt) ir įvesti konkretų numerį kaip IDV "
 "numerį."
 
-msgid "Adding an employee as a contractor for GMP 312"
+msgid "Adding an employee as a supplier for GMP 312"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:41
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:46
 msgid ""
-"When creating an invoice for this contractor, select the required "
-"activity code from the list in the GPM312 for L5 tag."
+"When creating an invoice for this supplier, select the required activity "
+"code from the list in the GPM312 for L5 tag."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:43
+#, fuzzy
+msgid "Creating an invoice for the supplier"
+msgstr "Naujo darbuotojo kūrimas"
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:51
 msgid ""
 "After completing these steps, the amounts paid to this individual will be"
 " included in the declaration when forming the GPM312 declaration for the "
 "relevant period."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:45
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:53
 msgid ""
 "**Important:** if the individual is not a VAT payer - data is uploaded to"
 " GPM 312 based on the date of payment of money (cash principle), if the "
@@ -5010,13 +5008,11 @@ msgid ""
 " the invoice date (accrual principle)."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:48
-#
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:56
 msgid "5. Updates and Version Management"
 msgstr "5. Atnaujinimai ir versijų valdymas"
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:2
-#
 msgid "GPM 313 declaration"
 msgstr "GPM 313 deklaracija"
 
@@ -5028,23 +5024,23 @@ msgid ""
 "the current month is submitted by the 15th day of the following month. "
 "The declaration is submitted every month."
 msgstr ""
-"Ši deklaracija skirta deklaruoti darbuotojams bei fiziniams asmenims priskaitytas "
-"pinigų sumas bei išskaitytą GPM, kai pajamos priskiriamos A klasės "
-"pajamoms. Deklaracija už einamąjį mėnesį išmokėtas išmokas teikiama iki sekančio "
-"mėnesio 15 dienos. Deklaracija teikiama kiekvieną mėnesį."
+"Ši deklaracija skirta deklaruoti darbuotojams bei fiziniams asmenims "
+"priskaitytas pinigų sumas bei išskaitytą GPM, kai pajamos priskiriamos A "
+"klasės pajamoms. Deklaracija už einamąjį mėnesį išmokėtas išmokas "
+"teikiama iki sekančio mėnesio 15 dienos. Deklaracija teikiama kiekvieną "
+"mėnesį."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:10
-#
 msgid ""
 "The GPM 313 module (technical name l10n_lt_gpm313) is installed, and the "
 "Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is also "
 "required."
 msgstr ""
-"Įdiegiamas modulis GPM 313 (techn.pavadinimas l10n_lt_gpm313 ), taip "
-"pat reikalingas modulis Lithuanian Payroll (techn.pavadinimas l10n_lt_hr_payroll_vl)."
+"Įdiegiamas modulis GPM 313 (techn.pavadinimas l10n_lt_gpm313 ), taip pat "
+"reikalingas modulis Lithuanian Payroll (techn.pavadinimas "
+"l10n_lt_hr_payroll_vl)."
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:14
-#
 msgid ""
 "You can find the monthly GPM declaration in the Payroll module >> Reports"
 " >> EDS section >> GPM313 report."
@@ -5052,7 +5048,6 @@ msgstr ""
 "Mėnesinę GPM deklaraciją rasite Algalapio modulyje >> Ataskaitose >> "
 "skiltyje EDS >> GPM313 ataskaita."
 
-#
 msgid "Finding the GPM 313 declaration"
 msgstr "GPM 313 deklaracijos radimas"
 
@@ -5061,10 +5056,9 @@ msgid ""
 "To create a declaration, enter the year in the window that opens and "
 "select the required month."
 msgstr ""
-"Norint suformuoti deklaraciją, atsidariusiame lange įveskite metus "
-"ir pasirinkite reikalingą mėnesį."
+"Norint suformuoti deklaraciją, atsidariusiame lange įveskite metus ir "
+"pasirinkite reikalingą mėnesį."
 
-#
 msgid "Generating a GPM 313 declaration"
 msgstr "GPM 313 Deklaracijos generavimas"
 
@@ -5075,12 +5069,11 @@ msgid ""
 "enter the payment date after calculating the salary, the data will not be"
 " included in this declaration."
 msgstr ""
-"**Svarbu:** į deklaraciją įtraukiamos tik tos DU sumos, kurios Algalapio modulyje "
-"turi požymį \"Apmokėta\". Jei paskaičiavę darbo užmokestį neįvedėte "
-"apmokėjimo datos, duomenys į šią deklaraciją nepateks."
+"**Svarbu:** į deklaraciją įtraukiamos tik tos DU sumos, kurios Algalapio "
+"modulyje turi požymį \"Apmokėta\". Jei paskaičiavę darbo užmokestį "
+"neįvedėte apmokėjimo datos, duomenys į šią deklaraciją nepateks."
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:2
-#
 msgid "NP-SD report"
 msgstr "NP-SD ataskaita"
 
@@ -5093,72 +5086,68 @@ msgid ""
 "the payouts allocated to the employee by the employer."
 msgstr ""
 "NP-SD ataskaita yra oficialus pranešimas Sodrai, kad darbuotojas tapo "
-"laikinai nedarbingu ir Sodra informuojama dėl išmokos skyrimo darbuotojui. "
-"Pateikdamas pranešimą buhalteris informuoja Sodrą apie tai, kokia išmoka "
-"yra paskirta darbuotojui iš darbdavio pusės."
+"laikinai nedarbingu ir Sodra informuojama dėl išmokos skyrimo "
+"darbuotojui. Pateikdamas pranešimą buhalteris informuoja Sodrą apie tai, "
+"kokia išmoka yra paskirta darbuotojui iš darbdavio pusės."
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:8
-#
 msgid ""
 "We recommend that you fill out this declaration directly in the Sodra "
 "system, entering the absence payout calculated by the employer in the "
 "program. In this case, you will avoid having to manually enter the dates "
 "and number of the issued absence certificate."
 msgstr ""
-"Rekomenduojame šią deklaraciją pildyti tiesiogiai Sodros sistemoje, įrašant "
-"programoje apskaičiuotą darbdavio mokėtiną nedarbingumo išmoką. "
-"Tokiu atveju išvengsite išduoto nedarbingumo pažymėjimo datų "
-"ir numerio vedimo ranka."
+"Rekomenduojame šią deklaraciją pildyti tiesiogiai Sodros sistemoje, "
+"įrašant programoje apskaičiuotą darbdavio mokėtiną nedarbingumo išmoką. "
+"Tokiu atveju išvengsite išduoto nedarbingumo pažymėjimo datų ir numerio "
+"vedimo ranka."
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:12
-#
 msgid ""
 "The Sodra NP-SD2 module (technical name l10n_lt_sodra_np_sd2) is "
 "installed, and the Lithuanian Payroll module (technical name "
 "l10n_lt_hr_payroll_vl) is also required."
 msgstr ""
-"Įdiegiamas modulis Sodra NP-SD2 (techn.pavadinimas l10n_lt_sodra_np_sd2), "
-"taip pat reikalingas modulis Lithuanian Payroll (techn.pavadinimas l10n_lt_hr_payroll_vl)."
+"Įdiegiamas modulis Sodra NP-SD2 (techn.pavadinimas l10n_lt_sodra_np_sd2),"
+" taip pat reikalingas modulis Lithuanian Payroll (techn.pavadinimas "
+"l10n_lt_hr_payroll_vl)."
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:16
 msgid ""
 "In the Time Off module, create an absence record by selecting the "
 "appropriate absence type and dates and confirm it."
 msgstr ""
-"Neatvykimų modulyje sukurkite nedarbingumo įrašą, pasirinkdami atitinkamą "
-"neatvykimo tipą ir datas bei jį patvirtinkite."
+"Neatvykimų modulyje sukurkite nedarbingumo įrašą, pasirinkdami atitinkamą"
+" neatvykimo tipą ir datas bei jį patvirtinkite."
 
-#
 msgid "Creating an absence record in the Time Off module"
 msgstr "Nebuvimo įrašo sukūrimas Neatvykimų modulyje"
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:21
-#
 msgid ""
 "After confirming the absence record, select >> Printing >> \"VDU "
 "certificate\""
-msgstr "Patvirtinus nedarbingumo įrašą, pasirinkite >> Spausdinimas >> \"VDU pažyma\"."
+msgstr ""
+"Patvirtinus nedarbingumo įrašą, pasirinkite >> Spausdinimas >> \"VDU "
+"pažyma\"."
 
-#
 msgid "Printing a VDU certificate"
 msgstr "Vidutinio darbo užmokesčio pažymos kūrimas"
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:26
-#
 msgid ""
 "A special VDU certificate will be generated, in which you will see the "
 "amount of the absence payout, depending on the work schedule, for the "
 "first 2 working days, if they coincide with the employee's work schedule."
 msgstr ""
-"Bus suformuota speciali VDU pažyma, kurioje matysite nedarbingumo "
-"išmokos sumą, priklausomai nuo darbo grafiko, už pirmas 2 darbo "
-"dienas, jei jos sutapo su darbuotojo darbo grafiku."
+"Bus suformuota speciali VDU pažyma, kurioje matysite nedarbingumo išmokos"
+" sumą, priklausomai nuo darbo grafiko, už pirmas 2 darbo dienas, jei jos "
+"sutapo su darbuotojo darbo grafiku."
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:28
 msgid "Enter this amount in the Sodra NP-SD notification."
 msgstr "Šią sumą įrašykite į Sodros NP-SD pranešimą."
 
-#
 msgid "Entering the payout amount"
 msgstr "Įveskite ligos išmokos sumą"
 
@@ -5169,14 +5158,13 @@ msgid ""
 "from...to."
 msgstr ""
 "Taip pat galite formuoti NP-SD2 pranešimą tiesiai iš Odoo. Pasirinkite "
-"Algalapis >> Ataskaitos >> NP-SD2. Paleisdami ataskaitą, įveskite datą nuo...iki."
+"Algalapis >> Ataskaitos >> NP-SD2. Paleisdami ataskaitą, įveskite datą "
+"nuo...iki."
 
-#
 msgid "Generating a NP-SD2 report from Odoo"
 msgstr "NP-SD2 ataskaitos kūrimas iš Odoo"
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:38
-#
 msgid ""
 "A .ffdata file will be created and automatically saved on your computer, "
 "suitable for uploading to the Sodra electronic system. Creating the file "
@@ -5184,9 +5172,9 @@ msgid ""
 "numbers will not be included and will have to be entered manually from "
 "the Sodra system."
 msgstr ""
-"Bus sukurtas ir automatiškai Jūsų kompiuteryje išsaugotas .ffdata failas, "
-"tinkamas įkelti į Sodros elektroninę sistemą. Failo formavimas "
-"iš programos nėra labai patogu, nes nebus įtraukti nedarbingumo pažymėjimo "
+"Bus sukurtas ir automatiškai Jūsų kompiuteryje išsaugotas .ffdata failas,"
+" tinkamas įkelti į Sodros elektroninę sistemą. Failo formavimas iš "
+"programos nėra labai patogu, nes nebus įtraukti nedarbingumo pažymėjimo "
 "numeriai ir juos teks įsivesti iš Sodros sistemos rankiniu būdu."
 
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:40
@@ -5198,18 +5186,17 @@ msgid ""
 "Sickness or injury (L) coefficient, by entering the percentages and the "
 "date from which these percentages take effect."
 msgstr ""
-"Apmokama suma apskaičiuojama remiantis įmonėje patvirtintomis taisyklėmis, "
-"kiek procentų VDU darbdavys moka už pirmas nedarbingumo dienas. "
-"Šiuos procentus, esant poreikiui, gailte keisti Algalapio modulyje: Algalapis >> "
-"Konfigūracija >> Atlyginimo taisyklių parametrai >> Nedarbingumas "
-"dėl ligos ar traumų (L) koeficientas, įvesdami procentus bei datą, nuo "
-"kada šie procentai įsigalioja."
+"Apmokama suma apskaičiuojama remiantis įmonėje patvirtintomis "
+"taisyklėmis, kiek procentų VDU darbdavys moka už pirmas nedarbingumo "
+"dienas. Šiuos procentus, esant poreikiui, gailte keisti Algalapio "
+"modulyje: Algalapis >> Konfigūracija >> Atlyginimo taisyklių parametrai "
+">> Nedarbingumas dėl ligos ar traumų (L) koeficientas, įvesdami procentus"
+" bei datą, nuo kada šie procentai įsigalioja."
 
 msgid "Changing the absence payout amount"
 msgstr "Nebuvimo išmokos sumos keitimas"
 
 #: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:2
-#
 msgid "SAM monthly declaration"
 msgstr "SAM mėnesinė ataskaita"
 
@@ -5222,19 +5209,19 @@ msgid ""
 " following month."
 msgstr ""
 "SAM pranešimas yra oficiali nustatyto formato Sodros ataskaita apie "
-"samdomų darbuotojų atlyginimus ir įmokas Sodrai, kurią darbdavys "
-"privalo kiekvieną mėnesį. Už einamąjį mėnesį SAM pranešimą "
-"reikia pateikti iki kito mėnesio 15 d."
+"samdomų darbuotojų atlyginimus ir įmokas Sodrai, kurią darbdavys privalo "
+"kiekvieną mėnesį. Už einamąjį mėnesį SAM pranešimą reikia pateikti iki "
+"kito mėnesio 15 d."
 
 #: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:10
-#
 msgid ""
 "The Sodra SAM module (technical name l10n_lt_sodra_sam) is installed, and"
 " the Lithuanian Payroll module (technical name l10n_lt_hr_payroll_vl) is "
 "also required."
 msgstr ""
 "Įdiegiamas modulis Sodra SAM (techn.pavadinimas l10n_lt_sodra_sam), taip "
-"pat reikalingas modulis Lithuanian Payroll (techn.pavadinimas l10n_lt_hr_payroll_vl)."
+"pat reikalingas modulis Lithuanian Payroll (techn.pavadinimas "
+"l10n_lt_hr_payroll_vl)."
 
 #: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:14
 msgid ""
@@ -5245,12 +5232,10 @@ msgstr ""
 "Atlikus mėnesio skaičiavimus ir patvirtinus visų darbuotojų algalapius, "
 "Algalapio modulyje pasirinkite Ataskaitos >> Sodra >> SAM ataskaita."
 
-#
 msgid "Creating a SAM report in Odoo"
 msgstr "SAM ataskaitos kūrimas Odoo"
 
 #: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:19
-#
 msgid ""
 "In the window that opens, select the year and month for which the report "
 "is being generated. Click \"Generate declaration file\"."
@@ -5266,8 +5251,8 @@ msgid ""
 "If you need to submit a revised SAM form, checking the Print PT box will "
 "display additional fields:"
 msgstr ""
-"Jei reikalinga pateikti patikslintą SAM formą, uždėjus varnelę ant Spausdinti "
-"PT atsiranda papildomi laukai:"
+"Jei reikalinga pateikti patikslintą SAM formą, uždėjus varnelę ant "
+"Spausdinti PT atsiranda papildomi laukai:"
 
 msgid "Revising and resubmitting the SAM form"
 msgstr "SAM formos patikslinimas ir pateikimas"
@@ -8041,4 +8026,14 @@ msgstr "Šis Odoo modulis yra susietas su moduliais „Darbuotojai“ ir „Atly
 
 #~ msgid "Create Accrual Entry"
 #~ msgstr "Sukurti kaupimo įrašą"
+
+#~ msgid "Adding an employee as a contractor for GMP 312"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When creating an invoice for this "
+#~ "contractor, select the required activity "
+#~ "code from the list in the GPM312"
+#~ " for L5 tag."
+#~ msgstr ""
 

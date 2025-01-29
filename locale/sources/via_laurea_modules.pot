@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 11:47+0000\n"
+"POT-Creation-Date: 2025-01-29 14:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2030,7 +2030,7 @@ msgstr ""
 #: ../../content/via_laurea_modules/maintenance/transfer_act.rst:53
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:47
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:47
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:49
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:57
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:30
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:47
 #: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:35
@@ -2958,7 +2958,7 @@ msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/declarations/1-SD.rst:48
 #: ../../content/via_laurea_modules/payroll/declarations/2-SD.rst:48
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:50
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:58
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_313.rst:31
 #: ../../content/via_laurea_modules/payroll/declarations/NP-SD.rst:48
 #: ../../content/via_laurea_modules/payroll/declarations/SAM_monthly_declaration.rst:36
@@ -3080,26 +3080,38 @@ msgid "4. Daily Use Scenarios"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:36
-msgid "Using the Via laurea Salary Calculation module, there is an option to include amounts paid to individuals as suppliers (contractors) when forming the annual GPM312 declaration. To use this option, when describing the contact of the individual in the Contacts module, it is necessary to indicate that this is an individual supplier, select the appropriate item as the license type (Personal Code, IDV number, etc.) and enter a specific number as the IDV number:"
+msgid "Using the Via laurea Salary Calculation Module, there is an option to include amounts paid to individuals as suppliers, when forming the annual GPM312 declaration. To use this option, first select which ledger accounts need to be used for information for the declaration in the chart of accounts settings. You can do this at Accounting -> Configuration -> Chart of Accounts."
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:None
-msgid "Adding an employee as a contractor for GMP 312"
+msgid "Updating ledger accounts settings"
 msgstr ""
 
 #: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:41
-msgid "When creating an invoice for this contractor, select the required activity code from the list in the GPM312 for L5 tag."
+msgid "When describing a physical person's contact in the Contacts module, it is necessary to note that this is an individual supplier, selecting the appropriate item as the license type (Personal Code, IDV number, etc.) and enter a specific number as the IDV number:"
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:43
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:None
+msgid "Adding an employee as a supplier for GMP 312"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:46
+msgid "When creating an invoice for this supplier, select the required activity code from the list in the GPM312 for L5 tag."
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:None
+msgid "Creating an invoice for the supplier"
+msgstr ""
+
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:51
 msgid "After completing these steps, the amounts paid to this individual will be included in the declaration when forming the GPM312 declaration for the relevant period."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:45
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:53
 msgid "**Important:** if the individual is not a VAT payer - data is uploaded to GPM 312 based on the date of payment of money (cash principle), if the individual is a VAT payer - the amount excluding VAT is uploaded based on the invoice date (accrual principle)."
 msgstr ""
 
-#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:48
+#: ../../content/via_laurea_modules/payroll/declarations/GPM_312.rst:56
 msgid "5. Updates and Version Management"
 msgstr ""
 
